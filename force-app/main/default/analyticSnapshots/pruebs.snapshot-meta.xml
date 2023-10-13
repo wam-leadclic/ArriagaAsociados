@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AnalyticSnapshot xmlns="http://soap.sforce.com/2006/04/metadata">
+    <name>pruebs</name>
+    <runningUser>rnieto@arriagaasociados.com</runningUser>
+    <sourceReport>unfiled$public/Copia_de_Actividad_de_candidatos_hKY</sourceReport>
+    <targetObject>HolidayZone__c</targetObject>
+</AnalyticSnapshot>

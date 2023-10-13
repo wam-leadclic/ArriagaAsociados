@@ -1,0 +1,4 @@
+<design:component>
+	<design:attribute name="URL" label="URL"/>
+    <design:attribute name="isredirect" label="isredirect"/>
+</design:component>

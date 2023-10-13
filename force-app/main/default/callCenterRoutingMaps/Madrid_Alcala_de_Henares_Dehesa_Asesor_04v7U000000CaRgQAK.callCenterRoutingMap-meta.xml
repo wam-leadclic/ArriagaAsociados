@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CallCenterRoutingMap xmlns="http://soap.sforce.com/2006/04/metadata">
+    <callCenter>Arriagaasociadosprod</callCenter>
+    <developerName>Madrid_Alcala_de_Henares_Dehesa_Asesor_04v7U000000CaRgQAK</developerName>
+    <externalId>arn:aws:connect:eu-central-1:203389500378:instance/639025b3-3fe6-4284-af68-57004a772aad/routing-profile/01d1e9cd-5d3b-40f2-8b43-1e6ee5486a22</externalId>
+    <masterLabel>00G69000005urWLEAY</masterLabel>
+    <referenceRecord>Madrid_Alcala_de_Henares_Dehesa_Asesor</referenceRecord>
+</CallCenterRoutingMap>

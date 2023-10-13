@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CallCenterRoutingMap xmlns="http://soap.sforce.com/2006/04/metadata">
+    <callCenter>Arriagaasociadosprod</callCenter>
+    <developerName>SCV_ADMINS_OFI_DIAGO_CCQ_04v7U000000CaRgQAK</developerName>
+    <externalId>arn:aws:connect:eu-central-1:203389500378:instance/639025b3-3fe6-4284-af68-57004a772aad/queue/8877b35f-fb20-464d-a32e-b84382c75f10</externalId>
+    <masterLabel>SCV_ADMINS_OFI_DIAGO</masterLabel>
+    <quickConnect>1315d5fe-e18a-4d8c-a3c9-5a2cc87d189f</quickConnect>
+    <referenceRecord>SCV_ADMINS_OFI_DIAGO</referenceRecord>
+</CallCenterRoutingMap>

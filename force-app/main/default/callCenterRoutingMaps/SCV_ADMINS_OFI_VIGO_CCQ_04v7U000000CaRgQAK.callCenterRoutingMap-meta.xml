@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CallCenterRoutingMap xmlns="http://soap.sforce.com/2006/04/metadata">
+    <callCenter>Arriagaasociadosprod</callCenter>
+    <developerName>SCV_ADMINS_OFI_VIGO_CCQ_04v7U000000CaRgQAK</developerName>
+    <externalId>arn:aws:connect:eu-central-1:203389500378:instance/639025b3-3fe6-4284-af68-57004a772aad/queue/f0e1a20c-ca0b-4ccc-a3ed-7ec43523ec61</externalId>
+    <masterLabel>SCV_ADMINS_OFI_VIGO</masterLabel>
+    <quickConnect>0b0d52f4-7b7a-4cd4-be62-199cf4bc114a</quickConnect>
+    <referenceRecord>SCV_ADMINS_OFI_VIGO</referenceRecord>
+</CallCenterRoutingMap>

@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssignmentRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assignmentRule>
+        <fullName>Gestión de casos</fullName>
+        <active>true</active>
+        <ruleEntry>
+            <assignedTo>Renegociacion_PH</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Renegociación PH</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>ColaQueja</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <booleanFilter>1 OR 2</booleanFilter>
+            <criteriaItems>
+                <field>Case.Type</field>
+                <operation>equals</operation>
+                <value>Queja</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.TipoCliente__c</field>
+                <operation>equals</operation>
+                <value>Informar sobre un problema</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>ATC_Correos_clientes</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>ATC</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Interno__c</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>ColaInformacion</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <booleanFilter>1 OR 2</booleanFilter>
+            <criteriaItems>
+                <field>Case.Type</field>
+                <operation>equals</operation>
+                <value>Información</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.TipoCliente__c</field>
+                <operation>equals</operation>
+                <value>Solicitar información sobre un expediente,Solicitar información sobre plazos,Solicitar información sobre un producto no contratado</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>ColaPeticion</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <booleanFilter>1 OR 2</booleanFilter>
+            <criteriaItems>
+                <field>Case.Type</field>
+                <operation>equals</operation>
+                <value>Petición</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.TipoCliente__c</field>
+                <operation>equals</operation>
+                <value>Solicitar documentación de un expediente</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>BuzonCallCenter</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Call Center General</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Confirmacioncita</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Call Center Confirmación de cita</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Cita_no_atendida</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Call Center Recaptura</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Cita no atendida</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Recaptura</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Call Center Recaptura</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Cita anulada,Candidato que no ha tenido cita</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Financiero_Acuerdo</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Financiero / Resoluciones,Financiero</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Type</field>
+                <operation>equals</operation>
+                <value>Acuerdo</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Financiero_Desistimiento</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Financiero / Resoluciones,Financiero</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Type</field>
+                <operation>equals</operation>
+                <value>Desistimiento</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Financiero_Venia</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Financiero / Resoluciones,Financiero</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Type</field>
+                <operation>equals</operation>
+                <value>Venia</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Financiero_Acuerdo_Revolving</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Financiero / Resoluciones,Financiero</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Type</field>
+                <operation>equals</operation>
+                <value>Acuerdo Revolving</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Financiero_Acuerdo</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Financiero / Resoluciones,Financiero</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <formula>and  ( RecordType.DeveloperName  = &quot;FinancieroGestionCobros&quot;,  CreatedBy.Profile.Name =&quot;Financiero&quot; )</formula>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Financiero_GestionCobros</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Financiero Gestión cobros</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <formula>and  ( RecordType.DeveloperName  = &quot;Financiero_Recobros&quot;,  CreatedBy.Profile.Name =&quot;Financiero&quot; )</formula>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Financiero_Recobros</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Financiero Recobros</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>ColaIncidencias</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Incidencias</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>ColaSiniestro</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Siniestro</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>ATC_Comunicacion</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.Type</field>
+                <operation>equals</operation>
+                <value>Comunicación</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <formula>and (RecordType.Name =&quot;Ejecuciones&quot;, CreatedBy.Profile.Name =&quot;EJECUCIONES Agente&quot;)</formula>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>OPERACIONES_LEGALES</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Ejecuciones</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <formula>and (RecordType.Name =&quot;Procesal&quot;, CreatedBy.Profile.Name =&quot;PROCESAL Agente&quot;)</formula>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>OPERACIONES_LEGALES</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Procesal</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <formula>1 = 1</formula>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>ATC_Desborde_Call_Center</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>ATC</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>DEPARTAMENTO ARRIAGA</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.DepartamentoArriaga__c</field>
+                <operation>equals</operation>
+                <value>CALL CENTER</value>
+            </criteriaItems>
+        </ruleEntry>
+    </assignmentRule>
+</AssignmentRules>

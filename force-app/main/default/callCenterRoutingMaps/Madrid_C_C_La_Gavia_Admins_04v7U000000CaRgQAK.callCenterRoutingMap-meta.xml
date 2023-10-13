@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CallCenterRoutingMap xmlns="http://soap.sforce.com/2006/04/metadata">
+    <callCenter>Arriagaasociadosprod</callCenter>
+    <developerName>Madrid_C_C_La_Gavia_Admins_04v7U000000CaRgQAK</developerName>
+    <externalId>arn:aws:connect:eu-central-1:203389500378:instance/639025b3-3fe6-4284-af68-57004a772aad/routing-profile/6c4a9307-4bb7-4aa0-9df2-53479a0747ef</externalId>
+    <masterLabel>00G69000005urWuEAI</masterLabel>
+    <referenceRecord>Madrid_C_C_La_Gavia_Admins</referenceRecord>
+</CallCenterRoutingMap>

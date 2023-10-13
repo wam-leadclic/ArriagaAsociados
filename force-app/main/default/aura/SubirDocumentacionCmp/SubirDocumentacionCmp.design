@@ -1,0 +1,9 @@
+<design:component>
+	<design:attribute name="idRegistro" label="Id del registro" />
+    <design:attribute name="LabelUpload" label="Texto nombre componente" />
+    <design:attribute name="Multiples" label="Multiples"/>
+    <design:attribute name="Deshabilitar" label="Deshabilitar"/>
+    
+	<design:attribute name="idDocumento" label="Id del Documento cargado" />
+	<design:attribute name="nombreDocumento" label="Nombre del Documento cargado" />
+</design:component>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CallCenterRoutingMap xmlns="http://soap.sforce.com/2006/04/metadata">
+    <callCenter>Arriagaasociadosprod</callCenter>
+    <developerName>Barcelona_C_C_Alcampo_Sant_Quirze_Asesor_04v7U000000CaRgQAK</developerName>
+    <externalId>arn:aws:connect:eu-central-1:203389500378:instance/639025b3-3fe6-4284-af68-57004a772aad/routing-profile/8b30598e-3ce3-475b-badb-4b7f62c90f94</externalId>
+    <masterLabel>00G69000005urhxEAA</masterLabel>
+    <referenceRecord>Barcelona_C_C_Alcampo_Sant_Quirze_Asesor</referenceRecord>
+</CallCenterRoutingMap>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CallCenterRoutingMap xmlns="http://soap.sforce.com/2006/04/metadata">
+    <callCenter>Arriagaasociadosprod</callCenter>
+    <developerName>SCV_ADMINS_OFI_FERIA_CCQ_04v7U000000CaRgQAK</developerName>
+    <externalId>arn:aws:connect:eu-central-1:203389500378:instance/639025b3-3fe6-4284-af68-57004a772aad/queue/a32bdf55-3924-4731-9635-46ac721661ac</externalId>
+    <masterLabel>SCV_ADMINS_OFI_FERIA</masterLabel>
+    <quickConnect>104fa767-9754-4336-be00-ca25b0ee55c4</quickConnect>
+    <referenceRecord>SCV_ADMINS_OFI_FERIA</referenceRecord>
+</CallCenterRoutingMap>

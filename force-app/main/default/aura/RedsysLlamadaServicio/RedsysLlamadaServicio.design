@@ -1,0 +1,8 @@
+<design:component>
+    <design:attribute name="oportunidadId" label="oportunidadId"/>
+    <design:attribute name="Name" label="Name"/>		
+    <design:attribute name="amount" label="amount"/>				
+    <design:attribute name="description" label="description"/>
+    <design:attribute name="PagoCero" label="PagoCero" />	
+    <design:attribute name="Expediente" label="Expediente" /> 
+</design:component>

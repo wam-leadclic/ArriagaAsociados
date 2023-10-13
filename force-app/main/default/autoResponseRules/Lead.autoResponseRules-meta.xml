@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AutoResponseRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <autoResponseRule>
+        <fullName>Registro web</fullName>
+        <active>false</active>
+        <ruleEntry>
+            <formula>true</formula>
+            <senderEmail>comercial@arriagaasociados.com</senderEmail>
+            <senderName>Arriaga Asociados</senderName>
+            <template>unfiled$public/Candidato_web_nueva</template>
+        </ruleEntry>
+    </autoResponseRule>
+</AutoResponseRules>

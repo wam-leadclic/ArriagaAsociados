@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AppointmentSchedulingPolicy xmlns="http://soap.sforce.com/2006/04/metadata">
+    <appointmentAssignmentPolicy>OM_SA_Assignment</appointmentAssignmentPolicy>
+    <appointmentStartTimeInterval>15</appointmentStartTimeInterval>
+    <isSvcTerrOpHoursWithShiftsUsed>false</isSvcTerrOpHoursWithShiftsUsed>
+    <isSvcTerritoryMemberShiftUsed>false</isSvcTerritoryMemberShiftUsed>
+    <masterLabel>Política de programación de citas predeterminada</masterLabel>
+    <shouldCheckExternalCalendar>false</shouldCheckExternalCalendar>
+    <shouldConsiderCalendarEvents>true</shouldConsiderCalendarEvents>
+    <shouldEnforceExcludedResource>true</shouldEnforceExcludedResource>
+    <shouldEnforceRequiredResource>true</shouldEnforceRequiredResource>
+    <shouldMatchSkill>true</shouldMatchSkill>
+    <shouldMatchSkillLevel>false</shouldMatchSkillLevel>
+    <shouldRespectVisitingHours>true</shouldRespectVisitingHours>
+    <shouldUsePrimaryMembers>true</shouldUsePrimaryMembers>
+    <shouldUseSecondaryMembers>true</shouldUseSecondaryMembers>
+</AppointmentSchedulingPolicy>

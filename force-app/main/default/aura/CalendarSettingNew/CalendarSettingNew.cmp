@@ -1,0 +1,81 @@
+<!--
+@author Leadclic Solutions S.L.
+@date 24/04/2019 
+@description    Component to override the New action of a Calendar Setting
+
+<pre>
+FECHA                   AUTOR                   ACCION
+10/04/2019              JZD/GQG                 Created
+-->
+<aura:component implements="flexipage:availableForRecordHome,force:hasRecordId,force:lightningQuickActionWithoutHeader,lightning:actionOverride" 
+                controller="CalendarSettingNewController"
+                access="global">
+    
+
+    <!-- ATTRIBUTES -->
+    <aura:attribute name="tipePicklistValues" type="List" default="User, Resource"/>
+    <aura:attribute name="calendarSelected" type="Object" default="{}"/>
+    <aura:attribute name="toggleSpinner" type="Boolean" default="false" />
+
+    <!-- init fields calculated from backend -->
+    <aura:attribute name="mapping" type="Map" />
+    
+    <!-- DATA SERVICE-->
+    <aura:attribute name="relatedRecord" type="Object" />
+    
+                  
+    <!-- EVENT HANDLERS -->
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+
+    <!--<div aura:id="editDialog" role="dialog" tabindex="-1" aria-labelledby="header43" class="slds-modal slds-fade-in-open">  -->
+    
+    <aura:if isTrue="{v.toggleSpinner}">
+        <lightning:spinner alternativeText="Loading" size="medium" />
+    </aura:if>
+    
+    
+    <section role="dialog" tabindex="-1" aria-labelledby="modal-heading-01" aria-describedby="modal-content-id-1" class="slds-modal slds-fade-in-open slds-modal_medium">      
+        <div class="slds-modal__container">
+            <header class="slds-modal__header">
+                <h2 id="modal-heading-01" class="slds-text-heading_medium slds-hyphenate">Nueva Configuración de Calendario</h2>
+            </header>
+            <div class="slds-modal__content slds-p-around--medium  " style="overflow: initial;">
+            
+                <lightning:recordEditForm objectApiName="CalendarSetting__c" aura:id="newForm" 
+                                            onsubmit="{!c.handleOnSubmit}" 
+                                            onerror="{!c.handleError}"
+                                            onsuccess="{!c.handleSuccess}">
+                    
+                    <div class="slds-grid slds-gutters">
+
+                        <div class="slds-col slds-size_1-of-2">
+                            <lightning:inputField aura:id="nameField" fieldName="Name"/>
+                            
+                            <lightning:inputField aura:id="effectiveFromField" fieldName="EffectiveFrom__c"/>
+                            <lightning:inputField aura:id="typeField" fieldName="Type__c"/>  
+                        </div>
+
+                        <div class="slds-col slds-size_1-of-2">
+                            <c:CustomLookup aura:id="calendar" label="Calendario" selectedRecord="{!v.calendarSelected}" />
+                            <lightning:inputField aura:id="effectiveToField" fieldName="EffectiveTo__c"/> 
+                            <lightning:inputField aura:id="subtypeField" fieldName="Subtype__c"/>
+                        </div>
+
+                    </div>
+                    
+                    <div class="slds-text-align_right slds-m-top_small">
+                        
+                        <lightning:button variant="neutral" label="Cancel" onclick="{!c.cancelDialog}"/>
+                        <lightning:button variant="brand" label="Aceptar" type="submit"/>
+                    </div>
+                   
+
+                </lightning:recordEditForm>    
+            
+            </div>
+            
+        
+        </div>
+    </section>   
+           
+</aura:component>

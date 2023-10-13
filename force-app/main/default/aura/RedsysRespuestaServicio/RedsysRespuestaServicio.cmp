@@ -1,0 +1,58 @@
+<aura:component implements="forceCommunity:availableForAllPageTypes" controller="PostRedsys" access="global" >
+    
+	<aura:attribute name="params" type="Map" />
+    <aura:attribute name="UrlRedireccion" type="Map" />
+    
+    <aura:attribute name="Ds_SignatureVersion" type="String" />
+    <aura:attribute name="Ds_MerchantParameters" type="String" />
+    <aura:attribute name="Ds_Signature" type="String" />
+    
+    <aura:attribute name="PagoKo" type="Boolean" />
+    <aura:attribute name="MessageResponse" type="String" />    
+    
+    <aura:attribute name="AsuntoTxt" type="String" />
+    <aura:attribute name="DescTxt" type="String" />
+    <aura:attribute name="UrlCaso" type="String" />
+    
+    <aura:attribute name="TextoContr" type="String" />
+    
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    
+    <aura:if isTrue="{!v.PagoKo}">
+        <div aura:id="message">
+            <button class="textoNegro" title="Close" onclick="{!c.cerrarMensaje}">
+                X
+            </button>
+            <ui:outputTextArea value="{!v.MessageResponse}" />
+        </div>
+        <aura:set attribute="else">
+            <br/>
+            <div class="slds-col--padded comm-content-header comm-layout-column" >
+                <div class="slds-grid slds-gutters">
+                    <div class="slds-col slds-size_1-of-3 slds-align--absolute-center imagePreview" data-aura-rendered-by="478:0">
+                        <img src="{!$Label.c.ImagenContratacion}" style="height: 150px;"> </img>
+                    </div>
+                    <div class="slds-col slds-size_2-of-3">
+                        <h2 style="font-size: 20px; font-weight: bold;">
+                            <span style="color: rgb(233, 90, 19)">Gracias por contratar</span> la reclamación de tu caso con  Arriaga Asociados. <br/>
+                            Te hemos enviado un mail con la confirmación de pago y tu hoja de encargo
+                        </h2>
+                        <br/>
+                        <h2 style="font-size: 18px;">
+                            AHORA <span style="color: rgb(233, 90, 19)">PUEDES CONTRATAR SIN COSTE ADICIONAL</span><br/>
+                            LOS SIGUIENTES SERVICIOS:
+                        </h2>
+                    </div>
+                </div>
+                <br/>
+                <div class="slds-col slds-medium-size--1-of-1" 
+                 style="text-align: center;">
+                    <aura:iteration items="{!v.params.ListaProds}" var="item">
+                        <h2 class="nameProd">{!item}</h2>
+                        <lightning:button variant="destructive" label="{!$Label.c.InfoProducto}" title="Info" name="{!item}" class="btn" onclick="{!c.IrContratacion}"/>  <lightning:button variant="destructive" label="{!$Label.c.contratacionProducto}" title="Contratacion" name="{!item}" class="btn" onclick="{!c.IrContratacion}"/><br/><br/>
+                    </aura:iteration>
+                </div>                
+            </div>
+        </aura:set>
+    </aura:if>    
+</aura:component>

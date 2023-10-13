@@ -1,0 +1,33 @@
+.THIS.error {    
+    border: 1px solid rgb(160, 14, 46);
+    border-radius: .25rem;
+    padding: 1rem;
+    background-color: rgb(160, 14, 46);
+    color: #ffffff!important;
+}
+.THIS.success{
+    border: 1px solid rgb(75, 202, 129);
+    border-radius: .25rem;
+    padding: 1rem;
+    background-color: rgb(75, 202, 129);
+    color: #ffffff!important;
+}
+.THIS .textoNegro{
+	color: #ffffff!important;
+	float: right;
+	background: transparent;
+    border: none;
+}
+.THIS .btn{
+	font-size: 14px;
+    width: 30%;
+    color: #ffffff;
+    background-color: #EC6806;
+    height: 30%;
+}
+.THIS .nameProd{
+	font-size: 18px;
+    color: #000000!important;
+    font-style: italic;
+    font-weight: bold;
+}

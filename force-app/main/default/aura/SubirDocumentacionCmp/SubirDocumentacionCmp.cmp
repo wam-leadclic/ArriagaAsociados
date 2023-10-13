@@ -1,0 +1,35 @@
+<aura:component implements="lightning:availableForFlowScreens" access="global">
+    
+    <!-- Mostrar icono de documento cargado -->
+    <aura:attribute name="Cargado" type="Boolean" default= "false" />
+    
+    <!-- Atributo de entrada, id del registro al que le asignaremos el documento -->
+    <aura:attribute name="idRegistro" type="String" />
+    <aura:attribute name="LabelUpload" type="String" />
+    <aura:attribute name="FormatosAceptados" type="List"/>
+    <aura:attribute name="Multiples" type="Boolean" default="true"/>
+    <aura:attribute name="Deshabilitar" type="Boolean" default="false"/>
+        
+    <!-- Atributo de salida, id del documento cargado -->
+    <aura:attribute name="idDocumento" type="String[]" />
+    <aura:attribute name="nombreDocumento" type="String[]" />
+	
+    <div class="slds-grid slds-wrap">
+        <div class="slds-col slds-size_1-of-2">
+            <lightning:fileUpload  name="fileUploader"
+                                  label= "{!v.LabelUpload}"
+                                  multiple="{!v.Multiples}"
+                                  accept="{!v.FormatosAceptados}"
+                                  disabled="{!v.Deshabilitar}"
+                                  recordId="{!v.idRegistro}"
+                                  onuploadfinished="{! c.handleUploadFinished }"/>
+        </div>
+        <div class="slds-col slds-size_1-of-2">
+            <aura:if isTrue="{!v.Cargado}" >
+                <lightning:icon iconName="action:approval" alternativeText="Approved" size="x-small" />&nbsp;
+                <lightning:formattedText value="{!'Elementos cargados: ' + v.nombreDocumento}" />
+            </aura:if>
+        </div>
+    </div>
+
+</aura:component>

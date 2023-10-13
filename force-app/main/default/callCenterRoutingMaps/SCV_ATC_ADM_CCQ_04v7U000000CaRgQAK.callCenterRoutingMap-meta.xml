@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CallCenterRoutingMap xmlns="http://soap.sforce.com/2006/04/metadata">
+    <callCenter>Arriagaasociadosprod</callCenter>
+    <developerName>SCV_ATC_ADM_CCQ_04v7U000000CaRgQAK</developerName>
+    <externalId>arn:aws:connect:eu-central-1:203389500378:instance/639025b3-3fe6-4284-af68-57004a772aad/queue/09c13a8a-fdde-406c-9ef2-ef20e6e2ebc6</externalId>
+    <masterLabel>SCV_ATC_ADM</masterLabel>
+    <quickConnect>39665bac-d7e6-443d-a199-1f96c1e19ac8</quickConnect>
+    <referenceRecord>SCV_ATC_ADM</referenceRecord>
+</CallCenterRoutingMap>
