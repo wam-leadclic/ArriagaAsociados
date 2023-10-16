@@ -1,0 +1,24 @@
+<template>
+    
+    <lightning-tabset variant="scoped">
+        <!-- MAIN SCHEDULER TAB -->
+        <lightning-tab label={label.scheduler}>
+            <c-sch-main-scheduler events={events} 
+                                  open-date={openDate} start-date={startDate} end-date={endDate}    
+                                  search-from-date={searchFromDate} search-to-date={searchToDate} duration={duration}
+                                   >  </c-sch-main-scheduler>
+        </lightning-tab>
+        
+        <!-- USERS TAB -->
+        <lightning-tab label={label.users}>
+            <c-sch-users resource-categories={resourceCategories}> </c-sch-users>
+        </lightning-tab>
+        
+        <!-- RESOURCES TAB -->
+        <lightning-tab label={label.resources}>
+            <c-sch-main-resources resource-categories={resourceCategories}></c-sch-main-resources>
+        </lightning-tab>
+    
+    </lightning-tabset>
+ 
+</template>

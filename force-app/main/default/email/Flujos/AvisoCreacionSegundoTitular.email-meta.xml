@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email que se envía cuando el cliente que contrata un producto desde la comunidad proporciona los datos de otro titular</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Comunidad_Arriaga</letterhead>
+    <name>AvisoCreacionSegundoTitular</name>
+    <style>formalLetter</style>
+    <subject>Bienvenido a Arriaga</subject>
+    <textOnly>Hola,
+
+{!CommunityOpp__c.Cuenta__c} nos ha proporcionado los siguientes datos:
+Nombre: {!Contact.FirstName} {!Contact.LastName}
+Email: {!Contact.Email}
+DNI: {!Account.DocumentoIdentidad__c}
+Teléfono: {!Account.Phone}
+
+
+Puede acceder a nuestra comunidad desde aquí para registrarse y acceder a la información de sus reclamaciones.
+
+Un saludo.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

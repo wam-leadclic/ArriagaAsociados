@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ExpedientePrincipalFormula__c</fullName>
+    <description>Campo Formula que carga el valor del campo ExpedientePrincipal__c para que el componente de GD no falle al tener dos IDs en el formato de página</description>
+    <externalId>false</externalId>
+    <formula>if( AND( 
+					    NOT( ISNULL(ExpedientePrincipal__c) ),
+					    NOT( ISBLANK(ExpedientePrincipal__c)) 
+	    ),
+				  HYPERLINK(&apos;/&apos; &amp; ExpedientePrincipal__c,  ExpedientePrincipal__r.IdExpediente__c),
+			   &apos;&apos;
+)</formula>
+    <label>Expediente principal</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

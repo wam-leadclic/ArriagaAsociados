@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NombreCorto__c</fullName>
+    <description>Nombre abreviado de las oficinas de Arriaga, para informes. Creado en el momento de la carga de datos</description>
+    <externalId>false</externalId>
+    <label>Nombre corto</label>
+    <length>255</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

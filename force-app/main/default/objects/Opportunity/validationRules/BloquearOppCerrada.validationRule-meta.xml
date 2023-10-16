@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BloquearOppCerrada</fullName>
+    <active>true</active>
+    <description>Si la oportunidad está cerrada, no se puede cambiar la etapa</description>
+    <errorConditionFormula>AND(
+    OR(
+       TEXT(PRIORVALUE(StageName)) = &quot;Cerrada ganada&quot;,
+       TEXT(PRIORVALUE(StageName)) = &quot;Cerrada perdida&quot;
+    ),
+    ISCHANGED(StageName) 
+)</errorConditionFormula>
+    <errorMessage>No se puede cambiar la etapa de una oportunidad ya cerrada</errorMessage>
+</ValidationRule>

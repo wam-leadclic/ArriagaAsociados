@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OM_SMS</fullName>
+    <active>true</active>
+    <label>SMS</label>
+    <picklistValues>
+        <picklist>OM_Type__c</picklist>
+        <values>
+            <fullName>Financiero</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

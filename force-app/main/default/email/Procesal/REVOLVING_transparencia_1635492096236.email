@@ -1,0 +1,24 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Estimado cliente<span style="line-height: 107%;"><span style="color: black;"><span style="position: relative;"><span style="top: -0.5pt;"><font face="Arial, sans-serif">&nbsp;</font></span></span></span></span>{{{Recipient.FirstName}}}:
+<p>En relación a tu expediente&nbsp;{{{Case.Expediente__c}}}, le informamos que hemos recibido sentencia estimando nuestra demanda y por tanto favorable a nuestros intereses, <span style="color:#c0392b;">con/sin</span> imposición de costas a la entidad bancaria,&nbsp;<br />
+<br />
+<strong>Pese a que la sentencia menciona que no se considera que el tipo de interés del contrato sea usurero, sí que se ha concluido que la cláusula relativa a los intereses del contrato de <u>la tarjeta no es transparente</u> y, por lo tanto, se ha declarado nula. La consecuencia es que usted solo tendrá que abonar el capital prestado y utilizado por el contrato de crédito/tarjeta de crédito, mientras que el banco deberá devolver todo aquel exceso pagado de más.&nbsp;<br />
+<br />
+Esta cantidad asciende a <span style="color:#c0392b;">(AGREGAR CANTIDAD €)</span>, la cual se incrementará con los intereses legales desde la fecha de cada cobro indebido, hasta el pago y cumplimiento de la sentencia.&nbsp;</strong><br />
+<br />
+La sentencia será firme dentro de un mes, si no se recurre. A partir de ese momento, el banco tiene un mes más para cumplir voluntariamente la sentencia. Si no fuera así, tendríamos que ejecutar la sentencia para obligar al banco a cumplirla. En definitiva, el plazo de pago voluntario es de dos meses (sin contar agosto y el período navideño que son plazos inhábiles para cómputo de plazos civiles).&nbsp;<br />
+<br />
+El banco puede realizar el pago en el Juzgado, en cuyo caso nos lo notificarán y se lo comunicaremos, o bien, en su cuenta, en cuyo caso es muy importante que nos informe cuanto antes, para verificar que el importe sea correcto, y evitar actuaciones judiciales innecesarias.&nbsp;<br />
+<br />
+Si tiene alguna duda recuerda que puede ponerse en contacto con nosotros, respondiendo a este mismo correo electrónico o también visitando TU ESPACIO ARRIAGA, nuestro portal de cliente (si no tiene las claves de acceso, puede llamarnos al teléfono gratuito 900 264 600 y le ayudaremos).&nbsp;<br />
+<br />
+Le adjuntamos la sentencia.<br />
+<br />
+<br />
+<br />
+Gracias por confiar en nosotros.</p>
+</body>
+</html>

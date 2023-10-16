@@ -1,0 +1,19 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;"><span style="line-height:107%"><span style="color:black"><span style="position:relative"><span style="top:-0.5pt">Buenos días,<font face="Arial, Helvetica, sans-serif">&nbsp;</font></span></span></span></span>{{{Recipient.FirstName}}};<br />
+<br />
+Le confirmamos que hemos recibido la documentación de su caso. Una vez revisada la misma se procederá a presentar un escrito en el juzgado de manera urgente con el finde alzar el embargo e intentar recuperar las cantidades retenidas.<br />
+<br />
+Tan pronto tengamos respuesta del Juzgado nos pondremos en contacto por teléfono al número que tenemos registrado o le escribiremos a esta misma dirección de email para confirmarle los próximos pasos en la resolución de su caso.&nbsp;<br />
+<br />
+El número de referencia de su caso le recordamos es:{{{Case.CaseNumber}}}.&nbsp;<br />
+<br />
+Siempre que lo necesite puede ponerse en contacto con nosotros al teléfono gratuito 900 264 600 o al 918289000 o respondiendo a este mismo mail y le informaremos.<br />
+<br />
+<br />
+<br />
+Un cordial saludo.&nbsp;<br />
+Equipo Arriaga Asociados.&nbsp;</body>
+</html>

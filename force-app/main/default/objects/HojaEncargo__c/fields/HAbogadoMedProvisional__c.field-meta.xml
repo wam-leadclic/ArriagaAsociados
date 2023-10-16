@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HAbogadoMedProvisional__c</fullName>
+    <description>Honorarios Perito Plusvalía, variable a rellenar por el asesor para indicar el importe de los honorarios el perito.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Importe de los honorarios del Perito para la Hoja de Encargo de Plusvalía.</inlineHelpText>
+    <label>Honorarios Perito Plusvalía</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

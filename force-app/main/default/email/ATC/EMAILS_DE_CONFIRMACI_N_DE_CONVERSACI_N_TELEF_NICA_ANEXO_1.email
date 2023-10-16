@@ -1,0 +1,30 @@
+<table border="0" cellpadding="5" width="600" cellspacing="5" height="400" >
+<tr valign="top" height="50" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[]]></td>
+</tr>
+<tr valign="top" height="300" >
+<td tEditID="c1r2" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r2" locked="0" >
+<![CDATA[<p class="MsoNormal" align="center" style="text-align: left;"><font face="Times New Roman, Times, serif"><span style="color: rgb(0, 0, 0); font-size: 12pt; text-align: justify;">Estimado/a&nbsp;</span><font style="">{!Contact.FirstName}</font><span style="color: rgb(0, 0, 0); font-size: 12pt; text-align: justify;">,&nbsp;</span></font></p><p class="MsoNormal" align="center" style="text-align: left;"><font face="Times New Roman, Times, serif"><span style="color: rgb(0, 0, 0); font-size: 12pt; text-align: justify;"><br></span></font></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-size: 12pt; text-align: justify;"><span style="font-size:12.0pt;
+line-height:107%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin"><font face="Times New Roman, Times, serif">Tras
+la conversación telefónica mantenida, le recordamos que quedamos a su
+disposición para cualquier consulta o aclaración en esta misma dirección de
+email o en el teléfono de atención al cliente 91 005 26 00<o:p></o:p></font></span></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-size: 12pt; text-align: justify;"><span style="font-size:12.0pt;
+line-height:107%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin"><font face="Times New Roman, Times, serif"><br></font></span></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-size: 12pt; text-align: justify;"><span style="font-size:12.0pt;
+line-height:107%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin"><font face="Times New Roman, Times, serif">Un
+cordial saludo.<o:p></o:p></font></span></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-size: 12pt; text-align: justify;"><font face="Times New Roman, Times, serif"><br></font></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-size: 12pt; text-align: justify;"><font face="Times New Roman, Times, serif">{!Case.OwnerFirstName}&nbsp;{!Case.OwnerLastName}</font></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-size: 12pt; text-align: justify;"><span style="font-size: 12pt; line-height: 107%;"><font face="Times New Roman, Times, serif">Departamento
+de Atención al Cliente.</font><font face="arial"><o:p></o:p></font></span></p>]]></td>
+</tr>
+<tr valign="top" height="50" >
+<td tEditID="c1r3" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r3" locked="0" >
+<![CDATA[<span style="font-size: medium;"><font color="#ffffff">{!Case.Thread_Id}</font></span>]]></td>
+</tr>
+</table>

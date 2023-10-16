@@ -1,0 +1,670 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>32</fullName>
+        <default>false</default>
+        <label>Aclaración</label>
+    </customValue>
+    <customValue>
+        <fullName>167</fullName>
+        <default>false</default>
+        <label>Acreditación de Siniestro</label>
+    </customValue>
+    <customValue>
+        <fullName>178</fullName>
+        <default>false</default>
+        <label>Acuerdo</label>
+    </customValue>
+    <customValue>
+        <fullName>187</fullName>
+        <default>false</default>
+        <label>Acuse de Recibo</label>
+    </customValue>
+    <customValue>
+        <fullName>55</fullName>
+        <default>false</default>
+        <label>Admisión DAT</label>
+    </customValue>
+    <customValue>
+        <fullName>180</fullName>
+        <default>false</default>
+        <label>Anexo Judicialización Firmado</label>
+    </customValue>
+    <customValue>
+        <fullName>352</fullName>
+        <default>false</default>
+        <label>Apud acta</label>
+    </customValue>
+    <customValue>
+        <fullName>24</fullName>
+        <default>false</default>
+        <label>Audiencia Previa</label>
+    </customValue>
+    <customValue>
+        <fullName>102</fullName>
+        <default>false</default>
+        <label>Auto Aprobación Liquidación</label>
+    </customValue>
+    <customValue>
+        <fullName>86</fullName>
+        <default>false</default>
+        <label>Auto Despachando Ejecución</label>
+    </customValue>
+    <customValue>
+        <fullName>50</fullName>
+        <default>false</default>
+        <label>Auto Homologación</label>
+    </customValue>
+    <customValue>
+        <fullName>182</fullName>
+        <default>false</default>
+        <label>Autorización de Representante</label>
+    </customValue>
+    <customValue>
+        <fullName>191</fullName>
+        <default>false</default>
+        <label>Autorización de un titular a un autorizado</label>
+    </customValue>
+    <customValue>
+        <fullName>195</fullName>
+        <default>false</default>
+        <label>Burofax</label>
+    </customValue>
+    <customValue>
+        <fullName>196</fullName>
+        <default>false</default>
+        <label>Carta Certificada</label>
+    </customValue>
+    <customValue>
+        <fullName>117</fullName>
+        <default>false</default>
+        <label>Carta Extrajudicial</label>
+    </customValue>
+    <customValue>
+        <fullName>168</fullName>
+        <default>false</default>
+        <label>Certificación Cantidades Abonadas por el Cliente</label>
+    </customValue>
+    <customValue>
+        <fullName>118</fullName>
+        <default>false</default>
+        <label>Certificado de Defunción</label>
+    </customValue>
+    <customValue>
+        <fullName>119</fullName>
+        <default>false</default>
+        <label>Certificado de Hacienda</label>
+    </customValue>
+    <customValue>
+        <fullName>188</fullName>
+        <default>false</default>
+        <label>Certificado de matrimonio</label>
+    </customValue>
+    <customValue>
+        <fullName>189</fullName>
+        <default>false</default>
+        <label>Certificado  de nacimiento</label>
+    </customValue>
+    <customValue>
+        <fullName>256</fullName>
+        <default>false</default>
+        <label>Certificado de titularidad cuenta</label>
+    </customValue>
+    <customValue>
+        <fullName>120</fullName>
+        <default>false</default>
+        <label>Certificado de Últimas Voluntades</label>
+    </customValue>
+    <customValue>
+        <fullName>398</fullName>
+        <default>false</default>
+        <label>Certificado reconocimiento de pensión</label>
+    </customValue>
+    <customValue>
+        <fullName>121</fullName>
+        <default>false</default>
+        <label>Codigo de Actividad o Impuesto de Sociedades</label>
+    </customValue>
+    <customValue>
+        <fullName>43</fullName>
+        <default>false</default>
+        <label>Complemento</label>
+    </customValue>
+    <customValue>
+        <fullName>396</fullName>
+        <default>false</default>
+        <label>Completado Doc Cliente Finalizado</label>
+    </customValue>
+    <customValue>
+        <fullName>254</fullName>
+        <default>false</default>
+        <label>Consentimiento del cliente</label>
+    </customValue>
+    <customValue>
+        <fullName>122</fullName>
+        <default>false</default>
+        <label>Consentimiento Informado</label>
+    </customValue>
+    <customValue>
+        <fullName>190</fullName>
+        <default>false</default>
+        <label>Contestación Banco</label>
+    </customValue>
+    <customValue>
+        <fullName>169</fullName>
+        <default>false</default>
+        <label>Contrato</label>
+    </customValue>
+    <customValue>
+        <fullName>132</fullName>
+        <default>false</default>
+        <label>Contrato o Factura de compra del vehículo</label>
+    </customValue>
+    <customValue>
+        <fullName>13</fullName>
+        <default>false</default>
+        <label>Copia Sellada</label>
+    </customValue>
+    <customValue>
+        <fullName>123</fullName>
+        <default>false</default>
+        <label>Cuadro de Amortización</label>
+    </customValue>
+    <customValue>
+        <fullName>124</fullName>
+        <default>false</default>
+        <label>Cuentas Anuales</label>
+    </customValue>
+    <customValue>
+        <fullName>125</fullName>
+        <default>false</default>
+        <label>Declaración de La Renta</label>
+    </customValue>
+    <customValue>
+        <fullName>400</fullName>
+        <default>false</default>
+        <label>Declaración responsable</label>
+    </customValue>
+    <customValue>
+        <fullName>42</fullName>
+        <default>false</default>
+        <label>Demanda</label>
+    </customValue>
+    <customValue>
+        <fullName>375</fullName>
+        <default>false</default>
+        <label>Demanda de reclamación de cantidad del banco</label>
+    </customValue>
+    <customValue>
+        <fullName>181</fullName>
+        <default>false</default>
+        <label>Demanda Monitorio</label>
+    </customValue>
+    <customValue>
+        <fullName>399</fullName>
+        <default>false</default>
+        <label>Denuncia</label>
+    </customValue>
+    <customValue>
+        <fullName>126</fullName>
+        <default>false</default>
+        <label>DNI</label>
+    </customValue>
+    <customValue>
+        <fullName>389</fullName>
+        <default>false</default>
+        <label>Documentación Inclusión Indebida</label>
+    </customValue>
+    <customValue>
+        <fullName>174</fullName>
+        <default>false</default>
+        <label>Documento de Utilidad Fiscal</label>
+    </customValue>
+    <customValue>
+        <fullName>116</fullName>
+        <default>false</default>
+        <label>Documento Migrado sin Clasificar</label>
+    </customValue>
+    <customValue>
+        <fullName>330</fullName>
+        <default>false</default>
+        <label>Documento Precontractual</label>
+    </customValue>
+    <customValue>
+        <fullName>99</fullName>
+        <default>false</default>
+        <label>Documento SEPA</label>
+    </customValue>
+    <customValue>
+        <fullName>219</fullName>
+        <default>false</default>
+        <label>EC-DEMANDA EJECUCIÓN</label>
+    </customValue>
+    <customValue>
+        <fullName>237</fullName>
+        <default>false</default>
+        <label>EC-RECURSO APELACIÓN</label>
+    </customValue>
+    <customValue>
+        <fullName>238</fullName>
+        <default>false</default>
+        <label>EC-RECURSO CASACIÓN</label>
+    </customValue>
+    <customValue>
+        <fullName>183</fullName>
+        <default>false</default>
+        <label>Ejercicio de Derechos RGPD</label>
+    </customValue>
+    <customValue>
+        <fullName>199</fullName>
+        <default>false</default>
+        <label>Embargo</label>
+    </customValue>
+    <customValue>
+        <fullName>127</fullName>
+        <default>false</default>
+        <label>Entrevista</label>
+    </customValue>
+    <customValue>
+        <fullName>69</fullName>
+        <default>false</default>
+        <label>Escrito Apelación</label>
+    </customValue>
+    <customValue>
+        <fullName>111</fullName>
+        <default>false</default>
+        <label>Escrito Casación</label>
+    </customValue>
+    <customValue>
+        <fullName>128</fullName>
+        <default>false</default>
+        <label>Escritura</label>
+    </customValue>
+    <customValue>
+        <fullName>129</fullName>
+        <default>false</default>
+        <label>Escritura de Compra Venta</label>
+    </customValue>
+    <customValue>
+        <fullName>130</fullName>
+        <default>false</default>
+        <label>Escritura de Partición de Herencia</label>
+    </customValue>
+    <customValue>
+        <fullName>131</fullName>
+        <default>false</default>
+        <label>Extracto de Cuenta de Valores</label>
+    </customValue>
+    <customValue>
+        <fullName>133</fullName>
+        <default>false</default>
+        <label>Factura de Reformas</label>
+    </customValue>
+    <customValue>
+        <fullName>134</fullName>
+        <default>false</default>
+        <label>Factura Gastos Gestoría</label>
+    </customValue>
+    <customValue>
+        <fullName>135</fullName>
+        <default>false</default>
+        <label>Factura Gastos Notario</label>
+    </customValue>
+    <customValue>
+        <fullName>136</fullName>
+        <default>false</default>
+        <label>Factura Gastos Registro</label>
+    </customValue>
+    <customValue>
+        <fullName>137</fullName>
+        <default>false</default>
+        <label>Factura Gastos Tasación</label>
+    </customValue>
+    <customValue>
+        <fullName>138</fullName>
+        <default>false</default>
+        <label>Factura IAJD</label>
+    </customValue>
+    <customValue>
+        <fullName>139</fullName>
+        <default>false</default>
+        <label>Factura Otra Finalidad</label>
+    </customValue>
+    <customValue>
+        <fullName>197</fullName>
+        <default>false</default>
+        <label>Factura Pago Inicial</label>
+    </customValue>
+    <customValue>
+        <fullName>393</fullName>
+        <default>false</default>
+        <label>Factura Servicios Arriaga</label>
+    </customValue>
+    <customValue>
+        <fullName>381</fullName>
+        <default>false</default>
+        <label>Ficha técnica del vehículo</label>
+    </customValue>
+    <customValue>
+        <fullName>200</fullName>
+        <default>false</default>
+        <label>Formulario de Liquidación / Autoliquidación</label>
+    </customValue>
+    <customValue>
+        <fullName>142</fullName>
+        <default>false</default>
+        <label>Histórico de Empadronamiento</label>
+    </customValue>
+    <customValue>
+        <fullName>175</fullName>
+        <default>false</default>
+        <label>Histórico Inversor</label>
+    </customValue>
+    <customValue>
+        <fullName>143</fullName>
+        <default>false</default>
+        <label>Hoja de Control de Visitas</label>
+    </customValue>
+    <customValue>
+        <fullName>144</fullName>
+        <default>false</default>
+        <label>Hoja de Encargo</label>
+    </customValue>
+    <customValue>
+        <fullName>192</fullName>
+        <default>false</default>
+        <label>Hoja de Reclamaciones</label>
+    </customValue>
+    <customValue>
+        <fullName>395</fullName>
+        <default>false</default>
+        <label>Hoja Información Previa</label>
+    </customValue>
+    <customValue>
+        <fullName>145</fullName>
+        <default>false</default>
+        <label>Impuesto de Actividades Económicas, IVA o IRPF</label>
+    </customValue>
+    <customValue>
+        <fullName>384</fullName>
+        <default>false</default>
+        <label>Informe de datos ficheros</label>
+    </customValue>
+    <customValue>
+        <fullName>166</fullName>
+        <default>false</default>
+        <label>Informe de Urgencias -72h</label>
+    </customValue>
+    <customValue>
+        <fullName>312</fullName>
+        <default>false</default>
+        <label>Informe Pericial</label>
+    </customValue>
+    <customValue>
+        <fullName>194</fullName>
+        <default>false</default>
+        <label>Informe Pericial Plusvalia</label>
+    </customValue>
+    <customValue>
+        <fullName>274</fullName>
+        <default>false</default>
+        <label>Informe Revolving</label>
+    </customValue>
+    <customValue>
+        <fullName>146</fullName>
+        <default>false</default>
+        <label>ITP</label>
+    </customValue>
+    <customValue>
+        <fullName>25</fullName>
+        <default>false</default>
+        <label>Juicio</label>
+    </customValue>
+    <customValue>
+        <fullName>179</fullName>
+        <default>false</default>
+        <label>Justificante Cuenta Bancaria</label>
+    </customValue>
+    <customValue>
+        <fullName>198</fullName>
+        <default>false</default>
+        <label>Justificante Devol. PI</label>
+    </customValue>
+    <customValue>
+        <fullName>171</fullName>
+        <default>false</default>
+        <label>Justificante Efectivo</label>
+    </customValue>
+    <customValue>
+        <fullName>172</fullName>
+        <default>false</default>
+        <label>Justificante Ingreso Pago</label>
+    </customValue>
+    <customValue>
+        <fullName>170</fullName>
+        <default>false</default>
+        <label>Justificante TPV</label>
+    </customValue>
+    <customValue>
+        <fullName>147</fullName>
+        <default>false</default>
+        <label>Libro de Familia</label>
+    </customValue>
+    <customValue>
+        <fullName>148</fullName>
+        <default>false</default>
+        <label>Liquidación Compra</label>
+    </customValue>
+    <customValue>
+        <fullName>149</fullName>
+        <default>false</default>
+        <label>Liquidación de la Gestoría</label>
+    </customValue>
+    <customValue>
+        <fullName>150</fullName>
+        <default>false</default>
+        <label>Lista de Fincas a Nombre del Cliente en el Registro</label>
+    </customValue>
+    <customValue>
+        <fullName>114</fullName>
+        <default>false</default>
+        <label>Mandamiento de pago</label>
+    </customValue>
+    <customValue>
+        <fullName>151</fullName>
+        <default>false</default>
+        <label>Mandato Representación</label>
+    </customValue>
+    <customValue>
+        <fullName>184</fullName>
+        <default>false</default>
+        <label>Modelo &quot;Recibí&quot; Documentación</label>
+    </customValue>
+    <customValue>
+        <fullName>185</fullName>
+        <default>false</default>
+        <label>Modelo &quot;Solicitud&quot; Documentación</label>
+    </customValue>
+    <customValue>
+        <fullName>173</fullName>
+        <default>false</default>
+        <label>Notificación Ayuntamiento Plusvalía</label>
+    </customValue>
+    <customValue>
+        <fullName>152</fullName>
+        <default>false</default>
+        <label>Orden de Compra</label>
+    </customValue>
+    <customValue>
+        <fullName>153</fullName>
+        <default>false</default>
+        <label>Pactos Novatorios</label>
+    </customValue>
+    <customValue>
+        <fullName>154</fullName>
+        <default>false</default>
+        <label>Pactos Privados Posteriores o Negociaciones Previas al Prestamo</label>
+    </customValue>
+    <customValue>
+        <fullName>156</fullName>
+        <default>false</default>
+        <label>Patria Potestad Prorrogada</label>
+    </customValue>
+    <customValue>
+        <fullName>394</fullName>
+        <default>false</default>
+        <label>Permiso de Circulación</label>
+    </customValue>
+    <customValue>
+        <fullName>157</fullName>
+        <default>false</default>
+        <label>Poder de los Padres o Titulares de la Patria Potestad</label>
+    </customValue>
+    <customValue>
+        <fullName>158</fullName>
+        <default>false</default>
+        <label>Poder General para Pleitos</label>
+    </customValue>
+    <customValue>
+        <fullName>159</fullName>
+        <default>false</default>
+        <label>Poder Notarial del Tutor</label>
+    </customValue>
+    <customValue>
+        <fullName>392</fullName>
+        <default>false</default>
+        <label>Presupuesto Procurador Firmado</label>
+    </customValue>
+    <customValue>
+        <fullName>160</fullName>
+        <default>false</default>
+        <label>Recibo Comisión de Apertura</label>
+    </customValue>
+    <customValue>
+        <fullName>161</fullName>
+        <default>false</default>
+        <label>Recibos</label>
+    </customValue>
+    <customValue>
+        <fullName>277</fullName>
+        <default>false</default>
+        <label>Reclamación BdE para Revolving</label>
+    </customValue>
+    <customValue>
+        <fullName>369</fullName>
+        <default>false</default>
+        <label>Resoluciones Ayuntamiento</label>
+    </customValue>
+    <customValue>
+        <fullName>193</fullName>
+        <default>false</default>
+        <label>Respuesta Consulta Viabilidad</label>
+    </customValue>
+    <customValue>
+        <fullName>176</fullName>
+        <default>false</default>
+        <label>Resumen de Cupones</label>
+    </customValue>
+    <customValue>
+        <fullName>397</fullName>
+        <default>false</default>
+        <label>Scoring RV</label>
+    </customValue>
+    <customValue>
+        <fullName>31</fullName>
+        <default>false</default>
+        <label>Sentencia</label>
+    </customValue>
+    <customValue>
+        <fullName>35</fullName>
+        <default>false</default>
+        <label>Sentencia de Apelación</label>
+    </customValue>
+    <customValue>
+        <fullName>38</fullName>
+        <default>false</default>
+        <label>Sentencia de Casación</label>
+    </customValue>
+    <customValue>
+        <fullName>162</fullName>
+        <default>false</default>
+        <label>Sentencia Judicial de Incapacitación</label>
+    </customValue>
+    <customValue>
+        <fullName>383</fullName>
+        <default>false</default>
+        <label>Solicitud Acceso Fichero ASNEF</label>
+    </customValue>
+    <customValue>
+        <fullName>391</fullName>
+        <default>false</default>
+        <label>Solicitud Baja Cautelar</label>
+    </customValue>
+    <customValue>
+        <fullName>387</fullName>
+        <default>false</default>
+        <label>Solicitud de acceso Fichero CIRBE</label>
+    </customValue>
+    <customValue>
+        <fullName>385</fullName>
+        <default>false</default>
+        <label>Solicitud de acceso Fichero EXPERIAN</label>
+    </customValue>
+    <customValue>
+        <fullName>33</fullName>
+        <default>false</default>
+        <label>Subsanación</label>
+    </customValue>
+    <customValue>
+        <fullName>163</fullName>
+        <default>false</default>
+        <label>Testamento</label>
+    </customValue>
+    <customValue>
+        <fullName>177</fullName>
+        <default>false</default>
+        <label>Test de Conveniencia/Idoneidad</label>
+    </customValue>
+    <customValue>
+        <fullName>164</fullName>
+        <default>false</default>
+        <label>Último Recibo del Préstamo</label>
+    </customValue>
+    <customValue>
+        <fullName>165</fullName>
+        <default>false</default>
+        <label>Vida Laboral</label>
+    </customValue>
+    <customValue>
+        <fullName>Documento Migrado sin Clasificar</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Documento Migrado sin Clasificar elim</label>
+    </customValue>
+    <customValue>
+        <fullName>313</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Informe Médico</label>
+    </customValue>
+    <customValue>
+        <fullName>155</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Consentimiento del cliente OLD</label>
+    </customValue>
+    <customValue>
+        <fullName>141</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Formulario de Liquidación</label>
+    </customValue>
+    <customValue>
+        <fullName>140</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Formulario de Autoliquidación</label>
+    </customValue>
+    <masterLabel>DocumentosRequeridos</masterLabel>
+    <sorted>true</sorted>
+</GlobalValueSet>

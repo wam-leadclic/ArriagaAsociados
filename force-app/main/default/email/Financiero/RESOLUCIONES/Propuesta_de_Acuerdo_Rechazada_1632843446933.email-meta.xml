@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Propuesta de Acuerdo Rechazada</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Propuesta de Acuerdo Rechazada</name>
+    <relatedEntityType>Case</relatedEntityType>
+    <style>none</style>
+    <subject>Propuesta de Acuerdo Rechazada | Arriaga Asociados</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

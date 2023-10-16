@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Firma que se muestra en el PDF de hoja de encargo</description>
+    <internalUseOnly>true</internalUseOnly>
+    <name>FirmaAdministradorUnico</name>
+    <public>false</public>
+</Document>

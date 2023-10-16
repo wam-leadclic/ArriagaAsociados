@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SCV_ASESOR_OFI_ALCA_VoiceCall</fullName>
+    <filterScope>Queue</filterScope>
+    <label>ASESOR OFI ALCA</label>
+    <queue>SCV_ASESOR_OFI_ALCA</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

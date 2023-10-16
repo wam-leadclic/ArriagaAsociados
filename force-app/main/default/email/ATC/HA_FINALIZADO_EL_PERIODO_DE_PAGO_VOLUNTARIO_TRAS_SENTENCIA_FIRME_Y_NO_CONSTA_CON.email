@@ -1,0 +1,36 @@
+<table border="0" cellpadding="5" width="600" cellspacing="5" height="400" >
+<tr valign="top" height="50" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[]]></td>
+</tr>
+<tr valign="top" height="300" >
+<td tEditID="c1r2" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r2" locked="0" >
+<![CDATA[<p style="color: rgb(0, 0, 0); font-size: 12pt; margin-bottom: 7.95pt; line-height: 105%;"><font face="Times New Roman, Times, serif">Estimado {!Contact.FirstName},<o:p></o:p></font></p>
+
+<p style="color: rgb(0, 0, 0); font-size: 12pt; margin-bottom: 7.95pt; line-height: 105%;"><font face="Times New Roman, Times, serif">Como ya le informamos hace
+unas semanas, ha ganado su pleito. Transcurrido el periodo de pago voluntario,
+no nos consta que el banco haya abonado ninguna cantidad. Por ello, en los
+próximos días, vamos a interponer una demanda de ejecución forzosa para
+solicitar el cumplimiento de la sentencia. <o:p></o:p></font></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-size: 12pt; margin-bottom: 7.95pt; text-align: justify; line-height: 105%;"><span style="font-size:12.0pt;line-height:
+105%;mso-ascii-font-family:Calibri;mso-fareast-font-family:&quot;Times New Roman&quot;;
+mso-hansi-font-family:Calibri;mso-bidi-font-family:Calibri;mso-fareast-language:
+ES"><font face="Times New Roman, Times, serif">Si necesita más información estamos a su disposición en el teléfono de
+atención al cliente 91 005 26 00.<o:p></o:p></font></span></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-size: 12pt; margin-bottom: 7.95pt; text-align: justify; line-height: 105%;"><span style="font-size:12.0pt;line-height:
+105%;mso-ascii-font-family:Calibri;mso-fareast-font-family:&quot;Times New Roman&quot;;
+mso-hansi-font-family:Calibri;mso-bidi-font-family:Calibri;mso-fareast-language:
+ES"><font face="Times New Roman, Times, serif">Reciba un cordial saludo.<o:p></o:p></font></span></p>
+
+<div style="color: rgb(0, 0, 0); font-size: 12pt;"><font face="Times New Roman, Times, serif"><br></font></div><div style=""><font face="Times New Roman, Times, serif">{!Case.OwnerFirstName}&nbsp;{!Case.OwnerLastName}</font></div><div style=""><font face="Times New Roman, Times, serif"><br></font></div>
+
+<p style="color: rgb(0, 0, 0); font-size: 12pt; margin-bottom: 7.95pt; line-height: 105%;"><font face="Times New Roman, Times, serif">Departamento de Atención al
+Cliente.</font><font face="arial"><o:p></o:p></font></p>]]></td>
+</tr>
+<tr valign="top" height="50" >
+<td tEditID="c1r3" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r3" locked="0" >
+<![CDATA[<span style="font-size: medium;"><font color="#ffffff">{!Case.Thread_Id}</font></span>]]></td>
+</tr>
+</table>

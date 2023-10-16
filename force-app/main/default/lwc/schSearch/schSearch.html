@@ -1,0 +1,63 @@
+<template>
+    videollamada: {typeSelected}
+    <lightning-card  title={labels.cardTitle} icon-name="standard:event">
+        
+        <template if:true={showSpinner}>
+            <lightning-spinner alternative-text="Loading"></lightning-spinner>
+        </template>
+
+        <lightning-layout multiple-rows="true">
+
+            <lightning-layout-item padding="around-small" size="12">
+                    
+                <lightning-tabset active-tab-value={activeTab}>
+        
+                        <!-- search options tab-->
+                        <lightning-tab label={labels.search} value="search">
+                            <lightning-layout multiple-rows="true">
+                
+                                <lightning-layout-item padding="around-small" size="6">
+                                    <lightning-input type="date" name="searchFromDate" label={labels.fromDate} value={searchFromDate} onchange={onChangeInput}></lightning-input>
+                                </lightning-layout-item>
+                
+                                <lightning-layout-item padding="around-small" size="6">    
+                                    <lightning-input type="date" name="searchToDate" label={labels.toDate} value={searchToDate} onchange={onChangeInput}></lightning-input>
+                                </lightning-layout-item>
+                
+                                <lightning-layout-item padding="around-small" size="6">    
+                                    <lightning-input type="time" value={startHour} name="startHour" min="07:00:00.000Z" max="23:00:00.000Z" label={labels.fromHour} onchange={onChangeInput}></lightning-input>
+                                </lightning-layout-item>
+                
+                                <lightning-layout-item padding="around-small" size="6">    
+                                    <lightning-input type="time" value={endHour} name="endHour" min="07:00:00.000Z" max="23:00:00.000Z" label={labels.toHour} onchange={onChangeInput}></lightning-input>
+                                </lightning-layout-item>
+                
+                                <lightning-layout-item padding="around-small" size="12">
+                                    <lightning-input type="time" min="00:15:00.000Z" name="duration" label={labels.duration} value={duration} data-id="duration" onchange={onChangeInput}></lightning-input>
+                                </lightning-layout-item>
+                                
+                                <lightning-layout-item padding="around-small" size="12">
+                                    <lightning-button variant="brand" icon-name="utility:search" label={labels.searchButton} onclick={onClickSearch} ></lightning-button>
+                                </lightning-layout-item>
+                
+                            </lightning-layout>
+                        </lightning-tab>
+                        
+                        <!-- result list -->
+                        <lightning-tab label={labels.result} value="results">
+                            <div class="slds-p-around_medium">
+                                <lightning-tree items={lResult} header=""  onselect={handleOnSelectResult} ></lightning-tree>
+                            </div>
+                        </lightning-tab>
+                    </lightning-tabset>
+            </lightning-layout-item>  
+            
+        </lightning-layout>
+
+    </lightning-card>
+
+    <template if:true={showResultModal}>
+        <c-sch-result-modal onclosemodal={handleCloseModal} onappointmentcreated={handleAppointmentCreated} result-selected={resultSelected} 
+                            is-summary-result={isSummaryResult} user-selected={userSelected} resource-selected={resourceSelected} extra-params={extraParams} search-by-events={searchByEvents} type-selected={typeSelected}></c-sch-result-modal>
+    </template>
+</template>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BloquearPersonasiseIndicaCIF</fullName>
+    <active>true</active>
+    <description>Bloquear Empresa si se Indica NIF, si se crea una cuenta de tipo empresa, se debe de indicar siempre CIF y no un NIF</description>
+    <errorConditionFormula>AND (
+ 
+       RecordType.DeveloperName = &apos;PersonAccount&apos;,
+       ISPICKVAL(TipoDocumento__c,&quot;CIF&quot;) 
+ 
+)</errorConditionFormula>
+    <errorMessage>Si usted está creando una empresa o persona Jurídica, debe cancelar y crear una cuenta de tipo &quot;Persona Jurídica&quot;, si se trata de una cuenta personal, debe indicar un NIF, NIE o Pasaporte y no un CIF. Verifique el Tipo y/o el Documento</errorMessage>
+</ValidationRule>

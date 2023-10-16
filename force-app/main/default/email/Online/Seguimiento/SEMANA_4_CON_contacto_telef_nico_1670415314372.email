@@ -1,0 +1,18 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<p>Hola, {{{Account.FirstName}}}&nbsp;</p>
+
+<p>Seguimos a la espera de recibir tu documentación para verificarla y poder asignar tu expediente a uno de nuestros&nbsp;abogados.</p>
+
+<p>Es muy sencillo, <strong>puedes adjuntar la documentación respondiendo a este mismo correo y te llamaremos para informarte de la viabilidad de&nbsp;tu reclamación</strong>.</p>
+
+<p><br />
+Gracias por confiar en nosotros.&nbsp;</p>
+
+<p>Equipo Arriaga Asociados<br />
+<a href="https://www.arriagaasociados.com/">https://www.arriagaasociados.com/</a></p>
+</body>
+</html>

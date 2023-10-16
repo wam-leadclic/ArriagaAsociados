@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>true</sorted>
+    <standardValue>
+        <fullName>ADMINISTRATIVO</fullName>
+        <default>false</default>
+        <label>ADMINISTRATIVO</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ASESORAMIENTO</fullName>
+        <default>false</default>
+        <label>ASESORAMIENTO</label>
+    </standardValue>
+    <standardValue>
+        <fullName>BANCARIO</fullName>
+        <default>false</default>
+        <label>BANCARIO</label>
+    </standardValue>
+    <standardValue>
+        <fullName>CLAUSULAS ABUSIVAS</fullName>
+        <default>false</default>
+        <label>CLAUSULAS ABUSIVAS</label>
+    </standardValue>
+    <standardValue>
+        <fullName>CONCURSAL</fullName>
+        <default>false</default>
+        <label>CONCURSAL</label>
+    </standardValue>
+    <standardValue>
+        <fullName>DAÑOS</fullName>
+        <default>false</default>
+        <label>DAÑOS</label>
+    </standardValue>
+    <standardValue>
+        <fullName>LABORAL</fullName>
+        <default>false</default>
+        <label>LABORAL</label>
+    </standardValue>
+    <standardValue>
+        <fullName>None</fullName>
+        <default>false</default>
+        <label>None</label>
+    </standardValue>
+    <standardValue>
+        <fullName>NUEVOS PRODUCTOS</fullName>
+        <default>false</default>
+        <label>NUEVOS PRODUCTOS</label>
+    </standardValue>
+    <standardValue>
+        <fullName>RECLAMACIÓN CANTIDAD</fullName>
+        <default>false</default>
+        <label>RECLAMACIÓN CANTIDAD</label>
+    </standardValue>
+    <standardValue>
+        <fullName>SUCESIONES</fullName>
+        <default>false</default>
+        <label>SUCESIONES</label>
+    </standardValue>
+</StandardValueSet>

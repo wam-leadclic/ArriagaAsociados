@@ -1,0 +1,11 @@
+.modal-hidden {
+    display: none;
+}
+
+
+.section-index {
+    z-index: 90001;
+}
+.backdrop-index {
+    z-index: 9000;
+}

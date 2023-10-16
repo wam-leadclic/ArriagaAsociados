@@ -1,0 +1,21 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<p>Hola, {{{Account.FirstName}}}&nbsp;</p>
+
+<p>soy <b>{{{Sender.Name}}}</b> de <b>Arriaga Asociados</b> y&nbsp;te escribo de nuevo con motivo de nuestros recientes contactos.</p>
+
+<p>Estamos revisando cuentas de posibles clientes y, normalmente, cuando no hemos recibido respuesta significa que están&nbsp;muy ocupados o que no hay interés.</p>
+
+<p>Si no estás interesad@ házmelo saber para finalizar tu seguimiento.<br />
+Pero en caso contrario, ¿Qué nos recomiendas como&nbsp;siguiente paso y poder avanzar tu expediente?</p>
+
+<p><br />
+Gracias por confiar en nosotros.&nbsp;</p>
+
+<p>Equipo Arriaga Asociados<br />
+<a href="https://www.arriagaasociados.com/">https://www.arriagaasociados.com/</a></p>
+</body>
+</html>

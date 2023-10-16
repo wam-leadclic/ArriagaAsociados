@@ -1,0 +1,20 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<p>Estimado {{{Case.Account}}}:<br />
+<br />
+En relación a su expediente número {{{Case.NumeroExpediente__c}}} le confirmamos que estamos estudiando su disconformidad con el importe de las facturas. Desde Arriaga Asociados lo estamos valorando y le daremos una respuesta lo antes posible. El número de referencia de su reclamación es: {{{Case.CaseNumber}}}.<br />
+<br />
+Nos pondremos en contacto por teléfono en el número que nos ha facilitado o le escribiremos a esta misma dirección de email cuando tengamos una solución.<br />
+<br />
+Si necesita ponerse en contacto con nosotros, puede llamarnos al teléfono gratuito 900 264 600 o al 918289000 y aportando el número de reclamación le informaremos.<br />
+<br />
+Esperamos que este malentendido se solucione cuanto antes. Disculpe las molestias.<br />
+<br />
+Un cordial saludo.<br />
+<br />
+<strong>Arriaga Asociados</strong></p>
+</body>
+</html>

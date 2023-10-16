@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Prod Hipoteca</fullName>
+        <default>false</default>
+        <label>Prod Hipoteca</label>
+    </customValue>
+    <customValue>
+        <fullName>Prod Abusiva</fullName>
+        <default>false</default>
+        <label>Prod Abusiva</label>
+    </customValue>
+    <customValue>
+        <fullName>Prod Impagados</fullName>
+        <default>false</default>
+        <label>Prod Impagados</label>
+    </customValue>
+    <customValue>
+        <fullName>Prod Revolving</fullName>
+        <default>false</default>
+        <label>Prod Revolving</label>
+    </customValue>
+    <customValue>
+        <fullName>Docs Hipoteca</fullName>
+        <default>false</default>
+        <label>Docs Hipoteca</label>
+    </customValue>
+    <customValue>
+        <fullName>Docs Suelo</fullName>
+        <default>false</default>
+        <label>Docs Suelo</label>
+    </customValue>
+    <customValue>
+        <fullName>Docs IRPH</fullName>
+        <default>false</default>
+        <label>Docs IRPH</label>
+    </customValue>
+    <customValue>
+        <fullName>Docs Multidivisa</fullName>
+        <default>false</default>
+        <label>Docs Multidivisa</label>
+    </customValue>
+    <customValue>
+        <fullName>Docs Abusivas</fullName>
+        <default>false</default>
+        <label>Docs Abusivas</label>
+    </customValue>
+    <customValue>
+        <fullName>Docs Impagados</fullName>
+        <default>false</default>
+        <label>Docs Impagados</label>
+    </customValue>
+    <customValue>
+        <fullName>Docs Coches</fullName>
+        <default>false</default>
+        <label>Docs Coches</label>
+    </customValue>
+    <customValue>
+        <fullName>Docs Revolving</fullName>
+        <default>false</default>
+        <label>Docs Revolving</label>
+    </customValue>
+    <customValue>
+        <fullName>Docs Triodos</fullName>
+        <default>false</default>
+        <label>Docs Triodos</label>
+    </customValue>
+    <customValue>
+        <fullName>Docs Divorcios</fullName>
+        <default>false</default>
+        <label>Docs Divorcios</label>
+    </customValue>
+    <customValue>
+        <fullName>Docs Plusvalia</fullName>
+        <default>false</default>
+        <label>Docs Plusvalia</label>
+    </customValue>
+    <masterLabel>Recommendation Family</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

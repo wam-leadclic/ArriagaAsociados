@@ -1,0 +1,26 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">&nbsp;
+<p lang="ES-ES">Hola {{{Contract.Account}}}</p>
+
+<p lang="ES-ES"><br />
+<strong>¡Buenas Noticias! &nbsp;</strong></p>
+
+<p lang="ES-ES">Te informamos que hemos presentado tu demanda de {{{Contract.ProductoFormula__c}}} relacionado a tu expediente contratado número {{{Contract.IdExpediente__c}}} ante el juzgado.&nbsp;</p>
+
+<p>En estos momentos nos encontramos a la espera de su admisión a trámite, el tiempo dependerá de la carga de trabajo del juzgado en el que haya recaído. Ante cualquier novedad relevante, desde Arriaga Asociados nos pondremos en contacto contigo. &nbsp;</p>
+
+<p lang="ES-ES">Recuerda que también dispones de <strong>TU ESPACIO ARRIAGA</strong>,&nbsp;nuestro portal de cliente. &nbsp;</p>
+
+<p lang="ES-ES">Pincha&nbsp;<a href="https://clientes.arriagaasociados.com/" rel="noreferrer noopener" target="_blank">aquí</a>&nbsp;y accede si ya tienes usuario, si aún no estás dado de alta en el sistema, recibirás un mail automático en las próximas 24 horas para acceder y mantenerte informado acerca de las novedades que vayan ocurriendo en tu procedimiento.&nbsp;<br />
+&nbsp;</p>
+
+<p>Gracias por confiar en nosotros&nbsp;&nbsp;<br />
+<br />
+Equipo Arriaga Asociados<br />
+<br />
+&nbsp;</p>
+</body>
+</html>

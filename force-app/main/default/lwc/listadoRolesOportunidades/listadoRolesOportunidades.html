@@ -1,0 +1,63 @@
+<template>
+        <lightning-card class='slds-card_boundary' title={cardTitle} icon-name="standard:portal_roles" >
+            <div class="slds-m-around_medium">     
+                <table class="slds-table slds-table_cell-buffer slds-no-row-hover slds-table_bordered slds-table_fixed-layout" role="grid">
+                    <thead>
+                    <tr class="slds-line-height_reset">
+                    <th class="" scope="col">
+                    <div class="slds-truncate" title="oppName">{label.OppName}</div>
+                    </th>
+                    <th class="" scope="col">
+                    <div class="slds-truncate" title="role">{label.Role}</div>
+                    </th>
+                    <th class="" scope="col">
+                        <div class="slds-truncate" title="Etapa">{label.Etapa}</div>
+                    </th>
+                    <th class="" scope="col">
+                        <div class="slds-truncate" title="Expediente">{label.EXPEDIENTE}</div>
+                    </th>
+                    <th class="" scope="col">
+                        <div class="slds-truncate" title="Hoja Encargo">{label.HojaEncargo}</div>
+                    </th>
+                    <th class="" scope="col">
+                        <div class="slds-truncate" title="Propietario">{label.Propietario}</div>
+                    </th>
+                    <th class="" scope="col">
+                        <div class="slds-truncate" title="Fecha Cierre">{label.FechaCierre}</div>
+                    </th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                        <template for:each={data} for:item="opp">
+
+                            <tr class="slds-hint-parent" key= {opp.Id}>
+                            <th scope="row">
+                            <lightning-button label={opp.oppName} variant="base" value={opp.oppId} onclick={handleClick}
+                            ></lightning-button>
+                            </th>
+                            <td role="gridcell">
+                            <div class="slds-truncate">{opp.role}</div>
+                            </td>
+                            <td role="gridcell">
+                                <div class="slds-truncate">{opp.etapa}</div>
+                            </td>
+                            <td role="gridcell">
+                                <div class="slds-truncate">{opp.numExpediente}</div>
+                            </td>
+                            <td role="gridcell">
+                                <div class="slds-truncate">{opp.hojaEncargo}</div>
+                            </td>
+                            <td role="gridcell">
+                                <div class="slds-truncate">{opp.propietario}</div>
+                            </td>
+                            <td role="gridcell">
+                                <div class="slds-truncate">{opp.fechaCierre}</div>
+                            </td>
+                            </tr>
+                        </template>
+                    </tbody>
+                </table>
+            </div>    
+        </lightning-card>
+    
+    </template>

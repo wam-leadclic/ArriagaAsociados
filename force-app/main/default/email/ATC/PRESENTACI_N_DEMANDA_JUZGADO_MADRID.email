@@ -1,0 +1,47 @@
+<table border="0" cellpadding="5" width="600" cellspacing="5" height="400" >
+<tr valign="top" height="50" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[]]></td>
+</tr>
+<tr valign="top" height="300" >
+<td tEditID="c1r2" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r2" locked="0" >
+<![CDATA[<p class="MsoNormal" style="text-align: justify;"><font face="Times New Roman, Times, serif"><span style="color: rgb(0, 0, 0); font-size: 12pt; line-height: 106%;">Estimado&nbsp;</span><font style=""><o:p></o:p>{!Contact.FirstName},</font></font></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-size: 12pt; text-align: justify;"><span style="font-size:12.0pt;
+line-height:106%"><span style="color:red"><font face="Times New Roman, Times, serif"><br></font></span></span></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-size: 12pt; text-align: justify;"><font face="Times New Roman, Times, serif">En relación a su consulta sobre el estado de su reclamación de <span style="color:#00B0F0">PRODUCTO </span>que tiene contratada con Arriaga
+Asociados, queremos informarle <span style="font-size:12.0pt;line-height:
+106%">su demanda fue presentada en los juzgados de Madrid, el pasado <span style="color:#00B0F0">XX de XXXXXXXX<span style="mso-spacerun:yes">&nbsp;
+</span>de<span style="mso-spacerun:yes">&nbsp; </span>XXXX</span>.<o:p></o:p></span></font></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-size: 12pt; text-align: justify;"><span style="font-size:12.0pt;line-height:
+106%"><font face="Times New Roman, Times, serif"><br></font></span></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-size: 12pt; text-align: justify;"><span style="font-size:12.0pt;
+line-height:106%"><font face="Times New Roman, Times, serif">Dado el gran volumen de demandas presentadas en este partido
+judicial, seguimos a la espera de la admisión a trámite.<o:p></o:p></font></span></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-size: 12pt; text-align: justify;"><span style="font-size:12.0pt;
+line-height:106%"><font face="Times New Roman, Times, serif"><br></font></span></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-size: 12pt; text-align: justify;"><span style="font-size:12.0pt;
+line-height:106%"><font face="Times New Roman, Times, serif">La demanda será admitida a trámite cuando le corresponda por
+turno, y se informará a la entidad bancaria.<span style="mso-spacerun:yes">&nbsp;
+</span>Posteriormente, el juzgado señalará, en su caso, fecha para la
+celebración de la audiencia previa al juicio. Una vez nos sea notificada, volveremos
+a ponernos en contactacto con usted.<o:p></o:p></font></span></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-size: 12pt; margin-bottom: 7.95pt; text-align: justify; line-height: 105%;"><span style="mso-fareast-font-family:&quot;Times New Roman&quot;;
+mso-bidi-font-family:Calibri"><font face="Times New Roman, Times, serif"><br></font></span></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-size: 12pt; margin-bottom: 7.95pt; text-align: justify; line-height: 105%;"><span style="mso-fareast-font-family:&quot;Times New Roman&quot;;
+mso-bidi-font-family:Calibri"><font face="Times New Roman, Times, serif">Si necesita más información estamos a su
+disposición en el teléfono de atención al cliente 91 005 26 00.<o:p></o:p></font></span></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-size: 12pt; margin-bottom: 7.95pt; text-align: justify; line-height: 105%;"><span style="mso-fareast-font-family:&quot;Times New Roman&quot;;
+mso-bidi-font-family:Calibri"><font face="Times New Roman, Times, serif">Reciba un cordial saludo.<o:p></o:p></font></span></p><p class="MsoNormal" style="margin-bottom: 7.95pt; text-align: justify; line-height: 105%;"><font face="Times New Roman, Times, serif">&nbsp; {!Case.OwnerFirstName} {!Case.OwnerLastName}</font></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-size: 12pt; text-align: justify;"><span style="font-size:12.0pt;
+line-height:106%"><font face="Times New Roman, Times, serif"><span style="mso-spacerun:yes">&nbsp; </span>Departamento de
+Atención al Cliente.<o:p></o:p></font></span></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-size: 12pt; text-align: justify;"><span style="font-size: 12pt; line-height: 106%;"><font face="Times New Roman, Times, serif">&nbsp; ARRIAGA ASOCIADOS.</font><font face="arial"><o:p></o:p></font></span></p>]]></td>
+</tr>
+<tr valign="top" height="50" >
+<td tEditID="c1r3" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r3" locked="0" >
+<![CDATA[<span style="font-size: medium;"><font color="#ffffff">{!Case.Thread_Id}</font></span>]]></td>
+</tr>
+</table>

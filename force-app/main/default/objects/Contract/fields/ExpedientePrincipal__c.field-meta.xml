@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ExpedientePrincipal__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Expediente principal con el que está relacionado</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Expediente principal con el que está relacionado</inlineHelpText>
+    <label>Expediente principal</label>
+    <referenceTo>Contract</referenceTo>
+    <relationshipLabel>Contratos</relationshipLabel>
+    <relationshipName>Expedientes</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

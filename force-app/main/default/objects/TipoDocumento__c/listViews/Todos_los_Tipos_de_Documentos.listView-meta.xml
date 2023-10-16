@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Todos_los_Tipos_de_Documentos</fullName>
+    <columns>NAME</columns>
+    <columns>ExternalID__c</columns>
+    <columns>TipoDocumento__c</columns>
+    <columns>VisibleComunidad__c</columns>
+    <columns>SubidaComunidad__c</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <label>Todos los Tipos de Documentos</label>
+    <sharedTo>
+        <role>Admin</role>
+    </sharedTo>
+</ListView>

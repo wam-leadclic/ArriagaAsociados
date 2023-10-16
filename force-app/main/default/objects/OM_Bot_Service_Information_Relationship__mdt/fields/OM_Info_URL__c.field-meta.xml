@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OM_Info_URL__c</fullName>
+    <description>Almacena la url que se muestra en el bot</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>Info URL</label>
+    <required>false</required>
+    <type>Url</type>
+</CustomField>

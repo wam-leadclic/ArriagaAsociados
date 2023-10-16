@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Alta</fullName>
+        <default>false</default>
+        <label>Alta</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Baja</fullName>
+        <default>false</default>
+        <label>Baja</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Crítica</fullName>
+        <default>false</default>
+        <label>Crítica</label>
+    </standardValue>
+    <standardValue>
+        <fullName>1 Fecha límite menos de 1 semana</fullName>
+        <default>false</default>
+        <label>1 Fecha límite menos de 1 semana</label>
+    </standardValue>
+    <standardValue>
+        <fullName>2 Fecha límite menos de 1 mes</fullName>
+        <default>false</default>
+        <label>2 Fecha límite menos de 1 mes</label>
+    </standardValue>
+    <standardValue>
+        <fullName>3 Fecha límite más de 1 mes</fullName>
+        <default>false</default>
+        <label>3 Fecha límite más de 1 mes</label>
+    </standardValue>
+    <standardValue>
+        <fullName>4 No hay fecha límite, no se puede subsanar (tasación en costas, etc.)</fullName>
+        <default>false</default>
+        <label>4 No hay fecha límite, no se puede subsanar (tasación en costas, etc.)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>8 Fallo del proceso / un error humano (pero no incidencia jurídica)</fullName>
+        <default>false</default>
+        <label>8 Fallo del proceso / un error humano (pero no incidencia jurídica)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>9 No es incidencia (no es incidencia jurídica, ni hay de proceso/error humano)</fullName>
+        <default>false</default>
+        <label>9 No es incidencia (no es incidencia jurídica, ni hay de proceso/error humano)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>INAD Inadmisiones de ampliación de la demanda</fullName>
+        <default>false</default>
+        <label>INAD Inadmisiones de ampliación de la demanda</label>
+    </standardValue>
+    <standardValue>
+        <fullName>No aplica</fullName>
+        <default>false</default>
+        <label>No aplica</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Media</fullName>
+        <default>true</default>
+        <label>Media</label>
+    </standardValue>
+</StandardValueSet>

@@ -1,0 +1,21 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<p>Hola, {{{Account.FirstName}}} soy {{{Sender.FirstName}}} del equipo de <strong>Arriaga Asociados.</strong></p>
+
+<p>Hace unos días solicitaste información sobre <span style="color:#c0392b;">(producto)</span> e intentamos localizarte telefónicamente para verificar que recibiste nuestro&nbsp;anterior email y poder explicarte personalmente los pasos a seguir para que nuestros abogados puedan estudiar la viabilidad de tu&nbsp;reclamación de forma gratuita y sin compromiso para ti.</p>
+
+<p><strong>¿Te gustaría indicarnos un horario de contacto?&nbsp;</strong></p>
+
+<p>Si, por el contrario, deseas enviarnos la documentación que te solicitamos directamente, no dudes en enviarla, <u>respondiendo a este mismo correo electrónico</u></p>
+
+<p>&nbsp;</p>
+
+<p>Gracias por confiar en nosotros.&nbsp;</p>
+
+<p>Equipo Arriaga Asociados.&nbsp;<br />
+<a href="https://www.arriagaasociados.com/">https://www.arriagaasociados.com/</a></p>
+</body>
+</html>

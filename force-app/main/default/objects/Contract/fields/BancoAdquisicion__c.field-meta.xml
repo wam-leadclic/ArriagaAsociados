@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BancoAdquisicion__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Banco en el que se realizó la adquisición</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Banco en el que se realizó la adquisición</inlineHelpText>
+    <label>Banco adquisición</label>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Contratos (Banco adquisición)</relationshipLabel>
+    <relationshipName>Adquisicion</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

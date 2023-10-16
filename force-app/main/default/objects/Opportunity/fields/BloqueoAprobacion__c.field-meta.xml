@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BloqueoAprobacion__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Casilla que identifica si el registro no puede modificar ningún campo al estar en proceso de aprobación</description>
+    <externalId>false</externalId>
+    <label>Bloqueado por aprobación</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

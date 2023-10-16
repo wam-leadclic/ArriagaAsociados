@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TipoHojaEncargo__c</fullName>
+    <description>Tipo de la hoja de encargo</description>
+    <externalId>false</externalId>
+    <label>Tipo de hoja de encargo</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Riesgo</fullName>
+                <default>false</default>
+                <label>Riesgo</label>
+            </value>
+            <value>
+                <fullName>Consumidor</fullName>
+                <default>false</default>
+                <label>Consumidor</label>
+            </value>
+            <value>
+                <fullName>No consumidor</fullName>
+                <default>false</default>
+                <label>No consumidor</label>
+            </value>
+            <value>
+                <fullName>Estándar</fullName>
+                <default>false</default>
+                <label>Estándar</label>
+            </value>
+            <value>
+                <fullName>Acciones Bankia</fullName>
+                <default>false</default>
+                <label>Acciones Bankia</label>
+            </value>
+            <value>
+                <fullName>Con Provisión de Fondos</fullName>
+                <default>false</default>
+                <label>Con Provisión de Fondos</label>
+            </value>
+            <value>
+                <fullName>Sin Provisión de Fondos</fullName>
+                <default>false</default>
+                <label>Sin Provisión de Fondos</label>
+            </value>
+            <value>
+                <fullName>Persona Jurídica</fullName>
+                <default>false</default>
+                <label>Persona Jurídica</label>
+            </value>
+            <value>
+                <fullName>Ad Hoc</fullName>
+                <default>false</default>
+                <label>Ad Hoc</label>
+            </value>
+            <value>
+                <fullName>Con perito</fullName>
+                <default>false</default>
+                <label>Con perito</label>
+            </value>
+            <value>
+                <fullName>Aportaciones a cuenta Vivienda</fullName>
+                <default>false</default>
+                <label>Aportaciones a cuenta Vivienda</label>
+            </value>
+            <value>
+                <fullName>Aportaciones a cuenta Vivienda - Diligencias preliminares</fullName>
+                <default>false</default>
+                <label>Aportaciones a cuenta Vivienda - Diligencias preliminares</label>
+            </value>
+            <value>
+                <fullName>HÍBRIDA</fullName>
+                <default>false</default>
+                <label>HÍBRIDA</label>
+            </value>
+            <value>
+                <fullName>NO ÉXITO</fullName>
+                <default>false</default>
+                <label>NO ÉXITO</label>
+            </value>
+            <value>
+                <fullName>Asumiendo Costas</fullName>
+                <default>false</default>
+                <label>Asumiendo Costas</label>
+            </value>
+            <value>
+                <fullName>No Asumiendo Costas</fullName>
+                <default>false</default>
+                <label>No Asumiendo Costas</label>
+            </value>
+            <value>
+                <fullName>Accidentes de Tráfico</fullName>
+                <default>false</default>
+                <label>Accidentes de Tráfico</label>
+            </value>
+            <value>
+                <fullName>Oferta Comercial</fullName>
+                <default>false</default>
+                <label>Oferta Comercial</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

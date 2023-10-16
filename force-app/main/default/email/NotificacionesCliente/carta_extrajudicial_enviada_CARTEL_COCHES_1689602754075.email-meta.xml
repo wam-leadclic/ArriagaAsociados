@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>carta extrajudicial enviada CARTEL COCHES para cuenta (NO AUTOMATICA)</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>carta extrajudicial enviada CARTEL COCHES (NO AUTOMATICA)</name>
+    <relatedEntityType>Account</relatedEntityType>
+    <style>none</style>
+    <subject>Carta Extrajudicial enviada | Arriaga Asociados</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Arriaga_plantilla_casos</letterhead>
+    <name>EMAIL GANANCIA CLIENTE CONFORME</name>
+    <style>formalLetter</style>
+    <subject>GANANCIA CLIENTE CONFORME</subject>
+    <textOnly>Estimado {!Contact.FirstName},
+
+
+Tal y como hemos acordado en conversación telefónica, a continuación le envío el documento explicativo de la situación del expediente de plusvalía que tiene contratado con nosotros.
+
+Desde Arriaga Asociados no procederemos a iniciar la vía contencioso administrativa. En caso de no estar conforme, rogamos nos lo comunique en plazo máximo de 3 días naturales.
+
+Si necesita más información estamos a su disposición en el teléfono de atención al cliente 91 005 26 00.
+
+Reciba un cordial saludo
+
+{!Case.OwnerFirstName} {!Case.OwnerLastName}
+
+Departamento de Atención al Cliente</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

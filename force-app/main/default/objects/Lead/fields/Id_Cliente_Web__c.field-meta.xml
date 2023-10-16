@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Id_Cliente_Web__c</fullName>
+    <description>Identificador de Cliente en los formularios Web, enviado por el formulario para realizar control posterior y análisis</description>
+    <externalId>false</externalId>
+    <label>Id Cliente Web</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ComprobantePago__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Indica si el cliente puede aportar el comprobante de pago de la Comisión de Apertura</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Comprobante de pago de la Comisión de Apertura</inlineHelpText>
+    <label>Comprobante de pago</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

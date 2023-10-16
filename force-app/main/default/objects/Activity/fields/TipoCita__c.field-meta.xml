@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TipoCita__c</fullName>
+    <defaultValue>&quot;Informativa&quot;</defaultValue>
+    <description>Selecciona el tipo de cita que se le asignará al cliente.</description>
+    <externalId>false</externalId>
+    <label>Tipo de Cita</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Informativa</fullName>
+                <default>false</default>
+                <label>Informativa</label>
+            </value>
+            <value>
+                <fullName>Contratación</fullName>
+                <default>false</default>
+                <label>Contratación</label>
+            </value>
+            <value>
+                <fullName>Completado</fullName>
+                <default>false</default>
+                <label>Completado</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

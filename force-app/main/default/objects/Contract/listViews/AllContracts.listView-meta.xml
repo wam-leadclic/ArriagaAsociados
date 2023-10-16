@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AllContracts</fullName>
+    <columns>NumeroExpedienteF__c</columns>
+    <columns>EstadoExpedienteComunidad__c</columns>
+    <columns>CONTRACT.START_DATE</columns>
+    <columns>ProductoFormula__c</columns>
+    <columns>SALES.ACCOUNT.NAME</columns>
+    <columns>CONTRACT.END_DATE</columns>
+    <columns>CONTRACT.CREATED_DATE</columns>
+    <columns>NombreCortoOficina__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>Mis Expedientes</label>
+</ListView>

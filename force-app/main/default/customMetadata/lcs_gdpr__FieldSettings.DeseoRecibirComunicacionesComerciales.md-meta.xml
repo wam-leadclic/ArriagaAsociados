@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Deseo recibir comunicaciones comerciales</label>
+    <protected>false</protected>
+    <values>
+        <field>lcs_gdpr__ContactField__c</field>
+        <value xsi:type="xsd:string">DeseoRecibirComunicacionesComerciales__c</value>
+    </values>
+    <values>
+        <field>lcs_gdpr__IndividualDateField__c</field>
+        <value xsi:type="xsd:string">FechaRecibirComunicacionesComerciales__c</value>
+    </values>
+    <values>
+        <field>lcs_gdpr__IndividualField__c</field>
+        <value xsi:type="xsd:string">DeseoRecibirComunicacionesComerciales__c</value>
+    </values>
+    <values>
+        <field>lcs_gdpr__LeadField__c</field>
+        <value xsi:type="xsd:string">DeseoRecibirComunicacionesComerciales__c</value>
+    </values>
+    <values>
+        <field>lcs_gdpr__QuestionText__c</field>
+        <value xsi:type="xsd:string">Deseo recibir comunicaciones comerciales de Arriaga Asociados en función de mi comportamiento y mis preferencias personales, en los términos previstos en la &lt;a href=&quot;https://www.arriagaasociados.com/politica-de-privacidad/&quot; target=&quot;_blank&quot;&gt;Política de Privacidad&lt;/a&gt;.</value>
+    </values>
+    <values>
+        <field>lcs_gdpr__ReverseSiteValue__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>lcs_gdpr__Section__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>lcs_gdpr__SitePosition__c</field>
+        <value xsi:type="xsd:double">1.0</value>
+    </values>
+    <values>
+        <field>lcs_gdpr__VisibleOnSite__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+</CustomMetadata>

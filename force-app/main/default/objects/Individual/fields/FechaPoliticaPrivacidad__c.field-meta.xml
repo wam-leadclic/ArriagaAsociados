@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FechaPoliticaPrivacidad__c</fullName>
+    <description>Fecha/hora de actualización de la aceptación de la política de privacidad</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Fecha/hora de actualización de la aceptación de la política de privacidad</inlineHelpText>
+    <label>Fecha política privacidad</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <type>DateTime</type>
+</CustomField>

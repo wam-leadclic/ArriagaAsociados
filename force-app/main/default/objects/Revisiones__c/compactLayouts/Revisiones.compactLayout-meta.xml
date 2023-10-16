@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Revisiones</fullName>
+    <fields>Name</fields>
+    <fields>Cliente__c</fields>
+    <fields>Candidato__c</fields>
+    <fields>Producto__c</fields>
+    <fields>RecordTypeId</fields>
+    <fields>Entidad__c</fields>
+    <label>Revisiones</label>
+</CompactLayout>

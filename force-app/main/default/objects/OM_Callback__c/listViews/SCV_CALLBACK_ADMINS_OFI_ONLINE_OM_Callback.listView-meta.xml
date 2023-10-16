@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SCV_CALLBACK_ADMINS_OFI_ONLINE_OM_Callback</fullName>
+    <filterScope>Queue</filterScope>
+    <label>CALLBACK ADMINS OFI ONLINE</label>
+    <queue>SCV_CALLBACK_ADMINS_OFI_ONLINE</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

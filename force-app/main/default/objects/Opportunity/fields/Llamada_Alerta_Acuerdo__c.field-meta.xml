@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Llamada_Alerta_Acuerdo__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Registrar la interacción con el cliente informando sobre acuerdo en el producto IRPH</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Registrar la interacción con el cliente informando sobre acuerdo en el producto IRPH</inlineHelpText>
+    <label>Llamada Alerta Acuerdo</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

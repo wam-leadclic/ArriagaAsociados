@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CallCenterRoutingMap xmlns="http://soap.sforce.com/2006/04/metadata">
+    <callCenter>Arriagaasociadosprod</callCenter>
+    <developerName>User_0056900000BxFgnAAF_04v7U000000CaRgQAK</developerName>
+    <externalId>arn:aws:connect:eu-central-1:203389500378:instance/639025b3-3fe6-4284-af68-57004a772aad/agent/79f836ce-07c9-470f-995e-b1ac51f1b62d</externalId>
+    <masterLabel>0056900000BxFgnAAF</masterLabel>
+    <referenceRecord>victor.sainzgimeno@arriagaasociados.com</referenceRecord>
+</CallCenterRoutingMap>

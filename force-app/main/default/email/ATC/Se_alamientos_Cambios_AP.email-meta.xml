@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Arriaga_plantilla_casos</letterhead>
+    <name>Señalamientos Cambios AP</name>
+    <style>formalLetter</style>
+    <subject>Señalamientos Cambios AP</subject>
+    <textOnly>Buenos días:
+
+
+
+Estimado XXX. Queremos comunicarle que el juzgado nos ha dado fecha para la audiencia previa de su reclamación de gastos de hipoteca. Está prevista para el próximo 29/04/2019 a las 11:00H en el juzgado nº10 BIS de Sevilla. DIRECCIÓN.
+
+
+
+No es en absoluto necesario que acuda. Se trata de un acto con la finalidad de examinar cuestiones procesales relativas al procedimiento al que acudirá el abogado y procurador de Arriaga y de la entidad financiera.
+
+
+Al finalizar la audiencia previa, el juez puede dejar el procedimiento visto para sentencia, o citarnos para un juicio. Puede contactar con el despacho una semana después y le informaremos del resultado de la vista en el 91 005 26 00.
+
+
+
+Un cordial saludo.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

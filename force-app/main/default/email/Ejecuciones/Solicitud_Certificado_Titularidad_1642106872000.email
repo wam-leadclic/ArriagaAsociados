@@ -1,0 +1,29 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<p>Buenos días {{{Recipient.FirstName}}}:</p>
+
+<p>&nbsp;</p>
+
+<p>Te escribimos en relación a tu expediente de <span style="color:#c0392b;">(producto)</span> con numero expediente <span style="color:#c0392b;">(XXXX)&nbsp;</span>para comunicarte que, para gestionar&nbsp;la diligencia de ordenación con fecha<span style="color:#e74c3c;"> (XXXX)</span>&nbsp;debemos presentar en el juzgado documentación&nbsp;que confirme&nbsp;la&nbsp;titularidad&nbsp;de la cuenta,&nbsp;esto con el fin de evitar errores&nbsp;que&nbsp;pudieran poner&nbsp;en riesgo la&nbsp;gestión&nbsp;del&nbsp;ingreso.&nbsp;</p>
+
+<p>Para ello, necesitamos que, respondiendo a este mismo correo electrónico, nos envíes adjunto: &nbsp;&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p><b>Certificado de titularidad de tu cuenta bancaria</b> &nbsp;</p>
+
+<p><b>(puedes descargarlo a través de la banca online o solicitarlo en tu entidad bancaria)</b>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>Si tienes alguna duda, recuerda que puedes ponerte en contacto con nosotros al teléfono <b>91 005 2600</b> o visitando <b>TU ESPACIO ARRIAGA</b>, nuestro portal de cliente (si no tienes claves de acceso, puedes llamarnos y te ayudaremos). También puedes visitar el&nbsp;apartado <b>preguntas frecuentes</b> en el área cliente de nuestra web, pinchando <a href="https://www.arriagaasociados.com/landing/faqareacliente/">AQUI</a> &nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>Gracias por confiar en nosotros.&nbsp;<br />
+Departamento Sentencias.</p>
+
+</body></html>

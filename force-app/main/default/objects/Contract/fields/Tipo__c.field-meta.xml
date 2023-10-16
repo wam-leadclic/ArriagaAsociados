@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tipo__c</fullName>
+    <description>Tipo de pago realizado a la hora de realizar una contratación de un producto.</description>
+    <externalId>false</externalId>
+    <label>Tipo</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>TPV</fullName>
+                <default>false</default>
+                <label>TPV</label>
+            </value>
+            <value>
+                <fullName>TPV Virtual</fullName>
+                <default>false</default>
+                <label>TPV Virtual</label>
+            </value>
+            <value>
+                <fullName>En metálico</fullName>
+                <default>false</default>
+                <label>En metálico</label>
+            </value>
+            <value>
+                <fullName>Transferencia</fullName>
+                <default>false</default>
+                <label>Transferencia</label>
+            </value>
+            <value>
+                <fullName>Autorizado sin provisión</fullName>
+                <default>false</default>
+                <label>Autorizado sin provisión</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

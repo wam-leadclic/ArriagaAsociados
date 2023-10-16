@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Mail 2 - Cliente con Embargo se recibe docu.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Cliente con Embargo se recibe docu.</name>
+    <relatedEntityType>Case</relatedEntityType>
+    <style>none</style>
+    <subject>Atención al Cliente - Caso (número caso)</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

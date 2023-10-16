@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ImporteNoNegativo</fullName>
+    <active>true</active>
+    <description>No se puede introducir un importe menor que 0</description>
+    <errorConditionFormula>IF( PrecioTotal__c &lt; 0,true,false)</errorConditionFormula>
+    <errorMessage>El Importe Total no puede ser negativo</errorMessage>
+</ValidationRule>

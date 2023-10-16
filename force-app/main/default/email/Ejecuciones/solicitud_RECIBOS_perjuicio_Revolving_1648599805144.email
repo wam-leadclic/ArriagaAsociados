@@ -1,0 +1,34 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<p>Buenos días {{{Recipient.FirstName}}}:</p>
+
+<p>&nbsp;</p>
+
+<p>Seguimos trabajando para recuperar lo que te pertenece, por lo que en tu expediente con número {{{Case.NumeroExpediente__c}}}&nbsp;nos hará falta documentación específica para extraer la información necesaria&nbsp;y <b>poder calcular el perjuicio que te ha causado la tarjeta Revolving.</b>&nbsp;</p>
+
+<p>¿Qué necesitamos? &nbsp;</p>
+
+<p>Necesitamos que solicites a la entidad financiera:&nbsp;</p>
+
+<ul>
+	<li><b>Los recibos de la tarjeta</b><span style="color:#e74c3c;"><b>&nbsp;</b></span><b><span style="color:#e74c3c;">(xxx xxx)</span>,</b><b> del banco </b><span style="color:#e74c3c;"><b>(xxxxxx)</b></span><b><span style="color:#e74c3c;"> </span>específicamente los recibos de la propia tarjeta Revolving, </b>&nbsp;</li>
+</ul>
+
+<p>(no será de utilidad&nbsp;cualquier otro recibo bancario de tu entidad no relacionado específicamente a la tarjeta Revolving)&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>Puedes enviarlos respondiendo a este mismo mail y lo gestionaremos&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>Gracias por confiar en nosotros.&nbsp;</p>
+
+<p>Departamento de sentencias&nbsp;</p>
+
+<p>&nbsp;</p>
+
+</body></html>

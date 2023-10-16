@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Plantilla de confirmación del contrato cuando se paga y se cierra la Oportunidad</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Confirmación en Contratación</name>
+    <style>none</style>
+    <subject>Su contrato en Arriaga Asociados</subject>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

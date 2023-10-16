@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NumeroExpediente__c</fullName>
+    <caseSensitive>false</caseSensitive>
+    <description>Número de expediente único que se usa para enviar a Redsys como identificador del pago que se va a realizar</description>
+    <externalId>true</externalId>
+    <label>Número Expediente</label>
+    <length>40</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>true</unique>
+</CustomField>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SCV_CALLBACK_CALL_CENTER_OM_Callback</fullName>
+    <columns>NAME</columns>
+    <columns>OM_Account__c</columns>
+    <columns>OM_OriginQueue__c</columns>
+    <columns>OM_Status__c</columns>
+    <columns>OM_ScheduledDate__c</columns>
+    <columns>OM_StartDate__c</columns>
+    <columns>OM_VoiceCall__c</columns>
+    <columns>OM_Phone__c</columns>
+    <columns>OM_Type__c</columns>
+    <filterScope>Queue</filterScope>
+    <label>CALLBACK CALL CENTER</label>
+    <queue>SCV_CALLBACK_CALL_CENTER</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

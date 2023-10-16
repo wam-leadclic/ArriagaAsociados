@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MLPredictionDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <aiApplicationDeveloperName>CaseATC</aiApplicationDeveloperName>
+    <description>ServiceCC predField Type</description>
+    <developerName>mlpd_v0_1685704273225</developerName>
+    <masterLabel>ServiceCCType</masterLabel>
+    <predictionField>Case.Type</predictionField>
+    <status>Enabled</status>
+    <type>MulticlassClassification</type>
+</MLPredictionDefinition>

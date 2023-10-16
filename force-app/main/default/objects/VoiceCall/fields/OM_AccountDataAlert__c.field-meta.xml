@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OM_AccountDataAlert__c</fullName>
+    <externalId>false</externalId>
+    <formula>NOT(ISBLANK(OM_Account__c)) &amp;&amp; ISBLANK(OM_Account__r.PersonEmail) &amp;&amp; ISBLANK(OM_Account__r.Phone) &amp;&amp; ISBLANK(OM_Account__r.CorreoElectronicoSecundario__c) &amp;&amp; ISBLANK(OM_Account__r.PersonMobilePhone)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Account Data Alert</label>
+    <type>Checkbox</type>
+</CustomField>

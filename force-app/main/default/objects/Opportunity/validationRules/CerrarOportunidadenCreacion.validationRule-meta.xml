@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CerrarOportunidadenCreacion</fullName>
+    <active>true</active>
+    <description>Impide que la oportunidad se marque como cerrada ganada en la creación</description>
+    <errorConditionFormula>AND (
+ISNEW(),
+TEXT(StageName) = &quot;Cerrada ganada&quot;
+)</errorConditionFormula>
+    <errorMessage>No puede cerrarse la oportunidad en la creación de la misma</errorMessage>
+</ValidationRule>

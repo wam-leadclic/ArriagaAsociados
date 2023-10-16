@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>Configuración encargada de guardar los datos necesarios para poder obtener el token de la instacia de SF y de esta manera poder conectarnos con la misma instancia</description>
+    <enableFeeds>false</enableFeeds>
+    <label>IntegracionSF</label>
+    <visibility>Public</visibility>
+</CustomObject>

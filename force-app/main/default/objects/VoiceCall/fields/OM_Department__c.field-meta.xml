@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OM_Department__c</fullName>
+    <externalId>false</externalId>
+    <label>Departamento</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ATENCIÓN AL CLIENTE (ATC)</fullName>
+                <default>false</default>
+                <label>ATENCIÓN AL CLIENTE (ATC)</label>
+            </value>
+            <value>
+                <fullName>CALL CENTER</fullName>
+                <default>false</default>
+                <label>CALL CENTER</label>
+            </value>
+            <value>
+                <fullName>GESTIÓN DE COBROS</fullName>
+                <default>false</default>
+                <label>GESTIÓN DE COBROS</label>
+            </value>
+            <value>
+                <fullName>APEX Y ACMS Y FACTURACIÓN</fullName>
+                <default>false</default>
+                <label>APEX Y ACMS Y FACTURACIÓN</label>
+            </value>
+            <value>
+                <fullName>PROCESAL</fullName>
+                <default>false</default>
+                <label>PROCESAL</label>
+            </value>
+            <value>
+                <fullName>EJECUCIONES</fullName>
+                <default>false</default>
+                <label>EJECUCIONES</label>
+            </value>
+            <value>
+                <fullName>CONTROL DE GESTIÓN</fullName>
+                <default>false</default>
+                <label>CONTROL DE GESTIÓN</label>
+            </value>
+            <value>
+                <fullName>GESTIÓN DE CLIENTE</fullName>
+                <default>false</default>
+                <label>GESTIÓN DE CLIENTE</label>
+            </value>
+            <value>
+                <fullName>REDACCIÓN</fullName>
+                <default>false</default>
+                <label>REDACCIÓN</label>
+            </value>
+            <value>
+                <fullName>VENTAS</fullName>
+                <default>false</default>
+                <label>VENTAS</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

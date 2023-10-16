@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>ATC APOYO - ZONA ANDALUCIA OCCIDENTAL</name>
+    <queueMembers>
+        <roles>
+            <role>Supervisor_ATC</role>
+        </roles>
+        <users>
+            <user>amachicado@arriagaasociados.com</user>
+            <user>apedrero@arriagaasociados.com</user>
+            <user>jlmartinez@arriagaasociados.com</user>
+            <user>mbarahona@arriagaasociados.com</user>
+            <user>mdgarcia@arriagaasociados.com</user>
+            <user>mroldan@arriagaasociados.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MLPredictionDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <aiApplicationDeveloperName>CaseATC</aiApplicationDeveloperName>
+    <description>ServiceCC predField Priority</description>
+    <developerName>mlpd_v1_1685704273226</developerName>
+    <masterLabel>ServiceCCPriority</masterLabel>
+    <predictionField>Case.Priority</predictionField>
+    <status>Enabled</status>
+    <type>MulticlassClassification</type>
+</MLPredictionDefinition>

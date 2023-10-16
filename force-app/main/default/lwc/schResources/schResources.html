@@ -1,0 +1,71 @@
+<template>
+    
+        <lightning-card  title={labels.cardTitle} icon-name="standard:service_resource">
+        
+                <template if:false={isDataLoaded}>
+                        <lightning-spinner alternative-text="Loading"></lightning-spinner>
+                </template>
+
+                <template if:false={isError}>
+                        <lightning-layout multiple-rows="true">
+
+                                <lightning-layout-item  padding="around-small" flexibility="auto" size="12" medium-device-size="6">
+
+                                        <!-- radio button if exclusive user option is needed-->
+                                        <template if:true={isRadio}>
+                                                <lightning-radio-group name="Checkbox Group"
+                                                        label={resourceCategories.User.info.label}
+                                                        options={optionsUser}
+                                                        value={userSelectedForComponent}
+                                                        onchange={handleChangeUser}>
+                                                </lightning-radio-group>
+                                        </template>
+
+                                        <!-- checkbox group allowing multiselect -->
+                                        <template if:false={isRadio}>
+                                                <lightning-checkbox-group name="Checkbox Group"
+                                                        label={resourceCategories.User.info.label}
+                                                        options={optionsUser}
+                                                        value={userSelectedForComponent}
+                                                        onchange={handleChangeUser}>
+                                                </lightning-checkbox-group>
+                                        </template>
+                                        
+                                </lightning-layout-item>          
+                               
+                                
+                                <lightning-layout-item  padding="around-small" flexibility="auto" size="12" medium-device-size="6">
+                                        <lightning-checkbox-group name="Checkbox Group"
+                                                label={resourceCategories.Resource.info.label}
+                                                options={optionsResource}
+                                                value={resourceSelected}
+                                                onchange={handleChangeResource}></lightning-checkbox-group>
+                                </lightning-layout-item> 
+
+                                <lightning-layout-item  padding="around-small" flexibility="auto" size="12" medium-device-size="6">
+                                        <lightning-checkbox-group name="Checkbox Group"
+                                                label={labels.videomeeting}
+                                                options={optionsType}
+                                                value={typeSelected}
+                                                onchange={handleChangeType}></lightning-checkbox-group>
+                                </lightning-layout-item>
+								
+							<lightning-layout-item  padding="around-small" flexibility="auto" size="12" medium-device-size="6">
+								<lightning-checkbox-group name="Checkbox Group"
+										label={labels.notSendMail}
+										options={optionsMail}
+										value={sendMail}
+										onchange={handleSendMail}></lightning-checkbox-group>
+						</lightning-layout-item>
+                                
+                        </lightning-layout>
+                </template>
+
+                <template if:true={isError}>
+                        {labels.needConfig}
+                </template>
+
+                
+                
+        </lightning-card>
+</template>

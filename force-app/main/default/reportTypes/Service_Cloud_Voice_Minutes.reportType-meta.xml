@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <baseObject>SCVConnectMetrics</baseObject>
+    <category>other</category>
+    <deployed>true</deployed>
+    <description>Service Cloud Voice Minutes</description>
+    <label>Service Cloud Voice Minutes</label>
+    <sections>
+        <masterLabel>Service Cloud Voice Minutes</masterLabel>
+    </sections>
+</ReportType>

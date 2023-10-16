@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TipoDeCierre__c</fullName>
+    <description>En los casos del tipo financiero se indica el tipo de cierre</description>
+    <externalId>false</externalId>
+    <label>Tipo de cierre</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Type</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Aceptado</fullName>
+                <default>false</default>
+                <label>Aceptado</label>
+            </value>
+            <value>
+                <fullName>Rechazado</fullName>
+                <default>false</default>
+                <label>Rechazado</label>
+            </value>
+            <value>
+                <fullName>No acuerdo</fullName>
+                <default>false</default>
+                <label>No acuerdo</label>
+            </value>
+            <value>
+                <fullName>Desistido</fullName>
+                <default>false</default>
+                <label>Desistido</label>
+            </value>
+            <value>
+                <fullName>Reconducido</fullName>
+                <default>false</default>
+                <label>Reconducido</label>
+            </value>
+            <value>
+                <fullName>No desistimiento</fullName>
+                <default>false</default>
+                <label>No desistimiento</label>
+            </value>
+            <value>
+                <fullName>Gestionado</fullName>
+                <default>false</default>
+                <label>Gestionado</label>
+            </value>
+            <value>
+                <fullName>Cobrado</fullName>
+                <default>false</default>
+                <label>Cobrado</label>
+            </value>
+            <value>
+                <fullName>No procede</fullName>
+                <default>false</default>
+                <label>No procede</label>
+            </value>
+            <value>
+                <fullName>Resuelto</fullName>
+                <default>false</default>
+                <label>Resuelto</label>
+            </value>
+            <value>
+                <fullName>Duplicada</fullName>
+                <default>false</default>
+                <label>Duplicada</label>
+            </value>
+            <value>
+                <fullName>No es queja</fullName>
+                <default>false</default>
+                <label>No es queja</label>
+            </value>
+            <value>
+                <fullName>Incidencia</fullName>
+                <default>false</default>
+                <label>Incidencia</label>
+            </value>
+            <value>
+                <fullName>Siniestro</fullName>
+                <default>false</default>
+                <label>Siniestro</label>
+            </value>
+            <value>
+                <fullName>Fallido</fullName>
+                <default>false</default>
+                <label>Fallido</label>
+            </value>
+            <value>
+                <fullName>No es Incidencia</fullName>
+                <default>false</default>
+                <label>No es Incidencia</label>
+            </value>
+            <value>
+                <fullName>Positivo</fullName>
+                <default>false</default>
+                <label>Positivo</label>
+            </value>
+            <value>
+                <fullName>Negativo</fullName>
+                <default>false</default>
+                <label>Negativo</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Solicita información/gestión</controllingFieldValue>
+            <controllingFieldValue>No es queja/reclamación</controllingFieldValue>
+            <controllingFieldValue>Incidencia</controllingFieldValue>
+            <controllingFieldValue>Demora gestión expediente</controllingFieldValue>
+            <controllingFieldValue>Disconforme con cantidades reclamadas</controllingFieldValue>
+            <controllingFieldValue>Disconformidad con cobro</controllingFieldValue>
+            <controllingFieldValue>OTROS</controllingFieldValue>
+            <controllingFieldValue>Disconformidad con la atención recibida</controllingFieldValue>
+            <controllingFieldValue>Disconformidad con la ejecución del encargo</controllingFieldValue>
+            <controllingFieldValue>Información facilitada deficiente</controllingFieldValue>
+            <controllingFieldValue>No viable</controllingFieldValue>
+            <valueName>Resuelto</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Solicita información/gestión</controllingFieldValue>
+            <controllingFieldValue>No es queja/reclamación</controllingFieldValue>
+            <controllingFieldValue>Incidencia</controllingFieldValue>
+            <controllingFieldValue>Demora gestión expediente</controllingFieldValue>
+            <controllingFieldValue>Disconforme con cantidades reclamadas</controllingFieldValue>
+            <controllingFieldValue>Disconformidad con cobro</controllingFieldValue>
+            <controllingFieldValue>OTROS</controllingFieldValue>
+            <controllingFieldValue>Disconformidad con la atención recibida</controllingFieldValue>
+            <controllingFieldValue>Disconformidad con la ejecución del encargo</controllingFieldValue>
+            <controllingFieldValue>Información facilitada deficiente</controllingFieldValue>
+            <controllingFieldValue>No viable</controllingFieldValue>
+            <valueName>Duplicada</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Solicita información/gestión</controllingFieldValue>
+            <controllingFieldValue>No es queja/reclamación</controllingFieldValue>
+            <controllingFieldValue>Demora gestión expediente</controllingFieldValue>
+            <controllingFieldValue>Disconforme con cantidades reclamadas</controllingFieldValue>
+            <controllingFieldValue>Disconformidad con cobro</controllingFieldValue>
+            <controllingFieldValue>OTROS</controllingFieldValue>
+            <controllingFieldValue>Disconformidad con la atención recibida</controllingFieldValue>
+            <controllingFieldValue>Disconformidad con la ejecución del encargo</controllingFieldValue>
+            <controllingFieldValue>Información facilitada deficiente</controllingFieldValue>
+            <controllingFieldValue>No viable</controllingFieldValue>
+            <valueName>No es queja</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Solicita información/gestión</controllingFieldValue>
+            <controllingFieldValue>No es queja/reclamación</controllingFieldValue>
+            <controllingFieldValue>Demora gestión expediente</controllingFieldValue>
+            <controllingFieldValue>Disconforme con cantidades reclamadas</controllingFieldValue>
+            <controllingFieldValue>Disconformidad con cobro</controllingFieldValue>
+            <controllingFieldValue>OTROS</controllingFieldValue>
+            <controllingFieldValue>Disconformidad con la atención recibida</controllingFieldValue>
+            <controllingFieldValue>Disconformidad con la ejecución del encargo</controllingFieldValue>
+            <controllingFieldValue>Información facilitada deficiente</controllingFieldValue>
+            <controllingFieldValue>No viable</controllingFieldValue>
+            <valueName>Incidencia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Solicita información/gestión</controllingFieldValue>
+            <controllingFieldValue>No es queja/reclamación</controllingFieldValue>
+            <controllingFieldValue>Incidencia</controllingFieldValue>
+            <controllingFieldValue>Demora gestión expediente</controllingFieldValue>
+            <controllingFieldValue>Disconforme con cantidades reclamadas</controllingFieldValue>
+            <controllingFieldValue>Disconformidad con cobro</controllingFieldValue>
+            <controllingFieldValue>OTROS</controllingFieldValue>
+            <controllingFieldValue>Disconformidad con la atención recibida</controllingFieldValue>
+            <controllingFieldValue>Disconformidad con la ejecución del encargo</controllingFieldValue>
+            <controllingFieldValue>Información facilitada deficiente</controllingFieldValue>
+            <controllingFieldValue>No viable</controllingFieldValue>
+            <valueName>Siniestro</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Solicita información/gestión</controllingFieldValue>
+            <controllingFieldValue>No es queja/reclamación</controllingFieldValue>
+            <controllingFieldValue>Incidencia</controllingFieldValue>
+            <controllingFieldValue>Información facilitada deficiente</controllingFieldValue>
+            <controllingFieldValue>No viable</controllingFieldValue>
+            <valueName>Fallido</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Acuerdo</controllingFieldValue>
+            <valueName>Aceptado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Acuerdo</controllingFieldValue>
+            <valueName>Rechazado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Acuerdo</controllingFieldValue>
+            <valueName>No acuerdo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Desistimiento</controllingFieldValue>
+            <valueName>Desistido</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Desistimiento</controllingFieldValue>
+            <controllingFieldValue>Venia</controllingFieldValue>
+            <valueName>Reconducido</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Desistimiento</controllingFieldValue>
+            <valueName>No desistimiento</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Venia</controllingFieldValue>
+            <valueName>Gestionado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gestión de cobros</controllingFieldValue>
+            <valueName>Cobrado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gestión de cobros</controllingFieldValue>
+            <valueName>No procede</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incidencia</controllingFieldValue>
+            <valueName>No es Incidencia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Siniestro</controllingFieldValue>
+            <valueName>Positivo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Siniestro</controllingFieldValue>
+            <valueName>Negativo</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

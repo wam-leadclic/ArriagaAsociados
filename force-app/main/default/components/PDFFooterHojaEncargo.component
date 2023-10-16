@@ -1,0 +1,74 @@
+<!--
+  @description       : Ultima actualizacion: texto de firma
+  @author            : ChangeMeIn@UserSettingsUnder.SFDoc
+  @group             : 
+  @last modified on  : 03-31-2023
+  @last modified by  : ChangeMeIn@UserSettingsUnder.SFDoc
+-->
+<apex:component >
+ <apex:attribute name="catalan" description="Si la Hoja debe estar en Catalan"
+        type="Boolean" required="false"/>
+          <apex:outputPanel rendered="{!catalan== false}">  
+            <div style="font-size: 12px">
+       
+        <apex:outputText value=""> 
+        </apex:outputText>
+        
+        <br/> <br/>
+        
+        <apex:outputText value="Fdo.: Cliente "/>
+        <apex:outputText style="margin-left:200px" value="Fdo. Apoderada del órgano de administración"/><br/>
+        <apex:image id="firma1" style="margin-left:250px" width="200"  value="{!$Label.FirmaAdministradorUnico}" alt="Arriaga Asociados"/><br/>
+        <apex:outputText value="______________________________ "/>
+        <apex:outputText style="margin-left:90px" value="MARÍA GIULIANA MAYURI CHUMACERO"/><br/><br/><br/>
+        <i>
+        <apex:outputText value="<u>Responsable del tratamiento:</u> Arriaga Asociados Asesoramiento Jurídico y Económico, S.L." escape="false"/><br/>
+        <apex:outputText value="<u>Finalidad:</u> Prestación de servicio, Envío de comunicaciones comerciales en función de su comportamiento y preferencias personales, 
+                                realización de encuestas de satisfacción" escape="false"/><br/>
+        <apex:outputText value="<u>Legitimación:</u> Ejecución de un contrato, consentimiento e interés legítimo." escape="false"/><br/>
+        <apex:outputText value="<u>Destinatarios:</u> Administraciones públicas, entidades financieras, juzgados y tribunales, notarías y registros, 
+                                contraparte en el ejercicio del derecho de defensa y proveedores." escape="false"/><br/>
+        <apex:outputText value="<u>Derechos:</u> Acceso, rectificación, supresión, limitación, oposición y portabilidad de datos." escape="false"/><br/>
+        <apex:outputText value="<u>Procedencia de los datos:</u> El propio interesado, fuentes propias y de terceros." escape="false"/><br/>
+        <apex:outputText value="Puede acceder a la información completa sobre protección de datos y la forma en que ejercitar sus derechos en:             
+                                https://www.arriagaasociados.com/politica-de-privacidad/" escape="false"/><br/><br/>
+        </i>
+        <apex:outputText value="Fdo.: Cliente "/>
+        <apex:outputText style="margin-left:200px" value="Fdo. Apoderada del órgano de administración"/><br/>
+        <apex:image id="firma2" style="margin-left:250px" width="200"  value="{!$Label.FirmaAdministradorUnico}" alt="Arriaga Asociados"/><br/>
+        <apex:outputText value="______________________________ "/>
+        <apex:outputText style="margin-left:90px" value="MARÍA GIULIANA MAYURI CHUMACERO"/>
+        
+    </div>
+     </apex:outputpanel>
+      <apex:outputPanel rendered="{!catalan== true}">  
+        <div style="font-size: 12px">
+       
+        <apex:outputText value=""> 
+        </apex:outputText>
+        
+        <br/> <br/>
+        
+        <apex:outputText value="Fdo.: El Client  "/>
+        <apex:outputText style="margin-left:200px" value="Fdo. Apoderada de l'órgan d'administraciò"/><br/>
+        <apex:image id="firma11" style="margin-left:250px" width="200"  value="{!$Label.FirmaAdministradorUnico}" alt="Arriaga Asociados"/><br/>
+        <apex:outputText value="______________________________ "/>
+        <apex:outputText style="margin-left:90px" value="MARÍA GIULIANA MAYURI CHUMACERO"/><br/><br/><br/>
+        <i>
+        <apex:outputText value="<u>Responsable del tractament:</u> Arriaga Asociados Asesoramiento Jurídico y Económico, S.L." escape="false"/><br/>
+        <apex:outputText value="<u>Finalitat:</u> Prestació de servei, enviament de comunicacions comercials en funció del seu comportament i preferències personals, realització d’enquestes de satisfacció." escape="false"/><br/>
+        <apex:outputText value="<u>Legitimació:</u> Execució d’un contracte, consentiment i interès legítim." escape="false"/><br/>
+        <apex:outputText value="<u>Destinataris:</u> Administracions públiques, entitats financeres, jutjats i tribunals, notaries i registres, contrapart en l’exercici del dret de defensa i proveïdors." escape="false"/><br/>
+        <apex:outputText value="<u>Drets:</u> Accés, rectificació, supressió, limitació, oposició i portabilitat de dades." escape="false"/><br/>
+        <apex:outputText value="<u>Procedència de les dades:</u> El propi interessat, fonts pròpies i de tercers." escape="false"/><br/>
+        <apex:outputText value="Pot accedir a la informació completa sobre protecció de dades i la forma d’exercici dels seus drets a: https://www.arriagaasociados.com/politica-de-privacidad/" escape="false"/><br/><br/>
+        </i>
+        <apex:outputText value="Fdo.: El client "/>
+        <apex:outputText style="margin-left:200px" value="Fdo. Apoderada de l'órgan d'administraciò"/><br/>
+        <apex:image id="firma12" style="margin-left:250px" width="200"  value="{!$Label.FirmaAdministradorUnico}" alt="Arriaga Asociados"/><br/>
+        <apex:outputText value="______________________________ "/>
+        <apex:outputText style="margin-left:90px" value="MARÍA GIULIANA MAYURI CHUMACERO"/>
+        
+    </div>
+      </apex:outputpanel>
+</apex:component>

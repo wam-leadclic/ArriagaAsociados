@@ -1,0 +1,30 @@
+<table border="0" cellpadding="5" width="600" cellspacing="5" height="400" >
+<tr valign="top" height="50" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[]]></td>
+</tr>
+<tr valign="top" height="300" >
+<td tEditID="c1r2" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r2" locked="0" >
+<![CDATA[<p class="MsoNormal" style=""><span style="font-size: 12pt; line-height: 107%;"><font face="Times New Roman, Times, serif">Estimada&nbsp;{!Case.Contact} :<o:p></o:p></font></span></p>
+
+<p class="MsoNormal" style=""><span style="font-size: 12pt; line-height: 107%;"><o:p><font face="Times New Roman, Times, serif">&nbsp;</font></o:p></span></p>
+
+<p class="MsoNormal" style="margin-bottom: 0.0001pt; text-indent: 35.45pt; line-height: 150%; background: white;"><font face="Times New Roman, Times, serif"><span style="font-size: 12pt; line-height: 150%; color: rgb(0, 0, 10);">Le remitimos esta carta ya que nos ha sido imposible contactar por teléfono
+en el número que consta en el expediente de </span><span style="font-size: 12pt; line-height: 150%; color: rgb(0, 112, 192);">PRODUCTO</span><span style="font-size: 12pt; line-height: 150%; color: rgb(0, 0, 10);"> con número de referencia&nbsp;{!Case.NumeroExpediente__c}</span><span style="font-size: 12pt; line-height: 150%; color: rgb(0, 0, 10);">&nbsp;que tiene contratado con nosotros.<o:p></o:p></span></font></p>
+
+<p class="MsoNormal" style="margin-bottom: 0.0001pt; text-indent: 35.45pt; line-height: 150%; background: white;"><font face="Times New Roman, Times, serif"><span style="font-size: 12pt; line-height: 150%; color: rgb(0, 0, 10);">Le</span><span style="font-size: 12pt; line-height: 150%; color: rgb(91, 155, 213);">(s) ruego /</span><span style="font-size: 12pt; line-height: 150%; color: rgb(0, 0, 10);"> </span><span style="font-size: 12pt; line-height: 150%; color: rgb(91, 155, 213);">rogamos </span><span style="font-size: 12pt; line-height: 150%; color: rgb(0, 0, 10);">que se ponga</span><span style="font-size: 12pt; line-height: 150%; color: rgb(91, 155, 213);">(n)</span><span style="font-size: 12pt; line-height: 150%; color: rgb(0, 0, 10);"> en contacto con </span><span style="font-size: 12pt; line-height: 150%; color: rgb(91, 155, 213);">Ana Belén Samper Alos</span><span style="font-size: 12pt; line-height: 150%; color: rgb(0, 0, 10);"> en el teléfono 91 xxxxxxx a la mayor brevedad posible.<o:p></o:p></span></font></p>
+
+<p style="margin-bottom: 0.0001pt; line-height: normal; background: white;"><o:p><font face="Times New Roman, Times, serif">&nbsp;</font></o:p></p>
+
+<p style="margin-bottom: 0.0001pt; line-height: normal; background: white;"><font face="Times New Roman, Times, serif">Reciba<span style="color:#5B9BD5;mso-themecolor:accent1">(n) </span>un
+cordial saludo <o:p></o:p></font></p>
+
+<p style="margin-bottom: 0.0001pt; line-height: normal; background: white;"><o:p><font face="Times New Roman, Times, serif">&nbsp;</font></o:p></p>
+
+<p style="margin-bottom: 0.0001pt; line-height: normal; background: white;"><font face="Times New Roman, Times, serif">Dpto. Gestoría Jurídica.</font><font face="arial"><o:p></o:p></font></p>]]></td>
+</tr>
+<tr valign="top" height="50" >
+<td tEditID="c1r3" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r3" locked="0" >
+<![CDATA[<font face="arial" color="#ffffff">{!Case.Thread_Id}</font>]]></td>
+</tr>
+</table>

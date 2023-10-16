@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OM_isOnline__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Indica si este territorio se trata de una oficina virtual (online)</description>
+    <externalId>false</externalId>
+    <label>Oficina Online</label>
+    <trackHistory>true</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

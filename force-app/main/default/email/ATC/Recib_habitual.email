@@ -1,0 +1,25 @@
+<table border="0" cellpadding="5" width="600" cellspacing="5" height="400" >
+<tr valign="top" height="50" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[]]></td>
+</tr>
+<tr valign="top" height="300" >
+<td tEditID="c1r2" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r2" locked="0" >
+<![CDATA[<p style=""><font face="Times New Roman, Times, serif">En ……………..a…..de…….de………<o:p></o:p></font></p><p style=""><font face="Times New Roman, Times, serif"><br></font></p>
+
+<p style="line-height: 106%;"><font face="Times New Roman, Times, serif">DON/DOÑA ……………………..……. con DNI nº ………….…….. con
+domicilio en ………………… actuando en nombre propio <o:p></o:p></font></p><p style="line-height: 106%;"><font face="Times New Roman, Times, serif"><br></font></p>
+
+<p style="line-height: 106%;"><font face="Times New Roman, Times, serif">Mediante la presente, declaro haber recibido de
+ARRIAGA ASOCIADOS, ASESORAMIENTO JURÍDICO, a mí entera satisfacción los
+siguientes documentos:&nbsp; <o:p></o:p></font></p><p style="line-height: 106%;"><font face="Times New Roman, Times, serif"><br></font></p>
+
+<p style=""><font face="Times New Roman, Times, serif">1-<o:p></o:p></font></p><p style=""><font face="Times New Roman, Times, serif"><br></font></p>
+
+<p style=""><font face="Times New Roman, Times, serif">Firmo la presente en señal de conformidad con la recepción,</font><font face="arial"><o:p></o:p></font></p>]]></td>
+</tr>
+<tr valign="top" height="50" >
+<td tEditID="c1r3" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r3" locked="0" >
+<![CDATA[<span style="font-size: medium;"><font color="#ffffff">{!Case.Thread_Id}</font></span>]]></td>
+</tr>
+</table>

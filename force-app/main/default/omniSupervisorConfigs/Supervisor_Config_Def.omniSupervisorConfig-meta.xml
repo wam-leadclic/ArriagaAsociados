@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OmniSupervisorConfig xmlns="http://soap.sforce.com/2006/04/metadata">
+    <isTimelineHidden>false</isTimelineHidden>
+    <masterLabel>Supervisor_Config_Def</masterLabel>
+    <omniSupervisorConfigAction>
+        <actionName>AWSDashboard</actionName>
+        <actionTab>AllAgents</actionTab>
+        <displayOrder>0</displayOrder>
+    </omniSupervisorConfigAction>
+    <omniSupervisorConfigGroup>
+        <group>ATC</group>
+    </omniSupervisorConfigGroup>
+    <omniSupervisorConfigGroup>
+        <group>Call_Center</group>
+    </omniSupervisorConfigGroup>
+    <omniSupervisorConfigGroup>
+        <group>Edit_Quick_Text</group>
+    </omniSupervisorConfigGroup>
+    <omniSupervisorConfigGroup>
+        <group>Financiero</group>
+    </omniSupervisorConfigGroup>
+    <omniSupervisorConfigGroup>
+        <group>General</group>
+    </omniSupervisorConfigGroup>
+    <omniSupervisorConfigGroup>
+        <group>Integraci_n</group>
+    </omniSupervisorConfigGroup>
+    <omniSupervisorConfigGroup>
+        <group>Plantillas_de_Comunicacion</group>
+    </omniSupervisorConfigGroup>
+    <omniSupervisorConfigGroup>
+        <group>Renegociacion_PH</group>
+    </omniSupervisorConfigGroup>
+    <omniSupervisorConfigGroup>
+        <group>Riesgos</group>
+    </omniSupervisorConfigGroup>
+    <omniSupervisorConfigGroup>
+        <group>Siniestros</group>
+    </omniSupervisorConfigGroup>
+    <omniSupervisorConfigProfile>
+        <profile>call center coordinador</profile>
+    </omniSupervisorConfigProfile>
+    <omniSupervisorConfigProfile>
+        <profile>call center supervisor call center</profile>
+    </omniSupervisorConfigProfile>
+    <omniSupervisorConfigProfile>
+        <profile>formador</profile>
+    </omniSupervisorConfigProfile>
+    <omniSupervisorConfigProfile>
+        <profile>admin</profile>
+    </omniSupervisorConfigProfile>
+    <omniSupervisorConfigProfile>
+        <profile>online coordinador online</profile>
+    </omniSupervisorConfigProfile>
+    <skillVisibility>AllSkills</skillVisibility>
+</OmniSupervisorConfig>

@@ -1,0 +1,22 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<p>Buenos días {{{Recipient.FirstName}}}</p>
+
+<p>&nbsp;<br />
+Tras conversación telefónica hemos incorporado a nuestra base de datos, el número de cuenta bancaria que nos has proporcionado:&nbsp;</p>
+
+<p>&nbsp;<br />
+<b>ES**</b>&nbsp;</p>
+
+<p>&nbsp;<br />
+Si vieras&nbsp;algún error en los datos recogidos te rogamos nos lo hagas saber a la mayor brevedad. En caso contrario, no es preciso que respondas a este correo electrónico y continuaremos las gestiones.&nbsp;</p>
+
+<p>Recuerda que siempre que lo necesites, puedes ponerte en contacto con nosotros al teléfono 91 005 2600 o visitando TU ESPACIO ARRIAGA, nuestro portal de cliente (si no tienes claves de acceso, puedes llamarnos y te ayudaremos)&nbsp;&nbsp;</p>
+
+<p>Gracias por confiar en nosotros.&nbsp;<br />
+Departamentos de Sentencias.</p>
+</body>
+</html>

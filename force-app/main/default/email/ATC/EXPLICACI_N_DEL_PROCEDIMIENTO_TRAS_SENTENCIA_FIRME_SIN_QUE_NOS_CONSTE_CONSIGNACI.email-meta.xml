@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Arriaga_plantilla_casos</letterhead>
+    <name>EXPLICACIÓN DEL PROCEDIMIENTO TRAS SENTENCIA FIRME SIN QUE NOS CONSTE CONSIGNACI</name>
+    <style>formalLetter</style>
+    <subject>EXPLICACIÓN DEL PROCEDIMIENTO TRAS SENTENCIA FIRME SIN QUE NOS CONSTE CONSIGNACIÓN</subject>
+    <textOnly>Estimado {!Contact.FirstName},
+
+
+En relación a la consulta planteada sobre el expediente {!Case.NumeroExpediente__c}, le damos la enhorabuena porque su sentencia ya es firme.
+
+A día de hoy, no consta consignación por parte de la entidad en la cuenta de depósitos y consignaciones del juzgado.
+
+A partir de ahora la entidad condenada tiene 20 días hábiles para el cumplimiento voluntario de la sentencia, durante el cual puede depositar las cantidades a las que ha sido condenada, bien en la Cuenta de Depósitos y Consignaciones del Juzgado o bien en una cuenta personal suya.
+
+Si, transcurrido el plazo voluntario de pago, la entidad no hubiera cumplido procederíamos a preparar la demanda de ejecución para solicitar el cumplimiento forzoso de la sentencia.
+
+En caso de recibir algún ingreso en su cuenta por parte de la entidad bancaria, rogamos nos lo comunique a efectos de realizar las gestiones oportunas.
+
+Para mayor información quedamos a su disposición en el teléfono de atención al cliente 91 005 26 00.
+
+
+Reciba un cordial saludo.
+
+
+
+{!Case.OwnerFirstName} {!Case.OwnerLastName}
+
+Departamento de Atención al Cliente.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

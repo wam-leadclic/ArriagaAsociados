@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EmpleadoBP__c</fullName>
+    <description>Empleado del Banco Popular o Grupo</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Empleado del Banco Popular o Grupo</inlineHelpText>
+    <label>Empleado Banco Popular/Grupo</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

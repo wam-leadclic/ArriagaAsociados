@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ParteJesusMariaICAM__c</fullName>
+    <description>Se muestra el documento del parte de jesus maría para los casos de riesgo</description>
+    <externalId>false</externalId>
+    <formula>HYPERLINK(&apos;https://arriagaasociados--partial--c.documentforce.com/servlet/servlet.FileDownload?file=0151x000000784E&apos;, &apos;Ver&apos; , &apos;_blank&apos;)</formula>
+    <label>Parte Jesus Maria ICAM</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

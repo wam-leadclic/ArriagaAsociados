@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>TipoExpDerivado__c</name>
+    <picklistValues>
+        <masterLabel>Demanda Independiente de Gastos Hipotecarios</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Demanda Independiente otras situaciones</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Demanda independiente de Acciones Popular</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Demanda independiente de IRPH</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Demanda independiente de Tarjeta Revolving</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Demanda independiente de cláusula suelo</masterLabel>
+        <translation></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MessageSyncMinerva__c</fullName>
+    <description>Mensaje del estado de la sincronización con los servicios web de Minerva. Aparecerá relleno si el estado es ERROR e indicará el error</description>
+    <externalId>false</externalId>
+    <label>Mensaje sincronización Minerva</label>
+    <length>131072</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>LongTextArea</type>
+    <visibleLines>20</visibleLines>
+</CustomField>

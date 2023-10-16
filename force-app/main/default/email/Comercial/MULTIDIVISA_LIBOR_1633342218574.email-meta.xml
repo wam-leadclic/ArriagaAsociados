@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>ENVIADO POR MAIL SALEFORCE A TODOS LOS CLIENTES DE PRESTAMO MUTIDIVISA, POR NOVEDAD LIBOR PARA CUENTAS</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>MULTIDIVISA LIBOR</name>
+    <relatedEntityType>Account</relatedEntityType>
+    <style>none</style>
+    <subject>Préstamo Multidivisa | Información de interés Arriaga Asociados</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

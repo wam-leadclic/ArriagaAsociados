@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Control_Documento_Identificativo_Led_OLD</fullName>
+    <active>false</active>
+    <errorConditionFormula>And (
+Not(ISPICKVAL(TipoDocumento__c,&quot;&quot;)),
+OR (
+AND(
+NOT(ISPICKVAL(TipoDocumento__c,&quot;CIF&quot;)), OR (ISNUMBER(RIGHT(DocumentoIdentidad__c,1)), DocumentoIdentidad__c=&quot;&quot;)
+),
+AND(
+ISPICKVAL(TipoDocumento__c,&quot;CIF&quot;), OR(ISNUMBER(LEFT(DocumentoIdentidad__c,1)), DocumentoIdentidad__c=&quot;&quot;)
+)
+)
+)</errorConditionFormula>
+    <errorMessage>Si rellena el campo Tipo de Documento, ha de rellenar también el Documento. Verifique el Tipo y/o el Documento</errorMessage>
+</ValidationRule>

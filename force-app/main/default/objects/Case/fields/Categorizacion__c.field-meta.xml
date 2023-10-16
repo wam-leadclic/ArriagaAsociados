@@ -1,0 +1,662 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Categorizacion__c</fullName>
+    <description>Categoría para la clasificación del caso</description>
+    <externalId>false</externalId>
+    <label>Categorización</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>true</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Type</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>AUDIENCIA PREVIA - CAMBIO DE FECHA</fullName>
+                <default>false</default>
+                <label>AUDIENCIA PREVIA - CAMBIO DE FECHA</label>
+            </value>
+            <value>
+                <fullName>AUDIENCIA PREVIA - PRIMER SEÑALAMIENTO</fullName>
+                <default>false</default>
+                <label>AUDIENCIA PREVIA - PRIMER SEÑALAMIENTO</label>
+            </value>
+            <value>
+                <fullName>AUDIENCIA PREVIA - SUSPENSIÓN</fullName>
+                <default>false</default>
+                <label>AUDIENCIA PREVIA - SUSPENSIÓN</label>
+            </value>
+            <value>
+                <fullName>FALTA INFORMACIÓN CLIENTE</fullName>
+                <default>false</default>
+                <label>FALTA INFORMACIÓN CLIENTE</label>
+            </value>
+            <value>
+                <fullName>HOJA DE RECLAMACION</fullName>
+                <default>false</default>
+                <label>HOJA DE RECLAMACION</label>
+            </value>
+            <value>
+                <fullName>INCIDENCIA EJECUCIONES</fullName>
+                <default>false</default>
+                <label>INCIDENCIA EJECUCIONES</label>
+            </value>
+            <value>
+                <fullName>INCIDENCIA GENERAL</fullName>
+                <default>false</default>
+                <label>INCIDENCIA GENERAL</label>
+            </value>
+            <value>
+                <fullName>INCIDENCIA PROCESAL</fullName>
+                <default>false</default>
+                <label>INCIDENCIA PROCESAL</label>
+            </value>
+            <value>
+                <fullName>INCIDENCIA PRODUCCION</fullName>
+                <default>false</default>
+                <label>INCIDENCIA PRODUCCION</label>
+            </value>
+            <value>
+                <fullName>INFO AP</fullName>
+                <default>false</default>
+                <label>INFO AP</label>
+            </value>
+            <value>
+                <fullName>INFO APELACIÓN</fullName>
+                <default>false</default>
+                <label>INFO APELACIÓN</label>
+            </value>
+            <value>
+                <fullName>INFO COMUNICACIÓN INGRESO CUENTA CLIENTE</fullName>
+                <default>false</default>
+                <label>INFO COMUNICACIÓN INGRESO CUENTA CLIENTE</label>
+            </value>
+            <value>
+                <fullName>INFO CONSIGNACIÓN</fullName>
+                <default>false</default>
+                <label>INFO CONSIGNACIÓN</label>
+            </value>
+            <value>
+                <fullName>INFO CONSULTA/RECEPCIÓN DOCUMENTACIÓN</fullName>
+                <default>false</default>
+                <label>INFO CONSULTA/RECEPCIÓN DOCUMENTACIÓN</label>
+            </value>
+            <value>
+                <fullName>INFO COSTAS</fullName>
+                <default>false</default>
+                <label>INFO COSTAS</label>
+            </value>
+            <value>
+                <fullName>INFO COSTES/ HOJA DE ENCARGO</fullName>
+                <default>false</default>
+                <label>INFO COSTES/ HOJA DE ENCARGO</label>
+            </value>
+            <value>
+                <fullName>INFO DAT</fullName>
+                <default>false</default>
+                <label>INFO DAT</label>
+            </value>
+            <value>
+                <fullName>INFO DOCU</fullName>
+                <default>false</default>
+                <label>INFO DOCU</label>
+            </value>
+            <value>
+                <fullName>INFO EJECUCIÓN</fullName>
+                <default>false</default>
+                <label>INFO EJECUCIÓN</label>
+            </value>
+            <value>
+                <fullName>INFO ENVÍO DOCUMENTACIÓN</fullName>
+                <default>false</default>
+                <label>INFO ENVÍO DOCUMENTACIÓN</label>
+            </value>
+            <value>
+                <fullName>INFO FACTURACIÓN</fullName>
+                <default>false</default>
+                <label>INFO FACTURACIÓN</label>
+            </value>
+            <value>
+                <fullName>INFO FASE MP</fullName>
+                <default>false</default>
+                <label>INFO FASE MP</label>
+            </value>
+            <value>
+                <fullName>INFO GENERAL EXPEDIENTE</fullName>
+                <default>false</default>
+                <label>INFO GENERAL EXPEDIENTE</label>
+            </value>
+            <value>
+                <fullName>INFO JUICIO</fullName>
+                <default>false</default>
+                <label>INFO JUICIO</label>
+            </value>
+            <value>
+                <fullName>INFO LIQUIDACIÓN</fullName>
+                <default>false</default>
+                <label>INFO LIQUIDACIÓN</label>
+            </value>
+            <value>
+                <fullName>INFO MP</fullName>
+                <default>false</default>
+                <label>INFO MP</label>
+            </value>
+            <value>
+                <fullName>INFO OTROS</fullName>
+                <default>false</default>
+                <label>INFO OTROS</label>
+            </value>
+            <value>
+                <fullName>INFO PLAZOS</fullName>
+                <default>false</default>
+                <label>INFO PLAZOS</label>
+            </value>
+            <value>
+                <fullName>INFO RRSS</fullName>
+                <default>false</default>
+                <label>INFO RRSS</label>
+            </value>
+            <value>
+                <fullName>INFO SELLADO JUZGADO</fullName>
+                <default>false</default>
+                <label>INFO SELLADO JUZGADO</label>
+            </value>
+            <value>
+                <fullName>INFO SENTENCIA</fullName>
+                <default>false</default>
+                <label>INFO SENTENCIA</label>
+            </value>
+            <value>
+                <fullName>INFO TASA JUDICIAL</fullName>
+                <default>false</default>
+                <label>INFO TASA JUDICIAL</label>
+            </value>
+            <value>
+                <fullName>JUICIO - CAMBIO DE FECHA</fullName>
+                <default>false</default>
+                <label>JUICIO - CAMBIO DE FECHA</label>
+            </value>
+            <value>
+                <fullName>JUICIO - PRIMER SEÑALAMIENTO</fullName>
+                <default>false</default>
+                <label>JUICIO - PRIMER SEÑALAMIENTO</label>
+            </value>
+            <value>
+                <fullName>JUICIO - SUSPENSIÓN</fullName>
+                <default>false</default>
+                <label>JUICIO - SUSPENSIÓN</label>
+            </value>
+            <value>
+                <fullName>OTRAS VISTAS - CAMBIO DE FECHA</fullName>
+                <default>false</default>
+                <label>OTRAS VISTAS - CAMBIO DE FECHA</label>
+            </value>
+            <value>
+                <fullName>OTRAS VISTAS - PRIMER SEÑALAMIENTO</fullName>
+                <default>false</default>
+                <label>OTRAS VISTAS - PRIMER SEÑALAMIENTO</label>
+            </value>
+            <value>
+                <fullName>OTRAS VISTAS – SUSPENSIÓN</fullName>
+                <default>false</default>
+                <label>OTRAS VISTAS – SUSPENSIÓN</label>
+            </value>
+            <value>
+                <fullName>PETICIÓN ALTA PORTAL CLIENTE</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>PETICIÓN ALTA PORTAL CLIENTE</label>
+            </value>
+            <value>
+                <fullName>PETICIÓN CITA</fullName>
+                <default>false</default>
+                <label>PETICIÓN CITA</label>
+            </value>
+            <value>
+                <fullName>PETICIÓN COMUNICACIÓN DESISTIMIENTO</fullName>
+                <default>false</default>
+                <label>PETICIÓN COMUNICACIÓN DESISTIMIENTO</label>
+            </value>
+            <value>
+                <fullName>PETICION DOCUMENTACIÓN</fullName>
+                <default>false</default>
+                <label>PETICION DOCUMENTACIÓN</label>
+            </value>
+            <value>
+                <fullName>PETICIÓN INGRESO CUENTA CLIENTE</fullName>
+                <default>false</default>
+                <label>PETICIÓN INGRESO CUENTA CLIENTE</label>
+            </value>
+            <value>
+                <fullName>PETICION LOPD</fullName>
+                <default>false</default>
+                <label>PETICION LOPD</label>
+            </value>
+            <value>
+                <fullName>PETICION OTROS</fullName>
+                <default>false</default>
+                <label>PETICION OTROS</label>
+            </value>
+            <value>
+                <fullName>PETICION RENTA</fullName>
+                <default>false</default>
+                <label>PETICION RENTA</label>
+            </value>
+            <value>
+                <fullName>PETICIÓN RRSS</fullName>
+                <default>false</default>
+                <label>PETICIÓN RRSS</label>
+            </value>
+            <value>
+                <fullName>POSIBLE FALLIDO</fullName>
+                <default>false</default>
+                <label>POSIBLE FALLIDO</label>
+            </value>
+            <value>
+                <fullName>QUEJA COMERCIAL-COSTE</fullName>
+                <default>false</default>
+                <label>QUEJA COMERCIAL-COSTE</label>
+            </value>
+            <value>
+                <fullName>QUEJA COMERCIAL-EXPECTATIVAS</fullName>
+                <default>false</default>
+                <label>QUEJA COMERCIAL-EXPECTATIVAS</label>
+            </value>
+            <value>
+                <fullName>QUEJA COMERCIAL- FUNCIONAMIENTO</fullName>
+                <default>false</default>
+                <label>QUEJA COMERCIAL- FUNCIONAMIENTO</label>
+            </value>
+            <value>
+                <fullName>QUEJA COMERCIAL-PLAZOS PROCEDIMIENTO</fullName>
+                <default>false</default>
+                <label>QUEJA COMERCIAL-PLAZOS PROCEDIMIENTO</label>
+            </value>
+            <value>
+                <fullName>QUEJAS ATENCIÓN RECIBIDA</fullName>
+                <default>false</default>
+                <label>QUEJAS ATENCIÓN RECIBIDA</label>
+            </value>
+            <value>
+                <fullName>QUEJAS DOCUMENTACIÓN-PÉRDIDA</fullName>
+                <default>false</default>
+                <label>QUEJAS DOCUMENTACIÓN-PÉRDIDA</label>
+            </value>
+            <value>
+                <fullName>QUEJAS DOCUMENTACIÓN-REITERADA</fullName>
+                <default>false</default>
+                <label>QUEJAS DOCUMENTACIÓN-REITERADA</label>
+            </value>
+            <value>
+                <fullName>QUEJAS EJECUCIONES-CÁLCULOS</fullName>
+                <default>false</default>
+                <label>QUEJAS EJECUCIONES-CÁLCULOS</label>
+            </value>
+            <value>
+                <fullName>QUEJAS EJECUCIONES- NO PRESENTACIÓN EN PLAZO</fullName>
+                <default>false</default>
+                <label>QUEJAS EJECUCIONES- NO PRESENTACIÓN EN PLAZO</label>
+            </value>
+            <value>
+                <fullName>QUEJAS EJECUCIONES- RETRASO MP</fullName>
+                <default>false</default>
+                <label>QUEJAS EJECUCIONES- RETRASO MP</label>
+            </value>
+            <value>
+                <fullName>QUEJAS FACTURACIÓN</fullName>
+                <default>false</default>
+                <label>QUEJAS FACTURACIÓN</label>
+            </value>
+            <value>
+                <fullName>QUEJAS INFORMACIÓN</fullName>
+                <default>false</default>
+                <label>QUEJAS INFORMACIÓN</label>
+            </value>
+            <value>
+                <fullName>QUEJAS OTROS</fullName>
+                <default>false</default>
+                <label>QUEJAS OTROS</label>
+            </value>
+            <value>
+                <fullName>QUEJAS PROCESAL- CADUCIDAD RECURSO</fullName>
+                <default>false</default>
+                <label>QUEJAS PROCESAL- CADUCIDAD RECURSO</label>
+            </value>
+            <value>
+                <fullName>QUEJAS PROCESAL-INFO ERROR</fullName>
+                <default>false</default>
+                <label>QUEJAS PROCESAL-INFO ERROR</label>
+            </value>
+            <value>
+                <fullName>QUEJAS PROCESAL-INFO INSUFICIENTE</fullName>
+                <default>false</default>
+                <label>QUEJAS PROCESAL-INFO INSUFICIENTE</label>
+            </value>
+            <value>
+                <fullName>QUEJAS PROCESAL-PLAZOS</fullName>
+                <default>false</default>
+                <label>QUEJAS PROCESAL-PLAZOS</label>
+            </value>
+            <value>
+                <fullName>QUEJAS PROCURADOR-MP CADUCADO</fullName>
+                <default>false</default>
+                <label>QUEJAS PROCURADOR-MP CADUCADO</label>
+            </value>
+            <value>
+                <fullName>QUEJAS PROCURADOR- MP RETRASO</fullName>
+                <default>false</default>
+                <label>QUEJAS PROCURADOR- MP RETRASO</label>
+            </value>
+            <value>
+                <fullName>QUEJAS PROCURADOR - NO PRESENTACIÓN ESCRITOS</fullName>
+                <default>false</default>
+                <label>QUEJAS PROCURADOR - NO PRESENTACIÓN ESCRITOS</label>
+            </value>
+            <value>
+                <fullName>QUEJAS REDACCION- PARALIZACION</fullName>
+                <default>false</default>
+                <label>QUEJAS REDACCION- PARALIZACION</label>
+            </value>
+            <value>
+                <fullName>QUEJAS REDACCION- PLAZOS</fullName>
+                <default>false</default>
+                <label>QUEJAS REDACCION- PLAZOS</label>
+            </value>
+            <value>
+                <fullName>QUEJAS RRSS</fullName>
+                <default>false</default>
+                <label>QUEJAS RRSS</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Comunicación</controllingFieldValue>
+            <valueName>AUDIENCIA PREVIA - CAMBIO DE FECHA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Comunicación</controllingFieldValue>
+            <valueName>AUDIENCIA PREVIA - PRIMER SEÑALAMIENTO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Comunicación</controllingFieldValue>
+            <valueName>AUDIENCIA PREVIA - SUSPENSIÓN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Comunicación</controllingFieldValue>
+            <valueName>JUICIO - CAMBIO DE FECHA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Comunicación</controllingFieldValue>
+            <valueName>JUICIO - PRIMER SEÑALAMIENTO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Comunicación</controllingFieldValue>
+            <valueName>JUICIO - SUSPENSIÓN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Comunicación</controllingFieldValue>
+            <valueName>OTRAS VISTAS - CAMBIO DE FECHA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Comunicación</controllingFieldValue>
+            <valueName>OTRAS VISTAS - PRIMER SEÑALAMIENTO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Comunicación</controllingFieldValue>
+            <valueName>OTRAS VISTAS – SUSPENSIÓN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Información</controllingFieldValue>
+            <valueName>INFO AP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Información</controllingFieldValue>
+            <valueName>INFO APELACIÓN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Información</controllingFieldValue>
+            <valueName>INFO COMUNICACIÓN INGRESO CUENTA CLIENTE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Información</controllingFieldValue>
+            <valueName>INFO CONSIGNACIÓN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Información</controllingFieldValue>
+            <valueName>INFO CONSULTA/RECEPCIÓN DOCUMENTACIÓN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Información</controllingFieldValue>
+            <valueName>INFO COSTAS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Información</controllingFieldValue>
+            <valueName>INFO COSTES/ HOJA DE ENCARGO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Información</controllingFieldValue>
+            <valueName>INFO DAT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Información</controllingFieldValue>
+            <valueName>INFO DOCU</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Información</controllingFieldValue>
+            <valueName>INFO EJECUCIÓN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Información</controllingFieldValue>
+            <valueName>INFO ENVÍO DOCUMENTACIÓN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Información</controllingFieldValue>
+            <valueName>INFO FACTURACIÓN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Información</controllingFieldValue>
+            <valueName>INFO FASE MP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Información</controllingFieldValue>
+            <valueName>INFO GENERAL EXPEDIENTE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Información</controllingFieldValue>
+            <valueName>INFO JUICIO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Información</controllingFieldValue>
+            <valueName>INFO LIQUIDACIÓN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Información</controllingFieldValue>
+            <valueName>INFO MP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Información</controllingFieldValue>
+            <valueName>INFO OTROS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Información</controllingFieldValue>
+            <valueName>INFO PLAZOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Información</controllingFieldValue>
+            <valueName>INFO RRSS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Información</controllingFieldValue>
+            <valueName>INFO SELLADO JUZGADO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Información</controllingFieldValue>
+            <valueName>INFO SENTENCIA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Información</controllingFieldValue>
+            <valueName>INFO TASA JUDICIAL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Petición</controllingFieldValue>
+            <valueName>PETICIÓN CITA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Petición</controllingFieldValue>
+            <valueName>PETICIÓN COMUNICACIÓN DESISTIMIENTO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Petición</controllingFieldValue>
+            <valueName>PETICION DOCUMENTACIÓN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Petición</controllingFieldValue>
+            <valueName>PETICIÓN INGRESO CUENTA CLIENTE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Petición</controllingFieldValue>
+            <valueName>PETICION LOPD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Petición</controllingFieldValue>
+            <valueName>PETICION OTROS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Petición</controllingFieldValue>
+            <valueName>PETICION RENTA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Petición</controllingFieldValue>
+            <valueName>PETICIÓN RRSS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Queja</controllingFieldValue>
+            <controllingFieldValue>Asesoría jurídica</controllingFieldValue>
+            <controllingFieldValue>Incidencia</controllingFieldValue>
+            <valueName>HOJA DE RECLAMACION</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Queja</controllingFieldValue>
+            <valueName>INCIDENCIA GENERAL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Queja</controllingFieldValue>
+            <valueName>QUEJA COMERCIAL-COSTE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Queja</controllingFieldValue>
+            <valueName>QUEJA COMERCIAL-EXPECTATIVAS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Queja</controllingFieldValue>
+            <valueName>QUEJA COMERCIAL- FUNCIONAMIENTO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Queja</controllingFieldValue>
+            <valueName>QUEJA COMERCIAL-PLAZOS PROCEDIMIENTO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Queja</controllingFieldValue>
+            <valueName>QUEJAS ATENCIÓN RECIBIDA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Queja</controllingFieldValue>
+            <valueName>QUEJAS DOCUMENTACIÓN-PÉRDIDA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Queja</controllingFieldValue>
+            <valueName>QUEJAS DOCUMENTACIÓN-REITERADA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Queja</controllingFieldValue>
+            <valueName>QUEJAS EJECUCIONES-CÁLCULOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Queja</controllingFieldValue>
+            <valueName>QUEJAS EJECUCIONES- NO PRESENTACIÓN EN PLAZO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Queja</controllingFieldValue>
+            <valueName>QUEJAS EJECUCIONES- RETRASO MP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Queja</controllingFieldValue>
+            <valueName>QUEJAS FACTURACIÓN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Queja</controllingFieldValue>
+            <valueName>QUEJAS INFORMACIÓN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Queja</controllingFieldValue>
+            <valueName>QUEJAS OTROS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Queja</controllingFieldValue>
+            <valueName>QUEJAS PROCESAL- CADUCIDAD RECURSO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Queja</controllingFieldValue>
+            <valueName>QUEJAS PROCESAL-INFO ERROR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Queja</controllingFieldValue>
+            <valueName>QUEJAS PROCESAL-INFO INSUFICIENTE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Queja</controllingFieldValue>
+            <valueName>QUEJAS PROCESAL-PLAZOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Queja</controllingFieldValue>
+            <valueName>QUEJAS PROCURADOR-MP CADUCADO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Queja</controllingFieldValue>
+            <valueName>QUEJAS PROCURADOR- MP RETRASO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Queja</controllingFieldValue>
+            <valueName>QUEJAS PROCURADOR - NO PRESENTACIÓN ESCRITOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Queja</controllingFieldValue>
+            <valueName>QUEJAS REDACCION- PARALIZACION</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Queja</controllingFieldValue>
+            <valueName>QUEJAS REDACCION- PLAZOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Queja</controllingFieldValue>
+            <valueName>QUEJAS RRSS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Asesoría jurídica</controllingFieldValue>
+            <controllingFieldValue>Incidencia</controllingFieldValue>
+            <valueName>FALTA INFORMACIÓN CLIENTE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Asesoría jurídica</controllingFieldValue>
+            <controllingFieldValue>Incidencia</controllingFieldValue>
+            <valueName>INCIDENCIA EJECUCIONES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Asesoría jurídica</controllingFieldValue>
+            <controllingFieldValue>Incidencia</controllingFieldValue>
+            <valueName>INCIDENCIA PROCESAL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Asesoría jurídica</controllingFieldValue>
+            <controllingFieldValue>Incidencia</controllingFieldValue>
+            <valueName>INCIDENCIA PRODUCCION</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Asesoría jurídica</controllingFieldValue>
+            <controllingFieldValue>Incidencia</controllingFieldValue>
+            <valueName>POSIBLE FALLIDO</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

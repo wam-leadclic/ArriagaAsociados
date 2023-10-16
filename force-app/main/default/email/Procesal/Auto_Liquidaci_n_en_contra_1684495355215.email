@@ -1,0 +1,30 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<p>Buenos Días,&nbsp;{{{Case.SuppliedName}}}</p>
+
+<p>En relación a su expediente {{{Case.NumeroExpediente__c}}}, le trasladamos el <b>Auto que hemos recibido y que determina el importe de los intereses que deben ser abonados por la parte contraria.&nbsp;</b>&nbsp;</p>
+
+<p>La determinación de los intereses es una consecuencia de la Sentencia que le notificamos en su día, y se calcula en base al importe adeudado y al tiempo transcurrido.&nbsp;&nbsp;</p>
+
+<p>Cuando no hay acuerdo en relación al importe concreto que debe abonarse por este concepto, cada una de las partes propone el importe que se considera correcto y el Juez/a decide cuál es el correcto. En este caso, <b>se considera que la propuesta correcta es la de la otra parte.&nbsp;</b>&nbsp;</p>
+
+<p>Una vez analizado el caso, creemos que es conveniente apelarla, teniendo en cuenta...<span style="color:#c0392b;">(INFORMACION A AGREGAR POR PROCESALISTA)&nbsp;</span></p>
+
+<p>Esta Auto será firme dentro de un mes, si no se recurre. A partir de ese momento, el banco tiene un mes más para cumplir voluntariamente la sentencia. Si no fuera así, tendríamos que ejecutarlo para obligar al banco a cumplirlo. En definitiva, el plazo de pago voluntario es de dos meses (sin contar agosto y el período navideño que son plazos inhábiles para cómputo de plazos civiles).&nbsp;&nbsp;</p>
+
+<p>El banco puede realizar el pago en el Juzgado, en cuyo caso nos lo notificarán y se lo comunicaremos, o bien, en su cuenta, en cuyo caso es muy importante que nos informe cuanto antes, para verificar que el importe sea correcto, y evitar actuaciones judiciales innecesarias.&nbsp;&nbsp;</p>
+
+<p>Si tiene alguna duda recuerde que puede ponerse en contacto con nosotros, respondiendo a este mismo correo electrónico o también visitando <a href="https://clientes.arriagaasociados.com/s/login/?ec=302&amp;startURL=%2Fs%2F">TU ESPACIO ARRIAGA</a> , nuestro portal de cliente (si no tiene las claves de acceso, puede llamarnos &nbsp;al teléfono gratuito 900 264 600 y le ayudaremos).&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>Gracias por confiar en nosotros &nbsp;</p>
+
+<p>Equipo Arriaga Asociados&nbsp;</p>
+</body>
+</html>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OM_Products</fullName>
+    <columns>Name</columns>
+    <columns>Description</columns>
+    <columns>OM_Family__c</columns>
+    <columns>OM_TextInfo__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OM_RTDevName__c</field>
+        <operation>equals</operation>
+        <value>OM_Products</value>
+    </filters>
+    <label>Productos recomendados</label>
+</ListView>

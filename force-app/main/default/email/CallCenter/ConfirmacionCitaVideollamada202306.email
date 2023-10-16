@@ -1,0 +1,642 @@
+<html>
+<head><meta><meta content="IE=edge"><meta content="width=device-width, initial-scale=1" name="viewport">
+	<title>Arriaga Asociados</title>
+	<style type="text/css">p{
+			margin:10px 0;
+			padding:0;
+		}
+		table{
+			border-collapse:collapse;
+		}
+		h1,h2,h3,h4,h5,h6{
+			display:block;
+			margin:0;
+			padding:0;
+		}
+		img,a img{
+			border:0;
+			height:auto;
+			outline:none;
+			text-decoration:none;
+		}
+		body,#bodyTable,#bodyCell{
+			height:100%;
+			margin:0;
+			padding:0;
+			width:100%;
+		}
+		.mcnPreviewText{
+			display:none !important;
+		}
+		#outlook a{
+			padding:0;
+		}
+		img{
+			-ms-interpolation-mode:bicubic;
+		}
+		table{
+			mso-table-lspace:0pt;
+			mso-table-rspace:0pt;
+		}
+		.ReadMsgBody{
+			width:100%;
+		}
+		.ExternalClass{
+			width:100%;
+		}
+		p,a,li,td,blockquote{
+			mso-line-height-rule:exactly;
+		}
+		a[href^=tel],a[href^=sms]{
+			color:inherit;
+			cursor:default;
+			text-decoration:none;
+		}
+		p,a,li,td,body,table,blockquote{
+			-ms-text-size-adjust:100%;
+			-webkit-text-size-adjust:100%;
+		}
+		.ExternalClass,.ExternalClass p,.ExternalClass td,.ExternalClass div,.ExternalClass span,.ExternalClass font{
+			line-height:100%;
+		}
+		a[x-apple-data-detectors]{
+			color:inherit !important;
+			text-decoration:none !important;
+			font-size:inherit !important;
+			font-family:inherit !important;
+			font-weight:inherit !important;
+			line-height:inherit !important;
+		}
+		#bodyCell{
+			padding:10px;
+		}
+		.templateContainer{
+			max-width:600px !important;
+		}
+		a.mcnButton{
+			display:block;
+		}
+		.mcnImage,.mcnRetinaImage{
+			vertical-align:bottom;
+		}
+		.mcnTextContent{
+			word-break:break-word;
+		}
+		.mcnTextContent img{
+			height:auto !important;
+		}
+		.mcnDividerBlock{
+			table-layout:fixed !important;
+		}
+		body,#bodyTable{
+			/*@editable*/background-color:#FAFAFA;
+		}
+		#bodyCell{
+			/*@editable*/border-top:0;
+		}
+		.templateContainer{
+			/*@editable*/border:0;
+		}
+		h1{
+			/*@editable*/color:#202020;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:26px;
+			/*@editable*/font-style:normal;
+			/*@editable*/font-weight:bold;
+			/*@editable*/line-height:125%;
+			/*@editable*/letter-spacing:normal;
+			/*@editable*/text-align:left;
+		}
+		h2{
+			/*@editable*/color:#202020;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:22px;
+			/*@editable*/font-style:normal;
+			/*@editable*/font-weight:bold;
+			/*@editable*/line-height:125%;
+			/*@editable*/letter-spacing:normal;
+			/*@editable*/text-align:left;
+		}
+		h3{
+			/*@editable*/color:#202020;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:20px;
+			/*@editable*/font-style:normal;
+			/*@editable*/font-weight:bold;
+			/*@editable*/line-height:125%;
+			/*@editable*/letter-spacing:normal;
+			/*@editable*/text-align:left;
+		}
+		h4{
+			/*@editable*/color:#202020;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:18px;
+			/*@editable*/font-style:normal;
+			/*@editable*/font-weight:bold;
+			/*@editable*/line-height:125%;
+			/*@editable*/letter-spacing:normal;
+			/*@editable*/text-align:left;
+		}
+		#templatePreheader{
+			/*@editable*/background-color:#FAFAFA;
+			/*@editable*/background-image:none;
+			/*@editable*/background-repeat:no-repeat;
+			/*@editable*/background-position:center;
+			/*@editable*/background-size:cover;
+			/*@editable*/border-top:0;
+			/*@editable*/border-bottom:0;
+			/*@editable*/padding-top:9px;
+			/*@editable*/padding-bottom:9px;
+		}
+		#templatePreheader .mcnTextContent,#templatePreheader .mcnTextContent p{
+			/*@editable*/color:#656565;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:12px;
+			/*@editable*/line-height:150%;
+			/*@editable*/text-align:left;
+		}
+		#templatePreheader .mcnTextContent a,#templatePreheader .mcnTextContent p a{
+			/*@editable*/color:#656565;
+			/*@editable*/font-weight:normal;
+			/*@editable*/text-decoration:underline;
+		}
+		#templateHeader{
+			/*@editable*/background-color:#FFFFFF;
+			/*@editable*/background-image:none;
+			/*@editable*/background-repeat:no-repeat;
+			/*@editable*/background-position:center;
+			/*@editable*/background-size:cover;
+			/*@editable*/border-top:0;
+			/*@editable*/border-bottom:0;
+			/*@editable*/padding-top:9px;
+			/*@editable*/padding-bottom:0;
+		}
+		#templateHeader .mcnTextContent,#templateHeader .mcnTextContent p{
+			/*@editable*/color:#202020;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:16px;
+			/*@editable*/line-height:150%;
+			/*@editable*/text-align:left;
+		}
+		#templateHeader .mcnTextContent a,#templateHeader .mcnTextContent p a{
+			/*@editable*/color:#007C89;
+			/*@editable*/font-weight:normal;
+			/*@editable*/text-decoration:underline;
+		}
+		#templateBody{
+			/*@editable*/background-color:#FFFFFF;
+			/*@editable*/background-image:none;
+			/*@editable*/background-repeat:no-repeat;
+			/*@editable*/background-position:center;
+			/*@editable*/background-size:cover;
+			/*@editable*/border-top:0;
+			/*@editable*/border-bottom:2px solid #EAEAEA;
+			/*@editable*/padding-top:0;
+			/*@editable*/padding-bottom:9px;
+		}
+		#templateBody .mcnTextContent,#templateBody .mcnTextContent p{
+			/*@editable*/color:#202020;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:16px;
+			/*@editable*/line-height:150%;
+			/*@editable*/text-align:left;
+		}
+		#templateBody .mcnTextContent a,#templateBody .mcnTextContent p a{
+			/*@editable*/color:#007C89;
+			/*@editable*/font-weight:normal;
+			/*@editable*/text-decoration:underline;
+		}
+		#templateFooter{
+			/*@editable*/background-color:#FAFAFA;
+			/*@editable*/background-image:none;
+			/*@editable*/background-repeat:no-repeat;
+			/*@editable*/background-position:center;
+			/*@editable*/background-size:cover;
+			/*@editable*/border-top:0;
+			/*@editable*/border-bottom:0;
+			/*@editable*/padding-top:9px;
+			/*@editable*/padding-bottom:9px;
+		}
+		#templateFooter .mcnTextContent,#templateFooter .mcnTextContent p{
+			/*@editable*/color:#656565;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:12px;
+			/*@editable*/line-height:150%;
+			/*@editable*/text-align:center;
+		}
+		#templateFooter .mcnTextContent a,#templateFooter .mcnTextContent p a{
+			/*@editable*/color:#656565;
+			/*@editable*/font-weight:normal;
+			/*@editable*/text-decoration:underline;
+		}
+	@media only screen and (min-width:768px){
+		.templateContainer{
+			width:600px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		body,table,td,p,a,li,blockquote{
+			-webkit-text-size-adjust:none !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		body{
+			width:100% !important;
+			min-width:100% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		#bodyCell{
+			padding-top:10px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnRetinaImage{
+			max-width:100% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnImage{
+			width:100% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnCartContainer,.mcnCaptionTopContent,.mcnRecContentContainer,.mcnCaptionBottomContent,.mcnTextContentContainer,.mcnBoxedTextContentContainer,.mcnImageGroupContentContainer,.mcnCaptionLeftTextContentContainer,.mcnCaptionRightTextContentContainer,.mcnCaptionLeftImageContentContainer,.mcnCaptionRightImageContentContainer,.mcnImageCardLeftTextContentContainer,.mcnImageCardRightTextContentContainer,.mcnImageCardLeftImageContentContainer,.mcnImageCardRightImageContentContainer{
+			max-width:100% !important;
+			width:100% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnBoxedTextContentContainer{
+			min-width:100% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnImageGroupContent{
+			padding:9px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnCaptionLeftContentOuter .mcnTextContent,.mcnCaptionRightContentOuter .mcnTextContent{
+			padding-top:9px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnImageCardTopImageContent,.mcnCaptionBottomContent:last-child .mcnCaptionBottomImageContent,.mcnCaptionBlockInner .mcnCaptionTopContent:last-child .mcnTextContent{
+			padding-top:18px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnImageCardBottomImageContent{
+			padding-bottom:9px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnImageGroupBlockInner{
+			padding-top:0 !important;
+			padding-bottom:0 !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnImageGroupBlockOuter{
+			padding-top:9px !important;
+			padding-bottom:9px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnTextContent,.mcnBoxedTextContentColumn{
+			padding-right:18px !important;
+			padding-left:18px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnImageCardLeftImageContent,.mcnImageCardRightImageContent{
+			padding-right:18px !important;
+			padding-bottom:0 !important;
+			padding-left:18px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcpreview-image-uploader{
+			display:none !important;
+			width:100% !important;
+		}
+}	@media only screen and (max-width: 480px){
+		h1{
+			/*@editable*/font-size:22px !important;
+			/*@editable*/line-height:125% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		h2{
+			/*@editable*/font-size:20px !important;
+			/*@editable*/line-height:125% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		h3{
+			/*@editable*/font-size:18px !important;
+			/*@editable*/line-height:125% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		h4{
+			/*@editable*/font-size:16px !important;
+			/*@editable*/line-height:150% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnBoxedTextContentContainer .mcnTextContent,.mcnBoxedTextContentContainer .mcnTextContent p{
+			/*@editable*/font-size:14px !important;
+			/*@editable*/line-height:150% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		#templatePreheader{
+			/*@editable*/display:block !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		#templatePreheader .mcnTextContent,#templatePreheader .mcnTextContent p{
+			/*@editable*/font-size:14px !important;
+			/*@editable*/line-height:150% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		#templateHeader .mcnTextContent,#templateHeader .mcnTextContent p{
+			/*@editable*/font-size:16px !important;
+			/*@editable*/line-height:150% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		#templateBody .mcnTextContent,#templateBody .mcnTextContent p{
+			/*@editable*/font-size:16px !important;
+			/*@editable*/line-height:150% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		#templateFooter .mcnTextContent,#templateFooter .mcnTextContent p{
+			/*@editable*/font-size:14px !important;
+			/*@editable*/line-height:150% !important;
+		}
+
+}
+	</style>
+</head>
+<body style="height: auto; min-height: auto;">
+<table align="center" border="0" cellpadding="0" cellspacing="0" height="100%" id="bodyTable" width="100%">
+	<tbody>
+		<tr>
+			<td align="center" id="bodyCell" valign="top">
+			<table border="0" cellpadding="0" cellspacing="0" class="templateContainer" width="100%">
+					<tr>
+						<td id="templateHeader" valign="top">
+						<table border="0" cellpadding="0" cellspacing="0" class="mcnImageBlock" style="min-width:100%;" width="100%">
+							<tbody class="mcnImageBlockOuter">
+								<tr>
+									<td class="mcnImageBlockInner" style="padding:9px" valign="top">
+									<table align="left" border="0" cellpadding="0" cellspacing="0" class="mcnImageContentContainer" style="min-width:100%;" width="100%">
+										<tbody>
+											<tr>
+												<td class="mcnImageContent" style="padding-right: 9px; padding-left: 9px; padding-top: 0; padding-bottom: 0; text-align:center;" valign="top">
+													<img align="center" alt="" class="mcnImage" src="https://arriagaasociados--c.documentforce.com/servlet/servlet.ImageServer?id=0151t000001UhEa&oid=00D1t000000rxg7&lastMod=1561475538000" 
+														 style="max-width:800px; padding-bottom: 0; display: inline !important; vertical-align: bottom;" width="564" />
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					
+					<tr>
+						<td id="templateBody" align="center">
+							<table border="0" cellpadding="0" cellspacing="0" class="mcnTextBlock" style="min-width:100%;" width="100%">
+								<tbody class="mcnTextBlockOuter">
+									<tr>
+										<td class="mcnTextBlockInner" style="padding-top:9px;" align="center">
+											<table border="0" cellpadding="0" cellspacing="0" class="mcnTextContentContainer" style="max-width:100%; min-width:100%;" width="100%">
+											<tr>
+												<td class="mcnTextContent" style="padding-top:0; padding-right:18px; padding-bottom:9px; padding-left:18px;" align="center">
+												<span style="font-family:open sans,helvetica neue,helvetica,arial,sans-serif">
+													Hola {!Contact.FirstName},<br />
+													<br />
+													Esperamos verte en tu cita programada el pr&oacute;ximo <strong>{!Event.StartDateTime +0}h</strong> para tratar un asunto de <strong>{!Event.Productos__c}</strong>.<br />
+													<br />
+													Recuerda que <strong>esta consulta es totalmente gratuita.</strong> Resolveremos todas tus dudas y si hay motivo para reclamar, te contaremos los próximos pasos a seguir sin compromiso.<br />
+													<br />
+													<strong>¿Dudas acerca de cómo será tu cita con el abogado colegiado de Arriaga Asociados?
+													Te lo contamos aquí:</strong>
+													<br /><br />
+													<img align="center" alt="" class="mcnImage" src="https://arriagaasociados.file.force.com/servlet/servlet.ImageServer?id=01569000009n0qa&oid=00D1t000000rxg7&lastMod=1686728742000" 
+														 style="max-width:800px; padding-bottom: 0; display: inline !important; vertical-align: bottom;" width="575" />
+													<br /><br />
+													Recuerde que, si por cualquier motivo no pudiera asistir, puede cambiar la cita llamando al teléfono gratuito 900 264 600.<br />
+													<br />
+													Gracias por elegirnos.<br />
+													Equipo Arriaga Asociados<br />
+													<br />																					
+												</span>
+												</td>
+											</tr>
+											</table>
+										</td>
+								</tr>
+								<tr>
+										<td class="mcnTextBlockInner" style="padding-top:9px;" valign="top">
+											<table align="left" border="0" cellpadding="0" cellspacing="0" class="mcnTextContentContainer" style="max-width:100%; min-width:100%;" width="100%">
+											<tbody>
+											<tr>
+												<td class="mcnTextContent" style="padding-top:0; padding-right:18px; padding-bottom:9px; padding-left:18px;" valign="top">
+												<div dir="ltr"></div>
+												<span style="font-family:open sans,helvetica neue,helvetica,arial,sans-serif">
+															
+													<font size="1">ARRIAGA ASOCIADOS ASESORAMIENTO JURÍDICO Y ECONÓMICO S.L. (en adelante, “ARRIAGA ASOCIADOS”), con N.I.F.: B-98488117 y domicilio social en Calle Agustín de Foxá 4 - 10, Planta 5ª, 28036, Madrid, le informa de que los datos personales que proporcione a ARRIAGA ASOCIADOS serán tratados a fin de concertar y mantener una reunión con Ud., analizar la consulta planteada y la documentación aportada, así como para determinar la posibilidad de establecer una relación contractual entre ARRIAGA ASOCIADOS y Ud. 
+													En breve se le facilitará un <strong>enlace</strong> para acceder a la plataforma virtual en la que se celebrará la cita. Le informamos de <strong>que si activa la cámara durante la reunión su imagen será tratada por ARRIAGA ASOCIADOS.</strong> En caso de que proporcione a ARRIAGA ASOCIADOS datos de terceros, es su responsabilidad haberles informado de ello y, en su caso, haber obtenido su consentimiento. 
+													Sus datos personales serán tratados en base a la aplicación de <strong>medidas precontractuales</strong> a petición suya y, serán tratados, únicamente, hasta que se tome la decisión de iniciar o no la relación contractual con ARRIAGA ASOCIADOS.  
+													Puede ponerse en contacto con el Delegado de Protección de Datos de ARRIAGA ASOCIADOS y ejercitar sus derechos de acceso, rectificación, supresión, limitación, portabilidad u oposición dirigiéndose por escrito a <strong>lopd@arriagaasociados.com</strong> o a la dirección postal arriba indicada. Igualmente, le informamos de que puede interponer una reclamación ante la Agencia Española de Protección de Datos cuando considere que ARRIAGA ASOCIADOS ha vulnerado los derechos que le son reconocidos por la normativa aplicable en protección de datos.
+													</font>												
+												</span>
+												</td>
+											</tr>
+											</tbody>
+											</table>
+										</td>
+								</tr>								
+								</tbody>
+							</table>
+						</td>
+					</tr>
+					
+					<tr>
+						<td id="templateFooter" valign="top">
+						<table border="0" cellpadding="0" cellspacing="0" class="mcnFollowBlock" style="min-width:100%;" width="100%">
+							<tbody class="mcnFollowBlockOuter">
+
+															<td align="center" style="padding-top:9px; padding-right:9px; padding-left:9px;" valign="top">
+															<table align="center" border="0" cellpadding="0" cellspacing="0">
+																	<tr>
+																		<td align="center" valign="top">
+																			<table align="left" border="0" cellpadding="0" cellspacing="0" style="display:inline;">
+
+																					<tr>
+																						<td class="mcnFollowContentItemContainer" style="padding-right:10px; padding-bottom:9px;" valign="top">
+																						<table border="0" cellpadding="0" cellspacing="0" class="mcnFollowContentItem" width="100%">
+
+																								<tr>
+																									<td align="left" style="padding-top:5px; padding-right:10px; padding-bottom:5px; padding-left:9px;" valign="middle">
+																									<table align="left" border="0" cellpadding="0" cellspacing="0" width="">
+
+																											<tr>
+																												<td align="center" class="mcnFollowIconContent" valign="middle" width="24"><a href="https://www.facebook.com/arriagaasociados/" target="_blank"><img height="24" src="https://cdn-images.mailchimp.com/icons/social-block-v2/dark-facebook-48.png" style="display:block;" width="24" /></a></td>
+																											</tr>
+
+																									</table>
+																									</td>
+																								</tr>
+
+																						</table>
+																						</td>
+																					</tr>
+
+																			</table>
+
+																			<table align="left" border="0" cellpadding="0" cellspacing="0" style="display:inline;">
+
+																					<tr>
+																						<td class="mcnFollowContentItemContainer" style="padding-right:10px; padding-bottom:9px;" valign="top">
+																						<table border="0" cellpadding="0" cellspacing="0" class="mcnFollowContentItem" width="100%">
+
+																								<tr>
+																									<td align="left" style="padding-top:5px; padding-right:10px; padding-bottom:5px; padding-left:9px;" valign="middle">
+																									<table align="left" border="0" cellpadding="0" cellspacing="0" width="">
+
+																											<tr>
+																												<td align="center" class="mcnFollowIconContent" valign="middle" width="24"><a href="https://twitter.com/ArriagaAbogado" target="_blank"><img height="24" src="https://cdn-images.mailchimp.com/icons/social-block-v2/dark-twitter-48.png" style="display:block;" width="24" /></a></td>
+																											</tr>
+
+																									</table>
+																									</td>
+																								</tr>
+
+																						</table>
+																						</td>
+																					</tr>
+
+																			</table>
+
+																			<table align="left" border="0" cellpadding="0" cellspacing="0" style="display:inline;">
+
+																					<tr>
+																						<td class="mcnFollowContentItemContainer" style="padding-right:10px; padding-bottom:9px;" valign="top">
+																						<table border="0" cellpadding="0" cellspacing="0" class="mcnFollowContentItem" width="100%">
+
+																								<tr>
+																									<td align="left" style="padding-top:5px; padding-right:10px; padding-bottom:5px; padding-left:9px;" valign="middle">
+																									<table align="left" border="0" cellpadding="0" cellspacing="0" width="">
+
+																											<tr>
+																												<td align="center" class="mcnFollowIconContent" valign="middle" width="24"><a href="https://www.linkedin.com/company/arriaga-asociados/?viewAsMember=true" target="_blank"><img height="24" src="https://cdn-images.mailchimp.com/icons/social-block-v2/dark-linkedin-48.png" style="display:block;" width="24" /></a></td>
+																											</tr>
+
+																									</table>
+																									</td>
+																								</tr>
+
+																						</table>
+																						</td>
+																					</tr>
+
+																			</table>
+
+																			<table align="left" border="0" cellpadding="0" cellspacing="0" style="display:inline;">
+
+																					<tr>
+																						<td class="mcnFollowContentItemContainer" style="padding-right:10px; padding-bottom:9px;" valign="top">
+																						<table border="0" cellpadding="0" cellspacing="0" class="mcnFollowContentItem" width="100%">
+
+																								<tr>
+																									<td align="left" style="padding-top:5px; padding-right:10px; padding-bottom:5px; padding-left:9px;" valign="middle">
+																									<table align="left" border="0" cellpadding="0" cellspacing="0" width="">
+
+																											<tr>
+																												<td align="center" class="mcnFollowIconContent" valign="middle" width="24"><a href="https://www.youtube.com/channel/UCRIqqT84N6tOKuoCR-NlJKQ" target="_blank"><img height="24" src="https://cdn-images.mailchimp.com/icons/social-block-v2/dark-youtube-48.png" style="display:block;" width="24" /></a></td>
+																											</tr>
+
+																									</table>
+																									</td>
+																								</tr>
+
+																						</table>
+																						</td>
+																					</tr>
+
+																			</table>
+
+																			<table align="left" border="0" cellpadding="0" cellspacing="0" style="display:inline;">
+
+																				<tr>
+																					<td class="mcnFollowContentItemContainer" style="padding-right:0; padding-bottom:9px;" valign="top">
+																					<table border="0" cellpadding="0" cellspacing="0" class="mcnFollowContentItem" width="100%">
+
+																							<tr>
+																								<td align="left" style="padding-top:5px; padding-right:10px; padding-bottom:5px; padding-left:9px;" valign="middle">
+																								<table align="left" border="0" cellpadding="0" cellspacing="0" width="">
+
+																										<tr>
+																											<td align="center" class="mcnFollowIconContent" valign="middle" width="24"><a href="https://www.instagram.com/arriaga_asociados/" target="_blank"><img height="24" src="https://cdn-images.mailchimp.com/icons/social-block-v2/dark-instagram-48.png" style="display:block;" width="24" /></a></td>
+																										</tr>
+
+																								</table>
+																								</td>
+																							</tr>
+
+																					</table>
+																					</td>
+																				</tr>
+
+																		</table>
+																		</td>
+																	</tr>																
+															</table>
+															</td>														
+							</tbody>
+						</table>
+						
+						<table border="0" cellpadding="0" cellspacing="0" class="mcnTextBlock" style="min-width:100%;" width="100%">
+							<tbody class="mcnTextBlockOuter">
+								<tr>
+									<td class="mcnTextBlockInner" style="padding-top:9px;" valign="top">
+									<table align="left" border="0" cellpadding="0" cellspacing="0" class="mcnTextContentContainer" style="max-width:100%; min-width:100%;" width="100%">
+										<tbody>
+											<tr>
+												<td class="mcnTextContent" style="padding-top:0; padding-right:18px; padding-bottom:9px; padding-left:18px;" valign="top">
+												<a href="https://www.arriagaasociados.com/politica-de-privacidad/" target="_blank">
+												<span style="color:#FF8C00">
+												<span style="font-size:14px">
+												<strong>Pol&iacute;tica de Privacidad</strong></span></span></a><br />
+												<span style="color:#000000;">Arriaga Asociados A.J.E.S.L.<br />
+												C/Agust&iacute;n de Fox&aacute;, 4<br />
+												Edificio Aqua Planta 5 B-C-D<br />
+												28036 MADRID</span></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				
+			</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+</center>
+</body>
+</html>

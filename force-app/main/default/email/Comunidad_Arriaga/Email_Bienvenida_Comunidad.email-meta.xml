@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email de bienvenida de la comunidad</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Arriaga_plantilla_casos</letterhead>
+    <name>Email Bienvenida Comunidad</name>
+    <style>freeForm</style>
+    <subject>Bienvenido al Área de Cliente Arriaga</subject>
+    <textOnly>Hola {!Receiving_User.FirstName},
+
+Te damos la bienvenida al área de cliente donde podrás consultar tus expedientes, su evolución, subir documentación, recibir notificaciones, solicitar información, etc.
+
+Pulsa aquí para acceder y pincha en &quot;Solicitar Nueva Contraseña&quot;.
+
+Nombre de usuario: {!Receiving_User.Username}.
+
+Si tienes cualquier problema con el Área de Cliente puedes escribirnos a clientes@arriagaasociados.com o llamarnos al 900 264 800.
+
+
+Gracias por confiar en Arriaga Asociados.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

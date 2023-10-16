@@ -1,0 +1,29 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<p>Buenos días {{{Account.FirstName}}}:</p>
+
+<p>&nbsp;</p>
+
+<p>Como hemos comentado telefónicamente, en vista de que tu expediente número: <b><span style="color:#c0392b;">xxxxxxxxxxx</span></b><b> </b>de PLUSVALIA no tenía posibilidades de éxito, ya que, la sentencia dictada por el Tribunal Constitucional que limita la reclamación del impuesto fue publicada en el BOE el 25 de noviembre de 2021 (fecha límite para reclamar):&nbsp;</p>
+
+<p><a href="https://www.boe.es/boe/dias/2021/11/25/">BOE del 25/11/2021</a>&nbsp;</p>
+
+<p>Te confirmamos la devolución de la cantidad de <b>150€ </b>en concepto de GESTIONES PREVIAS</p>
+
+<p><b>Para poder llevar a cabo esta gestión, precisamos nos envíes tu número de cuenta o IBAN. Puedes hacerlo respondiendo a este mismo correo electrónico.&nbsp;</b><br />
+&nbsp;</p>
+
+<p>Recuerda que, el escrito ha sido presentado y que igualmente te comunicaremos la resolución en cuanto la tengamos. &nbsp;</p>
+
+<p>Agradecemos tu confianza {{{Account.FirstName}}}, siempre puedes contar con nuestros servicios, cuando los necesites, visitando&nbsp; <a href="http://www.arriagaasociados.com/">www.arriagaasociados.com</a>&nbsp;&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>Un cordial saludo.&nbsp;</p>
+
+<p>Equipo Arriaga Asociados&nbsp;</p>
+
+</body></html>

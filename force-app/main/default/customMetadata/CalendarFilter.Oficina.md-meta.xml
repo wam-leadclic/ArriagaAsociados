@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Oficina</label>
+    <protected>false</protected>
+    <values>
+        <field>FieldConstraint__c</field>
+        <value xsi:type="xsd:string">ShippingState = Provincia__c AND RecordType.DeveloperName = &apos;Oficina&apos;</value>
+    </values>
+    <values>
+        <field>Field__c</field>
+        <value xsi:type="xsd:string">Oficina__c</value>
+    </values>
+    <values>
+        <field>LookupTo__c</field>
+        <value xsi:type="xsd:string">Account</value>
+    </values>
+    <values>
+        <field>Object__c</field>
+        <value xsi:type="xsd:string">CalendarSetting__c</value>
+    </values>
+    <values>
+        <field>ReturningFields__c</field>
+        <value xsi:type="xsd:string">ShippingState,Phone</value>
+    </values>
+</CustomMetadata>

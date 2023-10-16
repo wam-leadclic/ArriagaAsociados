@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MotivoCitaNoAtendida__c</fullName>
+    <description>Se indica la razón por la que el cliente no acudió a la cita inicial</description>
+    <externalId>false</externalId>
+    <label>Motivo cita no atendida</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Origin</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Atendida posteriormente.</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Atendida posteriormente.</label>
+            </value>
+            <value>
+                <fullName>Cita errónea</fullName>
+                <default>false</default>
+                <label>Cita errónea</label>
+            </value>
+            <value>
+                <fullName>Error de asesor en cambio de estado</fullName>
+                <default>false</default>
+                <label>Error de asesor en cambio de estado</label>
+            </value>
+            <value>
+                <fullName>Indeciso</fullName>
+                <default>false</default>
+                <label>Indeciso</label>
+            </value>
+            <value>
+                <fullName>No ha aceptado GDPR</fullName>
+                <default>false</default>
+                <label>No ha aceptado GDPR</label>
+            </value>
+            <value>
+                <fullName>No le interesa</fullName>
+                <default>false</default>
+                <label>No le interesa</label>
+            </value>
+            <value>
+                <fullName>No localizado</fullName>
+                <default>false</default>
+                <label>No localizado</label>
+            </value>
+            <value>
+                <fullName>No tiene doc</fullName>
+                <default>false</default>
+                <label>No tiene doc</label>
+            </value>
+            <value>
+                <fullName>Recaptura</fullName>
+                <default>false</default>
+                <label>Recaptura</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Cita no atendida</controllingFieldValue>
+            <valueName>Cita errónea</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cita no atendida</controllingFieldValue>
+            <valueName>Error de asesor en cambio de estado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cita no atendida</controllingFieldValue>
+            <valueName>Indeciso</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cita no atendida</controllingFieldValue>
+            <valueName>No ha aceptado GDPR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cita no atendida</controllingFieldValue>
+            <valueName>No le interesa</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cita no atendida</controllingFieldValue>
+            <valueName>No localizado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cita no atendida</controllingFieldValue>
+            <valueName>No tiene doc</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cita no atendida</controllingFieldValue>
+            <valueName>Recaptura</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

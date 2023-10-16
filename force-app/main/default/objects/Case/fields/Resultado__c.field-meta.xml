@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Resultado__c</fullName>
+    <description>Resultado obtenido del caso</description>
+    <externalId>false</externalId>
+    <label>Resultado</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Status</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>CONFIRMADA TELEFÓNICAMENTE</fullName>
+                <default>false</default>
+                <label>CONFIRMADA TELEFÓNICAMENTE</label>
+            </value>
+            <value>
+                <fullName>CONFIRMADA POR EMAIL</fullName>
+                <default>false</default>
+                <label>CONFIRMADA POR EMAIL</label>
+            </value>
+            <value>
+                <fullName>CAMBIA CITA</fullName>
+                <default>false</default>
+                <label>CAMBIA CITA</label>
+            </value>
+            <value>
+                <fullName>ANULA CITA</fullName>
+                <default>false</default>
+                <label>ANULA CITA</label>
+            </value>
+            <value>
+                <fullName>DATOS DE CONTACTO INSUFICIENTES/INCORRECTO</fullName>
+                <default>false</default>
+                <label>DATOS DE CONTACTO INSUFICIENTES/INCORRECTO</label>
+            </value>
+            <value>
+                <fullName>No le interesa</fullName>
+                <default>false</default>
+                <label>No le interesa</label>
+            </value>
+            <value>
+                <fullName>No tiene doc</fullName>
+                <default>false</default>
+                <label>No tiene doc</label>
+            </value>
+            <value>
+                <fullName>Cita errónea</fullName>
+                <default>false</default>
+                <label>Cita errónea</label>
+            </value>
+            <value>
+                <fullName>No ha aceptado GDPR</fullName>
+                <default>false</default>
+                <label>No ha aceptado GDPR</label>
+            </value>
+            <value>
+                <fullName>Recaptura</fullName>
+                <default>false</default>
+                <label>Recaptura</label>
+            </value>
+            <value>
+                <fullName>Nueva Cita</fullName>
+                <default>false</default>
+                <label>Nueva Cita</label>
+            </value>
+            <value>
+                <fullName>No volver a llamar</fullName>
+                <default>false</default>
+                <label>No volver a llamar</label>
+            </value>
+            <value>
+                <fullName>Resuelto</fullName>
+                <default>false</default>
+                <label>Resuelto</label>
+            </value>
+            <value>
+                <fullName>Duplicada</fullName>
+                <default>false</default>
+                <label>Duplicada</label>
+            </value>
+            <value>
+                <fullName>No es queja</fullName>
+                <default>false</default>
+                <label>No es queja</label>
+            </value>
+            <value>
+                <fullName>Incidencia</fullName>
+                <default>false</default>
+                <label>Incidencia</label>
+            </value>
+            <value>
+                <fullName>Fallido</fullName>
+                <default>false</default>
+                <label>Fallido</label>
+            </value>
+            <value>
+                <fullName>No es incidencia</fullName>
+                <default>false</default>
+                <label>No es incidencia</label>
+            </value>
+            <value>
+                <fullName>Siniestro</fullName>
+                <default>false</default>
+                <label>Siniestro</label>
+            </value>
+            <value>
+                <fullName>Negativo</fullName>
+                <default>false</default>
+                <label>Negativo</label>
+            </value>
+            <value>
+                <fullName>Positivo</fullName>
+                <default>false</default>
+                <label>Positivo</label>
+            </value>
+            <value>
+                <fullName>Aceptado</fullName>
+                <default>false</default>
+                <label>Aceptado</label>
+            </value>
+            <value>
+                <fullName>Rechazado</fullName>
+                <default>false</default>
+                <label>Rechazado</label>
+            </value>
+            <value>
+                <fullName>No acuerdo</fullName>
+                <default>false</default>
+                <label>No acuerdo</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Cerrado</controllingFieldValue>
+            <valueName>CONFIRMADA TELEFÓNICAMENTE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cerrado</controllingFieldValue>
+            <valueName>CONFIRMADA POR EMAIL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cerrado</controllingFieldValue>
+            <valueName>CAMBIA CITA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cerrado</controllingFieldValue>
+            <valueName>ANULA CITA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cerrado</controllingFieldValue>
+            <valueName>DATOS DE CONTACTO INSUFICIENTES/INCORRECTO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cerrado</controllingFieldValue>
+            <valueName>No le interesa</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cerrado</controllingFieldValue>
+            <valueName>No tiene doc</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cerrado</controllingFieldValue>
+            <valueName>Cita errónea</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cerrado</controllingFieldValue>
+            <valueName>No ha aceptado GDPR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cerrado</controllingFieldValue>
+            <valueName>Recaptura</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cerrado</controllingFieldValue>
+            <valueName>Nueva Cita</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cerrado</controllingFieldValue>
+            <valueName>No volver a llamar</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cerrado</controllingFieldValue>
+            <valueName>Resuelto</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cerrado</controllingFieldValue>
+            <valueName>Duplicada</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cerrado</controllingFieldValue>
+            <valueName>No es queja</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cerrado</controllingFieldValue>
+            <valueName>Incidencia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cerrado</controllingFieldValue>
+            <valueName>Fallido</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cerrado</controllingFieldValue>
+            <valueName>No es incidencia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cerrado</controllingFieldValue>
+            <valueName>Siniestro</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cerrado</controllingFieldValue>
+            <valueName>Negativo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cerrado</controllingFieldValue>
+            <valueName>Positivo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cerrado</controllingFieldValue>
+            <valueName>Aceptado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cerrado</controllingFieldValue>
+            <valueName>Rechazado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cerrado</controllingFieldValue>
+            <valueName>No acuerdo</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DomicilioSocialDemandado__c</fullName>
+    <description>Domicilio social Banco Demandado</description>
+    <externalId>false</externalId>
+    <formula>ParteContraria__r.ShippingStreet &amp; BR() &amp;
+ParteContraria__r.ShippingCity &amp; &quot;, &quot; &amp;
+ParteContraria__r.ShippingState &amp; &quot; &quot; &amp;
+ParteContraria__r.ShippingPostalCode &amp; BR() &amp;
+ParteContraria__r.ShippingCountry</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Domicilio social Banco Demandado</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

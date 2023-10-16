@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Datocomercio__c</fullName>
+    <description>Campo correspondiente a DS_MERCHANTDATA en la llamada a Redsys</description>
+    <externalId>false</externalId>
+    <label>Dato del comercio</label>
+    <length>100</length>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

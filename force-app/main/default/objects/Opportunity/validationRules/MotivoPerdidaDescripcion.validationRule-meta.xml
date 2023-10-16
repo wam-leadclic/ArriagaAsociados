@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MotivoPerdidaDescripcion</fullName>
+    <active>true</active>
+    <description>Rellenar el motivo  de descripción cuando se pierde la oportunidad</description>
+    <errorConditionFormula>AND(
+  ISPICKVAL( Motivo_Perdida_Descripcion__c , &quot;&quot;),
+  ISPICKVAL( StageName , &quot;Cerrada perdida&quot;) 
+
+)</errorConditionFormula>
+    <errorMessage>Debe indicar la descripción del motivo de la pérdida, complementando al motivo principal,</errorMessage>
+</ValidationRule>

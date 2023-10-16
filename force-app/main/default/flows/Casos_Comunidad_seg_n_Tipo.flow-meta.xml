@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>55.0</apiVersion>
+    <decisions>
+        <name>Segun_Tipo_Cliente</name>
+        <label>Segun Tipo Cliente</label>
+        <locationX>710</locationX>
+        <locationY>335</locationY>
+        <defaultConnectorLabel>Resultado predeterminado</defaultConnectorLabel>
+        <rules>
+            <name>Info_Sobre_Exp</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.TipoCliente__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Solicitar información sobre un expediente</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Actualiza1_Caso</targetReference>
+            </connector>
+            <label>Info Sobre Exp</label>
+        </rules>
+        <rules>
+            <name>Info_Sobre_Plazos</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.TipoCliente__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Solicitar información sobre plazos</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Actualiza2_Caso</targetReference>
+            </connector>
+            <label>Info Sobre Plazos</label>
+        </rules>
+        <rules>
+            <name>Info_Documentacion_Exp</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.TipoCliente__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Solicitar documentación de un expediente</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Actualiza3_Caso</targetReference>
+            </connector>
+            <label>Info Documentacion Exp</label>
+        </rules>
+        <rules>
+            <name>Info_Sobre_Producto_No_Contratado</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.TipoCliente__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Solicitar información sobre un producto no contratado</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Actualiza4_Caso</targetReference>
+            </connector>
+            <label>Info Sobre Producto No Contratado</label>
+        </rules>
+        <rules>
+            <name>Info_Sobre_un_Problema</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.TipoCliente__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Informar sobre un problema</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Actualiza5_Caso</targetReference>
+            </connector>
+            <label>Info Sobre un Problema</label>
+        </rules>
+    </decisions>
+    <description>Cuando se crea un caso (desde Comunidad) en el que se indica el tipo de caso cliente se transforma a la tipología y categoría que le corresponde internamente</description>
+    <environments>Default</environments>
+    <interviewLabel>Casos Comunidad Tipo {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>From ProcessBuilder - Casos Comunidad según Tipo</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>Actualiza1_Caso</name>
+        <label>Actualiza1 Caso</label>
+        <locationX>50</locationX>
+        <locationY>455</locationY>
+        <inputAssignments>
+            <field>Categorizacion__c</field>
+            <value>
+                <stringValue>INFO GENERAL EXPEDIENTE</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Origin</field>
+            <value>
+                <stringValue>Portal Cliente</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Type</field>
+            <value>
+                <stringValue>Información</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Actualiza2_Caso</name>
+        <label>Actualiza2 Caso</label>
+        <locationX>314</locationX>
+        <locationY>455</locationY>
+        <inputAssignments>
+            <field>Categorizacion__c</field>
+            <value>
+                <stringValue>INFO PLAZOS</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Origin</field>
+            <value>
+                <stringValue>Portal Cliente</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Type</field>
+            <value>
+                <stringValue>Información</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Actualiza3_Caso</name>
+        <label>Actualiza3 Caso</label>
+        <locationX>578</locationX>
+        <locationY>455</locationY>
+        <inputAssignments>
+            <field>Categorizacion__c</field>
+            <value>
+                <stringValue>PETICION DOCUMENTACIÓN</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Origin</field>
+            <value>
+                <stringValue>Portal Cliente</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Type</field>
+            <value>
+                <stringValue>Petición</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Actualiza4_Caso</name>
+        <label>Actualiza4 Caso</label>
+        <locationX>842</locationX>
+        <locationY>455</locationY>
+        <inputAssignments>
+            <field>Categorizacion__c</field>
+            <value>
+                <stringValue>INFO OTROS</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Origin</field>
+            <value>
+                <stringValue>Portal Cliente</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Type</field>
+            <value>
+                <stringValue>Información</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Actualiza5_Caso</name>
+        <label>Actualiza5 Caso</label>
+        <locationX>1106</locationX>
+        <locationY>455</locationY>
+        <inputAssignments>
+            <field>Categorizacion__c</field>
+            <value>
+                <stringValue>INCIDENCIA GENERAL</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Origin</field>
+            <value>
+                <stringValue>Portal Cliente</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Type</field>
+            <value>
+                <stringValue>Queja</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>584</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Segun_Tipo_Cliente</targetReference>
+        </connector>
+        <object>Case</object>
+        <recordTriggerType>Create</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

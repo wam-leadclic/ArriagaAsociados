@@ -1,0 +1,29 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<p>Buenos días {{{Recipient.FirstName}}}</p>
+
+<p>&nbsp;</p>
+
+<p>Nos ponemos en contacto contigo para recordarte que <b>el plazo de abono de tu factura <span style="color:#c0392b;">(en concepto de:)</span><span style="color:#c0392b;"> </span>es de 30 días naturales desde la fecha indicada en la propia factura.&nbsp; Salvo Error, se encuentra actualmente pendiente de pago</b>, por lo que rogamos realizar el ingreso a la mayor brevedad.&nbsp;</p>
+
+<p>Te recordamos que el devengo de honorarios se produce en cumplimiento de la Hoja de Encargo suscrita con ARRIAGA ASOCIADOS.&nbsp;</p>
+
+<p><b>Adjuntamos factura pendiente de pago.&nbsp;</b>&nbsp;</p>
+
+<p>La cuenta donde realizar la transferencia es: <b>CaixaBank ES30 2100 5518 7202 0016 4707</b>, indicando como concepto el número del expediente.&nbsp;&nbsp;</p>
+
+<p>Si lo prefieres, tenemos a disposición una pasarela de pago virtual con la que podrás efectuar el pago de la factura utilizando el enlace web que recibirás por SMS en tu teléfono móvil y/o por mail en tu correo electrónico, es totalmente seguro y puedes solicitarlo como medio de pago respondiendo a este mismo mail.&nbsp;</p>
+
+<p>Si tienes alguna duda, puedes contactar en el número de teléfono&nbsp;<span style="color:#c0392b;">( nº telf del técnico GDC )</span><b> </b>o respondiendo este mail y nos pondremos en contacto.&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>Gracias por confiar en nosotros.&nbsp;</p>
+
+<p>Equipo Gestion de Cobros<br />
+Arriaga Asociados&nbsp;</p>
+
+</body></html>

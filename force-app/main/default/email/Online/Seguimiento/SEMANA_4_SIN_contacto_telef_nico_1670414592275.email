@@ -1,0 +1,19 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<p>Hola, {{{Account.FirstName}}}&nbsp;</p>
+
+<p>Seguimos pendientes de tu caso.</p>
+
+<p>Todavía no hemos recibido la documentación necesaria para que nuestros abogados puedan verificar la viabilidad de tu&nbsp;reclamación y tampoco hemos podido contactarte telefónicamente.</p>
+
+<p>Si lo prefieres, puedes llamarnos tú, al <b>teléfono gratuito 900 264 600</b> y preguntar por mí directamente: {{{Sender.Name}}}, así podremos aclarar las dudas que tengas al respecto.</p>
+
+<p>Gracias por confiar en nosotros.&nbsp;</p>
+
+<p>Equipo Arriaga Asociados<br />
+<a href="https://www.arriagaasociados.com/">https://www.arriagaasociados.com/</a></p>
+</body>
+</html>

@@ -1,0 +1,17 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<p>Hola, {{{Account.FirstName}}}&nbsp;</p>
+
+<p>No recibimos contestación a nuestros últimos contactos.&nbsp;<strong>Con tu permiso, procedo a dejar el seguimiento personalizado</strong> que estaba haciendo sobre tu consulta.</p>
+
+<p>Sin embargo, en Arriaga Asociados estamos para ayudarte, y voy a trasladar tu expediente directamente a uno de nuestros abogados para que próximamente, se ponga en contacto contigo y pueda resolverte aquellas dudas que quizá no te hayamos podido resolver hasta ahora<strong>.</strong></p>
+
+<p><br />
+Gracias por confiar en nosotros.&nbsp;</p>
+
+<p>&nbsp;</p>
+</body>
+</html>

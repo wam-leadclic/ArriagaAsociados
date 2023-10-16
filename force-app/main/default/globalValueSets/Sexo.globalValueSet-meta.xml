@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Hombre</fullName>
+        <default>false</default>
+        <label>Hombre</label>
+    </customValue>
+    <customValue>
+        <fullName>Mujer</fullName>
+        <default>false</default>
+        <label>Mujer</label>
+    </customValue>
+    <description>Sexo</description>
+    <masterLabel>Sexo</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

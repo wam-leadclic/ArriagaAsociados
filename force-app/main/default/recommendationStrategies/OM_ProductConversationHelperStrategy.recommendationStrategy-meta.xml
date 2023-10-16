@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecommendationStrategy xmlns="http://soap.sforce.com/2006/04/metadata">
+    <filter>
+        <childNode>Load_all_Recommendations</childNode>
+        <label>Filter to matched Recommendation</label>
+        <name>Filter_to_matched_Recommendation</name>
+        <expression>CONTAINS( $Request.ConversationKey, OM_Family__c) &amp;&amp; $Request.ConversationKey != &apos;&apos;</expression>
+    </filter>
+    <label>Product - Conversation Helper Strategy</label>
+    <recommendationLimit>
+        <childNode>Filter_to_matched_Recommendation</childNode>
+        <label>Limit Offer</label>
+        <name>Limit_Offer</name>
+        <filterMode>Accepted</filterMode>
+        <filterMode>Rejected</filterMode>
+        <lookbackDuration>90</lookbackDuration>
+        <maxRecommendationCount>1</maxRecommendationCount>
+    </recommendationLimit>
+    <recommendationLoad>
+        <label>Load all Recommendations</label>
+        <name>Load_all_Recommendations</name>
+        <condition>
+            <field>Name</field>
+            <operator>NOT_EQUALS</operator>
+            <value>
+                <type>TEXT</type>
+                <value></value>
+            </value>
+        </condition>
+        <condition>
+            <field>OM_RTDevName__c</field>
+            <operator>EQUALS</operator>
+            <value>
+                <type>TEXT</type>
+                <value>OM_Products</value>
+            </value>
+        </condition>
+        <conditionLogic>and</conditionLogic>
+        <object>Recommendation</object>
+    </recommendationLoad>
+    <union>
+        <childNode>Limit_Offer</childNode>
+        <label>Output</label>
+        <name>Output_ed33402913c044519873a4e33b471371</name>
+    </union>
+</RecommendationStrategy>

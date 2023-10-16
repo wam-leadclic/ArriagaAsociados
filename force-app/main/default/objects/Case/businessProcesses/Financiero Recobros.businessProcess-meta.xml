@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BusinessProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Financiero Recobros</fullName>
+    <description>Proceso de soporte para gestión de recobros de Financiero</description>
+    <isActive>true</isActive>
+    <values>
+        <fullName>Asignado</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Cerrado</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Escalado a riesgos</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Jura de Cuentas</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Nuevo</fullName>
+        <default>true</default>
+    </values>
+    <values>
+        <fullName>Reabierto</fullName>
+        <default>false</default>
+    </values>
+</BusinessProcess>

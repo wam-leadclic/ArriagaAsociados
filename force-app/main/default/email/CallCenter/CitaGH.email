@@ -1,0 +1,757 @@
+<html>
+<head><meta><meta content="IE=edge"><meta content="width=device-width, initial-scale=1" name="viewport">
+	<title>Arriaga Asociados</title>
+	<style type="text/css">p{
+			margin:10px 0;
+			padding:0;
+		}
+		table{
+			border-collapse:collapse;
+		}
+		h1,h2,h3,h4,h5,h6{
+			display:block;
+			margin:0;
+			padding:0;
+		}
+		img,a img{
+			border:0;
+			height:auto;
+			outline:none;
+			text-decoration:none;
+		}
+		body,#bodyTable,#bodyCell{
+			height:100%;
+			margin:0;
+			padding:0;
+			width:100%;
+		}
+		.mcnPreviewText{
+			display:none !important;
+		}
+		#outlook a{
+			padding:0;
+		}
+		img{
+			-ms-interpolation-mode:bicubic;
+		}
+		table{
+			mso-table-lspace:0pt;
+			mso-table-rspace:0pt;
+		}
+		.ReadMsgBody{
+			width:100%;
+		}
+		.ExternalClass{
+			width:100%;
+		}
+		p,a,li,td,blockquote{
+			mso-line-height-rule:exactly;
+		}
+		a[href^=tel],a[href^=sms]{
+			color:inherit;
+			cursor:default;
+			text-decoration:none;
+		}
+		p,a,li,td,body,table,blockquote{
+			-ms-text-size-adjust:100%;
+			-webkit-text-size-adjust:100%;
+		}
+		.ExternalClass,.ExternalClass p,.ExternalClass td,.ExternalClass div,.ExternalClass span,.ExternalClass font{
+			line-height:100%;
+		}
+		a[x-apple-data-detectors]{
+			color:inherit !important;
+			text-decoration:none !important;
+			font-size:inherit !important;
+			font-family:inherit !important;
+			font-weight:inherit !important;
+			line-height:inherit !important;
+		}
+		#bodyCell{
+			padding:10px;
+		}
+		.templateContainer{
+			max-width:600px !important;
+		}
+		a.mcnButton{
+			display:block;
+		}
+		.mcnImage,.mcnRetinaImage{
+			vertical-align:bottom;
+		}
+		.mcnTextContent{
+			word-break:break-word;
+		}
+		.mcnTextContent img{
+			height:auto !important;
+		}
+		.mcnDividerBlock{
+			table-layout:fixed !important;
+		}
+		body,#bodyTable{
+			/*@editable*/background-color:#FAFAFA;
+		}
+		#bodyCell{
+			/*@editable*/border-top:0;
+		}
+		.templateContainer{
+			/*@editable*/border:0;
+		}
+		h1{
+			/*@editable*/color:#202020;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:26px;
+			/*@editable*/font-style:normal;
+			/*@editable*/font-weight:bold;
+			/*@editable*/line-height:125%;
+			/*@editable*/letter-spacing:normal;
+			/*@editable*/text-align:left;
+		}
+		h2{
+			/*@editable*/color:#202020;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:22px;
+			/*@editable*/font-style:normal;
+			/*@editable*/font-weight:bold;
+			/*@editable*/line-height:125%;
+			/*@editable*/letter-spacing:normal;
+			/*@editable*/text-align:left;
+		}
+		h3{
+			/*@editable*/color:#202020;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:20px;
+			/*@editable*/font-style:normal;
+			/*@editable*/font-weight:bold;
+			/*@editable*/line-height:125%;
+			/*@editable*/letter-spacing:normal;
+			/*@editable*/text-align:left;
+		}
+		h4{
+			/*@editable*/color:#202020;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:18px;
+			/*@editable*/font-style:normal;
+			/*@editable*/font-weight:bold;
+			/*@editable*/line-height:125%;
+			/*@editable*/letter-spacing:normal;
+			/*@editable*/text-align:left;
+		}
+		#templatePreheader{
+			/*@editable*/background-color:#FAFAFA;
+			/*@editable*/background-image:none;
+			/*@editable*/background-repeat:no-repeat;
+			/*@editable*/background-position:center;
+			/*@editable*/background-size:cover;
+			/*@editable*/border-top:0;
+			/*@editable*/border-bottom:0;
+			/*@editable*/padding-top:9px;
+			/*@editable*/padding-bottom:9px;
+		}
+		#templatePreheader .mcnTextContent,#templatePreheader .mcnTextContent p{
+			/*@editable*/color:#656565;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:12px;
+			/*@editable*/line-height:150%;
+			/*@editable*/text-align:left;
+		}
+		#templatePreheader .mcnTextContent a,#templatePreheader .mcnTextContent p a{
+			/*@editable*/color:#656565;
+			/*@editable*/font-weight:normal;
+			/*@editable*/text-decoration:underline;
+		}
+		#templateHeader{
+			/*@editable*/background-color:#FFFFFF;
+			/*@editable*/background-image:none;
+			/*@editable*/background-repeat:no-repeat;
+			/*@editable*/background-position:center;
+			/*@editable*/background-size:cover;
+			/*@editable*/border-top:0;
+			/*@editable*/border-bottom:0;
+			/*@editable*/padding-top:9px;
+			/*@editable*/padding-bottom:0;
+		}
+		#templateHeader .mcnTextContent,#templateHeader .mcnTextContent p{
+			/*@editable*/color:#202020;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:16px;
+			/*@editable*/line-height:150%;
+			/*@editable*/text-align:left;
+		}
+		#templateHeader .mcnTextContent a,#templateHeader .mcnTextContent p a{
+			/*@editable*/color:#007C89;
+			/*@editable*/font-weight:normal;
+			/*@editable*/text-decoration:underline;
+		}
+		#templateBody{
+			/*@editable*/background-color:#FFFFFF;
+			/*@editable*/background-image:none;
+			/*@editable*/background-repeat:no-repeat;
+			/*@editable*/background-position:center;
+			/*@editable*/background-size:cover;
+			/*@editable*/border-top:0;
+			/*@editable*/border-bottom:2px solid #EAEAEA;
+			/*@editable*/padding-top:0;
+			/*@editable*/padding-bottom:9px;
+		}
+		#templateBody .mcnTextContent,#templateBody .mcnTextContent p{
+			/*@editable*/color:#202020;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:16px;
+			/*@editable*/line-height:150%;
+			/*@editable*/text-align:left;
+		}
+		#templateBody .mcnTextContent a,#templateBody .mcnTextContent p a{
+			/*@editable*/color:#007C89;
+			/*@editable*/font-weight:normal;
+			/*@editable*/text-decoration:underline;
+		}
+		#templateFooter{
+			/*@editable*/background-color:#FAFAFA;
+			/*@editable*/background-image:none;
+			/*@editable*/background-repeat:no-repeat;
+			/*@editable*/background-position:center;
+			/*@editable*/background-size:cover;
+			/*@editable*/border-top:0;
+			/*@editable*/border-bottom:0;
+			/*@editable*/padding-top:9px;
+			/*@editable*/padding-bottom:9px;
+		}
+		#templateFooter .mcnTextContent,#templateFooter .mcnTextContent p{
+			/*@editable*/color:#656565;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:12px;
+			/*@editable*/line-height:150%;
+			/*@editable*/text-align:center;
+		}
+		#templateFooter .mcnTextContent a,#templateFooter .mcnTextContent p a{
+			/*@editable*/color:#656565;
+			/*@editable*/font-weight:normal;
+			/*@editable*/text-decoration:underline;
+		}
+	@media only screen and (min-width:768px){
+		.templateContainer{
+			width:600px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		body,table,td,p,a,li,blockquote{
+			-webkit-text-size-adjust:none !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		body{
+			width:100% !important;
+			min-width:100% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		#bodyCell{
+			padding-top:10px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnRetinaImage{
+			max-width:100% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnImage{
+			width:100% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnCartContainer,.mcnCaptionTopContent,.mcnRecContentContainer,.mcnCaptionBottomContent,.mcnTextContentContainer,.mcnBoxedTextContentContainer,.mcnImageGroupContentContainer,.mcnCaptionLeftTextContentContainer,.mcnCaptionRightTextContentContainer,.mcnCaptionLeftImageContentContainer,.mcnCaptionRightImageContentContainer,.mcnImageCardLeftTextContentContainer,.mcnImageCardRightTextContentContainer,.mcnImageCardLeftImageContentContainer,.mcnImageCardRightImageContentContainer{
+			max-width:100% !important;
+			width:100% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnBoxedTextContentContainer{
+			min-width:100% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnImageGroupContent{
+			padding:9px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnCaptionLeftContentOuter .mcnTextContent,.mcnCaptionRightContentOuter .mcnTextContent{
+			padding-top:9px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnImageCardTopImageContent,.mcnCaptionBottomContent:last-child .mcnCaptionBottomImageContent,.mcnCaptionBlockInner .mcnCaptionTopContent:last-child .mcnTextContent{
+			padding-top:18px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnImageCardBottomImageContent{
+			padding-bottom:9px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnImageGroupBlockInner{
+			padding-top:0 !important;
+			padding-bottom:0 !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnImageGroupBlockOuter{
+			padding-top:9px !important;
+			padding-bottom:9px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnTextContent,.mcnBoxedTextContentColumn{
+			padding-right:18px !important;
+			padding-left:18px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnImageCardLeftImageContent,.mcnImageCardRightImageContent{
+			padding-right:18px !important;
+			padding-bottom:0 !important;
+			padding-left:18px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcpreview-image-uploader{
+			display:none !important;
+			width:100% !important;
+		}
+}	@media only screen and (max-width: 480px){
+		h1{
+			/*@editable*/font-size:22px !important;
+			/*@editable*/line-height:125% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		h2{
+			/*@editable*/font-size:20px !important;
+			/*@editable*/line-height:125% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		h3{
+			/*@editable*/font-size:18px !important;
+			/*@editable*/line-height:125% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		h4{
+			/*@editable*/font-size:16px !important;
+			/*@editable*/line-height:150% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnBoxedTextContentContainer .mcnTextContent,.mcnBoxedTextContentContainer .mcnTextContent p{
+			/*@editable*/font-size:14px !important;
+			/*@editable*/line-height:150% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		#templatePreheader{
+			/*@editable*/display:block !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		#templatePreheader .mcnTextContent,#templatePreheader .mcnTextContent p{
+			/*@editable*/font-size:14px !important;
+			/*@editable*/line-height:150% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		#templateHeader .mcnTextContent,#templateHeader .mcnTextContent p{
+			/*@editable*/font-size:16px !important;
+			/*@editable*/line-height:150% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		#templateBody .mcnTextContent,#templateBody .mcnTextContent p{
+			/*@editable*/font-size:16px !important;
+			/*@editable*/line-height:150% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		#templateFooter .mcnTextContent,#templateFooter .mcnTextContent p{
+			/*@editable*/font-size:14px !important;
+			/*@editable*/line-height:150% !important;
+		}
+
+}
+	</style>
+</head>
+<body style="height: auto; min-height: auto;">
+<center>
+<table align="center" border="0" cellpadding="0" cellspacing="0" height="100%" id="bodyTable" width="100%">
+	<tbody>
+		<tr>
+			<td align="center" id="bodyCell" valign="top">
+			<table border="0" cellpadding="0" cellspacing="0" class="templateContainer" width="100%">
+				<tbody>
+					<tr>
+						<td id="templatePreheader" valign="top">&nbsp;</td>
+					</tr>
+					<tr>
+						<td id="templateHeader" valign="top">
+						<table border="0" cellpadding="0" cellspacing="0" class="mcnImageBlock" style="min-width:100%;" width="100%">
+							<tbody class="mcnImageBlockOuter">
+								<tr>
+									<td class="mcnImageBlockInner" style="padding:9px" valign="top">
+									<table align="left" border="0" cellpadding="0" cellspacing="0" class="mcnImageContentContainer" style="min-width:100%;" width="100%">
+										<tbody>
+											<tr>
+												<td class="mcnImageContent" style="padding-right: 9px; padding-left: 9px; padding-top: 0; padding-bottom: 0; text-align:center;" valign="top"><img align="center" alt="" class="mcnImage" src="https://arriagaasociados--c.documentforce.com/servlet/servlet.ImageServer?id=0151t000001UhEa&oid=00D1t000000rxg7&lastMod=1561475538000" style="max-width:800px; padding-bottom: 0; display: inline !important; vertical-align: bottom;" width="564" /></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td id="templateBody" valign="top">
+						<table border="0" cellpadding="0" cellspacing="0" class="mcnTextBlock" style="min-width:100%;" width="100%">
+							<tbody class="mcnTextBlockOuter">
+								<tr>
+									<td class="mcnTextBlockInner" style="padding-top:9px;" valign="top">
+									<table align="left" border="0" cellpadding="0" cellspacing="0" class="mcnTextContentContainer" style="max-width:100%; min-width:100%;" width="100%">
+										<tbody>
+											<tr>
+												<td class="mcnTextContent" style="padding-top:0; padding-right:18px; padding-bottom:9px; padding-left:18px;" valign="top">
+												<div dir="ltr">&nbsp;</div>
+												<span style="font-size:11pt;font-family:open sans,helvetica neue,helvetica,arial,sans-serif">Gracias por contactar con Arriaga Asociados,<br />
+												<br />
+												Le recordamos su cita el pr&oacute;ximo <strong>{!Event.StartDateTime +0}h</strong> en la siguiente direcci&oacute;n:</span><br />
+												&nbsp;
+												<center><span style="font-size:11pt;font-family:open sans,helvetica neue,helvetica,arial,sans-serif"><strong>{!Event.DireccionOficina__c}</strong></span></center>
+												<br />
+												<span style="font-size:11pt;font-family:open sans,helvetica neue,helvetica,arial,sans-serif">Si por cualquier motivo no pudiera acudir a la cita, puede modificarla o cancelarla contactando con nuestro Call Center<br />
+												<br />
+												Para ayudarle a recuperar los <strong>GASTOS DE FORMALIZACI&Oacute;N DE SU HIPOTECA</strong> puede ir preparando la siguiente <strong>DOCUMENTACI&Oacute;N</strong> (original o copia). En caso de no disponer de ella, comun&iacute;quenoslo y le ayudaremos a encontrarla. </span><br />
+												&nbsp;
+												<p align="left" class="MsoNormal" style="margin-top:0cm;margin-right:0cm;
+margin-bottom:0cm;margin-left:.45pt;margin-bottom:.0001pt;text-align:left;
+text-indent:-.5pt;line-height:107%"><b style="mso-bidi-font-weight:normal"><span style="font-size:13.0pt;line-height:107%;color:#FF6600">Para acudir a la primera cita es muy importante que aporte: </span></b></p>
+												&nbsp;
+
+												<p align="left" class="MsoNormal" style="margin-top:0cm;margin-right:0cm;
+margin-bottom:4.65pt;margin-left:35.3pt;text-align:left;text-indent:-18.0pt;
+line-height:109%;mso-list:l0 level1 lfo1"><span style="font-size:11.0pt;line-height:109%;font-family:&quot;Arial&quot;,sans-serif;
+mso-fareast-font-family:Arial;color:#1F1F1F"><span style="mso-list:Ignore">&bull;<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><span style="font-size:11.0pt;line-height:109%;
+color:#1F1F1F">Escrituras del pr&eacute;stamo hipotecario, novaciones y ampliaciones que se hayan realizado. </span></p>
+
+												<p align="left" class="MsoNormal" style="margin-top:0cm;margin-right:0cm;
+margin-bottom:0cm;margin-left:.7pt;margin-bottom:.0001pt;text-align:left;
+text-indent:0cm;line-height:107%"><b style="mso-bidi-font-weight:normal"><span style="font-size:16.0pt;mso-bidi-font-size:11.0pt;line-height:107%;color:#FF6600"><span style="mso-spacerun:yes">&nbsp;</span></span></b></p>
+
+												<p align="left" class="MsoNormal" style="margin-top:0cm;margin-right:0cm;
+margin-bottom:0cm;margin-left:.45pt;margin-bottom:.0001pt;text-align:left;
+text-indent:-.5pt;line-height:107%"><b style="mso-bidi-font-weight:normal"><span style="font-size:13.0pt;line-height:107%;color:#FF6600">Adem&aacute;s, necesitaremos que nos aporte cuanto antes: </span></b></p>
+												&nbsp;
+
+												<p align="left" class="MsoNormal" style="margin-top:0cm;margin-right:0cm;
+margin-bottom:3.35pt;margin-left:35.3pt;text-align:left;text-indent:-18.0pt;
+line-height:109%;mso-list:l0 level1 lfo1"><span style="font-size:11.0pt;line-height:109%;font-family:&quot;Arial&quot;,sans-serif;
+mso-fareast-font-family:Arial;color:#1F1F1F"><span style="mso-list:Ignore">&bull;<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><span style="font-size:11.0pt;line-height:109%;
+color:#1F1F1F">Factura de la Gestor&iacute;a. </span></p>
+
+												<p align="left" class="MsoNormal" style="margin-top:0cm;margin-right:0cm;
+margin-bottom:3.35pt;margin-left:35.3pt;text-align:left;text-indent:-18.0pt;
+line-height:109%;mso-list:l0 level1 lfo1"><span style="font-size:11.0pt;line-height:109%;font-family:&quot;Arial&quot;,sans-serif;
+mso-fareast-font-family:Arial;color:#1F1F1F"><span style="mso-list:Ignore">&bull;<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><span style="font-size:11.0pt;line-height:109%;
+color:#1F1F1F">Factura de la Tasaci&oacute;n. </span></p>
+
+												<p align="left" class="MsoNormal" style="margin-top:0cm;margin-right:0cm;
+margin-bottom:3.35pt;margin-left:35.3pt;text-align:left;text-indent:-18.0pt;
+line-height:109%;mso-list:l0 level1 lfo1"><span style="font-size:11.0pt;line-height:109%;font-family:&quot;Arial&quot;,sans-serif;
+mso-fareast-font-family:Arial;color:#1F1F1F"><span style="mso-list:Ignore">&bull;<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><span style="font-size:11.0pt;line-height:109%;
+color:#1F1F1F">Factura de la Notar&iacute;a.<span style="mso-spacerun:yes">&nbsp; </span></span></p>
+
+												<p align="left" class="MsoNormal" style="margin-top:0cm;margin-right:0cm;
+margin-bottom:3.35pt;margin-left:35.3pt;text-align:left;text-indent:-18.0pt;
+line-height:109%;mso-list:l0 level1 lfo1"><span style="font-size:11.0pt;line-height:109%;font-family:&quot;Arial&quot;,sans-serif;
+mso-fareast-font-family:Arial;color:#1F1F1F"><span style="mso-list:Ignore">&bull;<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><span style="font-size:11.0pt;line-height:109%;
+color:#1F1F1F">Factura del Registro de la Propiedad.<span style="mso-spacerun:yes">&nbsp; </span></span></p>
+
+												<p align="left" class="MsoNormal" style="margin-top:0cm;margin-right:0cm;
+margin-bottom:3.35pt;margin-left:35.3pt;text-align:left;text-indent:-18.0pt;
+line-height:109%;mso-list:l0 level1 lfo1"><span style="font-size:11.0pt;line-height:109%;font-family:&quot;Arial&quot;,sans-serif;
+mso-fareast-font-family:Arial;color:#1F1F1F"><span style="mso-list:Ignore">&bull;<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><span style="font-size:11.0pt;line-height:109%;
+color:#1F1F1F">Carta de Pago del Impuesto de Actos Jur&iacute;dicos Documentados.<span style="mso-spacerun:yes">&nbsp; </span></span></p>
+
+												<p align="left" class="MsoNormal" style="margin-top:0cm;margin-right:0cm;
+margin-bottom:3.35pt;margin-left:35.3pt;text-align:left;text-indent:-18.0pt;
+line-height:109%;mso-list:l0 level1 lfo1"><span style="font-size:11.0pt;line-height:109%;font-family:&quot;Arial&quot;,sans-serif;
+mso-fareast-font-family:Arial;color:#1F1F1F"><span style="mso-list:Ignore">&bull;<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><span style="font-size:11.0pt;line-height:109%;
+color:#1F1F1F">Comprobante de pago de la Comisi&oacute;n de Apertura. </span></p>
+
+												<p align="left" class="MsoNormal" style="margin-top:0cm;margin-right:0cm;
+margin-bottom:3.35pt;margin-left:35.3pt;text-align:left;text-indent:-18.0pt;
+line-height:109%;mso-list:l0 level1 lfo1"><span style="font-size:11.0pt;line-height:109%;font-family:&quot;Arial&quot;,sans-serif;
+mso-fareast-font-family:Arial;color:#1F1F1F"><span style="mso-list:Ignore">&bull;<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><span style="font-size:11.0pt;line-height:109%;
+color:#1F1F1F">ITP por Afianzamiento (en el caso de existir dicha liquidaci&oacute;n abonada por el cliente) </span></p>
+
+												<p align="left" class="MsoNormal" style="margin-top:0cm;margin-right:0cm;
+margin-bottom:3.35pt;margin-left:35.3pt;text-align:left;text-indent:-18.0pt;
+line-height:109%;mso-list:l0 level1 lfo1"><span style="font-size:11.0pt;line-height:109%;font-family:&quot;Arial&quot;,sans-serif;
+mso-fareast-font-family:Arial;color:#1F1F1F"><span style="mso-list:Ignore">&bull;<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><span style="font-size:11.0pt;line-height:109%;
+color:#1F1F1F">Poder para pleitos a favor de Arriaga Asociados</span></p>
+												&nbsp;
+
+												<p align="left" class="MsoNormal" style="margin-top:0cm;margin-right:0cm;
+margin-bottom:3.4pt;margin-left:.7pt;text-align:left;text-indent:0cm;
+line-height:107%"><b style="mso-bidi-font-weight:normal"><span style="font-size:11.0pt;line-height:107%;color:#FF6600">D&Oacute;NDE ENCONTRAR LA DOCUMENTACI&Oacute;N SOLICITADA </span></b><span style="font-size:11.5pt;mso-bidi-font-size:
+11.0pt;line-height:107%"><span style="mso-spacerun:yes">&nbsp;</span></span><span style="mso-spacerun:yes">&nbsp;</span></p>
+
+												<p class="MsoNormal" style="margin-left:18.0pt;text-indent:-18.0pt;mso-list:l1 level1 lfo2"><span style="mso-bidi-font-size:10.0pt;line-height:112%;font-family:&quot;Calibri&quot;,sans-serif;
+mso-fareast-font-family:Calibri"><span style="mso-list:Ignore">1.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span> <span style="mso-spacerun:yes;font-size:9pt">ESCRITURAS: Si no las tiene localizadas, puede solicitar una copia al banco o al notario que tramit&oacute; la escritura de pr&eacute;stamo.</span></p>
+
+												<p class="MsoNormal" style="margin-left:18.0pt;text-indent:-18.0pt;mso-list:l1 level1 lfo2"><span style="mso-bidi-font-size:10.0pt;line-height:112%;font-family:&quot;Calibri&quot;,sans-serif;
+mso-fareast-font-family:Calibri"><span style="mso-list:Ignore">2.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><span style="mso-spacerun:yes;font-size:9pt">FACTURA DE LA GESTOR&Iacute;A. Muchas veces est&aacute; grapada a las escrituras. Si no es as&iacute;, hay que solicitar la factura a la gestor&iacute;a que tramit&oacute; el pr&eacute;stamo. En las &uacute;ltimas p&aacute;ginas de la escritura suele aparecer el nombre de la misma. Tambi&eacute;n figura en la car&aacute;tula de la escritura original de compraventa.</span></p>
+
+												<p class="MsoNormal" style="margin-left:18.0pt;text-indent:-18.0pt;mso-list:l1 level1 lfo2"><span style="mso-bidi-font-size:10.0pt;line-height:112%;font-family:&quot;Calibri&quot;,sans-serif;
+mso-fareast-font-family:Calibri"><span style="mso-list:Ignore">3.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><span style="mso-spacerun:yes;font-size:9pt">FACTURA DE TASACI&Oacute;N: Tiene que localizar a la empresa que realiz&oacute; la tasaci&oacute;n. En ocasiones, al final de la escritura aparece el certificado de tasaci&oacute;n con el cual se puede localizar la empresa.</span></p>
+
+												<p class="MsoNormal" style="margin-left:18.0pt;text-indent:-18.0pt;mso-list:l1 level1 lfo2"><span style="mso-bidi-font-size:10.0pt;line-height:112%;font-family:&quot;Calibri&quot;,sans-serif;
+mso-fareast-font-family:Calibri"><span style="mso-list:Ignore">4.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><span style="mso-spacerun:yes;font-size:9pt">FACTURA DE LA NOTAR&Iacute;A: Si no est&aacute; junto con las dem&aacute;s facturas, se puede solicitar a la notar&iacute;a que tramit&oacute; la escritura aportando fecha, n&uacute;mero de protocolo y notario. El nombre de la notar&iacute;a es el que aparece en la parte superior de las escrituras.</span></p>
+
+												<p class="MsoNormal" style="margin-left:18.0pt;text-indent:-18.0pt;mso-list:l1 level1 lfo2"><span style="mso-bidi-font-size:10.0pt;line-height:112%;font-family:&quot;Calibri&quot;,sans-serif;
+mso-fareast-font-family:Calibri"><span style="mso-list:Ignore">5.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><span style="mso-spacerun:yes;font-size:9pt">FACTURA DEL REGISTRO DE LA PROPIEDAD: presentar las escrituras de pr&eacute;stamo al Registro de la Propiedad</span></p>
+
+												<p class="MsoNormal" style="margin-left:18.0pt;text-indent:-18.0pt;mso-list:l1 level1 lfo2"><span style="mso-bidi-font-size:10.0pt;line-height:112%;font-family:&quot;Calibri&quot;,sans-serif;
+mso-fareast-font-family:Calibri"><span style="mso-list:Ignore">6.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><span style="mso-spacerun:yes;font-size:9pt">CARTA DE PAGO DEL IMPUESTO DE ACTOS JUR&Iacute;DICOS DOCUMENTADOS: Presentar las escrituras o aportar la fecha, n&uacute;mero de protocolo y Notario a la Agencia Tributaria</span></p>
+
+												<p class="MsoNormal" style="margin-left:18.0pt;text-indent:-18.0pt;mso-list:l1 level1 lfo2"><span style="mso-bidi-font-size:10.0pt;line-height:112%;font-family:&quot;Calibri&quot;,sans-serif;
+mso-fareast-font-family:Calibri"><span style="mso-list:Ignore">7.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><span style="mso-spacerun:yes;font-size:9pt">COMISI&Oacute;N DE APERTURA: Necesitamos comprobante de pago de esta comisi&oacute;n. Se puede localizar en el extracto de movimientos de la cuenta corriente asociada o bien en la libreta, d&oacute;nde se ven reflejados con los movimientos que contemplan este importe.</span></p>
+												&nbsp;
+
+												<h1 style="color:#FF6600;font-size:14pt;margin-top:0cm;margin-right:.05pt;margin-bottom:0cm;margin-left:
+0cm;margin-bottom:.0001pt"><span style="mso-spacerun:yes">&nbsp;</span>GRACIAS POR ELEGIRNOS<span style="mso-spacerun:yes">&nbsp; </span></h1>
+												&nbsp;
+
+												<p align="center" class="MsoNormal" style="margin-top:0cm;margin-right:.1pt;
+margin-bottom:.15pt;margin-left:1.15pt;text-align:center;text-indent:-.5pt;
+line-height:107%"><b style="mso-bidi-font-weight:normal"><span style="font-size:10pt;color:#575757">RECUERDE QUE TAMBI&Eacute;N LE PODEMOS AYUDAR EN ESTOS CASOS </span></b></p>
+
+												<p align="center" class="MsoNormal" style="margin-top:0cm;margin-right:0cm;
+margin-bottom:.15pt;margin-left:1.15pt;text-align:center;text-indent:-.5pt;
+line-height:107%"><b style="mso-bidi-font-weight:normal"><span style="font-size:8pt;color:#575757">Clausula Suelo &middot; IRPH &middot; Hipoteca <span class="SpellE">Multidivisa</span> &middot; Acciones Banco Popular &middot;<span style="mso-spacerun:yes">&nbsp; </span>Herencias y Derecho de Familia</span></b></p>
+
+												<p align="center" class="MsoNormal" style="margin-top:0cm;margin-right:.15pt;
+margin-bottom:.15pt;margin-left:1.15pt;text-align:center;text-indent:-.5pt;
+line-height:107%"><b style="mso-bidi-font-weight:normal"><span style="font-size:8pt;color:#575757">Accidentes&middot; Asesoramiento Precontractual &middot;<span style="mso-spacerun:yes">&nbsp; </span>Plusval&iacute;a &middot; Vivienda no entregada &middot; Ejecuciones Hipotecarias</span></b></p>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td id="templateFooter" valign="top">
+						<table border="0" cellpadding="0" cellspacing="0" class="mcnFollowBlock" style="min-width:100%;" width="100%">
+							<tbody class="mcnFollowBlockOuter">
+								<tr>
+									<td align="center" class="mcnFollowBlockInner" style="padding:9px" valign="top">
+									<table border="0" cellpadding="0" cellspacing="0" class="mcnFollowContentContainer" style="min-width:100%;" width="100%">
+										<tbody>
+											<tr>
+												<td align="center" style="padding-left:9px;padding-right:9px;">
+												<table border="0" cellpadding="0" cellspacing="0" class="mcnFollowContent" style="min-width:100%;" width="100%">
+													<tbody>
+														<tr>
+															<td align="center" style="padding-top:9px; padding-right:9px; padding-left:9px;" valign="top">
+															<table align="center" border="0" cellpadding="0" cellspacing="0">
+																<tbody>
+																	<tr>
+																		<td align="center" valign="top">
+																		<table align="left" border="0" cellpadding="0" cellspacing="0" style="display:inline;">
+																			<tbody>
+																				<tr>
+																					<td class="mcnFollowContentItemContainer" style="padding-right:10px; padding-bottom:9px;" valign="top">
+																					<table border="0" cellpadding="0" cellspacing="0" class="mcnFollowContentItem" width="100%">
+																						<tbody>
+																							<tr>
+																								<td align="left" style="padding-top:5px; padding-right:10px; padding-bottom:5px; padding-left:9px;" valign="middle">
+																								<table align="left" border="0" cellpadding="0" cellspacing="0" width="">
+																									<tbody>
+																										<tr>
+																											<td align="center" class="mcnFollowIconContent" valign="middle" width="24"><a href="https://www.facebook.com/arriagaasociados/" target="_blank"><img height="24" src="https://cdn-images.mailchimp.com/icons/social-block-v2/dark-facebook-48.png" style="display:block;" width="24" /></a></td>
+																										</tr>
+																									</tbody>
+																								</table>
+																								</td>
+																							</tr>
+																						</tbody>
+																					</table>
+																					</td>
+																				</tr>
+																			</tbody>
+																		</table>
+
+																		<table align="left" border="0" cellpadding="0" cellspacing="0" style="display:inline;">
+																			<tbody>
+																				<tr>
+																					<td class="mcnFollowContentItemContainer" style="padding-right:10px; padding-bottom:9px;" valign="top">
+																					<table border="0" cellpadding="0" cellspacing="0" class="mcnFollowContentItem" width="100%">
+																						<tbody>
+																							<tr>
+																								<td align="left" style="padding-top:5px; padding-right:10px; padding-bottom:5px; padding-left:9px;" valign="middle">
+																								<table align="left" border="0" cellpadding="0" cellspacing="0" width="">
+																									<tbody>
+																										<tr>
+																											<td align="center" class="mcnFollowIconContent" valign="middle" width="24"><a href="https://twitter.com/ArriagaAbogado" target="_blank"><img height="24" src="https://cdn-images.mailchimp.com/icons/social-block-v2/dark-twitter-48.png" style="display:block;" width="24" /></a></td>
+																										</tr>
+																									</tbody>
+																								</table>
+																								</td>
+																							</tr>
+																						</tbody>
+																					</table>
+																					</td>
+																				</tr>
+																			</tbody>
+																		</table>
+
+																		<table align="left" border="0" cellpadding="0" cellspacing="0" style="display:inline;">
+																			<tbody>
+																				<tr>
+																					<td class="mcnFollowContentItemContainer" style="padding-right:10px; padding-bottom:9px;" valign="top">
+																					<table border="0" cellpadding="0" cellspacing="0" class="mcnFollowContentItem" width="100%">
+																						<tbody>
+																							<tr>
+																								<td align="left" style="padding-top:5px; padding-right:10px; padding-bottom:5px; padding-left:9px;" valign="middle">
+																								<table align="left" border="0" cellpadding="0" cellspacing="0" width="">
+																									<tbody>
+																										<tr>
+																											<td align="center" class="mcnFollowIconContent" valign="middle" width="24"><a href="https://www.linkedin.com/company/arriaga-asociados/?viewAsMember=true" target="_blank"><img height="24" src="https://cdn-images.mailchimp.com/icons/social-block-v2/dark-linkedin-48.png" style="display:block;" width="24" /></a></td>
+																										</tr>
+																									</tbody>
+																								</table>
+																								</td>
+																							</tr>
+																						</tbody>
+																					</table>
+																					</td>
+																				</tr>
+																			</tbody>
+																		</table>
+
+																		<table align="left" border="0" cellpadding="0" cellspacing="0" style="display:inline;">
+																			<tbody>
+																				<tr>
+																					<td class="mcnFollowContentItemContainer" style="padding-right:10px; padding-bottom:9px;" valign="top">
+																					<table border="0" cellpadding="0" cellspacing="0" class="mcnFollowContentItem" width="100%">
+																						<tbody>
+																							<tr>
+																								<td align="left" style="padding-top:5px; padding-right:10px; padding-bottom:5px; padding-left:9px;" valign="middle">
+																								<table align="left" border="0" cellpadding="0" cellspacing="0" width="">
+																									<tbody>
+																										<tr>
+																											<td align="center" class="mcnFollowIconContent" valign="middle" width="24"><a href="https://www.youtube.com/channel/UCRIqqT84N6tOKuoCR-NlJKQ" target="_blank"><img height="24" src="https://cdn-images.mailchimp.com/icons/social-block-v2/dark-youtube-48.png" style="display:block;" width="24" /></a></td>
+																										</tr>
+																									</tbody>
+																								</table>
+																								</td>
+																							</tr>
+																						</tbody>
+																					</table>
+																					</td>
+																				</tr>
+																			</tbody>
+																		</table>
+
+																		<table align="left" border="0" cellpadding="0" cellspacing="0" style="display:inline;">
+																			<tbody>
+																				<tr>
+																					<td class="mcnFollowContentItemContainer" style="padding-right:0; padding-bottom:9px;" valign="top">
+																					<table border="0" cellpadding="0" cellspacing="0" class="mcnFollowContentItem" width="100%">
+																						<tbody>
+																							<tr>
+																								<td align="left" style="padding-top:5px; padding-right:10px; padding-bottom:5px; padding-left:9px;" valign="middle">
+																								<table align="left" border="0" cellpadding="0" cellspacing="0" width="">
+																									<tbody>
+																										<tr>
+																											<td align="center" class="mcnFollowIconContent" valign="middle" width="24"><a href="https://www.instagram.com/arriaga_asociados/" target="_blank"><img height="24" src="https://cdn-images.mailchimp.com/icons/social-block-v2/dark-instagram-48.png" style="display:block;" width="24" /></a></td>
+																										</tr>
+																									</tbody>
+																								</table>
+																								</td>
+																							</tr>
+																						</tbody>
+																					</table>
+																					</td>
+																				</tr>
+																			</tbody>
+																		</table>
+																		</td>
+																	</tr>
+																</tbody>
+															</table>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border="0" cellpadding="0" cellspacing="0" class="mcnDividerBlock" style="min-width:100%;" width="100%">
+							<tbody class="mcnDividerBlockOuter">
+								<tr>
+									<td class="mcnDividerBlockInner" style="min-width: 100%; padding: 10px 18px 25px;">
+									<table border="0" cellpadding="0" cellspacing="0" class="mcnDividerContent" style="min-width: 100%;border-top: 2px solid #EEEEEE;" width="100%">
+										<tbody>
+											<tr>
+												<td>&nbsp;</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border="0" cellpadding="0" cellspacing="0" class="mcnTextBlock" style="min-width:100%;" width="100%">
+							<tbody class="mcnTextBlockOuter">
+								<tr>
+									<td class="mcnTextBlockInner" style="padding-top:9px;" valign="top">
+									<table align="left" border="0" cellpadding="0" cellspacing="0" class="mcnTextContentContainer" style="max-width:100%; min-width:100%;" width="100%">
+										<tbody>
+											<tr>
+												<td class="mcnTextContent" style="padding-top:0; padding-right:18px; padding-bottom:9px; padding-left:18px;" valign="top"><a href="https://www.arriagaasociados.com/politica-de-privacidad/" target="_blank"><span style="color:#FF8C00"><span style="font-size:14px"><strong>Pol&iacute;tica de Privacidad</strong></span></span></a><br />
+												<span style="color:#000000;">Arriaga Asociados A.J.E.S.L.<br />
+												C/Agust&iacute;n de Fox&aacute;, 4<br />
+												Edificio Aqua Planta 5 B-C-D<br />
+												28036 MADRID</span></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+</center>
+</body>
+</html>

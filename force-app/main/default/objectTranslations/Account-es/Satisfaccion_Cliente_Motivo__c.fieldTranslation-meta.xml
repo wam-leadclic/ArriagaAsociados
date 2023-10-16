@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>Satisfaccion_Cliente_Motivo__c</name>
+    <picklistValues>
+        <masterLabel>EXPECTATIVAS</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FACTURACIÓN</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>INFORMACIÓN DURANTE PROCESO</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PENDIENTE DE REVISIÓN</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PLAZOS GESTIÓN INTERNA</masterLabel>
+        <translation></translation>
+    </picklistValues>
+</CustomFieldTranslation>

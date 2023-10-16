@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MailAbogado__c</fullName>
+    <description>En los casos de financiero del tipo venia se indica el correo electrónico del abogado de la parte contraria</description>
+    <externalId>false</externalId>
+    <label>Mail del abogado</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Email</type>
+    <unique>false</unique>
+</CustomField>

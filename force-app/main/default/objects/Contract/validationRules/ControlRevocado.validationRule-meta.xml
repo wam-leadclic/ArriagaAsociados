@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ControlRevocado</fullName>
+    <active>true</active>
+    <description>Antes de 15 días desde la contratación se puede revocar el expediente</description>
+    <errorConditionFormula>AND (
+ ISCHANGED(Status), 
+ TEXT(Status) = $Label.EstadoExpteRevocado,
+ (TODAY() - StartDate )&gt;45  
+)</errorConditionFormula>
+    <errorMessage>El expediente no puede ser revocado al haber transcurrido más de 15 días</errorMessage>
+</ValidationRule>

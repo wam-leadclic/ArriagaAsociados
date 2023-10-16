@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>campaña Paralización producción RC Barcelona hasta STJUE - Campaña ATC 05-07-202</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>campaña Paralización producción RC Barcelona hasta STJUE - Campaña ATC 05-07-202</name>
+    <relatedEntityType>Contact</relatedEntityType>
+    <style>none</style>
+    <subject>Comunicación sobre tu expediente GH | Información de interés Arriaga Asociados</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

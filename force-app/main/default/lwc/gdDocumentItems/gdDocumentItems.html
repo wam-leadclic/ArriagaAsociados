@@ -1,0 +1,257 @@
+<!--
+@author Leadclic Solutions S.L.
+@date 22/03/2019 
+@description    Document management component
+<pre>
+FECHA                   AUTOR                    ACCION
+22/03/2019              LCS - GQ                 Creación
+29/05/2019              LCS - RDM                Modificación
+13/01/2020              LCS - MMV                Modificación. No se permite cargar documentos en una oportunidad cerrada
+26/03/2020              LCS - RAL                Modificación. Se añade la fecha de subida del documento
+02/06/2022              LCS - DRU                Modificación. Añadido de un buscador por nombre y tipo
+02/06/2022              LCS - DRU                Modificación. Añadido de botón de previsualización del documento
+03/06/2022              LCS - DRU                Modificación. Botón de borrado de documentos
+-->
+<template>
+    <!-- DOCUMENT LIST -->
+    <lightning-card title={label.appName} icon-name="standard:document">
+            
+            <!--<lightning-button disabled={isSelectDocument} label="Borrar" slot="actions" variant="Destructive"
+                class="slds-m-right_xx-small"
+            onclick={onClickDeleteDocuments}>
+            </lightning-button>-->
+            <lightning-button disabled={isClosedOpp} label={label.upload} slot="actions" variant="brand" onclick={onClickUploadDocument}></lightning-button>
+        
+        <template if:true={loaded}>
+            <lightning-spinner alternative-text="Loading"></lightning-spinner>
+        </template>  
+        <div class="slds-card__body slds-card__body_inner">
+            <template if:true={sinDocs}>
+                <lightning-layout horizontal-align="center">
+                    {label.sinDocumentosCargados}
+                </lightning-layout>
+            </template>
+            
+            <!-- Filtrado de documentos vía picklist -->
+            <div class="slds-grid slds-gutters" style="display: flex;flex-wrap: wrap;">
+                <div class="slds-col">
+                    <lightning-combobox
+                        name="filter1" label="Buscar por tipo de documento" value={firstFilter} placeholder="Seleccione el tipo de documento"
+                        options={options} onchange={handleChangeFilter}>
+                    </lightning-combobox>
+                </div>
+            </div>
+            
+            <div class="slds-col">
+                <lightning-input type="text" list="browsers" label="Buscar por nombre de documento" onchange={filterByName}>
+                </lightning-input>
+            </div>
+
+
+
+            <!-- POP UP borrado de documentos -->
+
+            <!-- This Modal will only be visible if showModal is set to true -->
+            <template if:true={showModal}>
+                <section aria-modal="true" class="slds-modal slds-fade-in-open">
+                    <div class="slds-modal__container ">
+                        <header class="slds-modal__header">
+                            <h2 class="slds-text-heading_small">Aviso importante</h2>
+                            <lightning-icon class="slds-modal__close" icon-name="utility:close" size="small" onclick={closeModal}></lightning-icon>
+                        </header>
+                        <div class="slds-modal__content">
+                            <div class="slds-p-around_small">
+                                <p>¿Está seguro de que desea borrar el siguiente documento?</p>
+                                {documentoAEliminar}
+                            </div>
+                        </div>
+                        <footer class="slds-modal__footer">
+                            <lightning-button variant="destructive" label="Borrar" onclick={closeModalDelete} class="slds-p-around_x-small"></lightning-button>
+                            <lightning-button variant="brand" label="Cancelar" onclick={closeModalCancel} class="slds-p-around_x-small"></lightning-button>
+                        </footer>
+                    </div>
+                </section>
+                <div class="slds-backdrop slds-backdrop_open"></div>
+            </template>
+
+            
+            
+
+            <!-- document iteration-->
+            <div>
+                <!--<div>
+                    <div class="slds-text-title">Mostrar documentos borrados</div>
+                    <lightning-input class="select-all-input slds-m-bottom_small" checked={checked} type="checkbox" label=""
+                        onchange={showDeleteDocuments} style="flex: 0 1 20px;">
+                    </lightning-input>
+                </div>-->
+                <br/>
+                <template for:each={lItem} for:item="item">
+                    <div key={item.name} style="display:flex">
+                        <!--<lightning-input key={item.id} id={item.id}
+                            class="selected-input-delete"
+                            type="checkbox" label=""
+                            style="flex: 0 1 20px;" onchange={addToDeleteArray}>
+                        </lightning-input>-->
+                        <lightning-tile key={item.name} label={item.fileName} type="media" style="flex: 1">
+                            <lightning-icon slot="media" icon-name="doctype:pdf"></lightning-icon>
+                            <!-- document info -->
+                            <lightning-layout>
+                                <lightning-layout-item flexibility="grow">
+                                    <ul class="slds-list_horizontal slds-has-dividers_right">
+                                        <li class="slds-item">{item.documentType}</li>
+                                        <li class="slds-item">{item.id}</li>
+                                        <li class="slds-item">{item.created}</li>
+                                    </ul>
+                                </lightning-layout-item>
+                                <!-- action buttons -->
+                                <lightning-layout-item flexibility="grow">
+                                    <lightning-layout horizontal-align="end">
+                                        <lightning-layout-item>
+                                            <lightning-button-icon class='PreviewDocument' key={item.documentId} value={item}
+                                                icon-name="utility:preview" alternative-text="Preview"
+                                                onclick={onClickViewDocument}></lightning-button-icon>
+                                            <lightning-button-icon key={item.documentId} value={item}
+                                                icon-name="utility:edit_form" alternative-text="Edit"
+                                                onclick={onClickEditDocument}></lightning-button-icon>
+                                            <lightning-button-icon key={item.documentId} value={item}
+                                                icon-name="utility:download" alternative-text="Download"
+                                                onclick={onClickDownloadDocument}></lightning-button-icon>
+                                            <lightning-button-icon key={item.id} id={item.id} value={item}
+                                                icon-name="utility:delete" alternative-text="Delete"
+                                                onclick={onClickDeleteDocuments}></lightning-button-icon>
+                                            <!--
+                                        <lightning-button-icon  key={item.documentId} value={item} icon-name="utility:delete"  alternative-text="Delete" onclick={onClickDeleteDocument}></lightning-button-icon>
+                                    -->
+                                        </lightning-layout-item>
+                                    </lightning-layout>
+                                </lightning-layout-item>
+                            </lightning-layout>
+                        </lightning-tile>
+                    </div>
+                </template>
+            </div>
+            
+            <br/>
+            <!-- Download file tag -->                  
+            <a style="display:none" onclick={onClickDownloadmessage}></a>
+           
+        </div>
+    
+        <div slot="footer">
+            <lightning-layout horizontal-align="center">
+                <lightning-layout-item padding="around-small"> 
+                    <lightning-button-icon icon-name="utility:chevronleft" alternative-text="Anterior" onclick={onClickPrevious} disabled={styleAnte}></lightning-button-icon> 
+                </lightning-layout-item> 
+                <lightning-layout-item padding="around-small"> 
+                    <div class="slds-align_absolute-center slds-p-top_x-small"> {pageNumb} - {totalPages} </div>
+                </lightning-layout-item>   
+                <lightning-layout-item padding="around-small">         
+                    <lightning-button-icon icon-name="utility:chevronright" alternative-text="Siguiente" onclick={onClickNext} disabled={styleSig}></lightning-button-icon>
+                </lightning-layout-item> 
+            </lightning-layout>
+        </div>
+    </lightning-card>
+        
+    <!-- UPLOAD DOCUMENT MODAL -->
+    <template if:true={showUploadModal}>
+
+        <section role="dialog" tabindex="-1" aria-labelledby="modal-heading-01" aria-describedby="modal-content-id-1" class="slds-modal slds-fade-in-open">
+            <template if:true={loadedModal}>
+                <lightning-spinner alternative-text="Loading"></lightning-spinner>
+            </template>
+            <div class="slds-modal__container">
+                <header class="slds-modal__header">
+                    <h2 id="modal-heading-01" class="slds-text-heading_medium slds-hyphenate">{label.upload} {label.document}</h2>
+                </header>
+
+                <div class="slds-modal__content slds-p-around_medium" id="modal-content-id-1" style="overflow: initial;">
+                    <div class="slds-grid slds-wrap slds-grid_pull-padded-medium">
+                            <div class="slds-col--bump slds-col slds-p-horizontal_medium slds-p-bottom_x-small slds-size--1-of-1  slds-medium-size--1-of-1 slds-large-size--1-of-1">
+                                <lightning-combobox name="progress"
+                                        label={label.documentType}
+                                        value={documentType}
+                                        placeholder={label.choose}
+                                        options={option}
+                                        onchange={handleChangeDocumentType}>
+                                </lightning-combobox>
+                            </div>
+                            <div class="slds-col--bump slds-col slds-p-horizontal_medium slds-p-bottom_x-small slds-size--1-of-1  slds-medium-size--1-of-1 slds-large-size--1-of-1">
+                                <template  for:each={lFields} for:item="campo" > 
+                                    <lightning-input key={campo.id} type={campo.typeField} label={campo.nameField} name={campo.nameField} onchange={onChangeFieldDynamic}></lightning-input>
+                                </template> 
+                            </div>
+                            <div class="slds-col--bump slds-col slds-p-horizontal_medium slds-p-bottom_x-small slds-size--1-of-1  slds-medium-size--1-of-1 slds-large-size--1-of-1">
+                                <form id="formDoc" method="post" enctype="multipart/form-data">     
+                                    <input id="miFileInput" 
+                                            type="file" 
+                                            name="files[]" 
+                                            onchange={onChangeFile}/>
+                                </form>
+                            </div>
+                    </div>
+        
+                </div>
+
+                <!-- Navigation Footer -->
+                <footer class="slds-modal__footer">
+                    <lightning-button label={label.cancel}  onclick={onClickBack}></lightning-button>
+                    <lightning-button label={label.upload}  onclick={onClickUpload} variant="brand"></lightning-button>
+                    <p > Peso máximo permitido {label.fileMaxSize}MB</p>               
+                </footer>
+                
+
+            </div>
+        </section>
+
+        <div class="slds-backdrop slds-backdrop_open"></div>
+
+    </template>
+
+        <!-- Edit DOCUMENT MODAL -->
+    <template if:true={editDocPop}>
+        
+            <section role="dialog" tabindex="-1" aria-labelledby="modal-heading-02" aria-describedby="modal-content-id-2" class="slds-modal slds-fade-in-open">
+                <template if:true={loadedModal}>
+                    <lightning-spinner alternative-text="Loading"></lightning-spinner>
+                </template>  
+                <div class="slds-modal__container">
+                    <header class="slds-modal__header">
+                        <h2 id="modal-heading-02" class="slds-text-heading_medium slds-hyphenate">{label.edit} {label.document}</h2>
+                    </header>
+               
+                    <div class="slds-modal__content slds-p-around_medium" id="modal-content-id-2" style="overflow: initial;">
+                        <div class="slds-grid slds-wrap slds-grid_pull-padded-medium">
+                            <div class="slds-col--bump slds-col slds-p-horizontal_medium slds-p-bottom_x-small slds-size--1-of-1  slds-medium-size--1-of-1 slds-large-size--1-of-1">
+                                <lightning-combobox name="progress" 
+                                        label={label.newTypeDoc}  
+                                        value={nuevodocumentType}
+                                        placeholder={label.choose}
+                                        options={option}
+                                        onchange={handleChangeDocumentTypeEditDoc}>
+                                </lightning-combobox>
+                            </div>
+                            <div class="slds-col--bump slds-col slds-p-horizontal_medium slds-p-bottom_x-small slds-size--1-of-1  slds-medium-size--1-of-1 slds-large-size--1-of-1">
+                                <lightning-input type="text" label={label.newNameDoc} value={nuevoNombre} name="Nombre" onchange={onChangeInputNombreDoc} required></lightning-input>
+                            </div>
+                            <div class="slds-col--bump slds-col slds-p-horizontal_medium slds-p-bottom_x-small slds-size--1-of-1  slds-medium-size--1-of-1 slds-large-size--1-of-1">
+                                <lightning-input type="text" label={label.newExpCli} value={nuevosCli} name="Clientes" onchange={onChangeInputCliDoc} required></lightning-input>
+                            </div>
+                            <div class="slds-col--bump slds-col slds-p-horizontal_medium slds-p-bottom_x-small slds-size--1-of-1  slds-medium-size--1-of-1 slds-large-size--1-of-1">
+                                <lightning-input type="text" label={label.newExpDoc} value={nuevosExp} name="Expedientes" onchange={onChangeInputExpDoc} required></lightning-input>
+                            </div>
+                        </div>            
+                    </div>    
+                    <!-- Navigation Footer -->
+                    <footer class="slds-modal__footer">
+                        <lightning-button label={label.cancel}  onclick={onClickCloseEditDocument}></lightning-button>
+                        <lightning-button label={label.edit}  onclick={onClickSendEditDocument} variant="brand"></lightning-button>
+                    </footer>
+                </div>
+            </section>
+
+        <div class="slds-backdrop slds-backdrop_open"></div>
+
+    </template>
+        
+</template>

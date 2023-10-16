@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Resoluciones - Acuerdo Revolving</name>
+    <queueMembers>
+        <roles>
+            <role>Agente_ATC</role>
+            <role>Agente_Financiero</role>
+            <role>Asesor</role>
+            <role>Jefe_de_oficina</role>
+            <role>Supervisor_ATC</role>
+        </roles>
+        <users>
+            <user>adelegido@arriagaasociados.com</user>
+            <user>acorujo@arriagaasociados.com</user>
+            <user>adeya@arriagaasociados.com</user>
+            <user>cnperdiz@arriagaasociados.com</user>
+            <user>jmuniz@arriagaasociados.com</user>
+            <user>maneiros@arriagaasociados.com</user>
+            <user>malcon@arriagaasociados.com</user>
+            <user>mcerdena@arriagaasociados.com</user>
+            <user>mmartineza@arriagaasociados.com</user>
+            <user>porellana@arriagaasociados.com</user>
+            <user>sgonzalezr@arriagaasociados.com</user>
+            <user>sergiof@arriagaasociados.com</user>
+            <user>ymelero@arriagaasociados.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

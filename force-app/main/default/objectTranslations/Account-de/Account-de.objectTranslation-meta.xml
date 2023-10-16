@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <layouts>
+        <layout>Account Layout</layout>
+        <sections>
+            <label></label>
+            <section>Account Summary</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Cuenta Empresarial</layout>
+        <sections>
+            <label></label>
+            <section>Información de Contacto</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Información de Negocio</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Cuenta personal Comunidad</layout>
+        <layoutType>PersonAccount</layoutType>
+        <sections>
+            <label></label>
+            <section>GDPR</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Información de Contacto</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Información personal</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Formato de cuenta personal</layout>
+        <layoutType>PersonAccount</layoutType>
+        <sections>
+            <label></label>
+            <section>GDPR</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Información de Contacto</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Información de Negocio</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Información de la cuentaInformación de la cuenta</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Información personal</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Formato de cuenta personal GDPR</layout>
+        <layoutType>PersonAccount</layoutType>
+        <sections>
+            <label></label>
+            <section>GDPR</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Información de Contacto</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Información de Negocio</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Información de la cuentaInformación de la cuenta</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Información personal</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Oficina</layout>
+        <sections>
+            <label></label>
+            <section>Descripción Web</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Horario de Apertura</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Horario de Aten. Comercial</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Tercero</layout>
+        <sections>
+            <label></label>
+            <section>Información de Contacto</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label></label>
+        <name>CambiarContrasena</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>Child_Account</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>ConsultaFinanciero</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>EnviarCorreo</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>LimitarAcceso</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>NuevaConfiguracionCalendario</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>ObtenerDatos</name>
+    </quickActions>
+    <recordTypes>
+        <label></label>
+        <name>Business_Account</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>Oficina</name>
+    </recordTypes>
+    <recordTypes>
+        <description></description>
+        <label></label>
+        <name>PersonaJuridica</name>
+    </recordTypes>
+    <recordTypes>
+        <description></description>
+        <label></label>
+        <name>Tercero</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>BloquearCambioNombreComunidad</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>BloquearEmpresasiseIndicaNIF</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>BloquearPersonasiseIndicaCIF</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Control_Nombre_Empresa</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>DireccionObligatoria</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>EmailOTelefonoObligatorios</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Localidad_Correcta</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>NombreObligatorio</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Registro_Satisfaccion_Cliente</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Validacion_IBAN</name>
+    </validationRules>
+    <webLinks>
+        <label></label>
+        <name>AsignarCita</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>ExpedientesCliente</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>GoogleNews</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>ParteContraria</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>et4ae5__ExactTarget_Resubscribe</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>et4ae5__ExactTarget_Unsubscribe</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>et4ae5__Send_ExactTarget_Email</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>et4ae5__View_ExactTarget_Analytics</name>
+    </webLinks>
+</CustomObjectTranslation>

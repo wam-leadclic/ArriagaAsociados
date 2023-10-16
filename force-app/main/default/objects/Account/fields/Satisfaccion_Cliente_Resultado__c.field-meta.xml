@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Satisfaccion_Cliente_Resultado__c</fullName>
+    <description>Encuesta por ATC Satisfacción del Cliente,  Resultado general</description>
+    <externalId>false</externalId>
+    <label>Satisfacción Cliente Resultado</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>PRESCRIPTOR</fullName>
+                <default>false</default>
+                <label>PRESCRIPTOR</label>
+            </value>
+            <value>
+                <fullName>SATISFECHO</fullName>
+                <default>false</default>
+                <label>SATISFECHO</label>
+            </value>
+            <value>
+                <fullName>CONFORME</fullName>
+                <default>false</default>
+                <label>CONFORME</label>
+            </value>
+            <value>
+                <fullName>INSATISFECHO</fullName>
+                <default>false</default>
+                <label>INSATISFECHO</label>
+            </value>
+            <value>
+                <fullName>DETRACTOR</fullName>
+                <default>false</default>
+                <label>DETRACTOR</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

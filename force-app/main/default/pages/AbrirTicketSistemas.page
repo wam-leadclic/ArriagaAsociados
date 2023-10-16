@@ -1,0 +1,9 @@
+<apex:page >
+
+<script type="text/javascript">
+window.onload = function() {
+   window.open('https://arriagaservicedesk.freshservice.com/widgets/feedback_widget/new?&widgetType=embedded&scrollbars=no','popup',scrollbars=0,' menubar=0,overflow: hidden, resizable=0,dependent=0,status=0,width=300,height=200,left=10,top=10')
+}
+</script>
+
+</apex:page>

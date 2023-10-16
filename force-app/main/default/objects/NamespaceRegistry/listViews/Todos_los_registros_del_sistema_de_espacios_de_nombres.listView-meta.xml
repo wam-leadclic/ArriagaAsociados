@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Todos_los_registros_del_sistema_de_espacios_de_nombres</fullName>
+    <filterScope>Everything</filterScope>
+    <label>Todos los registros del sistema de espacios de nombres</label>
+</ListView>

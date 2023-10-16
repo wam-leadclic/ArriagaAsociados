@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BloqueoFechasParaPerfiles</fullName>
+    <active>true</active>
+    <description>Para un determinado listado de perfiles no se podrán tocar las fechas del un evento</description>
+    <errorConditionFormula>AND(
+        Subject=$Label.AsuntoCita,
+	    OR(									
+									ISCHANGED(ActivityDateTime),
+									ISCHANGED(DurationInMinutes)
+					),
+     NOT(CONTAINS($Setup.PerfilesBloqueoFechas__c.PerfilesIds__c, $User.ProfileId))  					
+	)</errorConditionFormula>
+    <errorMessage>No se puede modificar la fecha del evento</errorMessage>
+</ValidationRule>

@@ -1,0 +1,25 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<p>Hola, {{{Account.FirstName}}}&nbsp;</p>
+
+<p>Todavía no hemos podido hablar personalmente y seguimos atentos a tu caso.</p>
+
+<p>Te recordamos la documentación que necesitamos para estudiar una posible reclamación de <span style="color:#c0392b;"><strong>(producto)</strong></span>:</p>
+
+<p><span style="color:#c0392b;"><strong>- (enumerar la documentación en función del producto)</strong></span></p>
+
+<p>Es muy sencillo, <u><strong>adjunta la documentación respondiendo a este mismo correo.</strong></u></p>
+
+<p>Una vez la recibamos, nuestros abogados la revisarán de forma totalmente gratuita y sin compromiso para ti</p>
+
+<p>Si lo prefieres, puedes llamarnos tú, al <b>teléfono gratuito 900 264 600</b> y preguntar por mí directamente: {{{Sender.Name}}}, así podremos aclarar las dudas que tengas al respecto.</p>
+
+<p>Gracias por confiar en nosotros.&nbsp;</p>
+
+<p>Equipo Arriaga Asociados<br />
+<a href="https://www.arriagaasociados.com/">https://www.arriagaasociados.com/</a></p>
+</body>
+</html>

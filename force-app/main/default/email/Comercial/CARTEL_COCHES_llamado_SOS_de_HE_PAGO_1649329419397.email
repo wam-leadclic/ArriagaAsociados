@@ -1,0 +1,22 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<p>Buenos días&nbsp;{{{Account.FirstName}}}</p>
+
+<p>Recuerda que solo enviando&nbsp;<b>la carta extrajudicial a tiempo podremos interrumpir el plazo de prescripción por tu&nbsp;reclamación del CÁRTEL DE COCHES.</b>&nbsp;</p>
+
+<p>Para formalizar esto, <b>necesitamos que nos envíes cuanto antes la Hoja de Encargo firmada y formalizar el pago </b>para que nuestro equipo jurídico pueda presentar con garantías tu reclamación.&nbsp;&nbsp;</p>
+
+<p><b>De recibirlo fuera de plazo, no podremos ofrecerte garantías y por tanto no podremos continuar la defensa de tu caso.</b>&nbsp;</p>
+
+<p>Por favor&nbsp;{{{Account.FirstName}}} si tienes aun alguna duda, contacta de inmediato respondiendo a este mismo mail o a través del teléfono de mi firma, todavía estamos a tiempo de ayudarte a recuperar lo que te pertenece. &nbsp;</p>
+
+<p>&nbsp;&nbsp;&nbsp;</p>
+
+<p>Gracias por confiar en nosotros.&nbsp;</p>
+
+<p>Equipo Arriaga Asociados.&nbsp;</p>
+
+</body></html>

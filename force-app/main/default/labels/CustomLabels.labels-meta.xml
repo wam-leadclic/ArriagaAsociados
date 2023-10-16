@@ -1,0 +1,3196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>Accept</fullName>
+        <categories>c2m-product</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Accept</shortDescription>
+        <value>Accept</value>
+    </labels>
+    <labels>
+        <fullName>Add</fullName>
+        <categories>c2m-product</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Add</shortDescription>
+        <value>Add</value>
+    </labels>
+    <labels>
+        <fullName>AdminProfile</fullName>
+        <categories>Perfiles</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>AdminProfile</shortDescription>
+        <value>Administrador del sistema</value>
+    </labels>
+    <labels>
+        <fullName>AppointmentCreated</fullName>
+        <categories>c2m-modal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>AppointmentCreated</shortDescription>
+        <value>Appointment created successfully</value>
+    </labels>
+    <labels>
+        <fullName>AppointmentCreatedError</fullName>
+        <categories>c2m-modal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AppointmentCreatedError</shortDescription>
+        <value>An error has ocurred on one of the processes. Check that the appointment has been created.</value>
+    </labels>
+    <labels>
+        <fullName>AppointmentTitle</fullName>
+        <categories>c2m-resource</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>AppointmentTitle</shortDescription>
+        <value>Appointment</value>
+    </labels>
+    <labels>
+        <fullName>ArrLrcEXPEDIENTE</fullName>
+        <language>es</language>
+        <protected>true</protected>
+        <shortDescription>Etiqueta para mostrar el número de expediente en el lwc de arriaga listadoRolesC</shortDescription>
+        <value>Nº Expediente</value>
+    </labels>
+    <labels>
+        <fullName>ArrLrcPRODUCTO</fullName>
+        <language>es</language>
+        <protected>true</protected>
+        <shortDescription>Etiqueta para mostrar el nombre del producto en el lwc de arriaga listadoRolesC</shortDescription>
+        <value>Producto</value>
+    </labels>
+    <labels>
+        <fullName>ArrLrcROL</fullName>
+        <language>es</language>
+        <protected>true</protected>
+        <shortDescription>Etiqueta para mostrar el Rol de la cuenta en el lwc de arriaga listadoRolesC</shortDescription>
+        <value>Rol</value>
+    </labels>
+    <labels>
+        <fullName>ArrLrcTitle</fullName>
+        <language>es</language>
+        <protected>true</protected>
+        <shortDescription>Etiqueta para mostrar el Título en el lwc de arriaga listadoRolesContrato</shortDescription>
+        <value>Expedientes relacionados</value>
+    </labels>
+    <labels>
+        <fullName>ArrLroNombreOportunidad</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Nombre Oportunidad</shortDescription>
+        <value>Nombre</value>
+    </labels>
+    <labels>
+        <fullName>ArrLroOportunidad</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Oportunidades</shortDescription>
+        <value>Oportunidades relacionadas</value>
+    </labels>
+    <labels>
+        <fullName>ArrLroRoleOportunidad</fullName>
+        <language>es</language>
+        <protected>true</protected>
+        <shortDescription>Role</shortDescription>
+        <value>Role</value>
+    </labels>
+    <labels>
+        <fullName>AsignadoRemitenteCorrectamente</fullName>
+        <categories>Email Huerfanos Componente</categories>
+        <language>es</language>
+        <protected>true</protected>
+        <shortDescription>Asignado remitente correctamente</shortDescription>
+        <value>El email se ha actualizado correctamente</value>
+    </labels>
+    <labels>
+        <fullName>Assign</fullName>
+        <categories>c2m-modal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Assign</shortDescription>
+        <value>Assign</value>
+    </labels>
+    <labels>
+        <fullName>Asunto</fullName>
+        <categories>Email Huerfanos Componente</categories>
+        <language>es</language>
+        <protected>true</protected>
+        <shortDescription>Asunto</shortDescription>
+        <value>Asunto</value>
+    </labels>
+    <labels>
+        <fullName>AsuntoCasoConfirmacion</fullName>
+        <categories>Clase Scheduled</categories>
+        <language>es</language>
+        <protected>true</protected>
+        <shortDescription>Asunto del caso para confirmación de citas</shortDescription>
+        <value>Alerta de confirmación de cita</value>
+    </labels>
+    <labels>
+        <fullName>AsuntoCita</fullName>
+        <categories>Cita</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Asunto del evento asociado a cita</shortDescription>
+        <value>Cita</value>
+    </labels>
+    <labels>
+        <fullName>AsuntoTareaFormularioWeb</fullName>
+        <categories>TriggerLeadhandler</categories>
+        <language>es</language>
+        <protected>true</protected>
+        <shortDescription>AsuntoTareaFormularioWeb</shortDescription>
+        <value>Solicitud de información formulario web</value>
+    </labels>
+    <labels>
+        <fullName>AttendeeName</fullName>
+        <categories>c2m-atteldee-detail</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>AttendeeName</shortDescription>
+        <value>AttendeeName</value>
+    </labels>
+    <labels>
+        <fullName>BotonCambiar</fullName>
+        <categories>LWC Hoja de Encargo</categories>
+        <language>es</language>
+        <protected>true</protected>
+        <shortDescription>BotonCambiar</shortDescription>
+        <value>Cambiar</value>
+    </labels>
+    <labels>
+        <fullName>BotonGenPDF</fullName>
+        <categories>LWC Hoja de Encargo</categories>
+        <language>es</language>
+        <protected>true</protected>
+        <shortDescription>BotonGenPDF</shortDescription>
+        <value>Generar PDF</value>
+    </labels>
+    <labels>
+        <fullName>BotonSeleccionar</fullName>
+        <categories>LWC Hoja de Encargo</categories>
+        <language>es</language>
+        <protected>true</protected>
+        <shortDescription>BotonSeleccionar</shortDescription>
+        <value>Seleccionar</value>
+    </labels>
+    <labels>
+        <fullName>CalendarError</fullName>
+        <categories>c2m-ResourceTab</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>CalendarError</shortDescription>
+        <value>An error has ocurred retrieving user calendar</value>
+    </labels>
+    <labels>
+        <fullName>Cancel</fullName>
+        <categories>c2m-modal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Cancel</shortDescription>
+        <value>Cancel</value>
+    </labels>
+    <labels>
+        <fullName>Cancelada</fullName>
+        <categories>Cancelada</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Cancelada</shortDescription>
+        <value>Cancelada</value>
+    </labels>
+    <labels>
+        <fullName>CandidatoOrigenWeb</fullName>
+        <categories>TriggerLeadhandler</categories>
+        <language>es</language>
+        <protected>true</protected>
+        <shortDescription>CandidatoOrigenWeb</shortDescription>
+        <value>Web</value>
+    </labels>
+    <labels>
+        <fullName>CasoMotivoErrorPago</fullName>
+        <categories>Redsys</categories>
+        <language>es</language>
+        <protected>true</protected>
+        <shortDescription>CasoMotivoErrorPago</shortDescription>
+        <value>Other</value>
+    </labels>
+    <labels>
+        <fullName>CasoTipoErrorPago</fullName>
+        <categories>Redsys</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>CasoTipoErrorPago</shortDescription>
+        <value>Other</value>
+    </labels>
+    <labels>
+        <fullName>Change</fullName>
+        <categories>c2m-atteldee-detail</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Change</shortDescription>
+        <value>Change</value>
+    </labels>
+    <labels>
+        <fullName>ColaAsignacionTareas</fullName>
+        <categories>Trigger Candidatos</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Cola Asignación Dinámica Candidatos/Tareas</shortDescription>
+        <value>Online</value>
+    </labels>
+    <labels>
+        <fullName>CommentsEvent</fullName>
+        <categories>c2m-modal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>CommentsEvent</shortDescription>
+        <value>Comments</value>
+    </labels>
+    <labels>
+        <fullName>Communications</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Communications</shortDescription>
+        <value>Communications</value>
+    </labels>
+    <labels>
+        <fullName>CompletandoseDocumentacion</fullName>
+        <categories>Estado Expediente</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>CompletandoseDocumentacion</shortDescription>
+        <value>COMPLETANDOSE DOCUMENTACIÓN</value>
+    </labels>
+    <labels>
+        <fullName>ConCopia</fullName>
+        <categories>Email Huerfanos Componente</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>ConCopia</shortDescription>
+        <value>En copia</value>
+    </labels>
+    <labels>
+        <fullName>ConfirmarEliminacion</fullName>
+        <categories>Email Huerfanos Componente</categories>
+        <language>es</language>
+        <protected>true</protected>
+        <shortDescription>Confirmar Eliminación</shortDescription>
+        <value>¿Estás seguro que quieres eliminar el email?</value>
+    </labels>
+    <labels>
+        <fullName>ContactoGenericoId</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>ContactoGenericoId</shortDescription>
+        <value>0031t000016o9fUAAQ</value>
+    </labels>
+    <labels>
+        <fullName>Contratado</fullName>
+        <categories>Estado del expediente</categories>
+        <language>es</language>
+        <protected>true</protected>
+        <shortDescription>Contratado</shortDescription>
+        <value>Contratado</value>
+    </labels>
+    <labels>
+        <fullName>DNIErrorNoGestionado</fullName>
+        <categories>ValidacionDNI</categories>
+        <language>es</language>
+        <protected>true</protected>
+        <shortDescription>DNIErrorNoGestionado</shortDescription>
+        <value>Ha ocurrido un error al realizar la validación. Inténtelo más tarde.</value>
+    </labels>
+    <labels>
+        <fullName>DNIVacio</fullName>
+        <categories>ValidacionDNI</categories>
+        <language>es</language>
+        <protected>true</protected>
+        <shortDescription>DNIVacio</shortDescription>
+        <value>El DNI/CIF no puede estar vacío</value>
+    </labels>
+    <labels>
+        <fullName>DNIincorrecto</fullName>
+        <categories>ValidacionDNI</categories>
+        <language>es</language>
+        <protected>true</protected>
+        <shortDescription>DNIincorrecto</shortDescription>
+        <value>El DNI/CIF aportado no es correcto</value>
+    </labels>
+    <labels>
+        <fullName>DateType</fullName>
+        <categories>c2m-modal</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>DateType</shortDescription>
+        <value>Tipo de Cita</value>
+    </labels>
+    <labels>
+        <fullName>Day</fullName>
+        <categories>c2m-modal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Day</shortDescription>
+        <value>Day</value>
+    </labels>
+    <labels>
+        <fullName>Day_View_Type_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Day View Type Label</shortDescription>
+        <value>Day</value>
+    </labels>
+    <labels>
+        <fullName>DescCasoRecaptura</fullName>
+        <categories>Trigger evento</categories>
+        <language>es</language>
+        <protected>true</protected>
+        <shortDescription>Descripcion del caso recaptura</shortDescription>
+        <value>Evento incompleto al no asistir el cliente</value>
+    </labels>
+    <labels>
+        <fullName>DescripcionSolicitudInfoFormularioWeb</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Descripción Solicitud Info Formulario Web</shortDescription>
+        <value>Solicitud de Información por formulario web realizada</value>
+    </labels>
+    <labels>
+        <fullName>Duration</fullName>
+        <categories>c2m-search</categories>
+        <language>es</language>
+        <protected>true</protected>
+        <shortDescription>Duration</shortDescription>
+        <value>Duration</value>
+    </labels>
+    <labels>
+        <fullName>EmailEliminado</fullName>
+        <categories>Email Huerfanos Componente</categories>
+        <language>es</language>
+        <protected>true</protected>
+        <shortDescription>Email eliminado</shortDescription>
+        <value>El email ha sido eliminado</value>
+    </labels>
+    <labels>
+        <fullName>End_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>End Label</shortDescription>
+        <value>End</value>
+    </labels>
+    <labels>
+        <fullName>Error</fullName>
+        <categories>Email Huerfanos Componente</categories>
+        <language>es</language>
+        <protected>true</protected>
+        <shortDescription>Error</shortDescription>
+        <value>Error</value>
+    </labels>
+    <labels>
+        <fullName>ErrorDocumentos</fullName>
+        <categories>Trigger Oportunidad</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>ErrorDocumentos</shortDescription>
+        <value>- Faltan documentos de contratación necesarios para pasar al estado seleccionado</value>
+    </labels>
+    <labels>
+        <fullName>ErrorEliminacion</fullName>
+        <categories>Email Huerfanos Componente</categories>
+        <language>es</language>
+        <protected>true</protected>
+        <shortDescription>Error en eliminacion</shortDescription>
+        <value>No se ha podido eliminar el email</value>
+    </labels>
+    <labels>
+        <fullName>ErrorFechaJustificante</fullName>
+        <categories>Trigger Oportunidad</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>ErrorFechaJustificante</shortDescription>
+        <value>- Debe rellenar la fecha de justicante de pago para pasar al estado cerrado ganada</value>
+    </labels>
+    <labels>
+        <fullName>ErrorHojaEncargo</fullName>
+        <categories>Trigger Oportunidad</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>ErrorHojaEncargo</shortDescription>
+        <value>- Debes asociar correctamente una hoja de encargo</value>
+    </labels>
+    <labels>
+        <fullName>ErrorImporte</fullName>
+        <categories>Trigger Oportunidad</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>ErrorImporte</shortDescription>
+        <value>- Debe Indicar el importe del pago para pasar al estado cerrada ganada</value>
+    </labels>
+    <labels>
+        <fullName>ErrorIncapacitadoSinTutor</fullName>
+        <categories>Trigger de oportunidad</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Error Incapacitado Sin Tutor</shortDescription>
+        <value>Para poder cerrar la oportunidad debe añadir a un tutor</value>
+    </labels>
+    <labels>
+        <fullName>ErrorMenorSinRepresentanteLegal</fullName>
+        <categories>Trigger de oportunidad</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Error Menor Sin Representante Legal</shortDescription>
+        <value>Para poder cerrar la oportunidad debe de añadir un representante legal o tutor</value>
+    </labels>
+    <labels>
+        <fullName>ErrorMsg</fullName>
+        <categories>c2m-product</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ErrorMsg</shortDescription>
+        <value>An error has ocurred retrieving retrieving products</value>
+    </labels>
+    <labels>
+        <fullName>ErrorNoGestionado</fullName>
+        <categories>LWC Hoja de Encargo</categories>
+        <language>es</language>
+        <protected>true</protected>
+        <shortDescription>ErrorNoGestionado</shortDescription>
+        <value>Ha ocurrido un error!</value>
+    </labels>
+    <labels>
+        <fullName>ErrorTipo</fullName>
+        <categories>Trigger Oportunidad</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>ErrorTipo</shortDescription>
+        <value>- Faltan indicar el método de pago para pasar al estado cerrada ganada</value>
+    </labels>
+    <labels>
+        <fullName>Estado</fullName>
+        <categories>Lista Roles Oportunidad</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Estado</shortDescription>
+        <value>Estado</value>
+    </labels>
+    <labels>
+        <fullName>EstadoContratacion</fullName>
+        <categories>Estado oportunidad</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>EstadoContratacion</shortDescription>
+        <value>Contratación</value>
+    </labels>
+    <labels>
+        <fullName>EstadoCuentaCliente</fullName>
+        <categories>Datos Cuenta</categories>
+        <language>es</language>
+        <protected>true</protected>
+        <shortDescription>EstadoCuentaCliente</shortDescription>
+        <value>Cliente</value>
+    </labels>
+    <labels>
+        <fullName>EstadoCuentaPotencial</fullName>
+        <categories>Datos Cuenta</categories>
+        <language>es</language>
+        <protected>true</protected>
+        <shortDescription>EstadoCuentaPotencial</shortDescription>
+        <value>Cliente potencial</value>
+    </labels>
+    <labels>
+        <fullName>EstadoExpedienteCompBasico</fullName>
+        <categories>Estdo Expediente</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>EstadoExpedienteCompBasico</shortDescription>
+        <value>Completado básico</value>
+    </labels>
+    <labels>
+        <fullName>EstadoExpteAcuerdo</fullName>
+        <categories>Estado Expediente</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>EstadoExpteAcuerdo</shortDescription>
+        <value>ACUERDO AC</value>
+    </labels>
+    <labels>
+        <fullName>EstadoExpteDesistido</fullName>
+        <categories>Estado Expediente</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>EstadoExpteDesistido</shortDescription>
+        <value>DISISTIDO SIN ACUERDO BANCO</value>
+    </labels>
+    <labels>
+        <fullName>EstadoExpteRevocado</fullName>
+        <categories>Estado Expediente</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>EstadoExpteRevocado</shortDescription>
+        <value>Revocado</value>
+    </labels>
+    <labels>
+        <fullName>EstadoExpteSincronizado</fullName>
+        <categories>Estado Expediente</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>EstadoExpteSincronizado</shortDescription>
+        <value>Completado básico</value>
+    </labels>
+    <labels>
+        <fullName>EstadoExpteVenia</fullName>
+        <categories>Estado Expediente</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>EstadoExpteVenia</shortDescription>
+        <value>VENIA</value>
+    </labels>
+    <labels>
+        <fullName>EstadoPago</fullName>
+        <categories>Estado oportunidad</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>EstadoPago</shortDescription>
+        <value>Pago</value>
+    </labels>
+    <labels>
+        <fullName>EstadoPagoCero</fullName>
+        <categories>Pago Cero</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>EstadoPagoCero</shortDescription>
+        <value>Pagada</value>
+    </labels>
+    <labels>
+        <fullName>EstadoPagoConfirmado</fullName>
+        <categories>Trigger Pago</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Estado Pago Confirmado</shortDescription>
+        <value>Pagada</value>
+    </labels>
+    <labels>
+        <fullName>EstadoPagoNoCero</fullName>
+        <categories>Pagos</categories>
+        <language>es</language>
+        <protected>true</protected>
+        <shortDescription>EstadoPagoNoCero</shortDescription>
+        <value>Pendiente</value>
+    </labels>
+    <labels>
+        <fullName>EstadoTareasNoIniciada</fullName>
+        <categories>TriggerLeadhandler</categories>
+        <language>es</language>
+        <protected>true</protected>
+        <shortDescription>EstadoTareasNoIniciada</shortDescription>
+        <value>No iniciada</value>
+    </labels>
+    <labels>
+        <fullName>Etapa</fullName>
+        <categories>Lista Roles Expediente</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Etapa</shortDescription>
+        <value>Etapa</value>
+    </labels>
+    <labels>
+        <fullName>Exito</fullName>
+        <categories>Email Huerfanos Componente</categories>
+        <language>es</language>
+        <protected>true</protected>
+        <shortDescription>Exito</shortDescription>
+        <value>Exito</value>
+    </labels>
+    <labels>
+        <fullName>ExitoHojaEncago</fullName>
+        <categories>LWC Hoja de Encargo</categories>
+        <language>es</language>
+        <protected>true</protected>
+        <shortDescription>ExitoHojaEncago</shortDescription>
+        <value>Hoja de encargo cargada correctamente</value>
+    </labels>
+    <labels>
+        <fullName>FechaCierre</fullName>
+        <categories>Lista Roles Expediente</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>FechaCierre</shortDescription>
+        <value>Fecha Cierre</value>
+    </labels>
+    <labels>
+        <fullName>FechaContratacion</fullName>
+        <categories>Lista Roles Oportunidad</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>FechaContratacion</shortDescription>
+        <value>Fecha de Contratación</value>
+    </labels>
+    <labels>
+        <fullName>FechaCreacion</fullName>
+        <categories>Email Huerfanos Componente</categories>
+        <language>es</language>
+        <protected>true</protected>
+        <shortDescription>Fecha de creación</shortDescription>
+        <value>Fecha de creación</value>
+    </labels>
+    <labels>
+        <fullName>FiltersError</fullName>
+        <categories>c2m-filters</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>FiltersError</shortDescription>
+        <value>An error has ocurred retrieving filters data</value>
+    </labels>
+    <labels>
+        <fullName>FirmaAdministradorUnico</fullName>
+        <categories>PDF Hoja de encargo</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>FirmaAdministradorUnico</shortDescription>
+        <value>https://arriagaasociados--c.documentforce.com/servlet/servlet.FileDownload?file=0151t000001tvkE</value>
+    </labels>
+    <labels>
+        <fullName>FlujoErrorGenerico</fullName>
+        <categories>Flujo Error</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>FlujoErrorGenerico</shortDescription>
+        <value>Ha ocurrido un error inesperado!!. Intente la contratación más tarde.</value>
+    </labels>
+    <labels>
+        <fullName>Friday_Short</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Friday_Short</shortDescription>
+        <value>Fri</value>
+    </labels>
+    <labels>
+        <fullName>FromDate</fullName>
+        <categories>c2m-search</categories>
+        <language>es</language>
+        <protected>true</protected>
+        <shortDescription>FromDate</shortDescription>
+        <value>From</value>
+    </labels>
+    <labels>
+        <fullName>FromHour</fullName>
+        <categories>c2m-search</categories>
+        <language>es</language>
+        <protected>true</protected>
+        <shortDescription>FromHour</shortDescription>
+        <value>From (Hour)</value>
+    </labels>
+    <labels>
+        <fullName>GDCancelar</fullName>
+        <language>es</language>
+        <protected>true</protected>
+        <shortDescription>Cancelar</shortDescription>
+        <value>Cancelar</value>
+    </labels>
+    <labels>
+        <fullName>GDCancelarCommunity</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GDCancelarCommunity</shortDescription>
+        <value>Cancelar</value>
+    </labels>
+    <labels>
+        <fullName>GDCargar</fullName>
+        <language>es</language>
+        <protected>true</protected>
+        <shortDescription>Cargar</shortDescription>
+        <value>Cargar</value>
+    </labels>
+    <labels>
+        <fullName>GDCargarCommunity</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GDCargarCommunity</shortDescription>
+        <value>Agregar archivo</value>
+    </labels>
+    <labels>
+        <fullName>GDCategoria</fullName>
+        <categories>Gestor Documental</categories>
+        <language>es</language>
+        <protected>true</protected>
+        <shortDescription>GDCategoria</shortDescription>
+        <value>Categoría</value>
+    </labels>
+    <labels>
+        <fullName>GDCrear</fullName>
+        <language>es</language>
+        <protected>true</protected>
+        <shortDescription>GDCrear</shortDescription>
+        <value>Crear</value>
+    </labels>
+    <labels>
+        <fullName>GDDocumento</fullName>
+        <language>es</language>
+        <protected>true</protected>
+        <shortDescription>Documento</shortDescription>
+        <value>Documento</value>
+    </labels>
+    <labels>
+        <fullName>GDDocumentoCommunity</fullName>
+        <language>es</language>
+        <protected>true</protected>
+        <shortDescription>Documento</shortDescription>
+        <value>Documento</value>
+    </labels>
+    <labels>
+        <fullName>GDEdit</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>GDEdit</shortDescription>
+        <value>Editar</value>
+    </labels>
+    <labels>
+        <fullName>GDEditCommunity</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>GDEdit</shortDescription>
+        <value>Editar</value>
+    </labels>
+    <labels>
+        <fullName>GDErrorCrearTipologiaDocumento</fullName>
+        <language>es</language>
+        <protected>true</protected>
+        <shortDescription>GDErrorCrearTipologiaDocumento</shortDescription>
+        <value>Ha ocurrido un error al crear la tipología del documento</value>
+    </labels>
+    <labels>
+        <fullName>GDErrorEliminarDocumento</fullName>
+        <language>es</language>
+        <protected>true</protected>
+        <shortDescription>GDErrorEliminarDocumento</shortDescription>
+        <value>Ha ocurrido un error al eliminar el documento</value>
+    </labels>
+    <labels>
+        <fullName>GDErrorModificarNombreTipologia</fullName>
+        <language>es</language>
+        <protected>true</protected>
+        <shortDescription>GDErrorModificarNombreTipologia</shortDescription>
+        <value>No se ha podido modificar el nombre de la tipología del documento</value>
+    </labels>
+    <labels>
+        <fullName>GDErrorRecuperarTipologia</fullName>
+        <language>es</language>
+        <protected>true</protected>
+        <shortDescription>GDErrorRecuperarTipología</shortDescription>
+        <value>Ha ocurrido un error al recuperar la tipología de los documentos</value>
+    </labels>
+    <labels>
+        <fullName>GDGestorDocumental</fullName>
+        <language>es</language>
+        <protected>true</protected>
+        <shortDescription>Gestor Documental</shortDescription>
+        <value>Gestor Documental</value>
+    </labels>
+    <labels>
+        <fullName>GDGestorDocumentalCommunity</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Gestor Documental</shortDescription>
+        <value>Archivos subidos</value>
+    </labels>
+    <labels>
+        <fullName>GDGuardar</fullName>
+        <language>es</language>
+        <protected>true</protected>
+        <shortDescription>GDGuardar</shortDescription>
+        <value>Guardar</value>
+    </labels>
+    <labels>
+        <fullName>GDModificarNombreTipologia</fullName>
+        <language>es</language>
+        <protected>true</protected>
+        <shortDescription>GDModificarNombreTipologia</shortDescription>
+        <value>Modificar Tipología de documentación</value>
+    </labels>
+    <labels>
+        <fullName>GDNombretipoDocumento</fullName>
+        <language>es</language>
+        <protected>true</protected>
+        <shortDescription>GDNombretipoDocumento</shortDescription>
+        <value>Nombre del tipo de documento</value>
+    </labels>
+    <labels>
+        <fullName>GDNuevaTipologiaDocumentos</fullName>
+        <categories>Gestor Documental</categories>
+        <language>es</language>
+        <protected>true</protected>
+        <shortDescription>GDNuevaTipologiaDocumentos</shortDescription>
+        <value>Nueva Tipología de documentación</value>
+    </labels>
+    <labels>
+        <fullName>GDNuevo</fullName>
+        <categories>Gestor Documental</categories>
+        <language>es</language>
+        <protected>true</protected>
+        <shortDescription>GDNuevo</shortDescription>
+        <value>Nuevo</value>
+    </labels>
+    <labels>
+        <fullName>GDNuevoCli</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>GDNuevoCli</shortDescription>
+        <value>Clientes</value>
+    </labels>
+    <labels>
+        <fullName>GDNuevoCliCommunity</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>GDNuevoCli</shortDescription>
+        <value>Clientes</value>
+    </labels>
+    <labels>
+        <fullName>GDNuevoExp</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>GDNuevoExp</shortDescription>
+        <value>Expedientes</value>
+    </labels>
+    <labels>
+        <fullName>GDNuevoExpCommunity</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>GDNuevoExp</shortDescription>
+        <value>Expedientes</value>
+    </labels>
+    <labels>
+        <fullName>GDNuevoNombre</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>GDNuevoNombre</shortDescription>
+        <value>Nombre documento</value>
+    </labels>
+    <labels>
+        <fullName>GDNuevoNombreCommunity</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>GDNuevoNombre</shortDescription>
+        <value>Nombre documento</value>
+    </labels>
+    <labels>
+        <fullName>GDNuevoNombreTipologia</fullName>
+        <language>es</language>
+        <protected>true</protected>
+        <shortDescription>GDNuevoNombreTipologia</shortDescription>
+        <value>Nuevo nombre de la tipología de la documentación</value>
+    </labels>
+    <labels>
+        <fullName>GDNuevoTipo</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>GDNuevoTipo</shortDescription>
+        <value>Nuevo tipo de documento</value>
+    </labels>
+    <labels>
+        <fullName>GDNuevoTipoCommunity</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>GDNuevoTipo</shortDescription>
+        <value>Nuevo tipo de documento</value>
+    </labels>
+    <labels>
+        <fullName>GDNumCategoria</fullName>
+        <language>es</language>
+        <protected>true</protected>
+        <shortDescription>GDNumCategoria</shortDescription>
+        <value>Nº de categoria</value>
+    </labels>
+    <labels>
+        <fullName>GDSeleccione</fullName>
+        <language>es</language>
+        <protected>true</protected>
+        <shortDescription>Seleccione</shortDescription>
+        <value>Seleccione</value>
+    </labels>
+    <labels>
+        <fullName>GDSeleccioneCommunity</fullName>
+        <language>es</language>
+        <protected>true</protected>
+        <shortDescription>Seleccione</shortDescription>
+        <value>Seleccione</value>
+    </labels>
+    <labels>
+        <fullName>GDTextoInformativoCommunity</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>GDTextoInformativo</shortDescription>
+        <value>* Aquí podrás subir los documentos compartidos por todos tus expedientes como tu DNI o Poder notarial.</value>
+    </labels>
+    <labels>
+        <fullName>GDTipo</fullName>
+        <categories>Gestor Documental</categories>
+        <language>es</language>
+        <protected>true</protected>
+        <shortDescription>GDTipo</shortDescription>
+        <value>Tipo</value>
+    </labels>
+    <labels>
+        <fullName>GDTipoDocumento</fullName>
+        <language>es</language>
+        <protected>true</protected>
+        <shortDescription>Tipo de Documento</shortDescription>
+        <value>Tipo de Documento</value>
+    </labels>
+    <labels>
+        <fullName>GDTipoDocumentoCommunity</fullName>
+        <language>es</language>
+        <protected>true</protected>
+        <shortDescription>Tipo de Documento</shortDescription>
+        <value>Tipo de Documento</value>
+    </labels>
+    <labels>
+        <fullName>GDTipologiaDocumentos</fullName>
+        <categories>Gestor Documental</categories>
+        <language>es</language>
+        <protected>true</protected>
+        <shortDescription>GDTipologiaDocumentos</shortDescription>
+        <value>Tipología de Documentos</value>
+    </labels>
+    <labels>
+        <fullName>GDTituloError</fullName>
+        <language>es</language>
+        <protected>true</protected>
+        <shortDescription>GDTituloError</shortDescription>
+        <value>Ops!</value>
+    </labels>
+    <labels>
+        <fullName>GDURLAddDocument</fullName>
+        <categories>Gestor Documental</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>GD URL Add Document</shortDescription>
+        <value>https://aa-pro-backend-api.azurewebsites.net/api/document</value>
+    </labels>
+    <labels>
+        <fullName>GDURLDowloadDocument</fullName>
+        <categories>gd</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>GDURLDowloadDocument</shortDescription>
+        <value>https://aa-pro-backend-api.azurewebsites.net/api/document/</value>
+    </labels>
+    <labels>
+        <fullName>Guardar</fullName>
+        <categories>Email Huerfanos Componente</categories>
+        <language>es</language>
+        <protected>true</protected>
+        <shortDescription>Guardar</shortDescription>
+        <value>Guardar</value>
+    </labels>
+    <labels>
+        <fullName>HojaEncargo</fullName>
+        <categories>Lista Roles Expediente</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>HojaEncargo</shortDescription>
+        <value>Hoja de Encargo</value>
+    </labels>
+    <labels>
+        <fullName>HojaEncargoCard</fullName>
+        <categories>LWC Hoja de Encargo</categories>
+        <language>es</language>
+        <protected>true</protected>
+        <shortDescription>HojaEncargoCard</shortDescription>
+        <value>Hoja de Encargo</value>
+    </labels>
+    <labels>
+        <fullName>HojaEncargoNoSeleccionado</fullName>
+        <categories>LWC Hoja de Encargo</categories>
+        <language>es</language>
+        <protected>true</protected>
+        <shortDescription>HojaEncargoNoSeleccionado</shortDescription>
+        <value>No se ha seleccionado Hoja de Encargo</value>
+    </labels>
+    <labels>
+        <fullName>Hour</fullName>
+        <categories>c2m-modal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Hour</shortDescription>
+        <value>Hour</value>
+    </labels>
+    <labels>
+        <fullName>IdCasoCitaNoAtendida</fullName>
+        <categories>Trigger Evento</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>IdCasoCitaNoAtendida</shortDescription>
+        <value>00G1t000002G2FU</value>
+    </labels>
+    <labels>
+        <fullName>IdGlobalValuePicklist</fullName>
+        <categories>Gestor Documental - Id picklistGlobal</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>IdGlobalValuePicklist</shortDescription>
+        <value>0Nt1t000000cZFI</value>
+    </labels>
+    <labels>
+        <fullName>IdPerfilAdmin</fullName>
+        <categories>Trigger Evento</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>IdPerfilAdmin</shortDescription>
+        <value>00e1t000001Tg8M</value>
+    </labels>
+    <labels>
+        <fullName>IdPerfilGuest</fullName>
+        <categories>Perfiles</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>IdPerfilGuest</shortDescription>
+        <value>00e1t000000RnUbAAK</value>
+    </labels>
+    <labels>
+        <fullName>IdPerfilUsuariocomunidad</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>IdPerfilUsuariocomunidad</shortDescription>
+        <value>00e1t000000ViRYAA0</value>
+    </labels>
+    <labels>
+        <fullName>ImagenContratacion</fullName>
+        <categories>Redsys</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>ImagenContratacion</shortDescription>
+        <value>https://clientesarriaga.force.com/file-asset/IconoContratacionOK</value>
+    </labels>
+    <labels>
+        <fullName>Incapacitado</fullName>
+        <categories>Función de contacto de la oportunidad</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Incapacitado</shortDescription>
+        <value>Incapacitado</value>
+    </labels>
+    <labels>
+        <fullName>InfoProducto</fullName>
+        <categories>(RedsysRespuestaServicio.cmp)Palabra complementaria para la información del producto que se quiere contratar</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>InfoProducto</shortDescription>
+        <value>Información</value>
+    </labels>
+    <labels>
+        <fullName>IntegrationProfile</fullName>
+        <categories>Perfiles</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>IntegrationProfile</shortDescription>
+        <value>Integración</value>
+    </labels>
+    <labels>
+        <fullName>LA_Chat_Ended_ChatEndAgent_04I5t000000Kyw0_4699888</fullName>
+        <categories>Snap-ins</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>LA_Chat_Ended_ChatEndAgent_04I5t000000Kyw0_4699888</shortDescription>
+        <value>Sesión Finalizada por Agente</value>
+    </labels>
+    <labels>
+        <fullName>LA_Chat_Ended_IdleTimeoutEndChatMessage_04I5t000000Kyw0_5743768</fullName>
+        <categories>Snap-ins</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>LA_Chat_Ended_IdleTimeoutEndChatMessage_04I5t000000Kyw0_5743768</shortDescription>
+        <value>Tiempo de Espera Agotado</value>
+    </labels>
+    <labels>
+        <fullName>LA_PostChat_Base_PostChat_04I2z00000000XA_9145288</fullName>
+        <categories>Snap-ins</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>LA_PostChat_Base_PostChat_04I2z00000000XA_9145288</shortDescription>
+        <value>Arriaga Asociados</value>
+    </labels>
+    <labels>
+        <fullName>LA_PreChat_Base_LiveChat_04I2z00000000XA_6337431</fullName>
+        <categories>Snap-ins</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>LA_PreChat_Base_LiveChat_04I2z00000000XA_6337431</shortDescription>
+        <value>Arriaga Asociados</value>
+    </labels>
+    <labels>
+        <fullName>LA_Waiting_Header_Text_04I2z00000000XA_7929641</fullName>
+        <categories>Snap-ins</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>LA_Waiting_Header_Text_04I2z00000000XA_7929641</shortDescription>
+        <value>Arriaga Asociados</value>
+    </labels>
+    <labels>
+        <fullName>ListaPreciosEstandar</fullName>
+        <categories>TriggerLeadhandler</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>ListaPreciosEstandar</shortDescription>
+        <value>01s1t0000036gnMAAQ</value>
+    </labels>
+    <labels>
+        <fullName>Location_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Location Label</shortDescription>
+        <value>Location</value>
+    </labels>
+    <labels>
+        <fullName>LogoPDFHojaEncargo</fullName>
+        <categories>PDF Hoja de Encargo</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Logo PDF Hoja de Encargo</shortDescription>
+        <value>/servlet/servlet.ImageServer?id=0151t000001tvim&amp;oid=00D1t000000rxg7&amp;lastMod=1570604373000</value>
+    </labels>
+    <labels>
+        <fullName>MenorDeEdad</fullName>
+        <categories>Función de contacto de la oportunidad</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Menor de edad</shortDescription>
+        <value>Menor de edad</value>
+    </labels>
+    <labels>
+        <fullName>MensajeDescargaDoc</fullName>
+        <categories>Gestor Documental - Mensaje descarga Doc</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>MensajeDescargaDoc</shortDescription>
+        <value>El fichero se descargará en breves momentos!</value>
+    </labels>
+    <labels>
+        <fullName>MensajeDescargaDocCommunity</fullName>
+        <categories>Gestor Documental - Mensaje descarga Doc</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>MensajeDescargaDoc</shortDescription>
+        <value>El fichero se descargará en breves momentos!</value>
+    </labels>
+    <labels>
+        <fullName>MensajePDFDatosPersonales</fullName>
+        <categories>GDPRPersonalDataCMP</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Mensaje PDF DatosPersonales</shortDescription>
+        <value>Se ha generado el PDF con sus datos en una nueva pestaña</value>
+    </labels>
+    <labels>
+        <fullName>ModalSeleccionarHoja</fullName>
+        <categories>LWC Hoja de Encargo</categories>
+        <language>es</language>
+        <protected>true</protected>
+        <shortDescription>ModalSeleccionarHoja</shortDescription>
+        <value>Seleccionar Hoja de Encargo</value>
+    </labels>
+    <labels>
+        <fullName>ModalTablaBtnCancelar</fullName>
+        <categories>LWC Hoja de Encargo</categories>
+        <language>es</language>
+        <protected>true</protected>
+        <shortDescription>ModalTablaBtnCancelar</shortDescription>
+        <value>Cancelar</value>
+    </labels>
+    <labels>
+        <fullName>ModalTablaCol1</fullName>
+        <categories>LWC Hoja de Encargo</categories>
+        <language>es</language>
+        <protected>true</protected>
+        <shortDescription>ModalTablaCol1</shortDescription>
+        <value>Tipo de Hoja</value>
+    </labels>
+    <labels>
+        <fullName>ModalTablaCol2</fullName>
+        <categories>LWC Hoja de Encargo</categories>
+        <language>es</language>
+        <protected>true</protected>
+        <shortDescription>ModalTablaCol2</shortDescription>
+        <value>Producto</value>
+    </labels>
+    <labels>
+        <fullName>ModalTablaCol3</fullName>
+        <categories>LWC Hoja de Encargo</categories>
+        <language>es</language>
+        <protected>true</protected>
+        <shortDescription>ModalTablaCol3</shortDescription>
+        <value>Código de la Plantilla</value>
+    </labels>
+    <labels>
+        <fullName>ModalTablaCol4</fullName>
+        <categories>LWC Hoja de Encargo</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>ModalTablaCol4</shortDescription>
+        <value>Nombre</value>
+    </labels>
+    <labels>
+        <fullName>Monday_Short</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Monday_Short</shortDescription>
+        <value>Mon</value>
+    </labels>
+    <labels>
+        <fullName>Month_View_Type_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Month View Type Label</shortDescription>
+        <value>Month</value>
+    </labels>
+    <labels>
+        <fullName>More_Details_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>More Details Label</shortDescription>
+        <value>More Details</value>
+    </labels>
+    <labels>
+        <fullName>More_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>More Label</shortDescription>
+        <value>More</value>
+    </labels>
+    <labels>
+        <fullName>NameEvent</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Name Event</shortDescription>
+        <value>Name</value>
+    </labels>
+    <labels>
+        <fullName>Next</fullName>
+        <categories>c2m-modal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Next</shortDescription>
+        <value>Next</value>
+    </labels>
+    <labels>
+        <fullName>Next_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Next Label</shortDescription>
+        <value>Next</value>
+    </labels>
+    <labels>
+        <fullName>NoAsiste</fullName>
+        <categories>Estado del evento</categories>
+        <language>es</language>
+        <protected>true</protected>
+        <shortDescription>No Asiste</shortDescription>
+        <value>No asiste</value>
+    </labels>
+    <labels>
+        <fullName>NoGenerarPDF</fullName>
+        <categories>HojaEncargocmp</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>NoGenerarPDF</shortDescription>
+        <value>No es posible generar el PDF: Tienen que estar incluidos en la oportunidad todos los intervinientes, con la política de privacidad aceptada y el documento de identidad y la dirección completados</value>
+    </labels>
+    <labels>
+        <fullName>NoProduct</fullName>
+        <categories>c2m-product</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>NoProduct</shortDescription>
+        <value>No products</value>
+    </labels>
+    <labels>
+        <fullName>NoResultMessage</fullName>
+        <categories>c2m-search</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>NoResultMessage</shortDescription>
+        <value>No results could be found matching the current search criteria</value>
+    </labels>
+    <labels>
+        <fullName>NombreCatalogGeneral</fullName>
+        <categories>Flow_ComprobacionPagos</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>NombreCatalogGeneral</shortDescription>
+        <value>Catálogo general</value>
+    </labels>
+    <labels>
+        <fullName>NombreRemitente</fullName>
+        <categories>Email Huerfanos Componente</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>NombreRemitente</shortDescription>
+        <value>Nombre del remitente</value>
+    </labels>
+    <labels>
+        <fullName>OM_Agree</fullName>
+        <categories>Solicitar Permiso Grabación</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OM_Agree</shortDescription>
+        <value>acepta la grabación</value>
+    </labels>
+    <labels>
+        <fullName>OM_AgreeMessage</fullName>
+        <categories>Solicitar Permiso Grabación</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OM_AgreeMessage</shortDescription>
+        <value>Se ha dado permiso para grabar. Si la grabación todavía no está en marcha, RECUERDA ACTIVAR LA GRABACIÓN.</value>
+    </labels>
+    <labels>
+        <fullName>OM_CAT</fullName>
+        <categories>Autocita</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OM_CAT</shortDescription>
+        <value>Catalán</value>
+    </labels>
+    <labels>
+        <fullName>OM_CB_Error</fullName>
+        <categories>Autocita</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OM_CB_Error</shortDescription>
+        <value>Por favor, póngase en contacto con nosotros llamando al teléfono de Atención al Cliente.</value>
+    </labels>
+    <labels>
+        <fullName>OM_CB_Success</fullName>
+        <categories>Autocita</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OM_CB_Success</shortDescription>
+        <value>Nos pondremos en contacto con usted en cuanto nos sea posible.</value>
+    </labels>
+    <labels>
+        <fullName>OM_CheckActive</fullName>
+        <categories>Solicitar Permiso Grabación</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OM_CheckActive</shortDescription>
+        <value>Comprueba que la grabación ya se encuentra ACTIVA.</value>
+    </labels>
+    <labels>
+        <fullName>OM_CheckInactive</fullName>
+        <categories>Solicitar Permiso Grabación</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OM_CheckInactive</shortDescription>
+        <value>Comprueba que la grabación ya se encuentra INACTIVA.</value>
+    </labels>
+    <labels>
+        <fullName>OM_Comercial</fullName>
+        <categories>Autocita</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OM_Comercial</shortDescription>
+        <value>Deseo recibir comunicaciones comerciales de Arriaga Asociados en función de mi comportamiento y mis preferencias personales, en los términos previstos en la Política de Privacidad.</value>
+    </labels>
+    <labels>
+        <fullName>OM_DisagreeMessage</fullName>
+        <categories>Solicitar Permiso Grabación</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OM_DisagreeMessage</shortDescription>
+        <value>No se ha dado permiso para grabar. Si la grabación está en marcha, RECUERDA FINALIZARLA.</value>
+    </labels>
+    <labels>
+        <fullName>OM_DocumentId</fullName>
+        <categories>Autocita</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OM_DocumentId</shortDescription>
+        <value>Documento de identidad</value>
+    </labels>
+    <labels>
+        <fullName>OM_DocumentType</fullName>
+        <categories>Autocita</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OM_DocumentType</shortDescription>
+        <value>Tipo de documento</value>
+    </labels>
+    <labels>
+        <fullName>OM_EN</fullName>
+        <categories>Autocita</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OM_EN</shortDescription>
+        <value>Inglés</value>
+    </labels>
+    <labels>
+        <fullName>OM_ES</fullName>
+        <categories>Autocita</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OM_ES</shortDescription>
+        <value>Español</value>
+    </labels>
+    <labels>
+        <fullName>OM_Email</fullName>
+        <categories>Autocita</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OM_Email</shortDescription>
+        <value>Correo electrónico</value>
+    </labels>
+    <labels>
+        <fullName>OM_FinishFlow</fullName>
+        <categories>Solicitar Permiso Grabación</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OM_FinishFlow</shortDescription>
+        <value>Recuerda seleccionar &quot;FINALIZAR&quot; para registrar la respuesta.</value>
+    </labels>
+    <labels>
+        <fullName>OM_FullName</fullName>
+        <categories>Autocita</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OM_FullName</shortDescription>
+        <value>Nombre y apellidos</value>
+    </labels>
+    <labels>
+        <fullName>OM_GDPRMessage</fullName>
+        <categories>Solicitar Permiso Grabación</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OM_GDPRMessage</shortDescription>
+        <value>Le informamos que el responsable de tratamiento de los datos obtenidos durante la llamada es Arriaga Asociados. Puede encontrar más información sobre nuestra política de privacidad y cómo ejercer sus derechos de protección de datos en nuestra web. Con la finalidad de asesorarle correctamente, le informamos de que la llamada será grabada.</value>
+    </labels>
+    <labels>
+        <fullName>OM_GDPRQuestion</fullName>
+        <categories>Solicitar Permiso Grabación</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OM_GDPRQuestion</shortDescription>
+        <value>¿Está de acuerdo?</value>
+    </labels>
+    <labels>
+        <fullName>OM_LastName</fullName>
+        <categories>Autocita</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OM_LastName</shortDescription>
+        <value>Apellidos</value>
+    </labels>
+    <labels>
+        <fullName>OM_LocationFailed</fullName>
+        <categories>Autocita</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OM_LocationFailed</shortDescription>
+        <value>Si no encuentra ninguna oficina cercana, vuelva a la página anterior para seleccionar otro tipo de cita.</value>
+    </labels>
+    <labels>
+        <fullName>OM_LopdText</fullName>
+        <categories>Autocita</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OM_LopdText</shortDescription>
+        <value>He leído y acepto las condiciones de uso y la Política de privacidad.</value>
+    </labels>
+    <labels>
+        <fullName>OM_MessageIntro</fullName>
+        <categories>Solicitar Permiso Grabación</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OM_MessageIntro</shortDescription>
+        <value>Para el tratamiento de sus datos es necesario proceder a la grabación de la llamada.</value>
+    </labels>
+    <labels>
+        <fullName>OM_Name</fullName>
+        <categories>Autocita</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OM_Name</shortDescription>
+        <value>Nombre</value>
+    </labels>
+    <labels>
+        <fullName>OM_No</fullName>
+        <categories>Solicitar Permiso Grabación</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OM_No</shortDescription>
+        <value>NO</value>
+    </labels>
+    <labels>
+        <fullName>OM_OnlineError</fullName>
+        <categories>Autocita</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OM_OnlineError</shortDescription>
+        <value>Actualmente no está disponible la solicitud de cita online. Por favor, escoja una cita presencial o llame al teléfono de atención al cliente.</value>
+    </labels>
+    <labels>
+        <fullName>OM_Phone</fullName>
+        <categories>Autocita</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OM_Phone</shortDescription>
+        <value>Teléfono</value>
+    </labels>
+    <labels>
+        <fullName>OM_RecordingHeader</fullName>
+        <categories>Solicitar Permiso Grabación</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OM_RecordingHeader</shortDescription>
+        <value>No se permite grabar</value>
+    </labels>
+    <labels>
+        <fullName>OM_RecordingMessage</fullName>
+        <categories>Solicitar Permiso Grabación</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OM_RecordingMessage</shortDescription>
+        <value>No se ha dado permiso para grabar.
+Si la grabación está en marcha, RECUERDA FINALIZARLA.</value>
+    </labels>
+    <labels>
+        <fullName>OM_ReminderHeader</fullName>
+        <categories>Solicitar Permiso Grabación</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OM_ReminderHeader</shortDescription>
+        <value>Solicitar permiso de grabación</value>
+    </labels>
+    <labels>
+        <fullName>OM_ReminderMessage</fullName>
+        <categories>Solicitar Permiso Grabación</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OM_ReminderMessage</shortDescription>
+        <value>Recuerda solicitar permiso de grabación.</value>
+    </labels>
+    <labels>
+        <fullName>OM_SA_Error</fullName>
+        <categories>Autocita</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OM_SA_Error</shortDescription>
+        <value>Ha habido un problema al registrar su cita.</value>
+    </labels>
+    <labels>
+        <fullName>OM_SA_Success</fullName>
+        <categories>Autocita</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OM_SA_Success</shortDescription>
+        <value>La cita ha sido registrada correctamente. Te enviaremos un correo electrónico con la información.</value>
+    </labels>
+    <labels>
+        <fullName>OM_StartMessage</fullName>
+        <categories>Solicitar Permiso Grabación</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OM_StartMessage</shortDescription>
+        <value>Para solicitar permiso de grabación, seleccione &quot;Siguiente&quot;.</value>
+    </labels>
+    <labels>
+        <fullName>OM_Whatsapp1</fullName>
+        <categories>Autocita</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OM_Whatsapp1</shortDescription>
+        <value>Presto mi consentimiento libre, informado, específico e inequívoco y autorizo a ARRIAGA ASOCIADOS ASESORAMIENTO JURÍDICO Y ECONÓMICO, S.L. a ponerse en contacto conmigo en los términos previstos en la Política de privacidad , a través de WHATSAPP MESSENGER, cuya Política de privacidad está disponible en su página web.</value>
+    </labels>
+    <labels>
+        <fullName>OM_WhatsappLink</fullName>
+        <categories>Autocita</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OM_WhatsappLink</shortDescription>
+        <value>Política de privacidad WHATSAPP MESENGER</value>
+    </labels>
+    <labels>
+        <fullName>OM_Yes</fullName>
+        <categories>Solicitar Permiso Grabación</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OM_Yes</shortDescription>
+        <value>SÍ</value>
+    </labels>
+    <labels>
+        <fullName>OM_dataInfo</fullName>
+        <categories>Autocita</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OM_dataInfo</shortDescription>
+        <value>Debe introducir el tipo de documento y el documento de identidad.</value>
+    </labels>
+    <labels>
+        <fullName>OM_existingProduct</fullName>
+        <categories>Autocita</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OM_existingProduct</shortDescription>
+        <value>Producto contratado</value>
+    </labels>
+    <labels>
+        <fullName>OM_googleMessage1</fullName>
+        <categories>Autocita</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OM_googleMessage1</shortDescription>
+        <value>Este sitio está protegido con tecnología de Google reCAPTCHA V3 y como tal, se apoya en</value>
+    </labels>
+    <labels>
+        <fullName>OM_googleMessage2</fullName>
+        <categories>Autocita</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OM_googleMessage2</shortDescription>
+        <value>y</value>
+    </labels>
+    <labels>
+        <fullName>OM_googleMessage3</fullName>
+        <categories>Autocita</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OM_googleMessage3</shortDescription>
+        <value>de Google.</value>
+    </labels>
+    <labels>
+        <fullName>OM_googleMessage4</fullName>
+        <categories>Autocita</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OM_googleMessage4</shortDescription>
+        <value>Es preciso aceptar las cookies para enviar el formulario.</value>
+    </labels>
+    <labels>
+        <fullName>OM_isClientAnswer</fullName>
+        <categories>Autocita</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OM_isClientAnswer</shortDescription>
+        <value>Sí, soy cliente</value>
+    </labels>
+    <labels>
+        <fullName>OM_isCustomerQuestion</fullName>
+        <categories>Autocita</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OM_isCustomerQuestion</shortDescription>
+        <value>¿Eres cliente de Arriaga Asociados?</value>
+    </labels>
+    <labels>
+        <fullName>OM_newProduct</fullName>
+        <categories>Autocita</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OM_newProduct</shortDescription>
+        <value>Nuevo producto</value>
+    </labels>
+    <labels>
+        <fullName>OM_newProductQuestion</fullName>
+        <categories>Autocita</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OM_newProductQuestion</shortDescription>
+        <value>¿Quiere consultar sobre un producto ya contratado o sobre un nuevo producto?</value>
+    </labels>
+    <labels>
+        <fullName>OM_notClientAnswer</fullName>
+        <categories>Autocita</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OM_notClientAnswer</shortDescription>
+        <value>No soy cliente</value>
+    </labels>
+    <labels>
+        <fullName>OM_privacity</fullName>
+        <categories>Autocita</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OM_privacy</shortDescription>
+        <value>Política de Privacidad</value>
+    </labels>
+    <labels>
+        <fullName>OM_terms</fullName>
+        <categories>Autocita</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OM_terms</shortDescription>
+        <value>Términos de uso</value>
+    </labels>
+    <labels>
+        <fullName>OportunidadCalificacion</fullName>
+        <categories>Estado oportunidad</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>OportunidadCalificacion</shortDescription>
+        <value>Cita</value>
+    </labels>
+    <labels>
+        <fullName>OportunidadCerragaGanada</fullName>
+        <categories>Estado final de la oportunidad</categories>
+        <language>es</language>
+        <protected>true</protected>
+        <shortDescription>OportunidadCerragaGanada</shortDescription>
+        <value>Cerrada ganada</value>
+    </labels>
+    <labels>
+        <fullName>OportunidadCerragaPerdida</fullName>
+        <categories>Trigger Opp</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>OportunidadCerragaPerdida</shortDescription>
+        <value>Cerrada Perdida</value>
+    </labels>
+    <labels>
+        <fullName>OportunidadConProducto</fullName>
+        <categories>LWC Hoja de Encargo</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>OportunidadConProducto</shortDescription>
+        <value>Debe seleccionarse un producto de oportunidad antes de elegir la hoja de encargo</value>
+    </labels>
+    <labels>
+        <fullName>PaginaErrorRegistroComunidad</fullName>
+        <categories>Registro de comunidad</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Página Error Registro Comunidad</shortDescription>
+        <value>/s/registroko</value>
+    </labels>
+    <labels>
+        <fullName>PaginaErrorRegistroComunidadUsuarioExistente</fullName>
+        <categories>Registro de comunidad</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>PaginaErrorRegistroComunidadUsuarioExistente</shortDescription>
+        <value>/s/registrousuarioexistente</value>
+    </labels>
+    <labels>
+        <fullName>PagoConfirmado</fullName>
+        <categories>Lista Roles Oportunidad</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>PagoConfirmado</shortDescription>
+        <value>Pago Confirmado</value>
+    </labels>
+    <labels>
+        <fullName>PasaporteVal</fullName>
+        <categories>Tipo de documento</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>PasaporteVal</shortDescription>
+        <value>Pasaporte</value>
+    </labels>
+    <labels>
+        <fullName>PerfilComunidad</fullName>
+        <categories>Perfiles</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Perfil Comunidad</shortDescription>
+        <value>00e1t000000ViRY</value>
+    </labels>
+    <labels>
+        <fullName>Previous_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Previous Label</shortDescription>
+        <value>Previous</value>
+    </labels>
+    <labels>
+        <fullName>ProductNameClauSuelo</fullName>
+        <categories>Producto</categories>
+        <language>es</language>
+        <protected>true</protected>
+        <shortDescription>ProductName - ClauSuelo</shortDescription>
+        <value>Clausula Suelo</value>
+    </labels>
+    <labels>
+        <fullName>ProductNameGastosHip</fullName>
+        <categories>Producto</categories>
+        <language>es</language>
+        <protected>true</protected>
+        <shortDescription>ProductName - GastosHip</shortDescription>
+        <value>Gastos Hipotecarios</value>
+    </labels>
+    <labels>
+        <fullName>ProductNameIRPH</fullName>
+        <categories>Producto</categories>
+        <language>es</language>
+        <protected>true</protected>
+        <shortDescription>ProductName - IRPH</shortDescription>
+        <value>IRPH</value>
+    </labels>
+    <labels>
+        <fullName>Products</fullName>
+        <categories>c2m-product</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Products</shortDescription>
+        <value>Products</value>
+    </labels>
+    <labels>
+        <fullName>Propietario</fullName>
+        <categories>Lista Roles Oportunidad</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Propietario</shortDescription>
+        <value>Propietario</value>
+    </labels>
+    <labels>
+        <fullName>REDSYSURL</fullName>
+        <categories>Redsys</categories>
+        <language>es</language>
+        <protected>true</protected>
+        <shortDescription>REDSYSURL</shortDescription>
+        <value>https://sis-t.redsys.es:25443/sis/realizarPago</value>
+    </labels>
+    <labels>
+        <fullName>Reagendada</fullName>
+        <categories>Reagendada</categories>
+        <language>es</language>
+        <protected>true</protected>
+        <shortDescription>Reagendada</shortDescription>
+        <value>Reagendada</value>
+    </labels>
+    <labels>
+        <fullName>Remitente</fullName>
+        <categories>Email Huerfanos Componente</categories>
+        <language>es</language>
+        <protected>true</protected>
+        <shortDescription>Remitente</shortDescription>
+        <value>Remitente</value>
+    </labels>
+    <labels>
+        <fullName>RepresentanteLegal</fullName>
+        <categories>Función de contacto de la oportunidad</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Representante Legal</shortDescription>
+        <value>Representante legal</value>
+    </labels>
+    <labels>
+        <fullName>ResourceError</fullName>
+        <categories>c2m-resource</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ResourceError</shortDescription>
+        <value>An error has ocurred retrieving resources types</value>
+    </labels>
+    <labels>
+        <fullName>ResourceName</fullName>
+        <categories>c2m-ResourceTab</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Resource Name</shortDescription>
+        <value>Name</value>
+    </labels>
+    <labels>
+        <fullName>ResourceSchedule</fullName>
+        <categories>c2m-ResourceTab</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Resource Schedule</shortDescription>
+        <value>Schedule</value>
+    </labels>
+    <labels>
+        <fullName>Resources</fullName>
+        <categories>c2m-container</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Resources</shortDescription>
+        <value>Resources</value>
+    </labels>
+    <labels>
+        <fullName>ResultTab</fullName>
+        <categories>c2m-search</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ResultTab</shortDescription>
+        <value>Results</value>
+    </labels>
+    <labels>
+        <fullName>Saturday_Short</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Saturday_Short</shortDescription>
+        <value>Sat</value>
+    </labels>
+    <labels>
+        <fullName>Scheduler</fullName>
+        <categories>c2m-container</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Scheduler</shortDescription>
+        <value>Scheduler</value>
+    </labels>
+    <labels>
+        <fullName>Search</fullName>
+        <categories>c2m-search</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Search</shortDescription>
+        <value>Search</value>
+    </labels>
+    <labels>
+        <fullName>SearchButton</fullName>
+        <categories>c2m-search</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>SearchButton</shortDescription>
+        <value>Search</value>
+    </labels>
+    <labels>
+        <fullName>SearchError</fullName>
+        <categories>c2m-search</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>SearchError</shortDescription>
+        <value>An error has ocurred, please contact with your Salesforce Admin</value>
+    </labels>
+    <labels>
+        <fullName>SearchFilters</fullName>
+        <categories>c2m-filters</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search filters</shortDescription>
+        <value>Search Filters</value>
+    </labels>
+    <labels>
+        <fullName>SearchTab</fullName>
+        <categories>c2m-search</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Search</shortDescription>
+        <value>Search</value>
+    </labels>
+    <labels>
+        <fullName>ShowCalendarButton</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ShowCalendarButton</shortDescription>
+        <value>Schedule</value>
+    </labels>
+    <labels>
+        <fullName>SinCorreosHuerfanos</fullName>
+        <categories>Email Huerfanos Componente</categories>
+        <language>es</language>
+        <protected>true</protected>
+        <shortDescription>Sin correos huerfanos</shortDescription>
+        <value>No hay correos que mostrar</value>
+    </labels>
+    <labels>
+        <fullName>Start_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Start Label</shortDescription>
+        <value>Start</value>
+    </labels>
+    <labels>
+        <fullName>SummaryHeader</fullName>
+        <categories>c2m-modal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>SummaryHeader</shortDescription>
+        <value>Appointment Summary</value>
+    </labels>
+    <labels>
+        <fullName>Sunday_Short</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Sunday_Short</shortDescription>
+        <value>Sun</value>
+    </labels>
+    <labels>
+        <fullName>TextoPagoClauSuelo</fullName>
+        <categories>Página Pago</categories>
+        <language>es</language>
+        <protected>true</protected>
+        <shortDescription>TextoPago - ClauSuelo</shortDescription>
+        <value>AHORA PUEDES CONTRATAR LA RECLAMACIÓN DE TUS GASTOS DE HIPOTECA O IRPH SIN COSTE ADICIONAL</value>
+    </labels>
+    <labels>
+        <fullName>TextoPagoGastosHip</fullName>
+        <categories>Página Pago</categories>
+        <language>es</language>
+        <protected>true</protected>
+        <shortDescription>TextoPago - GastosHip</shortDescription>
+        <value>AHORA PUEDES CONTRATAR LA RECLAMACIÓN DE CLAUSULA SUELO O IRPH SIN COSTE ADICIONAL</value>
+    </labels>
+    <labels>
+        <fullName>TextoPagoIRPH</fullName>
+        <categories>Página Pago</categories>
+        <language>es</language>
+        <protected>true</protected>
+        <shortDescription>TextoPago - IRPH</shortDescription>
+        <value>AHORA PUEDES CONTRATAR LA RECLAMACIÓN DE TUS GASTOS DE HIPOTECA O CLAUSULA SUELO SIN COSTE ADICIONAL</value>
+    </labels>
+    <labels>
+        <fullName>Thursday_Short</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Thursday_Short</shortDescription>
+        <value>Thu</value>
+    </labels>
+    <labels>
+        <fullName>TimeAvailability</fullName>
+        <categories>c2m-modal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>TimeAvailability</shortDescription>
+        <value>Time Availability</value>
+    </labels>
+    <labels>
+        <fullName>TipoCasoRecaptura</fullName>
+        <categories>Trigger evento</categories>
+        <language>es</language>
+        <protected>true</protected>
+        <shortDescription>Tipo del caso recaptura</shortDescription>
+        <value>Recaptura</value>
+    </labels>
+    <labels>
+        <fullName>TipoConfirmacionCita</fullName>
+        <categories>Tipo caso confirmación cita</categories>
+        <language>es</language>
+        <protected>true</protected>
+        <shortDescription>TipoConfirmacionCita</shortDescription>
+        <value>Confirmación Cita</value>
+    </labels>
+    <labels>
+        <fullName>TipoPagoCero</fullName>
+        <categories>Pago Cero</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>TipoPagoCero</shortDescription>
+        <value>Autorizado sin provisión</value>
+    </labels>
+    <labels>
+        <fullName>TitularFuncionContactoOportunidad</fullName>
+        <categories>PDF Hoja de encargo</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Titular Funcion Contacto Oportunidad</shortDescription>
+        <value>Titular</value>
+    </labels>
+    <labels>
+        <fullName>TituloPopupRemitente</fullName>
+        <categories>Email Huerfanos Componente</categories>
+        <language>es</language>
+        <protected>true</protected>
+        <shortDescription>Titulo Popup Remitente</shortDescription>
+        <value>Seleccione el cliente remitente del mensaje</value>
+    </labels>
+    <labels>
+        <fullName>TlfErroneo</fullName>
+        <categories>ValidacionDNI</categories>
+        <language>es</language>
+        <protected>true</protected>
+        <shortDescription>TlfErroneo</shortDescription>
+        <value>Debe introducir un número de teléfono válido.</value>
+    </labels>
+    <labels>
+        <fullName>ToDate</fullName>
+        <categories>c2m-search</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ToDate</shortDescription>
+        <value>To</value>
+    </labels>
+    <labels>
+        <fullName>ToHour</fullName>
+        <categories>c2m-search</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ToHour</shortDescription>
+        <value>To (Hour)</value>
+    </labels>
+    <labels>
+        <fullName>Tuesday_Short</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Tuesday_Short</shortDescription>
+        <value>Tue</value>
+    </labels>
+    <labels>
+        <fullName>Tutor</fullName>
+        <categories>Función de contacto de la oportunidad</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Tutor</shortDescription>
+        <value>Tutor</value>
+    </labels>
+    <labels>
+        <fullName>URLEncriptacion</fullName>
+        <categories>Redsys</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>URLEncriptacion</shortDescription>
+        <value>https://europe-west1-arriaga-crm.cloudfunctions.net/function-3ds-crypt</value>
+    </labels>
+    <labels>
+        <fullName>UserError</fullName>
+        <categories>c2m-UserTab</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>UserError</shortDescription>
+        <value>An error has ocurred retrieving user information</value>
+    </labels>
+    <labels>
+        <fullName>UserMail</fullName>
+        <categories>c2m-UserTab</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>UserMail</shortDescription>
+        <value>Email</value>
+    </labels>
+    <labels>
+        <fullName>UserName</fullName>
+        <categories>c2m-UserTab</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>User Name</shortDescription>
+        <value>Name</value>
+    </labels>
+    <labels>
+        <fullName>UserPhone</fullName>
+        <categories>c2m-UserTab</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>User Phone</shortDescription>
+        <value>Phone</value>
+    </labels>
+    <labels>
+        <fullName>UserSchedule</fullName>
+        <categories>c2m-UserTab</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>User Schedule</shortDescription>
+        <value>Schedule</value>
+    </labels>
+    <labels>
+        <fullName>Users</fullName>
+        <categories>c2m-container</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Users</shortDescription>
+        <value>Users</value>
+    </labels>
+    <labels>
+        <fullName>Videomeeting</fullName>
+        <categories>c2m-modal</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Videomeeting</shortDescription>
+        <value>Videollamada</value>
+    </labels>
+    <labels>
+        <fullName>Wednesday_Short</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Wednesday_Short</shortDescription>
+        <value>Wed</value>
+    </labels>
+    <labels>
+        <fullName>Week_View_Type_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Week View Type Label</shortDescription>
+        <value>Week</value>
+    </labels>
+    <labels>
+        <fullName>arriagalogo</fullName>
+        <categories>arriagalogo</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>arriagalogo</shortDescription>
+        <value>https://arriagaasociados--c.documentforce.com/serv…001tvim&amp;oid=00D1t000000rxg7&amp;lastMod=1570604373000</value>
+    </labels>
+    <labels>
+        <fullName>assignHolidayAbsenceTitle</fullName>
+        <categories>HolidayAbsenceNew</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>assign HolidayAbsence Title</shortDescription>
+        <value>Assign Holiday/Absence</value>
+    </labels>
+    <labels>
+        <fullName>cancelAbsence</fullName>
+        <categories>HolidayAbsenceNew</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>cancel Absence button</shortDescription>
+        <value>Cancel</value>
+    </labels>
+    <labels>
+        <fullName>caseOrigenCitaNAtendida</fullName>
+        <categories>Origen Caso</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>caseOrigenCitaNAtendida</shortDescription>
+        <value>Cita no atendida</value>
+    </labels>
+    <labels>
+        <fullName>citaNoAtendidaSubject</fullName>
+        <categories>Evento no atendido</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>citaNoAtendidaSubject</shortDescription>
+        <value>Cita no atendida</value>
+    </labels>
+    <labels>
+        <fullName>citaNotification</fullName>
+        <categories>citaNotification</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>validationMessage</shortDescription>
+        <value>Tiene %Subject% a las %Time%H en la %oficina%</value>
+    </labels>
+    <labels>
+        <fullName>commentsAbsence</fullName>
+        <categories>HolidayAbsenceNew</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>comments Absence</shortDescription>
+        <value>Comments</value>
+    </labels>
+    <labels>
+        <fullName>communityEmailMessageBody</fullName>
+        <categories>communityEmailMessage</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>emailMessage</shortDescription>
+        <value>Buenos días,&lt;br/&gt;&lt;br/&gt;El Cliente %Account% ha subido el fichero %file% al gestor documental.&lt;br/&gt;&lt;br/&gt;Un saludo.</value>
+    </labels>
+    <labels>
+        <fullName>communityEmailMessageSubject</fullName>
+        <categories>communityEmailMessageSubject</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>communityEmailMessageSubject</shortDescription>
+        <value>Notificación Automática Portal del Cliente. Subida de archivo.</value>
+    </labels>
+    <labels>
+        <fullName>contratacionProducto</fullName>
+        <categories>(RedsysRespuestaServicio.cmp)Palabra complementaria para la contratación del producto que se quiere contratar</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>contratacionProducto</shortDescription>
+        <value>Contratación</value>
+    </labels>
+    <labels>
+        <fullName>customChatterCardMessage</fullName>
+        <categories>customChatterCardMessage</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>customChatterCardMessage</shortDescription>
+        <value>Se ha actualizado el campo estado a %$$2%</value>
+    </labels>
+    <labels>
+        <fullName>customChatterCardTitle</fullName>
+        <categories>GestorDocumental</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>customChatterCardTitle</shortDescription>
+        <value>Arriaga Asociados le informa que:</value>
+    </labels>
+    <labels>
+        <fullName>customChatterCardTitleBell</fullName>
+        <categories>customChatterCardTitleBell</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>customChatterCardTitleBell</shortDescription>
+        <value>Notificacion Arriaga Asociados</value>
+    </labels>
+    <labels>
+        <fullName>customChatterCardTitleBellExpediente</fullName>
+        <categories>customChatterCardTitleBellExpediente</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>customChatterCardTitleBellExpediente</shortDescription>
+        <value>en el expediente</value>
+    </labels>
+    <labels>
+        <fullName>customChatterTitle</fullName>
+        <categories>GestorDocumental</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>customChatterTitle</shortDescription>
+        <value>Notificaciones</value>
+    </labels>
+    <labels>
+        <fullName>customNotElementBell</fullName>
+        <categories>NotElementBellCommunity</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>NotElementBellCommunity</shortDescription>
+        <value>No tiene notificaciones.</value>
+    </labels>
+    <labels>
+        <fullName>emailComercial</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>email comercial</shortDescription>
+        <value>clientes@arriagaasociados.com</value>
+    </labels>
+    <labels>
+        <fullName>endAbsence</fullName>
+        <categories>HolidayAbsenceNew</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>end Absence</shortDescription>
+        <value>End</value>
+    </labels>
+    <labels>
+        <fullName>errorMessageFileTypeMinervaCommunity</fullName>
+        <categories>errorMessageFileTypeMinervaCommunity</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>errorMessageFileTypeMinervaCommunity</shortDescription>
+        <value>Ha ocurrido un error subiendo el archivo. Revisa que sea de alguno de este tipo: .pdf, .zip, .doc, .docx, .xls, .xlsx</value>
+    </labels>
+    <labels>
+        <fullName>errorPermisosEvento</fullName>
+        <categories>Trigger Evento</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>errorPermisosEvento</shortDescription>
+        <value>No tienes permisos para eliminar eventos</value>
+    </labels>
+    <labels>
+        <fullName>errorRecibi</fullName>
+        <categories>PDF Recibi</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>errorRecibi</shortDescription>
+        <value>Ha ocurrido un error al obtener los datos.</value>
+    </labels>
+    <labels>
+        <fullName>errorSinTipoDerivado</fullName>
+        <categories>Expediente derivado</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>errorSinTipoDerivado</shortDescription>
+        <value>Debe seleccionar un tipo de expediente para poder realizar la derivación</value>
+    </labels>
+    <labels>
+        <fullName>expDerivadoCliente</fullName>
+        <categories>Lwc Expediente Derivado</categories>
+        <language>es</language>
+        <protected>true</protected>
+        <shortDescription>Etiqueta que muestra el título del Cliente del expediente actual</shortDescription>
+        <value>Cliente</value>
+    </labels>
+    <labels>
+        <fullName>expDerivadoErrorNoDerivarExp</fullName>
+        <categories>Lwc Expediente Derivado</categories>
+        <language>es</language>
+        <protected>true</protected>
+        <shortDescription>Etiqueta que muestra el mensaje de error al intentar derivar un exp derivado</shortDescription>
+        <value>No se puede derivar un expediente derivado</value>
+    </labels>
+    <labels>
+        <fullName>expDerivadoErrorNoGestionado</fullName>
+        <categories>Lwc Expediente Derivado</categories>
+        <language>es</language>
+        <protected>true</protected>
+        <shortDescription>Etiqueta que muestra el titulo del error no gestionado</shortDescription>
+        <value>Se ha producido un error inesperado!</value>
+    </labels>
+    <labels>
+        <fullName>expDerivadoIdentificador</fullName>
+        <categories>Lwc Expediente Derivado</categories>
+        <language>es</language>
+        <protected>true</protected>
+        <shortDescription>Etiqueta que muestra el título del Identificador del expediente actual</shortDescription>
+        <value>Identificador</value>
+    </labels>
+    <labels>
+        <fullName>expDerivadoLabelComp</fullName>
+        <categories>Lwc Expediente Derivado</categories>
+        <language>es</language>
+        <protected>true</protected>
+        <shortDescription>Etiqueta que muestra el nombre del botón</shortDescription>
+        <value>Crear expediente derivado</value>
+    </labels>
+    <labels>
+        <fullName>expDerivadoOportunidad</fullName>
+        <categories>Lwc Expediente Derivado</categories>
+        <language>es</language>
+        <protected>true</protected>
+        <shortDescription>Etiqueta que muestra el título de la Oportunidad del expediente actual</shortDescription>
+        <value>Oportunidad</value>
+    </labels>
+    <labels>
+        <fullName>expDerivadoTituloComponente</fullName>
+        <categories>Lwc Expediente Derivado</categories>
+        <language>es</language>
+        <protected>true</protected>
+        <shortDescription>Etiqueta que muestra el título del pop up</shortDescription>
+        <value>Expediente derivado</value>
+    </labels>
+    <labels>
+        <fullName>expDerivadoTituloInformacion</fullName>
+        <categories>Lwc Expediente Derivado</categories>
+        <language>es</language>
+        <protected>true</protected>
+        <shortDescription>Etiqueta que muestra el título del expediente actual</shortDescription>
+        <value>- Información del Expediente -</value>
+    </labels>
+    <labels>
+        <fullName>fileMaxSize</fullName>
+        <categories>fileMaxSize</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>fileMaxSize</shortDescription>
+        <value>30</value>
+    </labels>
+    <labels>
+        <fullName>fileMaxSizeCommunity</fullName>
+        <categories>fileMaxSize</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>fileMaxSize</shortDescription>
+        <value>100</value>
+    </labels>
+    <labels>
+        <fullName>funnelEstado1</fullName>
+        <categories>funnelEstado</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>funnelEstado</shortDescription>
+        <value>Documentación Pendiente</value>
+    </labels>
+    <labels>
+        <fullName>funnelEstado2</fullName>
+        <categories>funnelEstado</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>funnelEstado</shortDescription>
+        <value>Reclamación en proceso</value>
+    </labels>
+    <labels>
+        <fullName>funnelEstado3</fullName>
+        <categories>funnelEstado</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>funnelEstado</shortDescription>
+        <value>Demanda presentada</value>
+    </labels>
+    <labels>
+        <fullName>funnelEstado4</fullName>
+        <categories>funnelEstado</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>funnelEstado</shortDescription>
+        <value>Fase judicial</value>
+    </labels>
+    <labels>
+        <fullName>funnelEstado5</fullName>
+        <categories>funnelEstado</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>funnelEstado</shortDescription>
+        <value>Sentencia</value>
+    </labels>
+    <labels>
+        <fullName>funnelEstado6</fullName>
+        <categories>funnelEstado</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>funnelEstado</shortDescription>
+        <value>Sentencia Recurrida</value>
+    </labels>
+    <labels>
+        <fullName>funnelEstado7</fullName>
+        <categories>funnelEstado</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>funnelEstado</shortDescription>
+        <value>Sentencia Firme</value>
+    </labels>
+    <labels>
+        <fullName>funnelEstado8</fullName>
+        <categories>funnelEstado</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>funnelEstado</shortDescription>
+        <value>Procedimiento finalizado</value>
+    </labels>
+    <labels>
+        <fullName>funnelEstadoDescription1</fullName>
+        <categories>funnelEstadoDescription</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>funnelEstadoDescription</shortDescription>
+        <value>Necesitamos que nos aportes más documentación para tramitar tu caso, puedes subirla a través de tu gestor de documentación, te guiaremos en el proceso. Para más información, pinche &lt;a href=&quot;https://www.arriagaasociados.com/landing/faqareacliente/&quot;&gt;aquí&lt;/a&gt;</value>
+    </labels>
+    <labels>
+        <fullName>funnelEstadoDescription2</fullName>
+        <categories>funnelEstadoDescription</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>funnelEstadoDescription</shortDescription>
+        <value>Estamos revisando y recopilando toda tu documentación para poder llevar a cabo la reclamación. Te avisaremos si necesitamos algo más. Para más información, pinche &lt;a href=&quot;https://www.arriagaasociados.com/landing/faqareacliente/&quot;&gt;aquí&lt;/a&gt;</value>
+    </labels>
+    <labels>
+        <fullName>funnelEstadoDescription3</fullName>
+        <categories>funnelEstadoDescription</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>funnelEstadoDescription</shortDescription>
+        <value>Hemos presentado tu demanda, su admisión puede demorarse dependiendo del juzgado. Tiempo medio actual: de 8 a 15 meses. Para más información, pinche &lt;a href=&quot;https://www.arriagaasociados.com/landing/faqareacliente/&quot;&gt;aquí&lt;/a&gt;</value>
+    </labels>
+    <labels>
+        <fullName>funnelEstadoDescription4</fullName>
+        <categories>funnelEstadoDescription</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>funnelEstadoDescription</shortDescription>
+        <value>¡Buenas noticias! Tu demanda ha sido admitida a trámite.Tu caso está en manos del juez; los tiempos varían en función del partido judicial. Tiempo medio actual: de 16 a 24 meses. No te preocupes, te notificaremos cualquier cambio relevante que se produzca. Para más información, pinche &lt;a href=&quot;https://www.arriagaasociados.com/landing/faqareacliente/&quot;&gt;aquí&lt;/a&gt;</value>
+    </labels>
+    <labels>
+        <fullName>funnelEstadoDescription5</fullName>
+        <categories>funnelEstadoDescription</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>funnelEstadoDescription</shortDescription>
+        <value>Ya tenemos sentencia. Será firme en 20 días, si ninguna de las partes presenta recurso. Es el plazo legal establecido. Para más información, pinche &lt;a href=&quot;https://www.arriagaasociados.com/landing/faqareacliente/&quot;&gt;aquí&lt;/a&gt;</value>
+    </labels>
+    <labels>
+        <fullName>funnelEstadoDescription6</fullName>
+        <categories>funnelEstadoDescription</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>funnelEstadoDescription</shortDescription>
+        <value>La parte contraria o nosotros podemos recurrir la sentencia por no estar de acuerdo en un plazo de 20 días. En este caso, la sentencia no es firme. Seguimos protegiendo tus intereses para que recuperes lo que te pertenece. Para más información, pinche &lt;a href=&quot;https://www.arriagaasociados.com/landing/faqareacliente/&quot;&gt;aquí&lt;/a&gt;</value>
+    </labels>
+    <labels>
+        <fullName>funnelEstadoDescription7</fullName>
+        <categories>funnelEstadoDescription</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>funnelEstadoDescription</shortDescription>
+        <value>La sentencia es firme. Nos pondremos en contacto contigo para darte los detalles. Para más información, pinche &lt;a href=&quot;https://www.arriagaasociados.com/landing/faqareacliente/&quot;&gt;aquí&lt;/a&gt;</value>
+    </labels>
+    <labels>
+        <fullName>funnelEstadoDescription8</fullName>
+        <categories>funnelEstadoDescription</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>funnelEstadoDescription</shortDescription>
+        <value>Todos los detalles de tu procedimiento, así como documentación del mismo, puedes solicitarlos desde tu área privada, por mail o por teléfono. Para más información, pinche &lt;a href=&quot;https://www.arriagaasociados.com/landing/faqareacliente/&quot;&gt;aquí&lt;/a&gt;</value>
+    </labels>
+    <labels>
+        <fullName>historyCustomChatterCardTitle</fullName>
+        <categories>historyCustomChatterCardTitle</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>historyCustomChatterCardTitle</shortDescription>
+        <value>Arriaga Asociados notifica</value>
+    </labels>
+    <labels>
+        <fullName>holidayAbsenceRelatedListTitle</fullName>
+        <categories>HolidayAbsenceRelatedList</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>holidayAbsenceRelatedList Title</shortDescription>
+        <value>Holidays/Absences</value>
+    </labels>
+    <labels>
+        <fullName>idColaCasoConfirmacion</fullName>
+        <categories>Clase Scheduled</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Id de la cola de usuarios para asignar el caso confirmación</shortDescription>
+        <value>00G1t000002G2Fb</value>
+    </labels>
+    <labels>
+        <fullName>idColaCasoRecaptura</fullName>
+        <categories>Trigger evento</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Id de la cola de usuarios para asignar el caso recaptura</shortDescription>
+        <value>00G1t000002G2FT</value>
+    </labels>
+    <labels>
+        <fullName>mensajeErrorNoAprob</fullName>
+        <categories>Trigger Oportunidad</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>mensajeErrorNoAprob</shortDescription>
+        <value>- No puede cerrar una oportunidad que no ha sido aprobada</value>
+    </labels>
+    <labels>
+        <fullName>mensajeErrorUpdOppApr</fullName>
+        <categories>Trigger Oportunidad</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>mensajeErrorUpdOppApr</shortDescription>
+        <value>- No puede modificar una oportunidad enviada a aprobación</value>
+    </labels>
+    <labels>
+        <fullName>nameAbsence</fullName>
+        <categories>HolidayAbsenceRelatedList</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>absence Name</shortDescription>
+        <value>Name</value>
+    </labels>
+    <labels>
+        <fullName>needMetadataConfig</fullName>
+        <categories>c2m-resource</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>NeedMetadataConfig</shortDescription>
+        <value>Calendar Setting Type and Subtype requiered. Please contact your Salesforce Admin</value>
+    </labels>
+    <labels>
+        <fullName>newAbsence</fullName>
+        <categories>HolidayAbsenceNew</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>new Absence button</shortDescription>
+        <value>New</value>
+    </labels>
+    <labels>
+        <fullName>newEventButton</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>newEventButton</shortDescription>
+        <value>New Event</value>
+    </labels>
+    <labels>
+        <fullName>notSendMail</fullName>
+        <categories>c2m-modal</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>notSendMail</shortDescription>
+        <value>Confirmación de Cita</value>
+    </labels>
+    <labels>
+        <fullName>omAllOption</fullName>
+        <categories>OM</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>All Option</shortDescription>
+        <value>-- All --</value>
+    </labels>
+    <labels>
+        <fullName>omAvailable</fullName>
+        <categories>OM</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Available</shortDescription>
+        <value>Available</value>
+    </labels>
+    <labels>
+        <fullName>omCancel</fullName>
+        <categories>OM</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cancel</shortDescription>
+        <value>Cancel</value>
+    </labels>
+    <labels>
+        <fullName>omClearAll</fullName>
+        <categories>OM</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Clear All</shortDescription>
+        <value>Clear all</value>
+    </labels>
+    <labels>
+        <fullName>omDelete</fullName>
+        <categories>OM</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Delete</shortDescription>
+        <value>Delete</value>
+    </labels>
+    <labels>
+        <fullName>omDeselectAll</fullName>
+        <categories>OM</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Deselect all</shortDescription>
+        <value>Deselect all</value>
+    </labels>
+    <labels>
+        <fullName>omEdit</fullName>
+        <categories>OM</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Edit</shortDescription>
+        <value>Edit</value>
+    </labels>
+    <labels>
+        <fullName>omExact</fullName>
+        <categories>OM</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Exact</shortDescription>
+        <value>Exact</value>
+    </labels>
+    <labels>
+        <fullName>omFilterIn</fullName>
+        <categories>OM</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Filter in</shortDescription>
+        <value>Filter in</value>
+    </labels>
+    <labels>
+        <fullName>omFilterOperator</fullName>
+        <categories>OM</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Filter operator</shortDescription>
+        <value>Filter operator</value>
+    </labels>
+    <labels>
+        <fullName>omFilteredBy</fullName>
+        <categories>OM</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Filtered By</shortDescription>
+        <value>Filtered by</value>
+    </labels>
+    <labels>
+        <fullName>omHide</fullName>
+        <categories>OM</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Hide</shortDescription>
+        <value>Hide</value>
+    </labels>
+    <labels>
+        <fullName>omInputInvalid</fullName>
+        <categories>OM</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Input Invalid</shortDescription>
+        <value>The value is invalid</value>
+    </labels>
+    <labels>
+        <fullName>omInputRequired</fullName>
+        <categories>OM</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Input required</shortDescription>
+        <value>The field is required</value>
+    </labels>
+    <labels>
+        <fullName>omList</fullName>
+        <categories>OM</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>List</shortDescription>
+        <value>List</value>
+    </labels>
+    <labels>
+        <fullName>omLoading</fullName>
+        <categories>OM</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Loading...</shortDescription>
+        <value>Loading...</value>
+    </labels>
+    <labels>
+        <fullName>omNew</fullName>
+        <categories>OM</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>New</shortDescription>
+        <value>New</value>
+    </labels>
+    <labels>
+        <fullName>omNext</fullName>
+        <categories>OM</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Next</shortDescription>
+        <value>Next</value>
+    </labels>
+    <labels>
+        <fullName>omNo</fullName>
+        <categories>OM</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No</shortDescription>
+        <value>No</value>
+    </labels>
+    <labels>
+        <fullName>omNoResultFound</fullName>
+        <categories>OM</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No result found</shortDescription>
+        <value>No result found</value>
+    </labels>
+    <labels>
+        <fullName>omOf</fullName>
+        <categories>OM</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Of</shortDescription>
+        <value>of</value>
+    </labels>
+    <labels>
+        <fullName>omOnlyDates</fullName>
+        <categories>OM</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Only dates</shortDescription>
+        <value>Only dates</value>
+    </labels>
+    <labels>
+        <fullName>omOptionsSelected</fullName>
+        <categories>OM</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Options selected</shortDescription>
+        <value>options selected</value>
+    </labels>
+    <labels>
+        <fullName>omPrevious</fullName>
+        <categories>OM</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Previous</shortDescription>
+        <value>Previous</value>
+    </labels>
+    <labels>
+        <fullName>omRefresh</fullName>
+        <categories>OM</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Refresh</shortDescription>
+        <value>Refresh</value>
+    </labels>
+    <labels>
+        <fullName>omSave</fullName>
+        <categories>OM</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Save</shortDescription>
+        <value>Save</value>
+    </labels>
+    <labels>
+        <fullName>omSearch</fullName>
+        <categories>OM</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search</shortDescription>
+        <value>Search</value>
+    </labels>
+    <labels>
+        <fullName>omSelect</fullName>
+        <categories>OM</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Select</shortDescription>
+        <value>Select</value>
+    </labels>
+    <labels>
+        <fullName>omSelectAll</fullName>
+        <categories>OM</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Select all</shortDescription>
+        <value>Select all</value>
+    </labels>
+    <labels>
+        <fullName>omSelectAnOption</fullName>
+        <categories>OM</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Select an option</shortDescription>
+        <value>Select an option</value>
+    </labels>
+    <labels>
+        <fullName>omSelectChoose</fullName>
+        <categories>OM</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>-- Choose --</shortDescription>
+        <value>-- Choose --</value>
+    </labels>
+    <labels>
+        <fullName>omSelected</fullName>
+        <categories>OM</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Selected</shortDescription>
+        <value>Selected</value>
+    </labels>
+    <labels>
+        <fullName>omShow</fullName>
+        <categories>OM</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Show</shortDescription>
+        <value>Show</value>
+    </labels>
+    <labels>
+        <fullName>omShowAs</fullName>
+        <categories>OM</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Show as</shortDescription>
+        <value>Show as</value>
+    </labels>
+    <labels>
+        <fullName>omShowing</fullName>
+        <categories>OM</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Showing</shortDescription>
+        <value>Showing</value>
+    </labels>
+    <labels>
+        <fullName>omStack</fullName>
+        <categories>OM</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Stack</shortDescription>
+        <value>Stack</value>
+    </labels>
+    <labels>
+        <fullName>omTable</fullName>
+        <categories>OM</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Table</shortDescription>
+        <value>table</value>
+    </labels>
+    <labels>
+        <fullName>omTo</fullName>
+        <categories>OM</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>To</shortDescription>
+        <value>to</value>
+    </labels>
+    <labels>
+        <fullName>omUnhideColumns</fullName>
+        <categories>OM</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Unhide columns</shortDescription>
+        <value>Unhide columns</value>
+    </labels>
+    <labels>
+        <fullName>omView</fullName>
+        <categories>OM</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>View</shortDescription>
+        <value>View</value>
+    </labels>
+    <labels>
+        <fullName>omWrap</fullName>
+        <categories>OM</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Wrap text</shortDescription>
+        <value>Wrap text</value>
+    </labels>
+    <labels>
+        <fullName>omYes</fullName>
+        <categories>OM</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Yes</shortDescription>
+        <value>Yes</value>
+    </labels>
+    <labels>
+        <fullName>overlappingCalendarTimetableDates</fullName>
+        <categories>TriggerCalendarTimetable</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>overlapping Calendar Timetable Dates</shortDescription>
+        <value>Effective Dates overlapping with another Calendar Timetable of this Calendar Setting</value>
+    </labels>
+    <labels>
+        <fullName>plantillaEmailCambioContrasena</fullName>
+        <categories>Clase ResetPasswordComunidad</categories>
+        <language>es</language>
+        <protected>true</protected>
+        <shortDescription>plantillaEmailCambioContraseña</shortDescription>
+        <value>Comunidad_cambio_de_contrase_a</value>
+    </labels>
+    <labels>
+        <fullName>reasonAbsence</fullName>
+        <categories>HolidayAbsenceNew</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>reason Absence</shortDescription>
+        <value>Reason</value>
+    </labels>
+    <labels>
+        <fullName>recibiDescuento</fullName>
+        <categories>Recibi</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>recibiDescuento</shortDescription>
+        <value>Aplicado descuento del 50% por Oferta Comercial</value>
+    </labels>
+    <labels>
+        <fullName>saveAbsence</fullName>
+        <categories>HolidayAbsenceNew</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>save Absence button</shortDescription>
+        <value>Save</value>
+    </labels>
+    <labels>
+        <fullName>selectProduct</fullName>
+        <categories>c2m-product</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>selectProduct</shortDescription>
+        <value>Select Product</value>
+    </labels>
+    <labels>
+        <fullName>sinDocumentosCargados</fullName>
+        <categories>Gestor Documental - Mensaje sin Doc</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>sinDocumentosCargados</shortDescription>
+        <value>No hay documentos cargados</value>
+    </labels>
+    <labels>
+        <fullName>sinDocumentosCargadosCommunity</fullName>
+        <categories>Gestor Documental - Mensaje sin Doc</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>sinDocumentosCargados</shortDescription>
+        <value>No hay documentos cargados</value>
+    </labels>
+    <labels>
+        <fullName>startAbsence</fullName>
+        <categories>HolidayAbsenceNew</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>start Absence</shortDescription>
+        <value>Start</value>
+    </labels>
+    <labels>
+        <fullName>subHeader1</fullName>
+        <categories>subHeader</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>subHeader1</shortDescription>
+        <value>Inicio</value>
+    </labels>
+    <labels>
+        <fullName>subHeader2</fullName>
+        <categories>subHeader</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>subHeader2</shortDescription>
+        <value>Mis Datos</value>
+    </labels>
+    <labels>
+        <fullName>subHeader3</fullName>
+        <categories>subHeader</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>subHeader3</shortDescription>
+        <value>Mis Expedientes</value>
+    </labels>
+    <labels>
+        <fullName>subHeader4</fullName>
+        <categories>subHeader</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>subHeader4</shortDescription>
+        <value>Mis Consultas</value>
+    </labels>
+    <labels>
+        <fullName>subHeader5</fullName>
+        <categories>subHeader</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>subHeader5</shortDescription>
+        <value>Mis Notificaciones</value>
+    </labels>
+    <labels>
+        <fullName>subHeader6</fullName>
+        <categories>subHeader</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>subHeader6</shortDescription>
+        <value>Mis Documentos</value>
+    </labels>
+    <labels>
+        <fullName>subHeader7</fullName>
+        <categories>subHeader</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>subHeader7</shortDescription>
+        <value>Ayuda</value>
+    </labels>
+    <labels>
+        <fullName>successMessageNewAbsence</fullName>
+        <categories>HolidayAbsenceRelatedList</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>success message new absence</shortDescription>
+        <value>Record created successfully</value>
+    </labels>
+    <labels>
+        <fullName>successNewAbsence</fullName>
+        <categories>HolidayAbsenceRelatedList</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>success new absence</shortDescription>
+        <value>Success</value>
+    </labels>
+    <labels>
+        <fullName>textCompliance</fullName>
+        <categories>c2m-search</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>validationMessage</shortDescription>
+        <value>Los datos solicitados están sujetos al Reglamento General de Protección de Datos y a la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales. 
+&lt;br/&gt;
+&lt;br/&gt;
+Arriaga Asociados tratará su información con el fin de poder llevar a cabo y gestionar la ejecución de sus servicios contratados, incluyendo la tramitación de solicitudes e incidencias, el envío de comunicaciones comerciales y la realización de encuestas de satisfacción. En caso de necesitar información adicional sobre sus derechos, plazos de conservación, la tipología de datos tratados, legitimación y destinatarios de sus datos puede dirigirse a  &lt;a href=&apos;https://www.arriagaasociados.com/politica-de-privacidad/&apos;&gt;nuestra Política de Privacidad&lt;/a&gt;, que puede encontrar en nuestra página web, o contactar con nuestro departamento de Protección de Datos a través de &lt;a href=&quot;mailto:lopd@arriagaasociados.com&quot;&gt;lopd@arriagaasociados.com.&lt;/a&gt;</value>
+    </labels>
+    <labels>
+        <fullName>tipoPagoSinProvision</fullName>
+        <categories>Pagos sin provision</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>tipoPagoSinProvision</shortDescription>
+        <value>Autorizado sin provisión</value>
+    </labels>
+    <labels>
+        <fullName>titleNewAbsence</fullName>
+        <categories>HolidayAbsenceRelatedList</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Title new absence</shortDescription>
+        <value>New Holiday/Absence</value>
+    </labels>
+    <labels>
+        <fullName>todayButton</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>todayButton</shortDescription>
+        <value>Today</value>
+    </labels>
+    <labels>
+        <fullName>validationMessage</fullName>
+        <categories>c2m-search</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>validationMessage</shortDescription>
+        <value>Resources, dates and duration are required</value>
+    </labels>
+</CustomLabels>

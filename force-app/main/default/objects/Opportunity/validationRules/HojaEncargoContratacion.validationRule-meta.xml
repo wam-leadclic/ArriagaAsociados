@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HojaEncargoContratacion</fullName>
+    <active>true</active>
+    <description>Se debe haber seleccionado la hoja de encargo antes de pasar a contratación</description>
+    <errorConditionFormula>AND(
+AND(
+ISBLANK( HojaEncargo__c ),
+HojaEncargoPersonalizada__c == false
+),
+OR(
+AND( TEXT(PRIORVALUE(StageName)) != &quot;Contratación&quot; , ISPICKVAL( StageName , &quot;Contratación&quot;)) ,
+AND( TEXT(PRIORVALUE(StageName)) != &quot;Pago&quot; , ISPICKVAL( StageName , &quot;Pago&quot;))
+)
+)</errorConditionFormula>
+    <errorMessage>Debe seleccionar la hoja de encargo antes de pasar a contratación</errorMessage>
+</ValidationRule>

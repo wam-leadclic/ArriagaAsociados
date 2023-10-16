@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LookupTo__c</fullName>
+    <description>Contains related lookup object if custom lookup apllies</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>Lookup to</label>
+    <referenceTo>EntityDefinition</referenceTo>
+    <relationshipLabel>CalendarFilters</relationshipLabel>
+    <relationshipName>CalendarFiltersL</relationshipName>
+    <required>false</required>
+    <securityClassification>Public</securityClassification>
+    <type>MetadataRelationship</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,15 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<p>Hola,&nbsp;{{{Account.FirstName}}}</p>
+
+<p>Tras haber finalizado el análisis de tu escritura de préstamo, te adjuntamos el informe jurídico en el que verás <b>el resultado de nuestra valoración</b> sobre las condiciones de tu hipoteca. &nbsp;</p>
+
+<p>Si tienes cualquier duda, quedamos a tu disposición contestando a este mismo correo electrónico. &nbsp;</p>
+
+<p>Gracias por confiar en nosotros.&nbsp;<br />
+Equipo Arriaga Asociados&nbsp;</p>
+</body>
+</html>

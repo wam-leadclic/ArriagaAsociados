@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Control_Documento_Identificativo_Lead</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+	Company&lt;&gt;&quot;&quot;, 
+	or(and(ISPICKVAL(TipoDocumento__c, &quot;CIF&quot;), DocumentoIdentidad__c = &quot;&quot;) ,
+		ISPICKVAL(TipoDocumento__c, &quot;NIF&quot;), ISPICKVAL(TipoDocumento__c, &quot;NIE&quot;), ISPICKVAL(TipoDocumento__c, &quot;Pasaporte&quot;)
+	)
+)</errorConditionFormula>
+    <errorMessage>Si indica Campo Compañía, la Identificación debe ser CIF o en blanco</errorMessage>
+</ValidationRule>

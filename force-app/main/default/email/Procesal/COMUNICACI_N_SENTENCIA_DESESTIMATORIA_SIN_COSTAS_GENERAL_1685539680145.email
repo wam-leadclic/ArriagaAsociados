@@ -1,0 +1,29 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<p style="margin-top:19px; margin-bottom:19px; text-align:justify"><span style="font-size:16px;"><span style="font-family:Times New Roman,Times New Roman,Times,serif;"><span style="line-height:115%"><font color="#000000">Estimado {{{Recipient.FirstName}}};</font></span></span></span></p>
+
+<p style="margin-top:19px; margin-bottom:19px; text-align:justify"><span style="font-size:16px;"><span style="font-family:Times New Roman,Times New Roman,Times,serif;"><span style="line-height:115%">En relación con su expediente {{{Case.NumeroExpediente__c}}} y tal como le hemos comunicado vía telefónica, <font color="#000000">le adjuntamos la sentencia de su procedimiento y que ha desestimado nuestra demanda sin imposición de costas a ninguna de las partes.</font></span></span></span></p>
+
+<p style="margin-top:19px; margin-bottom:19px; text-align:justify"><span style="font-size:16px;"><span style="font-family:Times New Roman,Times New Roman,Times,serif;"><span style="line-height:115%"><font color="#000000">El motivo principal por el cual se desestima la demanda es </font><font color="#ff0000">la falta de legitimación pasiva de la entidad demandada</font><font color="#000000"> </font><font color="#ff0000">(motivo de desestimación)</font><font color="#000000">.</font></span></span></span></p>
+
+<p style="margin-top:19px; margin-bottom:19px; text-align:justify"><span style="font-size:16px;"><span style="font-family:Times New Roman,Times New Roman,Times,serif;"><span style="line-height:115%"><font color="#000000">A pesar de la desestimación de la demanda, la sentencia no le impone las costas del procedimiento, por lo que cada parte asume sus gastos de defensa y de representación, en caso de que los hubiera. Para ello deberá estar a lo que indique su hoja de encargo con Arriaga Asociados para el supuesto de perder sin condena en costas. Cualquier duda sobre su hoja de encargo puede consultarla con nuestro departamento de Atención al Cliente en e</font></span></span></span>l teléfono gratuito 900 264 600<span style="font-size:16px;"><span style="font-family:Times New Roman,Times New Roman,Times,serif;"><span style="line-height:115%"><font color="#000000">.</font></span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:16px;"><span style="font-family:Times New Roman,Times New Roman,Times,serif;"><span style="line-height:115%"><font color="#000000">La sentencia será firme en 20 días hábiles si no se recurre. </font></span></span></span></p>
+
+<p style="text-align:justify">&nbsp;</p>
+
+<p style="text-align:justify"><span style="font-size:16px;"><span style="font-family:Times New Roman,Times New Roman,Times,serif;"><span style="line-height:115%"><font color="#000000">Según la conversación ya mantenida, </font><font color="#ff0000">(apelación no viable) </font>desde Arriaga Asociados no consideramos viable el recurso de apelación.<font color="#ff0000"> (Apelación sí viable) </font>y dado que desde Arriaga Asociados vemos opciones de viabilidad del recurso de apelación, <b>si finalmente desea que interpongamos recurso frente a la sentencia, deberá manifestárnoslo expresamente respondiendo al presente correo electrónico lo antes posible,</b> habiendo ya sido informado de las opciones, riesgos y posibles costes de la segunda instancia. Si transcurrida una semana desde hoy no hubiéramos recibido respuesta con relación al recurso de apelación, entenderemos que está conforme con la sentencia y que no desea interponer dicho recurso.<font color="#ff0000"> </font><br />
+<br />
+<font color="#000000">Si tiene alguna duda recuerde que puede ponerse en contacto con nosotros respondiendo a este mismo correo electrónico, llamando al teléfono de Atención al Cliente, 900 264 600, o también visitando TU ESPACIO ARRIAGA, pinchando <a href="https://clientes.arriagaasociados.com/s/login/?ec=302&amp;startURL=%2Fs%2F">aquí</a></font> <font color="#000000">.</font></span></span></span></p>
+
+<p style="margin-top:15px; margin-bottom:15px; text-align:justify"><span style="font-size:16px;"><span style="font-family:Times New Roman,Times New Roman,Times,serif;"><span style="line-height:115%"><font color="#000000">Sin otro particular, reciba un cordial saludo.</font></span></span></span></p>
+
+<p style="text-align:justify">&nbsp;</p>
+
+<p style="margin-bottom:11px"><br />
+&nbsp;</p>
+</body>
+</html>

@@ -1,0 +1,17 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;"><span style="line-height: 107%;"><span style="color: black;"><span style="position: relative;"><span style="top: -0.5pt;">Buenos días {{{Recipient.FirstName}}}:</span></span></span></span>
+<p>De cara a continuar con las gestiones necesarias para la finalización de tu procedimiento de&nbsp;<span style="color:#c0392b;">(PRODUCTO)</span>&nbsp;, con número de expediente&nbsp;{{{Case.Expediente__c}}}, hemos intentado contactar contigo en varias ocasiones por vía email / teléfono y te rogamos encarecidamente nos comuniques si has recibido en tu cuenta corriente algún importe desde la fecha en que contrataste nuestros servicios en concepto de devolución de dichas cantidades. Suele venir reflejado en tu cuenta corriente con el apunte “PO NUM XXXX”<br />
+<br />
+Necesitamos esta información de forma urgente de cara a finalizar el procedimiento, por lo que, si no tenemos noticias tuyas, entenderemos que no has recibido ningún ingreso y procederemos a interponer la correspondiente demanda de ejecución para obligar al banco a que cumpla con la sentencia emitida por el juez.<br />
+<br />
+Te pedimos por favor te asegures de no haber recibido ningún ingreso, ya que de ser así e interponer la correspondiente demanda de ejecución, se corre el riesgo de ser condenado en costas, con los perjuicios que ello puede acarrearte.<br />
+<br />
+Quedamos a tu disposición para cualquier asunto, y por tanto, si en los próximos días no nos confirmas que el banco te ha ingresado el dinero adeudado, procederemos a presentar la demanda de ejecución para que desde el Juzgado obliguen a la entidad financiera a devolverte el dinero que te adeudan.<br />
+<br />
+Gracias por confiar en nosotros.<br />
+​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​Departamento de Sentencias.</p>
+
+</body></html>

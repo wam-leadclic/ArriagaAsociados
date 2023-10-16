@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EmailOTelefonoObligatorios</fullName>
+    <active>true</active>
+    <description>El correo electrónico o el teléfono principal deben estar rellenos</description>
+    <errorConditionFormula>AND (
+ISBLANK (PersonEmail),  
+ISBLANK (Phone),
+ISBLANK (CorreoElectronicoSecundario__c),
+ISBLANK (PersonMobilePhone)
+)</errorConditionFormula>
+    <errorMessage>El correo electrónico o el teléfono principal deben estar rellenos</errorMessage>
+</ValidationRule>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Documento que se usa en las plantillas de email</description>
+    <internalUseOnly>false</internalUseOnly>
+    <name>Cabecera pequeña naranja</name>
+    <public>true</public>
+</Document>

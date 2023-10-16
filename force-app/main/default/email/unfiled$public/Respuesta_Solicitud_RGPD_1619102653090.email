@@ -1,0 +1,13 @@
+<html><head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Buenos d&iacute;as,<br />
+<br />
+Atendemos solicitud y enviamos confirmaci&oacute;n cuando termine su gesti&oacute;n.<br />
+<br />
+Gracias y Saludos,<br />
+<br />
+Arriaga Asociados<br />
+Departamento de Compliance.<br />
+<br />
+<span style="color:#ffffff;">{{{lcs_gdpr__GDPRRequest__c.lcs_gdpr__ThreadId__c}}}</span></body></html>

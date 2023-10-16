@@ -1,0 +1,47 @@
+<apex:page >
+<style type='text/css'>
+    .embeddedServiceHelpButton .helpButton .uiButton {
+        background-color: #ec6806;
+        font-family: "Arial", sans-serif;
+    }
+
+    .embeddedServiceHelpButton .helpButton .uiButton:focus {
+        outline: 1px solid #ec6806;
+    }
+
+    .embeddedServiceHelpButton .helpButton .uiButton.helpButtonDisabled {
+        display: none;
+    }
+</style>
+<script data-minify="1" type='text/javascript' src='https://www.arriagaasociados.com/wp-content/cache/min/1/embeddedservice/5.0/esw.min.js?ver=1680164680'></script>
+<script type='text/javascript'>
+    var initESW = function(gslbBaseURL) {
+        embedded_svc.settings.displayHelpButton = true;
+        embedded_svc.settings.language = 'es';
+        embedded_svc.settings.defaultMinimizedText = 'Chat';
+        embedded_svc.settings.disabledMinimizedText = 'Offline';
+        embedded_svc.settings.loadingText = 'Cargando';
+        embedded_svc.settings.enabledFeatures = ['LiveAgent'];
+        embedded_svc.settings.entryFeature = 'LiveAgent';
+        embedded_svc.init('https://arriagaasociados.my.salesforce.com', 'https://clientes.arriagaasociados.com/', gslbBaseURL, '00D1t000000rxg7', 'OM_ChatService', {
+            baseLiveAgentContentURL: 'https://c.la2-c2-fra.salesforceliveagent.com/content',
+            deploymentId: '5727U000000CaRW',
+            buttonId: '5737U0000008OIe',
+            baseLiveAgentURL: 'https://d.la2-c2-fra.salesforceliveagent.com/chat',
+            eswLiveAgentDevName: 'EmbeddedServiceLiveAgent_Parent04I7U000000000pUAA_186bbaa6774',
+            isOfflineSupportEnabled: false
+        });
+    };
+    if (!window.embedded_svc) {
+        var s = document.createElement('script');
+        s.setAttribute('src', 'https://arriagaasociados.my.salesforce.com/embeddedservice/5.0/esw.min.js');
+        s.onload = function() {
+            initESW(null);
+        }
+        ;
+        document.body.appendChild(s);
+    } else {
+        initESW('https://service.force.com');
+    }
+</script>
+</apex:page>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CartaPago__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Indica si el cliente puede aportar la Carta de Pago del impuesto de Actos Jurídicos Documentados</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Carta de Pago del impuesto de Actos Jurídicos Documentados</inlineHelpText>
+    <label>Carta de Pago</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

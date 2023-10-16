@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>OM_06_Casación_Recurso_De_Casación_Con</label>
+    <protected>false</protected>
+    <values>
+        <field>OM_Status__c</field>
+        <value xsi:type="xsd:string">Casación - Recurso De Casación Contrario</value>
+    </values>
+    <values>
+        <field>OM_Type__c</field>
+        <value xsi:type="xsd:string">ATC TEC</value>
+    </values>
+</CustomMetadata>

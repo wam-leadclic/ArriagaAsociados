@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>caso GOWEX mail argumentos especiales  para CASO</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>caso GOWEX mail argumentos especiales</name>
+    <relatedEntityType>Case</relatedEntityType>
+    <style>none</style>
+    <subject>Caso GOWEX - detalles sobre procedimiento</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

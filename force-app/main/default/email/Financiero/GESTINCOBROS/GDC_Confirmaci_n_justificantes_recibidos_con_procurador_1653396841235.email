@@ -1,0 +1,21 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<p>&nbsp;Buenos días&nbsp;{{{Recipient.FirstName}}}<br />
+&nbsp;</p>
+
+<p>Gracias por enviarnos el justificante de pago de la factura {{{Case.Numero_de_Factura__c}}} correspondiente a tu expediente&nbsp;{{{Case.NumeroExpediente__c}}}.&nbsp; Damos traslado al departamento financiero para que compruebe y verifique la transferencia.&nbsp;<br />
+<br />
+Y con respecto al justificante de la factura (xxxxxx) de procurador, damos traslado al&nbsp;equipo de FRAILE MENA SERVICIOS JURIDICOS S.L.&nbsp;<br />
+<br />
+<br />
+Gracias por confiar en nosotros.<br />
+<br />
+Recibe un cordial saludo.</p>
+
+<p>Equipo Gestión de Cobros &nbsp;<br />
+Arriaga Asociados&nbsp;</p>
+
+</body></html>

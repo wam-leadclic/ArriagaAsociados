@@ -1,0 +1,29 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Estimado cliente<span style="line-height: 107%;"><span style="color: black;"><span style="position: relative;"><span style="top: -0.5pt;"><font face="Arial, sans-serif">&nbsp;</font></span></span></span></span>{{{Recipient.FirstName}}}:
+<p>En relación a tu expediente&nbsp;{{{Case.Expediente__c}}}, le informamos que hemos recibido sentencia estimando nuestra demanda con/sin imposición de costas a la entidad bancaria // desestimando la demanda, con/sin imposición de costas a nuestra parte.&nbsp;</p>
+
+<p>-Se declara la <strong>nulidad, por abusiva, de la cláusula de gastos del contrato de préstamo hipotecario</strong>, y se condena a la entidad bancaria a eliminarla del contrato, y a devolver al prestatario la cantidad total de <span style="color:#c0392b;">(importe €)</span>, <strong>con intereses legales desde la fecha de cada cobro indebido.</strong>&nbsp;<br />
+<br />
+Conforme a los criterios actuales, el banco ha de asumir la totalidad de los gastos de gestoría, Registro de la Propiedad y tasación, si existe, mientras que los de notaría se reparten entre banco y cliente por mitad.<br />
+<br />
+- Se declara la <strong>nulidad, por abusiva, de la cláusula de interés de demora.</strong> Se condena a la entidad bancaria a eliminarla del contrato, y a no aplicar ningún interés de demora en caso de que se abonaran las cuotas hipotecarias fuera de plazo. Es un efecto a futuro, por lo que, si en algún caso estuviera en esta situación, recuerde que no pueden cobrarle ningún importe por este concepto.&nbsp;<br />
+<br />
+- Se declara la <strong>nulidad, por abusiva, de la cláusula de comisión de apertura</strong>, y se condena a la entidad bancaria a eliminarla del contrato, y a devolver al prestatario la cantidad total de <span style="color:#c0392b;">(importe en €)</span>, <strong>con intereses legales desde la fecha de cada cobro indebido.</strong><br />
+<br />
+- Se declara la<strong> nulidad, por abusiva, de la cláusula de vencimiento anticipado.</strong> Se trata de una facultad que el banco tenía incluida en su préstamo hipotecario para dar por vencido anticipadamente la hipoteca, y reclamarle todo el importe del préstamo, por el impago de una sola cuota.&nbsp;<br />
+<br />
+La sentencia será firme dentro de un mes, si no se recurre. A partir de ese momento, el banco tiene un mes más para cumplir voluntariamente la sentencia. Si no fuera así, tendríamos que ejecutar la sentencia para obligar al banco a cumplirla. En definitiva, el plazo de pago voluntario es de dos meses (sin contar agosto y el período navideño que son plazos inhábiles para cómputo de plazos civiles).&nbsp;<br />
+<br />
+El banco puede realizar el pago en el Juzgado, en cuyo caso nos lo notificarán y se lo comunicaremos, o bien, en su cuenta, en cuyo caso es muy importante que nos informe cuanto antes, para verificar que el importe sea correcto, y evitar actuaciones judiciales innecesarias.&nbsp;<br />
+<br />
+Si tiene alguna duda recuerda que puede ponerse en contacto con nosotros, respondiendo a este mismo correo electrónico o también visitando TU ESPACIO ARRIAGA, nuestro portal de cliente (si no tiene las claves de acceso, puede llamarnos al teléfono al 91 005 2600 y le ayudaremos).&nbsp;<br />
+<br />
+Le adjuntamos la sentencia.&nbsp;<br />
+<br />
+<br />
+Gracias por confiar en nosotros.</p>
+</body>
+</html>

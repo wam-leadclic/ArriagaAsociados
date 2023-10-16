@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Motivo_respuesta_viabilidad__c</fullName>
+    <description>Motivo respuesta viabilidad, introducido por SSJJ aportando información adicional en la gestión de las peticiones dentro de las oportunidades</description>
+    <externalId>false</externalId>
+    <label>Motivo respuesta viabilidad</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Aprobado: Viable</fullName>
+                <default>false</default>
+                <label>Aprobado: Viable</label>
+            </value>
+            <value>
+                <fullName>Aprobado: Viable con riesgo</fullName>
+                <default>false</default>
+                <label>Aprobado: Viable con riesgo</label>
+            </value>
+            <value>
+                <fullName>Aprobado: Viable con falta de documentación</fullName>
+                <default>false</default>
+                <label>Aprobado: Viable con falta de documentación</label>
+            </value>
+            <value>
+                <fullName>Rechazado: No viable criterios AA</fullName>
+                <default>false</default>
+                <label>Rechazado: No viable criterios AA</label>
+            </value>
+            <value>
+                <fullName>Rechazado: Falta de documentación/ información</fullName>
+                <default>false</default>
+                <label>Rechazado: Falta de documentación/ información</label>
+            </value>
+            <value>
+                <fullName>Rechazado: No viable jurídicamente</fullName>
+                <default>false</default>
+                <label>Rechazado: No viable jurídicamente</label>
+            </value>
+            <value>
+                <fullName>Rechazado: No consumidor</fullName>
+                <default>false</default>
+                <label>Rechazado: No consumidor</label>
+            </value>
+            <value>
+                <fullName>Rechazado: No prestamos este servicio</fullName>
+                <default>false</default>
+                <label>Rechazado: No prestamos este servicio</label>
+            </value>
+            <value>
+                <fullName>Rechazado: Otros</fullName>
+                <default>false</default>
+                <label>Rechazado: Otros</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

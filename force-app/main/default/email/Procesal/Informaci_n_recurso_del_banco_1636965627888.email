@@ -1,0 +1,15 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;"><span style="line-height: 107%;"><span style="color: black;"><span style="position: relative;"><span style="top: -0.5pt;">Buenos días<font face="Arial, sans-serif">&nbsp;</font></span></span></span></span>{{{Recipient.FirstName}}}:
+<p>En relación a tu expediente&nbsp;{{{Case.Expediente__c}}}, &nbsp;te informamos que&nbsp;<b><u>el banco ha recurrido la sentencia</u></b>&nbsp;por estar disconforme con la resolución.<br />
+<br />
+Nos hemos opuesto al recurso del banco. En cuanto nos notifiquen la resolución&nbsp;definitiva, nos pondremos de nuevo en contacto contigo&nbsp;para informarte del resultado.</p>
+Si recibes alguna cantidad en tu cuenta bancaria, ponte en contacto con nosotros para revisarla. Si, el banco paga en la cuenta judicial, nos lo notificarán a nosotros, y nos pondremos en contacto contigo. Todas las cantidades que se abonen serán siempre revisadas por nuestro departamento económico para comprobar que son correctas.<br />
+<br />
+Si tienes alguna duda, recuerda que puedes ponerte en contacto con nosotros, respondiendo a este mismo correo electrónico o también visitando TU ESPACIO ARRIAGA, nuestro portal de cliente (si no tienes claves de acceso, puedes llamarnos al teléfono gratuito 900 264 600 y te ayudaremos).<br />
+<br />
+Gracias por confiar en nosotros<br />
+&nbsp;</body>
+</html>

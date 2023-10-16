@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CreadoComunidad__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Check que indica si la oportunidad ha sido creada desde la oportunidad. Con este check salvamos reglas de validación como los documentos aportados para crear expediente</description>
+    <externalId>false</externalId>
+    <label>Creado comunidad</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

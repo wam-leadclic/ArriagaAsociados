@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>ANDALUCÍA</fullName>
+        <default>false</default>
+        <label>ANDALUCÍA</label>
+    </customValue>
+    <customValue>
+        <fullName>CATALUÑA</fullName>
+        <default>false</default>
+        <label>CATALUÑA</label>
+    </customValue>
+    <customValue>
+        <fullName>CONTRATACIÓN TELEFÓNICA</fullName>
+        <default>false</default>
+        <label>CONTRATACIÓN TELEFÓNICA</label>
+    </customValue>
+    <customValue>
+        <fullName>LEVANTE Y BALEARES</fullName>
+        <default>false</default>
+        <label>LEVANTE Y BALEARES</label>
+    </customValue>
+    <customValue>
+        <fullName>MADRID, C. LA MANCHA Y CANARIAS</fullName>
+        <default>false</default>
+        <label>MADRID, C. LA MANCHA Y CANARIAS</label>
+    </customValue>
+    <customValue>
+        <fullName>NORTE Y C.LEÓN</fullName>
+        <default>false</default>
+        <label>NORTE Y C.LEÓN</label>
+    </customValue>
+    <customValue>
+        <fullName>ARRIAGALAB</fullName>
+        <default>false</default>
+        <label>ARRIAGALAB</label>
+    </customValue>
+    <customValue>
+        <fullName>PAIS VASCO, CANTABRIA, NAVARRA, LA RIOJA, GALICIA Y ASTURIAS</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>PAIS VASCO, CANTABRIA, NAVARRA, LA RIOJA, GALICIA Y ASTURIAS</label>
+    </customValue>
+    <customValue>
+        <fullName>CATALUÑA , ARAGÓN Y BALEARES</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>CATALUÑA , ARAGÓN Y BALEARES</label>
+    </customValue>
+    <customValue>
+        <fullName>C.VALENCIANA Y REGIÓN MURCIA</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>C.VALENCIANA Y REGIÓN MURCIA</label>
+    </customValue>
+    <customValue>
+        <fullName>ANDALUCIA ORIENTAL</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ANDALUCIA ORIENTAL</label>
+    </customValue>
+    <customValue>
+        <fullName>ANDALUCIA OCCIDENTAL</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ANDALUCIA OCCIDENTAL</label>
+    </customValue>
+    <customValue>
+        <fullName>ONLINE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ONLINE</label>
+    </customValue>
+    <customValue>
+        <fullName>MADRID Y C.LEÓN</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MADRID Y C.LEÓN</label>
+    </customValue>
+    <description>Zona a la que pertenece una oficina</description>
+    <masterLabel>Zona</masterLabel>
+    <sorted>true</sorted>
+</GlobalValueSet>

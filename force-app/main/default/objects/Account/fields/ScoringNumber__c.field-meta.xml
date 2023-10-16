@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ScoringNumber__c</fullName>
+    <description>Cálculo del scoring del cliente</description>
+    <externalId>false</externalId>
+    <formula>IF(ISBLANK(FirstName),0,0.5)+ 
+CASE( EstadoCuenta__c,
+&quot;Cliente potencial&quot;, 0.5,
+&quot;Cliente&quot;, 1,
+&quot;Recaptura&quot;, 0.5, 0)+ 
+IF(ISBLANK( DocumentoIdentidad__c ), 0, 1)+ 
+CASE(Sexo__pc, &quot;&quot;, 0, 0.5)+
+IF(ISBLANK( PersonTitle ), 0, 1)+
+CASE(EstadoCivil__c, &quot;&quot;, 0, 1)+
+CASE(RegimenEconomico__c, &quot;&quot;, 0, 0.5)+
+IF(ISBLANK( PersonBirthdate ), 0, 1)+
+CASE(PoderNotarial__c, &quot;&quot;, 0, 2)+
+IF(ISBLANK(IBAN__pc ), 0, 3)+
+IF(ISBLANK(Phone ), 0, 1.5)+
+IF(ISBLANK(PersonMobilePhone ), 0, 0.5)+
+IF(ISBLANK(PersonEmail ), 0, 1.5)+
+IF(ISBLANK(CorreoElectronicoSecundario__c ), 0, 0.5) +
+IF(ISBLANK(ShippingStreet ), 0, 1) +
+IF(ISBLANK(ShippingPostalCode ), 0, 1) +
+IF(ISBLANK(ShippingCity ), 0, 0.5) +
+IF(ISBLANK(ShippingState ), 0, 0.5) +
+IF(ISBLANK(ShippingCountry ), 0, 0.5) +
+IF(AceptoPoliticaPrivacidad__pc, 1, 0) +
+IF(DeseoRecibirComunicacionesComerciales__pc,2,0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>ScoringNumber</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PendientePicklist__c</fullName>
+    <description>Picklist donde se indica porque esta pendiente la incidencia del tipo Siniestro</description>
+    <externalId>false</externalId>
+    <label>Pendiente de:</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Pendiente Colegio</fullName>
+                <default>false</default>
+                <label>Pendiente Colegio</label>
+            </value>
+            <value>
+                <fullName>Pendiente Empresa Seguro</fullName>
+                <default>false</default>
+                <label>Pendiente Empresa Seguro</label>
+            </value>
+            <value>
+                <fullName>Pendiente Colegio y Empresa Seguro</fullName>
+                <default>false</default>
+                <label>Pendiente Colegio y Empresa Seguro</label>
+            </value>
+            <value>
+                <fullName>Pendiente Cliente</fullName>
+                <default>false</default>
+                <label>Pendiente Cliente</label>
+            </value>
+            <value>
+                <fullName>Pendiente Juzgado</fullName>
+                <default>false</default>
+                <label>Pendiente Juzgado</label>
+            </value>
+            <value>
+                <fullName>Pendiente Procurador</fullName>
+                <default>false</default>
+                <label>Pendiente Procurador</label>
+            </value>
+            <value>
+                <fullName>Pendiente Arriaga (otro dpto AA - no Riesgos)</fullName>
+                <default>false</default>
+                <label>Pendiente Arriaga (otro dpto AA - no Riesgos)</label>
+            </value>
+            <value>
+                <fullName>Pendiente Parte</fullName>
+                <default>false</default>
+                <label>Pendiente Parte</label>
+            </value>
+            <value>
+                <fullName>Pendiente Otro (ninguno de los anteriores)</fullName>
+                <default>false</default>
+                <label>Pendiente Otro (ninguno de los anteriores)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

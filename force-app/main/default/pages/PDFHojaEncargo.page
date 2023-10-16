@@ -1,0 +1,12 @@
+<apex:page controller="PDFHojaEncargo" renderAs="pdf">
+    <c:PDFCabeceraHojaEncargo numExpediente="{!wOportunidad.numeroExpediente}" catalan="{!catalan}" Fecha="{!wOportunidad.fechaCierre}" 
+                              Asesor="{!wOportunidad.propietarioNombre}" Telefono="{!wOportunidad.propietarioTelefono}"></c:PDFCabeceraHojaEncargo> 
+    <c:PDFTitularesHojaEncargo contratante="{!contratanteRol}" lTitulares="{!lTitulares}" lRepresentantes="{!lRepresentantes}" catalan="{!catalan}"></c:PDFTitularesHojaEncargo> 
+    <apex:outputField value="{!hojaEnc.PDFDatosArriaga__c}"/>
+    <apex:outputField value="{!hojaEnc.PDFObjetoEncargo__c}"/>
+    <apex:outputField value="{!hojaEnc.PDFHonorarios__c}"/>
+    <apex:outputField rendered="{!wOportunidad.descuentoPDF}" value="{!hojaEnc.PDFDatosDescuento__c}"/>
+    <apex:outputField value="{!hojaEnc.PDFTerceros__c}"/>
+    <apex:outputField value="{!hojaEnc.PDFDesistimiento__c}"/>
+    <c:PDFFooterHojaEncargo catalan="{!catalan}" ></c:PDFFooterHojaEncargo>
+</apex:page>

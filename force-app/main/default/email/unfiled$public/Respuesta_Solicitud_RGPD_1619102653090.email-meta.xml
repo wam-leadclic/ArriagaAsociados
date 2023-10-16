@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Respuesta Solicitud RGPD</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Respuesta Solicitud RGPD</name>
+    <relatedEntityType>lcs_gdpr__GDPRRequest__c</relatedEntityType>
+    <style>none</style>
+    <subject>Solicitud RGPD</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

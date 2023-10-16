@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Envio_hoja_de_encargo</fullName>
+        <description>Al crear un expediente y pago se envía un email confirmando la contratación y se indica producto y expediente</description>
+        <protected>false</protected>
+        <recipients>
+            <field>CorreoElectronicoContacto__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>comercial@arriagaasociados.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Workflow/Confirmacion_en_Contratacion</template>
+    </alerts>
+    <alerts>
+        <fullName>Notificaci_n_Cliente_Estado_Expediente_Contrataci_n_Terminada</fullName>
+        <description>Notificación Cliente Estado Expediente Contratación Terminada</description>
+        <protected>false</protected>
+        <recipients>
+            <field>CorreoElectronicoContacto__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>noreply@arriagaasociados.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>NotificacionesCliente/EstadosdeExpediente/Comunicaci_n_contrataci_n_terminada_Lightning_1665403550701</template>
+    </alerts>
+    <alerts>
+        <fullName>Notificaci_n_Cliente_Estado_Expediente_Demanda_Entregada</fullName>
+        <description>Notificación Cliente Estado Expediente Demanda Entregada</description>
+        <protected>false</protected>
+        <recipients>
+            <field>CorreoElectronicoContacto__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>noreply@arriagaasociados.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>NotificacionesCliente/EstadosdeExpediente/Comunicaci_n_demanda_presentada_Lightning_1665404156892</template>
+    </alerts>
+    <alerts>
+        <fullName>Notificaci_n_Cliente_Estado_Expediente_Judicial</fullName>
+        <description>Notificación Cliente Estado Expediente Judicial</description>
+        <protected>false</protected>
+        <recipients>
+            <field>CorreoElectronicoContacto__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>noreply@arriagaasociados.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>NotificacionesCliente/EstadosdeExpediente/Comunicaci_n_Decreto_de_admisi_n_a_tr_mite_1665404045784</template>
+    </alerts>
+    <alerts>
+        <fullName>Notificaci_n_Cliente_Estado_Expediente_Redaci_n_Terminada</fullName>
+        <description>Notificación Cliente Estado Expediente Redación Terminada</description>
+        <protected>false</protected>
+        <recipients>
+            <field>CorreoElectronicoContacto__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>noreply@arriagaasociados.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>NotificacionesCliente/EstadosdeExpediente/Comunicaci_n_finalizaci_n_redacci_n_de_demanda_1657458544306</template>
+    </alerts>
+    <alerts>
+        <fullName>Notificaci_n_Cliente_Estado_Expediente_Sent_Firme_Sin_Aplelacion</fullName>
+        <description>Notificación Cliente Estado Expediente Sent. Firme Sin Aplelacion</description>
+        <protected>false</protected>
+        <recipients>
+            <field>CorreoElectronicoContacto__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>noreply@arriagaasociados.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>NotificacionesCliente/EstadosdeExpediente/Comunicaci_n_firmeza_sentencia_Lightning_1666244950497</template>
+    </alerts>
+    <alerts>
+        <fullName>Notificacion_Cliente_Demanda_Presentada</fullName>
+        <description>Notificación Cliente Demanda Presentada</description>
+        <protected>false</protected>
+        <recipients>
+            <field>CorreoElectronicoContacto__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>noreply@arriagaasociados.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Workflow/Notificacion_Cliente_Demanda_Presentada</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>Actualizar_FechaCambioEstado</fullName>
+        <field>FechaCambioEstado__c</field>
+        <formula>NOW()</formula>
+        <name>Actualizar FechaCambioEstado</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Asociar_contacto_al_expediente</fullName>
+        <description>Se indica en el expediente el correo electrónico del contacto</description>
+        <field>CorreoElectronicoContacto__c</field>
+        <formula>Account.PersonContact.Email</formula>
+        <name>Asociar contacto al expediente</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>CompletadoFin</fullName>
+        <description>Estado a &apos;Completado básico&apos;</description>
+        <field>Status</field>
+        <literalValue>Completado básico</literalValue>
+        <name>CompletadoFin</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>Actualizacion campo FechaCambioEstado</fullName>
+        <actions>
+            <name>Actualizar_FechaCambioEstado</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Cuando se cambia el estado se guarda la fecha del cambio en el campo correspondiente</description>
+        <formula>ISCHANGED(Status)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>ExpedienteCompletadoFinal</fullName>
+        <actions>
+            <name>CompletadoFin</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Contract.DocumentacinBasicaAportada__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <description>cambiar el estado a &apos;Completado final&apos; cuando se Marca el campo DocumentacinBasicaAportada__c a true</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Notificaciones Cliente Expediente_Estado_Demanda_Entregada</fullName>
+        <actions>
+            <name>Notificacion_Cliente_Demanda_Presentada</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>Contract.EstadoExpedienteComunidad__c</field>
+            <operation>contains</operation>
+            <value>DEMANDA PRESENTADA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Contract.CorreoElectronicoContacto__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <description>Dentro de las notificaciones al cliente dentro del expediente, cuando el estado de su expediente pasa a demanda entregada</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Nuevo Expediente Asociar Contacto</fullName>
+        <actions>
+            <name>Asociar_contacto_al_expediente</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Al crear un expediente se asocia el contacto que está en la cuenta personal</description>
+        <formula>true</formula>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Pago envía confirmación de contratación</fullName>
+        <actions>
+            <name>Envio_hoja_de_encargo</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <description>Cuando se realiza el pago se envía el correo de confirmación con número de expediente y producto contratado</description>
+        <formula>AND(
+				NOT(ISBLANK(CorreoElectronicoContacto__c)), 
+    AND(ISCHANGED(PagoConfirmado__c), 
+								PRIORVALUE(PagoConfirmado__c) = false),
+    AND (ExpedientePrincipal__c  = &quot;&quot;)
+				)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+</Workflow>

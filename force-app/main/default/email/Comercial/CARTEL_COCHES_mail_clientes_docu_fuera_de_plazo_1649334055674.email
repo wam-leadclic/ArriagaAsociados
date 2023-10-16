@@ -1,0 +1,20 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<p>Buenos días&nbsp;{{{Account.FirstName}}}</p>
+
+<p>No podremos continuar con tu proceso de reclamación, porque <b>el plazo que nos hemos marcado para garantizar la presentación de la carta extrajudicial con garantías jurídicas, ha terminado. </b>&nbsp;</p>
+
+<p>En Arriaga Asociados somos muy rigurosos con las garantías que ofrecemos a nuestros clientes y&nbsp; la recepción de la documentación de tu caso ha llegado en un momento que no nos permite garantizar la presentación de la carta extrajudicial en tiempo y forma,&nbsp;por lo tanto, al no poder ofrecerte garantías, no podremos continuar con la defensa de tu caso&nbsp;</p>
+
+<p>{{{Account.FirstName}}}, lamentamos sinceramente esta circunstancia y recuerda que, si en otra ocasión podemos ayudarte, no dudes en contactar con nosotros al teléfono 900 264 540 o&nbsp;visitando TU ESPACIO ARRIAGA, nuestro portal de cliente (si ya eres cliente, pero no tienes claves de acceso, puedes llamarnos y te ayudaremos)&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>Gracias por confiar en nosotros.&nbsp;</p>
+
+<p>Equipo Arriaga Asociados.&nbsp;</p>
+
+</body></html>

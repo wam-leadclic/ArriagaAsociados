@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Arriaga_plantilla_casos</letterhead>
+    <name>PLANTILLA ACUSE DE RECIBO ANEXO 2</name>
+    <style>formalLetter</style>
+    <subject>PLANTILLA ACUSE DE RECIBO</subject>
+    <textOnly>Estimado/a {!Contact.FirstName}
+
+
+Acusamos recibo de su email de fecha XX/XX/XXXX.
+
+Estamos analizando todas las cuestiones que nos plantea en su escrito y, a la mayor brevedad posible, le daremos una respuesta.
+
+Si necesita más información estamos a su disposición en el teléfono de atención al cliente 91 005 26 00.
+
+Reciba un cordial saludo.
+
+
+{!Case.OwnerFirstName} {!Case.OwnerLastName}
+
+
+
+Departamento de Atención al cliente
+
+
+
+ARRIAGA ASOCIADOS</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

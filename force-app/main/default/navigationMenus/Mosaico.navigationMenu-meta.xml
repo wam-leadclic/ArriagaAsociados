@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NavigationMenu xmlns="http://soap.sforce.com/2006/04/metadata">
+    <container>Arriaga</container>
+    <containerType>Network</containerType>
+    <label>Mosaico</label>
+    <navigationMenuItem>
+        <label>Mis Notificaciones</label>
+        <menuItemBranding>
+            <tileImage>consultarmisnotificaciones</tileImage>
+        </menuItemBranding>
+        <position>1</position>
+        <publiclyAvailable>true</publiclyAvailable>
+        <target>/mis-notificaciones</target>
+        <type>InternalLink</type>
+    </navigationMenuItem>
+    <navigationMenuItem>
+        <label>Mis Expedientes</label>
+        <menuItemBranding>
+            <tileImage>conocerelestadodemisexpedientes</tileImage>
+        </menuItemBranding>
+        <position>2</position>
+        <publiclyAvailable>true</publiclyAvailable>
+        <target>Contract</target>
+        <type>SalesforceObject</type>
+    </navigationMenuItem>
+    <navigationMenuItem>
+        <label>Mis Datos</label>
+        <menuItemBranding>
+            <tileImage>modificardatospersonales</tileImage>
+        </menuItemBranding>
+        <position>3</position>
+        <publiclyAvailable>true</publiclyAvailable>
+        <target>/mi-contacto</target>
+        <type>InternalLink</type>
+    </navigationMenuItem>
+    <navigationMenuItem>
+        <label>Preguntas Frecuentes</label>
+        <menuItemBranding>
+            <tileImage>preguntasfrecuentes</tileImage>
+        </menuItemBranding>
+        <position>4</position>
+        <publiclyAvailable>true</publiclyAvailable>
+        <target>https://www.arriagaasociados.com/preguntas-frecuentes/</target>
+        <type>ExternalLink</type>
+    </navigationMenuItem>
+    <navigationMenuItem>
+        <label>Solicitar Documentación</label>
+        <menuItemBranding>
+            <tileImage>solicitardocumentaciondeunexpedient</tileImage>
+        </menuItemBranding>
+        <position>5</position>
+        <publiclyAvailable>true</publiclyAvailable>
+        <target>/casos</target>
+        <type>InternalLink</type>
+    </navigationMenuItem>
+    <navigationMenuItem>
+        <label>Mis Consultas</label>
+        <menuItemBranding>
+            <tileImage>solicitarinformacionsobremicaso</tileImage>
+        </menuItemBranding>
+        <position>6</position>
+        <publiclyAvailable>true</publiclyAvailable>
+        <target>/casos</target>
+        <type>InternalLink</type>
+    </navigationMenuItem>
+    <navigationMenuItem>
+        <label>Subir documentación a un expediente</label>
+        <menuItemBranding>
+            <tileImage>subirdocumentacionaunexpediente</tileImage>
+        </menuItemBranding>
+        <position>7</position>
+        <publiclyAvailable>true</publiclyAvailable>
+        <target>Contract</target>
+        <type>SalesforceObject</type>
+    </navigationMenuItem>
+    <navigationMenuItem>
+        <label>Subir documentación común</label>
+        <menuItemBranding>
+            <tileImage>subirdocumentacioncomunatodoslosexp</tileImage>
+        </menuItemBranding>
+        <position>8</position>
+        <publiclyAvailable>true</publiclyAvailable>
+        <target>/mis-documentos</target>
+        <type>InternalLink</type>
+    </navigationMenuItem>
+    <navigationMenuItem>
+        <label>Ayuda</label>
+        <menuItemBranding>
+            <tileImage>ayuda</tileImage>
+        </menuItemBranding>
+        <position>9</position>
+        <publiclyAvailable>true</publiclyAvailable>
+        <target>/ayuda</target>
+        <type>InternalLink</type>
+    </navigationMenuItem>
+</NavigationMenu>

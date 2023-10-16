@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LossReason__c</fullName>
+    <description>Motivo de la pérdida de la oportunidad</description>
+    <externalId>false</externalId>
+    <label>Motivo pérdida</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Cártel Coches</fullName>
+                <default>false</default>
+                <label>Cártel Coches</label>
+            </value>
+            <value>
+                <fullName>Cártel Coches Requerimiento</fullName>
+                <default>false</default>
+                <label>Cártel Coches Requerimiento</label>
+            </value>
+            <value>
+                <fullName>Clausula Suelo</fullName>
+                <default>false</default>
+                <label>Clausula Suelo</label>
+            </value>
+            <value>
+                <fullName>Divorcio</fullName>
+                <default>false</default>
+                <label>Divorcio</label>
+            </value>
+            <value>
+                <fullName>Ficheros Acceso</fullName>
+                <default>false</default>
+                <label>Ficheros Acceso</label>
+            </value>
+            <value>
+                <fullName>Ficheros Combinado</fullName>
+                <default>false</default>
+                <label>Ficheros Combinado</label>
+            </value>
+            <value>
+                <fullName>Ficheros Reclamación</fullName>
+                <default>false</default>
+                <label>Ficheros Reclamación</label>
+            </value>
+            <value>
+                <fullName>Gastos Hipoteca</fullName>
+                <default>false</default>
+                <label>Gastos Hipoteca</label>
+            </value>
+            <value>
+                <fullName>Herencias</fullName>
+                <default>false</default>
+                <label>Herencias</label>
+            </value>
+            <value>
+                <fullName>IRPH</fullName>
+                <default>false</default>
+                <label>IRPH</label>
+            </value>
+            <value>
+                <fullName>Monitorio</fullName>
+                <default>false</default>
+                <label>Monitorio</label>
+            </value>
+            <value>
+                <fullName>Multidivisa</fullName>
+                <default>false</default>
+                <label>Multidivisa</label>
+            </value>
+            <value>
+                <fullName>Oposición a Monitorio</fullName>
+                <default>false</default>
+                <label>Oposición a Monitorio</label>
+            </value>
+            <value>
+                <fullName>Otros</fullName>
+                <default>false</default>
+                <label>Otros</label>
+            </value>
+            <value>
+                <fullName>Plusvalía</fullName>
+                <default>false</default>
+                <label>Plusvalía</label>
+            </value>
+            <value>
+                <fullName>Préstamo Usurero</fullName>
+                <default>false</default>
+                <label>Préstamo Usurero</label>
+            </value>
+            <value>
+                <fullName>Reclamación Cantidad RV</fullName>
+                <default>false</default>
+                <label>Reclamación Cantidad RV</label>
+            </value>
+            <value>
+                <fullName>Reclamación de Cantidad</fullName>
+                <default>false</default>
+                <label>Reclamación de Cantidad</label>
+            </value>
+            <value>
+                <fullName>RV Diligencias</fullName>
+                <default>false</default>
+                <label>RV Diligencias</label>
+            </value>
+            <value>
+                <fullName>RV Estándar</fullName>
+                <default>false</default>
+                <label>RV Estándar</label>
+            </value>
+            <value>
+                <fullName>RV Informe</fullName>
+                <default>false</default>
+                <label>RV Informe</label>
+            </value>
+            <value>
+                <fullName>Sucesiones</fullName>
+                <default>false</default>
+                <label>Sucesiones</label>
+            </value>
+            <value>
+                <fullName>Triodos Bank</fullName>
+                <default>false</default>
+                <label>Triodos Bank</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

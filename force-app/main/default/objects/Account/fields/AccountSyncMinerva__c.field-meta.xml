@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AccountSyncMinerva__c</fullName>
+    <description>Estado de la sincronización con los servicios web de Minerva. Los valores que pueden venir en el campos son OK y ERROR</description>
+    <externalId>false</externalId>
+    <label>Cuenta sincronizada Minerva</label>
+    <length>10</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

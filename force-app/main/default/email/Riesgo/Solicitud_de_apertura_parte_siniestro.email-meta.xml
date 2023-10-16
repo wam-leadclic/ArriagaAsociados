@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Arriaga_plantilla_casos</letterhead>
+    <name>Solicitud de apertura parte siniestro</name>
+    <style>formalLetter</style>
+    <subject>Solicitud de apertura parte siniestro</subject>
+    <textOnly>Buenos días/tardes,
+
+
+
+Mediante el presente correo se procede a solicitar la apertura del parte de siniestro. Muchas gracias.
+
+
+
+
+Reciba un cordial saludo,</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,108 @@
+<template>
+    <div if:true={isDesktop}>
+        <div class="forceCommunityGlobalNavigation devmenu">
+            <div class="slds-grid slds-grid_vertical-align-center slds-p-horizontal--x-small navCommunityCustom ">
+                <div class="slds-has-flexi-truncate">
+                    <ul class="comm-navigation__list slds-list_horizontal slds-align_absolute-center slds-has-block-links_space slds-has-flexi-truncate uldevmenu">
+                        
+                        <li class="slds-is-relative slds-list__item">
+                            <div class="comm-navigation__item">
+                                <a href="/s/" title={label.subHeader1} data-type="home"
+                                    class="slds-container_fluid slds-truncate">
+                                    <label class='slds-float_right'>
+                                        <lightning-icon size="small" icon-name="utility:home"></lightning-icon>
+                                    </label>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="slds-is-relative slds-list__item">
+                            <div class="comm-navigation__item">
+                                <a href="/s/mi-contacto" title={label.subHeader2} 
+                                    class="slds-container_fluid slds-truncate">
+                                    <label>{label.subHeader2}</label>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="slds-is-relative slds-list__item">
+                            <div class="comm-navigation__item">
+                                <a href="/s/contract/Contract/" title={label.subHeader3}
+                                    class="slds-container_fluid slds-truncate">
+                                    <label>{label.subHeader3}</label>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="slds-is-relative slds-list__item">
+                            <div class="comm-navigation__item">
+                                <a href="/s/casos" title={label.subHeader4} 
+                                    class="slds-container_fluid slds-truncate">
+                                    <label>{label.subHeader4}</label>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="slds-is-relative slds-list__item">
+                            <div class="comm-navigation__item">
+                                <a href="/s/mis-notificaciones" title={label.subHeader5}
+                                    class="slds-container_fluid slds-truncate">
+                                    <label>{label.subHeader5}</label>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="slds-is-relative slds-list__item">
+                            <div class="comm-navigation__item">
+                                <a href="/s/mis-documentos/" title={label.subHeader6}
+                                    class="slds-container_fluid slds-truncate">
+                                    <label>{label.subHeader6}</label>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="slds-is-relative slds-list__item">
+                            <div class="comm-navigation__item">
+                                <a href="/s/ayuda" title={label.subHeader7} 
+                                class="slds-container_fluid slds-truncate">
+                                    <label>{label.subHeader7}</label>
+                                </a>
+                            </div>
+                        </li>
+                       <li class="slds-is-relative slds-list__item">
+                            <div class="comm-navigation__item">
+                                <c-notification-bell-layout></c-notification-bell-layout>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div if:true={isMobile}>
+        <div class="forceCommunityGlobalNavigation devmenu">
+            <div class="slds-grid slds-grid_vertical-align-center slds-p-horizontal--x-small navCommunityCustom">
+                <div class="slds-has-flexi-truncate">
+                    <ul class="comm-navigation__list slds-list_horizontal slds-has-flexi-truncate uldevmenu">
+                        <li  class="slds-is-relative slds-list__item">
+                            <lightning-button-menu icon-name="utility:rows" icon-size="large" alternative-text="Menu"
+                                class="menumobile slds-button__icon_large">
+                                <lightning-menu-item label={label.subHeader1} href="/s/"
+                                    class="labelmobielmenu"></lightning-menu-item>
+                                <lightning-menu-item label={label.subHeader2} href="/s/mi-contacto" 
+                                    class="labelmobielmenu"></lightning-menu-item>
+                                <lightning-menu-item label={label.subHeader3} href="/s/contract/Contract/"
+                                    class="labelmobielmenu"></lightning-menu-item>
+                                <lightning-menu-item label={label.subHeader4} href="/s/casos" 
+                                    class="labelmobielmenu"></lightning-menu-item>
+                                <lightning-menu-item label={label.subHeader5} href="/s/mis-notificaciones"
+                                    class="labelmobielmenu"></lightning-menu-item>
+                                <lightning-menu-item label={label.subHeader6} href="/s/mis-documentos/"
+                                    class="labelmobielmenu"></lightning-menu-item>
+                                <lightning-menu-item label={label.subHeader7} href="/s/ayuda/"
+                                    class="labelmobielmenu"></lightning-menu-item>
+                            </lightning-button-menu>
+                        </li>
+                        <li class="slds-is-relative slds-list__item slds-align_absolute-center"><img class="imgLogo" src={label.arriagalogo}/></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</template>

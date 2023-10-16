@@ -1,0 +1,46 @@
+<table border="0" cellpadding="5" width="600" cellspacing="5" height="400" >
+<tr valign="top" height="50" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[]]></td>
+</tr>
+<tr valign="top" height="300" >
+<td tEditID="c1r2" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r2" locked="0" >
+<![CDATA[<p class="MsoNormal" style=""><font face="Times New Roman, Times, serif"><span style="line-height: 106%;"><font style=""><span style="font-size: 12pt;">Estimado/a </span>{!Contact.FirstName}<span style="font-size: 12pt;">,</span></font></span><font style=""><span style="font-size: 12pt;"><o:p></o:p></span></font></font></p><p class="MsoNormal" style=""><span style="line-height: 106%;"><span style="font-size: 12pt;"><font face="Times New Roman, Times, serif"><br></font></span></span></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-size: 12pt;"><span style="font-size:12.0pt;line-height:106%"><font face="Times New Roman, Times, serif">En relación
+a su expediente de IRPH, queremos informarle que se espera que el abogado
+General del Tribunal Superior de Justicia de la Unión Europea (TSJUE), Maciej
+Szpunar, haga público su informe sobre el IRPH en septiembre. <o:p></o:p></font></span></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-size: 12pt;"><span style="font-size:12.0pt;line-height:106%"><font face="Times New Roman, Times, serif"><br></font></span></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-size: 12pt;"><span style="font-size:12.0pt;line-height:106%"><font face="Times New Roman, Times, serif">A partir de
+ahí, en unos meses, el TSJUE dictará sentencia. En función del contenido de la
+misma, procederemos a definir la estrategia jurídica más apropiada para
+conseguir un resultado favorable a su reclamación.<o:p></o:p></font></span></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-size: 12pt;"><span style="font-size:12.0pt;line-height:106%"><font face="Times New Roman, Times, serif"><br></font></span></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-size: 12pt;"><span style="font-size:12.0pt;line-height:106%"><font face="Times New Roman, Times, serif">Somos
+optimistas, ya que en el juicio, que se celebró a finales de febrero, se puso
+de manifiesto que los consumidores cuentan con el apoyo de la Comisión Europea
+que entiende que el IRPH supone un abuso por parte de las entidades bancarias. <o:p></o:p></font></span></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-size: 12pt;"><span style="font-size:12.0pt;line-height:106%"><font face="Times New Roman, Times, serif"><br></font></span></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-size: 12pt; margin-bottom: 7.95pt; text-align: justify; line-height: 105%;"><span style="mso-fareast-font-family:&quot;Times New Roman&quot;;
+mso-bidi-font-family:Calibri"><font face="Times New Roman, Times, serif">Si necesita más información estamos a su
+disposición en el teléfono de atención al cliente 91 005 26 00.<o:p></o:p></font></span></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-size: 12pt; margin-bottom: 7.95pt; text-align: justify; line-height: 105%;"><span style="mso-fareast-font-family:&quot;Times New Roman&quot;;
+mso-bidi-font-family:Calibri"><font face="Times New Roman, Times, serif">Reciba un cordial saludo.<o:p></o:p></font></span></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-size: 12pt;"><span style="font-size:12.0pt;line-height:106%"><o:p><font face="Times New Roman, Times, serif">&nbsp;</font></o:p></span></p><p class="MsoNormal" style=""><span style="line-height: 106%;"><o:p style=""><font face="Times New Roman, Times, serif">{!Case.OwnerFirstName} {!Case.OwnerLastName}</font></o:p></span></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-size: 12pt;"><span style="font-size:12.0pt;line-height:106%"><font face="Times New Roman, Times, serif">Departamento
+de Atención al cliente<o:p></o:p></font></span></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-size: 12pt;"><span style="font-size:12.0pt;line-height:106%"><o:p><font face="Times New Roman, Times, serif">&nbsp;</font></o:p></span></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-size: 12pt;"><span style="font-size: 12pt; line-height: 106%;"><font face="Times New Roman, Times, serif">ARRIAGA
+ASOCIADOS</font></span><font face="arial"><o:p></o:p></font></p>]]></td>
+</tr>
+<tr valign="top" height="50" >
+<td tEditID="c1r3" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r3" locked="0" >
+<![CDATA[<span style="font-size: medium;"><font color="#ffffff">{!Case.Thread_Id}</font></span>]]></td>
+</tr>
+</table>

@@ -1,0 +1,53 @@
+<!--
+@author Leadclic Solutions S.L.
+@date 13/05/2019 
+@description    Componente la creación de un expediente derivado
+
+<pre>
+FECHA                   AUTOR                   ACCION
+13/05/2019              LCS - RDM               Creación
+-->
+<template>
+    <lightning-button variant="brand" label={label.expDerivadoLabelComp} title={label.expDerivadoLabelComp} onclick={onclickabrirModal}></lightning-button>
+    <!-- Modal de apertura al pulsar botón -->
+    <template if:true={openModal}>
+        <section role="dialog" tabindex="-1" aria-labelledby="modal-heading-01" aria-modal="true" aria-describedby="modal-content-id-1" class="slds-modal slds-fade-in-open">
+            <div class="slds-modal__container">
+                <header class="slds-modal__header">                        
+                    <h2 id="modal-heading-01" class="slds-text-heading_medium slds-hyphenate">{label.expDerivadoTituloComponente}</h2>
+                </header>
+                <div class="slds-modal__content slds-p-around_medium" id="modal-content-id-1" style ="height: 170px;"> 
+                    <lightning-combobox
+                            name="progress"
+                            label="Tipo de expediente derivado"
+                            value={value}
+                            placeholder=""
+                            options={option}
+                            onchange={handleChangePickList}
+                            required
+                    ></lightning-combobox>
+                    <lightning-record-view-form  record-id={recordId} object-api-name="Contract"> 
+                        <div class="slds-grid">
+                            <div class="slds-col slds-size_1-of-3">         
+                                <lightning-output-field field-name="ContractNumber"></lightning-output-field>   
+                            </div> 
+                            <div class="slds-col slds-size_1-of-3">              
+                                <lightning-output-field field-name="Status"></lightning-output-field> 
+                            </div>
+                            <div class="slds-col slds-size_1-of-3">
+                                <lightning-output-field field-name="IdExpediente__c"></lightning-output-field>
+                            </div>
+                        </div>
+                    </lightning-record-view-form>
+                </div>
+                <footer class="slds-modal__footer">
+                    <lightning-button-group>
+                        <lightning-button label="Cancelar" variant="neutral" onclick={onclickcloseModal}></lightning-button>
+                        <lightning-button label="Crear" variant="Brand" onclick={onclickApex}></lightning-button>
+                    </lightning-button-group>
+                </footer>
+            </div>
+        </section>
+        <div class="slds-backdrop slds-backdrop_open"></div>
+    </template>
+</template>

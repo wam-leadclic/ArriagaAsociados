@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Candidato__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Contiene la relación primaria a la entidad Candidato</description>
+    <externalId>false</externalId>
+    <label>Candidato</label>
+    <referenceTo>Lead</referenceTo>
+    <relationshipLabel>Interés en Productos</relationshipLabel>
+    <relationshipName>Productos_de_Interes</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

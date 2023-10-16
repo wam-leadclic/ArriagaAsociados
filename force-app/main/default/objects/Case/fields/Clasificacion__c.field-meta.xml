@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Clasificacion__c</fullName>
+    <description>Se clasifica el caso según el motivo indicado</description>
+    <externalId>false</externalId>
+    <label>Clasificación</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Reason</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Ausencia de objeto reclamable</fullName>
+                <default>false</default>
+                <label>Ausencia de objeto reclamable</label>
+            </value>
+            <value>
+                <fullName>No viable</fullName>
+                <default>false</default>
+                <label>No viable</label>
+            </value>
+            <value>
+                <fullName>Acción caducada/prescrita</fullName>
+                <default>false</default>
+                <label>Acción caducada/prescrita</label>
+            </value>
+            <value>
+                <fullName>Ausencia de expediente</fullName>
+                <default>false</default>
+                <label>Ausencia de expediente</label>
+            </value>
+            <value>
+                <fullName>Demanda sin presentar</fullName>
+                <default>false</default>
+                <label>Demanda sin presentar</label>
+            </value>
+            <value>
+                <fullName>Inactividad</fullName>
+                <default>false</default>
+                <label>Inactividad</label>
+            </value>
+            <value>
+                <fullName>Desistimiento incorrecto</fullName>
+                <default>false</default>
+                <label>Desistimiento incorrecto</label>
+            </value>
+            <value>
+                <fullName>Gowex</fullName>
+                <default>false</default>
+                <label>Gowex</label>
+            </value>
+            <value>
+                <fullName>Falta de gestión</fullName>
+                <default>false</default>
+                <label>Falta de gestión</label>
+            </value>
+            <value>
+                <fullName>Servicio no contratado</fullName>
+                <default>false</default>
+                <label>Servicio no contratado</label>
+            </value>
+            <value>
+                <fullName>Presentación de demanda no consentida</fullName>
+                <default>false</default>
+                <label>Presentación de demanda no consentida</label>
+            </value>
+            <value>
+                <fullName>Desistimiento no tramitado</fullName>
+                <default>false</default>
+                <label>Desistimiento no tramitado</label>
+            </value>
+            <value>
+                <fullName>Expediente duplicado</fullName>
+                <default>false</default>
+                <label>Expediente duplicado</label>
+            </value>
+            <value>
+                <fullName>Cliente duplicado</fullName>
+                <default>false</default>
+                <label>Cliente duplicado</label>
+            </value>
+            <value>
+                <fullName>Documentación subida errónea</fullName>
+                <default>false</default>
+                <label>Documentación subida errónea</label>
+            </value>
+            <value>
+                <fullName>Error de datos</fullName>
+                <default>false</default>
+                <label>Error de datos</label>
+            </value>
+            <value>
+                <fullName>Error demandante</fullName>
+                <default>false</default>
+                <label>Error demandante</label>
+            </value>
+            <value>
+                <fullName>Error demandado</fullName>
+                <default>false</default>
+                <label>Error demandado</label>
+            </value>
+            <value>
+                <fullName>Error competencia</fullName>
+                <default>false</default>
+                <label>Error competencia</label>
+            </value>
+            <value>
+                <fullName>Error cuantía</fullName>
+                <default>false</default>
+                <label>Error cuantía</label>
+            </value>
+            <value>
+                <fullName>Errores de referencia</fullName>
+                <default>false</default>
+                <label>Errores de referencia</label>
+            </value>
+            <value>
+                <fullName>Planteamiento jurídico incorrecto</fullName>
+                <default>false</default>
+                <label>Planteamiento jurídico incorrecto</label>
+            </value>
+            <value>
+                <fullName>Documental incorrecta</fullName>
+                <default>false</default>
+                <label>Documental incorrecta</label>
+            </value>
+            <value>
+                <fullName>Error acción ejercitada</fullName>
+                <default>false</default>
+                <label>Error acción ejercitada</label>
+            </value>
+            <value>
+                <fullName>Presentación tardía</fullName>
+                <default>false</default>
+                <label>Presentación tardía</label>
+            </value>
+            <value>
+                <fullName>Lexnet</fullName>
+                <default>false</default>
+                <label>Lexnet</label>
+            </value>
+            <value>
+                <fullName>Litispendencia</fullName>
+                <default>false</default>
+                <label>Litispendencia</label>
+            </value>
+            <value>
+                <fullName>Incomparecencia</fullName>
+                <default>false</default>
+                <label>Incomparecencia</label>
+            </value>
+            <value>
+                <fullName>Falta de personación</fullName>
+                <default>false</default>
+                <label>Falta de personación</label>
+            </value>
+            <value>
+                <fullName>Escrito omitido</fullName>
+                <default>false</default>
+                <label>Escrito omitido</label>
+            </value>
+            <value>
+                <fullName>Escrito erróneo</fullName>
+                <default>false</default>
+                <label>Escrito erróneo</label>
+            </value>
+            <value>
+                <fullName>Escrito extemporáneo</fullName>
+                <default>false</default>
+                <label>Escrito extemporáneo</label>
+            </value>
+            <value>
+                <fullName>Requerimiento desatendido</fullName>
+                <default>false</default>
+                <label>Requerimiento desatendido</label>
+            </value>
+            <value>
+                <fullName>Terminación del procedimiento no tramitada</fullName>
+                <default>false</default>
+                <label>Terminación del procedimiento no tramitada</label>
+            </value>
+            <value>
+                <fullName>Ausencia de notificación</fullName>
+                <default>false</default>
+                <label>Ausencia de notificación</label>
+            </value>
+            <value>
+                <fullName>Notificación extemporánea</fullName>
+                <default>false</default>
+                <label>Notificación extemporánea</label>
+            </value>
+            <value>
+                <fullName>Ausencia de actividad judicial</fullName>
+                <default>false</default>
+                <label>Ausencia de actividad judicial</label>
+            </value>
+            <value>
+                <fullName>Depósito judicial</fullName>
+                <default>false</default>
+                <label>Depósito judicial</label>
+            </value>
+            <value>
+                <fullName>Condena en costas en contra</fullName>
+                <default>false</default>
+                <label>Condena en costas en contra</label>
+            </value>
+            <value>
+                <fullName>Escrito desestimado</fullName>
+                <default>false</default>
+                <label>Escrito desestimado</label>
+            </value>
+            <value>
+                <fullName>Error en la cuantía</fullName>
+                <default>false</default>
+                <label>Error en la cuantía</label>
+            </value>
+            <value>
+                <fullName>Tasa judicial</fullName>
+                <default>false</default>
+                <label>Tasa judicial</label>
+            </value>
+            <value>
+                <fullName>Mandamiento de pago</fullName>
+                <default>false</default>
+                <label>Mandamiento de pago</label>
+            </value>
+            <value>
+                <fullName>Cobro indebido</fullName>
+                <default>false</default>
+                <label>Cobro indebido</label>
+            </value>
+            <value>
+                <fullName>Factura errónea</fullName>
+                <default>false</default>
+                <label>Factura errónea</label>
+            </value>
+            <value>
+                <fullName>Disconformidad HE</fullName>
+                <default>false</default>
+                <label>Disconformidad HE</label>
+            </value>
+            <value>
+                <fullName>Otros</fullName>
+                <default>false</default>
+                <label>Otros</label>
+            </value>
+            <value>
+                <fullName>Inc originadas por cliente</fullName>
+                <default>false</default>
+                <label>Inc originadas por cliente</label>
+            </value>
+            <value>
+                <fullName>Dilación indebida</fullName>
+                <default>false</default>
+                <label>Dilación indebida</label>
+            </value>
+            <value>
+                <fullName>Resolución sin base jurídica</fullName>
+                <default>false</default>
+                <label>Resolución sin base jurídica</label>
+            </value>
+            <value>
+                <fullName>Admisión de error</fullName>
+                <default>false</default>
+                <label>Admisión de error</label>
+            </value>
+            <value>
+                <fullName>Criterio propio</fullName>
+                <default>false</default>
+                <label>Criterio propio</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Defecto en la presentación de la demanda</controllingFieldValue>
+            <controllingFieldValue>Defecto en la demanda</controllingFieldValue>
+            <valueName>Error competencia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Defecto en la presentación de la demanda</controllingFieldValue>
+            <controllingFieldValue>Defecto en la demanda</controllingFieldValue>
+            <valueName>Documental incorrecta</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Defecto en la presentación de la demanda</controllingFieldValue>
+            <valueName>Presentación tardía</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Defecto en la presentación de la demanda</controllingFieldValue>
+            <valueName>Lexnet</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Defecto en la presentación de la demanda</controllingFieldValue>
+            <valueName>Litispendencia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Defecto en la presentación de la demanda</controllingFieldValue>
+            <controllingFieldValue>Incidencia en fase de ejecución</controllingFieldValue>
+            <valueName>Tasa judicial</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incidencia procesal</controllingFieldValue>
+            <valueName>Incomparecencia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incidencia procesal</controllingFieldValue>
+            <valueName>Falta de personación</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incidencia procesal</controllingFieldValue>
+            <controllingFieldValue>Incidencia en fase de ejecución</controllingFieldValue>
+            <valueName>Escrito omitido</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incidencia procesal</controllingFieldValue>
+            <controllingFieldValue>Incidencia en fase de ejecución</controllingFieldValue>
+            <valueName>Escrito erróneo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incidencia procesal</controllingFieldValue>
+            <controllingFieldValue>Incidencia en fase de ejecución</controllingFieldValue>
+            <valueName>Escrito extemporáneo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incidencia procesal</controllingFieldValue>
+            <controllingFieldValue>Incidencia en fase de ejecución</controllingFieldValue>
+            <valueName>Requerimiento desatendido</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incidencia procesal</controllingFieldValue>
+            <valueName>Terminación del procedimiento no tramitada</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incidencia procesal</controllingFieldValue>
+            <controllingFieldValue>Incidencia en fase de ejecución</controllingFieldValue>
+            <valueName>Ausencia de notificación</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incidencia procesal</controllingFieldValue>
+            <controllingFieldValue>Incidencia en fase de ejecución</controllingFieldValue>
+            <valueName>Notificación extemporánea</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incidencia procesal</controllingFieldValue>
+            <controllingFieldValue>Incidencia en fase de ejecución</controllingFieldValue>
+            <valueName>Ausencia de actividad judicial</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incidencia procesal</controllingFieldValue>
+            <valueName>Depósito judicial</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incidencia procesal</controllingFieldValue>
+            <controllingFieldValue>Incidencia en fase de ejecución</controllingFieldValue>
+            <valueName>Condena en costas en contra</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incidencia en fase de ejecución</controllingFieldValue>
+            <valueName>Escrito desestimado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incidencia en fase de ejecución</controllingFieldValue>
+            <valueName>Error en la cuantía</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incidencia en fase de ejecución</controllingFieldValue>
+            <valueName>Mandamiento de pago</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incidencia de honorarios</controllingFieldValue>
+            <valueName>Cobro indebido</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incidencia de honorarios</controllingFieldValue>
+            <valueName>Factura errónea</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incidencia de honorarios</controllingFieldValue>
+            <valueName>Disconformidad HE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incidencia de honorarios</controllingFieldValue>
+            <valueName>Otros</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cliente</controllingFieldValue>
+            <valueName>Inc originadas por cliente</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Juzgado</controllingFieldValue>
+            <valueName>Dilación indebida</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Juzgado</controllingFieldValue>
+            <valueName>Resolución sin base jurídica</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Juzgado</controllingFieldValue>
+            <valueName>Admisión de error</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Juzgado</controllingFieldValue>
+            <valueName>Criterio propio</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incidencia de contratación</controllingFieldValue>
+            <valueName>Ausencia de objeto reclamable</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incidencia de contratación</controllingFieldValue>
+            <valueName>No viable</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incidencia de contratación</controllingFieldValue>
+            <controllingFieldValue>Incumplimiento servicios contratados</controllingFieldValue>
+            <valueName>Acción caducada/prescrita</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incumplimiento servicios contratados</controllingFieldValue>
+            <valueName>Ausencia de expediente</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incumplimiento servicios contratados</controllingFieldValue>
+            <valueName>Demanda sin presentar</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incumplimiento servicios contratados</controllingFieldValue>
+            <valueName>Inactividad</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incumplimiento servicios contratados</controllingFieldValue>
+            <valueName>Desistimiento incorrecto</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incumplimiento servicios contratados</controllingFieldValue>
+            <valueName>Gowex</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incumplimiento servicios contratados</controllingFieldValue>
+            <valueName>Falta de gestión</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incumplimiento servicios contratados</controllingFieldValue>
+            <valueName>Servicio no contratado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incumplimiento de las instrucciones del cliente</controllingFieldValue>
+            <valueName>Presentación de demanda no consentida</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incumplimiento de las instrucciones del cliente</controllingFieldValue>
+            <valueName>Desistimiento no tramitado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gestión incorrecta del expediente</controllingFieldValue>
+            <valueName>Expediente duplicado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gestión incorrecta del expediente</controllingFieldValue>
+            <valueName>Cliente duplicado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gestión incorrecta del expediente</controllingFieldValue>
+            <valueName>Documentación subida errónea</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gestión incorrecta del expediente</controllingFieldValue>
+            <valueName>Error de datos</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Defecto en la demanda</controllingFieldValue>
+            <valueName>Error demandante</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Defecto en la demanda</controllingFieldValue>
+            <valueName>Error demandado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Defecto en la demanda</controllingFieldValue>
+            <valueName>Error cuantía</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Defecto en la demanda</controllingFieldValue>
+            <valueName>Errores de referencia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Defecto en la demanda</controllingFieldValue>
+            <valueName>Planteamiento jurídico incorrecto</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Defecto en la demanda</controllingFieldValue>
+            <valueName>Error acción ejercitada</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

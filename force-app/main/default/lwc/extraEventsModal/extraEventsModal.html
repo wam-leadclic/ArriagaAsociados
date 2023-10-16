@@ -1,0 +1,34 @@
+<template>
+        <div class="modal-hidden">
+            <section
+                role="dialog"
+                tabindex="-1"
+                aria-labelledby="modal-heading-01"
+                aria-modal="true"
+                aria-describedby="modal-content-id-1"
+                class="slds-modal slds-fade-in-open panel-list"
+            >
+                <div class="slds-modal__container small-modal">
+                    <lightning-card class="event-list-modal" variant="Narrow">
+                        <lightning-formatted-date-time value={today} month="long" day="2-digit" weekday="long" slot="title"></lightning-formatted-date-time>
+                        
+                        <lightning-button-icon  icon-name="utility:close" variant="container" alternative-text="Close" onclick={hide} slot="actions"></lightning-button-icon>
+                        
+                        <div class="slds-wrap slds-grid slds-p-horizontal_medium events-list">
+                            <template for:each={events} for:item="event">
+                                    <div class="slds-size_1-of-1 height20" key={event.element.Id}>
+                                    <div class="eventLine slds-m-around_xxx-small slds-p-horizontal_xx-small" onclick={handleEventClick} data-element-id={event.element.Id} data-element-idx={event.element.Idx}>
+                                        <template if:false={event.element.IsAllDayEvent}>
+                                            <lightning-formatted-date-time time-zone={userTimeZone} value={event.element.StartDateTime} hour="2-digit" minute="2-digit" data-element-id={event.element.Id} data-element-idx={event.element.Idx}></lightning-formatted-date-time>&nbsp; 
+                                        </template>
+                                        {event.element.Subject}
+                                    </div>
+                                </div>
+                            </template>
+                        </div>
+                    </lightning-card>
+                </div>
+            </section>
+            <div class="slds-backdrop slds-backdrop_open backdrop-index" onclick={hide}></div>
+        </div>
+    </template>

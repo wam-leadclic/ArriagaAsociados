@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FechaPresentacion__c</fullName>
+    <description>Fecha de presentación del último escrito</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Fecha de presentación del último escrito</inlineHelpText>
+    <label>Fecha de presentación</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

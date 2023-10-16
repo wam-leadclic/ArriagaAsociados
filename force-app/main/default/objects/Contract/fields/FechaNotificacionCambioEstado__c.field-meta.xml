@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FechaNotificacionCambioEstado__c</fullName>
+    <description>Fecha Envió Notificación de 6 meses de Antigüedad</description>
+    <externalId>false</externalId>
+    <label>Fecha Notificacion Cambio Estado</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

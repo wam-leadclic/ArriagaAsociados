@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Arriaga_plantilla_casos</letterhead>
+    <name>IRPH</name>
+    <style>formalLetter</style>
+    <subject>IRPH</subject>
+    <textOnly>Estimado/a {!Contact.FirstName},
+
+
+
+En relación a su expediente de IRPH, queremos informarle que se espera que el abogado General del Tribunal Superior de Justicia de la Unión Europea (TSJUE), Maciej Szpunar, haga público su informe sobre el IRPH en septiembre.
+
+
+
+A partir de ahí, en unos meses, el TSJUE dictará sentencia. En función del contenido de la misma, procederemos a definir la estrategia jurídica más apropiada para conseguir un resultado favorable a su reclamación.
+
+
+
+Somos optimistas, ya que en el juicio, que se celebró a finales de febrero, se puso de manifiesto que los consumidores cuentan con el apoyo de la Comisión Europea que entiende que el IRPH supone un abuso por parte de las entidades bancarias.
+
+
+
+Si necesita más información estamos a su disposición en el teléfono de atención al cliente 91 005 26 00.
+
+Reciba un cordial saludo.
+
+
+{!Case.OwnerFirstName} {!Case.OwnerLastName}
+
+Departamento de Atención al cliente
+
+
+ARRIAGA ASOCIADOS</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,11 @@
+<template>
+    <!--<div class="slds-scoped-notification slds-media slds-media_center slds-scoped-notification_light" role="status">-->
+    <div class={className} role="status">
+        <div class="slds-media__figure">
+            <lightning-icon icon-name={iconFullName} alternative-text={titleNotification} size="small"></lightning-icon>
+        </div>
+        <div class="slds-media__body">
+            <p>{messageNotification}</p>
+        </div>
+    </div>
+</template>

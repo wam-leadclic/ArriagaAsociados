@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TiposDeriv__c</fullName>
+    <description>Tipos separados por coma que utilizaremos en el componente para cargar el picklist</description>
+    <externalId>false</externalId>
+    <label>Tipos de derivación</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

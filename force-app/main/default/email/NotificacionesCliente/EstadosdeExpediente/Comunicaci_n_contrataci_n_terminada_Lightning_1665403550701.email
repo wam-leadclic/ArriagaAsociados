@@ -1,0 +1,36 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<p><br />
+Hola {{{Contract.Account}}}&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p><strong>¡BIENVENIDO A ARRIAGA ASOCIADOS!&nbsp;</strong></p>
+
+<p lang="ES-ES">Te remitimos la hoja de encargo que has firmado con nosotros para la reclamación de {{{Contract.ProductoFormula__c}}}. Tu número de expediente es el siguiente: {{{Contract.IdExpediente__c}}}</p>
+
+<p>&nbsp;</p>
+
+<p>Siempre que tengas alguna duda y quieras aclararla, te solicitaremos este número que nos dará acceso a toda la información de tu expediente.&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>Nuestro equipo de especialistas va a estudiar tu caso en profundidad y, si lo consideran necesario, te solicitarán más información y / o documentación para defenderte con todas las garantías. No te preocupes, te llamaremos al teléfono que nos has facilitado o te escribiremos a esta misma dirección de email.&nbsp;&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>Recuerda que también dispones de&nbsp;<strong>TU ESPACIO ARRIAGA</strong>,&nbsp;nuestro portal de cliente. &nbsp;</p>
+
+<p>Pincha&nbsp;<a aria-label="Vínculo aquí" href="https://clientes.arriagaasociados.com/" rel="noopener noreferrer" tabindex="-1" target="_blank" title="https://clientes.arriagaasociados.com/">aquí</a>&nbsp;y accede si ya tienes usuario, si aún no estás dado de alta en el sistema, recibirás un mail automático en las próximas 24 horas para acceder y mantenerte informado acerca de las novedades que vayan ocurriendo en tu procedimiento.</p>
+
+<p>&nbsp;</p>
+
+<p lang="ES-ES">Gracias por confiar en nosotros&nbsp;&nbsp;</p>
+
+<p lang="ES-ES">Equipo Arriaga Asociados<br />
+&nbsp;</p>
+</body>
+</html>

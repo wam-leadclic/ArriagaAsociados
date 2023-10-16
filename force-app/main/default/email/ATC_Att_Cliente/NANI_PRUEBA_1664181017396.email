@@ -1,0 +1,19 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Hola, {{{Recipient.FirstName}}}<br />
+<br />
+Buenas noticias, queremos informarte que la parte contraria no ha presentado recurso de apelación, por lo que tu sentencia ya es firme.&nbsp;<br />
+<br />
+Desde esta fecha, la parte contraria tiene un mes más para proceder a cumplir voluntariamente con el contenido de la sentencia. Si no fuera así, tendríamos que presentar demanda de ejecución para obligarle a cumplirla.&nbsp;<br />
+<br />
+Ante cualquier novedad relevante, desde Arriaga Asociados nos pondremos en contacto contigo. &nbsp;<br />
+<br />
+Recuerda que también dispones de TU ESPACIO ARRIAGA, nuestro portal de cliente. &nbsp;<br />
+<br />
+Pincha <a href="https://clientes.arriagaasociados.com/" rel="noreferrer noopener" target="_blank">aquí</a> y accede para mantenerte informado acerca de las novedades que vayan ocurriendo en tu procedimiento. Podrás encontrarlas en el apartado MIS NOTIFICACIONES.&nbsp;{{{Account.RecordTypeId}}}<br />
+<br />
+Gracias por confiar en nosotros.<br />
+Equipo Arriaga Asociados&nbsp;</body>
+</html>

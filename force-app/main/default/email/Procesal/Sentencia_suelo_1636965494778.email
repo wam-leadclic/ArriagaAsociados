@@ -1,0 +1,24 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Estimado cliente<span style="line-height: 107%;"><span style="color: black;"><span style="position: relative;"><span style="top: -0.5pt;"><font face="Arial, sans-serif">&nbsp;</font></span></span></span></span>{{{Recipient.FirstName}}}:
+<p>En relación a tu expediente&nbsp;{{{Case.Expediente__c}}}, &nbsp;le informamos que hemos recibido sentencia estimando nuestra demanda con/sin imposición de costas a la entidad bancaria // desestimando la demanda, con/sin imposición de costas a nuestra parte.&nbsp;<br />
+<br />
+La sentencia declara <strong>la nulidad, por abusiva, de la cláusula limitativa de los tipos de interés (cláusula suelo) del préstamo hipotecario</strong>, y se condena a la entidad bancaria a eliminarla del contrato, y a rehacer el cuadro de amortización de la hipoteca, lo que comporta el recálculo de las cuotas pagadas, y la obligación del banco de devolverle lo pagado de más, con los intereses legales desde la fecha del cobro indebido de esos importes.&nbsp;<br />
+<br />
+<strong>Según el cálculo elaborado por nuestro departamento económico, la cantidad que ha pagado de más asciende a <span style="color:#c0392b;">(importe €)</span>, importe al que habrá que sumar los intereses legales desde la fecha de cada cuota pagada con suelo.&nbsp;</strong><br />
+<br />
+La sentencia será firme dentro de un mes, si no se recurre. A partir de ese momento, el banco tiene un mes más para cumplir voluntariamente la sentencia. Si no fuera así, tendríamos que ejecutar la sentencia para obligar al banco a cumplirla. En definitiva, el plazo de pago voluntario es de dos meses (sin contar agosto y el período navideño que son plazos inhábiles para cómputo de plazos civiles).&nbsp;<br />
+<br />
+El banco puede realizar el pago en el Juzgado, en cuyo caso nos lo notificarán y se lo comunicaremos, o bien, en su cuenta, en cuyo caso es muy importante que nos informe cuanto antes, para verificar que el importe sea correcto, y evitar actuaciones judiciales innecesarias.&nbsp;<br />
+<br />
+Si tiene alguna duda recuerda que puede ponerse en contacto con nosotros, respondiendo a este mismo correo electrónico o también visitando TU ESPACIO ARRIAGA, nuestro portal de cliente (si no tiene las claves de acceso, puede llamarnos al teléfono al 91 005 2600 y le ayudaremos).&nbsp;<br />
+<br />
+Le adjuntamos la sentencia.<br />
+<br />
+<br />
+<br />
+Gracias por confiar en nosotros.</p>
+</body>
+</html>

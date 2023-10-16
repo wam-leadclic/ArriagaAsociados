@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Correo electrónico con un correo electrónico de aviso de cierre de incidencia</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Arriaga_plantilla_casos</letterhead>
+    <name>Aviso Cierrre Incidencia</name>
+    <style>formalLetter</style>
+    <subject>Su caso será cerrado en las próximas horas</subject>
+    <textOnly>Buenos días/tardes,
+
+Le informamos que su caso con número {!Case.CaseNumber} le resta un día para su finalización.
+
+Puede revisar los detalles de su caso.
+
+Un saludo!</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

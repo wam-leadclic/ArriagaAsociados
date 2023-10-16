@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PosibleConflictoInteres__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Campo que se marca cuando en el expediente si indica la parte contraria y este ya es un cliente de arriaga</description>
+    <externalId>false</externalId>
+    <label>Casilla Posible Conflicto de Interés</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

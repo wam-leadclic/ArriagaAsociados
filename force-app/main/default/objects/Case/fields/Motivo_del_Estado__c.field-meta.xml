@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Motivo_del_Estado__c</fullName>
+    <description>Motivo del cambio de estado del caso, cabecera, dependiente del resultado</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Motivo de cambio de estado del caso (Cabecera)</inlineHelpText>
+    <label>Motivo del Estado</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Status</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>ANULADO CALCULOS ERRONEOS</fullName>
+                <default>false</default>
+                <label>Anulado Cálculos Erróneos</label>
+            </value>
+            <value>
+                <fullName>ANULADO PROCEDIMIENTO NO FINALIZADO</fullName>
+                <default>false</default>
+                <label>Anulado Procedimiento No Finalizado</label>
+            </value>
+            <value>
+                <fullName>ANULADO RC/DECLARATIVA</fullName>
+                <default>false</default>
+                <label>Anulado RC/Declarativa</label>
+            </value>
+            <value>
+                <fullName>CAMBIO TITULAR</fullName>
+                <default>false</default>
+                <label>Cambio Titular</label>
+            </value>
+            <value>
+                <fullName>CARTA CERTIFICADA</fullName>
+                <default>false</default>
+                <label>Carta Certificada</label>
+            </value>
+            <value>
+                <fullName>Cerrado</fullName>
+                <default>false</default>
+                <label>Cerrado</label>
+            </value>
+            <value>
+                <fullName>Cerrado cobrado</fullName>
+                <default>false</default>
+                <label>Cerrado cobrado</label>
+            </value>
+            <value>
+                <fullName>Cerrado cobrado fraccionado</fullName>
+                <default>false</default>
+                <label>Cerrado cobrado fraccionado</label>
+            </value>
+            <value>
+                <fullName>Cerrado IME</fullName>
+                <default>false</default>
+                <label>Cerrado IME</label>
+            </value>
+            <value>
+                <fullName>Cerrado IME solicitado</fullName>
+                <default>false</default>
+                <label>Cerrado IME solicitado</label>
+            </value>
+            <value>
+                <fullName>Cerrado jura</fullName>
+                <default>false</default>
+                <label>Cerrado jura</label>
+            </value>
+            <value>
+                <fullName>Cerrado jura quita</fullName>
+                <default>false</default>
+                <label>Cerrado jura quita</label>
+            </value>
+            <value>
+                <fullName>Cerrado Justificante</fullName>
+                <default>false</default>
+                <label>Cerrado Justificante</label>
+            </value>
+            <value>
+                <fullName>Cerrado Paralizado</fullName>
+                <default>false</default>
+                <label>Cerrado Paralizado</label>
+            </value>
+            <value>
+                <fullName>COMUNICACIÓN CON MEDIADOR</fullName>
+                <default>false</default>
+                <label>COMUNICACIÓN CON MEDIADOR</label>
+            </value>
+            <value>
+                <fullName>Factura Anulada</fullName>
+                <default>false</default>
+                <label>Factura Anulada</label>
+            </value>
+            <value>
+                <fullName>ILOCALIZADO</fullName>
+                <default>false</default>
+                <label>ILOCALIZADO</label>
+            </value>
+            <value>
+                <fullName>NO INTERESA AA</fullName>
+                <default>false</default>
+                <label>NO INTERESA AA</label>
+            </value>
+            <value>
+                <fullName>NO INTERESA MEDIADOR</fullName>
+                <default>false</default>
+                <label>NO INTERESA MEDIADOR</label>
+            </value>
+            <value>
+                <fullName>POSIBLE IME</fullName>
+                <default>false</default>
+                <label>Posible IME</label>
+            </value>
+            <value>
+                <fullName>RC LLAMADA</fullName>
+                <default>false</default>
+                <label>RC Llamada</label>
+            </value>
+            <value>
+                <fullName>RECORDATORIO</fullName>
+                <default>false</default>
+                <label>Recordatorio</label>
+            </value>
+            <value>
+                <fullName>SÍ INTERESA AA</fullName>
+                <default>false</default>
+                <label>SÍ INTERESA AA</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Cerrado</controllingFieldValue>
+            <valueName>ANULADO CALCULOS ERRONEOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cerrado</controllingFieldValue>
+            <valueName>ANULADO PROCEDIMIENTO NO FINALIZADO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cerrado</controllingFieldValue>
+            <valueName>ANULADO RC/DECLARATIVA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cerrado</controllingFieldValue>
+            <valueName>CAMBIO TITULAR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cerrado</controllingFieldValue>
+            <valueName>CARTA CERTIFICADA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cerrado</controllingFieldValue>
+            <valueName>Cerrado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cerrado</controllingFieldValue>
+            <valueName>Cerrado cobrado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cerrado</controllingFieldValue>
+            <valueName>Cerrado cobrado fraccionado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cerrado</controllingFieldValue>
+            <valueName>Cerrado IME</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cerrado</controllingFieldValue>
+            <valueName>Cerrado IME solicitado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cerrado</controllingFieldValue>
+            <valueName>Cerrado jura</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cerrado</controllingFieldValue>
+            <valueName>Cerrado jura quita</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cerrado</controllingFieldValue>
+            <valueName>Cerrado Justificante</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cerrado</controllingFieldValue>
+            <valueName>Cerrado Paralizado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cerrado</controllingFieldValue>
+            <valueName>Factura Anulada</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cerrado</controllingFieldValue>
+            <valueName>ILOCALIZADO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cerrado</controllingFieldValue>
+            <valueName>NO INTERESA AA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cerrado</controllingFieldValue>
+            <valueName>NO INTERESA MEDIADOR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cerrado</controllingFieldValue>
+            <valueName>POSIBLE IME</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cerrado</controllingFieldValue>
+            <valueName>RC LLAMADA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cerrado</controllingFieldValue>
+            <valueName>RECORDATORIO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cerrado</controllingFieldValue>
+            <valueName>SÍ INTERESA AA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pendiente Mediador</controllingFieldValue>
+            <valueName>COMUNICACIÓN CON MEDIADOR</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

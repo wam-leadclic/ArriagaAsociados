@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Puesto__c</fullName>
+    <description>Cargo del usuario para cálculo de incentivos</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Cargo o Función para cálculo de incentivos e informes</inlineHelpText>
+    <label>Puesto</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>ADMINISTRATIVO</fullName>
+                <default>false</default>
+                <label>ADMINISTRATIVO</label>
+            </value>
+            <value>
+                <fullName>ADMINISTRATIVO SENIOR</fullName>
+                <default>false</default>
+                <label>ADMINISTRATIVO SENIOR</label>
+            </value>
+            <value>
+                <fullName>ASESOR</fullName>
+                <default>false</default>
+                <label>ASESOR</label>
+            </value>
+            <value>
+                <fullName>ASESOR SENIOR</fullName>
+                <default>false</default>
+                <label>ASESOR SENIOR</label>
+            </value>
+            <value>
+                <fullName>COORDINADOR</fullName>
+                <default>false</default>
+                <label>COORDINADOR</label>
+            </value>
+            <value>
+                <fullName>JEFE DE ZONA</fullName>
+                <default>false</default>
+                <label>JEFE DE ZONA</label>
+            </value>
+            <value>
+                <fullName>RESPONSABLE DE CENTRO</fullName>
+                <default>false</default>
+                <label>RESPONSABLE DE CENTRO</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

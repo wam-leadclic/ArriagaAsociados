@@ -1,0 +1,22 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;"><span style="line-height:107%"><span style="color:black"><span style="position:relative"><span style="top:-0.5pt">Buenos días,<font face="Arial, Helvetica, sans-serif">&nbsp;</font></span></span></span></span>{{{Recipient.FirstName}}};<br />
+<br />
+Le agradecemos su paciencia en el incidente con su expediente&nbsp;{{{Case.Expediente__c}}},&nbsp; luego de ser analizado por nuestros abogados especialistas, procederemos cuanto antes a transferir las cantidades que le han sido afectadas.<br />
+<br />
+Para ello requerimos que nos facilite un número de cuenta en el que desee que le sean abonadas las cantidades. <strong><u>Debe hacerlo respondiendo a este mismo correo electrónico.&nbsp;</u></strong><br />
+<br />
+Tan pronto tengamos los datos, gestionaremos en un plazo no mayor de 10 ó 15 días hábiles el abono a su cuenta.<br />
+<br />
+&nbsp;El número de referencia de su caso le recordamos es<span style="color:#c0392b;">&nbsp;</span>{{{Case.CaseNumber}}}.&nbsp;<br />
+<br />
+<br />
+Siempre que lo necesite puede ponerse en contacto con nosotros al teléfono gratuito 900 264 600 o al 918289000 o respondiendo a este mismo mail y le informaremos.<br />
+<br />
+<br />
+<br />
+Un cordial saludo.&nbsp;<br />
+Equipo Arriaga Asociados</body>
+</html>

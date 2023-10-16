@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Descartado</fullName>
+        <default>false</default>
+        <label>Descartado</label>
+        <converted>false</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Nuevo</fullName>
+        <default>true</default>
+        <label>Nuevo</label>
+        <converted>false</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Contactado</fullName>
+        <default>false</default>
+        <label>Contactado</label>
+        <converted>false</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Recaptura</fullName>
+        <default>false</default>
+        <label>Recaptura</label>
+        <converted>false</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Convertido</fullName>
+        <default>false</default>
+        <label>Citado</label>
+        <converted>true</converted>
+    </standardValue>
+</StandardValueSet>

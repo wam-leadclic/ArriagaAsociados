@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <baseObject>SCVLEXMetrics</baseObject>
+    <category>other</category>
+    <deployed>true</deployed>
+    <description>Service Cloud IVR</description>
+    <label>Service Cloud IVR</label>
+    <sections>
+        <masterLabel>Service Cloud IVR</masterLabel>
+    </sections>
+</ReportType>

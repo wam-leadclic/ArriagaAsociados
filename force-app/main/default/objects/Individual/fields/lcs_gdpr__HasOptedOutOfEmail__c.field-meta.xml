@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>lcs_gdpr__HasOptedOutOfEmail__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Campo que se trae del contacto o el candidato para indicar que no debe de ser contacto por email</description>
+    <externalId>false</externalId>
+    <label>No recibir correos electrónicos</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

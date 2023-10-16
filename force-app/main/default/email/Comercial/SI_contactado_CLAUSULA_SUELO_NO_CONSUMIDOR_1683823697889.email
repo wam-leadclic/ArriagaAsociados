@@ -1,0 +1,33 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<p>Buenos días, {{{Account.FirstName}}}&nbsp;</p>
+
+<p><br />
+Como hemos comentado telefónicamente en relación a su expediente <span style="color:#c0392b;"><b>Nº XXXXX</b> </span>de <b>CLÁUSULA SUELO</b>, le dejamos respaldo sobre todos los esfuerzos que nuestro equipo especialista ha realizado en su caso, quienes tras analizar toda la información y documentación necesaria y ver agotadas las vías de acuerdo, según la normativa y jurisprudencia aplicable ha determinado que <b>usted tiene la consideración de No Consumidor.&nbsp;</b></p>
+
+<p><br />
+Por lo cual, cumpliendo nuestro deber, le informamos sobre los riesgos que existen en la reclamación de la cláusula suelo inserta en un contrato de préstamo en el que el prestatario es un No Consumidor:&nbsp;</p>
+
+<ul>
+	<li>El No Consumidor tiene un nivel de protección menor que el Consumidor debido a que las leyes especiales de protección del Consumidor, tanto nacionales como europeas, no le aplican y, por tanto, existe un riesgo mayor de obtener una sentencia desestimatoria si se judicializa el asunto.&nbsp;</li>
+	<li>Actualmente, la evolución de la jurisprudencia en estos asuntos no es favorable, en consecuencia, existe una probabilidad muy elevada de obtener una sentencia desestimatoria con condena en costas, si así lo decide el juez que conozca del asunto.&nbsp;</li>
+</ul>
+
+<p>A pesar de haberse empleado diferentes argumentos, también los sugeridos por el propio Supremo, no han tenido una acogida favorable en los Juzgados y Tribunales inferiores. Por lo tanto, no existe jurisprudencia asentada que permita obtener, con cierta garantía, una sentencia estimatoria en estos asuntos.&nbsp;</p>
+
+<p>En conclusión, si tenemos en cuenta la totalidad de estos asuntos, los Juzgados de Primera Instancia, las Audiencias Provinciales y el propio Tribunal Supremo incluido que no están haciendo suya la argumentación protectora del No Consumidor, existen altos riesgos de que se desestimen estas demandas.&nbsp;</p>
+
+<p><b>Desde Arriaga Asociados viendo agotado y sin éxito los intentos de acuerdo que hemos gestionado con su banco<span style="color:#c0392b;"> </span></b><span style="color:#c0392b;"><b>(los cuales adjuntamos en el presente mail)</b></span><b><span style="color:#c0392b;">,</span> y ante los riesgos expuestos, desaconsejamos continuar con la reclamación de la cláusula suelo, razón por la cual procederemos a dar por terminado el encargo profesional.&nbsp;</b></p>
+
+<p>Agradecemos su confianza {{{Account.FirstName}}}, y recuerde que siempre puede contar con nuestros servicios, cuando lo necesite, visitando&nbsp; <a href="https://www.arriagaasociados.com/">www.arriagaasociados.com</a></p>
+
+<p>&nbsp;</p>
+
+<p>Un cordial saludo.&nbsp;</p>
+
+<p>Equipo Arriaga Asociados</p>
+</body>
+</html>

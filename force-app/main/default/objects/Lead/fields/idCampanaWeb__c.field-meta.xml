@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>idCampanaWeb__c</fullName>
+    <description>Los candidatos que vienen por web2Lead deben de completar este dato para que se asocie, en caso de existir ya el candidato como contacto, la oportunidad que se crea con la campaña indicada en el formulario</description>
+    <externalId>false</externalId>
+    <label>id Campaña Web</label>
+    <length>18</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

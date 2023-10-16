@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Oficinas_de_Arriaga</fullName>
+    <columns>NombreCorto__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>TipoOficina__c</columns>
+    <columns>ACCOUNT.ADDRESS2_CITY</columns>
+    <columns>ACCOUNT.ADDRESS2_STREET</columns>
+    <columns>Zona__c</columns>
+    <columns>Responsable_de_Zona__c</columns>
+    <columns>Activa__c</columns>
+    <columns>ACCOUNT.CREATED_DATE</columns>
+    <columns>PARENT_NAME</columns>
+    <columns>ACCOUNT.LAST_UPDATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Account.Oficina</value>
+    </filters>
+    <label>Oficinas de Arriaga</label>
+</ListView>

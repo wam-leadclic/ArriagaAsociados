@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pendientes_de_Responder</fullName>
+    <columns>NAME</columns>
+    <columns>StarsFormula__c</columns>
+    <columns>Platform__c</columns>
+    <columns>ReviewTitle__c</columns>
+    <columns>LAST_UPDATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ToProcess__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>Pendientes de Responder</label>
+</ListView>

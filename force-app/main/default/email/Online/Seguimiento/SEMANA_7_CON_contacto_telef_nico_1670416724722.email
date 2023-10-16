@@ -1,0 +1,22 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<p>Hola, {{{Account.FirstName}}}&nbsp;</p>
+
+<p>Estamos pendientes de tu caso. Te recordamos la documentación que necesitamos para estudiar una posible reclamación&nbsp;de<span style="color:#c0392b;"><strong> (producto)</strong></span>:</p>
+
+<p><span style="color:#c0392b;"><strong>- (enumerar la documentación en función del producto)</strong></span></p>
+
+<p>Es muy sencillo, <strong><u>adjunta la documentación respondiendo a este mismo correo.</u></strong></p>
+
+<p>Una vez la recibamos, nuestros abogados la revisarán de forma totalmente gratuita y sin compromiso para ti</p>
+
+<p><br />
+Gracias por confiar en nosotros.&nbsp;</p>
+
+<p>Equipo Arriaga Asociados<br />
+<a href="https://www.arriagaasociados.com/">https://www.arriagaasociados.com/</a></p>
+</body>
+</html>

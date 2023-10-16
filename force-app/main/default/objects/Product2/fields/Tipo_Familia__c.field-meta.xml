@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tipo_Familia__c</fullName>
+    <description>Familia del producto para las diferentes agrupaciones en Reportes y analíticas.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Familia del producto para informes, paneles y analíticas</inlineHelpText>
+    <label>Tipo Familia</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Tipo_Subcategoria__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>A.P. PENSIÓN</fullName>
+                <default>false</default>
+                <label>A.P. PENSIÓN</label>
+            </value>
+            <value>
+                <fullName>ACCIDENTES TRÁFICO</fullName>
+                <default>false</default>
+                <label>ACCIDENTES TRÁFICO</label>
+            </value>
+            <value>
+                <fullName>ACCIONES</fullName>
+                <default>false</default>
+                <label>ACCIONES</label>
+            </value>
+            <value>
+                <fullName>AFS</fullName>
+                <default>false</default>
+                <label>AFS</label>
+            </value>
+            <value>
+                <fullName>ASESORAMIENTO CONTRATOS</fullName>
+                <default>false</default>
+                <label>ASESORAMIENTO CONTRATOS</label>
+            </value>
+            <value>
+                <fullName>ATÍPICO</fullName>
+                <default>false</default>
+                <label>ATÍPICO</label>
+            </value>
+            <value>
+                <fullName>AVAL PERSONAL</fullName>
+                <default>false</default>
+                <label>AVAL PERSONAL</label>
+            </value>
+            <value>
+                <fullName>BONOS</fullName>
+                <default>false</default>
+                <label>BONOS</label>
+            </value>
+            <value>
+                <fullName>CÁRTEL DE COCHES</fullName>
+                <default>false</default>
+                <label>CÁRTEL DE COCHES</label>
+            </value>
+            <value>
+                <fullName>CLAUSULAS SUELO</fullName>
+                <default>false</default>
+                <label>CLAUSULAS SUELO</label>
+            </value>
+            <value>
+                <fullName>COMISIONES ABUSIVAS</fullName>
+                <default>false</default>
+                <label>COMISIONES ABUSIVAS</label>
+            </value>
+            <value>
+                <fullName>CONTRATO FINANCIERO</fullName>
+                <default>false</default>
+                <label>CONTRATO FINANCIERO</label>
+            </value>
+            <value>
+                <fullName>CUOTAS PARTICIPATIVAS</fullName>
+                <default>false</default>
+                <label>CUOTAS PARTICIPATIVAS</label>
+            </value>
+            <value>
+                <fullName>DEUDA</fullName>
+                <default>false</default>
+                <label>DEUDA</label>
+            </value>
+            <value>
+                <fullName>DIVORCIO</fullName>
+                <default>false</default>
+                <label>DIVORCIO</label>
+            </value>
+            <value>
+                <fullName>FICHEROS IMPAGADOS ACCESO</fullName>
+                <default>false</default>
+                <label>FICHEROS IMPAGADOS ACCESO</label>
+            </value>
+            <value>
+                <fullName>FICHEROS IMPAGADOS RECLAMACIÓN</fullName>
+                <default>false</default>
+                <label>FICHEROS IMPAGADOS RECLAMACIÓN</label>
+            </value>
+            <value>
+                <fullName>FONDO INVERSIÓN</fullName>
+                <default>false</default>
+                <label>FONDO INVERSIÓN</label>
+            </value>
+            <value>
+                <fullName>GASTOS HIPOTECA</fullName>
+                <default>false</default>
+                <label>GASTOS HIPOTECA</label>
+            </value>
+            <value>
+                <fullName>GOWEX</fullName>
+                <default>false</default>
+                <label>GOWEX</label>
+            </value>
+            <value>
+                <fullName>HERENCIA</fullName>
+                <default>false</default>
+                <label>HERENCIA</label>
+            </value>
+            <value>
+                <fullName>INCAPACIDAD JUDICIAL</fullName>
+                <default>false</default>
+                <label>INCAPACIDAD JUDICIAL</label>
+            </value>
+            <value>
+                <fullName>IRPH</fullName>
+                <default>false</default>
+                <label>IRPH</label>
+            </value>
+            <value>
+                <fullName>MONITORIO</fullName>
+                <default>false</default>
+                <label>MONITORIO</label>
+            </value>
+            <value>
+                <fullName>MULTIDIVISA</fullName>
+                <default>false</default>
+                <label>MULTIDIVISA</label>
+            </value>
+            <value>
+                <fullName>OBS</fullName>
+                <default>false</default>
+                <label>OBS</label>
+            </value>
+            <value>
+                <fullName>OPOSICION EJECUCION HIPOTECARIA</fullName>
+                <default>false</default>
+                <label>OPOSICION EJECUCION HIPOTECARIA</label>
+            </value>
+            <value>
+                <fullName>PAGARE</fullName>
+                <default>false</default>
+                <label>PAGARE</label>
+            </value>
+            <value>
+                <fullName>PP</fullName>
+                <default>false</default>
+                <label>PP</label>
+            </value>
+            <value>
+                <fullName>PRESTAMOS</fullName>
+                <default>false</default>
+                <label>PRESTAMOS</label>
+            </value>
+            <value>
+                <fullName>RECLAMACIÓN POR CANTIDAD</fullName>
+                <default>false</default>
+                <label>RECLAMACIÓN POR CANTIDAD</label>
+            </value>
+            <value>
+                <fullName>REPSOL</fullName>
+                <default>false</default>
+                <label>REPSOL</label>
+            </value>
+            <value>
+                <fullName>REVOLVING</fullName>
+                <default>false</default>
+                <label>REVOLVING</label>
+            </value>
+            <value>
+                <fullName>SOS CUETARA</fullName>
+                <default>false</default>
+                <label>SOS CUETARA</label>
+            </value>
+            <value>
+                <fullName>SUCESIONES</fullName>
+                <default>false</default>
+                <label>SUCESIONES</label>
+            </value>
+            <value>
+                <fullName>SWAPS</fullName>
+                <default>false</default>
+                <label>SWAPS</label>
+            </value>
+            <value>
+                <fullName>TESTAMENTO</fullName>
+                <default>false</default>
+                <label>TESTAMENTO</label>
+            </value>
+            <value>
+                <fullName>UNIÓN FENOSA</fullName>
+                <default>false</default>
+                <label>UNIÓN FENOSA</label>
+            </value>
+            <value>
+                <fullName>VALORES</fullName>
+                <default>false</default>
+                <label>VALORES</label>
+            </value>
+            <value>
+                <fullName>VARIOS</fullName>
+                <default>false</default>
+                <label>VARIOS</label>
+            </value>
+            <value>
+                <fullName>VIVIENDA</fullName>
+                <default>false</default>
+                <label>VIVIENDA</label>
+            </value>
+            <value>
+                <fullName>WARRANTS</fullName>
+                <default>false</default>
+                <label>WARRANTS</label>
+            </value>
+            <value>
+                <fullName>EXTRAJUDICIAL / GESTORÍA</fullName>
+                <default>false</default>
+                <label>EXTRAJUDICIAL / GESTORÍA</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>A.P. PENSIÓN</controllingFieldValue>
+            <valueName>A.P. PENSIÓN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HIPOTECAS</controllingFieldValue>
+            <valueName>CLAUSULAS SUELO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HIPOTECAS</controllingFieldValue>
+            <valueName>COMISIONES ABUSIVAS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HIPOTECAS</controllingFieldValue>
+            <valueName>GASTOS HIPOTECA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HIPOTECAS</controllingFieldValue>
+            <valueName>IRPH</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HIPOTECAS</controllingFieldValue>
+            <valueName>MULTIDIVISA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HIPOTECAS</controllingFieldValue>
+            <valueName>OPOSICION EJECUCION HIPOTECARIA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INSTITUCIONALES</controllingFieldValue>
+            <controllingFieldValue>PARTICULARES</controllingFieldValue>
+            <valueName>VIVIENDA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MONITORIO</controllingFieldValue>
+            <valueName>MONITORIO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>OTROS</controllingFieldValue>
+            <valueName>ATÍPICO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>OTROS</controllingFieldValue>
+            <valueName>VARIOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>OTROS</controllingFieldValue>
+            <valueName>EXTRAJUDICIAL / GESTORÍA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PARTICULARES</controllingFieldValue>
+            <valueName>ACCIDENTES TRÁFICO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PARTICULARES</controllingFieldValue>
+            <valueName>ASESORAMIENTO CONTRATOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PARTICULARES</controllingFieldValue>
+            <valueName>AVAL PERSONAL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PARTICULARES</controllingFieldValue>
+            <valueName>CÁRTEL DE COCHES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PARTICULARES</controllingFieldValue>
+            <valueName>CONTRATO FINANCIERO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PARTICULARES</controllingFieldValue>
+            <valueName>CUOTAS PARTICIPATIVAS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PARTICULARES</controllingFieldValue>
+            <valueName>DEUDA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PARTICULARES</controllingFieldValue>
+            <valueName>DIVORCIO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PARTICULARES</controllingFieldValue>
+            <valueName>FICHEROS IMPAGADOS ACCESO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PARTICULARES</controllingFieldValue>
+            <valueName>FICHEROS IMPAGADOS RECLAMACIÓN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PARTICULARES</controllingFieldValue>
+            <valueName>FONDO INVERSIÓN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PARTICULARES</controllingFieldValue>
+            <valueName>HERENCIA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PARTICULARES</controllingFieldValue>
+            <valueName>INCAPACIDAD JUDICIAL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PARTICULARES</controllingFieldValue>
+            <valueName>SUCESIONES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PARTICULARES</controllingFieldValue>
+            <valueName>TESTAMENTO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PRESTAMOS</controllingFieldValue>
+            <valueName>PP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PRESTAMOS</controllingFieldValue>
+            <valueName>PRESTAMOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PRESTAMOS</controllingFieldValue>
+            <valueName>RECLAMACIÓN POR CANTIDAD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TARJETAS</controllingFieldValue>
+            <valueName>REVOLVING</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VALORES</controllingFieldValue>
+            <valueName>ACCIONES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VALORES</controllingFieldValue>
+            <valueName>AFS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VALORES</controllingFieldValue>
+            <valueName>BONOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VALORES</controllingFieldValue>
+            <valueName>GOWEX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VALORES</controllingFieldValue>
+            <valueName>OBS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VALORES</controllingFieldValue>
+            <valueName>PAGARE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VALORES</controllingFieldValue>
+            <valueName>REPSOL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VALORES</controllingFieldValue>
+            <valueName>SOS CUETARA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VALORES</controllingFieldValue>
+            <valueName>SWAPS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VALORES</controllingFieldValue>
+            <valueName>UNIÓN FENOSA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VALORES</controllingFieldValue>
+            <valueName>VALORES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VALORES</controllingFieldValue>
+            <valueName>WARRANTS</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>InicioAtenComNoLaborable__c</fullName>
+    <description>Indica el horario de atención comercial en fines de semana y festivos (inicio)</description>
+    <externalId>false</externalId>
+    <label>Inicio atención comercial (no laborable)</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Time</type>
+</CustomField>

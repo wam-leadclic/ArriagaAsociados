@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Oculto__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Marcar este check hace que la cuenta deje de estar visible para usuarios no administradores</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Marcar este check hace que la cuenta deje de estar visible para usuarios no administradores</inlineHelpText>
+    <label>¿Confirma que desea ocultar el registro?</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,30 @@
+.sidebar-cell {
+    width: 14.2857142857%;
+    display: inline-block;
+}
+
+.sidebar-cell:not(.disabled-cell):hover {
+    cursor: pointer;
+    background-color: rgb(227, 231, 236);
+}
+
+.disabled-cell {
+    background-color: rgb(243, 242, 242);
+}
+
+.month-day-name {
+    width: 14.28571428571429%;
+    display: inline-block;
+}
+
+.selected {
+    background-color: rgb(68, 197, 247);
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.sidebar-header-fonts {
+    font-size: 0.75rem;
+}

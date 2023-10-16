@@ -7,6 +7,7 @@
     <connectorUrl>https://arriagaasociados.my.salesforce.com/hvcc/amz/index.html</connectorUrl>
     <developerName>SERVICE_CLOUD_VOICE</developerName>
     <einsteinConversationInsightsSupported>false</einsteinConversationInsightsSupported>
+    <intelligenceSupported>false</intelligenceSupported>
     <isTaxCompliant>true</isTaxCompliant>
     <keyProvisioningSupported>false</keyProvisioningSupported>
     <masterLabel>Service Cloud Voice</masterLabel>

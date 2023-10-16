@@ -1,0 +1,29 @@
+<template>
+ 
+    <lightning-card  title={attendeeName} icon-name={iconName}>
+        
+        <template if:false={isDataLoaded}>
+            <lightning-spinner alternative-text="Loading"></lightning-spinner>
+        </template>
+
+            <template if:true={recordInfo}>
+                
+                <lightning-record-view-form record-id={attendeeId} object-api-name={recordInfo.apiName}>
+
+                    <div class="slds-grid slds-p-around_small">
+                        <template for:each={recordInfo.fields} for:item="field">
+                    
+                            <div  key={field} class="slds-col">
+                                    <lightning-output-field key={field} field-name={field}> 
+                
+                                    </lightning-output-field>
+                                </div>
+                            
+                        </template>
+                    </div>
+                
+                </lightning-record-view-form>
+                
+            </template>
+    </lightning-card>
+</template>

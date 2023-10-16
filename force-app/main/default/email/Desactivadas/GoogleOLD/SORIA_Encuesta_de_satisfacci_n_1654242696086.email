@@ -1,0 +1,20 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<p style="text-align: center;">Buenos días,&nbsp;{{{Account.FirstName}}}&nbsp;<br />
+&nbsp;<br />
+&nbsp;<br />
+¿Cómo ha sido la atención recibida en nuestra oficina?&nbsp;</p>
+
+<p style="text-align: center;">&nbsp;<br />
+¡Comparte tu experiencia y ayúdanos a mejorar!&nbsp;</p>
+
+<p style="text-align: center;"><a href="https://www.google.com/search?q=arriaga+asociados+soria+google&amp;rlz=1C1CHBF_esES1002ES1002&amp;sxsrf=ALiCzsYj5qkFFjivcMdz-EFle2Dud41vzA:1653209244532&amp;ei=nPiJYvKKIOWM9u8P7sOqiAs&amp;ved=0ahUKEwjyyImu3PL3AhVlhv0HHe6hCrEQ4dUDCA4&amp;uact=5&amp;oq=arriaga+asociados+soria+google&amp;gs_lcp=Cgdnd3Mtd2l6EAM6BwgjELADECc6BwgAEEcQsANKBAhBGABKBAhGGABQrwNY8Qlg2A9oAXABeACAAeIBiAGoBZIBBTIuMi4xmAEAoAEByAEJwAEB&amp;sclient=gws-wiz"><b>ESCRIBE TU RESEÑA PINCHANDO AQUI</b></a></p>
+
+<p style="text-align: center;">&nbsp;</p>
+
+<p style="text-align: center;">Arriaga Asociados&nbsp;</p>
+</body>
+</html>

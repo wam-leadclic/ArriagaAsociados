@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EnviadoSQLServer__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Los pagos que son enviados a través de ETL a SQL Server se marcan para que solo se envíe la información una única vez</description>
+    <externalId>false</externalId>
+    <label>Enviado a SQL Server</label>
+    <trackHistory>true</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

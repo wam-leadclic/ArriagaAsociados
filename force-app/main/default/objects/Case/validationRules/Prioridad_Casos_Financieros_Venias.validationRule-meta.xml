@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prioridad_Casos_Financieros_Venias</fullName>
+    <active>true</active>
+    <description>Para los casos de financiero y del tipo venia solo se pueden seleccionar la prioridad alta y crítica</description>
+    <errorConditionFormula>ISPICKVAL(Type, &apos;Venia&apos;) &amp;&amp;
+NOT(ISPICKVAL( Priority , &apos;Alta&apos;) || ISPICKVAL( Priority , &apos;Crítica&apos;))</errorConditionFormula>
+    <errorDisplayField>Priority</errorDisplayField>
+    <errorMessage>Para los casos del tipo venia solo se puede seleccionar la prioridad alta o crítica</errorMessage>
+</ValidationRule>

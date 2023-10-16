@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Nueva solicitud GDPR</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Arriaga</letterhead>
+    <name>Nueva solicitud GDPR</name>
+    <style>freeForm</style>
+    <subject>Nueva solicitud GDPR</subject>
+    <textOnly>Estimado Carlos,
+
+Se ha recibido una nueva solicitud GDPR, con el siguiente texto:
+
+{!lcs_gdpr__GDPRRequest__c.lcs_gdpr__RequestText__c}
+
+Puedes ver más detalles a través de este enlace.
+
+Un saludo</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ProductoFormularioWeb__c</fullName>
+    <description>Id del producto en el que muestra interés el candidato a través de un formulario web</description>
+    <externalId>false</externalId>
+    <label>Producto Formulario Web</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

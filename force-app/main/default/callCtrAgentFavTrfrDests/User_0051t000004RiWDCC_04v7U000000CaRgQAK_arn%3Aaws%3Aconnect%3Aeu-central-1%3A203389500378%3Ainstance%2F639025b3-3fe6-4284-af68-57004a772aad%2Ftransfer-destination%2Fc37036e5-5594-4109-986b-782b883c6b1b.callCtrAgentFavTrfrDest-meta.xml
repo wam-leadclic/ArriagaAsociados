@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CallCtrAgentFavTrfrDest xmlns="http://soap.sforce.com/2006/04/metadata">
+    <agent>cmaldonado@arriagaasociados.com</agent>
+    <callCenter>Arriagaasociadosprod</callCenter>
+    <name>User_0051t000004RiWDCC_04v7U000000CaRgQAK_arn:aws:connect:eu-central-1:203389500378:instance/639025b3-3fe6-4284-af68-57004a772aad/transfer-destination/c37036e5-5594-4109-986b-782b883c6b1b</name>
+    <transferDestination>arn:aws:connect:eu-central-1:203389500378:instance/639025b3-3fe6-4284-af68-57004a772aad/transfer-destination/c37036e5-5594-4109-986b-782b883c6b1b</transferDestination>
+</CallCtrAgentFavTrfrDest>

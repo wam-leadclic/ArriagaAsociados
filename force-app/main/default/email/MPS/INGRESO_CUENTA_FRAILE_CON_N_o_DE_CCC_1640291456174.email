@@ -1,0 +1,19 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<p>Buenos días {{{Recipient.FirstName}}}:</p>
+
+<p>Nos ponemos en contacto, para informarte que el Banco ha pagado en la cuenta del Procurador Fraile Mena, lo relacionado a tu procedimiento de reclamación con número de expediente<span style="color:#e74c3c;"> <b>(</b><b>X</b><b>XXXX</b></span><b><span style="color:#e74c3c;">)</span>.</b> de <span style="color:#e74c3c;">(nombre del producto) </span>frente a <span style="color:#e74c3c;">(nombre del banco)</span> por importe de <span style="color:#e74c3c;">(cantidad €).</span>&nbsp;</p>
+
+<p>En un plazo estimado de 10 a 15 días<b> </b>recibirás la transferencia relacionada <b>en el número de cuenta que nos facilitaste y que consta en nuestra base de datos, del banco<span style="color:#e74c3c;"> </span></b><span style="color:#e74c3c;"><b>(XXX)</b></span><b> que finaliza en<span style="color:#e74c3c;"> </span></b><span style="color:#e74c3c;"><b>(XXX)</b></span><b>&nbsp;</b>&nbsp;</p>
+
+<p><b>Te r</b><b>ogamos, por favor, revises si la cuenta mencionada en el email es correcta y está vigente, para realizar la transferencia,</b> si necesitas hacer alguna corrección puedes hacerla contestando a este mismo mail.&nbsp;&nbsp;&nbsp;</p>
+
+<p>Si tienes alguna duda, recuerda que puedes ponerte en contacto con nosotros al teléfono <b>91 005 2600</b> o visitando <b>TU ESPACIO ARRIAGA</b>, nuestro portal de cliente (si no tienes claves de acceso, puedes llamarnos y te ayudaremos)&nbsp;</p>
+
+<p>Gracias por confiar en nosotros.<br />
+​​​​​​​​​​​​​​Departamento de Sentencias.</p>
+</body>
+</html>

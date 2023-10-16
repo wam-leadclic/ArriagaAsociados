@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Dirección email no registrado Cliente</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Comunidad_Arriaga</letterhead>
+    <name>Dirección email no registrado Cliente</name>
+    <style>formalLetter</style>
+    <subject>Correo Electrónico no registrado</subject>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

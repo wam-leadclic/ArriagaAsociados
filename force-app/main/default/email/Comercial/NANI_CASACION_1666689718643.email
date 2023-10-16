@@ -1,0 +1,22 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;"><br />
+<br />
+Buenos días, {{{Recipient.FirstName}}}<br />
+<br />
+Con respecto a su expediente número <span style="color:#c0392b;">(agregar manualmente número de expediente)</span> del producto <span style="color:#c0392b;">(agregar manualmente nombre de producto)</span> y conforme a la conversación mantenida, le envío las condiciones de la hoja de encargo para <span style="color:#c0392b;">(agregar manualmente presentar recurso de casación/oponernos al recurso)</span> ante la sentencia dictada por la Audiencia Provincial de <span style="color:#c0392b;">(agregar manualmente la PROVINCIA)</span>.&nbsp;<br />
+<br />
+<strong>Tal como le hemos explicado, su caso ha llegado al Tribunal Supremo y esa instancia no la cubre la HE firmada con nosotros.</strong>&nbsp;<br />
+<br />
+<strong>Para poder representarle ante esta instancia es imprescindible que nos devuelva la hoja de encargo firmada, puesto que el recurso puede tener costes asociados (los cuales se detallan en la hoja de encargo). &nbsp;</strong><br />
+<br />
+Si pasadas <span style="color:#c0392b;">(agregar manualmente plazo de tiempo en horas)</span> no la hemos recibido, entenderemos que finalmente no desea que le representemos en este procedimiento.<br />
+<br />
+Si tiene cualquier consulta, no dude en hacerla<u> respondiendo a este mismo mail</u><br />
+<br />
+<br />
+Gracias por confiar en nosotros.<br />
+Equipo Arriaga Asociados&nbsp;</body>
+</html>

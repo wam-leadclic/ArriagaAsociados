@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BloquearGanadaSinProducto</fullName>
+    <active>true</active>
+    <description>Bloquea las oportunidades que no tienen Producto de Oportunidad</description>
+    <errorConditionFormula>AND(
+Text(StageName)=$Label.OportunidadCerragaGanada,
+ISCHANGED(StageName),
+TotalProductos__c = 0
+)</errorConditionFormula>
+    <errorMessage>La Oportunidad debe tener un Producto de Oportunidad!</errorMessage>
+</ValidationRule>

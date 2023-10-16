@@ -1,0 +1,17 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Estimado {{{Case.Account}}}:<br />
+<br />
+En relación a su expediente número {{{Case.NumeroExpediente__c}}} le confirmamos que estamos estudiando lo ocurrido en el mismo con un equipo de abogados especialistas para darle respuesta lo antes posible.<br />
+El número de referencia es: {{{Case.CaseNumber}}}.<br />
+<br />
+El proceso de valoración del caso y por tanto el tiempo para darle una respuesta depende de muchos factores, por lo que podría llevarnos más tiempo del que quisiéramos. Le pedimos paciencia y confianza, estaremos trabajando para su resolución y nos pondremos en contacto por teléfono al número que tenemos registrado o le escribiremos a esta misma dirección de email cuando tengamos noticias.<br />
+<br />
+Siempre que lo necesite puede ponerse en contacto con nosotros al teléfono gratuito 900 264 600 o al 918289000 y aportando el número de caso le informaremos.<br />
+<br />
+Un cordial saludo.<br />
+<br />
+<strong>Arriaga Asociados</strong></body>
+</html>

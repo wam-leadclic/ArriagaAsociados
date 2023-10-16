@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mis_Rectificaciones</fullName>
+    <columns>NAME</columns>
+    <columns>lcs_gdpr__Type__c</columns>
+    <columns>lcs_gdpr__Status__c</columns>
+    <columns>lcs_gdpr__Individual__c</columns>
+    <columns>OWNER.FIRST_NAME</columns>
+    <columns>lcs_gdpr__Subject__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>LAST_UPDATE</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>lcs_gdpr__Type__c</field>
+        <operation>equals</operation>
+        <value>Rectificación</value>
+    </filters>
+    <label>Mis Rectificaciones</label>
+</ListView>

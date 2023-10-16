@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Arriaga_plantilla_casos</letterhead>
+    <name>PRESENTACIÓN DE DEMANDA DE EJECUCIÓN</name>
+    <style>formalLetter</style>
+    <subject>PRESENTACIÓN DE DEMANDA DE EJECUCIÓN</subject>
+    <textOnly>Estimado {!Contact.FirstName},
+
+
+
+En respuesta a su consulta le confirmamos que, tras presentar demanda de ejecución forzosa de su sentencia, estamos a la espera de que el Juzgado la tramite. Posteriormente, realizaremos las tareas necesarias para el cumplimiento de la sentencia y el cobro de las cantidades que procedan.
+
+
+
+En cuanto esto ocurra, nos pondremos en contacto con usted para informarle.
+
+
+
+Si necesita más información estamos a su disposición en el teléfono de atención al cliente 91 005 26 00.
+
+Reciba un cordial saludo.
+
+{!Case.OwnerFirstName} {!Case.OwnerLastName}
+
+Departamento de Atención al Cliente.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

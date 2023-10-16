@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CondicionCierreObligatoria</fullName>
+    <active>true</active>
+    <description>Informar el campo Condición de cierre al cerrar el caso</description>
+    <errorConditionFormula>AND (
+  OR(ISPICKVAL(Status, &apos;Cerrado&apos;),ISPICKVAL(Status, &apos;Aceptación&apos;)),
+  ISPICKVAL(CondicionCierre__c , &apos;&apos;),
+ RecordType.DeveloperName = &apos;FinancieroResoluciones&apos; 
+)</errorConditionFormula>
+    <errorDisplayField>AssetId</errorDisplayField>
+    <errorMessage>Debe indicar si el caso se cierra con factura o sin factura</errorMessage>
+</ValidationRule>

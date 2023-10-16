@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>CAMBIO DE CORREO ELECTRÓNICO EN BBDD para notificaciones mail</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>CAMBIO DE DATOS - CORREO ELECTRONICO</name>
+    <relatedEntityType>Contract</relatedEntityType>
+    <style>none</style>
+    <subject>Arriaga Asociados | datos de contacto</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Finalidad__c</fullName>
+    <externalId>false</externalId>
+    <label>Finalidad</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Otros</fullName>
+                <default>false</default>
+                <label>Otros</label>
+            </value>
+            <value>
+                <fullName>Prest. Negocio</fullName>
+                <default>false</default>
+                <label>Prest. Negocio</label>
+            </value>
+            <value>
+                <fullName>Prest. Refinanciación deudas negocio</fullName>
+                <default>false</default>
+                <label>Prest. Refinanciación deudas negocio</label>
+            </value>
+            <value>
+                <fullName>Prest. Refinanciación deudas vivienda habitual</fullName>
+                <default>false</default>
+                <label>Prest. Refinanciación deudas vivienda habitual</label>
+            </value>
+            <value>
+                <fullName>Prest. Segunda residencia</fullName>
+                <default>false</default>
+                <label>Prest. Segunda residencia</label>
+            </value>
+            <value>
+                <fullName>Prest. Vivienda habitual</fullName>
+                <default>false</default>
+                <label>Prest. Vivienda habitual</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

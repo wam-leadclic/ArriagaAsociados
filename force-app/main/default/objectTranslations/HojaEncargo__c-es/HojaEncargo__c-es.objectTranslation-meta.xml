@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Hoja de Encargo</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Hojas de Encargo</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Formato Hoja de Encargo</layout>
+        <sections>
+            <label></label>
+            <section>Importes</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>PDF</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

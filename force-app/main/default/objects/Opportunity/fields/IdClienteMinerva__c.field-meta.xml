@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IdClienteMinerva__c</fullName>
+    <description>Se informa en la oportunidad el id del cliente para enviarselo a minerva al cargar documentos</description>
+    <externalId>false</externalId>
+    <formula>Account.IdClienteMinerva__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Id Cliente Minerva</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

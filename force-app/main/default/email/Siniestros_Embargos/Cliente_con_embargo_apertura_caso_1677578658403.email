@@ -1,0 +1,31 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;"><span style="line-height:107%"><span style="color:black"><span style="position:relative"><span style="top:-0.5pt">Buenos días,<font face="Arial, Helvetica, sans-serif">&nbsp;</font></span></span></span></span>{{{Recipient.FirstName}}};<br />
+<br />
+En relación a su expediente&nbsp;{{{Case.Expediente__c}}}, &nbsp;le confirmamos que vamos a estudiar lo ocurrido en el mismo de manera urgente con nuestro equipo de abogados especialistas para darle respuesta.&nbsp;<br />
+<br />
+Para analizarlo cuanto antes <strong>es estrictamente necesario que nos facilite cualquiera de la siguiente documentación;</strong><br />
+<br />
+-El justificante bancario de embargo.&nbsp;<br />
+<br />
+-La notificación de que se le va a embargar o, <strong>importante</strong>, deberá indicar la fecha en la que le han notificado el mismo o cualquier otra prueba documental de la retención que recoja los siguientes apartados:&nbsp;
+<ul>
+	<li>La cuantía.</li>
+	<li>El concepto y/o asunto del embargo.&nbsp;</li>
+	<li>La fecha de cuándo se produjo el embargo.&nbsp;</li>
+</ul>
+<strong>Por favor, <u>adjunte la documentación respondiendo a este mismo correo</u>, no genere un nuevo email para evitar posibles retrasos en la gestión del asunto.&nbsp;</strong><br />
+<br />
+El número de referencia de su caso ha quedado registrado y es{{{Case.CaseNumber}}}&nbsp;.<br />
+<br />
+Al recibir su documentación nos pondremos en contacto por teléfono al número que tenemos registrado o le escribiremos a esta misma dirección de email para confirmarle los próximos pasos en la resolución de su caso.<br />
+<br />
+Siempre que lo necesite puede ponerse en contacto con nosotros al teléfono gratuito 900 264 600 o al 918289000 o respondiendo a este mismo mail y le informaremos.<br />
+<br />
+<br />
+<br />
+Un cordial saludo.&nbsp;<br />
+Equipo Arriaga Asociados</body>
+</html>

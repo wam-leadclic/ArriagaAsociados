@@ -1,0 +1,36 @@
+<table border="0" cellpadding="5" width="600" cellspacing="5" height="400" >
+<tr valign="top" height="50" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[]]></td>
+</tr>
+<tr valign="top" height="300" >
+<td tEditID="c1r2" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r2" locked="0" >
+<![CDATA[<p style="margin-bottom: 7.95pt; text-align: justify; line-height: 105%;"><font style="" face="Times New Roman, Times, serif">Estimado {!Contact.FirstName},<o:p></o:p></font></p>
+
+<p style="color: rgb(0, 0, 0); margin-bottom: 12pt; text-align: justify; line-height: 105%;"><font face="Times New Roman, Times, serif"><br></font></p>
+
+<p style="color: rgb(0, 0, 0); margin-bottom: 7.95pt; text-align: justify; line-height: 105%;"><font face="Times New Roman, Times, serif">En respuesta
+a su consulta le confirmamos que, tras presentar demanda de ejecución forzosa
+de su sentencia, estamos a la espera de que el Juzgado la tramite.
+Posteriormente<b><span style="color:#000099">,</span></b> realizaremos las
+tareas necesarias para el cumplimiento de la sentencia y el cobro de las
+cantidades que procedan.<o:p></o:p></font></p><p style="color: rgb(0, 0, 0); margin-bottom: 7.95pt; text-align: justify; line-height: 105%;"><font face="Times New Roman, Times, serif"><br></font></p>
+
+<p style="color: rgb(0, 0, 0); margin-bottom: 7.95pt; text-align: justify; line-height: 105%;"><font face="Times New Roman, Times, serif">En cuanto
+esto ocurra, nos pondremos en contacto con usted para informarle.</font></p><p style="color: rgb(0, 0, 0); margin-bottom: 7.95pt; text-align: justify; line-height: 105%;"><font face="Times New Roman, Times, serif"><br></font></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); margin-bottom: 7.95pt; text-align: justify; line-height: 105%;"><span style="mso-fareast-font-family:&quot;Times New Roman&quot;;
+mso-bidi-font-family:Calibri"><font face="Times New Roman, Times, serif">Si necesita más información estamos a su
+disposición en el teléfono de atención al cliente 91 005 26 00.<o:p></o:p></font></span></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); margin-bottom: 7.95pt; text-align: justify; line-height: 105%;"><span style="mso-fareast-font-family:&quot;Times New Roman&quot;;
+mso-bidi-font-family:Calibri"><font face="Times New Roman, Times, serif">Reciba un cordial saludo.</font></span></p><p class="MsoNormal" style="margin-bottom: 7.95pt; text-align: justify; line-height: 105%;"><font face="Times New Roman, Times, serif">{!Case.OwnerFirstName} {!Case.OwnerLastName}</font></p>
+
+<p style="color: rgb(0, 0, 0); margin-bottom: 7.95pt; text-align: justify; line-height: 105%;"><font face="Times New Roman, Times, serif">Departamento
+de Atención al Cliente.</font><span style="font-family: Calibri, sans-serif; font-size: 12pt;"><o:p></o:p></span></p>]]></td>
+</tr>
+<tr valign="top" height="50" >
+<td tEditID="c1r3" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r3" locked="0" >
+<![CDATA[<span style="font-size: medium;"><font color="#ffffff">{!Case.Thread_Id}</font></span>]]></td>
+</tr>
+</table>

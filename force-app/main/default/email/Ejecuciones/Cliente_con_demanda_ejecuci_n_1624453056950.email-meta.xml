@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Cliente con demanda ejecución para Casos</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Cliente con demanda ejecución</name>
+    <relatedEntityType>Case</relatedEntityType>
+    <style>none</style>
+    <subject>INFORMACIÓN IMPORTANTE SOBRE TU SENTENCIA | Arriaga Asociados</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

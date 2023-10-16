@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Trustpilot</fullName>
+        <default>false</default>
+        <label>Trustpilot</label>
+    </customValue>
+    <customValue>
+        <fullName>No Enviar</fullName>
+        <default>false</default>
+        <label>No Enviar</label>
+    </customValue>
+    <customValue>
+        <fullName>Google</fullName>
+        <default>false</default>
+        <label>Google</label>
+    </customValue>
+    <masterLabel>Redes Sociales</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

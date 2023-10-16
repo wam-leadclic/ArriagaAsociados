@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>CALLBACK CALL CENTER</name>
+    <queueMembers>
+        <users>
+            <user>amoron@arriagaasociados.com</user>
+            <user>aruano@arriagaasociados.com</user>
+            <user>cmaldonado@arriagaasociados.com</user>
+            <user>ealbujar@arriagaasociados.com</user>
+            <user>gbernardez@arriagaasociados.com</user>
+            <user>gpalacios@arriagaasociados.com</user>
+            <user>jluque@arriagaasociados.com</user>
+            <user>jborras@arriagaasociados.com</user>
+            <user>larcas@arriagaasociados.com</user>
+            <user>mcastora@arriagaasociados.com</user>
+            <user>mdnsaz@arriagaasociados.com</user>
+            <user>mpmartin@arriagaasociados.com</user>
+            <user>mepelaez@arriagaasociados.com</user>
+            <user>mfsarmiento@arriagaasociados.com</user>
+            <user>mhmedina@arriagaasociados.com</user>
+            <user>msmoreno@arriagaasociados.com</user>
+            <user>marenal@arriagaasociados.com</user>
+            <user>mreyesb@arriagaasociados.com</user>
+            <user>mmlopez@arriagaasociados.com</user>
+            <user>mespi@arriagaasociados.com</user>
+            <user>pmendez@arriagaasociados.com</user>
+            <user>sabadito@arriagaasociados.com</user>
+            <user>ssanchez@arriagaasociados.com</user>
+            <user>srodriguez@arriagaasociados.com</user>
+            <user>ymartin@arriagaasociados.com</user>
+        </users>
+    </queueMembers>
+    <queueRoutingConfig>OM_CallbackRouting</queueRoutingConfig>
+    <queueSobject>
+        <sobjectType>OM_Callback__c</sobjectType>
+    </queueSobject>
+</Queue>

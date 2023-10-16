@@ -1,0 +1,74 @@
+<template>
+    <div class="slds-grid slds-wrap calendar">
+        <div class="slds-size_1-of-1 calendarHeader">
+            <div class="slds-page-header slds-page-header_joined">
+                <div class="slds-grid">
+                    <div class="slds-col slds-has-flexi-truncate">
+                        <div class="slds-media slds-no-space slds-grow">
+                            <div class="slds-media__figure">
+                                <lightning-icon icon-name="action:new_event" alternative-text="calendar" size="x-small" ></lightning-icon>
+                            </div>
+                            <div class="slds-media__body slds-truncate">
+                                {calendarLabel}
+                                <template if:true={isMonth}>
+                                    <h1 class="slds-page-header__title slds-truncate">
+                                        <lightning-formatted-date-time value={selectedDate} year="numeric" month="long"></lightning-formatted-date-time>
+                                    </h1>
+                                </template>
+                                <template if:true={isWeek}>
+                                    <h1 class="slds-page-header__title slds-truncate">
+                                        <lightning-formatted-date-time value={viewStartDate} year="numeric" month="long" day="2-digit"></lightning-formatted-date-time>&nbsp;-&nbsp;
+                                        <lightning-formatted-date-time value={viewEndDate} year="numeric" month="long" day="2-digit"></lightning-formatted-date-time>
+                                    </h1>
+                                </template>
+                                <template if:true={isDay}>
+                                    <h1 class="slds-page-header__title slds-truncate">
+                                        <lightning-formatted-date-time value={selectedDate} year="numeric" month="long" day="2-digit"></lightning-formatted-date-time>
+                                    </h1>
+                                </template>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slds-col slds-no-flex slds-grid slds-align-top calendar-controls">
+                        <lightning-button-group class="slds-p-horizontal_x-small">
+                                <lightning-button-icon icon-name="utility:chevronleft" variant="border-filled"  onclick={previous} alternative-text={previousLabel}></lightning-button-icon>
+                                <lightning-button-icon icon-name="utility:chevronright" variant="border-filled"  onclick={next} alternative-text={nextLabel}></lightning-button-icon>
+                        </lightning-button-group>
+
+                        <lightning-button class="slds-p-right_xx-small" label={todayLabel} onclick={setToday}></lightning-button>
+
+                        <lightning-button-menu class="slds-p-horizontal_xx-small" alternative-text="Show menu" onselect={selectViewType} variant="border-filled" icon-name="utility:event">
+                            <template if:true={isDay}>
+                                <lightning-menu-item class="selected-view" value="day" label={dayLabel}></lightning-menu-item>
+                            </template>
+                            <template if:false={isDay}>
+                                <lightning-menu-item value="day" label={dayLabel}></lightning-menu-item>
+                            </template>
+                            <template if:true={isWeek}>
+                                <lightning-menu-item class="selected-view" value="week" label={weekLabel}></lightning-menu-item>
+                            </template>
+                            <template if:false={isWeek}>
+                                <lightning-menu-item value="week" label={weekLabel}></lightning-menu-item>
+                            </template>
+                            <template if:true={isMonth}>
+                                <lightning-menu-item class="selected-view" value="month" label={monthLabel}></lightning-menu-item>
+                            </template>
+                            <template if:false={isMonth}>
+                                <lightning-menu-item value="month" label={monthLabel}></lightning-menu-item>
+                            </template>
+                        </lightning-button-menu>
+
+                        <template if:true={showNewEvent}>
+                            <lightning-button class="slds-p-left_xx-small" label={newEventLabel} onclick={handleNewEvent}></lightning-button>
+                        </template>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <c-calendar onhandleeventclick={handleEventClickEvent} user-time-zone={_userTimeZone} time-zone-offset={timeZoneOffset} calendar-events={events} start-date={_startDate} end-date={_endDate} view-start-date={viewStartDate} view-end-date={viewEndDate} view-type={_viewType} selected-date={selectedDate} need-to-redirect={redirectToEvent}></c-calendar>
+    
+        <template if:true={showSidebar}>
+            <c-calendar-sidebar user-time-zone={_userTimeZone} start-date={_startDate} end-date={_endDate} onnavigatetodate={setDate}></c-calendar-sidebar>
+        </template>
+    </div>
+</template>

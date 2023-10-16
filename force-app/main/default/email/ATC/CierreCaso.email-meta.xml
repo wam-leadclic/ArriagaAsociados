@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Plantilla para el cierre automático de casos</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Cierre de caso</name>
+    <style>none</style>
+    <subject>Cierre de su consulta</subject>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

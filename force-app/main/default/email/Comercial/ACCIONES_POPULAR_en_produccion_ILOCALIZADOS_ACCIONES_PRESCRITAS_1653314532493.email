@@ -1,0 +1,24 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<p>Buenos días, {{{Account.FirstName}}}</p>
+
+<p>Nos ponemos en contacto por esta vía tras múltiples intentos infructuosos, todo ello con la intención de comunicarle una importante novedad sobre su procedimiento de <b>ACCIONES POPULAR, </b>expediente contratado con <span style="color:#c0392b;"><b>nº xxxxxx.&nbsp;</b></span></p>
+
+<p>El Tribunal de Justicia Europeo dictó el pasado 5 de mayo de 2022 una desafortunada sentencia (asunto C-410/20) donde establece que la normativa europea sobre recuperación y resolución de entidades financieras (Directiva 2014/59/UE del Parlamento Europeo y del Consejo), <b>se opone al ejercicio de las acciones de responsabilidad por las falsedades y omisiones del Folleto de la ampliación de capital del Banco Popular y de nulidad del contrato de suscripción de las acciones.</b>&nbsp;</p>
+
+<p>Esto<b> </b>significa que<b> claramente no es prudente ni estratégico presentar su demanda y avanzar a vía judicial, ya que la misma, terminaría siendo desestimada y esto podría ocasionarle importantes perjuicios económicos como la imposición de costas.&nbsp;</b>&nbsp;</p>
+
+<p><b>Por todo ello y con la intención de velar por sus intereses procederemos a desistir, dando por finalizado el encargo</b>,<b> </b>por entender que se trata de la decisión más acertada y que mejor defiende sus intereses&nbsp;</p>
+
+<p>Agradecemos su confianza {{{Account.FirstName}}}, y recuerde que, si tiene alguna duda, puede ponerse en contacto con nosotros al teléfono <b>900 264 540,</b> o visitando T<b>U ESPACIO ARRIAGA</b>, nuestro portal de cliente (si no tiene claves de acceso, puede llamarnos y le ayudaremos)&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>Un cordial saludo.&nbsp;</p>
+
+<p>Equipo Arriaga Asociados</p>
+
+</body></html>

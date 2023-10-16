@@ -1,0 +1,14 @@
+.labelmobielmenu{
+    text-transform: uppercase;
+    background-color: rgba(111, 111, 111, 0.75);
+    margin-bottom: 1px;
+}
+.devmenu .comm-navigation__item label{
+    cursor: pointer;
+}
+.devmenu .comm-navigation__item label:hover{
+    text-decoration: underline;
+}
+.imgLogo{
+    height: 30px;
+}

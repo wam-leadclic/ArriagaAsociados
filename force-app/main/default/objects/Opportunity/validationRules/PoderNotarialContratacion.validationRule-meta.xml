@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PoderNotarialContratacion</fullName>
+    <active>false</active>
+    <description>El campo poder notarial debe tener un valor diferente a &quot;Ninguno&quot; para poder pasar a la etapa de contratación</description>
+    <errorConditionFormula>AND(
+   ISPICKVAL( Account.PoderNotarial__c , &quot;Ninguno&quot;),
+   OR(
+      ISPICKVAL(  StageName  , &quot;Contratación&quot;),
+      ISPICKVAL(  StageName  , &quot;Pago&quot;),
+      ISPICKVAL(  StageName  , &quot;Cerrada ganada&quot;)
+   ) 
+)</errorConditionFormula>
+    <errorMessage>Debe seleccionar un valor para el campo &quot;Poder notarial&quot; de este cliente diferente a &quot;Ninguno&quot;</errorMessage>
+</ValidationRule>

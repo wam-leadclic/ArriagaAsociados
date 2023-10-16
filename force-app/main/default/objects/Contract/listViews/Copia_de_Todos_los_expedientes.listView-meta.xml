@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Copia_de_Todos_los_expedientes</fullName>
+    <columns>NumeroExpedienteF__c</columns>
+    <columns>CONTRACT.STATUS</columns>
+    <columns>CONTRACT.START_DATE</columns>
+    <columns>CONTRACT.END_DATE</columns>
+    <columns>SALES.ACCOUNT.NAME</columns>
+    <columns>Producto__c</columns>
+    <columns>CONTRACT.CREATED_DATE</columns>
+    <columns>NombreCortoOficina__c</columns>
+    <columns>FormaPagoLiquidacion__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Producto__c</field>
+        <operation>contains</operation>
+        <value>accidente</value>
+    </filters>
+    <filters>
+        <field>CONTRACT.STATUS</field>
+        <operation>notEqual</operation>
+        <value>No viable,DUPLICADO,NO CLIENTE</value>
+    </filters>
+    <label>Producto Accidentes Tráfico</label>
+    <sharedTo>
+        <role>Admin</role>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,38 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Estimado cliente<span style="line-height: 107%;"><span style="color: black;"><span style="position: relative;"><span style="top: -0.5pt;"><font face="Arial, sans-serif">&nbsp;</font></span></span></span></span>{{{Recipient.FirstName}}}:
+<p>En relación a tu expediente&nbsp;{{{Case.Expediente__c}}}, &nbsp;le recordamos que la entidad bancaria había recurrido la Sentencia de primera instancia al no estar conforme con la misma.&nbsp;<br />
+<br />
+Nos acaban de notificar la Sentencia que resuelve el recurso de apelación, la cual es favorable a nuestros intereses al haber desestimado en parte/totalmente el recurso del banco // desfavorable a nuestros intereses al haber estimado en parte/totalmente el recurso del banco.&nbsp;<br />
+<br />
+-La sentencia declara la <strong>nulidad, por abusiva, de la cláusula limitativa de los tipos de interés (cláusula suelo) del préstamo hipotecario,</strong> y se condena a la entidad bancaria a eliminarla del contrato, y a rehacer el cuadro de amortización de la hipoteca, lo que comporta el recálculo de las cuotas pagadas, y la obligación del banco de devolverle lo pagado de más, con los intereses legales desde la fecha del cobro indebido de esos importes.&nbsp;<br />
+<br />
+<strong>Según el cálculo elaborado por nuestro departamento económico, la cantidad que ha pagado de más asciende a<span style="color:#c0392b;"> (importe €)</span>, importe al que habrá que sumar los intereses legales desde la fecha de cada cuota pagada con suelo.&nbsp;</strong><br />
+<br />
+-Se declara la <strong>nulidad por abusiva de la cláusula de gastos del contrato de préstamo hipotecario</strong>, y se condena a la entidad bancaria a eliminarla del contrato, y a restituir al prestatario la cantidad total de <span style="color:#c0392b;">(importe €)</span>, <strong>con intereses legales desde la fecha de cada cobro indebido y hasta su completa devolución.</strong><br />
+<br />
+&nbsp;-Se declara la <strong>nulidad por abusiva de la cláusula de interés de demora.</strong> Se condena a la entidad bancaria a eliminarla del contrato, y a no aplicar ningún interés de demora en caso de abonarse cuotas hipotecarias fuera de plazo. Es un efecto a futuro, por lo que, si en algún caso estuviera en esta situación, recuerde que no pueden cobrarle ningún importe por este concepto.<br />
+<br />
+&nbsp;-Se declara <strong>válida y transparente la cláusula de comisión de apertura</strong>, dejando sin efecto el pago de la cantidad que inicialmente se había condenado al banco por el pago de esta comisión (importe €).<br />
+<br />
+&nbsp;-<span style="color:#c0392b;">No se condena al banco al pago de costas procesales, considerando que</span> <strong>la estimación de la demanda es parcial.&nbsp;</strong><br />
+<br />
+-Se condena al banco al pago de <strong>costas procesales de primera instancia.</strong>&nbsp;<br />
+<br />
+Asimismo, al desestimarse el recurso de apelación del banco, <strong>se le han impuesto las costas procesales de segunda instancia.&nbsp;</strong><br />
+<br />
+La sentencia será firme dentro de un mes, si no se recurre. A partir de ese momento, el banco tiene un mes más para cumplir voluntariamente la sentencia. Si no fuera así, tendríamos que ejecutar la sentencia para obligar al banco a cumplirla. En definitiva, el plazo de pago voluntario es de dos meses (sin contar agosto y el período navideño que son plazos inhábiles para cómputo de plazos civiles).&nbsp;<br />
+<br />
+El banco puede realizar el pago en el Juzgado, en cuyo caso nos lo notificarán y se lo comunicaremos, o bien, en su cuenta, en cuyo caso es muy importante que nos informe cuanto antes, para verificar que el importe sea correcto, y evitar actuaciones judiciales innecesarias.&nbsp;<br />
+<br />
+Si tiene alguna duda recuerda que puede ponerse en contacto con nosotros, respondiendo a este mismo correo electrónico o también visitando TU ESPACIO ARRIAGA, nuestro portal de cliente (si no tiene las claves de acceso, puede llamarnos al teléfono al 91 005 2600 y le ayudaremos).&nbsp;<br />
+<br />
+Le adjuntamos la sentencia.<br />
+<br />
+<br />
+<br />
+Gracias por confiar en nosotros.</p>
+</body>
+</html>

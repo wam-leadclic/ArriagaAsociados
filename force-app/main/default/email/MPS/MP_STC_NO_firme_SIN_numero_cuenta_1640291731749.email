@@ -1,0 +1,19 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<p>Buenos días {{{Recipient.FirstName}}}:</p>
+
+<p>Nos ponemos en contacto, para informarte que <b>hemos recibido un Mandamiento de Pago</b> <b>a tu favor </b>relacionado a tu procedimiento de reclamación de<span style="color:#e74c3c;"> (nombre del producto)</span> frente a <span style="color:#e74c3c;">(nombre del banco)</span>&nbsp;</p>
+
+<p>Para poder realizar la transferencia a tu favor por importe <span style="color:#e74c3c;">(cantidad €)</span> en concepto de principal, <b>precisamos nos envíes tu número de cuenta o IBAN. Puedes hacerlo respondiendo a este mismo correo electrónico.</b>&nbsp;&nbsp;&nbsp;</p>
+
+<p>Indicarte que este ingreso deriva de la condena establecida en el Fallo de tu Sentencia que, a fecha actual, no ha adquirido firmeza. Como consecuencia, te recomendamos cautela para disponer del importe, ya que es posible que sea objeto de regularización futura y ello implique la devolución de posibles cantidades a la parte contraria del procedimiento.&nbsp;</p>
+
+<p>Si tienes alguna duda, recuerda que puedes ponerte en contacto con nosotros al teléfono <b>gratuito 900 264 600</b> o visitando <b>TU ESPACIO ARRIAGA</b>, nuestro portal de cliente (si no tienes claves de acceso, puedes llamarnos y te ayudaremos)&nbsp;&nbsp;</p>
+
+<p>Gracias por confiar en nosotros.&nbsp;<br />
+​​​​​​​​​​​​​​​​​​​​​​​​​​​​Departamento de Sentencias.</p>
+</body>
+</html>

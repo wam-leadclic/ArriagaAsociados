@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Estado__c</fullName>
+    <description>Estado del evento, donde el asesor indicara si el cliente se ha presentado, si se ha modificado la fecha del evento o si se ha completado sin problemas</description>
+    <externalId>false</externalId>
+    <label>Estado</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Pendiente</fullName>
+                <default>false</default>
+                <label>Pendiente</label>
+            </value>
+            <value>
+                <fullName>Pendiente Online</fullName>
+                <default>false</default>
+                <label>Pendiente Online</label>
+            </value>
+            <value>
+                <fullName>Pendiente videollamada</fullName>
+                <default>false</default>
+                <label>Pendiente videollamada</label>
+            </value>
+            <value>
+                <fullName>No asiste</fullName>
+                <default>false</default>
+                <label>No asiste</label>
+            </value>
+            <value>
+                <fullName>Cancelada</fullName>
+                <default>false</default>
+                <label>Cancelada</label>
+            </value>
+            <value>
+                <fullName>Atendida</fullName>
+                <default>true</default>
+                <label>Atendida</label>
+            </value>
+            <value>
+                <fullName>Reagendada</fullName>
+                <default>false</default>
+                <label>Reagendada</label>
+            </value>
+            <value>
+                <fullName>Atendida videollamada</fullName>
+                <default>false</default>
+                <label>Atendida videollamada</label>
+            </value>
+            <value>
+                <fullName>Completado</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Completado</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Web</fullName>
+        <default>false</default>
+        <label>Web</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Call Center</fullName>
+        <default>false</default>
+        <label>Call Center</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Presencial Asesor</fullName>
+        <default>false</default>
+        <label>Presencial Asesor</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Presencial Administrativo</fullName>
+        <default>false</default>
+        <label>Presencial Administrativo</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Autocartera</fullName>
+        <default>false</default>
+        <label>Autocartera</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Facebook</fullName>
+        <default>false</default>
+        <label>Facebook</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Google</fullName>
+        <default>false</default>
+        <label>Google</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Integración</fullName>
+        <default>false</default>
+        <label>Integración</label>
+    </standardValue>
+    <standardValue>
+        <fullName>iMorosity</fullName>
+        <default>false</default>
+        <label>iMorosity</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Chat</fullName>
+        <default>false</default>
+        <label>Chat</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Whatsapp</fullName>
+        <default>false</default>
+        <label>WhatsApp</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Autocita</fullName>
+        <default>false</default>
+        <label>Autocita</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Jotform</fullName>
+        <default>false</default>
+        <label>Jotform</label>
+    </standardValue>
+</StandardValueSet>

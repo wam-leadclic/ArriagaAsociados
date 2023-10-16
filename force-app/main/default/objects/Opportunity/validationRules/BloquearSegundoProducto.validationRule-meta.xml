@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BloquearSegundoProducto</fullName>
+    <active>true</active>
+    <description>Impide añadir más de un producto a la oportunidad</description>
+    <errorConditionFormula>TotalProductos__c &gt; 1</errorConditionFormula>
+    <errorMessage>Sólo se puede vincular un producto a cada oportunidad</errorMessage>
+</ValidationRule>

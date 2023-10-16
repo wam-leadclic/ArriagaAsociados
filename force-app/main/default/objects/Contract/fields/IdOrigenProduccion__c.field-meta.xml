@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IdOrigenProduccion__c</fullName>
+    <description>Campo utilizado para reflejar que ha habido una insercción correcta contra producción. Usado en la integración</description>
+    <externalId>false</externalId>
+    <label>Id Origen Produccion</label>
+    <length>50</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

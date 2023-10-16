@@ -1,0 +1,19 @@
+<apex:page renderAs="pdf" controller="RecibiController"  action="{!getDatosOpp}"> 
+    <!-- Error Generar PDF -->
+    <apex:panelGrid columns="1" width="40%" style="Background: red; color:white;" rendered="{!errorObtencion == true}"> 
+        <apex:outputText value="{!$Label.errorRecibi}"/>
+    </apex:panelGrid> 
+    <c:RecibiCabecera numExpediente="{!numExpediente}" fechaHoy="{!fechaHoy}" ></c:RecibiCabecera>     
+    <div> 
+        <p>
+            En el presente documento queda reflejado que el cliente <apex:outputText value=" {!nombreCliente} "/> ha efectuado el pago relacionado con la contratación. Los datos del pago son los siguientes:
+        </p>
+        <p>
+            <apex:outputText rendered="{!descuentoPDF}" value="{!$Label.recibiDescuento}"/>
+        </p>
+        <ul>
+            <li><b>Importe : </b> <apex:outputText value="{!importePago}"/> </li>
+            <li><b>Forma de pago : </b> <apex:outputText value="{!metodoPago}"/> </li>                
+        </ul>        
+    </div>
+</apex:page>

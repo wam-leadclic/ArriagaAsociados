@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Control_Documento_Identificativo_Contact</fullName>
+    <active>false</active>
+    <description>Controla si el tipo de documento es correcto</description>
+    <errorConditionFormula>AND (
+NOT (ISNEW()),
+OR (
+ISPICKVAL(TipoDocumento__c,&quot;&quot;),
+ISPICKVAL(TipoDocumento__c,&quot;CIF&quot;),
+OR (ISNULL(DocumentoIdentidad__c), DocumentoIdentidad__c=&quot;&quot;),
+AND(
+NOT(ISPICKVAL(TipoDocumento__c,&quot;CIF&quot;)),
+OR (ISNUMBER(RIGHT(DocumentoIdentidad__c,1)), DocumentoIdentidad__c=&quot;&quot;))
+)
+)</errorConditionFormula>
+    <errorMessage>Si usted está creando un Contacto de una Empresa o Persona Jurídica, el Tipo de Documento no puede ser CIF. Verifique el Tipo y/o el Documento</errorMessage>
+</ValidationRule>

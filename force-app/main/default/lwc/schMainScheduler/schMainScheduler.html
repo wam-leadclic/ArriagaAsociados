@@ -1,0 +1,45 @@
+<template>
+    
+    <lightning-layout multiple-rows="true">
+        
+        <!-- attendee details-->
+        <lightning-layout-item padding="around-small" size="9">
+            <c-sch-attendee-detail></c-sch-attendee-detail>
+        </lightning-layout-item>
+
+        <lightning-layout-item padding="around-small" size="3">
+            <c-sch-product-info></c-sch-product-info>
+        </lightning-layout-item>
+            
+            <!-- resource and filters-->
+        <lightning-layout-item  size="12">
+            <lightning-layout multiple-rows="true"  >
+                
+                <lightning-layout-item  padding="around-small" flexibility="auto" size="12" medium-device-size="3">
+                    <c-sch-resources onprogressvaluechange={handleProgressValueChange}></c-sch-resources>
+                </lightning-layout-item>
+                    
+                <lightning-layout-item padding="around-small" flexibility="auto" size="12"  medium-device-size="9" >
+                    <c-sch-filters></c-sch-filters>
+                </lightning-layout-item>
+
+            </lightning-layout>
+        </lightning-layout-item>
+            
+        <!-- calendar and results -->
+        <lightning-layout-item flexibility="auto"  padding="around-small"  size="3">
+            
+            <c-sch-search  ></c-sch-search>
+            
+        </lightning-layout-item>
+
+        <lightning-layout-item flexibility="auto"  padding="around-small"  size="9">
+            
+            <c-calendar-wrapper  view-type="month" open-date={openDate} start-date={startDate} end-date={endDate}
+                                     show-sidebar="true"> </c-calendar-wrapper> 
+            
+        </lightning-layout-item>
+        
+    </lightning-layout>
+
+</template>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ValorEtiqueta__c</fullName>
+    <description>Almacenará el valor de la etiqueta que se mostrará en la comunidad del tipo de documento.</description>
+    <externalId>false</externalId>
+    <label>Valor etiqueta</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

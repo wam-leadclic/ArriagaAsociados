@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Banco</fullName>
+        <default>false</default>
+        <label>Banco</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Ayuntamiento</fullName>
+        <default>false</default>
+        <label>Ayuntamiento</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Empresa aseguradora</fullName>
+        <default>false</default>
+        <label>Empresa aseguradora</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Marca Automovilística</fullName>
+        <default>false</default>
+        <label>Marca Automovilística</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Concesionario</fullName>
+        <default>false</default>
+        <label>Concesionario</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Empresa de Recobro</fullName>
+        <default>false</default>
+        <label>Empresa de Recobro</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Gestoría</fullName>
+        <default>false</default>
+        <label>Gestoría</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Entidad acreedora</fullName>
+        <default>false</default>
+        <label>Entidad acreedora</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Fichero de impagados</fullName>
+        <default>false</default>
+        <label>Fichero de impagados</label>
+    </standardValue>
+</StandardValueSet>

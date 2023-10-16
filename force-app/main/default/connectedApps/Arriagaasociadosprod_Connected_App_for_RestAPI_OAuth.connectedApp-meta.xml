@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>soporte.arriaga@omegacrmconsulting.com</contactEmail>
+    <description>The connected app used for REST API OAuth for a Service Cloud Voice contact center</description>
+    <label>Arriagaasociadosprod Connected App for RestAPI OAuth</label>
+    <oauthConfig>
+        <callbackUrl>http://localhost:1717/OauthRedirect</callbackUrl>
+        <certificate>MIIDETCCAfkCFGhRys/6ix8DSysnuf0QWArZivvIMA0GCSqGSIb3DQEBCwUAMEUxCzAJBgNVBAYTAkFVMRMwEQYDVQQIDApTb21lLVN0YXRlMSEwHwYDVQQKDBhJbnRlcm5ldCBXaWRnaXRzIFB0eSBMdGQwHhcNMjEwOTI0MDkyODQyWhcNMjIwOTI0MDkyODQyWjBFMQswCQYDVQQGEwJBVTETMBEGA1UECAwKU29tZS1TdGF0ZTEhMB8GA1UECgwYSW50ZXJuZXQgV2lkZ2l0cyBQdHkgTHRkMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsPqfEQgBrAgZ2idBqT3aiCXILY1ma1+aAWWrZyXHhbFtE1JVXnygmF95oDg5inaFn6YS6ybzceZq4heqhXanLz/by4cJRddHyBAehjISTrS4N8Qmq3Vnq8qNb/MfYdtIYoCj49AewQPo3efyrNtnnpFztX9IlLJORqJwqW3Gv3hdfc2bgT5ExchJqm7NkRl8wTpJNHexN78qos9/8vNw8rUtDzVLop2QOE6MEXy3OHhbZRvbMNY4MqO6XBzXgGou5EqPKdOu3sbnkxALrHcNhpmp+hTztmmjA9Uf1S8I3vjn2GSa0YygOCBK8epl8EONqqc7M/y1Ohk79mR1vdogHwIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQBh+wDePijH8ZSIpr5ecGVbumzBXh1lE+xXP1dcZ+3Fs4AJ9McBGCESIJWlLWMq2m7IeQO8HI0htodQEbpGb+BQfUVkdPYZomKgR+2u7yT3LXvlyjt2n/qZysKlfDghQGfVM9Q7LdU1H9QGMRszi0xqYjN0ljEz8/aJ+Nx4rZT86qy4DU+jn0YtdKh+uplaaJTaFG46CdolB3yCMLxiQuXbp34DdGPpNHOgv9iiLb1PuEQJbXjIHFmhuTRBT1ooj5qcSTccIOBXNNYOGXe2E6/Al9O+nBKVElB8OG9yepFY3CBytRPr+pTdstuDZqwP5WJCOPcuRoK1TprFW9zJp/aE</certificate>
+        <consumerKey>3MVG9fTLmJ60pJ5IaszkdEMWwe1CxUgh.44bYWjLyNh8a92fVQBfWapZbeSoxM45ZtmsmdMth4rgtiMYa2i12</consumerKey>
+        <isAdminApproved>true</isAdminApproved>
+        <isClientCredentialEnabled>false</isClientCredentialEnabled>
+        <isCodeCredentialEnabled>false</isCodeCredentialEnabled>
+        <isCodeCredentialPostOnly>false</isCodeCredentialPostOnly>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <isNamedUserJwtEnabled>false</isNamedUserJwtEnabled>
+        <isSecretRequiredForRefreshToken>false</isSecretRequiredForRefreshToken>
+        <scopes>Api</scopes>
+        <scopes>RefreshToken</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>BYPASS</ipRelaxation>
+        <refreshTokenPolicy>infinite</refreshTokenPolicy>
+    </oauthPolicy>
+    <permissionSetName>AWS_Utility</permissionSetName>
+</ConnectedApp>

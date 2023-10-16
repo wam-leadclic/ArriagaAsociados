@@ -1,0 +1,53 @@
+<template>
+    <div class="slds-size_1-of-1 slds-grid">
+        <div class="slds-size_7-of-12 slds-text-align_center">
+            <lightning-button-icon icon-name="utility:left" class="slds-float_left" variant="container" alternative-text={previousLabel} onclick={previous}></lightning-button-icon>
+            <div class="slds-show_inline-block slds-truncate text-uppercase sidebar-header-fonts" style="vertical-align: -webkit-baseline-middle"> <lightning-formatted-date-time value={selectedDate} month="long"></lightning-formatted-date-time> </div>
+            <lightning-button-icon icon-name="utility:right" class="slds-float_right" variant="container" alternative-text={nextLabel} onclick={next}></lightning-button-icon>
+        </div>
+        <lightning-combobox class="sidebar-header-fonts"
+            variant="label-hidden"
+            name="yearSelect"
+            placeholder={selectedYear}
+            value={selectedYear}
+            options={yearOptions}
+            onchange={jump}></lightning-combobox>
+    </div>
+    <div class="slds-size_1-of-1" id="calendar">
+        <div class="calendar-header">
+            <div class="slds-text-align_center month-day-name slds-truncate">{mondayLabel}</div>
+            <div class="slds-text-align_center month-day-name slds-truncate">{tuesdayLabel}</div>
+            <div class="slds-text-align_center month-day-name slds-truncate">{wednesdayLabel}</div>
+            <div class="slds-text-align_center month-day-name slds-truncate">{thursdayLabel}</div>
+            <div class="slds-text-align_center month-day-name slds-truncate">{fridayLabel}</div>
+            <div class="slds-text-align_center month-day-name slds-truncate">{suturdayLabel}</div>
+            <div class="slds-text-align_center month-day-name slds-truncate">{sundayLabel}</div>
+        </div>
+
+        <div class="calendar-body">
+            <template for:each={calendarWeeks} for:item="week">
+                <div key={week.numb}>
+                    <template for:each={week.days} for:item="day">
+                        <template if:true={day.selected}>
+                            <div key={day.numb} class="slds-text-align_center selected sidebar-cell" onclick={navigateToDate} data-day={day.label}>
+                                {day.label}
+                            </div>
+                        </template>
+                        <template if:false={day.selected}>
+                            <template if:true={day.disabled}>
+                                <div key={day.numb} class="slds-text-align_center sidebar-cell disabled-cell">
+                                    {day.label}
+                                </div>
+                            </template>
+                            <template if:false={day.disabled}>
+                                <div key={day.numb} class="slds-text-align_center sidebar-cell" onclick={navigateToDate} data-day={day.label}>
+                                    {day.label}
+                                </div>
+                            </template>
+                        </template>
+                    </template>
+                </div>
+            </template>
+        </div>
+    </div>
+</template>

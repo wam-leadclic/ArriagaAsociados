@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DocumentosCompletado__c</fullName>
+    <description>Lista de documentos que debe completar el asesor</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Lista de documentos que debe completar el asesor</inlineHelpText>
+    <label>Documentos para completado básico</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>DocumentosRequeridos</valueSetName>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

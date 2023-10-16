@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <BotVersion xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>v1</fullName>
-    <articleAnswersGPTEnabled>false</articleAnswersGPTEnabled>
     <botDialogGroups>
         <developerName>Pedir_Cita_Group</developerName>
         <label>1. Pedir Cita</label>
@@ -2872,7 +2871,6 @@ Salir (pulsa 3)</message>
         <label>Volver al menú principal</label>
         <showInFooterMenu>false</showInFooterMenu>
     </botDialogs>
-    <citationsEnabled>false</citationsEnabled>
     <conversationSystemDialogs>
         <dialog>Error_Handling</dialog>
         <type>ErrorHandling</type>
@@ -3048,5 +3046,4 @@ Salir (pulsa 3)</message>
         <language>es</language>
         <nlpProviderType>EinsteinAi</nlpProviderType>
     </nlpProviders>
-    <smallTalkEnabled>false</smallTalkEnabled>
 </BotVersion>

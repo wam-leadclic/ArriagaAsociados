@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>APOYOS- Cambios Señalamiento juicios que NO sea plusva interrogatorio- PARA CASOS</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>APOYOS Cambios Señalamiento juicios que NO sea plusva interrogat</name>
+    <relatedEntityType>Case</relatedEntityType>
+    <style>none</style>
+    <subject>Comunicación de interés | Arriaga Asociados</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ResponsableViabilidad__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Responsable del análisis de viabilidad</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Responsable del análisis de viabilidad</inlineHelpText>
+    <label>Responsable estudio viabilidad</label>
+    <referenceTo>User</referenceTo>
+    <relationshipName>Oportunidades</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>56.0</apiVersion>
+    <isExposed>true</isExposed>
+    <targets>
+        <target>lightning__FlowScreen</target>
+        <target>lightning__RecordPage</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightning__FlowScreen">
+            <property name="notificationType" type="String" description="Según este valor, la notificación se mostrará de distinto color. Los posibles valores son: base,info,success,warning,error"/>
+            <property name="titleNotification" type="String"/>
+            <property name="messageNotification" type="String"/>
+            <property name="iconCategory" type="String"/>
+            <property name="iconName" type="String"/>
+        </targetConfig>
+        <targetConfig targets="lightning__RecordPage">
+            <property name="notificationType" type="String" description="Según este valor, la notificación se mostrará de distinto color. Los posibles valores son: base,info,success,warning,error"/>
+            <property name="titleNotification" type="String"/>
+            <property name="messageNotification" type="String"/>
+            <property name="iconCategory" type="String"/>
+            <property name="iconName" type="String"/>
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

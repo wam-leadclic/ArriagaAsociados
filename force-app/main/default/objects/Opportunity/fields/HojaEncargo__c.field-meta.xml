@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HojaEncargo__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Contiene la relación con la hoja de encargo correspondiente. Completado en el momento de la selección de la tipología de esta. De este objeto se trasladaran valores a la oportunidad.</description>
+    <externalId>false</externalId>
+    <label>Hoja de Encargo</label>
+    <referenceTo>HojaEncargo__c</referenceTo>
+    <relationshipLabel>Oportunidades</relationshipLabel>
+    <relationshipName>Oportunidades</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Lookup</type>
+</CustomField>

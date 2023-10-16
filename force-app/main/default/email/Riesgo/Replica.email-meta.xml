@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Arriaga_plantilla_casos</letterhead>
+    <name>Replica</name>
+    <style>formalLetter</style>
+    <subject>Requerimientos - Replica</subject>
+    <textOnly>Buenos días/tardes,
+
+
+
+Con motivo de la resolución dada por la aseguradora Liberty, esta parte no está conforme con lo alegado por la misma, es por ello, que mediante el presente procedemos a replicar la misma con las siguientes argumentaciones:
+
+
+[ARGUMENTACIÓN]
+
+
+Conforme a lo alegado por esta parte en lo que a resolución se refiere, solicitamos que Liberty resuelva en un plazo de X días.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

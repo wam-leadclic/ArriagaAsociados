@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <BotVersion xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>v1</fullName>
-    <articleAnswersGPTEnabled>false</articleAnswersGPTEnabled>
     <botDialogs>
         <botSteps>
             <botVariableOperation>
@@ -157,7 +156,6 @@
         <label>Error Handler</label>
         <showInFooterMenu>false</showInFooterMenu>
     </botDialogs>
-    <citationsEnabled>false</citationsEnabled>
     <conversationSystemDialogs>
         <dialog>Error_Handling</dialog>
         <type>ErrorHandling</type>
@@ -200,5 +198,4 @@
         <language>es</language>
         <nlpProviderType>EinsteinAi</nlpProviderType>
     </nlpProviders>
-    <smallTalkEnabled>false</smallTalkEnabled>
 </BotVersion>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Aplicar_Descuento_en_PF__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Descuento aplicado al Pago Inicial aplicando promoción en el producto contratado</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Descuento aplicado al Pago Inicial por promoción en el producto contratado, al haber contratado otro producto desde la misma Hipoteca.</inlineHelpText>
+    <label>Aplicar Descuento en PI</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Motivo_del_Estado_Resultado__c</fullName>
+    <description>Motivo de cambio de estado del caso Resultado, Dependiente de la Cabecera</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Resultado del Motivo de cambio de estado del Caso</inlineHelpText>
+    <label>Motivo del Estado Resultado</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Motivo_del_Estado__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Circunstancias Económicas y personales</fullName>
+                <default>false</default>
+                <label>Circunstancias Económicas y personales</label>
+            </value>
+            <value>
+                <fullName>Próximo a cancelar, cancelada</fullName>
+                <default>false</default>
+                <label>Próximo a cancelar, cancelada</label>
+            </value>
+            <value>
+                <fullName>Subrogada, novada</fullName>
+                <default>false</default>
+                <label>Subrogada, novada</label>
+            </value>
+            <value>
+                <fullName>Insatisfacción Cliente con AA</fullName>
+                <default>false</default>
+                <label>Insatisfacción Cliente con AA</label>
+            </value>
+            <value>
+                <fullName>Mejora Interés TAE.</fullName>
+                <default>false</default>
+                <label>Mejora Interés TAE.</label>
+            </value>
+            <value>
+                <fullName>Refinanciación o ampliación PH</fullName>
+                <default>false</default>
+                <label>Refinanciación o ampliación PH</label>
+            </value>
+            <value>
+                <fullName>Extinción de Condominio/Avalista</fullName>
+                <default>false</default>
+                <label>Extinción de Condominio/Avalista</label>
+            </value>
+            <value>
+                <fullName>No viable mediador</fullName>
+                <default>false</default>
+                <label>No viable mediador</label>
+            </value>
+            <value>
+                <fullName>No cliente mediador</fullName>
+                <default>false</default>
+                <label>No cliente mediador</label>
+            </value>
+            <value>
+                <fullName>Facturado</fullName>
+                <default>false</default>
+                <label>Facturado</label>
+            </value>
+            <value>
+                <fullName>Enviada/Firmada Hoja de Encargo</fullName>
+                <default>false</default>
+                <label>Enviada/Firmada Hoja de Encargo</label>
+            </value>
+            <value>
+                <fullName>Contratado Inicia</fullName>
+                <default>false</default>
+                <label>Contratado Inicia</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>NO INTERESA AA</controllingFieldValue>
+            <valueName>Circunstancias Económicas y personales</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NO INTERESA AA</controllingFieldValue>
+            <valueName>Próximo a cancelar, cancelada</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NO INTERESA AA</controllingFieldValue>
+            <valueName>Subrogada, novada</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NO INTERESA AA</controllingFieldValue>
+            <valueName>Insatisfacción Cliente con AA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SÍ INTERESA AA</controllingFieldValue>
+            <valueName>Mejora Interés TAE.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SÍ INTERESA AA</controllingFieldValue>
+            <valueName>Refinanciación o ampliación PH</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SÍ INTERESA AA</controllingFieldValue>
+            <valueName>Extinción de Condominio/Avalista</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NO INTERESA MEDIADOR</controllingFieldValue>
+            <valueName>No viable mediador</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NO INTERESA MEDIADOR</controllingFieldValue>
+            <valueName>No cliente mediador</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NO INTERESA MEDIADOR</controllingFieldValue>
+            <valueName>Facturado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>COMUNICACIÓN CON MEDIADOR</controllingFieldValue>
+            <valueName>Enviada/Firmada Hoja de Encargo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>COMUNICACIÓN CON MEDIADOR</controllingFieldValue>
+            <valueName>Contratado Inicia</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

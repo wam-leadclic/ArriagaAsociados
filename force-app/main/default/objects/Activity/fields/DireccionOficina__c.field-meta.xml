@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DireccionOficina__c</fullName>
+    <description>Dirección de la oficina asociada a la cita</description>
+    <externalId>false</externalId>
+    <formula>Oficina__r.ShippingStreet + &quot; - &quot; + Oficina__r.ShippingCity + &quot; (&quot; + Oficina__r.ShippingPostalCode + &quot;)&quot;</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Dirección oficina</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

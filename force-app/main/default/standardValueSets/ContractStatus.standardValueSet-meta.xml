@@ -1,0 +1,1259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <groupingStringEnum>ContractStatusCode</groupingStringEnum>
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Completado básico</fullName>
+        <default>false</default>
+        <label>01.-Completado básico</label>
+        <groupingString>InApproval</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Completado final</fullName>
+        <default>false</default>
+        <label>00.-Completado final</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Contratado</fullName>
+        <default>false</default>
+        <label>01.-Contratado</label>
+        <groupingString>Draft</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>REVOCADO</fullName>
+        <default>false</default>
+        <label>08.-Revocado</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>DESISTIDO SIN ACUERDO BANCO</fullName>
+        <default>false</default>
+        <label>08.-Desistido</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>ACUERDO AC</fullName>
+        <default>false</default>
+        <label>08.-Acuerdo</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>VENIA</fullName>
+        <default>false</default>
+        <label>08.-Venia</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>No viable</fullName>
+        <default>false</default>
+        <label>08.-No viable</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>ACUERDO AC OLD</fullName>
+        <default>false</default>
+        <label>08.-ACUERDO AC OLD</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>ACUERDO HOMOLOGADO</fullName>
+        <default>false</default>
+        <label>08.-ACUERDO HOMOLOGADO</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>AUDITORÍA</fullName>
+        <default>false</default>
+        <label>02.-AUDITORÍA </label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>AUDITORÍA PARALIZADA</fullName>
+        <default>false</default>
+        <label>02.-AUDITORÍA PARALIZADA </label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>CASACIÓN INADMITIDA</fullName>
+        <default>false</default>
+        <label>07.-CASACIÓN INADMITIDA </label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>CITA</fullName>
+        <default>false</default>
+        <label>00.-CITA</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>COMPLETANDOSE DOCUMENTACIÓN</fullName>
+        <default>false</default>
+        <label>02.-COMPLETÁNDOSE DOCUMENTACIÓN</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>COMPLETANDOSE POSIBLE NO CLIENTE</fullName>
+        <default>false</default>
+        <label>02.-COMPLETANDOSE POSIBLE NO CLIENTE </label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>COMPLETAR POR JURÍDICO</fullName>
+        <default>false</default>
+        <label>02.-COMPLETAR POR JURÍDICO </label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>DESISTIDO ACUERDO CON BANCO</fullName>
+        <default>false</default>
+        <label>08.-DESISTIDO ACUERDO CON BANCO </label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>DESISTIDO SIN ACUERDO BANCO OLD</fullName>
+        <default>false</default>
+        <label>08.-DESISTIDO SIN ACUERDO BANCO OLD </label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>DOCUMENTACIÓN COMPLETADA</fullName>
+        <default>false</default>
+        <label>02.-DOCUMENTACIÓN COMPLETADA </label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>DUPLICADO</fullName>
+        <default>false</default>
+        <label>08.-DUPLICADO</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>ENTREVISTA</fullName>
+        <default>false</default>
+        <label>00.-ENTREVISTA</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>EXPEDIENTE INICIADO</fullName>
+        <default>false</default>
+        <label>00.-EXPEDIENTE INICIADO</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>FINALIZACIÓN ENCARGO</fullName>
+        <default>false</default>
+        <label>08.-FINALIZACIÓN ENCARGO</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>JUDICIAL</fullName>
+        <default>false</default>
+        <label>04.-JUDICIAL</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>NO CLIENTE</fullName>
+        <default>false</default>
+        <label>08.-NO CLIENTE</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>PARALIZADO</fullName>
+        <default>false</default>
+        <label>02.-PARALIZADO</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>PARALIZADO ESPERA VIABILIDAD</fullName>
+        <default>false</default>
+        <label>02.-PARALIZADO ESPERA VIABILIDAD</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>PERTENECE A DEMANDA COLECTIVA</fullName>
+        <default>false</default>
+        <label>02.-PERTENECE A DEMANDA COLECTIVA</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>PRESENTADO A PROCURADOR</fullName>
+        <default>false</default>
+        <label>02.-PRESENTADO A PROCURADOR</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>PRESENTADO EN JUZGADO</fullName>
+        <default>false</default>
+        <label>02.-PRESENTADO EN JUZGADO</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>PROCEDIMIENTO FALLIDO</fullName>
+        <default>false</default>
+        <label>08.-PROCEDIMIENTO FALLIDO</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>PROCURADOR CALIDAD PARADO</fullName>
+        <default>false</default>
+        <label>02.-PROCURADOR CALIDAD PARADO</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>RECURSO DE CASACIÓN</fullName>
+        <default>false</default>
+        <label>06.-RECURSO DE CASACIÓN</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>REDACCIÓN</fullName>
+        <default>false</default>
+        <label>02.-REDACCIÓN</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>REDACCIÓN PARALIZADA</fullName>
+        <default>false</default>
+        <label>02.-REDACCIÓN PARALIZADA</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>REDACCIÓN TERMINADA</fullName>
+        <default>false</default>
+        <label>02.-REDACCIÓN TERMINADA</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>RESOLUCION EXTRAJUDICIAL</fullName>
+        <default>false</default>
+        <label>08.-RESOLUCION EXTRAJUDICIAL</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>REVISIÓN DEL COMPLETADO</fullName>
+        <default>false</default>
+        <label>02.-REVISIÓN DEL COMPLETADO</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>SELLADOS EN JUZGADO</fullName>
+        <default>false</default>
+        <label>03.-SELLADOS EN JUZGADO</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>SENTENCIA DE CASACIÓN ESTIMATORIA</fullName>
+        <default>false</default>
+        <label>07.-SENTENCIA DE CASACIÓN ESTIMATORIA</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>ST APELACIÓN DESESTIMATORIA</fullName>
+        <default>false</default>
+        <label>05.-ST APELACIÓN DESESTIMATORIA</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>ST DE APELACIÓN</fullName>
+        <default>false</default>
+        <label>05.-ST DE APELACIÓN</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>ST DESESTIMATORIAS APELADAS</fullName>
+        <default>false</default>
+        <label>06.-ST DESESTIMATORIAS APELADAS</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>ST DESESTIMATORIAS FIRMES</fullName>
+        <default>false</default>
+        <label>07.-ST DESESTIMATORIAS FIRMES</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>ST FIRMES CON APELACIÓN</fullName>
+        <default>false</default>
+        <label>07.-ST FIRMES CON APELACIÓN</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>ST FIRMES SIN APELACIÓN</fullName>
+        <default>false</default>
+        <label>07.-ST FIRMES SIN APELACIÓN</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>ST NO FIRME</fullName>
+        <default>false</default>
+        <label>05.-ST NO FIRME</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>ST NO FIRME DESESTIMATORIA</fullName>
+        <default>false</default>
+        <label>05.-ST NO FIRME DESESTIMATORIA</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>ST PROVISIONALES APELADAS</fullName>
+        <default>false</default>
+        <label>06.-ST PROVISIONALES APELADAS</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>VIABLE</fullName>
+        <default>false</default>
+        <label>00.-VIABLE</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Diligencia Preliminar - Redacción y Presentación</fullName>
+        <default>false</default>
+        <label>02.-Diligencia Preliminar - Redacción y Presentación</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Diligencia Preliminar - Vista</fullName>
+        <default>false</default>
+        <label>02.-Diligencia Preliminar - Vista</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Diligencia Preliminar - Resolución</fullName>
+        <default>false</default>
+        <label>02.-Diligencia Preliminar - Resolución</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Medida Cautelar - Redacción y Presentación</fullName>
+        <default>false</default>
+        <label>02.-Medida Cautelar - Redacción y Presentación</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Medida Cautelar - Vista</fullName>
+        <default>false</default>
+        <label>02.-Medida Cautelar - Vista</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Medida Cautelar - Resolución</fullName>
+        <default>false</default>
+        <label>02.-Medida Cautelar - Resolución</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Actos de conciliación - Redacción y Presentación</fullName>
+        <default>false</default>
+        <label>04.-Actos de conciliación - Redacción y Presentación</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Actos de conciliación - Vista</fullName>
+        <default>false</default>
+        <label>04.-Actos de conciliación - Vista</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Actos de conciliación - Resolución</fullName>
+        <default>false</default>
+        <label>04.-Actos de conciliación - Resolución</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Civil Verbal - Presentación de la Demanda</fullName>
+        <default>false</default>
+        <label>03.-Civil Verbal - Presentación de la Demanda</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Civil Verbal - Inhibición</fullName>
+        <default>false</default>
+        <label>03.-Civil Verbal - Inhibición</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Civil Verbal - DAT</fullName>
+        <default>false</default>
+        <label>04.-Civil Verbal - DAT</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Civil Verbal - Contestación Demanda</fullName>
+        <default>false</default>
+        <label>04.-Civil Verbal - Contestación Demanda</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Civil Verbal - Sentencia de Allanamiento</fullName>
+        <default>false</default>
+        <label>04.-Civil Verbal - Sentencia de Allanamiento</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Civil Verbal - Audiencia Previa</fullName>
+        <default>false</default>
+        <label>04.-Civil Verbal - Audiencia Previa</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Civil Verbal - Vista</fullName>
+        <default>false</default>
+        <label>04.-Civil Verbal - Vista</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Civil Verbal - Juicio</fullName>
+        <default>false</default>
+        <label>04.-Civil Verbal - Juicio</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Civil Verbal - Juicio Verbal</fullName>
+        <default>false</default>
+        <label>04.-Civil Verbal - Juicio Verbal</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Civil Verbal - Acuerdo Homologado</fullName>
+        <default>false</default>
+        <label>08.-Civil Verbal - Acuerdo Homologado</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Civil Verbal - Sentencia</fullName>
+        <default>false</default>
+        <label>05.-Civil Verbal - Sentencia</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Civil Verbal - Fallido</fullName>
+        <default>false</default>
+        <label>08.-Civil Verbal - Fallido</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Civil Verbal - Desistimiento Propio</fullName>
+        <default>false</default>
+        <label>08.-Civil Verbal - Desistimiento Propio</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Civil Verbal - Venia</fullName>
+        <default>false</default>
+        <label>08.-Civil Verbal - Venia</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Civil Verbal - Acuerdo Extrajudicial</fullName>
+        <default>false</default>
+        <label>08.-Civil Verbal - Acuerdo Extrajudicial</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Civil Verbal - Desistimiento Cliente</fullName>
+        <default>false</default>
+        <label>08.-Civil Verbal - Desistimiento Cliente</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Civil Ordinario - Presentación de la Demanda</fullName>
+        <default>false</default>
+        <label>03.-Civil Ordinario - Presentación de la Demanda</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Civil Ordinario - Inhibición</fullName>
+        <default>false</default>
+        <label>03.-Civil Ordinario - Inhibición</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Civil Ordinario - DAT</fullName>
+        <default>false</default>
+        <label>04.-Civil Ordinario - DAT</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Civil Ordinario - Contestación Demanda</fullName>
+        <default>false</default>
+        <label>04.-Civil Ordinario - Contestación Demanda</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Civil Ordinario - Sentencia de Allanamiento</fullName>
+        <default>false</default>
+        <label>04.-Civil Ordinario - Sentencia de Allanamiento</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Civil Ordinario - Audiencia Previa</fullName>
+        <default>false</default>
+        <label>04.-Civil Ordinario - Audiencia Previa</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Civil Ordinario - Vista</fullName>
+        <default>false</default>
+        <label>04.-Civil Ordinario - Vista</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Civil Ordinario - Juicio</fullName>
+        <default>false</default>
+        <label>04.-Civil Ordinario - Juicio</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Civil Ordinario - Juicio Verbal</fullName>
+        <default>false</default>
+        <label>04.-Civil Ordinario - Juicio Verbal</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Civil Ordinario - Acuerdo Homologado</fullName>
+        <default>false</default>
+        <label>08.-Civil Ordinario - Acuerdo Homologado</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Civil Ordinario - Sentencia</fullName>
+        <default>false</default>
+        <label>05.-Civil Ordinario - Sentencia</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Civil Ordinario - Fallido</fullName>
+        <default>false</default>
+        <label>08.-Civil Ordinario - Fallido</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Civil Ordinario - Desistimiento Propio</fullName>
+        <default>false</default>
+        <label>08.-Civil Ordinario - Desistimiento Propio</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Civil Ordinario - Venia</fullName>
+        <default>false</default>
+        <label>08.-Civil Ordinario - Venia</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Civil Ordinario - Acuerdo Extrajudicial</fullName>
+        <default>false</default>
+        <label>08.-Civil Ordinario - Acuerdo Extrajudicial</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Civil Ordinario - Desistimiento Cliente</fullName>
+        <default>false</default>
+        <label>08.-Civil Ordinario - Desistimiento Cliente</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Administrativo Abreviado - Presentación de la Demanda</fullName>
+        <default>false</default>
+        <label>03.-Administrativo Abreviado - Presentación de la Demanda</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Administrativo Abreviado - Inhibición</fullName>
+        <default>false</default>
+        <label>03.-Administrativo Abreviado - Inhibición</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Administrativo Abreviado - DAT</fullName>
+        <default>false</default>
+        <label>04.-Administrativo Abreviado - DAT</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Administrativo Abreviado - Contestación Demanda</fullName>
+        <default>false</default>
+        <label>04.-Administrativo Abreviado - Contestación Demanda</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Administrativo Abreviado - Sentencia de Allanamiento</fullName>
+        <default>false</default>
+        <label>04.-Administrativo Abreviado - Sentencia de Allanamiento</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Administrativo Abreviado - Audiencia Previa</fullName>
+        <default>false</default>
+        <label>04.-Administrativo Abreviado - Audiencia Previa</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Administrativo Abreviado - Vista</fullName>
+        <default>false</default>
+        <label>04.-Administrativo Abreviado - Vista</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Administrativo Abreviado - Juicio Verbal</fullName>
+        <default>false</default>
+        <label>04.-Administrativo Abreviado - Juicio Verbal</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Administrativo Abreviado - Juicio</fullName>
+        <default>false</default>
+        <label>04.-Administrativo Abreviado - Juicio</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Administrativo Abreviado - Acuerdo Homologado</fullName>
+        <default>false</default>
+        <label>08.-Administrativo Abreviado - Acuerdo Homologado</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Administrativo Abreviado - Sentencia</fullName>
+        <default>false</default>
+        <label>05.-Administrativo Abreviado - Sentencia</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Administrativo Abreviado - Fallido</fullName>
+        <default>false</default>
+        <label>08.-Administrativo Abreviado - Fallido</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Administrativo Abreviado - Desistimiento Propio</fullName>
+        <default>false</default>
+        <label>08.-Administrativo Abreviado - Desistimiento Propio</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Administrativo Abreviado - Venia</fullName>
+        <default>false</default>
+        <label>08.-Administrativo Abreviado - Venia</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Administrativo Abreviado - Acuerdo Extrajudicial</fullName>
+        <default>false</default>
+        <label>08.-Administrativo Abreviado - Acuerdo Extrajudicial</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Administrativo Abreviado - Desistimiento Cliente</fullName>
+        <default>false</default>
+        <label>08.-Administrativo Abreviado - Desistimiento Cliente</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Administrativo Ordinario - Presentación de la Demanda</fullName>
+        <default>false</default>
+        <label>03.-Administrativo Ordinario - Presentación de la Demanda</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Administrativo Ordinario - Inhibición</fullName>
+        <default>false</default>
+        <label>03.-Administrativo Ordinario - Inhibición</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Administrativo Ordinario - DAT</fullName>
+        <default>false</default>
+        <label>04.-Administrativo Ordinario - DAT</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Administrativo Ordinario - Contestación Demanda</fullName>
+        <default>false</default>
+        <label>04.-Administrativo Ordinario - Contestación Demanda</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Administrativo Ordinario - Sentencia de Allanamiento</fullName>
+        <default>false</default>
+        <label>04.-Administrativo Ordinario - Sentencia de Allanamiento</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Administrativo Ordinario - Audiencia Previa</fullName>
+        <default>false</default>
+        <label>04.-Administrativo Ordinario - Audiencia Previa</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Administrativo Ordinario - Vista</fullName>
+        <default>false</default>
+        <label>04.-Administrativo Ordinario - Vista</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Administrativo Ordinario - Juicio Verbal</fullName>
+        <default>false</default>
+        <label>04.-Administrativo Ordinario - Juicio Verbal</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Administrativo Ordinario - Juicio</fullName>
+        <default>false</default>
+        <label>04.-Administrativo Ordinario - Juicio</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Administrativo Ordinario - Acuerdo Homologado</fullName>
+        <default>false</default>
+        <label>08.-Administrativo Ordinario - Acuerdo Homologado</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Administrativo Ordinario - Sentencia</fullName>
+        <default>false</default>
+        <label>05.-Administrativo Ordinario - Sentencia</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Administrativo Ordinario - Fallido</fullName>
+        <default>false</default>
+        <label>08.-Administrativo Ordinario - Fallido</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Administrativo Ordinario - Desistimiento Propio</fullName>
+        <default>false</default>
+        <label>08.-Administrativo Ordinario - Desistimiento Propio</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Administrativo Ordinario - Venia</fullName>
+        <default>false</default>
+        <label>08.-Administrativo Ordinario - Venia</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Administrativo Ordinario - Acuerdo Extrajudicial</fullName>
+        <default>false</default>
+        <label>08.-Administrativo Ordinario - Acuerdo Extrajudicial</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Administrativo Ordinario - Desistimiento Cliente</fullName>
+        <default>false</default>
+        <label>08.-Administrativo Ordinario - Desistimiento Cliente</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Apelación - Redacción Apelación</fullName>
+        <default>false</default>
+        <label>06.-Apelación - Redacción Apelación</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Apelación - Apelación Contrario</fullName>
+        <default>false</default>
+        <label>06.-Apelación - Apelación Contrario</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Apelación - Vista Apelación</fullName>
+        <default>false</default>
+        <label>06.-Apelación - Vista Apelación</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Apelación - Sentencia de Apelación</fullName>
+        <default>false</default>
+        <label>05.-Apelación - Sentencia de Apelación</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Apelación - Fallido</fullName>
+        <default>false</default>
+        <label>07.-Apelación - Fallido</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Apelación - Desistimiento Propio</fullName>
+        <default>false</default>
+        <label>07.-Apelación - Desistimiento Propio</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Apelación - Venia</fullName>
+        <default>false</default>
+        <label>06.-Apelación - Venia</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Apelación - Acuerdo Extrajudicial</fullName>
+        <default>false</default>
+        <label>08.-Apelación - Acuerdo Extrajudicial</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Apelación - Desistimiento Cliente</fullName>
+        <default>false</default>
+        <label>08.-Apelación - Desistimiento Cliente</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Casación - DAT</fullName>
+        <default>false</default>
+        <label>06.-Casación - DAT</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Casación - Vista</fullName>
+        <default>false</default>
+        <label>06.-Casación - Vista</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Casación - Sentencia de Casación</fullName>
+        <default>false</default>
+        <label>06.-Casación - Sentencia de Casación</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Casación - Recurso de Casación</fullName>
+        <default>false</default>
+        <label>06.-Casación - Recurso de Casación</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Casación - Recurso de Casación Contrario</fullName>
+        <default>false</default>
+        <label>06.-Casación - Recurso de Casación Contrario</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Casación - Fallido</fullName>
+        <default>false</default>
+        <label>08.-Casación - Fallido</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Casación - Desistimiento Propio</fullName>
+        <default>false</default>
+        <label>07.-Casación - Desistimiento Propio</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Casación - Venia</fullName>
+        <default>false</default>
+        <label>06.-Casación - Venia</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Casación - Acuerdo Extrajudicial</fullName>
+        <default>false</default>
+        <label>08.-Casación - Acuerdo Extrajudicial</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Casación - Desistimiento Cliente</fullName>
+        <default>false</default>
+        <label>08.-Casación - Desistimiento Cliente</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Tasación de Costas - Decreto Aprobación de costas</fullName>
+        <default>false</default>
+        <label>07.-Tasación de Costas - Decreto Aprobación de costas</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Tasación de Costas - Tasación de costas</fullName>
+        <default>false</default>
+        <label>07.-Tasación de Costas - Tasación de costas</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Tasación de Costas - Resolución de costas</fullName>
+        <default>false</default>
+        <label>07.-Tasación de Costas - Resolución de costas</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Tasación de Costas - Generar y Presentar Tasación de Costas</fullName>
+        <default>false</default>
+        <label>07.-Tasación de Costas - Generar y Presentar Tasación de Costas</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Tasación de Costas de Apelación - Decreto Aprobación de costas</fullName>
+        <default>false</default>
+        <label>07.-Tasación de Costas de Apelación - Decreto Aprobación de costas</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Tasación de Costas de Apelación - Tasación de costas</fullName>
+        <default>false</default>
+        <label>07.-Tasación de Costas de Apelación - Tasación de costas</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Tasación de Costas de Apelación - Resolución de costas</fullName>
+        <default>false</default>
+        <label>07.-Tasación de Costas de Apelación - Resolución de costas</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Tasación de Costas de Apelación - Generar y Presentar Tasación de Costas</fullName>
+        <default>false</default>
+        <label>07.-Tasación de Costas de Apelación - Generar y Presentar Tasación de Costas</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Tasación de Costas de Casación - Decreto Aprobación de costas</fullName>
+        <default>false</default>
+        <label>07.-Tasación de Costas de Casación - Decreto Aprobación de costas</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Tasación de Costas de Casación - Tasación de costas</fullName>
+        <default>false</default>
+        <label>07.-Tasación de Costas de Casación - Tasación de costas</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Tasación de Costas de Casación - Resolución de costas</fullName>
+        <default>false</default>
+        <label>07.-Tasación de Costas de Casación - Resolución de costas</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Tasación de Costas de Casación - Generar y Presentar Tasación de Costas</fullName>
+        <default>false</default>
+        <label>07.-Tasación de Costas de Casación - Generar y Presentar Tasación de Costas</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Tasación de Costas de Monitorio - Decreto Aprobación de costas</fullName>
+        <default>false</default>
+        <label>07.-Tasación de Costas de Monitorio - Decreto Aprobación de costas</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Tasación de Costas de Monitorio - Tasación de costas</fullName>
+        <default>false</default>
+        <label>07.-Tasación de Costas de Monitorio - Tasación de costas</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Tasación de Costas de Monitorio - Resolución de costas</fullName>
+        <default>false</default>
+        <label>07.-Tasación de Costas de Monitorio - Resolución de costas</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Tasación de Costas de Monitorio - Generar y Presentar Tasación de Costas</fullName>
+        <default>false</default>
+        <label>07.-Tasación de Costas de Monitorio - Generar y Presentar Tasación de Costas</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Tasación de Costas de Jura de Cuentas - Decreto Aprobación de costas</fullName>
+        <default>false</default>
+        <label>07.-Tasación de Costas de Jura de Cuentas - Decreto Aprobación de costas</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Tasación de Costas de Jura de Cuentas - Tasación de costas</fullName>
+        <default>false</default>
+        <label>07.-Tasación de Costas de Jura de Cuentas - Tasación de costas</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Tasación de Costas de Jura de Cuentas - Resolución de costas</fullName>
+        <default>false</default>
+        <label>07.-Tasación de Costas de Jura de Cuentas - Resolución de costas</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Tasación de Costas de Jura de Cuentas - Generar y Presentar Tasación de Costas</fullName>
+        <default>false</default>
+        <label>07.-Tasación de Costas de Jura de Cuentas - Generar y Presentar Tasación de Costas</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Tasación de Costas Incidente - Decreto Aprobación de costas</fullName>
+        <default>false</default>
+        <label>07.-Tasación de Costas Incidente - Decreto Aprobación de costas</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Tasación de Costas Incidente - Tasación de costas</fullName>
+        <default>false</default>
+        <label>07.-Tasación de Costas Incidente - Tasación de costas</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Tasación de Costas Incidente - Resolución de costas</fullName>
+        <default>false</default>
+        <label>07.-Tasación de Costas Incidente - Resolución de costas</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Tasación de Costas Incidente - Generar y Presentar Tasación de Costas</fullName>
+        <default>false</default>
+        <label>07.-Tasación de Costas Incidente - Generar y Presentar Tasación de Costas</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Tasación de Costas de Demanda de Ejecución - Decreto Aprobación de costas</fullName>
+        <default>false</default>
+        <label>07.-Tasación de Costas de Demanda de Ejecución - Decreto Aprobación de costas</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Tasación de Costas de Demanda de Ejecución - Tasación de costas</fullName>
+        <default>false</default>
+        <label>07.-Tasación de Costas de Demanda de Ejecución - Tasación de costas</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Tasación de Costas de Demanda de Ejecución - Resolución de costas</fullName>
+        <default>false</default>
+        <label>07.-Tasación de Costas de Demanda de Ejecución - Resolución de costas</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Tasación de Costas de Demanda de Ejecución - Generar y Presentar Tasación de Costas</fullName>
+        <default>false</default>
+        <label>07.-Tasación de Costas de Demanda de Ejecución - Generar y Presentar Tasación de Costas</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Liquidación de Intereses - Cálculo de importes y liquidación</fullName>
+        <default>false</default>
+        <label>07.-Liquidación de Intereses - Cálculo de importes y liquidación</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Liquidación de Intereses - Impugnación Liquidación</fullName>
+        <default>false</default>
+        <label>07.-Liquidación de Intereses - Impugnación Liquidación</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Liquidación de Intereses - Vista</fullName>
+        <default>false</default>
+        <label>07.-Liquidación de Intereses - Vista</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Liquidación de Intereses - Decreto Liquidación</fullName>
+        <default>false</default>
+        <label>07.-Liquidación de Intereses - Decreto Liquidación</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Liquidación de Intereses - Auto Aprobación Intereses</fullName>
+        <default>false</default>
+        <label>07.-Liquidación de Intereses - Auto Aprobación Intereses</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Liquidación de Intereses - Resolución Liquidación</fullName>
+        <default>false</default>
+        <label>07.-Liquidación de Intereses - Resolución Liquidación</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Liquidación de Intereses - Cancelación Liquidacion de Intereses</fullName>
+        <default>false</default>
+        <label>07.-Liquidación de Intereses - Cancelación Liquidacion de Intereses</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Demanda de Ejecución - Generar Presentar DDE</fullName>
+        <default>false</default>
+        <label>07.-Demanda de Ejecución - Generar Presentar DDE</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Demanda de Ejecución - Denegación DDE</fullName>
+        <default>false</default>
+        <label>07.-Demanda de Ejecución - Denegación DDE</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Demanda de Ejecución - Auto Despachando Ejecución</fullName>
+        <default>false</default>
+        <label>07.-Demanda de Ejecución - Auto Despachando Ejecución</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Demanda de Ejecución - Resolución Oposición DDE</fullName>
+        <default>false</default>
+        <label>07.-Demanda de Ejecución - Resolución Oposición DDE</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Demanda de Ejecución - Señalamiento DDE</fullName>
+        <default>false</default>
+        <label>07.-Demanda de Ejecución - Señalamiento DDE</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Jura de Cuentas - Presentación de la Demanda</fullName>
+        <default>false</default>
+        <label>07.-Jura de Cuentas - Presentación de la Demanda</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Jura de Cuentas - Inhibición</fullName>
+        <default>false</default>
+        <label>07.-Jura de Cuentas - Inhibición</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Jura de Cuentas - Contestación Demanda</fullName>
+        <default>false</default>
+        <label>07.-Jura de Cuentas - Contestación Demanda</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Jura de Cuentas - Sentencia de Allanamiento</fullName>
+        <default>false</default>
+        <label>07.-Jura de Cuentas - Sentencia de Allanamiento</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Jura de Cuentas - Audiencia Previa</fullName>
+        <default>false</default>
+        <label>07.-Jura de Cuentas - Audiencia Previa</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Jura de Cuentas - Vista</fullName>
+        <default>false</default>
+        <label>07.-Jura de Cuentas - Vista</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Jura de Cuentas - Juicio Verbal</fullName>
+        <default>false</default>
+        <label>07.-Jura de Cuentas - Juicio Verbal</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Jura de Cuentas - Juicio</fullName>
+        <default>false</default>
+        <label>07.-Jura de Cuentas - Juicio</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Jura de Cuentas - Sentencia</fullName>
+        <default>false</default>
+        <label>07.-Jura de Cuentas - Sentencia</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Jura de Cuentas - Acuerdo Homologado</fullName>
+        <default>false</default>
+        <label>07.-Jura de Cuentas - Acuerdo Homologado</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Jura de Cuentas - DAT</fullName>
+        <default>false</default>
+        <label>07.-Jura de Cuentas - DAT</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Jura de Cuentas - Redacción de la demanda</fullName>
+        <default>false</default>
+        <label>07.-Jura de Cuentas - Redacción de la demanda</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Jura de Cuentas - Decreto de Archivo de Jura de Cuentas</fullName>
+        <default>false</default>
+        <label>07.-Jura de Cuentas - Decreto de Archivo de Jura de Cuentas</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Monitorio - Presentación de la Demanda</fullName>
+        <default>false</default>
+        <label>07.-Monitorio - Presentación de la Demanda</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Monitorio - Inhibición</fullName>
+        <default>false</default>
+        <label>07.-Monitorio - Inhibición</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Monitorio - Contestación Demanda</fullName>
+        <default>false</default>
+        <label>07.-Monitorio - Contestación Demanda</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Monitorio - Sentencia de Allanamiento</fullName>
+        <default>false</default>
+        <label>07.-Monitorio - Sentencia de Allanamiento</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Monitorio - Audiencia Previa</fullName>
+        <default>false</default>
+        <label>07.-Monitorio - Audiencia Previa</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Monitorio - Vista</fullName>
+        <default>false</default>
+        <label>07.-Monitorio - Vista</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Monitorio - Juicio Verbal</fullName>
+        <default>false</default>
+        <label>07.-Monitorio - Juicio Verbal</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Monitorio - Juicio</fullName>
+        <default>false</default>
+        <label>07.-Monitorio - Juicio</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Monitorio - Sentencia</fullName>
+        <default>false</default>
+        <label>07.-Monitorio - Sentencia</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Monitorio - Acuerdo Homologado</fullName>
+        <default>false</default>
+        <label>07.-Monitorio - Acuerdo Homologado</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Monitorio - DAT</fullName>
+        <default>false</default>
+        <label>07.-Monitorio - DAT</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Monitorio - Redacción de la demanda</fullName>
+        <default>false</default>
+        <label>07.-Monitorio - Redacción de la demanda</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Extrajudicial - Gestión de Cobro</fullName>
+        <default>false</default>
+        <label>07.-Extrajudicial - Gestión de Cobro</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+</StandardValueSet>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Gestionar Plantillas de correo electrónico Lightning públicas</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Gestionar Plantillas de correo electrónico Lightning</label>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>CreateLtngTempInPub</name>
+    </userPermissions>
+</PermissionSet>

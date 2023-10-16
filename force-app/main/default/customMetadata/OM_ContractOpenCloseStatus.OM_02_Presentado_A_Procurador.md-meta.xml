@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>OM_02_Presentado_A_Procurador</label>
+    <protected>false</protected>
+    <values>
+        <field>OM_Status__c</field>
+        <value xsi:type="xsd:string">PRESENTADO A PROCURADOR</value>
+    </values>
+    <values>
+        <field>OM_Type__c</field>
+        <value xsi:type="xsd:string">ATC ADMIN</value>
+    </values>
+</CustomMetadata>

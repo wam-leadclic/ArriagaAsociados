@@ -1,0 +1,54 @@
+<table border="0" cellpadding="5" width="600" cellspacing="5" height="400" >
+<tr valign="top" height="50" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<span style="color: rgb(32, 31, 30); font-family: Arial, sans-serif; font-size: 12pt; text-align: justify; background-color: rgb(255, 255, 255);">Estimado&nbsp;</span><font color="#201f1e" face="Arial, sans-serif">{!Contact.FirstName}:</font>]]></td>
+</tr>
+<tr valign="top" height="300" >
+<td tEditID="c1r2" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r2" locked="0" >
+<![CDATA[<p class="MsoNormal" style="margin-bottom:0cm;text-align:justify;line-height:
+normal;background:white;vertical-align:baseline"><span style="font-size:12.0pt;
+font-family:&quot;Arial&quot;,sans-serif;mso-fareast-font-family:&quot;Times New Roman&quot;;
+color:#201F1E;mso-fareast-language:ES;mso-bidi-font-style:italic">Te informamos
+que, siguiendo tu petición, se ha incorporado a nuestra base de datos la
+siguiente cuenta bancaria:</span></p><p class="MsoNormal" style="margin-bottom:0cm;text-align:justify;line-height:
+normal;background:white;vertical-align:baseline"><span style="font-size:12.0pt;
+font-family:&quot;Arial&quot;,sans-serif;mso-fareast-font-family:&quot;Times New Roman&quot;;
+color:#201F1E;mso-fareast-language:ES;mso-bidi-font-style:italic"><br></span></p>
+
+<p class="MsoNormal" style="margin-bottom:0cm;text-align:justify;line-height:
+normal;background:white;vertical-align:baseline"><span style="font-size:12.0pt;
+font-family:&quot;Arial&quot;,sans-serif;mso-fareast-font-family:&quot;Times New Roman&quot;;
+color:#201F1E;mso-fareast-language:ES;mso-bidi-font-style:italic">-&nbsp;<span style="background:yellow">[xxxxxnúmero de cuentaxxxxxx](copiamos y pegamos el
+número de cuenta)</span></span></p><p class="MsoNormal" style="margin-bottom:0cm;text-align:justify;line-height:
+normal;background:white;vertical-align:baseline"><span style="font-size:12.0pt;
+font-family:&quot;Arial&quot;,sans-serif;mso-fareast-font-family:&quot;Times New Roman&quot;;
+color:#201F1E;mso-fareast-language:ES;mso-bidi-font-style:italic"><span style="background:yellow"><br></span></span></p>
+
+<p class="MsoNormal" style="margin-bottom:0cm;text-align:justify;line-height:
+normal;background:white;vertical-align:baseline"></p><p class="MsoNormal" style="margin-bottom:0cm;text-align:justify;line-height:
+normal;background:white;vertical-align:baseline"><span style="font-size:12.0pt;
+font-family:&quot;Arial&quot;,sans-serif;mso-fareast-font-family:&quot;Times New Roman&quot;;
+color:#201F1E;mso-fareast-language:ES;mso-bidi-font-style:italic">En caso de
+que los datos sean inexactos y desees rectificarlos, puedes ponerte en contacto
+con nosotros a través de 900 264 600.</span></p><p class="MsoNormal" style="margin-bottom:0cm;text-align:justify;line-height:
+normal;background:white;vertical-align:baseline"><span style="font-size:12.0pt;
+font-family:&quot;Arial&quot;,sans-serif;mso-fareast-font-family:&quot;Times New Roman&quot;;
+color:#201F1E;mso-fareast-language:ES;mso-bidi-font-style:italic"><br></span></p><p class="MsoNormal" style="margin-bottom:0cm;text-align:justify;line-height:
+normal;background:white;vertical-align:baseline"><span style="font-size:12.0pt;
+font-family:&quot;Arial&quot;,sans-serif;mso-fareast-font-family:&quot;Times New Roman&quot;;
+color:#201F1E;mso-fareast-language:ES;mso-bidi-font-style:italic"><br></span></p><p class="MsoNormal" style="margin-bottom:0cm;text-align:justify;line-height:
+normal;background:white;vertical-align:baseline"><span style="font-size:12.0pt;font-family:&quot;Arial&quot;,sans-serif;
+mso-fareast-font-family:&quot;Times New Roman&quot;;color:#201F1E;mso-fareast-language:
+ES"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="margin-bottom:0cm;text-align:justify;line-height:
+normal;background:white;vertical-align:baseline"><span style="font-size:12.0pt;
+font-family:&quot;Arial&quot;,sans-serif;mso-fareast-font-family:&quot;Times New Roman&quot;;
+color:#201F1E;mso-fareast-language:ES;mso-bidi-font-style:italic">Recibe un
+cordial saludo</span></p><p></p>]]></td>
+</tr>
+<tr valign="top" height="50" >
+<td tEditID="c1r3" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r3" locked="0" >
+<![CDATA[]]></td>
+</tr>
+</table>

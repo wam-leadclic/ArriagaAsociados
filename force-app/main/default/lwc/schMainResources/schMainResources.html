@@ -1,0 +1,78 @@
+<template>
+    
+    <template if:true={resourceCategories}>
+
+        <lightning-tabset variant="vertical">
+
+            <template if:true={showSpinner}>
+                <lightning-spinner alternative-text="Loading"></lightning-spinner>
+            </template>
+
+            <!--<template for:each={resourceCategories.Resource.lSubtype} for:item="userSubtype">-->
+            <template for:each={mResources} for:item="itemResource">        
+                <lightning-tab key={itemResource.key} label={itemResource.key}>
+
+                    <table class="slds-table slds-table_cell-buffer">
+                        <thead>
+                            <tr class="slds-text-title_caps">
+                                <th scope="col">
+                                    <div title="Name">{label.resourceName}</div>
+                                </th>
+                                <th scope="col">
+                                    <div title="Schedule">{label.resourceSchedule}</div>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <template for:each={itemResource.value} for:item="resource">
+                                <tr key={resource.name}>
+                                    <th scope="col">
+                                        <div>{resource.name}</div>
+                                    </th>
+                                    <th scope="col">
+                                        <div><lightning-button  value={resource.id} icon-name="standard:event" label={label.showCalendarButton} onclick={onClickShowCalendar} ></lightning-button></div>
+                                    </th>
+                                </tr>
+                            </template>
+                        </tbody>
+                    </table>
+
+                </lightning-tab>
+                
+            </template>
+
+        </lightning-tabset>
+
+    </template>
+
+
+ <div class="slds-theme_default">
+
+        <template if:true={openmodel}>
+            <div>
+                <section role="dialog" class="slds-modal slds-fade-in-open slds-modal_large">
+
+                    <div class="slds-modal__container" style="width:80%">
+                        <header class="slds-modal__header">
+                            <button class="slds-button slds-button_icon slds-modal__close slds-button_icon-inverse" title="Close" onclick={onClickCloseModal}>
+                                <lightning-icon icon-name="utility:close" size="medium"></lightning-icon>
+                                <span class="slds-assistive-text">Close</span>
+                            </button>
+                        </header>
+
+                        <c-calendar-wrapper events={lEvent} open-date={openDate} view-type="month" start-date={startDate} end-date={endDate} 
+                                        redirect-to-event=true show-new-event=true show-sidebar=true> </c-calendar-wrapper> 
+
+                        <footer class="slds-modal__footer">
+                            <lightning-button label="Cancel" variant="neutral" onclick={onClickCloseModal}></lightning-button>
+                        </footer>
+
+                    </div>
+                </section>
+                <div class="slds-backdrop slds-backdrop_open"></div>
+            </div>
+        </template>
+        
+    </div>
+
+</template>

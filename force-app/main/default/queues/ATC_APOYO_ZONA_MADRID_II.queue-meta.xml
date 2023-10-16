@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>ATC APOYO - ZONA MADRID II</name>
+    <queueMembers>
+        <roles>
+            <role>Supervisor_ATC</role>
+        </roles>
+        <users>
+            <user>efernandezo@arriagaasociados.com</user>
+            <user>ejimenez@arriagaasociados.com</user>
+            <user>fchamorro@arriagaasociados.com</user>
+            <user>lheredia@arriagaasociados.com</user>
+            <user>mbuenov@arriagaasociados.com</user>
+            <user>mleal@arriagaasociados.com</user>
+            <user>nesteban@arriagaasociados.com</user>
+            <user>oandres@arriagaasociados.com</user>
+            <user>rruiz@arriagaasociados.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

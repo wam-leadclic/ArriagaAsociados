@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Scoring__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE(ScoringNumber__c , 24, IMAGE(&quot;/img/samples/stars_500.gif&quot;, &quot;5&quot;), 
+23.5, IMAGE(&quot;/img/samples/stars_500.gif&quot;, &quot;5&quot;), 
+23, IMAGE(&quot;/img/samples/stars_500.gif&quot;, &quot;5&quot;), 
+22.5, IMAGE(&quot;/img/samples/stars_500.gif&quot;, &quot;5&quot;), 
+22, IMAGE(&quot;/img/samples/stars_500.gif&quot;, &quot;5&quot;), 
+21.5, IMAGE(&quot;/img/samples/stars_500.gif&quot;, &quot;5&quot;), 
+21, IMAGE(&quot;/img/samples/stars_400.gif&quot;, &quot;4&quot;), 
+20.5, IMAGE(&quot;/img/samples/stars_400.gif&quot;, &quot;4&quot;), 
+20, IMAGE(&quot;/img/samples/stars_400.gif&quot;, &quot;4&quot;), 
+19.5, IMAGE(&quot;/img/samples/stars_400.gif&quot;, &quot;4&quot;), 
+19, IMAGE(&quot;/img/samples/stars_300.gif&quot;, &quot;3&quot;), 
+18.5, IMAGE(&quot;/img/samples/stars_300.gif&quot;, &quot;3&quot;), 
+18, IMAGE(&quot;/img/samples/stars_300.gif&quot;, &quot;3&quot;), 
+17.5, IMAGE(&quot;/img/samples/stars_300.gif&quot;, &quot;3&quot;), 
+17, IMAGE(&quot;/img/samples/stars_300.gif&quot;, &quot;3&quot;), 
+16.5, IMAGE(&quot;/img/samples/stars_300.gif&quot;, &quot;3&quot;), 
+16, IMAGE(&quot;/img/samples/stars_300.gif&quot;, &quot;3&quot;), 
+15.5, IMAGE(&quot;/img/samples/stars_300.gif&quot;, &quot;3&quot;), 
+15, IMAGE(&quot;/img/samples/stars_300.gif&quot;, &quot;3&quot;), 
+14.5, IMAGE(&quot;/img/samples/stars_300.gif&quot;, &quot;3&quot;), 
+14, IMAGE(&quot;/img/samples/stars_200.gif&quot;, &quot;2&quot;), 
+13.5, IMAGE(&quot;/img/samples/stars_200.gif&quot;, &quot;2&quot;), 
+13, IMAGE(&quot;/img/samples/stars_200.gif&quot;, &quot;2&quot;), 
+12.5, IMAGE(&quot;/img/samples/stars_200.gif&quot;, &quot;2&quot;), 
+12, IMAGE(&quot;/img/samples/stars_200.gif&quot;, &quot;2&quot;), 
+11.5, IMAGE(&quot;/img/samples/stars_200.gif&quot;, &quot;2&quot;), 
+11, IMAGE(&quot;/img/samples/stars_200.gif&quot;, &quot;2&quot;), 
+10.5, IMAGE(&quot;/img/samples/stars_200.gif&quot;, &quot;2&quot;), 
+10, IMAGE(&quot;/img/samples/stars_100.gif&quot;, &quot;1&quot;), 
+9.5, IMAGE(&quot;/img/samples/stars_100.gif&quot;, &quot;1&quot;), 
+9, IMAGE(&quot;/img/samples/stars_100.gif&quot;, &quot;1&quot;), 
+8.5, IMAGE(&quot;/img/samples/stars_100.gif&quot;, &quot;1&quot;), 
+8, IMAGE(&quot;/img/samples/stars_100.gif&quot;, &quot;1&quot;), 
+7.5, IMAGE(&quot;/img/samples/stars_100.gif&quot;, &quot;1&quot;), 
+7, IMAGE(&quot;/img/samples/stars_100.gif&quot;, &quot;1&quot;), 
+6.5, IMAGE(&quot;/img/samples/stars_100.gif&quot;, &quot;1&quot;), 
+6, IMAGE(&quot;/img/samples/stars_100.gif&quot;, &quot;1&quot;), 
+5.5, IMAGE(&quot;/img/samples/stars_100.gif&quot;, &quot;1&quot;), 
+5, IMAGE(&quot;/img/samples/stars_100.gif&quot;, &quot;1&quot;), 
+4.5, IMAGE(&quot;/img/samples/stars_100.gif&quot;, &quot;1&quot;), 
+IMAGE(&quot;/img/samples/stars_000.gif&quot;, &quot;0&quot;) 
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Scoring</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

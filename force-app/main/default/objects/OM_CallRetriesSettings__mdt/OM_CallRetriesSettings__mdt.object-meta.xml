@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>En este componente se configurarán los valores que determinarán el número máximo de reintentos en la emisión de llamada y el tiempo que debe pasar entre uno y otro.</description>
+    <label>Configuración de Reintentos</label>
+    <pluralLabel>Configuración de Reintentos</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>NO_INFORMADO</fullName>
+        <default>false</default>
+        <label>No Informado</label>
+    </customValue>
+    <customValue>
+        <fullName>POR_RECOMENDACIÓN</fullName>
+        <default>false</default>
+        <label>Por Recomendación</label>
+    </customValue>
+    <customValue>
+        <fullName>POR_TELEVISIÓN</fullName>
+        <default>false</default>
+        <label>Por Televisión</label>
+    </customValue>
+    <customValue>
+        <fullName>POR_RADIO</fullName>
+        <default>false</default>
+        <label>Por Radio</label>
+    </customValue>
+    <customValue>
+        <fullName>POR_PRENSA</fullName>
+        <default>false</default>
+        <label>Por Prensa</label>
+    </customValue>
+    <customValue>
+        <fullName>POR_INTERNET</fullName>
+        <default>false</default>
+        <label>Por Internet</label>
+    </customValue>
+    <customValue>
+        <fullName>MARQUESINAS</fullName>
+        <default>false</default>
+        <label>Marquesinas</label>
+    </customValue>
+    <customValue>
+        <fullName>HA_VISTO_DELEGACIÓN</fullName>
+        <default>false</default>
+        <label>Ha visto una delegación</label>
+    </customValue>
+    <masterLabel>CanalOrigenCliente</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

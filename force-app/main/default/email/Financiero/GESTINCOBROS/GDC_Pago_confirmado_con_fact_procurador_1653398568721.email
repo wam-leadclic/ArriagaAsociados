@@ -1,0 +1,26 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<p>Buenos días {{{Recipient.FirstName}}}</p>
+
+<p><br />
+Queremos confirmarte que <b>hemos recibido tu ingreso relativo al pago de la factura nº&nbsp; {{{Case.Numero_de_Factura__c}}}&nbsp;</b>de tu<b> </b>expediente<b>{{{Case.NumeroExpediente__c}}}&nbsp;&nbsp;</b>y que nuestro equipo de facturación ya ha verificado, <b>muchas gracias.&nbsp;</b>&nbsp;</p>
+
+<p>En cuanto a la confirmación de pago de la factura de procurador nº (xxxxx), si lo deseas, puedes ponerte en contacto directo con:&nbsp;<br />
+FRAILE MENA SERVICIOS JURIDICOS S.L. Calle Plaza de Castilla 3, 22-A 28046 Madrid.<br />
+jfraile@madrid.cgpe.net Tlf/Fax 91 323 85 79 C.I.F. B98558539&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>Gracias por confiar en nosotros&nbsp;<br />
+<br />
+Recibe un cordial saludo.</p>
+
+<p>Equipo Gestión de Cobros<br />
+Arriaga Asociados&nbsp;</p>
+
+<p>&nbsp;</p>
+
+</body></html>

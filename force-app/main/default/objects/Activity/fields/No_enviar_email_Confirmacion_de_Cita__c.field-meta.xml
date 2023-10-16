@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_enviar_email_Confirmacion_de_Cita__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Check para no enviar correo al cliente de la confirmación de cita cuando el usuario lo marca en el Gestor de Citas.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Check para no enviar correo al cliente de la confirmación de cita cuando el usuario lo marca en el Gestor de Citas.</inlineHelpText>
+    <label>No enviar email Confirmación de Cita</label>
+    <type>Checkbox</type>
+</CustomField>

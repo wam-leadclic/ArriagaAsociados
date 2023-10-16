@@ -1,0 +1,29 @@
+<table border="0" cellpadding="5" width="600" cellspacing="5" height="400" >
+<tr valign="top" height="50" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[]]></td>
+</tr>
+<tr valign="top" height="300" >
+<td tEditID="c1r2" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r2" locked="0" >
+<![CDATA[<p style="color: rgb(0, 0, 0); font-size: 12pt; margin: 0cm 0cm 7.5pt; text-align: justify;"><font face="Times New Roman, Times, serif"><span style="color: rgb(51, 51, 51); font-size: 12pt;">Estimado&nbsp;</span><font color="#333333" style="">{!Contact.FirstName}</font><span style="color: rgb(51, 51, 51); font-size: 12pt;">,</span></font></p>
+
+<p style="color: rgb(0, 0, 0); font-size: 12pt; margin: 0cm 0cm 7.5pt; text-align: justify;"><span style="color: rgb(51, 51, 51);"><o:p><font face="Times New Roman, Times, serif">&nbsp;</font></o:p></span></p>
+
+<p style="color: rgb(0, 0, 0); font-size: 12pt; margin: 0cm 0cm 7.5pt; text-align: justify;"><span style="color: rgb(51, 51, 51);"><font face="Times New Roman, Times, serif">Tal y como hemos acordado en conversación telefónica, a
+continuación le envío el documento explicativo de la situación del expediente
+de plusvalía que tiene contratado con nosotros.<o:p></o:p></font></span></p>
+
+<p style="color: rgb(0, 0, 0); font-size: 12pt; margin: 0cm 0cm 7.5pt; text-align: justify;"><span style="color: rgb(51, 51, 51);"><font face="Times New Roman, Times, serif">Desde Arriaga Asociados no procederemos a iniciar la vía
+contencioso administrativa.&nbsp;En caso de no estar conforme, rogamos nos lo
+comunique en plazo máximo de 3 días naturales.</font></span></p><p style="margin: 0cm 0cm 7.5pt; text-align: justify;"><font color="#333333" face="Times New Roman, Times, serif">Si necesita más información estamos a su disposición en el teléfono de atención al cliente 91 005 26 00.</font></p>
+
+<p style="color: rgb(0, 0, 0); font-size: 12pt; margin: 0cm 0cm 7.5pt; text-align: justify;"><font face="Times New Roman, Times, serif">Reciba un
+cordial saludo</font></p><p style="color: rgb(0, 0, 0); font-size: 12pt; margin: 0cm 0cm 7.5pt; text-align: justify;"><font face="Times New Roman, Times, serif">{!Case.OwnerFirstName} {!Case.OwnerLastName}</font></p>
+
+<p style="color: rgb(0, 0, 0); font-size: 12pt; margin: 0cm 0cm 7.5pt; text-align: justify;"><span style="color: rgb(51, 51, 51);"><font face="Times New Roman, Times, serif">Departamento de Atención al Cliente</font><font face="Calibri, sans-serif"><o:p></o:p></font></span></p>]]></td>
+</tr>
+<tr valign="top" height="50" >
+<td tEditID="c1r3" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r3" locked="0" >
+<![CDATA[<font face="arial" color="#ffffff">{!Case.Thread_Id}</font>]]></td>
+</tr>
+</table>

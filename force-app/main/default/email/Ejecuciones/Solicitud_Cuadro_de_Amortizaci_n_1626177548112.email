@@ -1,0 +1,20 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;"><span style="line-height: 107%;"><span style="color: black;"><span style="position: relative;"><span style="top: -0.5pt;">Buenos días<font face="Arial, sans-serif">&nbsp;</font></span></span></span></span>{{{Recipient.FirstName}}}:
+<p>Seguimos trabajando para recuperar lo que te pertenece, por lo que en tu expediente con número {{{Case.Expediente__c}}}, banco <span style="color:#c0392b;">(XX) </span>nos hará falta una documentación e información necesaria <b>para poder calcular el perjuicio que te ha causado la cláusula suelo.</b><br />
+&nbsp;</p>
+
+<p>- ¿Qué necesitamos? Necesitamos que solicites a tu entidad financiera el <u>cuadro de amortización histórico de tu préstamo hipotecario </u>y nos lo envíes y, además:</p>
+
+<p>- <u>Los últimos tres recibos de la hipoteca</u> en el caso de que aún te sigan aplicando la cláusula suelo</p>
+
+<p>- Si por el contrario te han eliminado la cláusula suelo el <u>último recibo en el que te aplicaban la cláusula y el primer recibo sin la aplicación de la misma.</u></p>
+
+<p><br />
+<br />
+Gracias por confiar en nosotros.<br />
+Departamento de Sentencias.</p>
+
+</body></html>

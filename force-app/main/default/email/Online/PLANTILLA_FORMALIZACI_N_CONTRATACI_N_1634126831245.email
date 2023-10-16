@@ -1,0 +1,18 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;"><span style="font-size:11pt"><span style="line-height:107%"><span style="font-family:Calibri,sans-serif">Buenos días {{{Account.FirstName}}}:</span></span></span><br />
+<br />
+<span style="font-size:11pt"><span style="line-height:107%"><span style="font-family:Calibri,sans-serif">Mi nombre es {{{Account.OwnerFullName}}}, asesor jurídico de Arriaga Asociados ICAM XXXX.<br />
+<br />
+Tal y como hemos hablado te hemos enviado un correo para la firma de los documentos necesarios para poner en marcha tu reclamación.</span></span></span><br />
+<br />
+<span style="font-size:11pt"><span style="line-height:107%"><span style="font-family:Calibri,sans-serif">En breve, también recibirás en el móvil y en el correo electrónico un enlace de pago virtual de La Caixa para abonar la cantidad acordada de <b><span style="color:#c0392b">XXXX</span></b> euros.</span></span></span><br />
+<br />
+<span style="font-size:11pt"><span style="line-height:107%"><span style="font-family:Calibri,sans-serif">Aprovecho para adjuntarte las indicaciones que has de entregar al notario para realizar el poder general para pleitos y recordarte que nos aportes copia de tu DNI.</span></span></span><br />
+<br />
+<span style="font-size:11pt"><span style="line-height:107%"><span style="font-family:Calibri,sans-serif">Quedo a tu disposición para cualquier duda,</span></span></span><br />
+<br />
+<span style="font-size:11pt"><span style="line-height:107%"><span style="font-family:Calibri,sans-serif">Un Saludo</span></span></span>
+</body></html>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CodigoPostal_obligatorio</fullName>
+    <active>true</active>
+    <description>Código postal del candidato obligatorio, excepto vía web</description>
+    <errorConditionFormula>AND (
+  ISBLANK( PostalCode ),
+  TEXT(LeadSource)&lt;&gt;$Label.CandidatoOrigenWeb,
+		NOT ISPICKVAL( LeadSource , &quot;Facebook&quot;),
+		NOT ISPICKVAL( LeadSource , &quot;Integración&quot;),
+		NOT ISPICKVAL( LeadSource , &quot;Telefonía&quot;),
+                NOT ISPICKVAL( LeadSource , &quot;Autocita&quot;)
+)</errorConditionFormula>
+    <errorMessage>El código postal es obligatorio</errorMessage>
+</ValidationRule>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Oficina_set</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISPICKVAL(StageName,&apos;Cerrada Ganada&apos;) &amp;&amp;  ISBLANK(Office__c)</errorConditionFormula>
+    <errorMessage>Debe seleccionar una Oficina de Contratación antes de ganar la Oportunidad</errorMessage>
+</ValidationRule>

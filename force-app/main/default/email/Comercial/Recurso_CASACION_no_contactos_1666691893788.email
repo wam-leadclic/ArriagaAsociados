@@ -1,0 +1,25 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;"><br />
+<br />
+Buenos días, {{{Recipient.FirstName}}}<br />
+<br />
+Estamos intentando comunicarnos con usted al teléfono que tenemos en nuestra base de datos, con respecto a su expediente número <span style="color:#c0392b;">(agregar manualmente número de expediente)</span> del producto <span style="color:#c0392b;">(agregar manualmente nombre de producto)</span>.<br />
+<br />
+<strong>Su caso ha llegado al Tribunal Supremo y esa instancia no la cubre la HE firmada con nosotros.</strong>&nbsp;<br />
+<br />
+Para poder representarle ante esta instancia es imprescindible su aprobación expresa al respecto y la firma de una nueva Hoja de Encargo puesto que el recurso puede tener costes asociados (los cuales se detallarán en su&nbsp;hoja de encargo). &nbsp;<br />
+<br />
+<strong>El plazo para preparar y presentar el recurso es limitado. A fin de poder asesorarle adecuadamente y que pueda tomar una decisión, le rogamos se ponga en contacto con nosotros a la mayor brevedad posible <u>respondiendo a este mismo mail.</u></strong><br />
+<br />
+Si pasadas <span style="color:#c0392b;">(agregar manualmente plazo de tiempo en horas)</span> no la hemos recibido, entenderemos que finalmente no desea que le representemos en este procedimiento.<br />
+<br />
+&nbsp;<br />
+<br />
+<br />
+<br />
+Gracias por confiar en nosotros.<br />
+Equipo Arriaga Asociados&nbsp;</body>
+</html>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Activa__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Valor que indica si una oficina está disponible para solicitar citar en ella.</description>
+    <externalId>false</externalId>
+    <label>Activa</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

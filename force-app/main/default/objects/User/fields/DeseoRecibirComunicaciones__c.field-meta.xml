@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DeseoRecibirComunicaciones__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Campo para indicar que el usuario quiere recibir comunicaciones de Arriaga Asociados. Este campo se marca desde la página de registro de la comunidad</description>
+    <externalId>false</externalId>
+    <label>Deseo Recibir Comunicaciones</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>

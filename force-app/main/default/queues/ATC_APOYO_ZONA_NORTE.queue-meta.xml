@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>ATC APOYO - ZONA NORTE</name>
+    <queueMembers>
+        <roles>
+            <role>Supervisor_ATC</role>
+        </roles>
+        <users>
+            <user>abprieto@arriagaasociados.com</user>
+            <user>acampos@arriagaasociados.com</user>
+            <user>bpgomez@arriagaasociados.com</user>
+            <user>maiglesias@arriagaasociados.com</user>
+            <user>mandrade@arriagaasociados.com</user>
+            <user>vdiaz@arriagaasociados.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>
