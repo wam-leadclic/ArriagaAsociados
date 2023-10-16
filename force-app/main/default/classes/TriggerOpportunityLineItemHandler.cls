@@ -6,6 +6,7 @@
 <pre>
 FECHA             AUTOR           ACCION
 22/05/2019		LCS - RDM	   	  Creación. 
+16/10/2023 		LCS - NA		  Modificación. Trasladar los valores de los campos que recogen la documentación de redacción y adicional del Producto a la Oportunidad.
 */
 public without sharing class TriggerOpportunityLineItemHandler {
     /**
@@ -41,7 +42,7 @@ public without sharing class TriggerOpportunityLineItemHandler {
         list<Opportunity> lOpp = [SELECT Id, DocumentosCompletado__c, DocumentosContratacion__c 
                                     FROM Opportunity
                                     WHERE Id IN :loppId];
-        map<Id, Product2> mProduct = new map<Id, Product2>([SELECT Id, DocumentosCompletado__c, DocumentosContratacion__c, ResponsableViabilidad__c 
+        map<Id, Product2> mProduct = new map<Id, Product2>([SELECT Id, DocumentosCompletado__c, DocumentosContratacion__c, ResponsableViabilidad__c, DocumentosRedaccion__c, DocumentosAdicionales__c
                                             FROM Product2
                                             WHERE Id IN :lprodId]);
         //Recorremos las oportunidadesy les asignamos los campos
@@ -54,6 +55,8 @@ public without sharing class TriggerOpportunityLineItemHandler {
                     opp.DocumentosCompletado__c = producto.DocumentosCompletado__c;
                     opp.DocumentosContratacion__c = producto.DocumentosContratacion__c;
                     opp.ResponsableViabilidad__c = producto.ResponsableViabilidad__c;
+                    opp.DocumentosRedaccion__c = producto.DocumentosRedaccion__c;
+                    opp.DocumentosAdicionales__c = producto.DocumentosAdicionales__c;
                     //Añadimos la oportunidad para actualizar
                     lUpdateOpp.add(opp);
                 }

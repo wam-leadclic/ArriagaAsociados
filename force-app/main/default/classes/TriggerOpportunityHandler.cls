@@ -26,6 +26,7 @@ FECHA             AUTOR           ACCION
 27/04/2020      LCS - RAL         Modificación. Se añade la fecha justificante de pago al cerrar una oportunidad como cerrada ganada.
 30/09/2020      LCS - RAL         Modificación. Se añade la condición en el método getOficinas que se tenga en cuanta la vigencia de la relación entre horario y calendario.
 28/10/2020 		LCS - GMC		  Modificación. Modificado el método "cambioEstadoCliente" para que cambie el estado a todos los intervinientes
+16/10/2023 		LCS - NA		  Modificación. Trasladar los valores de los campos que recogen la documentación de redacción y adicional de la Oportunidad al Expediente.
 */
 public without sharing class TriggerOpportunityHandler {
     
@@ -228,7 +229,11 @@ public without sharing class TriggerOpportunityHandler {
                     Expediente.Tipo__c = opp.Tipo__c;
                     Expediente.PrecioTotal__c = opp.PrecioTotal__c;    
                     Expediente.ProofPaymentDate__c = opp.ProofPaymentDate__c;
-		    Expediente.FechaPago__c = opp.ProofPaymentDate__c;
+		            Expediente.FechaPago__c = opp.ProofPaymentDate__c;
+                    Expediente.DocumentosRedaccion__c = opp.DocumentosRedaccion__c;
+                    Expediente.DocumentosRedaccionAportados__c = opp.DocumentosRedaccionAportados__c;
+                    Expediente.DocumentosAdicionales__c = opp.DocumentosAdicionales__c;
+                    Expediente.DocumentosAdicionalesAportados__c = opp.DocumentosAdicionalesAportados__c;
                     //Comprobamos si quien ejecuta el trigger viene de la comunidad, si es así le asignamos el mismo owner
                     if(userinfo.getProfileId() == Label.IdPerfilUsuariocomunidad && userinfo.getProfileId() == Label.IdPerfilGuest) Expediente.OwnerId = opp.OwnerId;
                     if(userinfo.getProfileId() != Label.IdPerfilUsuariocomunidad && userinfo.getProfileId() != Label.IdPerfilGuest){
