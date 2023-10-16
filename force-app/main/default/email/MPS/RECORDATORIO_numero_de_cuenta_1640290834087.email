@@ -1,0 +1,17 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<p>Buenos días {{{Recipient.FirstName}}}:</p>
+
+<p>Salvo error u omisión no hemos recibido<b> tu número de cuenta o IBAN</b> solicitado para gestionar mandamiento de pago o diligencia de ordenación para el cobro de tu expediente <span style="color:#e74c3c;"><b>(</b><b>X</b><b>XXXX</b><b>).</b>&nbsp;</span></p>
+
+<p>Nos mantenemos a la espera para poder llevar a cabo la gestión,<b> puedes hacerlo respondiendo a este mismo correo electrónico.</b>&nbsp;&nbsp;</p>
+
+<p>Si tienes alguna duda, recuerda que puedes ponerte en contacto con nosotros al teléfono <b>91 005 2600</b> o visitando <b>TU ESPACIO ARRIAGA</b>, nuestro portal de cliente (si no tienes claves de acceso, puedes llamarnos y te ayudaremos)&nbsp;&nbsp;</p>
+
+<p>Gracias por confiar en nosotros.<br />
+Departamento Sentencias.</p>
+
+</body></html>

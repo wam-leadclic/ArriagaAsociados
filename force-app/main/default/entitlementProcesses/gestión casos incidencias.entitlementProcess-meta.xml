@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EntitlementProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <SObjectType>Case</SObjectType>
+    <active>true</active>
+    <businessHours>Siniestro</businessHours>
+    <description>Procesos de asignación para los tipos de registro de queja, incidencia y siniestro</description>
+    <entryStartDateField>Case.CreatedDate</entryStartDateField>
+    <exitCriteriaFilterItems>
+        <field>Case.Status</field>
+        <operation>equals</operation>
+        <value>Cerrado</value>
+    </exitCriteriaFilterItems>
+    <isVersionDefault>true</isVersionDefault>
+    <milestones>
+        <businessHours>Siniestro</businessHours>
+        <criteriaBooleanFilter>1 AND (2 OR 3 OR 4)</criteriaBooleanFilter>
+        <milestoneCriteriaFilterItems>
+            <field>Case.Priority</field>
+            <operation>equals</operation>
+            <value>Baja</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneCriteriaFilterItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Siniestro</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneCriteriaFilterItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Quejas</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneCriteriaFilterItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Incidencias</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneName>Gestión casos Incidencias</milestoneName>
+        <minutesToComplete>4800</minutesToComplete>
+        <useCriteriaStartTime>false</useCriteriaStartTime>
+    </milestones>
+    <milestones>
+        <businessHours>Siniestro</businessHours>
+        <criteriaBooleanFilter>1 AND (2 OR 3 OR 4)</criteriaBooleanFilter>
+        <milestoneCriteriaFilterItems>
+            <field>Case.Priority</field>
+            <operation>equals</operation>
+            <value>Media</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneCriteriaFilterItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Quejas</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneCriteriaFilterItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Incidencias</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneCriteriaFilterItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Siniestro</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneName>Gestión casos Incidencias</milestoneName>
+        <minutesToComplete>2400</minutesToComplete>
+        <useCriteriaStartTime>false</useCriteriaStartTime>
+    </milestones>
+    <milestones>
+        <businessHours>Siniestro</businessHours>
+        <criteriaBooleanFilter>1 AND (2 OR 3 OR 4)</criteriaBooleanFilter>
+        <milestoneCriteriaFilterItems>
+            <field>Case.Priority</field>
+            <operation>equals</operation>
+            <value>Alta</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneCriteriaFilterItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Quejas</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneCriteriaFilterItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Incidencias</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneCriteriaFilterItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Siniestro</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneName>Gestión casos Incidencias</milestoneName>
+        <minutesToComplete>1440</minutesToComplete>
+        <useCriteriaStartTime>false</useCriteriaStartTime>
+    </milestones>
+    <milestones>
+        <businessHours>Siniestro</businessHours>
+        <criteriaBooleanFilter>1 AND (2 OR 3 OR 4)</criteriaBooleanFilter>
+        <milestoneCriteriaFilterItems>
+            <field>Case.Priority</field>
+            <operation>equals</operation>
+            <value>Crítica</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneCriteriaFilterItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Quejas</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneCriteriaFilterItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Incidencias</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneCriteriaFilterItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Siniestro</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneName>Gestión casos Incidencias</milestoneName>
+        <minutesToComplete>480</minutesToComplete>
+        <useCriteriaStartTime>false</useCriteriaStartTime>
+    </milestones>
+    <name>Gestión casos Incidencias</name>
+    <versionMaster>5521t000000HEh7</versionMaster>
+    <versionNumber>1</versionNumber>
+</EntitlementProcess>

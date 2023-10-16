@@ -1,0 +1,34 @@
+<template>
+    <template if:true={isShowSpinner}>
+        <lightning-spinner alternative-text="Loading"></lightning-spinner>
+    </template>
+
+    <div class="slds-feed">
+        <template if:true={lContractChatterFeedBody}>
+            <lightning-layout class="slds-text-heading_small">
+                {label.customChatterTitle}
+            </lightning-layout>
+            <div class="slds-feed__list">
+                <template for:each={lContractChatterFeedBody} for:item="contractChatterFeedBody">
+                    <div key={contractChatterFeedBody.id} class='slds-m-vertical_x-small'>
+
+                        <lightning-card icon-name="standard:email_chatter" class='slds-m-vertical_x-small customColor'>
+                            <span slot='title'>
+                                <lightning-formatted-date-time value={contractChatterFeedBody.datefeed} day="numeric"
+                                    month="numeric" year="numeric" hour="2-digit" minute="2-digit">
+                                </lightning-formatted-date-time> -
+                                {label.customChatterCardTitle}
+                            </span>
+                            <lightning-layout class="slds-m-horizontal_small">
+                                <div>
+                                    <lightning-formatted-rich-text value={contractChatterFeedBody.body}>
+                                    </lightning-formatted-rich-text>
+                                </div>
+                            </lightning-layout>
+                        </lightning-card>
+                    </div>
+                </template>
+            </div>
+        </template>
+    </div>
+</template>

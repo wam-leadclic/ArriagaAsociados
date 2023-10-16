@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DireccionOficinaCita__c</fullName>
+    <description>Campo que muestra el nombre largo de la oficina</description>
+    <externalId>false</externalId>
+    <formula>Oficina__r.Name</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Dirección oficina cita</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

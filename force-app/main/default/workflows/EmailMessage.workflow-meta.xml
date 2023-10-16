@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>Activar_SLAs</fullName>
+        <description>Se activa el SLA del caso</description>
+        <field>IsStopped</field>
+        <literalValue>0</literalValue>
+        <name>Activar SLAs</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+        <targetObject>ParentId</targetObject>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Caso_reabierto</fullName>
+        <description>Si mandan un correo asociado al caso se reabre para que sea tratado</description>
+        <field>Status</field>
+        <literalValue>Reabierto</literalValue>
+        <name>Caso reabierto</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+        <targetObject>ParentId</targetObject>
+    </fieldUpdates>
+    <rules>
+        <fullName>Caso de resuelto a reabierto</fullName>
+        <actions>
+            <name>Activar_SLAs</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Caso_reabierto</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>2 AND (1 OR 3 OR 4)</booleanFilter>
+        <criteriaItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>Resuelto</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>ATC</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>Cerrado</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>Pendiente de cliente</value>
+        </criteriaItems>
+        <description>Cuando se recibe un email si el caso está como resuelto o cerrado se pasa al estado reabierto</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Caso de resuelto a reabierto Acuerdo Revolving</fullName>
+        <actions>
+            <name>Caso_reabierto</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>2 AND (1 OR 3 OR 4)</booleanFilter>
+        <criteriaItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>Resuelto</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Type</field>
+            <operation>equals</operation>
+            <value>Acuerdo Revolving</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>Cerrado</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>Pendiente de cliente</value>
+        </criteriaItems>
+        <description>Cuando se recibe un email si el caso Acuerdo Revolving , está como resuelto o cerrado se pasa al estado reabierto</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Caso de resuelto a reabierto Ejecuciones %2C Procesal%2C Cobro y Recobros</fullName>
+        <actions>
+            <name>Caso_reabierto</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>2 AND (1 OR 3 OR 4)</booleanFilter>
+        <criteriaItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>Resuelto</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Ejecuciones,Procesal,Renegociación PH,Call Center General,Financiero Gestión cobros,Financiero Recobros,Incidencias</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>Cerrado</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>Pendiente de cliente</value>
+        </criteriaItems>
+        <description>Cuando se recibe un email si el caso está como resuelto o cerrado se pasa al estado reabierto en los tipos de caso de Ejecuciones, Procesal, Cobro, Recobro, RPH y Call Center Genérico</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Caso de resuelto a reabierto Resoluciones</fullName>
+        <actions>
+            <name>Caso_reabierto</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>4 and (1 or 2 or 3)</booleanFilter>
+        <criteriaItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>Cerrado</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>Pendiente de cliente</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>Resuelto</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Financiero / Resoluciones</value>
+        </criteriaItems>
+        <description>Cuando se recibe un email si el caso está como resuelto o cerrado se pasa al estado reabierto en los tipos de caso de Resoluciones-Acuerdo, Resoluciones-Desistimientos y Resoluciones-Venias</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+</Workflow>

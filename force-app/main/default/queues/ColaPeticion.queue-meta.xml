@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>ATC - Petición</name>
+    <queueMembers>
+        <roles>
+            <role>Agente_ATC</role>
+            <role>Agente_Call_Center</role>
+            <role>Supervisor_ATC</role>
+            <role>Supervisor_Call_Center</role>
+        </roles>
+    </queueMembers>
+    <queueRoutingConfig>cases_Routing_config</queueRoutingConfig>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Arriaga_plantilla_casos</letterhead>
+    <name>MODELO DE JUSTIFICANTE DE “RECIBÍ”</name>
+    <style>formalLetter</style>
+    <subject>MODELO DE JUSTIFICANTE DE “RECIBÍ”</subject>
+    <textOnly>En ……………..a…..de…….de………
+
+
+
+OPCIÓN 1.- NOMBRE PROPIO
+
+
+
+Don/Doña ……………………..……. con DNI nº ………….…….. con domicilio en ………………… actuando en nombre propio
+
+
+
+OPCIÓN 2.- POR REPRESENTACIÓN LEGAL (PODER) O VOLUNTARIA (AUTORIZACIÓN)
+
+
+
+Don/Doña ……………………..……. con DNI nº ………….…….. con domicilio en ………………… como representante legal/voluntario según documento justificativo que se adjunta, de Don/Doña ……………………..……. con DNI…………….………….
+
+
+
+OPCIÓN 3.- COMO HEREDERO
+
+
+
+A) Por testamento
+
+
+
+Don/Doña ……………………..……. con DNI nº ………….…….. con domicilio en ………………… actuando como heredero de Don/Doña…………………………………. cuyo fallecimiento tuvo lugar en ……..el día…………. bajo testamento abierto otorgado en ……..ante el Notario de ……………… con n número de Protocolo…………. y según el cual soy heredero testamentario y acreditándolo con el documento justificativo que se adjunta,
+
+
+
+B) Por declaración de herederos
+
+
+
+Don/Doña ……………………..……. con DNI nº ………….…….. con domicilio en ………………… actuando como heredero de Don/Doña…………………………………. cuyo fallecimiento tuvo lugar en ……..el día…………. sin haber otorgado testamento y cuya declaración e herederos se instó ante el Notario de ……………… con n número de Protocolo…………. y resultante del Acta de notoriedad resulto heredero abintestato de Don/Doña ……………………..……. con DNI…………….…………. y acreditándolo con el documento justificativo que se adjunta,
+
+
+
+Mediante la presente, declaro haber recibido de ARRIAGA ASOCIADOS, ASESORAMIENTO JURÍDICO, a mí entera satisfacción los siguientes documentos:
+
+
+
+1-
+
+
+
+2-
+
+
+
+3-
+
+
+
+Firmo la presente en señal de conformidad con la recepción,
+
+
+
+Fdo.:</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

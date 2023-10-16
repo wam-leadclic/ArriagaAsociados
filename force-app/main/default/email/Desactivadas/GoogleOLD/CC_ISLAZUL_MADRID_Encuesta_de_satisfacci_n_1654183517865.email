@@ -1,0 +1,20 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<p style="text-align: center;">Buenos días,&nbsp;{{{Account.FirstName}}}&nbsp;<br />
+&nbsp;<br />
+&nbsp;<br />
+¿Cómo ha sido la atención recibida en nuestra oficina?&nbsp;</p>
+
+<p style="text-align: center;">&nbsp;<br />
+¡Comparte tu experiencia y ayúdanos a mejorar!&nbsp;</p>
+
+<p style="text-align: center;"><a href="https://www.google.com/maps/place/Arriaga+Asociados+Islazul/@40.3638642,-3.736702,17z/data=!3m1!4b1!4m5!3m4!1s0xd42277b9a2e32a9:0x4403745dca3b9be6!8m2!3d40.3638642!4d-3.736702"><b>ESCRIBE TU RESEÑA PINCHANDO AQUI</b></a></p>
+
+<p style="text-align: center;">&nbsp;</p>
+
+<p style="text-align: center;">Arriaga Asociados&nbsp;</p>
+</body>
+</html>

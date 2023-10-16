@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AutoNumNumExpediente__c</fullName>
+    <description>Campo autonumérico que rellenará el campo id de NumeroExpediente__c cuando este esté vacío</description>
+    <displayFormat>{YY}{MM}{0000000}</displayFormat>
+    <externalId>false</externalId>
+    <label>Auto numérico Número Expediente</label>
+    <trackHistory>false</trackHistory>
+    <type>AutoNumber</type>
+</CustomField>

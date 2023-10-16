@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EnlaceSiteGDPREnviado__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Si está marcado significa que ya se le ha enviado el correo electrónico con el enlace al site de GDPR, por lo que no hay que volverlo a enviar.</description>
+    <externalId>false</externalId>
+    <label>EnlaceSiteGDPREnviado</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

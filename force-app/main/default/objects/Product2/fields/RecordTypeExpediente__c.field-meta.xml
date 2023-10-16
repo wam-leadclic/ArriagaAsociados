@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RecordTypeExpediente__c</fullName>
+    <description>Campo formula que determina el tipo de registro del expediente al que irá asociado una oportunidad que tenga indicado este producto. 
+
+NOTA: necesario que tenga indicado una familia</description>
+    <externalId>false</externalId>
+    <formula>IF(CONTAINS(LOWER(Name), &apos;popular&apos;), 
+			   &apos;Popular&apos;,
+		    IF(CONTAINS(LOWER(Name), &apos;revolving&apos;), 
+									&apos;Revolving&apos;, 
+  									IF(CONTAINS(LOWER(TEXT(Family)), &apos;cláusulas abusivas&apos;), 
+									    &apos;Productos hipotecarios&apos;, 
+									    IF(CONTAINS(LOWER(TEXT(Family)), &apos;administrativo&apos;), 
+									        &apos;Plusvalía&apos;, 
+									        &apos;General&apos;
+								        )
+								    )
+								) 
+		)</formula>
+    <label>Tipo de registro expediente</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

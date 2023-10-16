@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DuplicateRule xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <actionOnInsert>Block</actionOnInsert>
+    <actionOnUpdate>Block</actionOnUpdate>
+    <alertText>Está creando un registro duplicado. Le recomendamos utilizar en su lugar un registro existente.</alertText>
+    <description>Se comprueba al crear un candidato que no haya un duplicado según el nombre, el correo electrónico y el teléfono</description>
+    <duplicateRuleFilter xsi:nil="true"/>
+    <duplicateRuleMatchRules>
+        <matchRuleSObjectType>Lead</matchRuleSObjectType>
+        <matchingRule>CandidatoDuplicado</matchingRule>
+        <objectMapping xsi:nil="true"/>
+    </duplicateRuleMatchRules>
+    <duplicateRuleMatchRules>
+        <matchRuleSObjectType>PersonAccount</matchRuleSObjectType>
+        <matchingRule>CuentaPersonalDuplicada</matchingRule>
+        <objectMapping>
+            <inputObject>Lead</inputObject>
+            <mappingFields>
+                <inputField>Email</inputField>
+                <outputField>PersonEmail</outputField>
+            </mappingFields>
+            <mappingFields>
+                <inputField>DocumentoIdentidad__c</inputField>
+                <outputField>DocumentoIdentidad__c</outputField>
+            </mappingFields>
+            <mappingFields>
+                <inputField>FirstName</inputField>
+                <outputField>FirstName</outputField>
+            </mappingFields>
+            <mappingFields>
+                <inputField>Phone</inputField>
+                <outputField>Phone</outputField>
+            </mappingFields>
+            <outputObject>PersonAccount</outputObject>
+        </objectMapping>
+    </duplicateRuleMatchRules>
+    <isActive>true</isActive>
+    <masterLabel>Regla de duplicado de candidatos</masterLabel>
+    <securityOption>BypassSharingRules</securityOption>
+    <sortOrder>2</sortOrder>
+</DuplicateRule>

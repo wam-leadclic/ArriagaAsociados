@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Histórico de comunicación</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Históricos de comunicaciones</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>OM-Historico de comunicacion Layout</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label></label>
+        <name>OM_SMS</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>OM_Whatsapp</name>
+    </recordTypes>
+</CustomObjectTranslation>

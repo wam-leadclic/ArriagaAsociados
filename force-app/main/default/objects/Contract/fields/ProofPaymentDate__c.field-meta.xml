@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ProofPaymentDate__c</fullName>
+    <description>Campo para guardar la fecha en la que se adjunta el justificante de pago</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Debe coincidir con la fecha registrada en el justificante de pago</inlineHelpText>
+    <label>Fecha de pago (justificante)</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

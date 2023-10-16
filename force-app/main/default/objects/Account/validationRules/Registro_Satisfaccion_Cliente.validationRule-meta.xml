@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Registro_Satisfaccion_Cliente</fullName>
+    <active>true</active>
+    <description>Se debe indicar el motivo si se ha rellenado el resultado de la satisfacción del cliente</description>
+    <errorConditionFormula>AND( (NOT(ISPICKVAL( Satisfaccion_Cliente_Resultado__c ,&quot;&quot;))),
+      (ISPICKVAL(  Satisfaccion_Cliente_Motivo__c  ,&quot;&quot;))
+
+
+  )</errorConditionFormula>
+    <errorDisplayField>Satisfaccion_Cliente_Motivo__c</errorDisplayField>
+    <errorMessage>Debe introducir el Motivo si ha indicado el resultado en la satisfacción del cliente</errorMessage>
+</ValidationRule>

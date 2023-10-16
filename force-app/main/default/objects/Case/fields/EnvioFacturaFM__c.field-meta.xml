@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EnvioFacturaFM__c</fullName>
+    <description>Envío factura FM</description>
+    <externalId>false</externalId>
+    <label>Envío factura FM</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Enviada</fullName>
+                <default>false</default>
+                <label>Enviada</label>
+            </value>
+            <value>
+                <fullName>No corresponde</fullName>
+                <default>false</default>
+                <label>No corresponde</label>
+            </value>
+            <value>
+                <fullName>Plazo 48hs</fullName>
+                <default>false</default>
+                <label>Plazo 48hs</label>
+            </value>
+            <value>
+                <fullName>Incidencia</fullName>
+                <default>false</default>
+                <label>Incidencia</label>
+            </value>
+            <value>
+                <fullName>SI</fullName>
+                <default>false</default>
+                <label>SI</label>
+            </value>
+            <value>
+                <fullName>NO</fullName>
+                <default>false</default>
+                <label>NO</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

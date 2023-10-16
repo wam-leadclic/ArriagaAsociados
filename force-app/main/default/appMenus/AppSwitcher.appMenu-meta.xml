@@ -61,10 +61,6 @@
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
-        <name>standard__LightningInstrumentation</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
         <name>standard__AllTabSet</name>
         <type>CustomApplication</type>
     </appMenuItems>
@@ -123,18 +119,6 @@
     <appMenuItems>
         <name>lcs_gdpr__GDPRManagement</name>
         <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
-        <name>signaturit__Signaturit</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
-        <name>signaturit__Signaturit_Lightning</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
-        <name>Signaturit</name>
-        <type>ConnectedApp</type>
     </appMenuItems>
     <appMenuItems>
         <name>standard__Content</name>
@@ -205,11 +189,11 @@
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
-        <name>Arriagaasociadosprod_Connected_App</name>
+        <name>ArriagaasociadosUAT_Connected_App</name>
         <type>ConnectedApp</type>
     </appMenuItems>
     <appMenuItems>
-        <name>Arriagaasociadosprod_Connected_App_for_RestAPI_OAuth</name>
+        <name>ArriagaasociadosUAT_Connected_App_for_RestAPI_OAuth</name>
         <type>ConnectedApp</type>
     </appMenuItems>
     <appMenuItems>
@@ -219,5 +203,25 @@
     <appMenuItems>
         <name>TechSee_MiniDashboard_SSO</name>
         <type>ConnectedApp</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>Lead_Capture</name>
+        <type>ConnectedApp</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>signaturit__Signaturit</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>signaturit__Signaturit_Lightning</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>Signaturit</name>
+        <type>ConnectedApp</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>UATs</name>
+        <type>CustomApplication</type>
     </appMenuItems>
 </AppMenu>

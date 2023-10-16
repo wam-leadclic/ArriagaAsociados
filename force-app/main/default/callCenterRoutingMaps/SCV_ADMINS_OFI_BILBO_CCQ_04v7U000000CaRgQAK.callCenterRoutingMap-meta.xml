@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CallCenterRoutingMap xmlns="http://soap.sforce.com/2006/04/metadata">
-    <callCenter>Arriagaasociadosprod</callCenter>
-    <developerName>SCV_ADMINS_OFI_BILBO_CCQ_04v7U000000CaRgQAK</developerName>
-    <externalId>arn:aws:connect:eu-central-1:203389500378:instance/639025b3-3fe6-4284-af68-57004a772aad/queue/31c29980-f49d-4f2c-93f9-4a919bcb4bf8</externalId>
-    <masterLabel>SCV_ADMINS_OFI_BILBO</masterLabel>
-    <quickConnect>7a0b2242-d354-4202-b353-69346625e6b8</quickConnect>
-    <referenceRecord>SCV_ADMINS_OFI_BILBO</referenceRecord>
-</CallCenterRoutingMap>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Colaborador_Relacionado_con_Cliente__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Campo que relaciona la oportunidad con las entidades que han aportado el contacto para la contratación del Producto</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Colaborador/Tercero Prescriptor que ha facilitado el contacto para la contratación del Producto</inlineHelpText>
+    <label>Colaborador</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>Account.Type</field>
+            <operation>equals</operation>
+            <value>Gestoría</value>
+        </filterItems>
+        <infoMessage>Introduzca nombre de la Gestoría a enlazar con la Oportunidad</infoMessage>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Oportunidades (Colaborador Relacionado con Cliente)</relationshipLabel>
+    <relationshipName>Oportunidades_lookup_01</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Lookup</type>
+</CustomField>

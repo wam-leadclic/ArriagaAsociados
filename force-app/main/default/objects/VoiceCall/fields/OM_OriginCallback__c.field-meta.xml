@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OM_OriginCallback__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <inlineHelpText>Registro de callback que ha originado la llamada.</inlineHelpText>
+    <label>Callback Origen</label>
+    <lookupFilter>
+        <active>true</active>
+        <errorMessage>El registro debe ser de tipo Callback</errorMessage>
+        <filterItems>
+            <field>OM_Callback__c.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Callback</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>OM_Callback__c</referenceTo>
+    <relationshipLabel>Voice Calls (Callback Origen)</relationshipLabel>
+    <relationshipName>Llamadas_emitidas</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Lookup</type>
+</CustomField>

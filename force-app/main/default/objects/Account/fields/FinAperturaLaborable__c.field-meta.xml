@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FinAperturaLaborable__c</fullName>
+    <description>Indica la hora de cierre de la oficina de lunes a viernes</description>
+    <externalId>false</externalId>
+    <label>Fin apertura (laborable)</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Time</type>
+</CustomField>

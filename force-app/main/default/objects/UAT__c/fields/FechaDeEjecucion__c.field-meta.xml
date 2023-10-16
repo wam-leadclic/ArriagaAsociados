@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FechaDeEjecucion__c</fullName>
+    <description>Donde se registra la fecha de ejecución de la prueba</description>
+    <externalId>false</externalId>
+    <label>Fecha de Ejecución</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

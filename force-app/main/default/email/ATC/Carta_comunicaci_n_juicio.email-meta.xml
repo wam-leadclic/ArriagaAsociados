@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Carta comunicación juicio</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Arriaga_plantilla_casos</letterhead>
+    <name>Carta comunicación juicio</name>
+    <style>formalLetter</style>
+    <subject>Carta comunicación juicio</subject>
+    <textOnly>Estimados clientes:
+
+
+
+Le remitimos esta carta ya que nos ha sido imposible contactar por teléfono en el número que consta en el expediente de PRODUCTO con número de referencia 171204400 que tiene contratado con nosotros.
+
+
+
+Le(s) informamos que se ha señalado fecha para la celebración de su juicio el día 23 de Enero de 2018, a las 9:30H en el juzgado nº 4 BIS en Valladolid, sala 5, (DIRECCIÓN DEL JUZGADO) al cual usted(es) deberá(n) asistir ya que la parte contraria ha solicitado su interrogatorio.
+
+
+
+No se preocupe(n) por nada, es normal y no tiene mayor trascendencia. Si le(s) ruego / rogamos que se ponga(n) en contacto con nosotros en el teléfono 91 xxxxxxx donde podremos darle todas las indicaciones oportunas.
+
+
+
+Sin otro particular,
+
+
+
+Reciba(n) un cordial saludo
+
+
+
+
+Atentamente,
+
+Dpto. Gestoría Jurídica</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

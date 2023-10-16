@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>APOYOS CUALQUIER PRODUCTO QUE NO SEA PLUSVALÍA CON confirmación de interrogatorio para casos</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>APOYOS CUALQUIER PRODUCTO QUE NO SEA PLUSVALÍA CON confirmación de interrogatori</name>
+    <relatedEntityType>Case</relatedEntityType>
+    <style>none</style>
+    <subject>Comunicación de interés | Arriaga Asociados</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

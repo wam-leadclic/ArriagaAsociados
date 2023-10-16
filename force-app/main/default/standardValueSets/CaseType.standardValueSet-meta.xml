@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Recaptura</fullName>
+        <default>false</default>
+        <label>Recaptura</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Confirmación Cita</fullName>
+        <default>false</default>
+        <label>Confirmación Cita</label>
+    </standardValue>
+    <standardValue>
+        <fullName>OTROS</fullName>
+        <default>false</default>
+        <label>OTROS</label>
+    </standardValue>
+    <standardValue>
+        <fullName>INFORMACIÓN ACTIVA</fullName>
+        <default>false</default>
+        <label>INFORMACIÓN ACTIVA</label>
+    </standardValue>
+    <standardValue>
+        <fullName>QUEJA CONTRATACIÓN</fullName>
+        <default>false</default>
+        <label>QUEJA CONTRATACIÓN</label>
+    </standardValue>
+    <standardValue>
+        <fullName>INFORMACIÓN DEFICIENTE</fullName>
+        <default>false</default>
+        <label>INFORMACIÓN DEFICIENTE</label>
+    </standardValue>
+    <standardValue>
+        <fullName>GESTIÓN DEFICIENTE</fullName>
+        <default>false</default>
+        <label>GESTIÓN DEFICIENTE</label>
+    </standardValue>
+    <standardValue>
+        <fullName>QUEJA FACTURACIÓN</fullName>
+        <default>false</default>
+        <label>QUEJA FACTURACIÓN</label>
+    </standardValue>
+    <standardValue>
+        <fullName>PARALIZADOS</fullName>
+        <default>false</default>
+        <label>PARALIZADOS</label>
+    </standardValue>
+    <standardValue>
+        <fullName>GOOGLE MY BUSINESS</fullName>
+        <default>false</default>
+        <label>GOOGLE MY BUSINESS</label>
+    </standardValue>
+    <standardValue>
+        <fullName>QUEJA DOCUMENTALISTA</fullName>
+        <default>false</default>
+        <label>QUEJA DOCUMENTALISTA</label>
+    </standardValue>
+    <standardValue>
+        <fullName>FACEBOOK</fullName>
+        <default>false</default>
+        <label>FACEBOOK</label>
+    </standardValue>
+    <standardValue>
+        <fullName>RIESGOS</fullName>
+        <default>false</default>
+        <label>RIESGOS</label>
+    </standardValue>
+    <standardValue>
+        <fullName>RECOBROS</fullName>
+        <default>false</default>
+        <label>RECOBROS</label>
+    </standardValue>
+    <standardValue>
+        <fullName>INSATISFACCIÓN</fullName>
+        <default>false</default>
+        <label>INSATISFACCIÓN</label>
+    </standardValue>
+    <standardValue>
+        <fullName>INSTAGRAM</fullName>
+        <default>false</default>
+        <label>INSTAGRAM</label>
+    </standardValue>
+    <standardValue>
+        <fullName>QUEJA PF</fullName>
+        <default>false</default>
+        <label>QUEJA PF</label>
+    </standardValue>
+    <standardValue>
+        <fullName>QUEJA PROCURADOR</fullName>
+        <default>false</default>
+        <label>QUEJA PROCURADOR</label>
+    </standardValue>
+    <standardValue>
+        <fullName>EJECUCIONES</fullName>
+        <default>false</default>
+        <label>EJECUCIONES</label>
+    </standardValue>
+    <standardValue>
+        <fullName>PROCESAL</fullName>
+        <default>false</default>
+        <label>PROCESAL</label>
+    </standardValue>
+    <standardValue>
+        <fullName>QUEJA REDACCIÓN</fullName>
+        <default>false</default>
+        <label>QUEJA REDACCIÓN</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Acuerdo</fullName>
+        <default>false</default>
+        <label>Acuerdo</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Desistimiento</fullName>
+        <default>false</default>
+        <label>Desistimiento</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Venia</fullName>
+        <default>false</default>
+        <label>Venia</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Servicio</fullName>
+        <default>false</default>
+        <label>Servicio</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Extrajudicial</fullName>
+        <default>false</default>
+        <label>Extrajudicial</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Análisis expedientes para limitación de acceso a datos</fullName>
+        <default>false</default>
+        <label>Análisis expedientes para limitación de acceso a datos</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Información</fullName>
+        <default>false</default>
+        <label>Información</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Petición</fullName>
+        <default>false</default>
+        <label>Petición</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Queja</fullName>
+        <default>false</default>
+        <label>Queja</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Gestión de cobros</fullName>
+        <default>false</default>
+        <label>Gestión de cobros</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Incidencia</fullName>
+        <default>false</default>
+        <label>Incidencia</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Siniestro</fullName>
+        <default>false</default>
+        <label>Siniestro</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Demora gestión expediente</fullName>
+        <default>false</default>
+        <label>Demora gestión expediente</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Disconforme con cantidades reclamadas</fullName>
+        <default>false</default>
+        <label>Disconforme con cantidades reclamadas</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Disconformidad con cobro</fullName>
+        <default>false</default>
+        <label>Disconformidad con cobro</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Disconformidad con la atención recibida</fullName>
+        <default>false</default>
+        <label>Disconformidad con la atención recibida</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Disconformidad con la ejecución del encargo</fullName>
+        <default>false</default>
+        <label>Disconformidad con la ejecución del encargo</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Información facilitada deficiente</fullName>
+        <default>false</default>
+        <label>Información facilitada deficiente</label>
+    </standardValue>
+    <standardValue>
+        <fullName>No viable</fullName>
+        <default>false</default>
+        <label>No viable</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Solicita información/gestión</fullName>
+        <default>false</default>
+        <label>Solicita información/gestión</label>
+    </standardValue>
+    <standardValue>
+        <fullName>No es queja/reclamación</fullName>
+        <default>false</default>
+        <label>No es queja/reclamación</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Comunicación</fullName>
+        <default>false</default>
+        <label>Comunicación</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Requerimientos Norte</fullName>
+        <default>false</default>
+        <label>Requerimientos Norte</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Requerimientos Noreste</fullName>
+        <default>false</default>
+        <label>Requerimientos Noreste</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Requerimientos Levante</fullName>
+        <default>false</default>
+        <label>Requerimientos Levante</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Requerimientos Sur</fullName>
+        <default>false</default>
+        <label>Requerimientos Sur</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Requerimientos Centro</fullName>
+        <default>false</default>
+        <label>Requerimientos Centro</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Acuerdo Revolving</fullName>
+        <default>false</default>
+        <label>Acuerdo Revolving</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Asesoría jurídica</fullName>
+        <default>false</default>
+        <label>Asesoría jurídica</label>
+    </standardValue>
+</StandardValueSet>

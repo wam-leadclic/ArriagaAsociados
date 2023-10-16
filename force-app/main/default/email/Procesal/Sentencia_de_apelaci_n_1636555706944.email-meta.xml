@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Sentencia de apelación para Cuentas</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Sentencia de apelación</name>
+    <relatedEntityType>Account</relatedEntityType>
+    <style>none</style>
+    <subject>Comunicación Sentencia Apelación | Información de interés Arriaga Asociados</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

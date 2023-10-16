@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ParteContraria__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Empresa o particular contra el que se actúa en este expediente</description>
+    <externalId>false</externalId>
+    <label>Parte contraria</label>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Contratos (Parte contraria)</relationshipLabel>
+    <relationshipName>Contrario</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Lookup</type>
+</CustomField>

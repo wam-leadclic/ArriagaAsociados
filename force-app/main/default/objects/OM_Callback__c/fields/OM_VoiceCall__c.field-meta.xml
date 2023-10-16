@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OM_VoiceCall__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <inlineHelpText>Llamada entrante que ha originado el Callback</inlineHelpText>
+    <label>Llamada origen</label>
+    <referenceTo>VoiceCall</referenceTo>
+    <relationshipLabel>Callbacks generados</relationshipLabel>
+    <relationshipName>OM_Callbacks</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

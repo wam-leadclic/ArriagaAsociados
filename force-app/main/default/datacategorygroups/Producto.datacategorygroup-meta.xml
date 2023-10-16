@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCategoryGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <dataCategory>
+        <dataCategory>
+            <label>CDA&apos;s Triodos Bank</label>
+            <name>CDAs_Triodos_Bank</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Ley 2ª Oportunidad</label>
+            <name>Ley_2_Oportunidad</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Oposición al Monitorio</label>
+            <name>Oposicion_al_Monitorio</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Plusvalía</label>
+            <name>Plusvalia</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Multidivisa</label>
+            <name>Multidivisa</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Ficheros de Impagados</label>
+            <name>Ficheros_de_Impagados</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Cártel de Coches</label>
+            <name>Cartel_de_Coches</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Tarjeta Revolving</label>
+            <name>Revolving</name>
+        </dataCategory>
+        <label>All</label>
+        <name>All</name>
+    </dataCategory>
+    <label>Producto</label>
+    <objectUsage>
+        <object>KnowledgeArticleVersion</object>
+    </objectUsage>
+</DataCategoryGroup>

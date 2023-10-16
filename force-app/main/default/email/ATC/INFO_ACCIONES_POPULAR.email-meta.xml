@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Arriaga_plantilla_casos</letterhead>
+    <name>INFO ACCIONES POPULAR</name>
+    <style>formalLetter</style>
+    <subject>INFO ACCIONES POPULAR</subject>
+    <textOnly>Estimado/a {!Contact.FirstName},
+
+
+En relación a su consulta sobre el estado de su reclamación de Acciones de Popular, queremos informarle que ya estamos trabajando para recuperar el dinero que invirtió en la compra de acciones.
+
+
+En primer lugar, y en base a nuestra estrategia jurídica, hemos interrumpido la posible prescripción de las acciones judiciales que pedimos en la demanda. Para ello, hemos requerido extrajudicialmente al Banco Santander, mediante carta sellada por la entidad con fecha (PONER FECHA DEL SELLO DE LA CARTA), la restitución de las cantidades invertidas.
+
+
+Además, el pasado 8 de abril de 2019 se emitió un informe pericial, encargado por la Audiencia Nacional a dos peritos del Banco de España, el cual tras su análisis, consideramos que puede resultar favorable para nuestra estrategia de defensa y, por tanto, a sus intereses.
+
+Si necesita más información estamos a su disposición en el teléfono de atención al cliente 91 005 26 00.
+
+Reciba un cordial saludo.
+
+
+
+
+
+{!Case.OwnerFirstName} {!Case.OwnerLastName}
+
+Departamento de Atención al Cliente</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,28 @@
+<!-- sldsValidatorIgnore -->
+<template>
+    <lightning-card title={title}>
+        <div>
+            <lightning-datatable 
+                key-field="id"
+                data={archivedEmailsData} 
+                columns={columns}
+                hide-checkbox-column="true" 
+                onrowaction={handleRowAction}
+                sorted-by={sortBy}
+                sorted-direction={sortDirection}
+                onsort={handleSortAccountData}>
+            </lightning-datatable>
+            <!--archivedEmailDetail component-->
+            <c-archived-email-detail
+                archived-email-row={archivedEmailRow}
+                modal-container={modalContainer}
+                onclosemodal={closeModalAction}
+                attachment-record-id={attachmentRecordId}
+                toggle-section={toggleSection}
+                sections={sections}
+                email-id={emailId}>
+            </c-archived-email-detail>
+            <!--archivedEmailDetail component-->
+        </div>
+    </lightning-card>
+</template>

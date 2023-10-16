@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>SCV_ASESOR_OFI_HORTA</label>
+    <protected>false</protected>
+    <values>
+        <field>OM_CallbackQueue__c</field>
+        <value xsi:type="xsd:string">SCV_CALLBACK_ASESOR_OFI_HORTA</value>
+    </values>
+    <values>
+        <field>OM_CustomerQueue__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>OM_DefaultQueue__c</field>
+        <value xsi:type="xsd:string">SCV_ASESOR_OFI_HORTA</value>
+    </values>
+    <values>
+        <field>OM_OutboundPhoneCB__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>OM_OutboundPhone__c</field>
+        <value xsi:type="xsd:string">+34919942089</value>
+    </values>
+    <values>
+        <field>OM_Tipo__c</field>
+        <value xsi:type="xsd:string">Asesor</value>
+    </values>
+</CustomMetadata>

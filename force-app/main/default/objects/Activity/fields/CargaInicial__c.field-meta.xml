@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CargaInicial__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Campo que indica que la cita se ha creado de la migración inicial</description>
+    <externalId>false</externalId>
+    <label>Carga Inicial</label>
+    <type>Checkbox</type>
+</CustomField>

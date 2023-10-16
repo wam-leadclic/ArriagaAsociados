@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CallCenterRoutingMap xmlns="http://soap.sforce.com/2006/04/metadata">
+    <callCenter>ArriagaasociadosUAT</callCenter>
+    <developerName>SCV_BASIC_QUEUE_MAPPING_04v5t000000Gmdh</developerName>
+    <externalId>arn:aws:connect:eu-central-1:341161996467:instance/d092f5b0-4737-465d-afd5-3138f1e3ca41/queue/dd254440-b2d6-470f-b288-e8fa73e6b6a3</externalId>
+    <masterLabel>SCV_BASIC_QUEUE_MAPPING</masterLabel>
+    <quickConnect>d0dab2d0-f61f-4941-a566-f0041920a181</quickConnect>
+    <referenceRecord>SCV_BASIC_QUEUE</referenceRecord>
+</CallCenterRoutingMap>

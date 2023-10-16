@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>ALMERÍA - Encuesta de satisfacción PARA CUENTA</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>ALMERÍA - Encuesta de satisfacción</name>
+    <relatedEntityType>Account</relatedEntityType>
+    <style>none</style>
+    <subject>Encuesta de satisfacción | Arriaga Asociados</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

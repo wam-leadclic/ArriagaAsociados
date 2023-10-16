@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OM_OutboundCall__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <inlineHelpText>Llamada saliente programada que ha originado el registro de llamada.</inlineHelpText>
+    <label>Llamada Saliente Programada</label>
+    <lookupFilter>
+        <active>true</active>
+        <errorMessage>Este registro tiene que ser una llamada saliente programada.</errorMessage>
+        <filterItems>
+            <field>OM_Callback__c.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Llamada Saliente</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>OM_Callback__c</referenceTo>
+    <relationshipLabel>Llamadas emitidas</relationshipLabel>
+    <relationshipName>Voice_Calls</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Lookup</type>
+</CustomField>

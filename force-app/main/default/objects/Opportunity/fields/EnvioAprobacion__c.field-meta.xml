@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EnvioAprobacion__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Casilla que indica si el registro ha sido enviado al proceso de aprobación</description>
+    <externalId>false</externalId>
+    <label>Registro enviado para aprobación</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

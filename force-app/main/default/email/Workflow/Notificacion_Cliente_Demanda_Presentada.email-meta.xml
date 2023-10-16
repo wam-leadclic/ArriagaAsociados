@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Plantilla Para notificar al al cliente que su demanda ha sido presentada</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Notificación Cliente Demanda Presentada</name>
+    <style>none</style>
+    <subject>Novedades en tu reclamación | Arriaga Asociados</subject>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

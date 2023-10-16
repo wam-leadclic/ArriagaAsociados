@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Manage Service Cloud Voice contact centers that use Amazon Connect as a telephony provider. With Call Recording</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Contact Center Admin With Call Recording</label>
+    <license>ServiceCloudVoicePsl</license>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>CanAccessCE</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>CanToggleCallRecordings</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>IsContactCenterAdmin</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>IsContactCenterAgent</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>IsContactCenterSupervisor</name>
+    </userPermissions>
+</PermissionSet>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Nueva solicitud GDPR</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Nueva solicitud GDPR - nueva</name>
+    <style>none</style>
+    <subject>Nueva solicitud GDPR</subject>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

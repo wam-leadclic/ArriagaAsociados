@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ProductoInteres__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Si la oportunidad se ha creado a través de la conversión de candidato se guarda el producto de interés que ha creado dicha oportunidad</description>
+    <externalId>false</externalId>
+    <label>Producto de Interés</label>
+    <referenceTo>LeadProduct__c</referenceTo>
+    <relationshipLabel>Oportunidades</relationshipLabel>
+    <relationshipName>Oportunidades</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>true</trackTrending>
+    <type>Lookup</type>
+</CustomField>

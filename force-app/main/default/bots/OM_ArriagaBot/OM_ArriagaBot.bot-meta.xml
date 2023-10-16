@@ -65,7 +65,7 @@
     </contextVariables>
     <conversationChannelProviders>
         <agentRequired>false</agentRequired>
-        <chatButtonName>Chat_Button</chatButtonName>
+        <chatButtonName>OM_ChatButton</chatButtonName>
     </conversationChannelProviders>
     <description>Whatsapp / Chat bot</description>
     <label>Arriaga Bot</label>

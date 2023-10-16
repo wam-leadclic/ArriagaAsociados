@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Encuesta_Seleccionada</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+				OR(
+				    RecordType.DeveloperName = &quot;ATC&quot;,
+								RecordType.DeveloperName = &quot;Procesal&quot;
+				) ,
+				ISPICKVAL( Status , &quot;Cerrado&quot; ) ,
+				ISPICKVAL(SendEmail__c, &quot;&quot;)
+)</errorConditionFormula>
+    <errorMessage>Para cerrar el Caso es necessario seleccionar un valor para el campo Encuesta.</errorMessage>
+</ValidationRule>

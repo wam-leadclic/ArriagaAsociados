@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FechaRecibirComunicacionesComerciales__c</fullName>
+    <description>Fecha de actualización del consentimiento de recibir comunicaciones comerciales de Arriaga Asociados</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Fecha de actualización del consentimiento de recibir comunicaciones comerciales de Arriaga Asociados</inlineHelpText>
+    <label>Fecha recibir comunicaciones comerciales</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <type>DateTime</type>
+</CustomField>

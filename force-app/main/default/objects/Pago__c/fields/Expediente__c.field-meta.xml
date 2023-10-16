@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Expediente__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <description>Expediente asociado al pago</description>
+    <externalId>false</externalId>
+    <label>Expediente</label>
+    <referenceTo>Contract</referenceTo>
+    <relationshipLabel>Pagos</relationshipLabel>
+    <relationshipName>Pagos</relationshipName>
+    <required>true</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>true</trackTrending>
+    <type>Lookup</type>
+</CustomField>

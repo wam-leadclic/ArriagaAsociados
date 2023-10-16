@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CallCenterRoutingMap xmlns="http://soap.sforce.com/2006/04/metadata">
-    <callCenter>Arriagaasociadosprod</callCenter>
-    <developerName>SCV_ADMINS_OFI_HORTA_CCQ_04v7U000000CaRgQAK</developerName>
-    <externalId>arn:aws:connect:eu-central-1:203389500378:instance/639025b3-3fe6-4284-af68-57004a772aad/queue/e7aa1e23-d2b2-481f-aa1d-7f10a3bffb9a</externalId>
-    <masterLabel>SCV_ADMINS_OFI_HORTA</masterLabel>
-    <quickConnect>5aea2c4a-ab81-4416-ae31-cb41ad74874f</quickConnect>
-    <referenceRecord>SCV_ADMINS_OFI_HORTA</referenceRecord>
-</CallCenterRoutingMap>

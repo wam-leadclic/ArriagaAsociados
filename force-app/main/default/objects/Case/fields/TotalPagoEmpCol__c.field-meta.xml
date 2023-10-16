@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TotalPagoEmpCol__c</fullName>
+    <description>Suma del pago de colegio y empresa</description>
+    <externalId>false</externalId>
+    <label>Total pago colegio + empresa</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

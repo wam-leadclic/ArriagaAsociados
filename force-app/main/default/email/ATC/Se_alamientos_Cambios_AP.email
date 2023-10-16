@@ -1,0 +1,27 @@
+<table border="0" cellpadding="5" width="600" cellspacing="5" height="400" >
+<tr valign="top" height="50" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[]]></td>
+</tr>
+<tr valign="top" height="300" >
+<td tEditID="c1r2" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r2" locked="0" >
+<![CDATA[<p class="MsoNormal" style="font-family: arial; line-height: normal;"></p><p class="MsoNormal" style="line-height: normal;"><span style="font-size: 12pt;"><font face="Times New Roman, Times, serif">Buenos días:<o:p></o:p></font></span></p><p class="MsoNormal" style="line-height: normal;"><span style="font-size: 12pt;"><font face="Times New Roman, Times, serif"><br></font></span></p>
+
+<p class="MsoNormal" style="line-height: normal;"><font face="Times New Roman, Times, serif"><span style="font-size: 12pt; color: black;">Estimado XXX. Queremos comunicarle que el juzgado <b style="mso-bidi-font-weight:normal">ha modificado</b> la fecha para la
+audiencia previa de su reclamación de gastos de hipoteca. Finalmente queda
+señalada <span style="mso-spacerun:yes">&nbsp;</span>para el próximo 29/04/2019 a
+las 11:00H en el juzgado nº10 BIS de Sevilla. </span><span style="font-size: 12pt; color: rgb(0, 176, 240);">DIRECCIÓN.<o:p></o:p></span></font></p><p class="MsoNormal" style="line-height: normal;"><span style="font-size: 12pt; color: rgb(0, 176, 240);"><font face="Times New Roman, Times, serif"><br></font></span></p>
+
+<p class="MsoNormal" style="line-height: normal;"><span style="font-size: 12pt;"><font face="Times New Roman, Times, serif">Le
+recordamos que no es necesaria su presencia y que puede llamarnos al 91 005 26
+00 una semana más tarde de la celebración de la audiencia para ver el resultado
+de la misma.<o:p></o:p></font></span></p><p class="MsoNormal" style="line-height: normal;"><span style="font-size: 12pt;"><font face="Times New Roman, Times, serif"><br></font></span></p>
+
+<p class="MsoNormal" style="line-height: normal;"><span style="font-size: 12pt;"><font face="Times New Roman, Times, serif">Un cordial
+saludo<o:p></o:p></font></span></p><br><p style="font-family: arial;"></p>]]></td>
+</tr>
+<tr valign="top" height="50" >
+<td tEditID="c1r3" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r3" locked="0" >
+<![CDATA[<span style="font-size: medium;"><font color="#ffffff">{!Case.Thread_Id}</font></span>]]></td>
+</tr>
+</table>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>WhatsApp</name>
+    <queueMembers>
+        <users>
+            <user>abalaguer@arriagaasociados.com</user>
+            <user>aabuja@arriagaasociados.com</user>
+            <user>mmlopez@arriagaasociados.com</user>
+            <user>meperez@arriagaasociados.com</user>
+            <user>mreig.adm@arriagaasociados.com</user>
+            <user>soporte.arriaga@omegacrmconsulting.com</user>
+            <user>ssanchez@arriagaasociados.com</user>
+            <user>user02@arriaga</user>
+        </users>
+    </queueMembers>
+    <queueRoutingConfig>Routing_WhatsApp</queueRoutingConfig>
+    <queueSobject>
+        <sobjectType>MessagingSession</sobjectType>
+    </queueSobject>
+</Queue>

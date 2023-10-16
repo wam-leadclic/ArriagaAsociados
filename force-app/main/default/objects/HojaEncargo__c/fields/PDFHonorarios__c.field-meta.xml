@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PDFHonorarios__c</fullName>
+    <description>Bloque que contiene los datos de Arriaga que se muestran en el PDF de la hoja de encargo</description>
+    <externalId>false</externalId>
+    <label>Honorarios</label>
+    <length>32768</length>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Html</type>
+    <visibleLines>25</visibleLines>
+</CustomField>

@@ -1,0 +1,23 @@
+<table border="0" cellpadding="5" width="600" cellspacing="5" height="400" >
+<tr valign="top" height="50" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[]]></td>
+</tr>
+<tr valign="top" height="300" >
+<td tEditID="c1r2" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r2" locked="0" >
+<![CDATA[<p align="center" style="color: rgb(0, 0, 0); font-family: arial; font-size: 13px; text-align: left; outline: none; background: white;"><font face="Arial, sans-serif" style=""><span style="font-size: 12pt;">Buenos días&nbsp;</span><span style="font-size: 11.5pt;">{!Opportunity.ClientName__c}</span></font></p><p align="center" style="color: rgb(0, 0, 0); font-family: arial; font-size: 13px; text-align: left; outline: none; background: white;"><span style="outline: none; font-size: 11.5pt;"><font face="Arial, sans-serif">&nbsp;</font></span></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span lang="ES" style="font-size: 12pt; line-height: 107%;"><font face="Arial, sans-serif">Recientemente has contratado los servicios de
+Arriaga Asociados <o:p></o:p></font></span></p><p class="MsoNormal" style=""><span lang="ES" style="line-height: 107%;"><font face="Arial, sans-serif" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">¿Cómo ha sido la atención recibida por&nbsp;</font><font style=""><font face="arial" style="">{!Opportunity.ExpedienteOwner__c}<span style="font-size: 12pt;">&nbsp;en la&nbsp;</span></font></font></span><font face="Arial, sans-serif" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">{!Opportunity.Office__c}?</font></p><p align="center" style="color: rgb(0, 0, 0); font-family: arial; font-size: 13px; outline: none; background: white;">
+
+
+
+</p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font face="Arial, sans-serif"><span lang="ES"><br>
+</span><span lang="ES" style="font-size: 12pt; line-height: 107%;">¡Comparte
+tu experiencia y ayúdanos a mejorar!<o:p></o:p></span></font></p><p align="center" style="color: rgb(0, 0, 0); font-family: arial; font-size: 13px; text-align: left; outline: none; background: white;"><span style="outline: none; font-size: 11.5pt;"><font face="Arial, sans-serif">&nbsp;</font></span></p><p align="center" style="color: rgb(0, 0, 0); font-family: arial; font-size: 13px; text-align: center; outline: none; background: white;"><span style="outline: none; font-size: 11.5pt;"><font face="Arial, sans-serif"><b style="outline: none;"><span style="outline-color: initial; outline-width: initial; text-decoration-thickness: inherit; text-decoration-style: inherit; text-decoration-color: inherit;"><a href="{!Opportunity.ReviewUrl__c}">QUIERO OPINAR</a></span></b><o:p style="outline: none;"></o:p></font></span></p><p align="center" style="color: rgb(0, 0, 0); font-family: arial; font-size: 13px; text-align: left; outline: none; background: white;"><span style="outline: none; font-size: 11.5pt;"><font face="Arial, sans-serif">&nbsp;</font></span></p><p align="center" style="color: rgb(0, 0, 0); font-family: arial; font-size: 13px; text-align: left; outline: none; background: white;"></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span lang="ES" style="font-size: 12pt; line-height: 107%;"><font face="Arial, sans-serif">Gracias por confiar en nosotros<o:p></o:p></font></span></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span lang="ES" style="font-size: 12pt; line-height: 107%;"><font face="Arial, sans-serif">Equipo Arriaga Asociados<o:p></o:p></font></span></p><br><p style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"></p>]]></td>
+</tr>
+<tr valign="top" height="50" >
+<td tEditID="c1r3" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r3" locked="0" >
+<![CDATA[]]></td>
+</tr>
+</table>

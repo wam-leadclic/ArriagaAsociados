@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OM_Language__c</fullName>
+    <description>Campo que se utiliza para marcar el idioma del Lobby Link de la videollamada</description>
+    <externalId>false</externalId>
+    <formula>IF(NOT(ISBLANK(TEXT(ServiceTerritory.OM_Language__c))),LOWER(TEXT(ServiceTerritory.OM_Language__c)),&apos;es&apos;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Idioma</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

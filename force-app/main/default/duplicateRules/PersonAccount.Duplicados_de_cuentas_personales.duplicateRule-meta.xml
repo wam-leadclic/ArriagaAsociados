@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DuplicateRule xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <actionOnInsert>Block</actionOnInsert>
+    <actionOnUpdate>Block</actionOnUpdate>
+    <alertText>Está creando un registro duplicado. Le recomendamos utilizar en su lugar un registro existente.</alertText>
+    <description>Comprueba si hay candidatos o cuentas personales con los mismos datos</description>
+    <duplicateRuleFilter xsi:nil="true"/>
+    <duplicateRuleMatchRules>
+        <matchRuleSObjectType>PersonAccount</matchRuleSObjectType>
+        <matchingRule>CuentaPersonalDuplicada</matchingRule>
+        <objectMapping xsi:nil="true"/>
+    </duplicateRuleMatchRules>
+    <duplicateRuleMatchRules>
+        <matchRuleSObjectType>Lead</matchRuleSObjectType>
+        <matchingRule>CandidatoDuplicado</matchingRule>
+        <objectMapping>
+            <inputObject>PersonAccount</inputObject>
+            <mappingFields>
+                <inputField>DocumentoIdentidad__c</inputField>
+                <outputField>DocumentoIdentidad__c</outputField>
+            </mappingFields>
+            <mappingFields>
+                <inputField>PersonEmail</inputField>
+                <outputField>Email</outputField>
+            </mappingFields>
+            <mappingFields>
+                <inputField>FirstName</inputField>
+                <outputField>FirstName</outputField>
+            </mappingFields>
+            <mappingFields>
+                <inputField>Phone</inputField>
+                <outputField>Phone</outputField>
+            </mappingFields>
+            <outputObject>Lead</outputObject>
+        </objectMapping>
+    </duplicateRuleMatchRules>
+    <isActive>true</isActive>
+    <masterLabel>Duplicados de cuentas personales</masterLabel>
+    <securityOption>BypassSharingRules</securityOption>
+    <sortOrder>2</sortOrder>
+</DuplicateRule>

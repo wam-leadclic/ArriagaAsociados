@@ -1,0 +1,18 @@
+<apex:component >
+    <!-- Atributos que tiene que recibir el componente para completar la información de la cabecera de la hoja de encargo -->
+    <apex:attribute name="numExpediente" description="Número de expediente de la hoja de encargo"
+        type="String" required="true"/>
+    <apex:attribute name="fechaHoy" description="Fecha en la que se genera la hoja de encargo"
+        type="String" required="true"/>
+    <div>    	
+		<!-- Logo de Arriaga -->
+        <apex:image id="logo" style="float: left;" width="300"  value="{!$Label.LogoPDFHojaEncargo}" alt="Arriaga Asociados"/>
+        <!-- Datos del expediente que se firma-->
+        <div style="text-align:right">            
+        	<apex:outputText style="font-weight: bold;font-size: 9px;" value="Nº EXP:  {!numExpediente}"/><br/>
+            <apex:outputText style="font-weight: bold;font-size: 9px;" value="Fecha: {!fechaHoy}"/><br/>
+            <br/>
+            <br/>
+    	</div>
+    </div>
+</apex:component>

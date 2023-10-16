@@ -1,0 +1,163 @@
+<!--
+  @description       : 
+  @author            : ChangeMeIn@UserSettingsUnder.SFDoc
+  @group             : 
+  @last modified on  : 03-23-2023
+  @last modified by  : ChangeMeIn@UserSettingsUnder.SFDoc
+-->
+<apex:page renderAs="PDF" controller="HCVPersonalDataController"  standardStylesheets="false"  action="{!getDataFromAccountToHCV}" showHeader="false" applyHtmlTag="false" >
+
+    <head>
+        <style>
+            .alignCenter { width: 100px; height: 100px; margin: 0 auto; }
+            .footerInfoLey { font-style: italic; }
+        </style>
+     
+      <link REL="SHORTCUT ICON" HREF="{!URLFOR($Resource.favicon)}" /> 
+    </head>  
+
+    <!-- Header -->
+    <apex:panelGrid columns="2" width="100%"> 
+        <!-- Logo de Arriaga -->
+        <apex:image id="logo" style="float: left;" width="200"  value="{!$Label.LogoPDFHojaEncargo}" alt="Arriaga Asociados"/> 
+        <apex:panelGrid columns="1" width="100%">
+            <apex:outputText Style="color: #f16b12; font-weight:900" value="HOJA DE CONTROL DE VISITA"/>
+            <apex:outputText Style="color: #f16b12; font-weight:900" value="INFORMACIÓN SOBRE PROTECCIÓN DE DATOS"/> 
+        </apex:panelGrid>
+    </apex:panelGrid>
+    <!-- FIN Header -->
+
+    <!-- Body -->
+    <apex:panelGrid columns="1" width="100%" border="3" style="border-color: #f16b12;">
+        <h3>
+            DATOS PERSONALES:
+        </h3>
+        <apex:panelGrid columns="4" width="100%" border="0" style="border-color: #f16b12;">
+            <apex:outputText value="Nombre: "/> <apex:outputText value="{!nombre}"/>
+            <apex:outputText value="Apellidos: "/> <apex:outputText value="{!apellidos}"/>
+
+            <apex:outputText value="DNI: "/> <apex:outputText value="{!documentoIdentidad}"/>
+            <apex:outputText value="Fecha de nacimiento: "/> <apex:outputText value="{!fechaNacimiento}"/>
+
+            <apex:outputText value="Telefono: "/> <apex:outputText value="{!telefono}"/>
+            <apex:outputText value="Segundo Telefono: "/> <apex:outputText value="{!segundotelefono}"/>
+
+            <apex:outputText value="Email: "/> <apex:outputText value="{!eMail}"/>
+            <apex:outputText value="Segundo Email: "/> <apex:outputText value="{!segundoeMail}"/>
+            
+            <apex:outputText value="Dirección: "/> <apex:outputText value="{!domicilio}"/>
+        </apex:panelGrid>       
+    </apex:panelGrid>
+
+    <apex:panelGrid columns="1" width="100%" border="0" style="text-align: justify;" >   
+        <html>
+            <body>  
+                <p>El abajo firmante autoriza al despacho de abogados, ARRIAGA ASOCIADOS ASESORAMIENTO JURÍDICO Y ECONÓMICO S.L. (en adelante, “<b>ARRIAGA ASOCIADOS</b>”), con domicilio social en C/ del Obenque, 4, 28042 - Madrid, N.I.F.: B-98488117, teléfono: 910052600, correo electrónico: contacto@arriagaasociados.com y DPO: lopd@arriagaasociados.com, a tratar sus datos personales y reconoce haber leído, entendido y comprendido la siguiente información:</p>
+                
+                <p><b><u>Finalidad del tratamiento y plazo de conservación de los datos:</u></b> Sus datos serán tratados por ARRIAGA ASOCIADOS con la finalidad de llevar a cabo la prestación de los servicios contratados y el mantenimiento de la relación contractual. Sus datos serán conservados con ese fin durante todo el tiempo en que la relación contractual esté vigente y, aún después, durante todo el tiempo exigido por la legislación aplicable y hasta que prescriban las eventuales responsabilidades derivadas del contrato, a los efectos de la formulación, el ejercicio o la defensa de eventuales reclamaciones.</p>
+                
+                <p>ARRIAGA ASOCIADOS también podrá tratar sus datos, una vez contratado el producto, para responder consultas que realice a través de WhatsApp
+                Messenger si usted presta su consentimiento marcando la casilla correspondiente. Dicho tratamiento se producirá con este fin hasta que se oponga o revoque
+                su consentimiento.</p>
+                
+                <p>Además, ARRIAGA ASOCIADOS podrá tratar sus datos para la realización de encuestas de satisfacción y para el envío de comunicaciones comerciales sobre
+                productos y/o servicios de ARRIAGA ASOCIADOS por medios electrónicos y/o convencionales ajustados a su comportamiento y preferencias personales de
+                acuerdo a datos obtenidos de fuentes propias y de terceros, si usted presta su consentimiento marcando la casilla correspondiente. Si conforme lo anterior
+                usted consiente dicho tratamiento, sus datos serán tratados por ARRIAGA ASOCIADOS hasta que manifieste su oposición.</p>              
+                
+                <p><b><u>Tipología de datos tratados:</u></b> ARRIAGA ASOCIADOS tratará las siguientes categorías de datos:</p>
+                <dl>
+                    <li>Datos identificativos: nombre, apellidos, DNI, imagen.</li>
+                    <li>Datos de contacto: dirección postal, dirección de correo electrónico, teléfono.</li>
+                    <li>Datos de características personales: fecha de nacimiento, sexo, nacionalidad, etc.</li>
+                    <li>Datos de circunstancias sociales: estado civil, etc.</li>
+                    <li>Datos de detalles de empleo: informe de vida laboral, datos no económicos de nómina, puesto de trabajo, etc.</li>
+                    <li>Datos económicos, financieros o de seguros: ingresos, datos bancarios, etc.</li>
+                    <li>Datos relativos a infracciones administrativas.</li>
+                    <li>Datos especialmente protegidos: Datos de salud y datos biométricos.</li>
+                    <li>Datos relativos a infracciones penales.</li>
+                </dl>
+                
+                <p>Los datos especialmente protegidos y datos relativos a infracciones penales pueden ser solicitados cuando sean necesarios para la formulación, el ejercicio o la
+                defensa de reclamaciones, ya sean administrativas, extrajudiciales o judiciales, de acuerdo al fondo del asunto o a la estrategia procesal decidida por Arriaga
+                Asociados para la defensa de los intereses encomendados según su mejor y leal saber y entender técnico-jurídico.
+                A fin de poder facilitar la firma de documentación en formato digital, se recabarán datos biométricos inherentes a la herramienta de recogida, tales como
+                presión, aceleración y velocidad del trazado. En caso de que sea necesario tratar datos especialmente protegidos y/o datos relativos a infracciones penales para
+                la ejecución de los servicios contratados, el interesado consiente de manera explícita su tratamiento por parte de Arriaga Asociados.</p>
+                
+                <p>En caso de que sea necesario tratar datos especialmente protegidos y/o datos relativos a infracciones penales para la ejecución de los servicios contratados, el
+                interesado consiente de manera explícita su tratamiento por parte de ARRIAGA ASOCIADOS.
+                En caso de que facilite datos de terceros, manifiesta contar con el consentimiento del titular de los mismos y se compromete a trasladarle la información
+                contenida en esta cláusula, eximiendo a ARRIAGA ASOCIADOS de cualquier responsabilidad en este sentido. No obstante, ARRIAGA ASOCIADOS podrá
+                llevar a cabo las verificaciones periódicas para constatar este hecho, adoptando las medidas de diligencia debida que correspondan conforme a la normativa de
+                protección de datos.</p>
+                
+                <p>El CLIENTE garantiza que los datos que facilita a ARRIAGA ASOCIADOS son verdaderos, exactos, completos y actualizados. A estos efectos, el Cliente
+                responde de la veracidad de todos los datos que comunique y mantendrá convenientemente actualizada la información facilitada, de tal forma que responda a
+                su situación real.</p>
+                
+                <p>El Cliente será responsable de las informaciones falsas o inexactas que proporcione y de los daños y perjuicios, directos o indirectos, que ello cause a ARRIAGA
+                ASOCIADOS o a terceros.</p>
+                <p><b><u>Legitimación del tratamiento:</u></b> El tratamiento de los datos del interesado por parte de ARRIAGA ASOCIADOS para llevar a cabo la prestación de los servicios
+                contratados está basado en la ejecución del contrato, por lo que el suministro de los datos con este fin es obligado e impediría su cumplimiento en caso
+                contrario. No obstante, el tratamiento de sus datos especialmente protegidos, el tratamiento de datos relativos a infracciones penales, está basado en el
+                consentimiento del interesado, el cual se facilita mediante la firma del presente documento. En caso de que el interesado retire su consentimiento, ARRIAGA
+                ASOCIADOS no podrá prestar los servicios objeto de contratación. En cuanto al tratamiento de sus datos para la resolución de consultas a través del servicio
+                de mensajería instantánea WhatsApp Messenger, perteneciente a WhatsApp LLC, está basado en su consentimiento el cual otorga marcando la casilla
+                correspondiente. Por otra parte, el tratamiento de sus datos para el envío de comunicaciones comerciales basado en la elaboración de un perfil comercial está
+                basado en el consentimiento, el cual otorga marcando la casilla correspondiente. El tratamiento para la realización de encuestas de satisfacción está basado en
+                el interés legítimo de la compañía.</p>
+                
+                <p><b><u>Cesiones de datos:</u></b> Los datos del interesado podrán ser comunicados a las Administraciones Públicas en los casos previstos por la Ley, a los bancos y entidades
+                financieras para el cobro de los servicios de ARRIAGA ASOCIADOS, a los Juzgados y Tribunales para gestionar su reclamación, a Notarías, Procuradores y
+                Registros y a la contraparte en el ejercicio del derecho de defensa, así como terceros proveedores.
+                El servicio de firma digital se presta a través de Signaturit Solutions, S.L., que cuenta con proveedores cuyos servidores se encuentran ubicados en Estados
+                Unidos. Dicha transferencia internacional se encuentra amparada bajo los estándares contenidos en la normativa europea de protección de datos y se regula a
+                través de Cláusulas Tipo aprobadas por la Comisión Europea.</p>
+                
+                <p><b><u>Ejercicio de derechos:</u></b> Puede enviar un escrito a lopd@arriagaasociados.com o a C/ del Obenque, 4, 28042 – Madrid, con la Referencia “Protección de
+                Datos”, adjuntando fotocopia de su documento de identidad, en cualquier momento y de manera gratuita, para:
+                <dl>
+                    <li>Obtener confirmación acerca de si en ARRIAGA ASOCIADOS se están tratando datos personales que le conciernen o no.</li>
+                    <li>Acceder a sus datos personales.</li>
+                    <li>Rectificar los datos inexactos o incompletos.</li>
+                    <li>Solicitar la supresión de sus datos cuando, entre otros motivos, los datos ya no sean necesarios para los fines que fueron recogidos.</li>
+                    <li>Obtener de ARRIAGA ASOCIADOS la limitación del tratamiento de los datos cuando se cumpla alguna de las condiciones previstas en la normativa de protección de datos.</li>
+                    <li>Solicitar la portabilidad de sus datos.</li>
+                    <li>Reclamar ante la Agencia Española de Protección de Datos (AEPD), a través de la web www.aepd.es o mediante escrito dirigido a la Subdirección General de Inspección de Datos de la AEPD, calle Jorge Juan, 6-28001-Madrid, cuando considere que ARRIAGA ASOCIADOS ha vulnerado los derechos que le son reconocidos por la normativa aplicable en protección de datos.</li>
+                </dl>
+                </p>
+                
+                <p><b><u>Medidas de seguridad:</u></b> ARRIAGA ASOCIADOS tratará los datos del Cliente en todo momento de forma absolutamente confidencial y guardando el
+                preceptivo deber de secreto respecto de los mismos, de conformidad con lo previsto en la normativa de aplicación, adoptando al efecto las medidas de índole
+                técnica y organizativas apropiadas que garanticen la seguridad de sus datos y eviten su alteración, pérdida, tratamiento o acceso no autorizado, habida cuenta
+                del estado de la tecnología, la naturaleza de los datos almacenados y los riesgos a que están expuestos.</p>
+
+            </body>
+        </html>
+
+    </apex:panelGrid>  
+
+    <apex:panelGrid columns="1" width="100%" border="3" style="border-color: #f16b12;">      
+        <h3>
+            Firmado por:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;Fecha:
+        </h3>                                          
+        <apex:panelGrid columns="2" width="100%" border="0" style="border-color: #f16b12;">      
+                <apex:outputText value="{!politica1}"/><apex:outputText value="Acepto Politica Privacidad: "/>
+                <apex:outputText value="{!politica2}"/><apex:outputText value="Deseo Recibir Comunicaciones Comerciales: "/> 
+                <apex:outputText value="{!politica3}"/><apex:outputText value="Deseo Recibir Mensajes de Whatsapp: "/> 
+        </apex:panelGrid>   
+    </apex:panelGrid>     
+    <!-- FIN Body -->
+    <!-- Footer -->
+    <apex:panelGrid columns="1" width="100%" style="text-align: justify;">
+        <h6 style="font-style: italic;text-align: justify;" >
+            <apex:outputText value="{!textoInformativo}" style="text-align: justify;" escape="false"/>
+        </h6>        
+    </apex:panelGrid>
+
+    <!-- FIN Footer -->
+    
+</apex:page>

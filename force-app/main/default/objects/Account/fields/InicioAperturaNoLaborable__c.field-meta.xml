@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>InicioAperturaNoLaborable__c</fullName>
+    <description>Indica el horario de apertura en fines de semana y festivos</description>
+    <externalId>false</externalId>
+    <label>Inicio apertura (no laborable)</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Time</type>
+</CustomField>

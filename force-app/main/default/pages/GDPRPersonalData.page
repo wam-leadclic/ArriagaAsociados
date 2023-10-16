@@ -1,0 +1,47 @@
+<apex:page renderAs="PDF" controller="GDPRPersonalDataController"  standardStylesheets="false"  action="{!getDataFromAccount}" showHeader="false" applyHtmlTag="false" >
+
+   <head>
+        <style>
+            .alignCenter { width: 100px; height: 100px; margin: 0 auto; }
+            .footerInfoLey { font-style: italic; }
+        </style>
+     
+      <link REL="SHORTCUT ICON" HREF="{!URLFOR($Resource.favicon)}" /> 
+    </head>  
+    <!-- Header -->
+    <apex:panelGrid columns="1" width="100%" styleClass="alignCenter"> 
+		<!-- Logo de Arriaga -->
+        <apex:image id="logo" style="float: left;" width="300"  value="{!$Label.LogoPDFHojaEncargo}" alt="Arriaga Asociados"/>
+    </apex:panelGrid>
+    <!-- FIN Header -->
+    <!-- Body -->
+    <apex:panelGrid columns="1" width="100%">
+        <h4>
+        	Estos son los datos guardados en la base de datos de Arriaga:
+        </h4>
+        <apex:panelGrid columns="2" width="60%">
+            <apex:outputText value="Nombre: "/> <apex:outputText value="{!nombre}"/>
+            <apex:outputText value="Apellidos: "/> <apex:outputText value="{!apellidos}"/>
+            <apex:outputText value="Profesion: "/> <apex:outputText value="{!PersonTitle}"/>
+            <apex:outputText value="DNI: "/> <apex:outputText value="{!documentoIdentidad}"/>
+            <apex:outputText value="Régimen Económico: "/> <apex:outputText value="{!regimenEconomico}"/>
+            <apex:outputText value="Estado Civil: "/> <apex:outputText value="{!estadoCivil}"/>
+            <apex:outputText value="Fecha de nacimiento: "/> <apex:outputText value="{!fechaNacimiento}"/>
+            <apex:outputText value="IBAN: "/> <apex:outputText value="{!IBAN}"/>
+            <apex:outputText value="Telefono: "/> <apex:outputText value="{!telefono}"/>
+            <apex:outputText value="Segundo Telefono: "/> <apex:outputText value="{!segundotelefono}"/>
+            <apex:outputText value="Email: "/> <apex:outputText value="{!eMail}"/>
+            <apex:outputText value="Segundo Email: "/> <apex:outputText value="{!segundoeMail}"/>
+            <apex:outputText value="Dirección: "/> <apex:outputText value="{!domicilio}"/>
+        </apex:panelGrid>
+    </apex:panelGrid>
+    <!-- FIN Body -->
+    <!-- Footer -->
+    <apex:panelGrid columns="1" width="100%" style="text-align: justify;">
+        <h6 style="font-style: italic;text-align: justify;" >
+            <apex:outputText value="{!textoInformativo}" style="text-align: justify;" escape="false"/>
+        </h6>        
+    </apex:panelGrid>
+    <!-- FIN Footer -->
+    
+</apex:page>

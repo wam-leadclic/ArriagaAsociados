@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QuickAction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Botón que se muestra en la comunidad para que puedan cambiar la contraseña desde su ficha de contacto</description>
+    <flowDefinition>ComunidadResetPassword</flowDefinition>
+    <label>Cambiar Contraseña</label>
+    <optionsCreateFeedItem>false</optionsCreateFeedItem>
+    <type>Flow</type>
+</QuickAction>

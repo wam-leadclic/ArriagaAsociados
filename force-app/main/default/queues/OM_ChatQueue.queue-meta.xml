@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Chat Queue</name>
+    <queueMembers>
+        <users>
+            <user>abalaguer@arriagaasociados.com</user>
+            <user>aabuja@arriagaasociados.com</user>
+            <user>adeya@arriagaasociados.com</user>
+            <user>lfierro@arriagaasociados.com</user>
+            <user>mmlopez@arriagaasociados.com</user>
+            <user>meperez@arriagaasociados.com</user>
+            <user>mreig.adm@arriagaasociados.com</user>
+            <user>soporte.arriaga@omegacrmconsulting.com</user>
+            <user>vliza@arriagaasociados.com</user>
+        </users>
+    </queueMembers>
+    <queueRoutingConfig>OM_ChatRoutingConfg</queueRoutingConfig>
+    <queueSobject>
+        <sobjectType>LiveChatTranscript</sobjectType>
+    </queueSobject>
+</Queue>

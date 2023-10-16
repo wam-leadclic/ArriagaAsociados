@@ -1,0 +1,52 @@
+<table border="0" cellpadding="5" width="600" cellspacing="5" height="400" >
+<tr valign="top" height="50" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[]]></td>
+</tr>
+<tr valign="top" height="300" >
+<td tEditID="c1r2" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r2" locked="0" >
+<![CDATA[<p style="text-align: left; color: rgb(0, 0, 0); font-size: 12pt; margin-bottom: 7.95pt; line-height: 105%;"><font style="" face="Times New Roman, Times, serif"><span style="font-size: 12pt;">Estimado </span>{!Contact.FirstName}<span style="font-size: 12pt;">,<o:p></o:p></span></font></p>
+
+<p style="text-align: left; color: rgb(0, 0, 0); font-size: 12pt; margin-bottom: 7.95pt; line-height: 105%;"><o:p><font face="Times New Roman, Times, serif">&nbsp;</font></o:p></p>
+
+<p style="text-align: left; margin-bottom: 7.95pt; line-height: 105%;"><font face="Times New Roman, Times, serif"><span style="font-size: 11pt;">En relación a la consulta planteada sobre el
+expediente</span><font style="color: rgb(0, 0, 0); font-size: 12pt;"><span style="font-size: 12pt;">&nbsp;</span></font>{!Case.NumeroExpediente__c}<span style="color: rgb(0, 0, 0); font-size: 12pt;">, le damos la enhorabuena porque su sentencia ya es firme.</span></font></p>
+
+<p style="text-align: left; color: rgb(0, 0, 0); font-size: 12pt; margin-bottom: 7.95pt; line-height: 105%;"><font face="Times New Roman, Times, serif">A día de hoy,
+no consta consignación por parte de la entidad en la cuenta de depósitos y
+consignaciones del juzgado.<o:p></o:p></font></p>
+
+<p style="text-align: left; color: rgb(0, 0, 0); font-size: 12pt; margin-bottom: 7.95pt; line-height: 105%;"><font face="Times New Roman, Times, serif">A partir de
+ahora la entidad condenada tiene 20 días hábiles para el cumplimiento
+voluntario de la sentencia, durante el cual puede depositar las cantidades a
+las que ha sido condenada, bien en la Cuenta de Depósitos y Consignaciones del
+Juzgado o bien en una cuenta personal suya.<o:p></o:p></font></p>
+
+<p style="text-align: left; color: rgb(0, 0, 0); font-size: 12pt; margin-bottom: 7.95pt; line-height: 105%;"><font face="Times New Roman, Times, serif">Si, transcurrido
+el plazo voluntario de pago, la entidad no hubiera cumplido procederíamos a
+preparar la demanda de ejecución para solicitar el cumplimiento forzoso de la
+sentencia.<o:p></o:p></font></p>
+
+<p style="text-align: left; color: rgb(0, 0, 0); font-size: 12pt; margin-bottom: 12pt; line-height: 105%;"><font face="Times New Roman, Times, serif">En caso de
+recibir algún ingreso en su cuenta por parte de la entidad bancaria, rogamos
+nos lo comunique a efectos de realizar las gestiones oportunas.<o:p></o:p></font></p>
+
+<p style="text-align: left; color: rgb(0, 0, 0); font-size: 12pt; margin-bottom: 7.95pt; line-height: 105%;"><font face="Times New Roman, Times, serif">Para mayor
+información quedamos a su disposición en el teléfono de atención al cliente 91
+005 26 00.<o:p></o:p></font></p>
+
+<p style="text-align: left; color: rgb(0, 0, 0); font-size: 12pt; margin-bottom: 12pt; line-height: 105%;"><o:p><font face="Times New Roman, Times, serif">&nbsp;</font></o:p></p>
+
+<p style="text-align: left; color: rgb(0, 0, 0); font-size: 12pt; margin-bottom: 7.95pt; line-height: 105%;"><font face="Times New Roman, Times, serif">Reciba un
+cordial saludo.<o:p></o:p></font></p>
+
+<p style="text-align: left; color: rgb(0, 0, 0); font-size: 12pt; margin-bottom: 12pt; line-height: 105%;"><span style="color: rgb(0, 0, 0); font-size: 12pt;"><o:p><font face="Times New Roman, Times, serif"><br></font></o:p></span></p><p style="text-align: left; color: rgb(0, 0, 0); font-size: 12pt; margin-bottom: 12pt; line-height: 105%;"><font face="Times New Roman, Times, serif">{!Case.OwnerFirstName}&nbsp;{!Case.OwnerLastName}</font></p>
+
+<p style="text-align: left; color: rgb(0, 0, 0); font-size: 12pt; margin-bottom: 7.95pt; line-height: 105%;"><font face="Times New Roman, Times, serif">Departamento
+de Atención al Cliente.</font><font face="Calibri, sans-serif"><o:p></o:p></font></p>]]></td>
+</tr>
+<tr valign="top" height="50" >
+<td tEditID="c1r3" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r3" locked="0" >
+<![CDATA[<span style="font-size: medium;"><font color="#ffffff">{!Case.Thread_Id}</font></span>]]></td>
+</tr>
+</table>

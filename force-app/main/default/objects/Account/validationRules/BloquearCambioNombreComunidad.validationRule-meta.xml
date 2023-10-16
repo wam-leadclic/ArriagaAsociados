@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BloquearCambioNombreComunidad</fullName>
+    <active>true</active>
+    <description>Impide a los clientes en la Comunidad cambiar su nombre o apellidos</description>
+    <errorConditionFormula>AND(
+$Profile.Id = $Label.PerfilComunidad ,
+OR(ISCHANGED(FirstName),ISCHANGED(LastName),ISCHANGED( TipoDocumento__c ),ISCHANGED( DocumentoIdentidad__c ))
+)</errorConditionFormula>
+    <errorMessage>Para modificar su nombre, apellidos o Documento de Identidad, por favor, realice una solicitud de Rectificación en el enlace que se encuentra en el pie de página.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OM_NextRetryOffset__c</fullName>
+    <description>Tiempo en minutos que debe de pasar desde que se lanza una llamada con cliente ilocalizado, hasta que se debe ejecutar el siguiente callback.</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>Tiempo en minutos que debe de pasar desde que se lanza una llamada con cliente ilocalizado, hasta que se debe ejecutar el siguiente callback.</inlineHelpText>
+    <label>Próximo reintento (Offset)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

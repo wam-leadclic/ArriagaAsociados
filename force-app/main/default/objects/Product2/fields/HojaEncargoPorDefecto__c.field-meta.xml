@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HojaEncargoPorDefecto__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Hoja de encargo que tiene por defecto cada producto que se puede contratar a través de la comunidad</description>
+    <externalId>false</externalId>
+    <label>Hoja de Encargo por defecto</label>
+    <referenceTo>HojaEncargo__c</referenceTo>
+    <relationshipLabel>Productos</relationshipLabel>
+    <relationshipName>Productos</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

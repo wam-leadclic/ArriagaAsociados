@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SubidaComunidad__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Indicará que el tipo de documento puede ser subido desde la comunidad por los usuarios al gestor documental.</description>
+    <externalId>false</externalId>
+    <label>Subida a través de comunidad</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

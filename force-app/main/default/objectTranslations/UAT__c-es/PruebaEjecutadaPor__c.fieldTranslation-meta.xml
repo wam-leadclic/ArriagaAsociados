@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>PruebaEjecutadaPor__c</name>
+    <picklistValues>
+        <masterLabel>Leadclic Solutions</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Responsable Cliente</masterLabel>
+        <translation></translation>
+    </picklistValues>
+</CustomFieldTranslation>

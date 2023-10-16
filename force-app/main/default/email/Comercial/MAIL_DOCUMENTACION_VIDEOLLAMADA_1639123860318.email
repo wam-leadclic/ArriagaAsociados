@@ -1,0 +1,18 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;"><span style="line-height: 107%;"><span style="color: black;"><span style="position: relative;"><span style="top: -0.5pt;">Buenos días<span style="font-family: Arial, sans-serif; font-size: 12pt;">&nbsp;</span></span></span></span></span>{{{Account.FirstName}}}:
+<p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:13.5pt"><span style="color:black">Mi nombre es {{{Sender.Name}}}&nbsp;asesor jurídico de Arriaga Asociados con número de colegiado </span><span style="color:#c0392b;">_________del (SIGLAS COLEGIO)</span><span style="color:black"> Tal como hemos hablado, te recuerdo la documentación necesaria para poder analizar en profundidad tu caso:</span></span></span></span><br />
+<br />
+<span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:13.5pt"><span style="color:black">Tratándose de </span><span style="color:#c0392b;">(nombre producto)</span><span style="color:black"> es muy importante la siguiente documentación:</span></span></span></span><br />
+<span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:13.5pt"><span style="color:black">A</span></span></span></span><br />
+<span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:13.5pt"><span style="color:black">B</span></span></span></span><br />
+<span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:13.5pt"><span style="color:black">C</span></span></span></span><br />
+<br />
+<span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:13.5pt"><span style="color:black">Lo ideal es que me la envíes en PDF respondiendo a este mismo mail. Si no dispones de escáner, te propongo utilizar una aplicación gratuita que puedes descargar en tu móvil. Se llama CamScanner, adjunto las instrucciones.</span></span></span></span><br />
+<span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:13.5pt"><span style="color:black">Nos vemos pronto.</span></span></span></span><br />
+<br />
+<span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:13.5pt"><span style="color:black">Un saludo.</span></span></span></span></p>
+
+</body></html>

@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <BotVersion xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>v3</fullName>
-    <articleAnswersGPTEnabled>false</articleAnswersGPTEnabled>
+    <botDialogGroups>
+        <developerName>X4_Estado_Expediente</developerName>
+        <label>4. Estado Expediente</label>
+    </botDialogGroups>
     <botDialogGroups>
         <developerName>Pedir_Cita_Group</developerName>
         <label>1. Pedir Cita</label>
@@ -13,10 +16,6 @@
     <botDialogGroups>
         <developerName>X3_Informacion_sobre_servicios</developerName>
         <label>3. Informacion sobre servicios</label>
-    </botDialogGroups>
-    <botDialogGroups>
-        <developerName>X4_Estado_Expediente</developerName>
-        <label>4. Estado Expediente</label>
     </botDialogGroups>
     <botDialogGroups>
         <developerName>X5_Otros_motivos</developerName>
@@ -509,7 +508,7 @@
                     </botNavigationLinks>
                     <type>Redirect</type>
                 </botNavigation>
-                <stepIdentifier>435e25e3-d933-4333-919c-23d7c97ae5f6</stepIdentifier>
+                <stepIdentifier>e69426b1-369d-4d5d-8c50-fc91c75e47f4</stepIdentifier>
                 <type>Navigation</type>
             </botSteps>
             <conditionLogicType>Or</conditionLogicType>
@@ -530,7 +529,7 @@
                     </botNavigationLinks>
                     <type>Redirect</type>
                 </botNavigation>
-                <stepIdentifier>fd38fbfb-6f1e-42a4-bad5-27d93af61690</stepIdentifier>
+                <stepIdentifier>8ba823ce-1230-47d3-8fbc-1a4d9a7ac517</stepIdentifier>
                 <type>Navigation</type>
             </botSteps>
             <conditionLogicType>And</conditionLogicType>
@@ -551,7 +550,7 @@
                     </botNavigationLinks>
                     <type>Redirect</type>
                 </botNavigation>
-                <stepIdentifier>0ec36043-4ea6-45af-9990-b819090f1769</stepIdentifier>
+                <stepIdentifier>ea3d47f4-4d3e-485b-9c19-db5259969923</stepIdentifier>
                 <type>Navigation</type>
             </botSteps>
             <conditionLogicType>And</conditionLogicType>
@@ -722,7 +721,7 @@ Salir (pulsa 4)</message>
                     </botNavigationLinks>
                     <type>Redirect</type>
                 </botNavigation>
-                <stepIdentifier>fd09c0bb-3081-475e-be4d-41664d3efd14</stepIdentifier>
+                <stepIdentifier>2eb59f5d-1918-4022-8f40-fb8b96dce015</stepIdentifier>
                 <type>Navigation</type>
             </botSteps>
             <conditionLogicType>Or</conditionLogicType>
@@ -743,7 +742,7 @@ Salir (pulsa 4)</message>
                     </botNavigationLinks>
                     <type>Redirect</type>
                 </botNavigation>
-                <stepIdentifier>f86c9d19-3bd0-44cf-9dd5-d1830f537a36</stepIdentifier>
+                <stepIdentifier>cffe2756-d012-45e8-b95e-2a7de8e273ce</stepIdentifier>
                 <type>Navigation</type>
             </botSteps>
             <conditionLogicType>And</conditionLogicType>
@@ -764,7 +763,7 @@ Salir (pulsa 4)</message>
                     </botNavigationLinks>
                     <type>Redirect</type>
                 </botNavigation>
-                <stepIdentifier>d438d8af-6557-427b-9044-26fca47d04a3</stepIdentifier>
+                <stepIdentifier>298434ce-3935-41dc-8fe6-c74348489bd6</stepIdentifier>
                 <type>Navigation</type>
             </botSteps>
             <conditionLogicType>And</conditionLogicType>
@@ -779,7 +778,7 @@ Salir (pulsa 4)</message>
                     </botNavigationLinks>
                     <type>Redirect</type>
                 </botNavigation>
-                <stepIdentifier>ee7a4aee-4df0-4ddd-b839-4675ee042af4</stepIdentifier>
+                <stepIdentifier>6ef28edc-ea80-4db2-86bb-568dc948ff7f</stepIdentifier>
                 <type>Navigation</type>
             </botSteps>
             <conditionLogicType>And</conditionLogicType>
@@ -1370,7 +1369,7 @@ Hablar con un agente (pulsa 2)</message>
                     </invocationMappings>
                 </botInvocation>
                 <type>Set</type>
-                <variableOperationIdentifier>2542f67f-731b-4423-8c5c-fef6c547c68a</variableOperationIdentifier>
+                <variableOperationIdentifier>3ca06275-b4cc-450d-8397-e05bddbd3cea</variableOperationIdentifier>
             </botVariableOperation>
             <stepIdentifier>caf1d99d-a9cc-4414-a974-ab4bab9a0db2</stepIdentifier>
             <type>VariableOperation</type>
@@ -1389,7 +1388,7 @@ Hablar con un agente (pulsa 2)</message>
                     </botNavigationLinks>
                     <type>Redirect</type>
                 </botNavigation>
-                <stepIdentifier>446c4ff7-8fb2-475c-999a-e90f005d16b0</stepIdentifier>
+                <stepIdentifier>d6069eb4-6218-4713-91e6-03dc01b7f16d</stepIdentifier>
                 <type>Navigation</type>
             </botSteps>
             <conditionLogicType>And</conditionLogicType>
@@ -1415,7 +1414,7 @@ Hablar con un agente (pulsa 2)</message>
                     </botNavigationLinks>
                     <type>Redirect</type>
                 </botNavigation>
-                <stepIdentifier>fd082efe-9a79-4c30-8291-171a7f885f5d</stepIdentifier>
+                <stepIdentifier>2c2b5265-12d1-4eac-bc34-5f8f3f3063ac</stepIdentifier>
                 <type>Navigation</type>
             </botSteps>
             <conditionLogicType>And</conditionLogicType>
@@ -1441,7 +1440,7 @@ Hablar con un agente (pulsa 2)</message>
                     </botNavigationLinks>
                     <type>Redirect</type>
                 </botNavigation>
-                <stepIdentifier>769fa729-3f78-4053-8d6f-fc8964487b4b</stepIdentifier>
+                <stepIdentifier>7ac32c7c-53ab-4f21-a9a1-8d337101c169</stepIdentifier>
                 <type>Navigation</type>
             </botSteps>
             <conditionLogicType>And</conditionLogicType>
@@ -1461,7 +1460,7 @@ Hablar con un agente (pulsa 2)</message>
                     </botNavigationLinks>
                     <type>Redirect</type>
                 </botNavigation>
-                <stepIdentifier>95833e0b-0ac8-4bfe-8935-da74f2a405bd</stepIdentifier>
+                <stepIdentifier>0dbcd231-8953-4630-9110-0d89c8c35a97</stepIdentifier>
                 <type>Navigation</type>
             </botSteps>
             <conditionLogicType>And</conditionLogicType>
@@ -1491,7 +1490,7 @@ Hablar con un agente (pulsa 2)</message>
                     </botNavigationLinks>
                     <type>Call</type>
                 </botNavigation>
-                <stepIdentifier>676ce5b9-5bf3-4da9-9a54-723b71f013b7</stepIdentifier>
+                <stepIdentifier>d61e44b5-bc2a-42f1-a72d-f0cb29f53ea3</stepIdentifier>
                 <type>Navigation</type>
             </botSteps>
             <conditionLogicType>And</conditionLogicType>
@@ -3064,7 +3063,7 @@ No (pulsa 2)</message>
                     </botNavigationLinks>
                     <type>Redirect</type>
                 </botNavigation>
-                <stepIdentifier>83b8b5a3-4111-4584-9382-5b92e8917345</stepIdentifier>
+                <stepIdentifier>39b9fec7-475b-4f56-9589-4e0880a321a9</stepIdentifier>
                 <type>Navigation</type>
             </botSteps>
             <conditionLogicType>And</conditionLogicType>
@@ -3090,7 +3089,7 @@ No (pulsa 2)</message>
                     </botNavigationLinks>
                     <type>Redirect</type>
                 </botNavigation>
-                <stepIdentifier>a645707a-a2ac-4669-912c-319559164656</stepIdentifier>
+                <stepIdentifier>0a91f8bd-0c41-440b-9d84-00b64ff31fe5</stepIdentifier>
                 <type>Navigation</type>
             </botSteps>
             <conditionLogicType>And</conditionLogicType>
@@ -3111,7 +3110,7 @@ No (pulsa 2)</message>
                     </botNavigationLinks>
                     <type>Redirect</type>
                 </botNavigation>
-                <stepIdentifier>fe5e25b8-832d-45db-b3f1-8929dece1958</stepIdentifier>
+                <stepIdentifier>0cb16f85-64e3-4576-89c6-652c44b4110f</stepIdentifier>
                 <type>Navigation</type>
             </botSteps>
             <conditionLogicType>And</conditionLogicType>
@@ -3226,7 +3225,6 @@ Salir (pulsa 3)</message>
         <label>5.4 Ayuda resuelta Whatsapp</label>
         <showInFooterMenu>false</showInFooterMenu>
     </botDialogs>
-    <citationsEnabled>false</citationsEnabled>
     <conversationSystemDialogs>
         <dialog>Error_Handling</dialog>
         <type>ErrorHandling</type>
@@ -3412,5 +3410,4 @@ Salir (pulsa 3)</message>
         <language>es</language>
         <nlpProviderType>EinsteinAi</nlpProviderType>
     </nlpProviders>
-    <smallTalkEnabled>false</smallTalkEnabled>
 </BotVersion>

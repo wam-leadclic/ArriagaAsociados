@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HojaDeEncargo__c</fullName>
+    <description>Enlace que lleva a la hoja de encargo que se ha seleccionado en la oportunidad</description>
+    <externalId>false</externalId>
+    <formula>HYPERLINK(&apos;https://partial-clientesarriaga.cs100.force.com/apex/PDFHojaEncargo?id=&apos;&amp; Oportunidad__r.Id , &apos;aquí&apos; , &apos;_blank&apos;)</formula>
+    <label>Hoja de Encargo</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

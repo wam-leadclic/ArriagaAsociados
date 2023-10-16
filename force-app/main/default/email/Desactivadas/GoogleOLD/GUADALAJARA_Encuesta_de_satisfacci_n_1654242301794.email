@@ -1,0 +1,20 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<p style="text-align: center;">Buenos días,&nbsp;{{{Account.FirstName}}}&nbsp;<br />
+&nbsp;<br />
+&nbsp;<br />
+¿Cómo ha sido la atención recibida en nuestra oficina?&nbsp;</p>
+
+<p style="text-align: center;">&nbsp;<br />
+¡Comparte tu experiencia y ayúdanos a mejorar!&nbsp;</p>
+
+<p style="text-align: center;"><a href="https://www.google.com/maps/place/Arriaga+Asociados+Guadalajara/@40.6305362,-3.1651548,17z/data=!3m1!4b1!4m5!3m4!1s0xd43ab9d247c15e5:0x3bf69ada090f603!8m2!3d40.6305362!4d-3.1651548"><b>ESCRIBE TU RESEÑA PINCHANDO AQUI</b></a></p>
+
+<p style="text-align: center;">&nbsp;</p>
+
+<p style="text-align: center;">Arriaga Asociados&nbsp;</p>
+</body>
+</html>

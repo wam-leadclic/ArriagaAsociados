@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QuickAction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Abre el componente para crear Calendar Setting, donde está la simulación de lookup a Calendario</description>
+    <height>250</height>
+    <label>Nueva Configuración de Calendario</label>
+    <lightningComponent>CalendarSettingNew</lightningComponent>
+    <optionsCreateFeedItem>false</optionsCreateFeedItem>
+    <type>LightningComponent</type>
+    <width>-100</width>
+</QuickAction>

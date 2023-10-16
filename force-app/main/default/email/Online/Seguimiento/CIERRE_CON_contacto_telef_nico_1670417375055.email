@@ -1,0 +1,20 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<p>Hola, {{{Account.FirstName}}}&nbsp;</p>
+
+<p>No recibimos contestación a nuestros últimos contactos.</p>
+
+<p><strong>Con tu permiso, procedemos a cerrar tu consulta</strong>, pero recuerda que puedes retomarla en cualquier momento. Estamos&nbsp;para ayudarte.</p>
+
+<p><strong>Si deseas retomarla, contesta a este email y comenzaremos de nuevo con el proceso.</strong></p>
+
+<p><br />
+Gracias por confiar en nosotros.&nbsp;</p>
+
+<p>Equipo Arriaga Asociados<br />
+<a href="https://www.arriagaasociados.com/">https://www.arriagaasociados.com/</a></p>
+</body>
+</html>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OM_RequestedByAgent__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Determina si el agente ha solicitado verbalmente el permiso para grabar la conversación.</description>
+    <externalId>false</externalId>
+    <label>Solicitado por agente</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>

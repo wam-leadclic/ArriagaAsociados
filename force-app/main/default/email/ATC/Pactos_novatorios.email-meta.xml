@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Arriaga_plantilla_casos</letterhead>
+    <name>Pactos novatorios</name>
+    <style>formalLetter</style>
+    <subject>Pactos novatorios</subject>
+    <textOnly>Estimado/a {!Contact.FirstName},
+
+
+
+En relación a su expediente, como sabe, incluye un pacto novatorio con el banco por el que se comprometía a no reclamar a cambio de reducir o suprimir la cláusula suelo. En ese sentido, la jurisprudencia es controvertida sobre si ese acuerdo es válido o no.
+
+
+
+Actualmente, para poder presentar la demanda con las máximas garantías para la defensa de sus intereses, estamos esperando a que el Tribunal Superior de Justicia de la Unión Europea dicte sentencia sobre la validez o no de estos pactos.
+
+
+
+Si necesita más información estamos a su disposición en el teléfono de atención al cliente 91 005 26 00.
+
+
+
+Reciba un cordial saludo.
+
+{!Case.OwnerFirstName} {!Case.OwnerLastName}
+
+
+
+Departamento de Atención al cliente
+
+
+
+ARRIAGA ASOCIADOS</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

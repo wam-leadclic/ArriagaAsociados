@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OM_OptionalDocs__c</fullName>
+    <description>Contiene la información de los documentos opcionales separados por una coma.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Contiene la información de los documentos opcionales separados por una coma.</inlineHelpText>
+    <label>Documentos Opcionales</label>
+    <length>32768</length>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

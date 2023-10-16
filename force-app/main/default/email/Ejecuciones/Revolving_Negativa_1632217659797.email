@@ -1,0 +1,34 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Buenos días {{{Recipient.FirstName}}}:
+<p>Te comunicamos que, tras haber realizado los cálculos pertinentes sobre tu tarjeta Revolving, los mismos desprenden un saldo negativo de <span style="color:#e74c3c;">(agregar los datos).</span><br />
+<br />
+Esta situación se debe a que las cantidades dispuestas (gastos realizados con la tarjeta) superan el importe total que has pagado a la entidad.<br />
+<br />
+Recomendamos que procedas a abonar dicha cantidad a la mayor brevedad posible en la cuenta del juzgado, ya que, de no hacerlo, el banco te reclamará el importe, llegando incluso a iniciar la vía judicial mediante la interposición de demanda, con las consecuencias que ello conlleva.</p>
+
+<p>A continuación, te dejamos las instrucciones para devolver este importe a la cuenta del juzgado:<br />
+<br />
+<b>CUENTA BANCARIA</b>: IBAN ES55 0049 3569 9200 0500 1274</p>
+
+<p><b>ORDENANTE</b>: <span style="color:#e74c3c;">(agregar nombre)</span><br />
+<br />
+<b>BENEFICIARIO</b>: <span style="color:#e74c3c;">(agregar juzgado)</span><br />
+<br />
+<b>OBSERVACIONES O CONCEPTO DE LA TRANSFERENCIA</b>: CONSIGNACION JUDICIAL<span style="color:#e74c3c;"> (cuenta de consignación)</span></p>
+
+<p><b>La cantidad que tiene que ser devuelta al Juzgado es</b> <span style="color:#e74c3c;">(agregar cantidad)</span></p>
+
+<p>Una vez realizada la consignación (bien de forma presencial en tu banco o transfiriendo desde banca online), deberás hacernos llegar el justificante, respondiendo a este mismo correo electrónico, para que podamos adjuntarlo al escrito que, a tal fin, debemos presentar al Juzgado.</p>
+
+<p>Siempre que lo necesites puedes ponerte en contacto con nosotros al teléfono gratuito 900 264 600 o al 910052600 y aportando el número de tu expediente te informaremos.</p>
+
+<p>También puedes visitar nuestra sección de Preguntas más frecuentes <a href="https://www.arriagaasociados.com/preguntas-frecuentes/">aquí</a></p>
+
+<p><br />
+Gracias por confiar en nosotros.<br />
+​​​​​​​​​​​​​​​​​​​​​Departamento de Sentencias.</p>
+
+</body></html>

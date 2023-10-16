@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SCV_CALL_BACK_OFI_PRAD_OM_Callback</fullName>
+    <filterScope>Queue</filterScope>
+    <label>CALL BACK OFI PRAD</label>
+    <queue>SCV_CALL_BACK_OFI_PRAD</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

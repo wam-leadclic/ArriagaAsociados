@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Cabecera que se añade en la Letterhead de Autocita</description>
+    <internalUseOnly>false</internalUseOnly>
+    <keywords>Cabecera que se añade en la Letterhead de Autocita</keywords>
+    <name>Autocita Web</name>
+    <public>true</public>
+</Document>

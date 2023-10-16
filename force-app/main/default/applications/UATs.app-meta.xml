@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <brand>
+        <headerColor>#0070D2</headerColor>
+        <logo>seetampawitfebruary2019meetingattra</logo>
+        <logoVersion>1</logoVersion>
+        <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
+    </brand>
+    <description>Aplicación de gestión de UATs</description>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <label>UATs</label>
+    <navType>Console</navType>
+    <tabs>UAT__c</tabs>
+    <tabs>standard-report</tabs>
+    <tabs>standard-Dashboard</tabs>
+    <tabs>BloqueFuncionalUATs__c</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>UATs_UtilityBar</utilityBar>
+    <workspaceConfig>
+        <mappings>
+            <tab>BloqueFuncionalUATs__c</tab>
+        </mappings>
+        <mappings>
+            <tab>UAT__c</tab>
+        </mappings>
+        <mappings>
+            <tab>standard-Dashboard</tab>
+        </mappings>
+        <mappings>
+            <tab>standard-report</tab>
+        </mappings>
+    </workspaceConfig>
+</CustomApplication>

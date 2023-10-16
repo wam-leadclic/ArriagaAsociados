@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>lcs_gdpr__HasOptedOutOfFax__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Campo que se trae del contacto o del candidato para indicar que no quiere recibir fax</description>
+    <externalId>false</externalId>
+    <label>No recibir fax</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,44 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<p>Buenos días {{{Recipient.FirstName}}}</p>
+
+<p><br />
+Gracias por confiar en Arriaga Asociados para llevar adelante tu reclamación.&nbsp;&nbsp;</p>
+
+<p>Nos ponemos en contacto contigo en referencia a la factura correspondiente a los servicios contratados por la Hoja de Encargo con expediente número {{{Case.NumeroExpediente__c}}} de <b><span style="color:#c0392b;">(nombre del producto, ejemplo CLAUSULA SUELO)</span></b></p>
+
+<p>&nbsp;</p>
+
+<p>El ingreso que has recibido en tu cuenta, siendo su totalidad:<span style="color:#c0392b;"> (XXX.XX €)&nbsp;&nbsp;&nbsp;</span></p>
+
+<p>responde a los siguientes conceptos:&nbsp;&nbsp;</p>
+
+<ul>
+	<li>Principal (cantidades recuperadas): <span style="color:#c0392b;">(XXX.XX €)&nbsp;&nbsp;&nbsp;</span></li>
+	<li>Intereses: <span style="color:#c0392b;">(XXX.XX €)&nbsp;&nbsp;&nbsp;</span></li>
+	<li>Costas:<span style="color:#c0392b;"> (XXX.XX €)&nbsp;&nbsp;</span></li>
+</ul>
+
+<p>Te adjuntamos nuestra factura número {{{Case.Numero_de_Factura__c}}} por importe <span style="color:#c0392b;">(XXX.XX €)</span> en concepto de <span style="color:#c0392b;">(intereses y/o costas)</span>, donde se ha aplicado el apartado correspondiente a tu hoja de encargo, <span style="color:#c0392b;">"(Copiar y pegar-Cláusula completa)".</span></p>
+
+<p>El abono de la factura&nbsp;<span style="color:#c0392b;">(en concepto de:) </span>de Arriaga Asociados se puede realizar mediante transferencia bancaria en el número de cuenta CaixaBank ES30 2100 5518 7202 0016 4707, indicando como concepto el número del expediente.&nbsp;&nbsp;&nbsp;</p>
+
+<p>Si lo prefieres, tenemos a disposición una pasarela de pago virtual con la que podrás efectuar el pago de la factura utilizando el enlace web que recibirás por SMS en tu teléfono móvil y/o por mail en tu correo electrónico, es totalmente seguro y puedes solicitarlo como medio de pago respondiendo a este mismo mail.&nbsp;&nbsp;<br />
+&nbsp;</p>
+
+<p>En adjunto encontrarás la documentación de tu interés.&nbsp;&nbsp;<br />
+&nbsp;</p>
+
+<p>Si tienes alguna duda, puedes contactar en el número de teléfono&nbsp;<span style="color:#c0392b;"><b>( nº telf del técnico GDC )</b></span> o respondiendo este mail y nos pondremos en contacto.&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>Gracias por confiar en nosotros.&nbsp;&nbsp;</p>
+
+<p>Equipo Gestión de Cobros&nbsp;&nbsp;<br />
+Arriaga Asociados</p>
+
+</body></html>

@@ -307,7 +307,7 @@
         <pageOrSobjectType>Account</pageOrSobjectType>
         <recordType>Account.Oficina</recordType>
         <type>Flexipage</type>
-        <profile>COMERCIAL Responsable de Oficina</profile>
+        <profile>COMERCIAL Asesor Online</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
@@ -316,7 +316,7 @@
         <pageOrSobjectType>Account</pageOrSobjectType>
         <recordType>Account.Oficina</recordType>
         <type>Flexipage</type>
-        <profile>COMERCIAL Asesor Online</profile>
+        <profile>COMERCIAL Responsable de Oficina</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>

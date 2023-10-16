@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Plantilla de confirmación de cita por videollamada 202306</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Confirmación cita Videollamada202306</name>
+    <style>none</style>
+    <subject>Confirmación cita</subject>
+    <textOnly>Arriaga Asociados
+
+Hola {!Contact.FirstName},
+
+Esperamos verte en tu cita programada el próximo {!Event.StartDateTime +0}h para tratar un asunto de {!Event.Productos__c}.
+
+Recuerda que la consulta es totalmente gratuita. Resolveremos todas tus dudas y si hay motivo para reclamar, te contaremos los próximos pasos a seguir sin compromiso.
+
+Si por cualquier motivo no pudieras asistir, puedes cambiar la cita llamando al teléfono gratuito 900 264 600.
+
+Gracias por elegirnos.
+Equipo Arriaga Asociados
+Un cordial saludo,
+
+
+
+
+ARRIAGA ASOCIADOS ASESORAMIENTO JURÍDICO Y ECONÓMICO S.L. (en adelante, “ARRIAGA ASOCIADOS”), con N.I.F.: B-98488117 y domicilio social en Calle Agustín de Foxá 4 - 10, Planta 5ª, 28036, Madrid, le informa de que los datos personales que proporcione a ARRIAGA ASOCIADOS serán tratados a fin de concertar y mantener una reunión con Ud., analizar la consulta planteada y la documentación aportada, así como para determinar la posibilidad de establecer una relación contractual entre ARRIAGA ASOCIADOS y Ud. En breve se le facilitará un enlace para acceder a la plataforma virtual en la que se celebrará la cita. Le informamos de que si activa la cámara durante la reunión su imagen será tratada por ARRIAGA ASOCIADOS. En caso de que proporcione a ARRIAGA ASOCIADOS datos de terceros, es su responsabilidad haberles informado de ello y, en su caso, haber obtenido su consentimiento. Sus datos personales serán tratados en base a la aplicación de medidas precontractuales a petición suya y, serán tratados, únicamente, hasta que se tome la decisión de iniciar o no la relación contractual con ARRIAGA ASOCIADOS. Puede ponerse en contacto con el Delegado de Protección de Datos de ARRIAGA ASOCIADOS y ejercitar sus derechos de acceso, rectificación, supresión, limitación, portabilidad u oposición dirigiéndose por escrito a lopd@arriagaasociados.com o a la dirección postal arriba indicada. Igualmente, le informamos de que puede interponer una reclamación ante la Agencia Española de Protección de Datos cuando considere que ARRIAGA ASOCIADOS ha vulnerado los derechos que le son reconocidos por la normativa aplicable en protección de datos.
+
+
+
+Política de Privacidad
+Arriaga Asociados A.J.E.S.L.
+C/Agustín de Foxá, 4
+Edificio Aqua Planta 5 B-C-D
+28036 MADRID</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

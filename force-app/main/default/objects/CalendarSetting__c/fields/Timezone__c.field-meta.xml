@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Timezone__c</fullName>
+    <description>User or recource locale timezone</description>
+    <externalId>false</externalId>
+    <label>Timezone</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Timezones</valueSetName>
+    </valueSet>
+</CustomField>

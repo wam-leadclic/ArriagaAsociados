@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Index xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IndexArchivedEmailFields</fullName>
+    <fields>
+        <name>AccountOrLeadId__c</name>
+        <sortDirection>DESC</sortDirection>
+    </fields>
+    <fields>
+        <name>ContactId__c</name>
+        <sortDirection>DESC</sortDirection>
+    </fields>
+    <fields>
+        <name>CaseId__c</name>
+        <sortDirection>DESC</sortDirection>
+    </fields>
+    <fields>
+        <name>OriginEmailId__c</name>
+        <sortDirection>DESC</sortDirection>
+    </fields>
+    <label>IndexArchivedEmailFields</label>
+</Index>

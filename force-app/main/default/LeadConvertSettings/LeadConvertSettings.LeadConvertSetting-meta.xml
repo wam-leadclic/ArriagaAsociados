@@ -32,6 +32,10 @@
             <outputField>TipoDocumento__c</outputField>
         </mappingFields>
         <mappingFields>
+            <inputField>URL_Formulario_Web__c</inputField>
+            <outputField>URL_Formulario_Web__c</outputField>
+        </mappingFields>
+        <mappingFields>
             <inputField>Como_nos_ha_conocido__c</inputField>
             <outputField>Canal_Fuente_Cliente__c</outputField>
         </mappingFields>
@@ -92,16 +96,16 @@
             <outputField>lcs_gdpr__HasOptedOutTracking__c</outputField>
         </mappingFields>
         <mappingFields>
+            <inputField>lcs_gdpr__HasOptedOutOfPostalMail__c</inputField>
+            <outputField>lcs_gdpr__HasOptedOutOfPostalMail__c</outputField>
+        </mappingFields>
+        <mappingFields>
             <inputField>lcs_gdpr__HasOptedOutOfSMS__c</inputField>
             <outputField>lcs_gdpr__HasOptedOutOfSMS__c</outputField>
         </mappingFields>
         <mappingFields>
             <inputField>lcs_gdpr__ShouldForget__c</inputField>
             <outputField>lcs_gdpr__ShouldForget__c</outputField>
-        </mappingFields>
-        <mappingFields>
-            <inputField>lcs_gdpr__HasOptedOutOfPostalMail__c</inputField>
-            <outputField>lcs_gdpr__HasOptedOutOfPostalMail__c</outputField>
         </mappingFields>
         <outputObject>Contact</outputObject>
     </objectMapping>

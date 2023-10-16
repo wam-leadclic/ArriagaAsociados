@@ -1,0 +1,52 @@
+<template>
+    
+    <lightning-card  title={labels.cardTitle} icon-name="custom:custom19">
+
+
+        <template if:true={isShowSpinner}>
+            <lightning-spinner alternative-text="Loading"></lightning-spinner>
+        </template>
+
+    
+
+        <lightning-record-edit-form object-api-name={objectInfo.objectName}>
+        
+            <div class="slds-grid slds-p-around_small">
+                
+                <template for:each={lFilter} for:item="field">
+                    <template if:false={field.customReference}>
+                        <lightning-input-field  key={field.fieldName} 
+                                                class="slds-col slds-size_1-of-1 slds-small-size_6-of-12 slds-medium-size_6-of-12 slds-large-size_4-of-12" 
+                                                onchange={handleFieldChange}
+                                                value={field.value}
+                                                disabled={isReadOnly}
+                                                field-name={field.fieldName}>
+                        </lightning-input-field>
+
+                    </template>
+
+                    <template if:true={field.customReference}>
+                        <c-lookup class="slds-col slds-size_1-of-1 slds-small-size_6-of-12 slds-medium-size_6-of-12 slds-large-size_4-of-12" 
+                                    selection={field.lookupResultInit}
+                                    key={field.fieldName} 
+                                    label={field.fieldLabel} 
+                                    field-name={field.fieldName}
+                                    onsearch={handleSearch} 
+                                    onselectionchange={handleSelectionChange}
+                                    hide-remove={isReadOnly}
+                                    field-constraint={field.fieldConstraint}
+                                    returning-fields={field.returningFields}
+                                    object-type={field.objectType}> 
+                                    
+                        </c-lookup>
+                    </template>
+
+                </template>
+
+            </div>
+        
+        </lightning-record-edit-form>
+
+    </lightning-card>
+
+</template>

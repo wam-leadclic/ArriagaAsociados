@@ -1,0 +1,9 @@
+@media(max-width: 794px){
+    .ulmovil
+    {
+        overflow: auto;
+    }
+}
+lightning-formatted-rich-text{
+    font-size: medium;
+}

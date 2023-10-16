@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valor_Otros</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND (ISPICKVAL(Finalidad__c,&quot;Otros&quot;),ISBLANK(Otros__c) )</errorConditionFormula>
+    <errorMessage>Se debe informar el campo Otros</errorMessage>
+</ValidationRule>

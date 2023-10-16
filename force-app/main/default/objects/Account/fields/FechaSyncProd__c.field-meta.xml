@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FechaSyncProd__c</fullName>
+    <description>Fecha de la última sincronización con el WS de Producción</description>
+    <externalId>false</externalId>
+    <label>Fecha sincronización con Producción</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>DateTime</type>
+</CustomField>

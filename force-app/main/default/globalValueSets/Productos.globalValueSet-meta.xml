@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>19</fullName>
+        <default>false</default>
+        <label>A.P. PENSIÓN</label>
+    </customValue>
+    <customValue>
+        <fullName>41</fullName>
+        <default>false</default>
+        <label>ACCIDENTES TRÁFICO</label>
+    </customValue>
+    <customValue>
+        <fullName>8</fullName>
+        <default>false</default>
+        <label>ACCIONES</label>
+    </customValue>
+    <customValue>
+        <fullName>46</fullName>
+        <default>false</default>
+        <label>ACCIONES POPULAR</label>
+    </customValue>
+    <customValue>
+        <fullName>10</fullName>
+        <default>false</default>
+        <label>AFS EROSKI</label>
+    </customValue>
+    <customValue>
+        <fullName>12</fullName>
+        <default>false</default>
+        <label>AFS EROSKIFAGOR</label>
+    </customValue>
+    <customValue>
+        <fullName>11</fullName>
+        <default>false</default>
+        <label>AFS FAGOR</label>
+    </customValue>
+    <customValue>
+        <fullName>13</fullName>
+        <default>false</default>
+        <label>AP. PAGO VIVIENDA</label>
+    </customValue>
+    <customValue>
+        <fullName>42</fullName>
+        <default>false</default>
+        <label>ASESORAMIENTO CONTRATOS</label>
+    </customValue>
+    <customValue>
+        <fullName>14</fullName>
+        <default>false</default>
+        <label>ATÍPICO</label>
+    </customValue>
+    <customValue>
+        <fullName>49</fullName>
+        <default>false</default>
+        <label>AVAL PERSONAL</label>
+    </customValue>
+    <customValue>
+        <fullName>20</fullName>
+        <default>false</default>
+        <label>BONOS</label>
+    </customValue>
+    <customValue>
+        <fullName>57</fullName>
+        <default>false</default>
+        <label>CÁRTEL DE COCHES</label>
+    </customValue>
+    <customValue>
+        <fullName>69</fullName>
+        <default>false</default>
+        <label>CÁRTEL de COCHES REQUERIMIENTO</label>
+    </customValue>
+    <customValue>
+        <fullName>68</fullName>
+        <default>false</default>
+        <label>CDA TRIODOS</label>
+    </customValue>
+    <customValue>
+        <fullName>1</fullName>
+        <default>false</default>
+        <label>CLAUSULAS SUELO</label>
+    </customValue>
+    <customValue>
+        <fullName>47</fullName>
+        <default>false</default>
+        <label>CLAUSULA SUELO, IRPH Y GASTOS H</label>
+    </customValue>
+    <customValue>
+        <fullName>48</fullName>
+        <default>false</default>
+        <label>COMISIONES ABUSIVAS</label>
+    </customValue>
+    <customValue>
+        <fullName>15</fullName>
+        <default>false</default>
+        <label>CONTRATO FINANCIERO</label>
+    </customValue>
+    <customValue>
+        <fullName>16</fullName>
+        <default>false</default>
+        <label>CUOTAS PARTICIPATIVAS</label>
+    </customValue>
+    <customValue>
+        <fullName>21</fullName>
+        <default>false</default>
+        <label>DEUDA</label>
+    </customValue>
+    <customValue>
+        <fullName>40</fullName>
+        <default>false</default>
+        <label>DIVORCIO CONTENCIOSO</label>
+    </customValue>
+    <customValue>
+        <fullName>39</fullName>
+        <default>false</default>
+        <label>DIVORCIO MUTUO ACUERDO</label>
+    </customValue>
+    <customValue>
+        <fullName>65</fullName>
+        <default>false</default>
+        <label>FICHEROS IMPAGADOS ACCESO</label>
+    </customValue>
+    <customValue>
+        <fullName>67</fullName>
+        <default>false</default>
+        <label>FICHEROS IMPAGADOS COMBINADO</label>
+    </customValue>
+    <customValue>
+        <fullName>66</fullName>
+        <default>false</default>
+        <label>FICHEROS IMPAGADOS RECLAMACIÓN</label>
+    </customValue>
+    <customValue>
+        <fullName>26</fullName>
+        <default>false</default>
+        <label>FONDO INVERSIÓN</label>
+    </customValue>
+    <customValue>
+        <fullName>2</fullName>
+        <default>false</default>
+        <label>GASTOS HIPOTECA</label>
+    </customValue>
+    <customValue>
+        <fullName>5</fullName>
+        <default>false</default>
+        <label>GASTOS H Y SUELO</label>
+    </customValue>
+    <customValue>
+        <fullName>17</fullName>
+        <default>false</default>
+        <label>GOWEX</label>
+    </customValue>
+    <customValue>
+        <fullName>37</fullName>
+        <default>false</default>
+        <label>HERENCIA</label>
+    </customValue>
+    <customValue>
+        <fullName>18</fullName>
+        <default>false</default>
+        <label>IMPUGNACIÓN TESTAMENTO</label>
+    </customValue>
+    <customValue>
+        <fullName>35</fullName>
+        <default>false</default>
+        <label>INCAPACIDAD JUDICIAL</label>
+    </customValue>
+    <customValue>
+        <fullName>4</fullName>
+        <default>false</default>
+        <label>IRPH</label>
+    </customValue>
+    <customValue>
+        <fullName>7</fullName>
+        <default>false</default>
+        <label>IRPH Y GASTOS HIP</label>
+    </customValue>
+    <customValue>
+        <fullName>36</fullName>
+        <default>false</default>
+        <label>MONITORIO</label>
+    </customValue>
+    <customValue>
+        <fullName>3</fullName>
+        <default>false</default>
+        <label>MULTIDIVISA</label>
+    </customValue>
+    <customValue>
+        <fullName>6</fullName>
+        <default>false</default>
+        <label>MULTIDIVISA Y GASTOS HIP</label>
+    </customValue>
+    <customValue>
+        <fullName>27</fullName>
+        <default>false</default>
+        <label>OB CONVERTIBLES</label>
+    </customValue>
+    <customValue>
+        <fullName>28</fullName>
+        <default>false</default>
+        <label>OBS</label>
+    </customValue>
+    <customValue>
+        <fullName>44</fullName>
+        <default>false</default>
+        <label>OPOSICION EJECUCION HIPOTECARIA</label>
+    </customValue>
+    <customValue>
+        <fullName>53</fullName>
+        <default>false</default>
+        <label>OPOSICIÓN MONITORIO</label>
+    </customValue>
+    <customValue>
+        <fullName>29</fullName>
+        <default>false</default>
+        <label>PAGARE</label>
+    </customValue>
+    <customValue>
+        <fullName>30</fullName>
+        <default>false</default>
+        <label>PESTRUCTURADO</label>
+    </customValue>
+    <customValue>
+        <fullName>45</fullName>
+        <default>false</default>
+        <label>PLUSVALÍA MUNICIPAL</label>
+    </customValue>
+    <customValue>
+        <fullName>9</fullName>
+        <default>false</default>
+        <label>PP</label>
+    </customValue>
+    <customValue>
+        <fullName>34</fullName>
+        <default>false</default>
+        <label>PP EXTRANJERA</label>
+    </customValue>
+    <customValue>
+        <fullName>52</fullName>
+        <default>false</default>
+        <label>PRÉSTAMOS USUREROS</label>
+    </customValue>
+    <customValue>
+        <fullName>64</fullName>
+        <default>false</default>
+        <label>RECLAMACIÓN CANTIDAD REVOLVING</label>
+    </customValue>
+    <customValue>
+        <fullName>51</fullName>
+        <default>false</default>
+        <label>RECLAMACIÓN POR CANTIDAD</label>
+    </customValue>
+    <customValue>
+        <fullName>32</fullName>
+        <default>false</default>
+        <label>REPSOL</label>
+    </customValue>
+    <customValue>
+        <fullName>54</fullName>
+        <default>false</default>
+        <label>REVOLVING CON DILIGENCIAS</label>
+    </customValue>
+    <customValue>
+        <fullName>50</fullName>
+        <default>false</default>
+        <label>REVOLVING CON INFORME</label>
+    </customValue>
+    <customValue>
+        <fullName>55</fullName>
+        <default>false</default>
+        <label>REVOLVING ESTÁNDAR</label>
+    </customValue>
+    <customValue>
+        <fullName>71</fullName>
+        <default>false</default>
+        <label>SEGUNDA OPORTUNIDAD PF AUTÓNOMO</label>
+    </customValue>
+    <customValue>
+        <fullName>70</fullName>
+        <default>false</default>
+        <label>SEGUNDA OPORTUNIDAD PF PARTICULAR</label>
+    </customValue>
+    <customValue>
+        <fullName>33</fullName>
+        <default>false</default>
+        <label>SOS CUETARA</label>
+    </customValue>
+    <customValue>
+        <fullName>25</fullName>
+        <default>false</default>
+        <label>SUCESIONES</label>
+    </customValue>
+    <customValue>
+        <fullName>62</fullName>
+        <default>false</default>
+        <label>SUCESIONES FISCALIDAD</label>
+    </customValue>
+    <customValue>
+        <fullName>63</fullName>
+        <default>false</default>
+        <label>SUCESIONES GESTIÓN DOCUMENTAL</label>
+    </customValue>
+    <customValue>
+        <fullName>60</fullName>
+        <default>false</default>
+        <label>SUCESIONES HERENCIAS</label>
+    </customValue>
+    <customValue>
+        <fullName>61</fullName>
+        <default>false</default>
+        <label>SUCESIONES TESTAMENTARIA</label>
+    </customValue>
+    <customValue>
+        <fullName>24</fullName>
+        <default>false</default>
+        <label>SWAPS</label>
+    </customValue>
+    <customValue>
+        <fullName>38</fullName>
+        <default>false</default>
+        <label>TESTAMENTO</label>
+    </customValue>
+    <customValue>
+        <fullName>31</fullName>
+        <default>false</default>
+        <label>UNIÓN FENOSA</label>
+    </customValue>
+    <customValue>
+        <fullName>22</fullName>
+        <default>false</default>
+        <label>VALORES</label>
+    </customValue>
+    <customValue>
+        <fullName>43</fullName>
+        <default>false</default>
+        <label>VARIOS</label>
+    </customValue>
+    <customValue>
+        <fullName>23</fullName>
+        <default>false</default>
+        <label>WARRANTS</label>
+    </customValue>
+    <customValue>
+        <fullName>72</fullName>
+        <default>false</default>
+        <label>GESTIÓN APUD ACTA ELECTRÓNICO</label>
+    </customValue>
+    <customValue>
+        <fullName>73</fullName>
+        <default>false</default>
+        <label>PHISHING</label>
+    </customValue>
+    <customValue>
+        <fullName>74</fullName>
+        <default>false</default>
+        <label>COMPLEMENTO PATERNIDAD</label>
+    </customValue>
+    <customValue>
+        <fullName>75</fullName>
+        <default>false</default>
+        <label>Revisamos tu Hipoteca</label>
+    </customValue>
+    <customValue>
+        <fullName>76</fullName>
+        <default>false</default>
+        <label>PLUSVALÍA PRE2017</label>
+    </customValue>
+    <description>Lista de productos</description>
+    <masterLabel>Productos</masterLabel>
+    <sorted>true</sorted>
+</GlobalValueSet>

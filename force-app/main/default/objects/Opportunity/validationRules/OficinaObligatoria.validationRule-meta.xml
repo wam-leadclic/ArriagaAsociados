@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OficinaObligatoria</fullName>
+    <active>false</active>
+    <description>Para cerrar ganada una Oportunidad, es necesario informar el campo &quot;Oficina de Contratación&quot;.</description>
+    <errorConditionFormula>AND(
+				ISBLANK(Office__c),
+				ISPICKVAL(StageName, &apos;Cerrada Ganada&apos;) 
+)</errorConditionFormula>
+    <errorMessage>Para cerrar ganada una Oportunidad, es necesario informar el campo &quot;Oficina de Contratación&quot;.</errorMessage>
+</ValidationRule>

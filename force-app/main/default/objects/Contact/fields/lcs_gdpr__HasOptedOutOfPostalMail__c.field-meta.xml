@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>lcs_gdpr__HasOptedOutOfPostalMail__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indica si la persona desea que se comercialice con él/ella por correo postal.</description>
+    <externalId>false</externalId>
+    <label>No recibir correo postal</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>

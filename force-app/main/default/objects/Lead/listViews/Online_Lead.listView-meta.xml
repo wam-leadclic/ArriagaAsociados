@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Online_Lead</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.PHONE</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>Como_quieres_ser_atendido__c</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <filterScope>Queue</filterScope>
+    <label>Online</label>
+    <queue>Online</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

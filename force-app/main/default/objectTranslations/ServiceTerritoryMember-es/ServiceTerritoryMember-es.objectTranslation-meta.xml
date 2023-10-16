@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Miembro de oficinas</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Miembros de oficinas</value>
+    </caseValues>
+    <gender>Masculine</gender>
+</CustomObjectTranslation>

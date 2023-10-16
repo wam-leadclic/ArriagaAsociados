@@ -1,0 +1,17 @@
+<apex:page standardController="Account">
+    <apex:pageBlock title="Hoja de Control de Visita">
+        <apex:pageBlockSection >
+            Name1: {! Account.Name } <br/>
+            Phone1: {! Account.Phone } <br/>
+            Estado Cliente1: {! Account.EstadoCuenta__c } <br/>
+            Id Cliente Minerva__c1: {! Account.IdClienteMinerva__c } <br/>
+            Account owner: {! Account.Owner.Name } <br/>
+	         
+<apex:outputField value="{! Account.Name }"/>
+<apex:outputField value="{! Account.Phone }"/>
+<apex:outputField value="{! Account.EstadoCuenta__c }"/>
+<apex:outputField value="{! Account.IdClienteMinerva__c }"/>  
+            
+        </apex:pageBlockSection>         
+    </apex:pageBlock>
+</apex:page>

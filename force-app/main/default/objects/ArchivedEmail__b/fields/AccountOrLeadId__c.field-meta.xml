@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AccountOrLeadId__c</fullName>
+    <description>Id de la cuenta o candidato asociado</description>
+    <externalId>false</externalId>
+    <label>Cuenta o Candidato</label>
+    <length>18</length>
+    <required>true</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

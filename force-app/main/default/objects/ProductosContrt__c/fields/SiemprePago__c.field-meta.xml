@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SiemprePago__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Check que indica si el producto es considerado siempre de pago o entra en el chequeo de los productos que son de pago o gratis</description>
+    <externalId>false</externalId>
+    <label>Siempre de pago</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MilestoneType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Evento clave para la gestión de casos para los tipos de registro de queja, incidencias y siniestro</description>
+    <recurrenceType>none</recurrenceType>
+</MilestoneType>

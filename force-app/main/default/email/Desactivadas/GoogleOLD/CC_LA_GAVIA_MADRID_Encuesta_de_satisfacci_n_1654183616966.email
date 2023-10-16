@@ -1,0 +1,20 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<p style="text-align: center;">Buenos días,&nbsp;{{{Account.FirstName}}}&nbsp;<br />
+&nbsp;<br />
+&nbsp;<br />
+¿Cómo ha sido la atención recibida en nuestra oficina?&nbsp;</p>
+
+<p style="text-align: center;">&nbsp;<br />
+¡Comparte tu experiencia y ayúdanos a mejorar!&nbsp;</p>
+
+<p style="text-align: center;"><a href="https://www.google.com/maps/place/Arriaga+Asociados+C.C.+Carrefour+La+Gav%C3%ADa/@40.3686005,-3.5994791,17z/data=!3m1!4b1!4m5!3m4!1s0xd4224ddb0fbb96f:0xb45c1fecfcdc7e94!8m2!3d40.3686005!4d-3.5994791"><b>ESCRIBE TU RESEÑA PINCHANDO AQUI</b></a></p>
+
+<p style="text-align: center;">&nbsp;</p>
+
+<p style="text-align: center;">Arriaga Asociados&nbsp;</p>
+</body>
+</html>

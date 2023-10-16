@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>RegimenEconomico__c</name>
+    <picklistValues>
+        <masterLabel>Bienes Gananciales</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ninguno</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Régimen de Participación</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Separación de Bienes</masterLabel>
+        <translation></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Motivo_Perdida_Descripcion__c</fullName>
+    <externalId>false</externalId>
+    <label>Motivo Pérdida Descripción</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Confianza en el proceso</fullName>
+                <default>false</default>
+                <label>Confianza en el proceso</label>
+            </value>
+            <value>
+                <fullName>Entidad extranjera</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Entidad extranjera</label>
+            </value>
+            <value>
+                <fullName>Escasa cuantía</fullName>
+                <default>false</default>
+                <label>Escasa cuantía</label>
+            </value>
+            <value>
+                <fullName>Honorarios Finales elevados</fullName>
+                <default>false</default>
+                <label>Honorarios Finales elevados</label>
+            </value>
+            <value>
+                <fullName>Honorarios totales</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Honorarios totales</label>
+            </value>
+            <value>
+                <fullName>Mala opinión del despacho</fullName>
+                <default>false</default>
+                <label>Mala opinión del despacho</label>
+            </value>
+            <value>
+                <fullName>No comparece banco</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>No comparece banco</label>
+            </value>
+            <value>
+                <fullName>No consumidor</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>No consumidor</label>
+            </value>
+            <value>
+                <fullName>No hay oficina presencial</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>No hay oficina presencial</label>
+            </value>
+            <value>
+                <fullName>No interesa</fullName>
+                <default>false</default>
+                <label>No interesa</label>
+            </value>
+            <value>
+                <fullName>No localizado</fullName>
+                <default>false</default>
+                <label>No localizado</label>
+            </value>
+            <value>
+                <fullName>No puede pagar</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>No puede pagar</label>
+            </value>
+            <value>
+                <fullName>No viable ASESOR</fullName>
+                <default>false</default>
+                <label>No viable ASESOR</label>
+            </value>
+            <value>
+                <fullName>No viable SSJJ</fullName>
+                <default>false</default>
+                <label>No viable SSJJ</label>
+            </value>
+            <value>
+                <fullName>Operaciones lucrativas</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Operaciones lucrativas</label>
+            </value>
+            <value>
+                <fullName>Oportunidad duplicada/errónea</fullName>
+                <default>false</default>
+                <label>Oportunidad duplicada/errónea</label>
+            </value>
+            <value>
+                <fullName>Oportunidad inexistente</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Oportunidad inexistente</label>
+            </value>
+            <value>
+                <fullName>Otro despacho</fullName>
+                <default>false</default>
+                <label>Otro despacho</label>
+            </value>
+            <value>
+                <fullName>Otros (Rellenar Nota)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Otros (Rellenar Nota)</label>
+            </value>
+            <value>
+                <fullName>Pago inicial elevado</fullName>
+                <default>false</default>
+                <label>Pago inicial elevado</label>
+            </value>
+            <value>
+                <fullName>Redactado cláusula</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Redactado cláusula</label>
+            </value>
+            <value>
+                <fullName>Reparto de gastos</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Reparto de gastos</label>
+            </value>
+            <value>
+                <fullName>Riesgo Costas Contrarias</fullName>
+                <default>false</default>
+                <label>Riesgo Costas Contrarias</label>
+            </value>
+            <value>
+                <fullName>Sin documentación</fullName>
+                <default>false</default>
+                <label>Sin documentación</label>
+            </value>
+            <value>
+                <fullName>TAE</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>TAE</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

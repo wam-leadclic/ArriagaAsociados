@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>UAT</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>UATs</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>UAT Layout</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Datos del Bloque Funcional</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Detalles de UAT</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Instrucciones para la prueba</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Cambio_Estado_Con_Dependencias</name>
+    </validationRules>
+</CustomObjectTranslation>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Productos hipotecarios</label>
+    <protected>false</protected>
+    <values>
+        <field>OM_Categorizacion_documentacion__c</field>
+        <value xsi:type="xsd:string">Información documentación</value>
+    </values>
+    <values>
+        <field>OM_Categorizacion_informacion__c</field>
+        <value xsi:type="xsd:string">Información general</value>
+    </values>
+    <values>
+        <field>OM_Documentacion__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>OM_General__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>OM_Hipotecas__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>OM_InformacionDocumentacionURL__c</field>
+        <value xsi:type="xsd:string">https://www.arriagaasociados.com/landing/documentacion-gastos-hipoteca/</value>
+    </values>
+    <values>
+        <field>OM_InformacionGeneralURL__c</field>
+        <value xsi:nil="true"/>
+    </values>
+</CustomMetadata>

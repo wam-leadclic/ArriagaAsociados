@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Llamada Saliente</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Llamadas Salientes</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>OM-Llamada Callback Layout</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>New Section</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Reintentos</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Relaciones</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>OM-Llamada Saliente Layout</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>New Section</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Reintentos</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Relaciones</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label></label>
+        <name>OM_Callback</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>OM_OutboundCallback</name>
+    </recordTypes>
+</CustomObjectTranslation>

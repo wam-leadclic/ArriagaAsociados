@@ -1,0 +1,75 @@
+<template>
+
+<lightning-card class='slds-card_boundary' title={cardTitle} icon-name="standard:contact" >
+    <div class="slds-m-around_medium">  
+    
+        
+    <table class="slds-table slds-table_cell-buffer slds-no-row-hover slds-table_bordered slds-table_fixed-layout" role="grid">
+            <thead>
+                <tr class="slds-line-height_reset">
+                <th class="" scope="col">
+                    <div class="slds-truncate" title="Expediente">{label.EXPEDIENTE}</div>
+                </th>
+                <th class="" scope="col">
+                    <div class="slds-truncate" title="Producto">{label.PRODUCTO}</div>
+                </th>
+                <th class="" scope="col">
+                    <div class="slds-truncate" title="Rol">{label.ROL}</div>
+                </th>
+                <th class="" scope="col">
+                    <div class="slds-truncate" title="Estado">{label.ESTADO}</div>
+                </th>
+                <th class="" scope="col">
+                    <div class="slds-truncate" title="Fecha Contratación">{label.FECHACONTRATACION}</div>
+                </th>
+                <th class="" scope="col">
+                    <div class="slds-truncate" title="Pago Confirmado">{label.PAGOCONFIRMADO}</div>
+                </th>
+                <th class="" scope="col">
+                    <div class="slds-truncate" title="Propietario">{label.PROPIETARIO}</div>
+                </th>
+                </tr>
+            </thead>
+            <tbody>
+                    <template for:each={data} for:item="contr">
+                    
+                        <tr class="slds-hint-parent" key= {contr.Id}>
+                            <td role="gridcell">
+                                <lightning-button key= {contr.Id} variant="base"
+                                label={contr.ContractNumber}
+                                value={contr.ContractId}
+                                onclick={navigateToContract}
+                                class="slds-m-right_x-small"
+                            ></lightning-button>
+                            </td>
+                            <td role="gridcell">
+                                <div class="slds-truncate">{contr.name}</div>
+                                </td>
+                            <td role="gridcell">
+                            <div class="slds-truncate">{contr.role}</div>
+                            </td>
+                            <td role="gridcell">
+                                <div class="slds-truncate">{contr.ContractEstado}</div>
+                            </td>
+                            <td role="gridcell">
+                                <div class="slds-truncate">{contr.ContractFechaContratacion}</div>
+                            </td>
+                            <td role="gridcell">                                
+                                <template if:true={contr.ContractPagoConfirmado}>
+                                    <lightning-input type="checkbox" checked disabled></lightning-input>
+                                </template>
+                                <template if:false={contr.ContractPagoConfirmado}>
+                                    <lightning-input type="checkbox" disabled></lightning-input>
+                                </template>                            
+                            </td>
+                            <td role="gridcell">
+                                <div class="slds-truncate">{contr.ContractPropietario}</div>
+                            </td>
+                            </tr>
+                        </template>
+                    </tbody>
+                </table>
+            </div>    
+        </lightning-card>
+   
+    </template>

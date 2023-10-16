@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <BotVersion xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>v2</fullName>
-    <articleAnswersGPTEnabled>false</articleAnswersGPTEnabled>
     <botDialogGroups>
         <developerName>Pedir_Cita_Group</developerName>
         <label>1. Pedir Cita</label>
@@ -509,10 +508,10 @@
                     </botNavigationLinks>
                     <type>Redirect</type>
                 </botNavigation>
-                <stepIdentifier>8094b220-b2aa-4d72-b565-b1864804158e</stepIdentifier>
+                <stepIdentifier>9e148bb7-1e1a-4409-91f1-c845f68a3d40</stepIdentifier>
                 <type>Navigation</type>
             </botSteps>
-            <conditionLogicType>And</conditionLogicType>
+            <conditionLogicType>Or</conditionLogicType>
             <stepIdentifier>b6ecd2b3-925c-42a5-8e7b-cea5f576e42f</stepIdentifier>
             <type>Group</type>
         </botSteps>
@@ -530,7 +529,7 @@
                     </botNavigationLinks>
                     <type>Redirect</type>
                 </botNavigation>
-                <stepIdentifier>257c8829-4515-4079-a560-7950126e2dcc</stepIdentifier>
+                <stepIdentifier>9ae4fe91-6696-41d3-84c3-f477b043cc7b</stepIdentifier>
                 <type>Navigation</type>
             </botSteps>
             <conditionLogicType>And</conditionLogicType>
@@ -551,7 +550,7 @@
                     </botNavigationLinks>
                     <type>Redirect</type>
                 </botNavigation>
-                <stepIdentifier>3fb6e86b-d17e-4246-b2ad-ff65a1233cbf</stepIdentifier>
+                <stepIdentifier>5d36d4f2-74ff-46c3-a5ed-6065c17b03ff</stepIdentifier>
                 <type>Navigation</type>
             </botSteps>
             <conditionLogicType>And</conditionLogicType>
@@ -722,10 +721,10 @@ Salir (pulsa 4)</message>
                     </botNavigationLinks>
                     <type>Redirect</type>
                 </botNavigation>
-                <stepIdentifier>173107dc-73ed-4954-931d-5ff59187b2df</stepIdentifier>
+                <stepIdentifier>33833ed0-5d9e-417c-be79-60ab21afa627</stepIdentifier>
                 <type>Navigation</type>
             </botSteps>
-            <conditionLogicType>And</conditionLogicType>
+            <conditionLogicType>Or</conditionLogicType>
             <stepIdentifier>71666378-e602-42b7-a4db-09c144332514</stepIdentifier>
             <type>Group</type>
         </botSteps>
@@ -743,7 +742,7 @@ Salir (pulsa 4)</message>
                     </botNavigationLinks>
                     <type>Redirect</type>
                 </botNavigation>
-                <stepIdentifier>dfb84c22-5c99-49c7-acf7-703f5b99f14b</stepIdentifier>
+                <stepIdentifier>f25915a0-83ea-4373-9c32-5232f1adb14d</stepIdentifier>
                 <type>Navigation</type>
             </botSteps>
             <conditionLogicType>And</conditionLogicType>
@@ -764,7 +763,7 @@ Salir (pulsa 4)</message>
                     </botNavigationLinks>
                     <type>Redirect</type>
                 </botNavigation>
-                <stepIdentifier>8afcd683-9d1f-4c93-92b1-92cc8915cc86</stepIdentifier>
+                <stepIdentifier>c68b7997-0e20-403a-9896-dc8f9ac4c416</stepIdentifier>
                 <type>Navigation</type>
             </botSteps>
             <conditionLogicType>And</conditionLogicType>
@@ -2703,23 +2702,6 @@ No (pulsa 2)</message>
         <showInFooterMenu>false</showInFooterMenu>
     </botDialogs>
     <botDialogs>
-        <botDialogGroup>X3_Informacion_sobre_servicios</botDialogGroup>
-        <botSteps>
-            <botNavigation>
-                <botNavigationLinks>
-                    <targetBotDialog>Informaci_n_servicios</targetBotDialog>
-                </botNavigationLinks>
-                <type>Redirect</type>
-            </botNavigation>
-            <stepIdentifier>28cf43f6-f340-4355-aa42-93830893f30e</stepIdentifier>
-            <type>Navigation</type>
-        </botSteps>
-        <developerName>Volver_al_menu_informaci_n_principal</developerName>
-        <isPlaceholderDialog>false</isPlaceholderDialog>
-        <label>Volver al menú principal</label>
-        <showInFooterMenu>false</showInFooterMenu>
-    </botDialogs>
-    <botDialogs>
         <botDialogGroup>X5_Otros_motivos</botDialogGroup>
         <botSteps>
             <botMessages>
@@ -2776,6 +2758,23 @@ No (pulsa 2)</message>
         <developerName>Fuera_de_horario_Otros_motivos</developerName>
         <isPlaceholderDialog>false</isPlaceholderDialog>
         <label>5.3.2 Fuera de horario - Otros motivos</label>
+        <showInFooterMenu>false</showInFooterMenu>
+    </botDialogs>
+    <botDialogs>
+        <botDialogGroup>X3_Informacion_sobre_servicios</botDialogGroup>
+        <botSteps>
+            <botNavigation>
+                <botNavigationLinks>
+                    <targetBotDialog>Informaci_n_servicios</targetBotDialog>
+                </botNavigationLinks>
+                <type>Redirect</type>
+            </botNavigation>
+            <stepIdentifier>28cf43f6-f340-4355-aa42-93830893f30e</stepIdentifier>
+            <type>Navigation</type>
+        </botSteps>
+        <developerName>Volver_al_menu_informaci_n_principal</developerName>
+        <isPlaceholderDialog>false</isPlaceholderDialog>
+        <label>Volver al menú principal</label>
         <showInFooterMenu>false</showInFooterMenu>
     </botDialogs>
     <botDialogs>
@@ -2991,7 +2990,6 @@ Salir (pulsa 3)</message>
         <label>5.4 Ayuda resuelta Whatsapp</label>
         <showInFooterMenu>false</showInFooterMenu>
     </botDialogs>
-    <citationsEnabled>false</citationsEnabled>
     <conversationSystemDialogs>
         <dialog>Error_Handling</dialog>
         <type>ErrorHandling</type>
@@ -3177,5 +3175,4 @@ Salir (pulsa 3)</message>
         <language>es</language>
         <nlpProviderType>EinsteinAi</nlpProviderType>
     </nlpProviders>
-    <smallTalkEnabled>false</smallTalkEnabled>
 </BotVersion>

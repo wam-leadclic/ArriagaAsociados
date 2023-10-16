@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Activo</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Activos</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Activo hipoteca</layout>
+        <sections>
+            <label></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Activo tarjeta</layout>
+        <sections>
+            <label></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <description></description>
+        <label></label>
+        <name>Hipoteca</name>
+    </recordTypes>
+    <recordTypes>
+        <description></description>
+        <label></label>
+        <name>Tarjeta</name>
+    </recordTypes>
+</CustomObjectTranslation>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OM_FormattedName__c</fullName>
+    <externalId>false</externalId>
+    <formula>SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(TRIM(LOWER(FirstName)+LOWER(LastName)),&quot; &quot;,&quot;&quot;),&quot;  &quot;,&quot;&quot;),&quot;á&quot;,&quot;a&quot;),&quot;é&quot;,&quot;e&quot;),&quot;í&quot;,&quot;i&quot;),&quot;ó&quot;,&quot;o&quot;),&quot;ú&quot;,&quot;u&quot;),&quot;à&quot;,&quot;a&quot;),&quot;è&quot;,&quot;e&quot;),&quot;ì&quot;,&quot;i&quot;),&quot;ò&quot;,&quot;o&quot;),&quot;ù&quot;,&quot;u&quot;),&quot;â&quot;,&quot;a&quot;),&quot;ê&quot;,&quot;e&quot;),&quot;î&quot;,&quot;i&quot;),&quot;ô&quot;,&quot;o&quot;),&quot;û&quot;,&quot;u&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Formatted Name</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

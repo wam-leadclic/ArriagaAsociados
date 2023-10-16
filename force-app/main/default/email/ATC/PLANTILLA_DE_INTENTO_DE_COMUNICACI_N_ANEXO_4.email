@@ -1,0 +1,14 @@
+<table border="0" cellpadding="5" width="600" cellspacing="5" height="400" >
+<tr valign="top" height="50" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[]]></td>
+</tr>
+<tr valign="top" height="300" >
+<td tEditID="c1r2" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r2" locked="0" >
+<![CDATA[<div style=""><font style="" face="Times New Roman, Times, serif">Estimado {!Contact.FirstName},&nbsp;</font></div><div style=""><font face="Times New Roman, Times, serif"><br></font></div><div style=""><font face="Times New Roman, Times, serif">Le remitimos esta carta ya que nos ha sido imposible contactar por teléfono en el número que consta en el expediente de PRODUCTO con número de referencia 171204400 que tiene contratado con nosotros.</font></div><div style=""><font face="Times New Roman, Times, serif"><br></font></div><div style=""><font face="Times New Roman, Times, serif">Si el número de teléfono no fuera correcto o quisiera añadir otro, tendría que enviar un correo electrónico, junto con la fotocopia de su D.N.I. a la dirección lopd@arriagaasociados.com.</font></div><div style=""><font face="Times New Roman, Times, serif"><br></font></div><div style=""><font face="Times New Roman, Times, serif">Aprovechamos la ocasión para informarle que estamos a su entera disposición de lunes a viernes de 08.00 am a 21:00 horas y los sábados de 10:00 a 14:00 horas.</font></div><div style=""><font face="Times New Roman, Times, serif">Quedando a su disposición para cualquier consulta, reciba un cordial saludo.</font></div><div style=""><font face="Times New Roman, Times, serif"><br></font></div><div style=""><font face="Times New Roman, Times, serif"><br></font></div><div style=""><font face="Times New Roman, Times, serif">{!Case.OwnerFirstName} {!Case.OwnerLastName}</font></div><div style=""><font face="Times New Roman, Times, serif"><br></font></div><div style=""><font face="Times New Roman, Times, serif">Departamento de Atención al cliente</font></div><div style=""><font face="Times New Roman, Times, serif"><br></font></div><div style=""><font face="Times New Roman, Times, serif">ARRIAGA ASOCIADOS</font></div><div style="font-family: arial; color: rgb(0, 0, 0); font-size: 12pt;"><br></div>]]></td>
+</tr>
+<tr valign="top" height="50" >
+<td tEditID="c1r3" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r3" locked="0" >
+<![CDATA[<span style="font-size: medium;"><font color="#ffffff">{!Case.Thread_Id}</font></span>]]></td>
+</tr>
+</table>

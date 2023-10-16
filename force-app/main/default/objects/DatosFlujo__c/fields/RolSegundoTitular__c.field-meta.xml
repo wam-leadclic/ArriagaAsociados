@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RolSegundoTitular__c</fullName>
+    <description>Rol que se pone al contacto en la oportunidad que se crea como segundo titular</description>
+    <externalId>false</externalId>
+    <label>Rol Segundo Titular</label>
+    <length>25</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

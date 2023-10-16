@@ -1,0 +1,24 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<p>Buenos días {{{Recipient.FirstName}}}</p>
+
+<p><br />
+Queremos confirmarte que <b>hemos recibido tu ingreso relativo al pago de la factura nº&nbsp; {{{Case.Numero_de_Factura__c}}}&nbsp;&nbsp;</b>de tu<b> </b>expediente<b> {{{Case.NumeroExpediente__c}}}&nbsp;&nbsp;</b>y que nuestro equipo de facturación ya ha verificado, <b>muchas gracias.&nbsp;</b>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>Recuerda que siempre que tengas alguna duda o cuestión, puedes ponerte en contacto con nosotros al teléfono <b>91 005 2600</b> o visitando <b>TU ESPACIO ARRIAGA</b>, nuestro portal de cliente (si no tienes claves de acceso, puedes llamarnos y te ayudaremos)&nbsp;&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>Gracias por confiar en nosotros&nbsp;</p>
+
+<p>Equipo Gestion de Cobros<br />
+Arriaga Asociados&nbsp;</p>
+
+<p>&nbsp;</p>
+
+</body></html>

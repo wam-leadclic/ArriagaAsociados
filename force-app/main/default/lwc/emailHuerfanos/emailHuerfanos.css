@@ -1,0 +1,15 @@
+/*Clase para que el lookup aparezca por encima del popup*/
+.slds-modal__content{
+    overflow: initial!important;
+    overflow-y: initial!important;
+}
+
+.slds-form-element__label > label{
+    display: none!important;
+}
+
+/*Texto que indica que no hay emails*/
+.sinEmail{
+    text-align: center;
+    font-weight: bold;
+}

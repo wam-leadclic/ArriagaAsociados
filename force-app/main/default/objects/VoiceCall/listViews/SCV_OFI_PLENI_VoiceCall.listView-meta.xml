@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SCV_OFI_PLENI_VoiceCall</fullName>
+    <filterScope>Queue</filterScope>
+    <label>OFI PLENI</label>
+    <queue>SCV_OFI_PLENI</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

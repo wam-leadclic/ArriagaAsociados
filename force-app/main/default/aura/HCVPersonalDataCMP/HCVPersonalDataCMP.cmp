@@ -1,0 +1,18 @@
+<!--
+  @description       : 
+  @author            : ChangeMeIn@UserSettingsUnder.SFDoc
+  @group             : 
+  @last modified on  : 03-21-2023
+  @last modified by  : ChangeMeIn@UserSettingsUnder.SFDoc
+-->
+<aura:component implements="flexipage:availableForAllPageTypes,force:hasRecordId,force:lightningQuickAction" access="global" >
+	<!-- obtenemos recordid -->
+    <aura:attribute name="recordId" type="String" />     
+    
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    
+    <!-- Mensaje para la quick Action -->
+    <h3 style="text-align: center;">{!$Label.c.MensajePDFHCVDatosPersonales}</h3>
+    
+    
+</aura:component>

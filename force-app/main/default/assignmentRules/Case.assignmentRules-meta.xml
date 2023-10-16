@@ -72,6 +72,25 @@
             </criteriaItems>
         </ruleEntry>
         <ruleEntry>
+            <assignedTo>ATC_Desborde_Call_Center</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>ATC</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>DEPARTAMENTO ARRIAGA</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.DepartamentoArriaga__c</field>
+                <operation>equals</operation>
+                <value>CALL CENTER</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
             <assignedTo>BuzonCallCenter</assignedTo>
             <assignedToType>Queue</assignedToType>
             <criteriaItems>
@@ -183,7 +202,10 @@
             </criteriaItems>
         </ruleEntry>
         <ruleEntry>
-            <formula>and  ( RecordType.DeveloperName  = &quot;FinancieroGestionCobros&quot;,  CreatedBy.Profile.Name =&quot;Financiero&quot; )</formula>
+            <formula>and 
+( RecordType.DeveloperName  = &quot;FinancieroGestionCobros&quot;, 
+CreatedBy.Profile.Name =&quot;Financiero&quot;
+)</formula>
         </ruleEntry>
         <ruleEntry>
             <assignedTo>Financiero_GestionCobros</assignedTo>
@@ -195,7 +217,10 @@
             </criteriaItems>
         </ruleEntry>
         <ruleEntry>
-            <formula>and  ( RecordType.DeveloperName  = &quot;Financiero_Recobros&quot;,  CreatedBy.Profile.Name =&quot;Financiero&quot; )</formula>
+            <formula>and 
+( RecordType.DeveloperName  = &quot;Financiero_Recobros&quot;, 
+CreatedBy.Profile.Name =&quot;Financiero&quot;
+)</formula>
         </ruleEntry>
         <ruleEntry>
             <assignedTo>Financiero_Recobros</assignedTo>
@@ -259,25 +284,6 @@
         </ruleEntry>
         <ruleEntry>
             <formula>1 = 1</formula>
-        </ruleEntry>
-        <ruleEntry>
-            <assignedTo>ATC_Desborde_Call_Center</assignedTo>
-            <assignedToType>Queue</assignedToType>
-            <criteriaItems>
-                <field>Case.RecordTypeId</field>
-                <operation>equals</operation>
-                <value>ATC</value>
-            </criteriaItems>
-            <criteriaItems>
-                <field>Case.Origin</field>
-                <operation>equals</operation>
-                <value>DEPARTAMENTO ARRIAGA</value>
-            </criteriaItems>
-            <criteriaItems>
-                <field>Case.DepartamentoArriaga__c</field>
-                <operation>equals</operation>
-                <value>CALL CENTER</value>
-            </criteriaItems>
         </ruleEntry>
     </assignmentRule>
 </AssignmentRules>

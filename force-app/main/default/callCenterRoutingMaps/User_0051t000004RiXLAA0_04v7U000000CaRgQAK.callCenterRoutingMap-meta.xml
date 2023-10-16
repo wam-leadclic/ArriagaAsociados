@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CallCenterRoutingMap xmlns="http://soap.sforce.com/2006/04/metadata">
-    <callCenter>Arriagaasociadosprod</callCenter>
-    <developerName>User_0051t000004RiXLAA0_04v7U000000CaRgQAK</developerName>
-    <externalId>arn:aws:connect:eu-central-1:203389500378:instance/639025b3-3fe6-4284-af68-57004a772aad/agent/2e89ddf6-82cc-48f0-babd-3d5ad19ba4d6</externalId>
-    <masterLabel>0051t000004RiXLAA0</masterLabel>
-    <quickConnect>00070d45-676b-44fa-9333-1d7dc9ec16ed</quickConnect>
-    <referenceRecord>atrujillo@arriagaasociados.com</referenceRecord>
-</CallCenterRoutingMap>

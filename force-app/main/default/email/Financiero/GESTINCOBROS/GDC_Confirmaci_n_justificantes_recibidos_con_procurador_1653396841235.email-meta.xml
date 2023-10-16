@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>GDC - Confirmación justificantes recibidos para casos con procurador</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>GDC - Confirmación justificantes recibidos con procurador</name>
+    <relatedEntityType>Case</relatedEntityType>
+    <style>none</style>
+    <subject>Justificantes de Pagos Recibidos | Arriaga Asociados</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

@@ -1,0 +1,27 @@
+.slds-card__header {
+    background: rgb(243, 242, 242);
+}
+
+.calendar {
+    background: rgb(255, 255, 255);
+    height: 100%;
+    min-height: 250px;
+}
+
+.full-height {
+    height: calc(100% - 75px);
+}
+
+c-calendar {
+    width: calc(100% - 250px);
+    padding: 1px;
+}
+
+c-calendar-sidebar {
+    width: 250px;
+    padding: 1px;
+}
+
+.selected-view {
+    background-color: #CFEBFE;
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Confirmación de videollamada con Arriaga Asociados</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>OM_AutocitaWeb</letterhead>
+    <name>Nueva Cita - Videollamada</name>
+    <style>freeForm</style>
+    <subject>Confirmación de videollamada con Arriaga Asociados</subject>
+    <textOnly>Hola, {!Contact.FirstName}
+
+
+Esperamos verte en tu cita programada el próximo ......para tratar tu consulta sobre .....
+
+
+
+Esta consulta es totalmente gratuita e intentaremos resolver todas tus dudas. Además, si después de analizar tu consulta hay motivos para reclamar, te contaremos los próximos pasos a seguir para que puedas decidir, sin compromiso.
+
+
+
+Para valorar correctamente tu caso, necesitaremos revisar la siguiente documentación:
+
+
+
+DOCUMENTOS
+
+{!WorkType.OM_Documents__c}
+
+
+Acuérdate de traerla a la cita.
+
+
+
+Recuerda que, si por cualquier motivo no puedes asistir a la cita, estamos a tu disposición en el teléfono 900 264 600 o 918 289 000 para cambiarla según tu disponibilidad.
+
+
+
+Gracias por confiar en nosotros.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

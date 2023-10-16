@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata" fqn="botonesOpp">
+    <apiVersion>46.0</apiVersion>
+    <isExposed>true</isExposed>
+    <masterLabel>Zona botones</masterLabel>
+    <description>Zona de botones para las páginas de registro de Opp</description>
+    <targets>
+        <target>lightning__RecordPage</target>
+    </targets>
+    <!-- Indicamos en que objetos podremos sacar el componente-->
+    <targetConfigs>
+        <targetConfig targets="lightning__RecordPage">
+            <objects>
+                <object>Opportunity</object>
+            </objects>
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

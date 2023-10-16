@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CallCenterRoutingMap xmlns="http://soap.sforce.com/2006/04/metadata">
-    <callCenter>Arriagaasociadosprod</callCenter>
-    <developerName>SCV_EJECUCIONES_PARALEGAL_CCQ_04v7U000000CaRgQAK</developerName>
-    <externalId>arn:aws:connect:eu-central-1:203389500378:instance/639025b3-3fe6-4284-af68-57004a772aad/queue/db668baf-30f9-4454-b229-6b56154aaa45</externalId>
-    <masterLabel>SCV_EJECUCIONES_PARALEGAL</masterLabel>
-    <quickConnect>9725c7f6-5af9-4e53-bec5-4b62f492ae3b</quickConnect>
-    <referenceRecord>SCV_EJECUCIONES_PARALEGAL</referenceRecord>
-</CallCenterRoutingMap>

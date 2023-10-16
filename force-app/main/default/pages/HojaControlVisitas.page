@@ -1,0 +1,38 @@
+<!--
+  @description       : 
+  @author            : ChangeMeIn@UserSettingsUnder.SFDoc
+  @group             : 
+  @last modified on  : 03-21-2023
+  @last modified by  : ChangeMeIn@UserSettingsUnder.SFDoc
+-->
+
+<apex:page standardController="User">
+    <apex:form >
+    <apex:pageBlock title="Verificar Datos para la Hoja de Visita" ><apex:pageMessages />
+        <apex:pageBlockSection columns="1"  >                           
+            <apex:inputField value="{!User.Account.FirstName }"/>
+            <apex:inputField value="{!User.Account.LastName }"/>             
+          
+            <apex:inputField value="{!User.Account.TipoDocumento__c }"/>            
+            <apex:inputField value="{!User.Account.DocumentoIdentidad__c }"/>
+            <apex:inputField value="{!User.Account.PersonBirthdate }"/>
+            <apex:inputField value="{!User.Account.Phone }"/>
+            <apex:inputField value="{!User.Account.PersonMobilePhone }"/>   
+            <apex:inputField value="{!User.Account.PersonEmail }"/>
+            <apex:inputField value="{!User.Account.BillingStreet }"/>            
+            <apex:inputField value="{!User.Account.ShippingCity }"/>  
+            <apex:inputField value="{!User.Account.BillingState }"/>  
+            <apex:inputField value="{!User.Account.BillingPostalCode }"/>       
+        </apex:pageBlockSection> 
+        <apex:pageBlockSection columns="1"  >     
+            <apex:inputField value="{!User.Account.AceptoPoliticaPrivacidad__pc }"/>  
+            <apex:inputField value="{!User.Account.DeseoRecibirComunicacionesComerciales__pc }"/>  
+            <apex:inputField value="{!User.Account.Deseo_recibir_Mensajes_de_Whatsapp__pc }"/>   
+        </apex:pageBlockSection> 
+        <p> A fecha de{! TODAY() } acepto los datos presentados </p>
+        <apex:pageBlockButtons >
+            <apex:commandButton action="{! save }" value="Save" />
+        </apex:pageBlockButtons>
+    </apex:pageBlock>
+    </apex:form>
+</apex:page>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Titular</fullName>
+        <default>false</default>
+        <label>Titular</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Representante Legal</fullName>
+        <default>false</default>
+        <label>Representante Legal</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Heredero</fullName>
+        <default>false</default>
+        <label>Heredero</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Autorizado</fullName>
+        <default>false</default>
+        <label>Autorizado</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Apoderado</fullName>
+        <default>false</default>
+        <label>Apoderado</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Tutor</fullName>
+        <default>false</default>
+        <label>Tutor</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Menor de Edad</fullName>
+        <default>false</default>
+        <label>Menor de Edad</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Incapacitado</fullName>
+        <default>false</default>
+        <label>Incapacitado</label>
+    </standardValue>
+</StandardValueSet>

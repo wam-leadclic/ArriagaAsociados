@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CallCenterRoutingMap xmlns="http://soap.sforce.com/2006/04/metadata">
-    <callCenter>Arriagaasociadosprod</callCenter>
-    <developerName>Las_Palmasd_Gran_Canaria_Asesor_GRP_04v7U000000CaRgQAK</developerName>
-    <externalId>arn:aws:connect:eu-central-1:203389500378:instance/639025b3-3fe6-4284-af68-57004a772aad/routing-profile/3fc12eb3-5fc9-4277-af03-713dfcb7707e</externalId>
-    <masterLabel>00G69000005hY3cEAE</masterLabel>
-    <referenceRecord>Las_Palmasd_Gran_Canaria_Asesor_GRP</referenceRecord>
-</CallCenterRoutingMap>

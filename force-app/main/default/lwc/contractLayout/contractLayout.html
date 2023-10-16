@@ -1,0 +1,36 @@
+<template>
+
+    <lightning-card  title="Expediente" icon-name="standard:contract">
+
+        <template if:true={isShowSpinner}>
+            <lightning-spinner alternative-text="Loading"></lightning-spinner>
+        </template>
+
+        <lightning-record-view-form record-id={recordId} object-api-name="Contract">          
+            <!-- <div class="slds-grid slds-p-around_small" >
+                 <div class="slds-col slds-size_1-of-2">
+                    <template for:each={lContractFieldSetLeft} for:item="field">
+                        <lightning-output-field key={field.fieldName} field-name={field.fieldName}></lightning-output-field>
+                    </template>
+                </div>
+                <div class="slds-col slds-size_1-of-2">
+                    <template for:each={lContractFieldSetRight} for:item="field">
+                        <lightning-output-field key={field.fieldName} field-name={field.fieldName}></lightning-output-field>
+                    </template>
+                </div> 
+                <template for:each={lContractField} for:item="field">
+                    <lightning-output-field key={field.fieldName} field-name={field.fieldName} class="slds-col slds-size_6-of-12"></lightning-output-field>
+                </template>
+            </div> -->
+
+            <lightning-layout multiple-rows="true">
+                <template for:each={lContractField} for:item="field">
+                    <lightning-layout-item padding="around-small" key={field.fieldName} size="6">
+                        <lightning-output-field key={field.fieldName} field-name={field.fieldName}></lightning-output-field>
+                    </lightning-layout-item>
+                </template>
+            </lightning-layout>
+            
+        </lightning-record-view-form>
+    </lightning-card>
+</template>

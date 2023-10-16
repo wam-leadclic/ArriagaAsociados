@@ -1,0 +1,20 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<p style="text-align: center;">Buenos días,&nbsp;{{{Account.FirstName}}}&nbsp;<br />
+&nbsp;<br />
+&nbsp;<br />
+¿Cómo ha sido la atención recibida en nuestra oficina?&nbsp;</p>
+
+<p style="text-align: center;">&nbsp;<br />
+¡Comparte tu experiencia y ayúdanos a mejorar!&nbsp;</p>
+
+<p style="text-align: center;"><a href="https://www.google.com/maps/place/Arriaga+Asociados+C.C.Pr%C3%ADncipe+P%C3%ADo/@40.4226304,-3.7212569,17z/data=!3m1!4b1!4m5!3m4!1s0xd42286d7d2e8ab3:0xa4099850e5080c02!8m2!3d40.4226304!4d-3.7212569"><b>ESCRIBE TU RESEÑA PINCHANDO AQUI</b></a></p>
+
+<p style="text-align: center;">&nbsp;</p>
+
+<p style="text-align: center;">Arriaga Asociados&nbsp;</p>
+</body>
+</html>

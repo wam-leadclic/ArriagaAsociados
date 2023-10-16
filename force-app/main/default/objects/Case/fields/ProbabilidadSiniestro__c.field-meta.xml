@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ProbabilidadSiniestro__c</fullName>
+    <description>Probabilidad de éxito en el caso</description>
+    <externalId>false</externalId>
+    <label>Probabilidad</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Probable &gt;90%</fullName>
+                <default>false</default>
+                <label>Probable &gt;90%</label>
+            </value>
+            <value>
+                <fullName>Posible &lt;90% y &gt;50%</fullName>
+                <default>false</default>
+                <label>Posible &lt;90% y &gt;50%</label>
+            </value>
+            <value>
+                <fullName>Poco probable &lt;50%</fullName>
+                <default>false</default>
+                <label>Poco probable &lt;50%</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

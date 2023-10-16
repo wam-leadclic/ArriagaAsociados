@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>CITA TELEFONICA- SE ENVIA VIA MAIL A LOS CLIENTES QUE YA HAN FORMALIZADO SU CONTRATACION (PAGO Y/O HE FIRMADA)</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>PLANTILLA CONFIRMACION DE CONTRATACION ONLINE + INFORMACION PORTAL CLIENTE</name>
+    <relatedEntityType>Account</relatedEntityType>
+    <style>none</style>
+    <subject>Todo listo para comenzar| Arriaga Asociados</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

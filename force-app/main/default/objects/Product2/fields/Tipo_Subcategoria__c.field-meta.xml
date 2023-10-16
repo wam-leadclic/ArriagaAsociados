@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tipo_Subcategoria__c</fullName>
+    <description>Subcategoría del producto para las diferentes agrupaciones en Reportes y analíticas.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Subcategoría del producto para informes, paneles y analíticas</inlineHelpText>
+    <label>Tipo Subcategoría</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Tipo_Categoria__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>A.P. PENSIÓN</fullName>
+                <default>false</default>
+                <label>A.P. PENSIÓN</label>
+            </value>
+            <value>
+                <fullName>HIPOTECAS</fullName>
+                <default>false</default>
+                <label>HIPOTECAS</label>
+            </value>
+            <value>
+                <fullName>INSTITUCIONALES</fullName>
+                <default>false</default>
+                <label>INSTITUCIONALES</label>
+            </value>
+            <value>
+                <fullName>MONITORIO</fullName>
+                <default>false</default>
+                <label>MONITORIO</label>
+            </value>
+            <value>
+                <fullName>OTROS</fullName>
+                <default>false</default>
+                <label>OTROS</label>
+            </value>
+            <value>
+                <fullName>PARTICULARES</fullName>
+                <default>false</default>
+                <label>PARTICULARES</label>
+            </value>
+            <value>
+                <fullName>PRESTAMOS</fullName>
+                <default>false</default>
+                <label>PRESTAMOS</label>
+            </value>
+            <value>
+                <fullName>TARJETAS</fullName>
+                <default>false</default>
+                <label>TARJETAS</label>
+            </value>
+            <value>
+                <fullName>VALORES</fullName>
+                <default>false</default>
+                <label>VALORES</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>BANCARIO</controllingFieldValue>
+            <valueName>HIPOTECAS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BANCARIO</controllingFieldValue>
+            <valueName>PRESTAMOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BANCARIO</controllingFieldValue>
+            <valueName>TARJETAS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BANCARIO</controllingFieldValue>
+            <valueName>VALORES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NO BANCARIO</controllingFieldValue>
+            <valueName>A.P. PENSIÓN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NO BANCARIO</controllingFieldValue>
+            <valueName>INSTITUCIONALES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NO BANCARIO</controllingFieldValue>
+            <valueName>MONITORIO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NO BANCARIO</controllingFieldValue>
+            <valueName>OTROS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NO BANCARIO</controllingFieldValue>
+            <valueName>PARTICULARES</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

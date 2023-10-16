@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validacion_Num_Factura</fullName>
+    <active>true</active>
+    <description>Valida la longitud de 6 caracteres y de tipo numérico</description>
+    <errorConditionFormula>IF(NOT(ISBLANK(Numero_de_Factura__c)),
+OR(
+LEN(Numero_de_Factura__c) &lt;&gt; 6, NOT(ISNUMBER(Numero_de_Factura__c))
+)
+,FALSE)</errorConditionFormula>
+    <errorDisplayField>Numero_de_Factura__c</errorDisplayField>
+    <errorMessage>El Número de Factura debe ser numérico y de 6 dígitos de longitud</errorMessage>
+</ValidationRule>

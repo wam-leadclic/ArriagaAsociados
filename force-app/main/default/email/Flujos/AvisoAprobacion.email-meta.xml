@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Arriaga</letterhead>
+    <name>Aviso de Aprobación</name>
+    <style>formalLetter</style>
+    <subject>Solicitud de aprobación</subject>
+    <textOnly>Hola!
+
+Ha recibido una solicitud de aprobación.
+Revise las solicitudes de aprobación para obtener más información sobre la oportunidad.
+
+Un saludo!</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

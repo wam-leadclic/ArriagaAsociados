@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Renegociacion_PH_Case</fullName>
+    <filterScope>Queue</filterScope>
+    <label>Renegociación PH</label>
+    <queue>Renegociacion_PH</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sexo__c</fullName>
+    <description>Género del cliente</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Género del cliente</inlineHelpText>
+    <label>Género</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Sexo</valueSetName>
+    </valueSet>
+</CustomField>

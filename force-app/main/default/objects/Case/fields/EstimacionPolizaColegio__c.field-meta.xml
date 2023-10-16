@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EstimacionPolizaColegio__c</fullName>
+    <description>estimación de la cobertura de póliza para Colegio en el tipo de registro Siniestro</description>
+    <externalId>false</externalId>
+    <label>Estimación cobertura póliza Colegio</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

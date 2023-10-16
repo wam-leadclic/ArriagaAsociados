@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Plantilla para la gestión de los casos de siniestros de tipo IME</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Caso IME-Facturación</name>
+    <style>none</style>
+    <subject>Atención al Cliente - Reclamación {!Case.CaseNumber}</subject>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

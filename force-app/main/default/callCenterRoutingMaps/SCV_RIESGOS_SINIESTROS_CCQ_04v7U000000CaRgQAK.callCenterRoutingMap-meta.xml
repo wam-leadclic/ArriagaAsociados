@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CallCenterRoutingMap xmlns="http://soap.sforce.com/2006/04/metadata">
-    <callCenter>Arriagaasociadosprod</callCenter>
-    <developerName>SCV_RIESGOS_SINIESTROS_CCQ_04v7U000000CaRgQAK</developerName>
-    <externalId>arn:aws:connect:eu-central-1:203389500378:instance/639025b3-3fe6-4284-af68-57004a772aad/queue/9ffba0e3-af25-4529-b921-3c1955e4993d</externalId>
-    <masterLabel>SCV_RIESGOS_SINIESTROS</masterLabel>
-    <quickConnect>2881e490-99b8-44f2-875e-24eb621f7218</quickConnect>
-    <referenceRecord>SCV_RIESGOS_SINIESTROS</referenceRecord>
-</CallCenterRoutingMap>

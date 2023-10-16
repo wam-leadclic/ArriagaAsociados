@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>APOYO_ATC_ZONA_BARCELONA_Case</fullName>
+    <filterScope>Queue</filterScope>
+    <label>ATC APOYO - ZONA BARCELONA</label>
+    <queue>ATC_APOYO_ZONA_BARCELONA</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

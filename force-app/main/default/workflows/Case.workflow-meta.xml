@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>CierreIncidenciaAlta</fullName>
+        <description>Aviso de cierre de incidencia</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>clientes@arriagaasociados.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Riesgo/AvisoCierrreIncidencia</template>
+    </alerts>
+    <alerts>
+        <fullName>CierreIncidenciaBaja</fullName>
+        <description>Aviso de cierre de incidencia</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>clientes@arriagaasociados.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Riesgo/AvisoCierrreIncidencia</template>
+    </alerts>
+    <alerts>
+        <fullName>CierreIncidenciaMedia</fullName>
+        <description>Aviso de cierre de incidencia</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>clientes@arriagaasociados.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Riesgo/AvisoCierrreIncidencia</template>
+    </alerts>
+    <alerts>
+        <fullName>NotificacionAltaCaso</fullName>
+        <description>Notificación de alta de caso</description>
+        <protected>false</protected>
+        <recipients>
+            <field>ContactEmail</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>clientes@arriagaasociados.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>ATC/AperturaCaso</template>
+    </alerts>
+    <alerts>
+        <fullName>NotificacionCierreCaso</fullName>
+        <description>Notificación de cierre de caso</description>
+        <protected>false</protected>
+        <recipients>
+            <field>ContactId</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>clientes@arriagaasociados.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>ATC/CierreCaso</template>
+    </alerts>
+    <alerts>
+        <fullName>Notificacion_caso_email_Estado_Alarma</fullName>
+        <description>Notificación de alta de caso por email Estado de Alarma</description>
+        <protected>false</protected>
+        <recipients>
+            <field>ContactEmail</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>clientes@arriagaasociados.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>ATC/AperturaCasoEstadoAlerta</template>
+    </alerts>
+    <alerts>
+        <fullName>Resenas_Case_Review_Invite</fullName>
+        <description>Resenas: Case Review Invite</description>
+        <protected>false</protected>
+        <recipients>
+            <field>ClientEmail__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>clientes@arriagaasociados.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Resena_Invite_Case</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>Cambia_prioridad</fullName>
+        <description>Cambia la prioridad del caso, de media a alta</description>
+        <field>Priority</field>
+        <literalValue>Alta</literalValue>
+        <name>Cambia prioridad</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Caso_tipo_de_registro_Siniestro</fullName>
+        <description>Se modifica el tipo de registro del caso a Siniestro</description>
+        <field>RecordTypeId</field>
+        <lookupValue>Siniestro</lookupValue>
+        <lookupValueType>RecordType</lookupValueType>
+        <name>Caso tipo de registro Siniestro</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Cerrar_caso</fullName>
+        <description>Se cierra el caso ya que han pasado 72 horas desde  que se ha dado respuesta al usuario indicando que está resuelto</description>
+        <field>Status</field>
+        <literalValue>Cerrado</literalValue>
+        <name>Cerrar caso</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Estado_del_caso_Siniestro</fullName>
+        <description>Se cambia el estado del caso a Siniestro</description>
+        <field>Status</field>
+        <literalValue>Siniestro</literalValue>
+        <name>Estado del caso Siniestro</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Parar_SLAs</fullName>
+        <description>Se para el SLAs del caso</description>
+        <field>IsStopped</field>
+        <literalValue>1</literalValue>
+        <name>Parar SLAs</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>Caso ATC Cerrado Parar SLAs</fullName>
+        <actions>
+            <name>Parar_SLAs</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>ATC</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>Cerrado</value>
+        </criteriaItems>
+        <description>Cuando un caso de ATC pasa al estado Cerrado se para el SLAs</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Caso ATC Resuelto Parar SLAs</fullName>
+        <actions>
+            <name>Parar_SLAs</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>ATC</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>Resuelto</value>
+        </criteriaItems>
+        <description>Cuando un caso de ATC pasa al estado Resuelto se para el SLAs y si en 72 no se ha cambiado de estado se modifica el estado del caso a cerrado</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Cerrar_caso</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <timeLength>72</timeLength>
+            <workflowTimeTriggerUnit>Hours</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>Confirmación de cierre de incidencia</fullName>
+        <actions>
+            <name>NotificacionCierreCaso</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.IsClosed</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Interno__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <description>Envía un email al cliente al cerrarse el caso</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Confirmación de creación de incidencia</fullName>
+        <actions>
+            <name>NotificacionAltaCaso</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.Interno__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <description>Envía un email al cliente al darse de alta el caso</description>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Confirmación de creación de incidencia email Estado Alerta</fullName>
+        <actions>
+            <name>Notificacion_caso_email_Estado_Alarma</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>Case.Origin</field>
+            <operation>equals</operation>
+            <value>Correo</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>ATC</value>
+        </criteriaItems>
+        <description>Envía un email al cliente al darse de alta el caso durante el estado de alerta cuando el cliente ha enviado un mail (mail to case)</description>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Incidencia pasa a Siniestro</fullName>
+        <actions>
+            <name>Caso_tipo_de_registro_Siniestro</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Estado_del_caso_Siniestro</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.ImpactoEconomico__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <description>Cuando en un caso de incidencia se indica que tiene impacto económico se cambia el tipo de registro a Siniestro y se pone el estado Siniestro</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+</Workflow>

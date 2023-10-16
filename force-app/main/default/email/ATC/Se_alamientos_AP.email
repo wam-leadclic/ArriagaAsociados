@@ -1,0 +1,40 @@
+<table border="0" cellpadding="5" width="600" cellspacing="5" height="400" >
+<tr valign="top" height="50" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[]]></td>
+</tr>
+<tr valign="top" height="300" >
+<td tEditID="c1r2" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r2" locked="0" >
+<![CDATA[<p class="MsoNormal" style="line-height: normal;"><span style="font-size: 12pt; color: black;"><font face="Times New Roman, Times, serif">Buenos días:<o:p></o:p></font></span></p><p class="MsoNormal" style="line-height: normal;"><span style="font-size: 12pt; color: black;"><font face="Times New Roman, Times, serif"><br></font></span></p>
+
+<p class="MsoNormal" style="line-height: normal;"><font face="Times New Roman, Times, serif"><span style="font-size: 12pt; color: black;">Estimado XXX. Queremos comunicarle que el juzgado nos
+ha dado fecha para la audiencia previa de su reclamación de gastos de hipoteca.
+Está prevista para el próximo 29/04/2019 a las 11:00H en el juzgado nº10 BIS de
+Sevilla. </span><span style="font-size: 12pt; color: rgb(0, 176, 240);">DIRECCIÓN.</span><span style="font-size: 12pt; color: black;"><o:p></o:p></span></font></p><p class="MsoNormal" style="line-height: normal;"><span style="font-size: 12pt; color: rgb(0, 176, 240);"><font face="Times New Roman, Times, serif"><br></font></span></p>
+
+<p class="MsoNormal" style=""><span style="font-size: 12pt; line-height: 107%; color: black; background: white;"><font face="Times New Roman, Times, serif">No es
+en absoluto necesario que acuda. Se trata de un acto con la finalidad de examinar
+cuestiones procesales relativas al procedimiento al que acudirá el abogado y
+procurador de Arriaga y de la entidad financiera. <o:p></o:p></font></span></p>
+
+<p class="MsoNormal" style=""><span style="font-size: 12pt; line-height: 107%; color: black; background: white;"><o:p><font face="Times New Roman, Times, serif">&nbsp;</font></o:p></span></p>
+
+<p class="MsoNormal" style=""><font face="Times New Roman, Times, serif"><span style="font-size: 12pt; line-height: 107%; color: black; background: white;">Al
+finalizar la audiencia previa, el juez puede dejar el procedimiento visto para
+sentencia, o citarnos para un juicio.&nbsp;</span><span style="font-size: 12pt; line-height: 107%; color: black;">Puede
+contactar con el despacho una semana después y le informaremos del resultado de
+la vista en el </span><span style="font-size:12.0pt;line-height:107%;
+mso-ascii-font-family:Calibri;mso-fareast-font-family:&quot;Times New Roman&quot;;
+mso-hansi-font-family:Calibri;mso-bidi-font-family:Calibri;mso-fareast-language:
+ES">91 005 26 00.</span><span style="font-size: 12pt; line-height: 107%; color: black;"><o:p></o:p></span></font></p><p class="MsoNormal" style=""><span style="font-size:12.0pt;line-height:107%;
+mso-ascii-font-family:Calibri;mso-fareast-font-family:&quot;Times New Roman&quot;;
+mso-hansi-font-family:Calibri;mso-bidi-font-family:Calibri;mso-fareast-language:
+ES"><font face="Times New Roman, Times, serif"><br></font></span></p>
+
+<p class="MsoNormal" style="line-height: normal;"><span style="font-size: 12pt; color: black;"><font face="Times New Roman, Times, serif">Un cordial saludo.</font><font face="Times New Roman, serif"><o:p></o:p></font></span></p>]]></td>
+</tr>
+<tr valign="top" height="50" >
+<td tEditID="c1r3" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r3" locked="0" >
+<![CDATA[<span style="font-size: medium;"><font color="#ffffff">{!Case.Thread_Id}</font></span>]]></td>
+</tr>
+</table>

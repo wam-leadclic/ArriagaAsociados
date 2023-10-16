@@ -1,0 +1,16 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<p>&nbsp;Buenos días&nbsp;{{{Recipient.FirstName}}}<br />
+&nbsp;</p>
+
+<p>Gracias por enviarnos el justificante de pago de la factura {{{Case.Numero_de_Factura__c}}} correspondiente a tu expediente&nbsp;{{{Case.NumeroExpediente__c}}}.&nbsp; Damos traslado al departamento financiero para que compruebe y verifique la transferencia.&nbsp;</p>
+
+<p>Recibe un cordial saludo.&nbsp;</p>
+
+<p>Equipo Gestión de Cobros &nbsp;<br />
+Arriaga Asociados&nbsp;</p>
+
+</body></html>

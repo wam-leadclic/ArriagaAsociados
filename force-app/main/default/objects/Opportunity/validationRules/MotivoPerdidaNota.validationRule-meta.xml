@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MotivoPerdidaNota</fullName>
+    <active>true</active>
+    <description>Rellenar la nota del motivo de descripción cuando se pierde la oportunidad y se marca el motivo de descripción como Otros.</description>
+    <errorConditionFormula>AND(
+    ISPICKVAL( StageName , &quot;Cerrada perdida&quot;),
+ Motivo_Perdida_Notas__c =&quot;&quot;,
+
+OR( 
+ISPICKVAL( Motivo_Perdida_Descripcion__c , &quot;No viable ASESOR&quot;),
+ISPICKVAL( Motivo_Perdida_Descripcion__c , &quot;No viable SSJJ&quot;),
+ISPICKVAL( Motivo_Perdida_Descripcion__c , &quot;No interesa&quot;),
+ISPICKVAL( Motivo_Perdida_Descripcion__c , &quot;Oportunidad duplicada/errónea&quot;),
+ISPICKVAL( Motivo_Perdida_Descripcion__c , &quot;No localizado&quot;)
+
+)
+)</errorConditionFormula>
+    <errorDisplayField>Motivo_Perdida_Notas__c</errorDisplayField>
+    <errorMessage>Debe rellenar la Nota del motivo de la pérdida, complementando la descripción.</errorMessage>
+</ValidationRule>

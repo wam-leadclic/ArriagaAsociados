@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BusinessProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Estándar</fullName>
+    <description>Proceso estándar para los candidatos de Arriaga Asociados</description>
+    <isActive>true</isActive>
+    <values>
+        <fullName>Citado</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Contactado</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Descartado</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Nuevo</fullName>
+        <default>true</default>
+    </values>
+    <values>
+        <fullName>Recaptura</fullName>
+        <default>false</default>
+    </values>
+</BusinessProcess>

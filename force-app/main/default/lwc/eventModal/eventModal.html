@@ -1,0 +1,53 @@
+<template>
+    <div class="modal-hidden">
+        <section
+            role="dialog"
+            tabindex="-1"
+            aria-labelledby="modal-heading-01"
+            aria-modal="true"
+            aria-describedby="modal-content-id-1"
+            class="slds-modal slds-fade-in-open section-index"
+        >
+            <div class="slds-modal__container">
+                <lightning-card  variant="Narrow" title={currentEvent.Subject} icon-name="action:new_event">
+                    <lightning-button-icon  icon-name="utility:close" variant="container" alternative-text="Close" onclick={hide} slot="actions"></lightning-button-icon>
+                    
+                    <div class="slds-wrap slds-grid slds-p-horizontal_medium">
+                        <div class="slds-col slds-size_1-of-2">
+                            <p class="field-title" title="Location">{locationLabel}</p>
+                            {currentEvent.Location}
+                        </div>
+                        <div class="slds-col slds-size_1-of-2">
+                            <p class="field.title" title="Location">{nameEventLabel}</p>
+                            {whoName}
+                        </div>
+                        <template if:true={currentEvent.IsAllDayEvent}>
+                            <div class="slds-col slds-size_1-of-2">
+                                <p class="field-title" title="Location">{startLabel}</p>
+                                <p><lightning-formatted-date-time time-zone={userTimeZone} value={currentEvent.StartDateTime} year="numeric" month="numeric" day="numeric"></lightning-formatted-date-time></p>
+                            </div>
+                            <div class="slds-col slds-size_1-of-2">
+                                <p class="field-title" title="Location">{endLabel}</p>
+                                <p><lightning-formatted-date-time time-zone={userTimeZone} value={currentEvent.EndDateTime} year="numeric" month="numeric" day="numeric"></lightning-formatted-date-time></p>
+                            </div>
+                        </template>
+                        <template if:false={currentEvent.IsAllDayEvent}>
+                            <div class="slds-col slds-size_1-of-2">
+                                <p class="field-title" title="Location">{startLabel}</p>
+                                <p><lightning-formatted-date-time time-zone={userTimeZone} value={currentEvent.StartDateTime} year="numeric" month="numeric" day="numeric" hour="2-digit"
+                                    minute="2-digit"></lightning-formatted-date-time></p>
+                            </div>
+                            <div class="slds-col slds-size_1-of-2">
+                                <p class="field-title" title="Location">{endLabel}</p>
+                                <p><lightning-formatted-date-time time-zone={userTimeZone} value={currentEvent.EndDateTime} year="numeric" month="numeric" day="numeric" hour="2-digit"
+                                    minute="2-digit"></lightning-formatted-date-time></p>
+                            </div>
+                        </template>
+                    </div>
+                    <p class="slds-text-align_left" slot="footer"><a href="javascript:void(0);" title="More Details" onclick={navigateToEvent} data-element-id={currentEvent.Id}>{moreDetailsLabel}</a></p>
+                </lightning-card>
+            </div>
+        </section>
+        <div class="slds-backdrop slds-backdrop_open backdrop-index" onclick={hide}></div>
+    </div>
+</template>

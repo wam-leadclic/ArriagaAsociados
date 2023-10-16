@@ -1,0 +1,1182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ATC</fullName>
+    <active>true</active>
+    <businessProcess>ATC</businessProcess>
+    <description>Casos de Atención al Cliente</description>
+    <label>ATC</label>
+    <picklistValues>
+        <picklist>AcudioCita__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Si</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>CalculoArriaga__c</picklist>
+        <values>
+            <fullName>No aplica</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pendiente</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Realizado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solicitado</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Canal__c</picklist>
+        <values>
+            <fullName>Carta</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LLamada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RR%2ESS%2FWeb</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Visita</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Categorizacion__c</picklist>
+        <values>
+            <fullName>AUDIENCIA PREVIA - CAMBIO DE FECHA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AUDIENCIA PREVIA - PRIMER SEÑALAMIENTO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AUDIENCIA PREVIA - SUSPENSIÓN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HOJA DE RECLAMACION</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INCIDENCIA GENERAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INFO AP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INFO APELACIÓN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INFO COMUNICACIÓN INGRESO CUENTA CLIENTE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INFO CONSIGNACIÓN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INFO CONSULTA%2FRECEPCIÓN DOCUMENTACIÓN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INFO COSTAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INFO COSTES%2F HOJA DE ENCARGO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INFO DAT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INFO DOCU</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INFO EJECUCIÓN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INFO ENVÍO DOCUMENTACIÓN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INFO FACTURACIÓN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INFO FASE MP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INFO GENERAL EXPEDIENTE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INFO JUICIO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INFO LIQUIDACIÓN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INFO MP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INFO OTROS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INFO PLAZOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INFO RRSS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INFO SELLADO JUZGADO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INFO SENTENCIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INFO TASA JUDICIAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JUICIO - CAMBIO DE FECHA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JUICIO - PRIMER SEÑALAMIENTO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JUICIO - SUSPENSIÓN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OTRAS VISTAS %E2%80%93 SUSPENSIÓN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OTRAS VISTAS - CAMBIO DE FECHA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OTRAS VISTAS - PRIMER SEÑALAMIENTO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PETICION DOCUMENTACIÓN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PETICION LOPD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PETICION OTROS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PETICION RENTA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PETICIÓN CITA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PETICIÓN COMUNICACIÓN DESISTIMIENTO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PETICIÓN INGRESO CUENTA CLIENTE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PETICIÓN RRSS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>QUEJA COMERCIAL- FUNCIONAMIENTO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>QUEJA COMERCIAL-COSTE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>QUEJA COMERCIAL-EXPECTATIVAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>QUEJA COMERCIAL-PLAZOS PROCEDIMIENTO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>QUEJAS ATENCIÓN RECIBIDA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>QUEJAS DOCUMENTACIÓN-PÉRDIDA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>QUEJAS DOCUMENTACIÓN-REITERADA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>QUEJAS EJECUCIONES- NO PRESENTACIÓN EN PLAZO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>QUEJAS EJECUCIONES- RETRASO MP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>QUEJAS EJECUCIONES-CÁLCULOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>QUEJAS FACTURACIÓN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>QUEJAS INFORMACIÓN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>QUEJAS OTROS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>QUEJAS PROCESAL- CADUCIDAD RECURSO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>QUEJAS PROCESAL-INFO ERROR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>QUEJAS PROCESAL-INFO INSUFICIENTE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>QUEJAS PROCESAL-PLAZOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>QUEJAS PROCURADOR - NO PRESENTACIÓN ESCRITOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>QUEJAS PROCURADOR- MP RETRASO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>QUEJAS PROCURADOR-MP CADUCADO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>QUEJAS REDACCION- PARALIZACION</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>QUEJAS REDACCION- PLAZOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>QUEJAS RRSS</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Clasificacion__c</picklist>
+        <values>
+            <fullName>Acción caducada%2Fprescrita</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Admisión de error</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ausencia de actividad judicial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ausencia de expediente</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ausencia de notificación</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ausencia de objeto reclamable</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cliente duplicado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cobro indebido</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Condena en costas en contra</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Criterio propio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Demanda sin presentar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Depósito judicial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Desistimiento incorrecto</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Desistimiento no tramitado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dilación indebida</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Disconformidad HE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Documentación subida errónea</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Documental incorrecta</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Error acción ejercitada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Error competencia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Error cuantía</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Error de datos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Error demandado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Error demandante</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Error en la cuantía</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Errores de referencia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Escrito desestimado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Escrito erróneo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Escrito extemporáneo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Escrito omitido</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Expediente duplicado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Factura errónea</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Falta de gestión</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Falta de personación</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gowex</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inactividad</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inc originadas por cliente</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Incomparecencia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lexnet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Litispendencia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mandamiento de pago</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No viable</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Notificación extemporánea</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Otros</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Planteamiento jurídico incorrecto</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Presentación de demanda no consentida</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Presentación tardía</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Requerimiento desatendido</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Resolución sin base jurídica</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Servicio no contratado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tasa judicial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Terminación del procedimiento no tramitada</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>CondicionCierre__c</picklist>
+        <values>
+            <fullName>Con factura</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sin factura</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>CorrespondeFactura__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sí</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Criticidad__c</picklist>
+        <values>
+            <fullName>Menor de valor franquicia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Superior franquicia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Valor de franquicia</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>DepartamentoArriaga__c</picklist>
+        <values>
+            <fullName>ASESORIA COMERCIAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CALL CENTER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>COBRO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EJECUCIONES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FINANCIERO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FRONT - ATC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MARKETING</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OTROS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PROCESAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRODUCCIÓN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RECOBRO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RESOLUCIONES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RESPONSABLES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RIESGOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SSJJ</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>EntidadAvisa__c</picklist>
+        <values>
+            <fullName>Arriaga</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fraile Mena</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OION</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>EnvioFacturaAA__c</picklist>
+        <values>
+            <fullName>Burofax</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Correo certificado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Envialia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oficina</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>EnvioFacturaFM__c</picklist>
+        <values>
+            <fullName>Enviada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Incidencia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No corresponde</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Plazo 48hs</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>EstadoPF__c</picklist>
+        <values>
+            <fullName>Devuelta</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No retornable</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retornable</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Fase__c</picklist>
+        <values>
+            <fullName>Judicial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Producción</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>MotivoCitaNoAtendida__c</picklist>
+        <values>
+            <fullName>Cita errónea</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No ha aceptado GDPR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No le interesa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No tiene doc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Recaptura</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Motivo_del_Estado_Resultado__c</picklist>
+        <values>
+            <fullName>Circunstancias Económicas y personales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Extinción de Condominio%2FAvalista</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Facturado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Insatisfacción Cliente con AA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mejora Interés TAE%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No cliente mediador</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No viable mediador</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Próximo a cancelar%2C cancelada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Refinanciación o ampliación PH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Subrogada%2C novada</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Motivo_del_Estado__c</picklist>
+        <values>
+            <fullName>NO INTERESA AA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NO INTERESA MEDIADOR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SÍ INTERESA AA</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Origin</picklist>
+        <values>
+            <fullName>Cliente prioritario</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Correo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DEPARTAMENTO ARRIAGA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Formulario Web</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RRSS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Redes sociales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Teléfono</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Visita</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PagoInicial__c</picklist>
+        <values>
+            <fullName>Apertura expediente</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gestiones previas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PROVISION DE FONDOS</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Paygold__c</picklist>
+        <values>
+            <fullName>Enviado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No corresponde</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pendiente</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PendientePicklist__c</picklist>
+        <values>
+            <fullName>Pendiente Arriaga %28otro dpto AA - no Riesgos%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pendiente Cliente</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pendiente Colegio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pendiente Colegio y Empresa Seguro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pendiente Empresa Seguro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pendiente Juzgado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pendiente Otro %28ninguno de los anteriores%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pendiente Parte</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pendiente Procurador</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Priority</picklist>
+        <values>
+            <fullName>Alta</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Baja</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Media</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ProbabilidadSiniestro__c</picklist>
+        <values>
+            <fullName>Poco probable %3C50%25</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Posible %3C90%25 y %3E50%25</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Probable %3E90%25</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Propuesta__c</picklist>
+        <values>
+            <fullName>Carta</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nueva oferta</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Verbal</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Reason</picklist>
+        <values>
+            <fullName>New problem</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ResponsablePago__c</picklist>
+        <values>
+            <fullName>ARRIAGA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Colegio de Abogados</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Empresa de seguros</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FRAILE MENA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ONION</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Resultado__c</picklist>
+        <values>
+            <fullName>ANULA CITA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CAMBIA CITA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CONFIRMADA POR EMAIL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CONFIRMADA TELEFÓNICAMENTE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DATOS DE CONTACTO INSUFICIENTES%2FINCORRECTO</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>RiesgoHE__c</picklist>
+        <values>
+            <fullName>Arriaga</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cliente</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SendEmail__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Si</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Terceros__c</picklist>
+        <values>
+            <fullName>ASESORIA COMERCIAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CALL CENTER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>COBRO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EJECUCIONES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FINANCIERO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MARKETING</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OION</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OTROS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PROCESAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRODUCCIÓN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RECOBRO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RESOLUCIONES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RESPONSABLES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RIESGOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SSJJ</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>TipoCliente__c</picklist>
+        <values>
+            <fullName>Informar sobre un problema</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solicitar documentación de un expediente</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solicitar información sobre plazos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solicitar información sobre un expediente</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solicitar información sobre un producto no contratado</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>TipoDeCierre__c</picklist>
+        <values>
+            <fullName>Aceptado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Desistido</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gestionado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No acuerdo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No desistimiento</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rechazado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reconducido</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>TipoHonorarios__c</picklist>
+        <values>
+            <fullName>%25</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>COA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fijo</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Acuerdo Revolving</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Información</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Petición</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Queja</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

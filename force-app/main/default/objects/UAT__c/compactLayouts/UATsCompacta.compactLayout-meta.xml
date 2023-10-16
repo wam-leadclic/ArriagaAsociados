@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>UATsCompacta</fullName>
+    <fields>Name</fields>
+    <fields>Estado__c</fields>
+    <fields>Asunto__c</fields>
+    <label>UATs Compacta</label>
+</CompactLayout>

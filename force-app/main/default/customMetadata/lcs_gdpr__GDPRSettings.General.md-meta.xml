@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>General</label>
+    <protected>false</protected>
+    <values>
+        <field>lcs_gdpr__AutoIndividualForContact__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>lcs_gdpr__AutoIndividualForLead__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>lcs_gdpr__AutoIndividualForPersonAccount__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>lcs_gdpr__Branding_Background__c</field>
+        <value xsi:type="xsd:string">https://arriagaasociados--c.documentforce.com/servlet/servlet.ImageServer?id=0151t000001V3sC&amp;oid=00D1t000000rxg7&amp;lastMod=1568625176000</value>
+    </values>
+    <values>
+        <field>lcs_gdpr__Branding_MainColorFocus__c</field>
+        <value xsi:type="xsd:string">#dc6002</value>
+    </values>
+    <values>
+        <field>lcs_gdpr__Branding_MainColor__c</field>
+        <value xsi:type="xsd:string">#ec6806</value>
+    </values>
+    <values>
+        <field>lcs_gdpr__Conclusion__c</field>
+        <value xsi:type="xsd:string">&lt;p align=&quot;left&quot; style=&quot;color:grey&quot;&gt;
+&lt;b&gt;Información Básica sobre protección de datos:&lt;/b&gt;
+&lt;br/&gt;
+&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td width=&quot;30px&quot; align=&quot;right&quot;&gt;&lt;image src=&quot;https://www.arriagaasociados.com/wp-content/uploads/2019/10/iconos-web/icono_responsable_de_tratamiento.png&quot;/&gt;&lt;/td&gt;
+		&lt;td style=&quot;font-size:12px;color:grey&quot;&gt;&lt;u&gt;Responsable del tratamiento:&lt;/u&gt; Arriaga Asociados Asesoramiento Jurídico y Económico, S.L.&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width=&quot;30px&quot; align=&quot;right&quot;&gt;&lt;image src=&quot;https://www.arriagaasociados.com/wp-content/uploads/2019/10/iconos-web/icono_finalidad.png&quot;/&gt;&lt;/td&gt;
+		&lt;td style=&quot;font-size:12px;color:grey&quot;&gt;&lt;u&gt;Finalidad:&lt;/u&gt; Prestación de servicio, Envío de comunicaciones comerciales en función de su comportamiento y preferencias personales, realización de encuestas de satisfacción.&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width=&quot;30px&quot; align=&quot;right&quot;&gt;&lt;image src=&quot;https://www.arriagaasociados.com/wp-content/uploads/2019/10/iconos-web/icono_legitimacion.png&quot;/&gt;&lt;/td&gt;
+		&lt;td style=&quot;font-size:12px;color:grey&quot;&gt;&lt;u&gt;Legitimación:&lt;/u&gt; Ejecución de un contrato, consentimiento e interés legítimo.&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width=&quot;30px&quot; align=&quot;right&quot;&gt;&lt;image src=&quot;https://www.arriagaasociados.com/wp-content/uploads/2019/10/iconos-web/icono_destinatarios.png&quot;/&gt;&lt;/td&gt;
+		&lt;td style=&quot;font-size:12px;color:grey&quot;&gt;&lt;u&gt;Destinatarios:&lt;/u&gt; Administraciones públicas, entidades financieras, juzgados y tribunales, notarías y registros, contraparte en el ejercicio del derecho de defensa y proveedores.&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width=&quot;30px&quot; align=&quot;right&quot;&gt;&lt;image src=&quot;https://www.arriagaasociados.com/wp-content/uploads/2019/10/iconos-web/icono_derechos.png&quot;/&gt;&lt;/td&gt;
+		&lt;td style=&quot;font-size:12px;color:grey&quot;&gt;&lt;u&gt;Derechos:&lt;/u&gt; Acceso, rectificación, supresión, limitación, oposición y portabilidad de datos.&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width=&quot;30px&quot; align=&quot;right&quot;&gt;&lt;image src=&quot;https://www.arriagaasociados.com/wp-content/uploads/2019/10/iconos-web/icono_procedencia_datos.png&quot;/&gt;&lt;/td&gt;
+		&lt;td style=&quot;font-size:12px;color:grey&quot;&gt;&lt;u&gt;Procedencia de los datos:&lt;/u&gt; El propio interesado, fuentes propias y de terceros.&lt;/td&gt;
+	&lt;/tr&gt;	
+&lt;/table&gt;
+&lt;br/&gt;	
+&lt;p align=&quot;left&quot; style=&quot;color:grey&quot;&gt;Puede consultar la información completa sobre protección de datos y la forma en que ejercitar sus derechos en nuestra &lt;a href=&quot;https://www.arriagaasociados.com/politica-de-privacidad/&quot;&gt;POLÍTICA DE PRIVACIDAD&lt;/a&gt;
+&lt;/p&gt;</value>
+    </values>
+    <values>
+        <field>lcs_gdpr__ErrorMessage__c</field>
+        <value xsi:type="xsd:string">&lt;p&gt;Ha ocurrido un error. Puede ponerse en contacto con nosotros a través del buzón LOPD@arriagaasociados.com&lt;/p&gt;</value>
+    </values>
+    <values>
+        <field>lcs_gdpr__Introduction__c</field>
+        <value xsi:type="xsd:string">&lt;p&gt;A continuación puede seleccionar aquellos propósitos para los que concede a Arriaga Asociados permiso sobre sus datos personales&lt;/p&gt;</value>
+    </values>
+    <values>
+        <field>lcs_gdpr__NewGDPRRequestsUserOrQueue__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>lcs_gdpr__RequestTypeExplanations__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>lcs_gdpr__ShowRequests__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>lcs_gdpr__SyncForContact__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>lcs_gdpr__SyncForIndividual__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>lcs_gdpr__SyncForLead__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>lcs_gdpr__SyncForPersonAccount__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>lcs_gdpr__Title__c</field>
+        <value xsi:type="xsd:string">Gestión de preferencias de privacidad</value>
+    </values>
+</CustomMetadata>

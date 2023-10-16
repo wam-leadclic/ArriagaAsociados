@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DeseoRecibirMensajesDeWhatsapp__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Deseo recibir comunicaciones de Whatsapp de Arriaga Asociados en función de mi comportamiento y mis preferencias personales, en los términos previstos en la Política de Privacidad.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Deseo recibir comunicaciones de Whatsapp de Arriaga Asociados en función de mi comportamiento y mis preferencias personales, en los términos previstos en la Política de Privacidad.</inlineHelpText>
+    <label>Deseo recibir Mensajes de Whatsapp</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,430 @@
+<template>
+    
+    <template if:true={isMonth}>
+        <div class="full-calendar">
+            <div class="text-uppercase">
+                <div class="slds-text-align_center month-day-name slds-truncate">{mondayLabel}</div>
+                <div class="slds-text-align_center month-day-name slds-truncate">{tuesdayLabel}</div>
+                <div class="slds-text-align_center month-day-name slds-truncate">{wednesdayLabel}</div>
+                <div class="slds-text-align_center month-day-name slds-truncate">{thursdayLabel}</div>
+                <div class="slds-text-align_center month-day-name slds-truncate">{fridayLabel}</div>
+                <div class="slds-text-align_center month-day-name slds-truncate">{suturdayLabel}</div>
+                <div class="slds-text-align_center month-day-name slds-truncate">{sundayLabel}</div>
+            </div>
+
+            <div class="month-body">
+                <template for:each={calendarWeeks} for:item="week">
+                    <div class="slds-size_1-of-1" key={week.numb}>
+                        <template for:each={week.days} for:item="day">
+                            <template if:true={day.today}>
+                                <template if:true={day.disabled}>
+                                    <div key={day.numb} class="month-cell today slds-p-around_xxx-small disabled-cell" data-drag-id={day.customId}>
+                                        <div class="height20">{day.label}</div>
+                                    </div>
+                                </template>
+                                <template if:false={day.disabled}>
+                                    <div key={day.numb} class="month-cell today slds-p-around_xxx-small" data-drag-id={day.customId}>
+                                        <div class="height20">{day.label}</div>
+                                        <template for:each={day.eventsToShow} for:item="event">
+
+
+                                            <template if:true={event.isEmpty}>
+                                                <div class="height20" key={event.element.Id}>
+                                                    <div class="empty-month-event slds-m-vertical_xxx-small slds-p-horizontal_xx-small slds-truncate">
+                                                        
+                                                    </div>
+                                                </div>
+                                            </template>
+                                            <template if:false={event.isEmpty}>
+                                                <div class="height20" key={event.element.Id}>
+                                                    <div class="filled-month-event slds-m-vertical_xxx-small slds-p-horizontal_xx-small slds-truncate" onclick={handleEventClick} data-element-id={event.element.Id} data-element-idx={event.element.Idx}>
+                                                        <template if:true={event.startDay}>
+                                                            <template if:false={event.element.IsAllDayEvent}>
+                                                                <lightning-formatted-date-time class="bold-text" time-zone={_userTimeZone} value={event.element.StartDateTime} hour="2-digit" minute="2-digit" data-element-id={event.element.Id} data-element-idx={event.element.Idx}></lightning-formatted-date-time>&nbsp;
+                                                            </template>
+                                                                {event.element.Subject}
+                                                        </template>
+                                                    </div>
+                                                </div>
+                                            </template>
+                                        </template>
+
+                                        <template if:true={day.moreEvents}>
+                                            <div class="height20 slds-truncate">
+                                                <a title={moreLabel} onclick={showExtraEvents} data-current-day={day.date}> + {day.extraEvents}&nbsp;{moreLabel}</a>
+                                            </div>
+                                        </template>
+                                    </div>
+                                </template>
+                            </template>
+                            
+                            <template if:false={day.today}>
+                                <template if:true={day.disabled}>
+                                    <div key={day.numb} class="month-cell slds-p-around_xxx-small disabled-cell" data-drag-id={day.customId}>
+                                        <div class="height20">{day.label}</div>
+                                    </div>
+                                </template>
+                                <template if:false={day.disabled}>
+                                    <div key={day.numb} class="month-cell slds-p-around_xxx-small">
+                                        <div class="slds-size_1-of-1 height20">{day.label}</div>
+                                        <template for:each={day.eventsToShow} for:item="event">
+                                            <template if:true={event.isEmpty}>
+                                                <div class="height20" key={event.element.Id}>
+                                                    <div class="empty-month-event slds-m-vertical_xxx-small slds-p-horizontal_xx-small slds-truncate">
+                                                        
+                                                    </div>
+                                                </div>
+                                            </template>
+                                            <template if:false={event.isEmpty}>
+                                                <div class="height20" key={event.element.Id}>
+                                                    <div class="filled-month-event slds-m-vertical_xxx-small slds-p-horizontal_xx-small slds-truncate" onclick={handleEventClick} data-element-id={event.element.Id} data-element-idx={event.element.Idx}>
+                                                        <template if:true={event.startDay}>
+                                                            <template if:false={event.element.IsAllDayEvent}>
+                                                                <lightning-formatted-date-time class="bold-text" time-zone={_userTimeZone} value={event.element.StartDateTime} hour="2-digit" minute="2-digit" data-element-id={event.element.Id} data-element-idx={event.element.Idx}></lightning-formatted-date-time>&nbsp;
+                                                            </template>
+                                                            {event.element.Subject}
+                                                        </template>
+                                                    </div>
+                                                </div>
+                                            </template>
+                                        </template>
+        
+                                        <template if:true={day.moreEvents}>
+                                            <div class="height20 slds-truncate">
+                                                <a title={moreLabel} onclick={showExtraEvents} data-current-day={day.date}> + {day.extraEvents}&nbsp;{moreLabel}</a>
+                                            </div>
+                                        </template>
+                                    </div>
+                                </template>
+                            </template>
+                        </template>
+                    </div>
+                </template>
+            </div>
+        </div>
+    </template>
+
+    <template if:true={isWeek}>
+        <div class="full-flex-calendar">
+            <div class="slds-size_1-of-1 header slds-grid slds-wrap scrollbar-padding">
+                <div class="calendar-header-prev">
+
+                </div>
+
+                <template for:each={calendarWeeks} for:item="day">
+                    <template if:true={day.disabled}>
+                        <div class="calendar-week-header slds-text-align_center slds-truncate disabled-cell text-uppercase" key={day.label}>
+                            <lightning-formatted-date-time value={day.label} weekday="short" day="2-digit"></lightning-formatted-date-time>
+                        </div>
+                    </template>
+                    <template if:false={day.disabled}>
+                        <div class="calendar-week-header slds-text-align_center slds-truncate text-uppercase" key={day.label}>
+                            <lightning-formatted-date-time value={day.label} weekday="short" day="2-digit"></lightning-formatted-date-time>
+                        </div>
+                    </template>
+                </template>
+                
+            </div>
+
+            <div class="scroll-calendar-body">
+                <template if:true={expanded}>
+                    <div class="block-to-expand">
+                        <div class="slds-size_1-of-1 day-block slds-grid slds-wrap expanded">
+                            <div class="all-day-block-prev">
+                            </div>
+
+                            <template for:each={calendarWeeks} for:item="day">
+                                <template if:true={day.disabled}>
+                                    <div class="all-day-week-block disabled-cell" key={day.label}>
+                                    </div>
+                                </template>
+                                <template if:false={day.disabled}>
+                                    <div class="all-day-week-block" key={day.label}>
+                                        <div class="slds-size_1-of-1">
+                                            <template for:each={day.allDayEvents} for:item="allDayEvent">
+                                                <template if:true={allDayEvent.isEmpty}>
+                                                    <div class="all-day-row" key={allDayEvent.element.Id}>
+                                                        <div class="empty-all-day slds-size_1-of-1 slds-m-around_xxx-small slds-p-horizontal_xx-small slds-truncate">
+                                                            
+                                                        </div>
+                                                    </div>
+                                                </template>
+                                                <template if:false={allDayEvent.isEmpty}>
+                                                    <div class="all-day-row" key={allDayEvent.element.Id}>
+                                                        <div class="filled-all-day slds-size_1-of-1 slds-m-around_xxx-small slds-p-horizontal_xx-small slds-truncate" onclick={handleEventClick} data-element-id={allDayEvent.element.Id} data-element-idx={allDayEvent.element.Idx}>
+                                                            <template if:true={allDayEvent.startDay}>
+                                                                <template if:false={allDayEvent.element.IsAllDayEvent}>
+                                                                    <lightning-formatted-date-time class="bold-text" time-zone={_userTimeZone} value={allDayEvent.element.StartDateTime} hour="2-digit" minute="2-digit" data-element-id={allDayEvent.element.Id} data-element-idx={allDayEvent.element.Idx}></lightning-formatted-date-time>&nbsp;
+                                                                </template>
+                                                                {allDayEvent.element.Subject}
+                                                            </template>
+                                                        </div>
+                                                    </div>
+                                                </template>
+                                            </template>
+                                        </div>
+                                    </div>
+                                </template>
+                            </template>
+                        </div>
+                        <div class="expand-button">
+                            <lightning-button-icon icon-name="utility:chevronup" variant="border-filled" onclick={handleExpandExtra} alternative-text="Hide"></lightning-button-icon>
+                        </div>
+                    </div>
+                </template>
+        
+                <template if:false={expanded}>
+                    <div class="block-to-expand">
+                        <div class="slds-size_1-of-1 day-block slds-grid slds-wrap">
+                            <div class="all-day-block-prev">
+                            </div>
+        
+                            <template for:each={calendarWeeks} for:item="day">
+                                <template if:true={day.disabled}>
+                                    <div class="all-day-week-block disabled-cell" key={day.label}>
+                                    </div>
+                                </template>
+                                <template if:false={day.disabled}>
+                                    <div class="all-day-week-block" key={day.label}>
+                                        <div class="slds-size_1-of-1">
+                                            <template for:each={day.allDayEvents} for:item="allDayEvent">
+                                                <template if:true={allDayEvent.isEmpty}>
+                                                    <div class="all-day-row" key={allDayEvent.element.Id}>
+                                                        <div class="empty-all-day slds-size_1-of-1 slds-m-around_xxx-small slds-p-horizontal_xx-small slds-truncate">
+                                                            
+                                                        </div>
+                                                    </div>
+                                                </template>
+                                                <template if:false={allDayEvent.isEmpty}>
+                                                    <div class="all-day-row" key={allDayEvent.element.Id}>
+                                                        <div class="filled-all-day slds-size_1-of-1 slds-m-around_xxx-small slds-p-horizontal_xx-small slds-truncate" onclick={handleEventClick} data-element-id={allDayEvent.element.Id} data-element-idx={allDayEvent.element.Idx}>
+                                                            <template if:true={allDayEvent.startDay}>
+                                                                <template if:false={allDayEvent.element.IsAllDayEvent}>
+                                                                    <lightning-formatted-date-time class="bold-text" time-zone={_userTimeZone} value={allDayEvent.element.StartDateTime} hour="2-digit" minute="2-digit" data-element-id={allDayEvent.element.Id} data-element-idx={allDayEvent.element.Idx}></lightning-formatted-date-time>&nbsp;
+                                                                </template>
+                                                                {allDayEvent.element.Subject}
+                                                            </template>
+                                                        </div>
+                                                    </div>
+                                                </template>
+                                            </template>
+                                        </div>
+                                    </div>
+                                </template>
+                            </template>
+                        </div>
+                        <div class="expand-button">
+                            <lightning-button-icon icon-name="utility:chevrondown" variant="border-filled" onclick={handleExpandExtra} alternative-text="Expand"></lightning-button-icon>
+                        </div>
+                    </div>
+                </template>
+                
+
+                <div class="slds-size_1-of-1 calendar slds-grid slds-wrap">
+                    <div class="calendar-body-prev">
+                        <template for:each={hoursTime} for:item="hour">
+                            <div class="hour-block" key={hour}>
+                                <lightning-formatted-date-time class="hour-label" value={hour} hour="numeric"></lightning-formatted-date-time>
+                            </div>
+                        </template>
+                    </div>
+
+                    <template for:each={calendarWeeks} for:item="day">
+                        <template if:true={day.disabled}>
+                            <div class="calendar-week-body disabled-cell" key={day.label}>
+                                <template for:each={day.eventsByHour} for:item="hourRecord">
+                                    <div class="slds-size_1-of-1 hour-row" key={hourRecord.hour}>
+                                    </div>
+                                </template>
+                            </div>
+                        </template>
+                        
+                        <template if:false={day.disabled}>
+                            <div class="calendar-week-body" key={day.label}>
+                                <template for:each={day.eventsByHour} for:item="hourRecord">
+                                    <div class="slds-size_1-of-1 hour-row" key={hourRecord.hour}>
+                                        <template for:each={hourRecord.eventsToShow} for:item="event">
+                                            
+                                            <template if:true={hourRecord.moreEvents}>
+                                                <template if:false={event.isEmpty}>
+                                                    <template if:true={event.startHour}>
+                                                        <div class="filled-hour slds-m-around_xxx-small slds-p-horizontal_xx-small slds-truncate week-hour-col" onclick={handleEventClick} data-element-id={event.element.Id} data-element-idx={event.element.Idx} key={event.element.Id}>
+                                                            <lightning-formatted-date-time class="bold-text" time-zone={_userTimeZone} value={event.element.StartDateTime} hour="2-digit" minute="2-digit" data-element-id={event.element.Id} data-element-idx={event.element.Idx}></lightning-formatted-date-time>
+                                                            -<lightning-formatted-date-time class="bold-text" time-zone={_userTimeZone} value={event.element.EndDateTime} hour="2-digit" minute="2-digit" data-element-id={event.element.Id} data-element-idx={event.element.Idx}></lightning-formatted-date-time>
+                                                            <br/>
+                                                            {event.element.Subject}
+                                                        </div>
+                                                    </template>
+                                                    <template if:false={event.startHour}>
+                                                        <div class="filled-hour slds-m-around_xxx-small slds-p-horizontal_xx-small slds-truncate week-hour-col" onclick={handleEventClick} data-element-id={event.element.Id} data-element-idx={event.element.Idx} key={event.element.Id}>
+                                                            {event.element.Subject}
+                                                        </div>
+                                                    </template>
+                                                </template>
+                                                <template if:true={event.isEmpty}>
+                                                    <div class="empty-hour slds-m-around_xxx-small slds-p-horizontal_xx-small slds-truncate week-hour-col" data-element-id={event.element.Id} data-element-idx={event.element.Idx} key={event.element.Id}>
+                                                    </div>
+                                                </template>
+                                            </template>
+
+                                            <template if:false={hourRecord.moreEvents}>
+                                                    <template if:false={event.isEmpty}>
+                                                        <template if:true={event.startHour}>
+                                                            <div class="filled-hour slds-m-around_xxx-small slds-p-horizontal_xx-small slds-truncate week-hour-col-full" onclick={handleEventClick} data-element-id={event.element.Id} data-element-idx={event.element.Idx} key={event.element.Id}>
+                                                                <lightning-formatted-date-time class="bold-text" time-zone={_userTimeZone} value={event.element.StartDateTime} hour="2-digit" minute="2-digit" data-element-id={event.element.Id} data-element-idx={event.element.Idx}></lightning-formatted-date-time>
+                                                                -<lightning-formatted-date-time class="bold-text" time-zone={_userTimeZone} value={event.element.EndDateTime} hour="2-digit" minute="2-digit" data-element-id={event.element.Id} data-element-idx={event.element.Idx}></lightning-formatted-date-time>
+                                                                <br/>
+                                                                {event.element.Subject}
+                                                            </div>
+                                                        </template>
+                                                        <template if:false={event.startHour}>
+                                                            <div class="filled-hour slds-m-around_xxx-small slds-p-horizontal_xx-small slds-truncate week-hour-col-full" onclick={handleEventClick} data-element-id={event.element.Id} data-element-idx={event.element.Idx} key={event.element.Id}>
+                                                                {event.element.Subject}
+                                                            </div>
+                                                        </template>
+                                                    </template>
+                                                    <template if:true={event.isEmpty}>
+                                                        <div class="empty-hour slds-m-around_xxx-small slds-p-horizontal_xx-small slds-truncate week-hour-col-full" data-element-id={event.element.Id} data-element-idx={event.element.Idx} key={event.element.Id}>
+                                                        </div>
+                                                    </template>
+                                                </template>
+                                        </template>
+                                        <template if:true={hourRecord.moreEvents}>
+                                            <div class="horizontal-more-link-week slds-truncate">
+                                                <a title={moreLabel} onclick={showExtraHourEvents} data-current-hour={hourRecord.hour} data-current-date={day.label}> + {hourRecord.extraEvents}&nbsp;{moreLabel}</a>
+                                            </div>
+                                        </template>
+                                    </div>
+                                </template>
+                            </div>
+                        </template>
+                    </template>
+                </div>
+            </div>
+        </div>
+    </template>
+
+    <template if:true={isDay}>
+        <div class="full-flex-calendar">
+            <div class="slds-size_1-of-1 header slds-grid slds-wrap">
+                <div class="calendar-header-prev">
+
+                </div>
+
+                <template for:each={calendarWeeks} for:item="day">
+                    <div class="calendar-header slds-text-align_center" key={day.label}>
+                        <lightning-formatted-date-time value={day.label} weekday="long"></lightning-formatted-date-time>
+                    </div>
+                </template>
+                
+            </div>
+            <div class="scroll-calendar-body">
+                <template if:true={expanded}>
+                    <div class="block-to-expand">
+                        <div class="slds-size_1-of-1 day-block slds-grid slds-wrap expanded">
+                            <div class="all-day-block-prev">
+
+                            </div>
+
+                            <template for:each={calendarWeeks} for:item="day">
+                                <div class="all-day-block" key={day.label}>
+                                    <div class="slds-size_1-of-1">
+                                        <template for:each={day.allDayEvents} for:item="allDayEvent">
+                                            <div class="all-day-row" key={allDayEvent.element.Id}>
+                                                <div class="eventLine slds-m-around_xxx-small slds-p-horizontal_xx-small slds-truncate" onclick={handleEventClick} data-element-id={allDayEvent.element.Id} data-element-idx={allDayEvent.element.Idx}>
+                                                    <template if:false={allDayEvent.element.IsAllDayEvent}>
+                                                        <lightning-formatted-date-time class="bold-text" time-zone={_userTimeZone} value={allDayEvent.element.StartDateTime} hour="2-digit" minute="2-digit" data-element-id={allDayEvent.element.Id} data-element-idx={allDayEvent.element.Idx}></lightning-formatted-date-time>&nbsp;
+                                                    </template>
+                                                    {allDayEvent.element.Subject}
+                                                </div>
+                                            </div>
+                                        </template>
+                                    </div>
+                                </div>
+                            </template>
+                        </div>
+                        <div class="expand-button">
+                            <lightning-button-icon icon-name="utility:chevronup" variant="border-filled" onclick={handleExpandExtra} alternative-text="Expand"></lightning-button-icon>
+                        </div>
+                    </div>
+                </template>
+                <template if:false={expanded}>
+                    <div class="block-to-expand">
+                        <div class="slds-size_1-of-1 day-block slds-grid slds-wrap">
+                            <div class="all-day-block-prev">
+
+                            </div>
+
+                            <template for:each={calendarWeeks} for:item="day">
+                                <div class="all-day-block" key={day.label}>
+                                    <div class="slds-size_1-of-1">
+                                        <template for:each={day.allDayEvents} for:item="allDayEvent">
+                                            <div class="all-day-row" key={allDayEvent.element.Id}>
+                                                <div class="eventLine slds-m-around_xxx-small slds-p-horizontal_xx-small slds-truncate" onclick={handleEventClick} data-element-id={allDayEvent.element.Id} data-element-idx={allDayEvent.element.Idx}>
+                                                    <template if:false={allDayEvent.element.IsAllDayEvent}>
+                                                        <lightning-formatted-date-time class="bold-text" time-zone={_userTimeZone} value={allDayEvent.element.StartDateTime} hour="2-digit" minute="2-digit" data-element-id={allDayEvent.element.Id} data-element-idx={allDayEvent.element.Idx}></lightning-formatted-date-time>&nbsp;
+                                                    </template>
+                                                    {allDayEvent.element.Subject}
+                                                </div>
+                                            </div>
+                                        </template>
+                                    </div>
+                                </div>
+                            </template>
+                        </div>
+                        <div class="expand-button">
+                            <lightning-button-icon icon-name="utility:chevrondown" variant="border-filled" onclick={handleExpandExtra} alternative-text="Expand"></lightning-button-icon>
+                        </div>
+                    </div>
+                </template>
+
+                <div class="slds-size_1-of-1 calendar slds-grid slds-wrap">
+                    <div class="calendar-body-prev">
+                        <template for:each={hoursTime} for:item="hour">
+                            <div class="hour-block" key={hour}>
+                                <lightning-formatted-date-time class="hour-label" value={hour} hour="numeric"></lightning-formatted-date-time>
+                            </div>
+                        </template>
+                    </div>
+
+                    <template for:each={calendarWeeks} for:item="day">
+                        <div class="calendar-body" key={day.label}>
+                            <template for:each={day.eventsByHour} for:item="hourRecord">
+                                <div class="slds-size_1-of-1 hour-row" key={hourRecord.hour}>
+                                    <template for:each={hourRecord.eventsToShow} for:item="event">
+                                        <template if:false={event.isEmpty}>
+                                            <template if:true={event.startHour}>
+                                                <div class="filled-hour slds-m-around_xxx-small slds-p-horizontal_xx-small slds-truncate day-hour-col" onclick={handleEventClick} data-element-id={event.element.Id} data-element-idx={event.element.Idx} key={event.element.Id}>
+                                                    <lightning-formatted-date-time class="bold-text" time-zone={_userTimeZone} value={event.element.StartDateTime} hour="2-digit" minute="2-digit" data-element-id={event.element.Id} data-element-idx={event.element.Idx}></lightning-formatted-date-time>
+                                                    -<lightning-formatted-date-time class="bold-text" time-zone={_userTimeZone} value={event.element.EndDateTime} hour="2-digit" minute="2-digit" data-element-id={event.element.Id} data-element-idx={event.element.Idx}></lightning-formatted-date-time>
+                                                    <br/>
+                                                    {event.element.Subject}
+                                                </div>
+                                            </template>
+                                            <template if:false={event.startHour}>
+                                                <div class="filled-hour slds-m-around_xxx-small slds-p-horizontal_xx-small slds-truncate day-hour-col" onclick={handleEventClick} data-element-id={event.element.Id} data-element-idx={event.element.Idx} key={event.element.Id}>
+                                                
+                                                        {event.element.Subject}</div>
+                                            </template>
+                                        </template>
+                                        <template if:true={event.isEmpty}>
+                                            <div class="empty-hour slds-m-around_xxx-small slds-p-horizontal_xx-small slds-truncate day-hour-col" data-element-id={event.element.Id} data-element-idx={event.element.Idx} key={event.element.Id}>
+                                            </div>
+                                        </template>
+                                    </template>
+                                    <template if:true={hourRecord.moreEvents}>
+                                        <div class="horizontal-more-link-day slds-truncate">
+                                            <a title={moreLabel} onclick={showExtraHourEvents} data-current-hour={hourRecord.hour} data-current-date={_selectedDate}> + {hourRecord.extraEvents}&nbsp;{moreLabel}</a>
+                                        </div>
+                                    </template>
+                                </div>
+                            </template>
+                        </div>
+                    </template>
+                </div>  
+            </div> 
+        </div>
+    </template>
+    <c-event-modal class="slds-size_1-of-1" user-time-zone={_userTimeZone}></c-event-modal>
+    <c-extra-events-modal onhandleeventclick={handleExtraModalClick} user-time-zone={_userTimeZone} class="slds-size_1-of-1"></c-extra-events-modal>
+</template>

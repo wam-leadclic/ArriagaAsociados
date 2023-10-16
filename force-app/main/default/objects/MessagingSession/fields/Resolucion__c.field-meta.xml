@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Resolucion__c</fullName>
+    <externalId>false</externalId>
+    <label>Resolución</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Activación/reactivación portal del cliente</fullName>
+                <default>false</default>
+                <label>Activación/reactivación portal del cliente</label>
+            </value>
+            <value>
+                <fullName>Anulación cita contratación</fullName>
+                <default>false</default>
+                <label>Anulación cita contratación</label>
+            </value>
+            <value>
+                <fullName>Cambio cita contratación</fullName>
+                <default>false</default>
+                <label>Cambio cita contratación</label>
+            </value>
+            <value>
+                <fullName>Cambio o anulación cita informativa/completado</fullName>
+                <default>false</default>
+                <label>Cambio o anulación cita informativa/completado</label>
+            </value>
+            <value>
+                <fullName>Cita informativa/completado</fullName>
+                <default>false</default>
+                <label>Cita informativa/completado</label>
+            </value>
+            <value>
+                <fullName>Cliente contesta a mensaje de cierre</fullName>
+                <default>false</default>
+                <label>Cliente contesta a mensaje de cierre</label>
+            </value>
+            <value>
+                <fullName>Cliente derivo a Atención al cliente</fullName>
+                <default>false</default>
+                <label>Cliente derivo a Atención al cliente</label>
+            </value>
+            <value>
+                <fullName>Cliente derivo a Comercial</fullName>
+                <default>false</default>
+                <label>Cliente derivo a Comercial</label>
+            </value>
+            <value>
+                <fullName>Cliente derivo a Ejecuciones</fullName>
+                <default>false</default>
+                <label>Cliente derivo a Ejecuciones</label>
+            </value>
+            <value>
+                <fullName>Cliente derivo a Gestión de cobros</fullName>
+                <default>false</default>
+                <label>Cliente derivo a Gestión de cobros</label>
+            </value>
+            <value>
+                <fullName>Cliente derivo a Procesal</fullName>
+                <default>false</default>
+                <label>Cliente derivo a Procesal</label>
+            </value>
+            <value>
+                <fullName>Cliente derivo a Recobro</fullName>
+                <default>false</default>
+                <label>Cliente derivo a Recobro</label>
+            </value>
+            <value>
+                <fullName>Cliente derivo a Resoluciones</fullName>
+                <default>false</default>
+                <label>Cliente derivo a Resoluciones</label>
+            </value>
+            <value>
+                <fullName>Cliente Información general</fullName>
+                <default>false</default>
+                <label>Cliente Información general</label>
+            </value>
+            <value>
+                <fullName>Cliente ya ha hablado con Arriaga</fullName>
+                <default>false</default>
+                <label>Cliente ya ha hablado con Arriaga</label>
+            </value>
+            <value>
+                <fullName>Derivo a asesor</fullName>
+                <default>false</default>
+                <label>Derivo a asesor</label>
+            </value>
+            <value>
+                <fullName>Equivocación</fullName>
+                <default>false</default>
+                <label>Equivocación</label>
+            </value>
+            <value>
+                <fullName>Falta del respuesta del cliente</fullName>
+                <default>false</default>
+                <label>Falta del respuesta del cliente</label>
+            </value>
+            <value>
+                <fullName>Generamos cita</fullName>
+                <default>false</default>
+                <label>Generamos cita</label>
+            </value>
+            <value>
+                <fullName>Indeciso</fullName>
+                <default>false</default>
+                <label>Indeciso</label>
+            </value>
+            <value>
+                <fullName>Información inicial</fullName>
+                <default>false</default>
+                <label>Información inicial</label>
+            </value>
+            <value>
+                <fullName>No hay agenda disponible</fullName>
+                <default>false</default>
+                <label>No hay agenda disponible</label>
+            </value>
+            <value>
+                <fullName>No interesado</fullName>
+                <default>false</default>
+                <label>No interesado</label>
+            </value>
+            <value>
+                <fullName>No puede conseguir la docum.</fullName>
+                <default>false</default>
+                <label>No puede conseguir la docum.</label>
+            </value>
+            <value>
+                <fullName>No tiene toda la documentación</fullName>
+                <default>false</default>
+                <label>No tiene toda la documentación</label>
+            </value>
+            <value>
+                <fullName>Producto no contratable</fullName>
+                <default>false</default>
+                <label>Producto no contratable</label>
+            </value>
+            <value>
+                <fullName>Queja ATC</fullName>
+                <default>false</default>
+                <label>Queja ATC</label>
+            </value>
+            <value>
+                <fullName>Se deriva a conversación telefónica</fullName>
+                <default>false</default>
+                <label>Se deriva a conversación telefónica</label>
+            </value>
+            <value>
+                <fullName>Tiempo expirado 24 h</fullName>
+                <default>false</default>
+                <label>Tiempo expirado 24 h</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

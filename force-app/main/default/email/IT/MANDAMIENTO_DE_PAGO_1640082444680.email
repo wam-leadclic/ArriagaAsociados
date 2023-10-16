@@ -1,0 +1,18 @@
+<html><head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Estimado&nbsp;{{{Recipient.FirstName}}}
+<div style="margin-left: 40px;">Nos ponemos en contacto, para informarte que hemos <b><u><i>recibido</i></u></b> un Mandamiento de Pago a tu favor relacionado a tu procedimiento de reclamación de (nombre del producto) frente a (nombre del banco) por lo que en un plazo estimado de 10 a 15 días podrás recibir la transferencia relacionada a tu expediente<b> <span style="color:#c0392b;">(XXXX)</span> </b>por importe de (cantidad €).</div>
+
+<ol>
+	<li style="margin-left: 40px;">kk</li>
+	<li style="margin-left: 40px;">gh</li>
+</ol>
+
+<div style="margin-left: 40px;">&nbsp;</div>
+
+<ol>
+</ol>
+<br />
+&nbsp;
+</body></html>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CandidatoWebEliminar__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Si es un canidato Web y ya existe un contacto con ese email o nombre+apellido+email se marca este candidato que se inserta para su eliminación</description>
+    <externalId>false</externalId>
+    <label>Candidato Web Eliminar</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

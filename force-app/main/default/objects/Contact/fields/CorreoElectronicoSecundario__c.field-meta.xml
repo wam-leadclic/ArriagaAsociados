@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CorreoElectronicoSecundario__c</fullName>
+    <description>Correo electrónico secundario para los contactos</description>
+    <externalId>false</externalId>
+    <label>Correo Electrónico Secundario</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Email</type>
+    <unique>false</unique>
+</CustomField>

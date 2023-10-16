@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EntitlementProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <SObjectType>Case</SObjectType>
+    <active>true</active>
+    <description>Proceso de asignación para los casos</description>
+    <entryStartDateField>Case.CreatedDate</entryStartDateField>
+    <exitCriteriaFilterItems>
+        <field>Case.Status</field>
+        <operation>equals</operation>
+        <value>Cerrado</value>
+    </exitCriteriaFilterItems>
+    <isVersionDefault>false</isVersionDefault>
+    <milestones>
+        <businessHours>ATC</businessHours>
+        <milestoneCriteriaFilterItems>
+            <field>Case.Type</field>
+            <operation>equals</operation>
+            <value>Información</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneName>Gestión de casos</milestoneName>
+        <minutesToComplete>1440</minutesToComplete>
+        <useCriteriaStartTime>false</useCriteriaStartTime>
+    </milestones>
+    <milestones>
+        <businessHours>ATC</businessHours>
+        <milestoneCriteriaFilterItems>
+            <field>Case.Type</field>
+            <operation>equals</operation>
+            <value>Petición</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneName>Gestión de casos</milestoneName>
+        <minutesToComplete>1440</minutesToComplete>
+        <useCriteriaStartTime>false</useCriteriaStartTime>
+    </milestones>
+    <milestones>
+        <businessHours>ATC</businessHours>
+        <milestoneCriteriaFilterItems>
+            <field>Case.Type</field>
+            <operation>equals</operation>
+            <value>Queja</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneName>Gestión de casos</milestoneName>
+        <minutesToComplete>480</minutesToComplete>
+        <useCriteriaStartTime>false</useCriteriaStartTime>
+    </milestones>
+    <milestones>
+        <businessHours>Call Center Confirmación Cita</businessHours>
+        <milestoneCriteriaFilterItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Call Center Confirmación de cita</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneName>Gestión de casos</milestoneName>
+        <minutesToComplete>480</minutesToComplete>
+        <useCriteriaStartTime>false</useCriteriaStartTime>
+    </milestones>
+    <milestones>
+        <businessHours>Call Center Confirmación Cita</businessHours>
+        <milestoneCriteriaFilterItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Call Center Recaptura</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneCriteriaFilterItems>
+            <field>Case.Origin</field>
+            <operation>equals</operation>
+            <value>Cita no atendida</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneName>Gestión de casos</milestoneName>
+        <minutesToComplete>480</minutesToComplete>
+        <useCriteriaStartTime>false</useCriteriaStartTime>
+    </milestones>
+    <milestones>
+        <businessHours>Financiero</businessHours>
+        <milestoneCriteriaFilterItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Financiero</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneCriteriaFilterItems>
+            <field>Case.Priority</field>
+            <operation>equals</operation>
+            <value>Crítica</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneName>Gestión de casos</milestoneName>
+        <minutesToComplete>4320</minutesToComplete>
+        <useCriteriaStartTime>false</useCriteriaStartTime>
+    </milestones>
+    <milestones>
+        <businessHours>Financiero</businessHours>
+        <milestoneCriteriaFilterItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Financiero</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneCriteriaFilterItems>
+            <field>Case.Priority</field>
+            <operation>equals</operation>
+            <value>Alta</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneName>Gestión de casos</milestoneName>
+        <minutesToComplete>10080</minutesToComplete>
+        <useCriteriaStartTime>false</useCriteriaStartTime>
+    </milestones>
+    <milestones>
+        <businessHours>Financiero</businessHours>
+        <milestoneCriteriaFilterItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Financiero</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneCriteriaFilterItems>
+            <field>Case.Priority</field>
+            <operation>equals</operation>
+            <value>Media</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneCriteriaFilterItems>
+            <field>Case.Type</field>
+            <operation>equals</operation>
+            <value>Acuerdo, Desistimiento</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneName>Gestión de casos</milestoneName>
+        <minutesToComplete>30240</minutesToComplete>
+        <useCriteriaStartTime>false</useCriteriaStartTime>
+    </milestones>
+    <milestones>
+        <businessHours>Financiero</businessHours>
+        <milestoneCriteriaFilterItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Financiero - Gestión cobros</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneName>Gestión de casos</milestoneName>
+        <minutesToComplete>14400</minutesToComplete>
+        <useCriteriaStartTime>false</useCriteriaStartTime>
+    </milestones>
+    <milestones>
+        <businessHours>Financiero</businessHours>
+        <milestoneCriteriaFilterItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Financiero</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneCriteriaFilterItems>
+            <field>Case.Priority</field>
+            <operation>equals</operation>
+            <value>Baja</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneCriteriaFilterItems>
+            <field>Case.Type</field>
+            <operation>equals</operation>
+            <value>Acuerdo, Desistimiento</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneName>Gestión de casos</milestoneName>
+        <minutesToComplete>43800</minutesToComplete>
+        <useCriteriaStartTime>false</useCriteriaStartTime>
+    </milestones>
+    <name>Gestión de casos</name>
+    <versionMaster>5521t000000HEhC</versionMaster>
+    <versionNumber>1</versionNumber>
+</EntitlementProcess>

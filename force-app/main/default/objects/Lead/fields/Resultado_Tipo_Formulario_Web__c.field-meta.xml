@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Resultado_Tipo_Formulario_Web__c</fullName>
+    <description>Resultado Tipo Formulario Web, hacer el seguimiento de los candidatos recibidos a través de formulario web</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Resultado seguimiento de los candidatos</inlineHelpText>
+    <label>Resultado Tipo Formulario Web</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Tipo_Formulario_Web__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>CITA PRESENCIAL</fullName>
+                <default>false</default>
+                <label>Cita Presencial</label>
+            </value>
+            <value>
+                <fullName>CITA TELEFÓNICA</fullName>
+                <default>false</default>
+                <label>Cita Telefónica</label>
+            </value>
+            <value>
+                <fullName>CITA VIDEOCONFERENCIA</fullName>
+                <default>false</default>
+                <label>Cita Videoconferencia</label>
+            </value>
+            <value>
+                <fullName>DESCARTADO / NO INTERESA</fullName>
+                <default>false</default>
+                <label>Descartado / no Interesa</label>
+            </value>
+            <value>
+                <fullName>INDECISO / NO TIENE DOCUMENTACIÓN</fullName>
+                <default>false</default>
+                <label>Indeciso / No Tiene Documentación</label>
+            </value>
+            <value>
+                <fullName>Llamadas restringidas</fullName>
+                <default>false</default>
+                <label>Llamadas restringidas</label>
+            </value>
+            <value>
+                <fullName>Mail informativo costes</fullName>
+                <default>false</default>
+                <label>Mail informativo costes</label>
+            </value>
+            <value>
+                <fullName>Máximo Nº de Llamadas</fullName>
+                <default>false</default>
+                <label>Máximo Nº de Llamadas</label>
+            </value>
+            <value>
+                <fullName>NO CONTESTA</fullName>
+                <default>false</default>
+                <label>No Contesta</label>
+            </value>
+            <value>
+                <fullName>NO HAY OFICINA ABIERTA</fullName>
+                <default>false</default>
+                <label>No hay Oficina Abierta</label>
+            </value>
+            <value>
+                <fullName>No localizado candidato Recaptura</fullName>
+                <default>false</default>
+                <label>No Localizado Candidato Recaptura</label>
+            </value>
+            <value>
+                <fullName>No localizado cita online</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>No localizado cita online</label>
+            </value>
+            <value>
+                <fullName>NO LOCALIZADO EMAIL INFORMACIÓN EXPEDIENTE</fullName>
+                <default>false</default>
+                <label>No Localizado Email Información Expediente</label>
+            </value>
+            <value>
+                <fullName>NO LOCALIZADO EMAIL NO CONTRATABLE</fullName>
+                <default>false</default>
+                <label>No Localizado Email no Contratable</label>
+            </value>
+            <value>
+                <fullName>NO LOCALIZADO EMAIL SOLICITUD INFORMACIÓN</fullName>
+                <default>false</default>
+                <label>No Localizado Email Solicitud Información</label>
+            </value>
+            <value>
+                <fullName>NO LOCALIZADO EMAIL SOLO ASESORAMIENTO</fullName>
+                <default>false</default>
+                <label>No Localizado Email Solo Asesoramiento</label>
+            </value>
+            <value>
+                <fullName>NO LOCALIZADO SOLICITA CITA PRESENCIAL</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>No Localizado Solicita Cita Presencial</label>
+            </value>
+            <value>
+                <fullName>NO LOCALIZADO SOLICITA CITA VIDEOCONFERENCIA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>No Localizado Solicita Cita Videoconferencia</label>
+            </value>
+            <value>
+                <fullName>Revolving_sin_documentacion</fullName>
+                <default>false</default>
+                <label>Revolving sin documentación</label>
+            </value>
+            <value>
+                <fullName>Teléfono no existe / Incorrecto</fullName>
+                <default>false</default>
+                <label>Teléfono no existe / Incorrecto</label>
+            </value>
+            <value>
+                <fullName>TRANSFERIDO O CASO ATC</fullName>
+                <default>false</default>
+                <label>Transferido o Caso ATC</label>
+            </value>
+            <value>
+                <fullName>VOLVER A LLAMAR EN FECHA CONCRETA</fullName>
+                <default>false</default>
+                <label>Volver a Llamar en Fecha Concreta</label>
+            </value>
+            <value>
+                <fullName>YA GESTIONADO</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>YA GESTIONADO</label>
+            </value>
+            <value>
+                <fullName>Ya gestionado / Duplicado</fullName>
+                <default>false</default>
+                <label>Ya gestionado / Duplicado</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>CON PRODUCTO CONCRETO</controllingFieldValue>
+            <valueName>CITA PRESENCIAL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CON PRODUCTO CONCRETO</controllingFieldValue>
+            <valueName>CITA TELEFÓNICA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CON PRODUCTO CONCRETO</controllingFieldValue>
+            <valueName>CITA VIDEOCONFERENCIA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CON PRODUCTO CONCRETO</controllingFieldValue>
+            <controllingFieldValue>PRODUCTO NO CONTRATABLE</controllingFieldValue>
+            <controllingFieldValue>SIN PRODUCTO CONCRETO</controllingFieldValue>
+            <controllingFieldValue>ASESORAMIENTO GRATUITO</controllingFieldValue>
+            <controllingFieldValue>YA CLIENTE</controllingFieldValue>
+            <valueName>DESCARTADO / NO INTERESA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CON PRODUCTO CONCRETO</controllingFieldValue>
+            <valueName>INDECISO / NO TIENE DOCUMENTACIÓN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CON PRODUCTO CONCRETO</controllingFieldValue>
+            <controllingFieldValue>PRODUCTO NO CONTRATABLE</controllingFieldValue>
+            <controllingFieldValue>SIN PRODUCTO CONCRETO</controllingFieldValue>
+            <controllingFieldValue>ASESORAMIENTO GRATUITO</controllingFieldValue>
+            <controllingFieldValue>YA CLIENTE</controllingFieldValue>
+            <valueName>Llamadas restringidas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CON PRODUCTO CONCRETO</controllingFieldValue>
+            <valueName>Mail informativo costes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CON PRODUCTO CONCRETO</controllingFieldValue>
+            <controllingFieldValue>SIN PRODUCTO CONCRETO</controllingFieldValue>
+            <valueName>Máximo Nº de Llamadas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CON PRODUCTO CONCRETO</controllingFieldValue>
+            <controllingFieldValue>PRODUCTO NO CONTRATABLE</controllingFieldValue>
+            <controllingFieldValue>SIN PRODUCTO CONCRETO</controllingFieldValue>
+            <controllingFieldValue>ASESORAMIENTO GRATUITO</controllingFieldValue>
+            <controllingFieldValue>YA CLIENTE</controllingFieldValue>
+            <valueName>NO CONTESTA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CON PRODUCTO CONCRETO</controllingFieldValue>
+            <valueName>NO HAY OFICINA ABIERTA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CON PRODUCTO CONCRETO</controllingFieldValue>
+            <valueName>No localizado candidato Recaptura</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CON PRODUCTO CONCRETO</controllingFieldValue>
+            <valueName>Revolving_sin_documentacion</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CON PRODUCTO CONCRETO</controllingFieldValue>
+            <controllingFieldValue>PRODUCTO NO CONTRATABLE</controllingFieldValue>
+            <controllingFieldValue>SIN PRODUCTO CONCRETO</controllingFieldValue>
+            <controllingFieldValue>ASESORAMIENTO GRATUITO</controllingFieldValue>
+            <controllingFieldValue>YA CLIENTE</controllingFieldValue>
+            <valueName>Teléfono no existe / Incorrecto</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CON PRODUCTO CONCRETO</controllingFieldValue>
+            <controllingFieldValue>SIN PRODUCTO CONCRETO</controllingFieldValue>
+            <controllingFieldValue>YA CLIENTE</controllingFieldValue>
+            <valueName>TRANSFERIDO O CASO ATC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CON PRODUCTO CONCRETO</controllingFieldValue>
+            <controllingFieldValue>PRODUCTO NO CONTRATABLE</controllingFieldValue>
+            <controllingFieldValue>SIN PRODUCTO CONCRETO</controllingFieldValue>
+            <controllingFieldValue>ASESORAMIENTO GRATUITO</controllingFieldValue>
+            <controllingFieldValue>YA CLIENTE</controllingFieldValue>
+            <valueName>VOLVER A LLAMAR EN FECHA CONCRETA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CON PRODUCTO CONCRETO</controllingFieldValue>
+            <controllingFieldValue>PRODUCTO NO CONTRATABLE</controllingFieldValue>
+            <controllingFieldValue>SIN PRODUCTO CONCRETO</controllingFieldValue>
+            <controllingFieldValue>ASESORAMIENTO GRATUITO</controllingFieldValue>
+            <controllingFieldValue>YA CLIENTE</controllingFieldValue>
+            <valueName>Ya gestionado / Duplicado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PRODUCTO NO CONTRATABLE</controllingFieldValue>
+            <valueName>NO LOCALIZADO EMAIL NO CONTRATABLE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SIN PRODUCTO CONCRETO</controllingFieldValue>
+            <valueName>NO LOCALIZADO EMAIL SOLICITUD INFORMACIÓN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ASESORAMIENTO GRATUITO</controllingFieldValue>
+            <valueName>NO LOCALIZADO EMAIL SOLO ASESORAMIENTO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>YA CLIENTE</controllingFieldValue>
+            <valueName>NO LOCALIZADO EMAIL INFORMACIÓN EXPEDIENTE</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

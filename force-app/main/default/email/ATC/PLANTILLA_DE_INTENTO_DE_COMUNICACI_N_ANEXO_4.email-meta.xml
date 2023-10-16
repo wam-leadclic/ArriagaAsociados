@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Arriaga_plantilla_casos</letterhead>
+    <name>PLANTILLA DE INTENTO DE COMUNICACIÓN ANEXO 4</name>
+    <style>formalLetter</style>
+    <subject>INTENTO DE COMUNICACIÓN</subject>
+    <textOnly>Estimado {!Contact.FirstName},
+
+Le remitimos esta carta ya que nos ha sido imposible contactar por teléfono en el número que consta en el expediente de PRODUCTO con número de referencia 171204400 que tiene contratado con nosotros.
+Si el número de teléfono no fuera correcto o quisiera añadir otro, tendría que enviar un correo electrónico, junto con la fotocopia de su D.N.I. a la dirección lopd@arriagaasociados.com.
+Aprovechamos la ocasión para informarle que estamos a su entera disposición de lunes a viernes de 08.00 am a 21:00 horas y los sábados de 10:00 a 14:00 horas.
+Quedando a su disposición para cualquier consulta, reciba un cordial saludo.
+
+
+{!Case.OwnerFirstName} {!Case.OwnerLastName}
+
+Departamento de Atención al cliente
+
+ARRIAGA ASOCIADOS</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

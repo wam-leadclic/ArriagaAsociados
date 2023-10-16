@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>OM_Adwords</fullName>
+        <default>false</default>
+        <label>ADWORDS</label>
+    </customValue>
+    <customValue>
+        <fullName>OM_Old900</fullName>
+        <default>false</default>
+        <label>ANTIGUO 900</label>
+    </customValue>
+    <customValue>
+        <fullName>OM_EmailingClientsPortal</fullName>
+        <default>false</default>
+        <label>EMAILING CLIENTES / PORTAL</label>
+    </customValue>
+    <customValue>
+        <fullName>OM_Exterior</fullName>
+        <default>false</default>
+        <label>EXTERIOR</label>
+    </customValue>
+    <customValue>
+        <fullName>OM_Graph</fullName>
+        <default>false</default>
+        <label>GRÁFICA</label>
+    </customValue>
+    <customValue>
+        <fullName>OM_RadioCope</fullName>
+        <default>false</default>
+        <label>RADIO COPE</label>
+    </customValue>
+    <customValue>
+        <fullName>OM_RadioOthers</fullName>
+        <default>false</default>
+        <label>RADIO OTROS</label>
+    </customValue>
+    <customValue>
+        <fullName>OM_RRSS</fullName>
+        <default>false</default>
+        <label>RRSS</label>
+    </customValue>
+    <customValue>
+        <fullName>OM_GenericTV</fullName>
+        <default>false</default>
+        <label>TV GENERICO</label>
+    </customValue>
+    <customValue>
+        <fullName>OM_WebBlog</fullName>
+        <default>false</default>
+        <label>WEB/blog</label>
+    </customValue>
+    <customValue>
+        <fullName>OM_RadioEs</fullName>
+        <default>false</default>
+        <label>RADIO (ES RADIO)</label>
+    </customValue>
+    <customValue>
+        <fullName>OM_Webmaps</fullName>
+        <default>false</default>
+        <label>Web-maps</label>
+    </customValue>
+    <customValue>
+        <fullName>SEM</fullName>
+        <default>false</default>
+        <label>SEM</label>
+    </customValue>
+    <customValue>
+        <fullName>Afiliación</fullName>
+        <default>false</default>
+        <label>Afiliación</label>
+    </customValue>
+    <customValue>
+        <fullName>Native</fullName>
+        <default>false</default>
+        <label>Native</label>
+    </customValue>
+    <customValue>
+        <fullName>FB web</fullName>
+        <default>false</default>
+        <label>FB web</label>
+    </customValue>
+    <customValue>
+        <fullName>Vacía</fullName>
+        <default>false</default>
+        <label>Vacía</label>
+    </customValue>
+    <masterLabel>Phone Origin</masterLabel>
+    <sorted>true</sorted>
+</GlobalValueSet>

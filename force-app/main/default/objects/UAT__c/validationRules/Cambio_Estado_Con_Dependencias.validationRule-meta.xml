@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cambio_Estado_Con_Dependencias</fullName>
+    <active>true</active>
+    <description>Para poder cambiar el estado de una UAT dependiente de otra, la UAT principal debe estar con estado igual a OK.</description>
+    <errorConditionFormula>AND (
+    NOT(ISBLANK( UATPrincipal__c ) ),
+    ISCHANGED( Estado__c ) ,
+    NOT(ISPICKVAL (Estado__c, &apos;Dependiente&apos;)),
+    NOT(ISPICKVAL (Estado__c, &apos;Nueva&apos;)),
+    NOT (ISPICKVAL( UATPrincipal__r.Estado__c , &apos;OK&apos;) )    
+    
+)</errorConditionFormula>
+    <errorMessage>Esta UAT tiene una UAT dependiente. Para poder cambiar el estado, la UAT Principal debe estar OK. Si son pruebas internas y se iba a diponibilizar al cliente deja el estado en &quot;Dependiente&quot;.</errorMessage>
+</ValidationRule>

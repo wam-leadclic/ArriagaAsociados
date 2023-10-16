@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BusinessHoursSettings xmlns="http://soap.sforce.com/2006/04/metadata">
+    <businessHours>
+        <active>true</active>
+        <default>false</default>
+        <fridayEndTime>21:00:00.000Z</fridayEndTime>
+        <fridayStartTime>08:00:00.000Z</fridayStartTime>
+        <mondayEndTime>21:00:00.000Z</mondayEndTime>
+        <mondayStartTime>08:00:00.000Z</mondayStartTime>
+        <name>ATC</name>
+        <thursdayEndTime>21:00:00.000Z</thursdayEndTime>
+        <thursdayStartTime>08:00:00.000Z</thursdayStartTime>
+        <timeZoneId>Europe/Paris</timeZoneId>
+        <tuesdayEndTime>21:00:00.000Z</tuesdayEndTime>
+        <tuesdayStartTime>08:00:00.000Z</tuesdayStartTime>
+        <wednesdayEndTime>21:00:00.000Z</wednesdayEndTime>
+        <wednesdayStartTime>08:00:00.000Z</wednesdayStartTime>
+    </businessHours>
+    <businessHours>
+        <active>true</active>
+        <default>false</default>
+        <fridayEndTime>20:00:00.000Z</fridayEndTime>
+        <fridayStartTime>09:30:00.000Z</fridayStartTime>
+        <mondayEndTime>20:00:00.000Z</mondayEndTime>
+        <mondayStartTime>09:30:00.000Z</mondayStartTime>
+        <name>Call Center Confirmación Cita</name>
+        <saturdayEndTime>20:00:00.000Z</saturdayEndTime>
+        <saturdayStartTime>09:30:00.000Z</saturdayStartTime>
+        <sundayEndTime>20:00:00.000Z</sundayEndTime>
+        <sundayStartTime>09:30:00.000Z</sundayStartTime>
+        <thursdayEndTime>20:00:00.000Z</thursdayEndTime>
+        <thursdayStartTime>09:30:00.000Z</thursdayStartTime>
+        <timeZoneId>Europe/Paris</timeZoneId>
+        <tuesdayEndTime>20:00:00.000Z</tuesdayEndTime>
+        <tuesdayStartTime>09:30:00.000Z</tuesdayStartTime>
+        <wednesdayEndTime>20:00:00.000Z</wednesdayEndTime>
+        <wednesdayStartTime>09:30:00.000Z</wednesdayStartTime>
+    </businessHours>
+    <businessHours>
+        <active>true</active>
+        <default>true</default>
+        <fridayEndTime>00:00:00.000Z</fridayEndTime>
+        <fridayStartTime>00:00:00.000Z</fridayStartTime>
+        <mondayEndTime>00:00:00.000Z</mondayEndTime>
+        <mondayStartTime>00:00:00.000Z</mondayStartTime>
+        <name>Default</name>
+        <saturdayEndTime>00:00:00.000Z</saturdayEndTime>
+        <saturdayStartTime>00:00:00.000Z</saturdayStartTime>
+        <sundayEndTime>00:00:00.000Z</sundayEndTime>
+        <sundayStartTime>00:00:00.000Z</sundayStartTime>
+        <thursdayEndTime>00:00:00.000Z</thursdayEndTime>
+        <thursdayStartTime>00:00:00.000Z</thursdayStartTime>
+        <timeZoneId>America/Los_Angeles</timeZoneId>
+        <tuesdayEndTime>00:00:00.000Z</tuesdayEndTime>
+        <tuesdayStartTime>00:00:00.000Z</tuesdayStartTime>
+        <wednesdayEndTime>00:00:00.000Z</wednesdayEndTime>
+        <wednesdayStartTime>00:00:00.000Z</wednesdayStartTime>
+    </businessHours>
+    <businessHours>
+        <active>true</active>
+        <default>false</default>
+        <fridayEndTime>14:30:00.000Z</fridayEndTime>
+        <fridayStartTime>08:00:00.000Z</fridayStartTime>
+        <mondayEndTime>17:30:00.000Z</mondayEndTime>
+        <mondayStartTime>08:00:00.000Z</mondayStartTime>
+        <name>Financiero</name>
+        <thursdayEndTime>17:30:00.000Z</thursdayEndTime>
+        <thursdayStartTime>08:00:00.000Z</thursdayStartTime>
+        <timeZoneId>Europe/Paris</timeZoneId>
+        <tuesdayEndTime>17:30:00.000Z</tuesdayEndTime>
+        <tuesdayStartTime>08:00:00.000Z</tuesdayStartTime>
+        <wednesdayEndTime>17:30:00.000Z</wednesdayEndTime>
+        <wednesdayStartTime>08:00:00.000Z</wednesdayStartTime>
+    </businessHours>
+    <businessHours>
+        <active>true</active>
+        <default>false</default>
+        <fridayEndTime>17:30:00.000Z</fridayEndTime>
+        <fridayStartTime>09:00:00.000Z</fridayStartTime>
+        <mondayEndTime>17:30:00.000Z</mondayEndTime>
+        <mondayStartTime>09:00:00.000Z</mondayStartTime>
+        <name>Siniestro</name>
+        <saturdayEndTime>17:30:00.000Z</saturdayEndTime>
+        <saturdayStartTime>09:00:00.000Z</saturdayStartTime>
+        <sundayEndTime>17:30:00.000Z</sundayEndTime>
+        <sundayStartTime>09:00:00.000Z</sundayStartTime>
+        <thursdayEndTime>17:30:00.000Z</thursdayEndTime>
+        <thursdayStartTime>09:00:00.000Z</thursdayStartTime>
+        <timeZoneId>Europe/Paris</timeZoneId>
+        <tuesdayEndTime>17:30:00.000Z</tuesdayEndTime>
+        <tuesdayStartTime>09:00:00.000Z</tuesdayStartTime>
+        <wednesdayEndTime>17:30:00.000Z</wednesdayEndTime>
+        <wednesdayStartTime>09:00:00.000Z</wednesdayStartTime>
+    </businessHours>
+    <businessHours>
+        <active>true</active>
+        <default>false</default>
+        <fridayEndTime>15:00:00.000Z</fridayEndTime>
+        <fridayStartTime>08:00:00.000Z</fridayStartTime>
+        <mondayEndTime>15:00:00.000Z</mondayEndTime>
+        <mondayStartTime>08:00:00.000Z</mondayStartTime>
+        <name>WhatsApp Business Hours</name>
+        <thursdayEndTime>15:00:00.000Z</thursdayEndTime>
+        <thursdayStartTime>08:00:00.000Z</thursdayStartTime>
+        <timeZoneId>Europe/Madrid</timeZoneId>
+        <tuesdayEndTime>15:00:00.000Z</tuesdayEndTime>
+        <tuesdayStartTime>08:00:00.000Z</tuesdayStartTime>
+        <wednesdayEndTime>15:00:00.000Z</wednesdayEndTime>
+        <wednesdayStartTime>08:00:00.000Z</wednesdayStartTime>
+    </businessHours>
+    <holidays>
+        <activityDate>2023-08-15</activityDate>
+        <isRecurring>false</isRecurring>
+        <name>Asunción de la Virgen</name>
+    </holidays>
+    <holidays>
+        <activityDate>2023-09-15</activityDate>
+        <isRecurring>false</isRecurring>
+        <name>Diada Nacional de Catalunya-BADALONA</name>
+    </holidays>
+    <holidays>
+        <activityDate>2023-09-15</activityDate>
+        <isRecurring>false</isRecurring>
+        <name>Diada Nacional de Catalunya-DIAGONAL</name>
+    </holidays>
+    <holidays>
+        <activityDate>2023-09-15</activityDate>
+        <isRecurring>false</isRecurring>
+        <name>Diada Nacional de Catalunya-SABADELL</name>
+    </holidays>
+    <holidays>
+        <activityDate>2023-09-15</activityDate>
+        <isRecurring>false</isRecurring>
+        <name>Diada Nacional de Catalunya-SANT BOI LLOBREGAT</name>
+    </holidays>
+    <holidays>
+        <activityDate>2023-09-08</activityDate>
+        <isRecurring>false</isRecurring>
+        <name>Día de Asturias-LOS PRADOS</name>
+    </holidays>
+    <holidays>
+        <activityDate>2020-01-06</activityDate>
+        <businessHours>ATC</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Día de Reyes</name>
+    </holidays>
+    <holidays>
+        <activityDate>2023-10-09</activityDate>
+        <isRecurring>false</isRecurring>
+        <name>Día de la Comunidad Valenciana-CC EL SALER</name>
+    </holidays>
+    <holidays>
+        <activityDate>2023-10-09</activityDate>
+        <isRecurring>false</isRecurring>
+        <name>Día de la Comunidad Valenciana-PINTOR SOROLLA</name>
+    </holidays>
+    <holidays>
+        <activityDate>2023-12-06</activityDate>
+        <isRecurring>false</isRecurring>
+        <name>Día de la Constitución Española</name>
+    </holidays>
+    <holidays>
+        <activityDate>2023-11-09</activityDate>
+        <isRecurring>false</isRecurring>
+        <name>Fiesta Local Madrid (Almudena)-GRAN VÍA DE HORTALEZA</name>
+    </holidays>
+    <holidays>
+        <activityDate>2023-11-09</activityDate>
+        <isRecurring>false</isRecurring>
+        <name>Fiesta Local Madrid (Almudena)-ISLAZUL</name>
+    </holidays>
+    <holidays>
+        <activityDate>2023-11-09</activityDate>
+        <isRecurring>false</isRecurring>
+        <name>Fiesta Local Madrid (Almudena)-LA GAVIA</name>
+    </holidays>
+    <holidays>
+        <activityDate>2023-11-09</activityDate>
+        <isRecurring>false</isRecurring>
+        <name>Fiesta Local Madrid (Almudena)-PLENILUNIO</name>
+    </holidays>
+    <holidays>
+        <activityDate>2023-11-09</activityDate>
+        <isRecurring>false</isRecurring>
+        <name>Fiesta Local Madrid (Almudena)-PRÍNCIPE PÍO</name>
+    </holidays>
+    <holidays>
+        <activityDate>2023-11-25</activityDate>
+        <isRecurring>false</isRecurring>
+        <name>Fiesta Local- LA LOMA</name>
+    </holidays>
+    <holidays>
+        <activityDate>2023-10-09</activityDate>
+        <isRecurring>false</isRecurring>
+        <name>Fiesta Local-ALCALÁ DE HENARES</name>
+    </holidays>
+    <holidays>
+        <activityDate>2023-09-12</activityDate>
+        <isRecurring>false</isRecurring>
+        <name>Fiesta Local-MÓSTOLES</name>
+    </holidays>
+    <holidays>
+        <activityDate>2023-09-11</activityDate>
+        <isRecurring>false</isRecurring>
+        <name>Fiesta Local-PARLA CC EL FERIAL</name>
+    </holidays>
+    <holidays>
+        <activityDate>2023-08-18</activityDate>
+        <isRecurring>false</isRecurring>
+        <name>Fiesta Local-SAN SEBASTIÁN DE LOS REYES</name>
+    </holidays>
+    <holidays>
+        <activityDate>2023-10-12</activityDate>
+        <isRecurring>false</isRecurring>
+        <name>Fiesta Nacional de España</name>
+    </holidays>
+    <holidays>
+        <activityDate>2023-11-01</activityDate>
+        <isRecurring>false</isRecurring>
+        <name>Fiesta de Todos los Santos</name>
+    </holidays>
+    <holidays>
+        <activityDate>2023-08-03</activityDate>
+        <isRecurring>false</isRecurring>
+        <name>Fiestas Colombinas-HOLEA</name>
+    </holidays>
+    <holidays>
+        <activityDate>2023-12-08</activityDate>
+        <isRecurring>false</isRecurring>
+        <name>Inmaculada Concepción</name>
+    </holidays>
+    <holidays>
+        <activityDate>2023-12-25</activityDate>
+        <isRecurring>false</isRecurring>
+        <name>Navidad</name>
+    </holidays>
+    <holidays>
+        <activityDate>2023-09-08</activityDate>
+        <isRecurring>false</isRecurring>
+        <name>Nuestra Sra de la Cinta - HOLEA</name>
+    </holidays>
+    <holidays>
+        <activityDate>2023-12-26</activityDate>
+        <isRecurring>false</isRecurring>
+        <name>San Esteve-BADALONA</name>
+    </holidays>
+    <holidays>
+        <activityDate>2023-12-26</activityDate>
+        <isRecurring>false</isRecurring>
+        <name>San Esteve-DIAGONAL</name>
+    </holidays>
+    <holidays>
+        <activityDate>2023-12-26</activityDate>
+        <isRecurring>false</isRecurring>
+        <name>San Esteve-MALLORCA</name>
+    </holidays>
+    <holidays>
+        <activityDate>2023-12-26</activityDate>
+        <isRecurring>false</isRecurring>
+        <name>San Esteve-SABADELL</name>
+    </holidays>
+    <holidays>
+        <activityDate>2023-12-26</activityDate>
+        <isRecurring>false</isRecurring>
+        <name>San Esteve-SANT BOI LLOBREGAT</name>
+    </holidays>
+    <holidays>
+        <activityDate>2023-10-18</activityDate>
+        <isRecurring>false</isRecurring>
+        <name>San Lucas - LA LOMA</name>
+    </holidays>
+</BusinessHoursSettings>

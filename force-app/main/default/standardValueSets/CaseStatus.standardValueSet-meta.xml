@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Nuevo</fullName>
+        <default>true</default>
+        <label>Nuevo</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Resuelto</fullName>
+        <default>false</default>
+        <label>Resuelto</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Asignado</fullName>
+        <default>false</default>
+        <label>Asignado</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Reabierto</fullName>
+        <default>false</default>
+        <label>Reabierto</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Pendiente Mediador</fullName>
+        <default>false</default>
+        <label>Pendiente Mediador</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Cerrado</fullName>
+        <default>false</default>
+        <label>Cerrado</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Pendiente de terceros</fullName>
+        <default>false</default>
+        <label>Pendiente de terceros</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Pendiente de cliente</fullName>
+        <default>false</default>
+        <label>Pendiente de cliente</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>En proceso</fullName>
+        <default>false</default>
+        <label>En proceso</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>No contesta</fullName>
+        <default>false</default>
+        <label>No contesta</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Análisis</fullName>
+        <default>false</default>
+        <label>Análisis</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Revisión 1 (análisis)</fullName>
+        <default>false</default>
+        <label>Revisión 1 (análisis)</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Aceptación</fullName>
+        <default>false</default>
+        <label>Aceptación</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Rechazo</fullName>
+        <default>false</default>
+        <label>Rechazo</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Revisión 2</fullName>
+        <default>false</default>
+        <label>Revisión 2</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>En gestión contacto</fullName>
+        <default>false</default>
+        <label>En gestión contacto</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Contactado</fullName>
+        <default>false</default>
+        <label>Contactado</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Derivado</fullName>
+        <default>false</default>
+        <label>Derivado</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Incidencia/Queja Cerrada</fullName>
+        <default>false</default>
+        <label>Incidencia/Queja Cerrada</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Siniestro</fullName>
+        <default>false</default>
+        <label>Siniestro</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>ACUERDO AC</fullName>
+        <default>false</default>
+        <label>ACUERDO AC</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>ACUERDO HOMOLOGADO</fullName>
+        <default>false</default>
+        <label>ACUERDO HOMOLOGADO</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>AUDITORÍA</fullName>
+        <default>false</default>
+        <label>AUDITORÍA</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>AUDITORÍA PARALIZADA</fullName>
+        <default>false</default>
+        <label>AUDITORÍA PARALIZADA</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>CITA</fullName>
+        <default>false</default>
+        <label>CITA</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>COMPLETANDOSE DOCUMENTACIÓN</fullName>
+        <default>false</default>
+        <label>COMPLETANDOSE DOCUMENTACIÓN</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>COMPLETANDOSE POSIBLE NO CLIENTE</fullName>
+        <default>false</default>
+        <label>COMPLETANDOSE POSIBLE NO CLIENTE</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>COMPLETAR POR JURÍDICO</fullName>
+        <default>false</default>
+        <label>COMPLETAR POR JURÍDICO</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>DESISTIDO SIN ACUERDO BANCO</fullName>
+        <default>false</default>
+        <label>DESISTIDO SIN ACUERDO BANCO</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>DOCUMENTACIÓN COMPLETADA</fullName>
+        <default>false</default>
+        <label>DOCUMENTACIÓN COMPLETADA</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>DUPLICADO</fullName>
+        <default>false</default>
+        <label>DUPLICADO</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>ENTREVISTA</fullName>
+        <default>false</default>
+        <label>ENTREVISTA</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>EXPEDIENTE INICIADO</fullName>
+        <default>false</default>
+        <label>EXPEDIENTE INICIADO</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>JUDICIAL</fullName>
+        <default>false</default>
+        <label>JUDICIAL</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>NO CLIENTE</fullName>
+        <default>false</default>
+        <label>NO CLIENTE</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>NO VIABLE</fullName>
+        <default>false</default>
+        <label>NO VIABLE</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>PARALIZADO</fullName>
+        <default>false</default>
+        <label>PARALIZADO</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>PARALIZADO ESPERA VIABILIDAD</fullName>
+        <default>false</default>
+        <label>PARALIZADO ESPERA VIABILIDAD</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>PRESENTADO A PROCURADOR</fullName>
+        <default>false</default>
+        <label>PRESENTADO A PROCURADOR</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>PRESENTADO EN JUZGADO</fullName>
+        <default>false</default>
+        <label>PRESENTADO EN JUZGADO</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>PROCURADOR CALIDAD PARADO</fullName>
+        <default>false</default>
+        <label>PROCURADOR CALIDAD PARADO</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>REDACCIÓN</fullName>
+        <default>false</default>
+        <label>REDACCIÓN</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>REDACCIÓN PARALIZADA</fullName>
+        <default>false</default>
+        <label>REDACCIÓN PARALIZADA</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>REDACCIÓN TERMINADA</fullName>
+        <default>false</default>
+        <label>REDACCIÓN TERMINADA</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>RESOLUCIÓN EXTRAJUDICIAL</fullName>
+        <default>false</default>
+        <label>RESOLUCIÓN EXTRAJUDICIAL</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>REVISIÓN DEL COMPLETADO</fullName>
+        <default>false</default>
+        <label>REVISIÓN DEL COMPLETADO</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>SELLADOS EN JUZGADO</fullName>
+        <default>false</default>
+        <label>SELLADOS EN JUZGADO</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>ST APELACIÓN DESESTIMATORIA</fullName>
+        <default>false</default>
+        <label>ST APELACIÓN DESESTIMATORIA</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>ST DE APELACIÓN</fullName>
+        <default>false</default>
+        <label>ST DE APELACIÓN</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>ST DESESTIMATORIAS FIRMES</fullName>
+        <default>false</default>
+        <label>ST DESESTIMATORIAS FIRMES</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>ST FIRMES CON APELACIÓN</fullName>
+        <default>false</default>
+        <label>ST FIRMES CON APELACIÓN</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>ST FIRMES SIN APELACIÓN</fullName>
+        <default>false</default>
+        <label>ST FIRMES SIN APELACIÓN</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>ST NO FIRME</fullName>
+        <default>false</default>
+        <label>ST NO FIRME</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>ST NO FIRME DESESTIMATORIA</fullName>
+        <default>false</default>
+        <label>ST NO FIRME DESESTIMATORIA</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>ST PROVISIONALES APELADAS</fullName>
+        <default>false</default>
+        <label>ST PROVISIONALES APELADAS</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>VENIA</fullName>
+        <default>false</default>
+        <label>VENIA</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Escalado a riesgos</fullName>
+        <default>false</default>
+        <label>Escalado a riesgos</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Incidencia</fullName>
+        <default>false</default>
+        <label>Incidencia</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Producir urgente RV</fullName>
+        <default>false</default>
+        <label>Producir urgente RV</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Jura de Cuentas</fullName>
+        <default>false</default>
+        <label>Jura de Cuentas</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>En seguimiento</fullName>
+        <default>false</default>
+        <label>En seguimiento</label>
+        <closed>false</closed>
+    </standardValue>
+</StandardValueSet>

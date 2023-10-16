@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Responsable_de_Zona__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Responsable de la zona a la que pertenece la oficina.
+Utilizado principalmente para el cálculo de incentivos.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Responsable de la zona a la que pertenece la oficina</inlineHelpText>
+    <label>Responsable de Zona</label>
+    <referenceTo>User</referenceTo>
+    <relationshipName>Cuentas</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

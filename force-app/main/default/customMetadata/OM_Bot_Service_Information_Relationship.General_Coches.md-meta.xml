@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>General_Coches</label>
+    <protected>false</protected>
+    <values>
+        <field>OM_Chat_Label__c</field>
+        <value xsi:type="xsd:string">Cartel de coches</value>
+    </values>
+    <values>
+        <field>OM_Chat_Root__c</field>
+        <value xsi:type="xsd:string">Información general</value>
+    </values>
+    <values>
+        <field>OM_Info_URL__c</field>
+        <value xsi:type="xsd:string">https://www.arriagaasociados.com/cartel-de-coches/</value>
+    </values>
+    <values>
+        <field>OM_Order__c</field>
+        <value xsi:type="xsd:double">2.0</value>
+    </values>
+    <values>
+        <field>OM_Other_Exit__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>OM_Whatsapp_Label__c</field>
+        <value xsi:type="xsd:string">Cartel de coches (pulsa 2)</value>
+    </values>
+    <values>
+        <field>OM_Whatsapp_Root__c</field>
+        <value xsi:type="xsd:string">1_1</value>
+    </values>
+</CustomMetadata>

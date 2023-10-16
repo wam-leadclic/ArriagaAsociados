@@ -1,0 +1,16 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<p>Buenos días {{{Recipient.FirstName}}}:</p>
+
+<p>Hemos recibido tu correo, a partir de ahora, nos pondremos en marcha para llevar a cabo&nbsp;las gestiones pertinentes y contactaremos contigo para informarte de los avances realizados.&nbsp;<br />
+&nbsp;<br />
+<b>Cuando recibas las cantidades abonadas desde el juzgado, necesitaremos que nos envíes el justificante del ingreso por esta misma vía, para que podamos comprobar si las cantidades abonadas son correctas</b>.&nbsp;<br />
+&nbsp;<br />
+&nbsp;<br />
+Recibe un cordial saludo.&nbsp;<br />
+Departamento de Sentencias.&nbsp;</p>
+
+</body></html>

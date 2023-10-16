@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PagoConfirmado__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Casilla que se marcará cuando el pago pase a estado &apos;Confirmado&apos;</description>
+    <externalId>false</externalId>
+    <label>Pago confirmado</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

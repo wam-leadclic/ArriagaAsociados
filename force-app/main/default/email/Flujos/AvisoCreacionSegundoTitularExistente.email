@@ -1,0 +1,14 @@
+<table border="0" cellpadding="5" width="600" cellspacing="5" height="400" >
+<tr valign="top" height="50" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[]]></td>
+</tr>
+<tr valign="top" height="300" >
+<td tEditID="c1r2" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r2" locked="0" >
+<![CDATA[<font face="arial"><span style="font-size: 12pt;">Hola,</span></font><div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><br></div><div style=""><font face="arial">{!CommunityOpp__c.Cuenta__c}</font><span style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">&nbsp;nos ha proporcionado algunos datos tuyos.</span></div><div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><br></div><div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><br></div><div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">Puede acceder a la comunidad desde <a href="https://clientes.arriagaasociados.com">aquí</a>&nbsp;para acceder a la información de sus reclamaciones.</div><div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><br></div><div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">Un saludo.</div>]]></td>
+</tr>
+<tr valign="top" height="50" >
+<td tEditID="c1r3" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r3" locked="0" >
+<![CDATA[]]></td>
+</tr>
+</table>

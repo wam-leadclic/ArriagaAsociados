@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>UATPrincipal__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Este campo se rellena si para realizar una UAT es necesario que exista otra UAT hecha previamente.</description>
+    <externalId>false</externalId>
+    <label>UAT Principal</label>
+    <referenceTo>UAT__c</referenceTo>
+    <relationshipLabel>UATs</relationshipLabel>
+    <relationshipName>UATs</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>AvisoCreacionSegundoTitular</fullName>
+        <description>Email que se manda al segundo titular para informarle de que hemos obtenido sus datos</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email2Titular__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>clientes@arriagaasociados.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Flujos/AvisoCreacionSegundoTitular</template>
+    </alerts>
+    <alerts>
+        <fullName>AvisoCreacionSegundoTitularExistente</fullName>
+        <description>Email que se manda al segundo titular para informarle de que hemos obtenido sus datos</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email2Titular__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>clientes@arriagaasociados.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Flujos/AvisoCreacionSegundoTitularExistente</template>
+    </alerts>
+</Workflow>

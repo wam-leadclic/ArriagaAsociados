@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>ComunicacionGDPRNuevaCuentaPersonal</fullName>
+        <description>Comunicación GDPR nueva cuenta personal</description>
+        <protected>false</protected>
+        <recipients>
+            <field>CorreoElectronicoAuxiliar__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>comercial@arriagaasociados.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/NuevoCliente</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>ActualizarIdClienteMin</fullName>
+        <description>Actualizar valor nulo de IdClienteMinerva con el autonumérico</description>
+        <field>IdClienteMinerva__c</field>
+        <formula>AutoNumCliMinerva__c</formula>
+        <name>Actualizar IdClienteMin</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>CambioOwner</fullName>
+        <description>Cambia propietario de la cuenta oculta</description>
+        <field>OwnerId</field>
+        <lookupValue>sistemas@arriagaasociados.com</lookupValue>
+        <lookupValueType>User</lookupValueType>
+        <name>CambioOwner</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>CambioTR</fullName>
+        <field>RecordTypeId</field>
+        <lookupValue>Oculto</lookupValue>
+        <lookupValueType>RecordType</lookupValueType>
+        <name>CambioTR</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>CopiaCP</fullName>
+        <description>Copia código postal de facturación sobre código posta de envío</description>
+        <field>ShippingPostalCode</field>
+        <formula>BillingPostalCode</formula>
+        <name>CopiaCP</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>CopiaCalle</fullName>
+        <description>Copia calle de facturación sobre calle de envío</description>
+        <field>ShippingStreet</field>
+        <formula>BillingStreet</formula>
+        <name>CopiaCalle</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>CopiaCiudad</fullName>
+        <description>Copia ciudad de facturación sobre ciudad de envío</description>
+        <field>ShippingCity</field>
+        <formula>BillingCity</formula>
+        <name>CopiaCiudad</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>CopiaPais</fullName>
+        <description>Copia país de facturación sobre país de envío</description>
+        <field>ShippingCountry</field>
+        <formula>BillingCountry</formula>
+        <name>CopiaPais</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>CopiaProvincia</fullName>
+        <description>Copia provincia de facturación sobre provincia de envío</description>
+        <field>ShippingState</field>
+        <formula>BillingState</formula>
+        <name>CopiaProvincia</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>EnlaceSiteGDPREnviado</fullName>
+        <description>Marca la casilla porque ya se le ha enviado el correo</description>
+        <field>EnlaceSiteGDPREnviado__c</field>
+        <literalValue>1</literalValue>
+        <name>EnlaceSiteGDPREnviado</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>EnlaceSiteGDPREnviadoContacto</fullName>
+        <description>Marca la casilla del contacto de la cuenta personal</description>
+        <field>EnlaceSiteGDPREnviado__pc</field>
+        <literalValue>1</literalValue>
+        <name>EnlaceSiteGDPREnviado(Contacto)</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>RellenarEmailAuxiliar</fullName>
+        <description>Copia el Email en el campo Correo Electronico Auxiliar</description>
+        <field>CorreoElectronicoAuxiliar__c</field>
+        <formula>PersonEmail</formula>
+        <name>RellenarEmailAuxiliar</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>ActualizaDireccionEnvio</fullName>
+        <actions>
+            <name>CopiaCP</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>CopiaCalle</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>CopiaCiudad</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>CopiaPais</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>CopiaProvincia</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>En la conversión, copia la dirección de facturación en la dirección de envío</description>
+        <formula>AND(  ISBLANK( ShippingPostalCode ),  NOT(ISBLANK( BillingPostalCode )) )</formula>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Actualizar Id Cliente Minerva</fullName>
+        <actions>
+            <name>ActualizarIdClienteMin</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Flujo de trabajo que actualizará el valor del campo IdClienteMinerva__c con el valor del campo AutoNumCliMinerva__c si IdClienteMinerva__c esta vacío</description>
+        <formula>ISBLANK(IdClienteMinerva__c)</formula>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>NuevaCuentaPersonal</fullName>
+        <actions>
+            <name>ComunicacionGDPRNuevaCuentaPersonal</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>EnlaceSiteGDPREnviado</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>EnlaceSiteGDPREnviadoContacto</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>RellenarEmailAuxiliar</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <description>Cuando se crea una cuenta personal (y no viene de la comunidad), hay que actualizar el Email para enviar un correo</description>
+        <formula>AND( 				  LEFT(CreatedBy.Profile.Id, 15)  &lt;&gt; LEFT($Label.IdPerfilGuest, 15), 				 IsPersonAccount == true, 				 EnlaceSiteGDPREnviado__c == false )</formula>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>OcultaCuenta</fullName>
+        <actions>
+            <name>CambioOwner</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>CambioTR</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Account.Oculto__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <description>OcultaCuenta</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+</Workflow>

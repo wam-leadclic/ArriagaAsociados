@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CallCenterRoutingMap xmlns="http://soap.sforce.com/2006/04/metadata">
-    <callCenter>Arriagaasociadosprod</callCenter>
-    <developerName>Bilbao_Centro_Asesor_04v7U000000CaRgQAK</developerName>
-    <externalId>arn:aws:connect:eu-central-1:203389500378:instance/639025b3-3fe6-4284-af68-57004a772aad/routing-profile/c2ea2345-6bd5-4d3a-a25e-3e0c4cd394e6</externalId>
-    <masterLabel>00G69000005urWfEAI</masterLabel>
-    <referenceRecord>Bilbao_Centro_Asesor</referenceRecord>
-</CallCenterRoutingMap>

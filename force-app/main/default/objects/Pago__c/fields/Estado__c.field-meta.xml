@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Estado__c</fullName>
+    <description>Estado del pago realizado a la hora de realizar una contratación de un producto</description>
+    <externalId>false</externalId>
+    <label>Estado</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>true</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Pendiente</fullName>
+                <default>true</default>
+                <label>Pendiente</label>
+            </value>
+            <value>
+                <fullName>Pagada</fullName>
+                <default>false</default>
+                <label>Pagada</label>
+            </value>
+            <value>
+                <fullName>Emitida</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Emitida</label>
+            </value>
+            <value>
+                <fullName>Pago parcial</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Pago parcial</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

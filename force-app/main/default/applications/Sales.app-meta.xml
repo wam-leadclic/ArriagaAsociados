@@ -17,78 +17,6 @@
         <pageOrSobjectType>Account</pageOrSobjectType>
         <recordType>Account.Oficina</recordType>
         <type>Flexipage</type>
-        <profile>Standard</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Pagina_Oficinas</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.Oficina</recordType>
-        <type>Flexipage</type>
-        <profile>MarketingProfile</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Pagina_Oficinas</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.Oficina</recordType>
-        <type>Flexipage</type>
-        <profile>SSJJ Supervisor</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Pagina_Oficinas</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.Oficina</recordType>
-        <type>Flexipage</type>
-        <profile>SSJJ Letrado</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Pagina_Oficinas</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.Oficina</recordType>
-        <type>Flexipage</type>
-        <profile>Siniestros Supervisor</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Pagina_Oficinas</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.Oficina</recordType>
-        <type>Flexipage</type>
-        <profile>Read Only</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Pagina_Oficinas</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.Oficina</recordType>
-        <type>Flexipage</type>
-        <profile>Siniestros Agente</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Pagina_Oficinas</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.Oficina</recordType>
-        <type>Flexipage</type>
-        <profile>SAC Supervisor</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Pagina_Oficinas</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.Oficina</recordType>
-        <type>Flexipage</type>
         <profile>SAC Agente</profile>
     </profileActionOverrides>
     <profileActionOverrides>
@@ -414,6 +342,78 @@
         <recordType>Account.Oficina</recordType>
         <type>Flexipage</type>
         <profile>SolutionManager</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Pagina_Oficinas</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.Oficina</recordType>
+        <type>Flexipage</type>
+        <profile>Standard</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Pagina_Oficinas</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.Oficina</recordType>
+        <type>Flexipage</type>
+        <profile>MarketingProfile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Pagina_Oficinas</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.Oficina</recordType>
+        <type>Flexipage</type>
+        <profile>SSJJ Supervisor</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Pagina_Oficinas</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.Oficina</recordType>
+        <type>Flexipage</type>
+        <profile>SSJJ Letrado</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Pagina_Oficinas</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.Oficina</recordType>
+        <type>Flexipage</type>
+        <profile>Siniestros Supervisor</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Pagina_Oficinas</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.Oficina</recordType>
+        <type>Flexipage</type>
+        <profile>Read Only</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Pagina_Oficinas</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.Oficina</recordType>
+        <type>Flexipage</type>
+        <profile>Siniestros Agente</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Pagina_Oficinas</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.Oficina</recordType>
+        <type>Flexipage</type>
+        <profile>SAC Supervisor</profile>
     </profileActionOverrides>
     <tabs>standard-home</tabs>
     <tabs>standard-Opportunity</tabs>

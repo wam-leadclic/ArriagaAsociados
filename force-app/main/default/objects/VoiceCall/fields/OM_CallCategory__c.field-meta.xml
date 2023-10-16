@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OM_CallCategory__c</fullName>
+    <externalId>false</externalId>
+    <label>Tipología</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>OM_Department__c</controllingField>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>CANDIDATO POTENCIAL CALL CENTER</fullName>
+                <default>false</default>
+                <label>CANDIDATO POTENCIAL CALL CENTER</label>
+            </value>
+            <value>
+                <fullName>CANDIDATO POTENCIAL VENTAS</fullName>
+                <default>false</default>
+                <label>CANDIDATO POTENCIAL VENTAS</label>
+            </value>
+            <value>
+                <fullName>CLIENTE ACTIVO CALL CENTER</fullName>
+                <default>false</default>
+                <label>CLIENTE ACTIVO CALL CENTER</label>
+            </value>
+            <value>
+                <fullName>CLIENTE ACTIVO VENTAS</fullName>
+                <default>false</default>
+                <label>CLIENTE ACTIVO VENTAS</label>
+            </value>
+            <value>
+                <fullName>CONTACTO NO VÁLIDO ATC</fullName>
+                <default>false</default>
+                <label>CONTACTO NO VÁLIDO ATC</label>
+            </value>
+            <value>
+                <fullName>CONTACTO NO VÁLIDO CALL CENTER</fullName>
+                <default>false</default>
+                <label>CONTACTO NO VÁLIDO CALL CENTER</label>
+            </value>
+            <value>
+                <fullName>CONTACTO NO VÁLIDO CONTROL DE GESTIÓN</fullName>
+                <default>false</default>
+                <label>CONTACTO NO VÁLIDO CONTROL DE GESTIÓN</label>
+            </value>
+            <value>
+                <fullName>CONTACTO NO VÁLIDO EJECUCIONES</fullName>
+                <default>false</default>
+                <label>CONTACTO NO VÁLIDO EJECUCIONES</label>
+            </value>
+            <value>
+                <fullName>CONTACTO NO VÁLIDO GDC</fullName>
+                <default>false</default>
+                <label>CONTACTO NO VÁLIDO GDC</label>
+            </value>
+            <value>
+                <fullName>CONTACTO NO VÁLIDO GESTIÓN DE CLIENTE</fullName>
+                <default>false</default>
+                <label>CONTACTO NO VÁLIDO GESTIÓN DE CLIENTE</label>
+            </value>
+            <value>
+                <fullName>CONTACTO NO VÁLIDO JURA/RECOBRO</fullName>
+                <default>false</default>
+                <label>CONTACTO NO VÁLIDO JURA/RECOBRO</label>
+            </value>
+            <value>
+                <fullName>CONTACTO NO VÁLIDO PROCESAL</fullName>
+                <default>false</default>
+                <label>CONTACTO NO VÁLIDO PROCESAL</label>
+            </value>
+            <value>
+                <fullName>CONTACTO NO VÁLIDO REDACCIÓN</fullName>
+                <default>false</default>
+                <label>CONTACTO NO VÁLIDO REDACCIÓN</label>
+            </value>
+            <value>
+                <fullName>CONTACTO NO VÁLIDO VENTAS</fullName>
+                <default>false</default>
+                <label>CONTACTO NO VÁLIDO VENTAS</label>
+            </value>
+            <value>
+                <fullName>DERIVADO ATC</fullName>
+                <default>false</default>
+                <label>DERIVADO ATC</label>
+            </value>
+            <value>
+                <fullName>DERIVADO CONTROL DE GESTIÓN</fullName>
+                <default>false</default>
+                <label>DERIVADO CONTROL DE GESTIÓN</label>
+            </value>
+            <value>
+                <fullName>DERIVADO EJECUCIONES</fullName>
+                <default>false</default>
+                <label>DERIVADO EJECUCIONES</label>
+            </value>
+            <value>
+                <fullName>DERIVADO GDC</fullName>
+                <default>false</default>
+                <label>DERIVADO GDC</label>
+            </value>
+            <value>
+                <fullName>DERIVADO GESTIÓN DE CLIENTE</fullName>
+                <default>false</default>
+                <label>DERIVADO GESTIÓN DE CLIENTE</label>
+            </value>
+            <value>
+                <fullName>DERIVADO JURA/RECOBRO</fullName>
+                <default>false</default>
+                <label>DERIVADO JURA/RECOBRO</label>
+            </value>
+            <value>
+                <fullName>DERIVADO PROCESAL</fullName>
+                <default>false</default>
+                <label>DERIVADO PROCESAL</label>
+            </value>
+            <value>
+                <fullName>DERIVADO REDACCIÓN</fullName>
+                <default>false</default>
+                <label>DERIVADO REDACCIÓN</label>
+            </value>
+            <value>
+                <fullName>INFORMACIÓN ATC</fullName>
+                <default>false</default>
+                <label>INFORMACIÓN ATC</label>
+            </value>
+            <value>
+                <fullName>INFORMACIÓN CALL CENTER</fullName>
+                <default>false</default>
+                <label>INFORMACIÓN CALL CENTER</label>
+            </value>
+            <value>
+                <fullName>INFORMACIÓN CONTROL DE GESTIÓN</fullName>
+                <default>false</default>
+                <label>INFORMACIÓN CONTROL DE GESTIÓN</label>
+            </value>
+            <value>
+                <fullName>INFORMACIÓN EJECUCIONES</fullName>
+                <default>false</default>
+                <label>INFORMACIÓN EJECUCIONES</label>
+            </value>
+            <value>
+                <fullName>INFORMACIÓN GDC</fullName>
+                <default>false</default>
+                <label>INFORMACIÓN GDC</label>
+            </value>
+            <value>
+                <fullName>INFORMACIÓN GESTIÓN DE CLIENTE</fullName>
+                <default>false</default>
+                <label>INFORMACIÓN GESTIÓN DE CLIENTE</label>
+            </value>
+            <value>
+                <fullName>INFORMACIÓN JURA/ RECOBRO</fullName>
+                <default>false</default>
+                <label>INFORMACIÓN JURA/ RECOBRO</label>
+            </value>
+            <value>
+                <fullName>INFORMACIÓN PROCESAL</fullName>
+                <default>false</default>
+                <label>INFORMACIÓN PROCESAL</label>
+            </value>
+            <value>
+                <fullName>INFORMACIÓN REDACCIÓN</fullName>
+                <default>false</default>
+                <label>INFORMACIÓN REDACCIÓN</label>
+            </value>
+            <value>
+                <fullName>NO ACUDIÓ A CITA CALL CENTER</fullName>
+                <default>false</default>
+                <label>NO ACUDIÓ A CITA CALL CENTER</label>
+            </value>
+            <value>
+                <fullName>NO CONTACTADO ATC</fullName>
+                <default>false</default>
+                <label>NO CONTACTADO ATC</label>
+            </value>
+            <value>
+                <fullName>NO CONTACTADO CALL CENTER</fullName>
+                <default>false</default>
+                <label>NO CONTACTADO CALL CENTER</label>
+            </value>
+            <value>
+                <fullName>NO CONTACTADO EJECUCIONES</fullName>
+                <default>false</default>
+                <label>NO CONTACTADO EJECUCIONES</label>
+            </value>
+            <value>
+                <fullName>NO CONTACTADO GDC</fullName>
+                <default>false</default>
+                <label>NO CONTACTADO GDC</label>
+            </value>
+            <value>
+                <fullName>NO CONTACTADO GESTIÓN DE CLIENTE</fullName>
+                <default>false</default>
+                <label>NO CONTACTADO GESTIÓN DE CLIENTE</label>
+            </value>
+            <value>
+                <fullName>NO CONTACTADO JURA/RECOBRO</fullName>
+                <default>false</default>
+                <label>NO CONTACTADO JURA/RECOBRO</label>
+            </value>
+            <value>
+                <fullName>NO CONTACTADO PROCESAL</fullName>
+                <default>false</default>
+                <label>NO CONTACTADO PROCESAL</label>
+            </value>
+            <value>
+                <fullName>NO CONTACTADO REDACCIÓN</fullName>
+                <default>false</default>
+                <label>NO CONTACTADO REDACCIÓN</label>
+            </value>
+            <value>
+                <fullName>NO CONTACTADO VENTAS</fullName>
+                <default>false</default>
+                <label>NO CONTACTADO VENTAS</label>
+            </value>
+            <value>
+                <fullName>PETICIÓN ATC</fullName>
+                <default>false</default>
+                <label>PETICIÓN ATC</label>
+            </value>
+            <value>
+                <fullName>PETICIÓN EJECUCIONES</fullName>
+                <default>false</default>
+                <label>PETICIÓN EJECUCIONES</label>
+            </value>
+            <value>
+                <fullName>PETICIÓN GDC</fullName>
+                <default>false</default>
+                <label>PETICIÓN GDC</label>
+            </value>
+            <value>
+                <fullName>PETICIÓN JURA/RECOBRO</fullName>
+                <default>false</default>
+                <label>PETICIÓN JURA/RECOBRO</label>
+            </value>
+            <value>
+                <fullName>PETICIÓN PROCESAL</fullName>
+                <default>false</default>
+                <label>PETICIÓN PROCESAL</label>
+            </value>
+            <value>
+                <fullName>PETICIÓN REDACCIÓN</fullName>
+                <default>false</default>
+                <label>PETICIÓN REDACCIÓN</label>
+            </value>
+            <value>
+                <fullName>QUEJA ATC</fullName>
+                <default>false</default>
+                <label>QUEJA ATC</label>
+            </value>
+            <value>
+                <fullName>QUEJA CONTROL DE GESTIÓN</fullName>
+                <default>false</default>
+                <label>QUEJA CONTROL DE GESTIÓN</label>
+            </value>
+            <value>
+                <fullName>QUEJA EJECUCIONES</fullName>
+                <default>false</default>
+                <label>QUEJA EJECUCIONES</label>
+            </value>
+            <value>
+                <fullName>QUEJA GDC</fullName>
+                <default>false</default>
+                <label>QUEJA GDC</label>
+            </value>
+            <value>
+                <fullName>QUEJA JURA/RECOBRO</fullName>
+                <default>false</default>
+                <label>QUEJA JURA/RECOBRO</label>
+            </value>
+            <value>
+                <fullName>QUEJA PROCESAL</fullName>
+                <default>false</default>
+                <label>QUEJA PROCESAL</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>ATENCIÓN AL CLIENTE (ATC)</controllingFieldValue>
+            <valueName>CONTACTO NO VÁLIDO ATC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ATENCIÓN AL CLIENTE (ATC)</controllingFieldValue>
+            <valueName>DERIVADO ATC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ATENCIÓN AL CLIENTE (ATC)</controllingFieldValue>
+            <valueName>INFORMACIÓN ATC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ATENCIÓN AL CLIENTE (ATC)</controllingFieldValue>
+            <valueName>NO CONTACTADO ATC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ATENCIÓN AL CLIENTE (ATC)</controllingFieldValue>
+            <valueName>PETICIÓN ATC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ATENCIÓN AL CLIENTE (ATC)</controllingFieldValue>
+            <valueName>QUEJA ATC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CALL CENTER</controllingFieldValue>
+            <valueName>CANDIDATO POTENCIAL CALL CENTER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CALL CENTER</controllingFieldValue>
+            <valueName>CLIENTE ACTIVO CALL CENTER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CALL CENTER</controllingFieldValue>
+            <valueName>CONTACTO NO VÁLIDO CALL CENTER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CALL CENTER</controllingFieldValue>
+            <valueName>INFORMACIÓN CALL CENTER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CALL CENTER</controllingFieldValue>
+            <valueName>NO ACUDIÓ A CITA CALL CENTER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CALL CENTER</controllingFieldValue>
+            <valueName>NO CONTACTADO CALL CENTER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GESTIÓN DE COBROS</controllingFieldValue>
+            <valueName>CONTACTO NO VÁLIDO GDC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GESTIÓN DE COBROS</controllingFieldValue>
+            <valueName>DERIVADO GDC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GESTIÓN DE COBROS</controllingFieldValue>
+            <valueName>INFORMACIÓN GDC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GESTIÓN DE COBROS</controllingFieldValue>
+            <valueName>NO CONTACTADO GDC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GESTIÓN DE COBROS</controllingFieldValue>
+            <valueName>PETICIÓN GDC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GESTIÓN DE COBROS</controllingFieldValue>
+            <valueName>QUEJA GDC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>APEX Y ACMS Y FACTURACIÓN</controllingFieldValue>
+            <valueName>CONTACTO NO VÁLIDO JURA/RECOBRO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>APEX Y ACMS Y FACTURACIÓN</controllingFieldValue>
+            <valueName>DERIVADO JURA/RECOBRO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>APEX Y ACMS Y FACTURACIÓN</controllingFieldValue>
+            <valueName>INFORMACIÓN JURA/ RECOBRO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>APEX Y ACMS Y FACTURACIÓN</controllingFieldValue>
+            <valueName>NO CONTACTADO JURA/RECOBRO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>APEX Y ACMS Y FACTURACIÓN</controllingFieldValue>
+            <valueName>PETICIÓN JURA/RECOBRO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>APEX Y ACMS Y FACTURACIÓN</controllingFieldValue>
+            <valueName>QUEJA JURA/RECOBRO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PROCESAL</controllingFieldValue>
+            <valueName>CONTACTO NO VÁLIDO PROCESAL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PROCESAL</controllingFieldValue>
+            <valueName>DERIVADO PROCESAL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PROCESAL</controllingFieldValue>
+            <valueName>INFORMACIÓN PROCESAL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PROCESAL</controllingFieldValue>
+            <valueName>NO CONTACTADO PROCESAL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PROCESAL</controllingFieldValue>
+            <valueName>PETICIÓN PROCESAL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PROCESAL</controllingFieldValue>
+            <valueName>QUEJA PROCESAL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EJECUCIONES</controllingFieldValue>
+            <valueName>CONTACTO NO VÁLIDO EJECUCIONES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EJECUCIONES</controllingFieldValue>
+            <valueName>DERIVADO EJECUCIONES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EJECUCIONES</controllingFieldValue>
+            <valueName>INFORMACIÓN EJECUCIONES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EJECUCIONES</controllingFieldValue>
+            <valueName>NO CONTACTADO EJECUCIONES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EJECUCIONES</controllingFieldValue>
+            <valueName>PETICIÓN EJECUCIONES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EJECUCIONES</controllingFieldValue>
+            <valueName>QUEJA EJECUCIONES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CONTROL DE GESTIÓN</controllingFieldValue>
+            <valueName>CONTACTO NO VÁLIDO CONTROL DE GESTIÓN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CONTROL DE GESTIÓN</controllingFieldValue>
+            <valueName>DERIVADO CONTROL DE GESTIÓN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CONTROL DE GESTIÓN</controllingFieldValue>
+            <valueName>INFORMACIÓN CONTROL DE GESTIÓN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CONTROL DE GESTIÓN</controllingFieldValue>
+            <valueName>QUEJA CONTROL DE GESTIÓN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GESTIÓN DE CLIENTE</controllingFieldValue>
+            <valueName>CONTACTO NO VÁLIDO GESTIÓN DE CLIENTE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GESTIÓN DE CLIENTE</controllingFieldValue>
+            <valueName>DERIVADO GESTIÓN DE CLIENTE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GESTIÓN DE CLIENTE</controllingFieldValue>
+            <valueName>INFORMACIÓN GESTIÓN DE CLIENTE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GESTIÓN DE CLIENTE</controllingFieldValue>
+            <valueName>NO CONTACTADO GESTIÓN DE CLIENTE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>REDACCIÓN</controllingFieldValue>
+            <valueName>CONTACTO NO VÁLIDO REDACCIÓN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>REDACCIÓN</controllingFieldValue>
+            <valueName>DERIVADO REDACCIÓN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>REDACCIÓN</controllingFieldValue>
+            <valueName>INFORMACIÓN REDACCIÓN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>REDACCIÓN</controllingFieldValue>
+            <valueName>NO CONTACTADO REDACCIÓN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>REDACCIÓN</controllingFieldValue>
+            <valueName>PETICIÓN REDACCIÓN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VENTAS</controllingFieldValue>
+            <valueName>CANDIDATO POTENCIAL VENTAS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VENTAS</controllingFieldValue>
+            <valueName>CLIENTE ACTIVO VENTAS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VENTAS</controllingFieldValue>
+            <valueName>CONTACTO NO VÁLIDO VENTAS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VENTAS</controllingFieldValue>
+            <valueName>NO CONTACTADO VENTAS</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

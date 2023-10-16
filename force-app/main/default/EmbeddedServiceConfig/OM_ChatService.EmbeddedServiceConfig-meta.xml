@@ -8,20 +8,20 @@
         <labelKey>LA_Waiting_Header_Text</labelKey>
     </embeddedServiceCustomLabels>
     <embeddedServiceCustomLabels>
-        <customLabel>LA_Chat_Ended_ChatEndAgent_04I5t000000Kyw0_4699888</customLabel>
-        <labelKey>LA_Chat_Ended_ChatEndAgent</labelKey>
+        <customLabel>LA_PostChat_Base_PostChat_04I2z00000000XA_9145288</customLabel>
+        <labelKey>LA_PostChat_Base_PostChat</labelKey>
     </embeddedServiceCustomLabels>
     <embeddedServiceCustomLabels>
         <customLabel>LA_PreChat_Base_LiveChat_04I2z00000000XA_6337431</customLabel>
         <labelKey>LA_PreChat_Base_LiveChat</labelKey>
     </embeddedServiceCustomLabels>
     <embeddedServiceCustomLabels>
-        <customLabel>LA_Chat_Ended_IdleTimeoutEndChatMessage_04I5t000000Kyw0_5743768</customLabel>
-        <labelKey>LA_Chat_Ended_IdleTimeoutEndChatMessage</labelKey>
+        <customLabel>LA_Chat_Ended_ChatEndAgent_04I5t000000Kyw0_4699888</customLabel>
+        <labelKey>LA_Chat_Ended_ChatEndAgent</labelKey>
     </embeddedServiceCustomLabels>
     <embeddedServiceCustomLabels>
-        <customLabel>LA_PostChat_Base_PostChat_04I2z00000000XA_9145288</customLabel>
-        <labelKey>LA_PostChat_Base_PostChat</labelKey>
+        <customLabel>LA_Chat_Ended_IdleTimeoutEndChatMessage_04I5t000000Kyw0_5743768</customLabel>
+        <labelKey>LA_Chat_Ended_IdleTimeoutEndChatMessage</labelKey>
     </embeddedServiceCustomLabels>
     <isEnabled>true</isEnabled>
     <masterLabel>Chat Service</masterLabel>

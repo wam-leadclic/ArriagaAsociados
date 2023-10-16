@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>UATs_con_Nuevo_Comentario</fullName>
+    <columns>NAME</columns>
+    <columns>Estado__c</columns>
+    <columns>UATPrincipal__c</columns>
+    <columns>Asunto__c</columns>
+    <columns>CategoriaFuncional__c</columns>
+    <columns>SubcategoriaFuncional__c</columns>
+    <columns>PerfilUsuarioPruebas__c</columns>
+    <columns>UsuarioDePrueba__c</columns>
+    <columns>Avance__c</columns>
+    <columns>BloqueFuncionalUATs__c</columns>
+    <columns>PruebaEjecutadaPor__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Estado__c</field>
+        <operation>equals</operation>
+        <value>Nuevo Comentario</value>
+    </filters>
+    <label>UATs con Nuevo Comentario</label>
+</ListView>

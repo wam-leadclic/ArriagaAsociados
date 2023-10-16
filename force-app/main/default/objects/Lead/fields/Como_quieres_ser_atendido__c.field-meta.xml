@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Como_quieres_ser_atendido__c</fullName>
+    <description>Pregunta realizada al candidato para saber el canal por el que quiere ser atendido,</description>
+    <externalId>false</externalId>
+    <label>¿Cómo quieres ser atendido?</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Canal_Comunicacion_Candidato_y_Cliente</valueSetName>
+    </valueSet>
+</CustomField>

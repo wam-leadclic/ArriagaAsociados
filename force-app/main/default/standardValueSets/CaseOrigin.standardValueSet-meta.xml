@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Arriaga</fullName>
+        <default>false</default>
+        <label>Arriaga</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Cliente</fullName>
+        <default>false</default>
+        <label>Cliente</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ATT Cliente</fullName>
+        <default>false</default>
+        <label>ATT Cliente</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Ejecuciones</fullName>
+        <default>false</default>
+        <label>Ejecuciones</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Comercial</fullName>
+        <default>false</default>
+        <label>Comercial</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Procesal</fullName>
+        <default>false</default>
+        <label>Procesal</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Documentalista</fullName>
+        <default>false</default>
+        <label>Documentalista</label>
+    </standardValue>
+    <standardValue>
+        <fullName>OION</fullName>
+        <default>false</default>
+        <label>OION</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Financiero</fullName>
+        <default>false</default>
+        <label>Financiero</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Procurador</fullName>
+        <default>false</default>
+        <label>Procurador</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Call Center</fullName>
+        <default>false</default>
+        <label>Call Center</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Producción</fullName>
+        <default>false</default>
+        <label>Producción</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Gestión de cobro</fullName>
+        <default>false</default>
+        <label>Gestión de cobro</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Otros</fullName>
+        <default>false</default>
+        <label>Otros</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Online</fullName>
+        <default>false</default>
+        <label>Online</label>
+    </standardValue>
+    <standardValue>
+        <fullName>NCR</fullName>
+        <default>false</default>
+        <label>NCR</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Fraile Mena</fullName>
+        <default>false</default>
+        <label>Fraile Mena</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Formulario Web</fullName>
+        <default>false</default>
+        <label>Formulario Web</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Teléfono</fullName>
+        <default>false</default>
+        <label>Teléfono</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Correo</fullName>
+        <default>false</default>
+        <label>Correo</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Redes sociales</fullName>
+        <default>false</default>
+        <label>Redes sociales</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Visita</fullName>
+        <default>false</default>
+        <label>Visita</label>
+    </standardValue>
+    <standardValue>
+        <fullName>DEPARTAMENTO ARRIAGA</fullName>
+        <default>false</default>
+        <label>DEPARTAMENTO ARRIAGA</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Confirmación Cita</fullName>
+        <default>false</default>
+        <label>Confirmación Cita</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Cita anulada</fullName>
+        <default>false</default>
+        <label>Cita anulada</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Cita no atendida</fullName>
+        <default>false</default>
+        <label>Cita no atendida</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Candidato que no ha tenido cita</fullName>
+        <default>false</default>
+        <label>Candidato que no ha tenido cita</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Organismo</fullName>
+        <default>false</default>
+        <label>Organismo</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Parte contraria</fullName>
+        <default>false</default>
+        <label>Parte contraria</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Abogado</fullName>
+        <default>false</default>
+        <label>Abogado</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Cuenta Cliente</fullName>
+        <default>false</default>
+        <label>Cuenta Cliente</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Cliente MP</fullName>
+        <default>false</default>
+        <label>Cliente Carta</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Cliente Oficina</fullName>
+        <default>false</default>
+        <label>Cliente Oficina</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Cambio Pagador</fullName>
+        <default>false</default>
+        <label>Cambio Pagador</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Procurador Fraile Mena</fullName>
+        <default>false</default>
+        <label>Procurador Fraile Mena</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Procurador Externo</fullName>
+        <default>false</default>
+        <label>Procurador Externo</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Abogado Externo</fullName>
+        <default>false</default>
+        <label>Abogado Externo</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Llamada</fullName>
+        <default>false</default>
+        <label>Llamada</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Portal Cliente</fullName>
+        <default>false</default>
+        <label>Portal Cliente</label>
+    </standardValue>
+    <standardValue>
+        <fullName>GDC</fullName>
+        <default>false</default>
+        <label>GDC</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Recobros</fullName>
+        <default>false</default>
+        <label>Recobros</label>
+    </standardValue>
+    <standardValue>
+        <fullName>RRSS</fullName>
+        <default>false</default>
+        <label>RRSS</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Cliente prioritario</fullName>
+        <default>false</default>
+        <label>Cliente prioritario</label>
+    </standardValue>
+</StandardValueSet>

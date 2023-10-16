@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>UATsNuevas</fullName>
+    <columns>NAME</columns>
+    <columns>Estado__c</columns>
+    <columns>Asunto__c</columns>
+    <columns>CategoriaFuncional__c</columns>
+    <columns>SubcategoriaFuncional__c</columns>
+    <columns>PerfilUsuarioPruebas__c</columns>
+    <columns>UsuarioDePrueba__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Estado__c</field>
+        <operation>equals</operation>
+        <value>Nueva,Dependiente</value>
+    </filters>
+    <label>UATs Estado Nuevas y Dependientes</label>
+</ListView>

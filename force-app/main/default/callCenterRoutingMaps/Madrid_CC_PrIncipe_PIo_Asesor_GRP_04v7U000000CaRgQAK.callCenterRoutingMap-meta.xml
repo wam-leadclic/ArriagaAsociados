@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CallCenterRoutingMap xmlns="http://soap.sforce.com/2006/04/metadata">
-    <callCenter>Arriagaasociadosprod</callCenter>
-    <developerName>Madrid_CC_PrIncipe_PIo_Asesor_GRP_04v7U000000CaRgQAK</developerName>
-    <externalId>arn:aws:connect:eu-central-1:203389500378:instance/639025b3-3fe6-4284-af68-57004a772aad/routing-profile/1d052a79-83c8-4900-8660-8cce3197d754</externalId>
-    <masterLabel>00G69000005hY3PEAU</masterLabel>
-    <referenceRecord>Madrid_CC_PrIncipe_PIo_Asesor_GRP</referenceRecord>
-</CallCenterRoutingMap>

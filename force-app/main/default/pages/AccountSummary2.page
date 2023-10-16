@@ -1,0 +1,17 @@
+<apex:page standardController="Account">
+    <apex:pageBlock title="Hoja de Control de Visita">
+        <apex:pageBlockSection >
+            Name: {! Account.Name } <br/>
+            Phone: {! Account.Phone } <br/>
+            Estado Cliente: {! Account.EstadoCuenta__c } <br/>
+            Id Cliente Minerva__c: {! Account.IdClienteMinerva__c } <br/>
+            Account owner: {! Account.Owner.Name } <br/>
+        </apex:pageBlockSection>    
+        
+        <apex:detail relatedList="false"/>
+        <apex:relatedList list="Opportunities" pageSize="5"/>
+        
+            
+
+    </apex:pageBlock>
+</apex:page>

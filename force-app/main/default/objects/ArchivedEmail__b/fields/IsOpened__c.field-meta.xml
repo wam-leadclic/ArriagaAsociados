@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IsOpened__c</fullName>
+    <description>Indica si el email ha sido abierto en el momento del archivado</description>
+    <externalId>false</externalId>
+    <label>Ha sido abierto</label>
+    <precision>1</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

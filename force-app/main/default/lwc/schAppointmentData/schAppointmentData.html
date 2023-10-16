@@ -1,0 +1,46 @@
+<template>
+    
+    
+    <lightning-card  title="$Datos de la Cita" icon-name="standard:product_required">
+        
+        <template if:true={showSpinner}>
+            <lightning-spinner alternative-text="Loading"></lightning-spinner>
+        </template>
+
+        <lightning-record-edit-form object-api-name="Account">
+        
+            <div class="slds-grid slds-p-around_small">
+
+                    
+                    <lightning-input-field  
+                        class="slds-col slds-size_1-of-1 slds-small-size_4-of-12 slds-medium-size_4-of-12" 
+                        onchange={handleFieldChange}
+                        value=""
+                       
+                        field-name="Name">
+                    </lightning-input-field>
+
+                    <lightning-input-field 
+                        class="slds-col slds-size_1-of-1 slds-small-size_4-of-12 slds-medium-size_4-of-12" 
+                        onchange={handleFieldChange}
+                        value=""
+                       
+                        field-name="Name">
+                    </lightning-input-field>
+
+                    <lightning-input-field  
+                        class="slds-col slds-size_1-of-1 slds-small-size_4-of-12 slds-medium-size_4-of-12" 
+                        onchange={handleFieldChange}
+                        value=""
+                      
+                        field-name="Name">
+                    </lightning-input-field>
+
+            </div>
+
+        </lightning-record-edit-form>
+
+          
+    </lightning-card>
+
+</template>

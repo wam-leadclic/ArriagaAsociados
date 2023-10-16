@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>RECORDATORIO - numero de cuenta - casos</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>RECORDATORIO - numero de cuenta  </name>
+    <relatedEntityType>Case</relatedEntityType>
+    <style>none</style>
+    <subject>Recordatorio Número de cuenta | Arriaga Asociados </subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

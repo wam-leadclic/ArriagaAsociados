@@ -1,0 +1,20 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<p>Estimado&nbsp;{{{Recipient.FirstName}}}</p>
+
+<p>Lamentamos no poder ayudarte en esta gestión, si cambias de decisión siempre podrás volver a solicitarla a través de este mismo mail.&nbsp;</p>
+
+<p>Recuerda que esto no interfiere con el IRPH que ya tienes contratado con nosotros, desde Arriaga Asociados seguimos trabajando convencidos de que, al imponer el IRPH sin trasladar la información exigida por la ley, se han vulnerado los&nbsp;derechos de los consumidores.&nbsp;</p>
+
+<p>Europa avala nuestra postura, por lo que seguiremos agotando todas las vías judiciales, nacionales y comunitarias para defender a nuestros clientes.&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>Recibe un cordial saludo&nbsp;{{{Recipient.FirstName}}}</p>
+
+<p>Gracias por confiar en Arriaga Asociados.&nbsp;</p>
+
+</body></html>

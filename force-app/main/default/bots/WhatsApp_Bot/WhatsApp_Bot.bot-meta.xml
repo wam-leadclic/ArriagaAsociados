@@ -4,7 +4,7 @@
         <label>WhatsApp Bot</label>
         <name>WhatsApp_Bot</name>
     </botMlDomain>
-    <botUser>soporte.arriaga@omegacrmconsulting.com</botUser>
+    <botUser>soporte.arriaga@omegacrmconsulting.com.partial</botUser>
     <contextVariables>
         <dataType>Text</dataType>
         <developerName>ChatKey</developerName>

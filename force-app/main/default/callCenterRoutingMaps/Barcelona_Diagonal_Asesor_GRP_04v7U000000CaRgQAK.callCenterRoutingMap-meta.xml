@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CallCenterRoutingMap xmlns="http://soap.sforce.com/2006/04/metadata">
-    <callCenter>Arriagaasociadosprod</callCenter>
-    <developerName>Barcelona_Diagonal_Asesor_GRP_04v7U000000CaRgQAK</developerName>
-    <externalId>arn:aws:connect:eu-central-1:203389500378:instance/639025b3-3fe6-4284-af68-57004a772aad/routing-profile/5f37b9e5-7cea-4d1d-aa7c-561dc5b0e762</externalId>
-    <masterLabel>00G69000005hY3NEAU</masterLabel>
-    <referenceRecord>Barcelona_Diagonal_Asesor_GRP</referenceRecord>
-</CallCenterRoutingMap>

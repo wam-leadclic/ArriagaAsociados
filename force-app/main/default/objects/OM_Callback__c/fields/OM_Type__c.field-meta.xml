@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OM_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Tipo</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Autocita</fullName>
+                <default>false</default>
+                <label>Autocita</label>
+            </value>
+            <value>
+                <fullName>Fuera de horario</fullName>
+                <default>false</default>
+                <label>Fuera de horario</label>
+            </value>
+            <value>
+                <fullName>Fuera de horario (bot)</fullName>
+                <default>false</default>
+                <label>Fuera de horario (bot)</label>
+            </value>
+            <value>
+                <fullName>Llamada abandonada</fullName>
+                <default>false</default>
+                <label>Llamada abandonada</label>
+            </value>
+            <value>
+                <fullName>Llamada planificada por un agente</fullName>
+                <default>false</default>
+                <label>Llamada planificada por un agente</label>
+            </value>
+            <value>
+                <fullName>Reintentos</fullName>
+                <default>false</default>
+                <label>Reintentos</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

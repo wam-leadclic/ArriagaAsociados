@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>true</sorted>
+    <standardValue>
+        <fullName>Acciones Popular</fullName>
+        <default>false</default>
+        <label>Acciones Popular</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Cliente</fullName>
+        <default>false</default>
+        <label>Cliente</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Defecto en la demanda</fullName>
+        <default>false</default>
+        <label>Defecto en la demanda</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Defecto en la presentación de la demanda</fullName>
+        <default>false</default>
+        <label>Defecto en la presentación de la demanda</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Embargos</fullName>
+        <default>false</default>
+        <label>Embargos</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Gestión incorrecta del expediente</fullName>
+        <default>false</default>
+        <label>Gestión incorrecta del expediente</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Incidencia de contratación</fullName>
+        <default>false</default>
+        <label>Incidencia de contratación</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Incidencia de honorarios</fullName>
+        <default>false</default>
+        <label>Incidencia de honorarios</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Incidencia en fase de ejecución</fullName>
+        <default>false</default>
+        <label>Incidencia en fase de ejecución</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Incidencia procesal</fullName>
+        <default>false</default>
+        <label>Incidencia procesal</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Incumplimiento de las instrucciones del cliente</fullName>
+        <default>false</default>
+        <label>Incumplimiento de las instrucciones del cliente</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Incumplimiento servicios contratados</fullName>
+        <default>false</default>
+        <label>Incumplimiento servicios contratados</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Juzgado</fullName>
+        <default>false</default>
+        <label>Juzgado</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>No hay incidencia</fullName>
+        <default>false</default>
+        <label>No hay incidencia</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>New problem</fullName>
+        <default>false</default>
+        <label>Nuevo problema</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Plusvalía</fullName>
+        <default>false</default>
+        <label>Plusvalía</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PRE IME</fullName>
+        <default>false</default>
+        <label>PRE IME</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Solicitud IME</fullName>
+        <default>false</default>
+        <label>Solicitud IME</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+</StandardValueSet>

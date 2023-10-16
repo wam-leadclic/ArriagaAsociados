@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <layouts>
+        <layout>Formato Tipo de trabajo</layout>
+        <sections>
+            <label></label>
+            <section>Tiempos de bloqueo</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Ventana de horas</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

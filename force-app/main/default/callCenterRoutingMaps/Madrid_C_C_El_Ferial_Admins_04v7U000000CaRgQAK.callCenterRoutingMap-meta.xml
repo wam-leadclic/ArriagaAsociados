@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CallCenterRoutingMap xmlns="http://soap.sforce.com/2006/04/metadata">
-    <callCenter>Arriagaasociadosprod</callCenter>
-    <developerName>Madrid_C_C_El_Ferial_Admins_04v7U000000CaRgQAK</developerName>
-    <externalId>arn:aws:connect:eu-central-1:203389500378:instance/639025b3-3fe6-4284-af68-57004a772aad/routing-profile/afb80340-0ff3-4ff9-8e52-58baa9bee1ac</externalId>
-    <masterLabel>00G69000005urggEAA</masterLabel>
-    <referenceRecord>Madrid_C_C_El_Ferial_Admins</referenceRecord>
-</CallCenterRoutingMap>

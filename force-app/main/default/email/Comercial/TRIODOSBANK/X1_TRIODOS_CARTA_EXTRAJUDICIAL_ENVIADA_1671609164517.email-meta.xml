@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>TRIODOS BANK - CARTA EXTRAJUDICIAL ENVIADA para cuenta</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>1- TRIODOS - CARTA EXTRAJUDICIAL ENVIADA</name>
+    <relatedEntityType>Account</relatedEntityType>
+    <style>none</style>
+    <subject>CDA Triodos Bank | Información Arriaga Asociados</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

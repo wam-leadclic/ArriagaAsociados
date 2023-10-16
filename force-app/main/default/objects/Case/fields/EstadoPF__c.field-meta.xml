@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EstadoPF__c</fullName>
+    <description>Para los casos del tipo financiero se indica el estado del pago final</description>
+    <externalId>false</externalId>
+    <label>Estado PI</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Devuelta</fullName>
+                <default>false</default>
+                <label>Devuelta</label>
+            </value>
+            <value>
+                <fullName>Retornable</fullName>
+                <default>false</default>
+                <label>Retornable</label>
+            </value>
+            <value>
+                <fullName>No retornable</fullName>
+                <default>false</default>
+                <label>No retornable</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

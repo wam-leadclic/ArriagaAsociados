@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CallCenterRoutingMap xmlns="http://soap.sforce.com/2006/04/metadata">
+    <callCenter>ArriagaasociadosUAT</callCenter>
+    <developerName>Madrid_C_C_Plenilunio_Asesor_04v5t000000GmdhAAC</developerName>
+    <externalId>arn:aws:connect:eu-central-1:341161996467:instance/d092f5b0-4737-465d-afd5-3138f1e3ca41/routing-profile/26895598-c5b9-49c4-8396-9b923ea9b72f</externalId>
+    <masterLabel>00G5t000002EskfEAC</masterLabel>
+    <referenceRecord>Madrid_C_C_Plenilunio_Asesor</referenceRecord>
+</CallCenterRoutingMap>

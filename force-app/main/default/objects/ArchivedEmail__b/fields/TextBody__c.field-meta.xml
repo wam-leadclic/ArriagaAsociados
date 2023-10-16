@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TextBody__c</fullName>
+    <description>Cuerpo del email en texto plano</description>
+    <externalId>false</externalId>
+    <label>Cuerpo del email</label>
+    <length>32000</length>
+    <type>LongTextArea</type>
+    <visibleLines>50</visibleLines>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Formulario web Clientes Comisión Apertur</label>
+    <protected>false</protected>
+    <values>
+        <field>Asunto_Formulario__c</field>
+        <value xsi:type="xsd:string">Formulario web Clientes Comisión Apertura</value>
+    </values>
+    <values>
+        <field>Cola__c</field>
+        <value xsi:type="xsd:string">COMERCIAL-Mailing Comisión Apertura 2023</value>
+    </values>
+</CustomMetadata>

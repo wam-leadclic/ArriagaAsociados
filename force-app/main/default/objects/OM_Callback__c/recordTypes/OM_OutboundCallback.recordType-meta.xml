@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OM_OutboundCallback</fullName>
+    <active>true</active>
+    <label>Llamada Saliente</label>
+    <picklistValues>
+        <picklist>OM_Status__c</picklist>
+        <values>
+            <fullName>Cancelada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cliente no localizado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>En curso</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Finalizada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nueva</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Pendiente</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>OM_Type__c</picklist>
+        <values>
+            <fullName>Autocita</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Llamada abandonada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Llamada planificada por un agente</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reintentos</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

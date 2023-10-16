@@ -1,0 +1,43 @@
+<table border="0" cellpadding="5" width="600" cellspacing="5" height="400" >
+<tr valign="top" height="50" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[]]></td>
+</tr>
+<tr valign="top" height="300" >
+<td tEditID="c1r2" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r2" locked="0" >
+<![CDATA[<p class="MsoNormal" style=""><font face="Times New Roman, Times, serif"><span style="font-size: 12pt; line-height: 107%;">Estimados cliente</span><span style="color: rgb(91, 155, 213); font-size: 12pt;">s</span><span style="font-size: 12pt;">:</span></font></p><p class="MsoNormal" style=""><span style="font-size: 12pt; line-height: 107%;"><font face="Times New Roman, Times, serif"><br></font></span></p>
+
+<p style="margin-bottom: 0.0001pt; text-indent: 35.45pt; line-height: 150%; background: white;"><font face="Times New Roman, Times, serif">Le remitimos esta carta ya que nos ha sido
+imposible contactar por teléfono en el número que consta en el expediente de <span style="color:#0070C0">PRODUCTO</span> con número de referencia&nbsp;{!Case.NumeroExpediente__c}&nbsp;que tiene contratado
+con nosotros.<o:p></o:p></font></p><p style="margin-bottom: 0.0001pt; text-indent: 35.45pt; line-height: 150%; background: white;"><font face="Times New Roman, Times, serif"><br></font></p>
+
+<p style="margin-bottom: 0.0001pt; text-indent: 35.45pt; line-height: 150%; background: white;"><span style="color:#0070C0"><font face="Times New Roman, Times, serif">Le(s) informamos
+que se ha señalado fecha para la celebración de su juicio el día 23 de Enero de
+2018, a las 9:30H en el juzgado nº 4 BIS en Valladolid, sala 5, (DIRECCIÓN DEL
+JUZGADO) al cual usted(es) deberá(n) asistir ya que la parte contraria ha
+solicitado su interrogatorio.<o:p></o:p></font></span></p><p style="margin-bottom: 0.0001pt; text-indent: 35.45pt; line-height: 150%; background: white;"><span style="color:#0070C0"><font face="Times New Roman, Times, serif"><br></font></span></p>
+
+<p style="margin-bottom: 0.0001pt; text-indent: 35.45pt; line-height: 150%; background: white;"><font face="Times New Roman, Times, serif"><span style="mso-spacerun:yes">&nbsp;</span>No se
+preocupe(n) por nada, es normal y no tiene mayor trascendencia. Si le(s) ruego
+/ rogamos que se ponga<span style="color:#4472C4;mso-themecolor:accent5">(n) </span>en
+contacto con nosotros en el teléfono <span style="mso-bidi-font-family:Calibri">91
+xxxxxxx donde podremos darle todas las indicaciones oportunas.</span> <o:p></o:p></font></p><p style="margin-bottom: 0.0001pt; text-indent: 35.45pt; line-height: 150%; background: white;"><span style="mso-bidi-font-family:Calibri"><font face="Times New Roman, Times, serif"><br></font></span></p>
+
+<p style="margin-bottom: 0.0001pt; line-height: normal; background: white;"><font face="Times New Roman, Times, serif">Sin otro particular,<o:p></o:p></font></p><p style="margin-bottom: 0.0001pt; line-height: normal; background: white;"><font face="Times New Roman, Times, serif"><br></font></p>
+
+<p style="margin-bottom: 0.0001pt; line-height: normal; background: white;"><font face="Times New Roman, Times, serif">Reciba(<span style="color:#5B9BD5;mso-themecolor:accent1">n)</span>
+un cordial saludo <o:p></o:p></font></p>
+
+<p style="margin-bottom: 0.0001pt; line-height: normal; background: white;"><font face="Times New Roman, Times, serif"><br></font></p>
+
+<p style="margin-bottom: 0.0001pt; line-height: normal; background: white;"><o:p><font face="Times New Roman, Times, serif">&nbsp;</font></o:p></p>
+
+<p style="margin-bottom: 0.0001pt; line-height: normal; background: white;"><font face="Times New Roman, Times, serif">Atentamente,<o:p></o:p></font></p>
+
+<p style="margin-bottom: 0.0001pt; line-height: normal; background: white;"><font face="Times New Roman, Times, serif">Dpto. Gestoría Jurídica</font><font face="arial"><o:p></o:p></font></p>]]></td>
+</tr>
+<tr valign="top" height="50" >
+<td tEditID="c1r3" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r3" locked="0" >
+<![CDATA[<font face="arial" style="font-family: arial; font-size: 12pt;" color="#ffffff">{!Case.Email_Thread}</font><div style=""><font face="arial" style="" color="#ffffff">{!Case.Thread_Id}</font></div>]]></td>
+</tr>
+</table>

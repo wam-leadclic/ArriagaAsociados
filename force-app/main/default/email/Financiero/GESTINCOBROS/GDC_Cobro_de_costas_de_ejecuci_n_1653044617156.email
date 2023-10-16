@@ -1,0 +1,43 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<p>Buenos días {{{Recipient.FirstName}}}</p>
+
+<p>Gracias por confiar en Arriaga Asociados para llevar adelante tu reclamación.&nbsp;&nbsp;</p>
+
+<p>Nos ponemos en contacto contigo en relación a la factura correspondiente al encargo realizado, nº de exp: <b><span style="color:#c0392b;">XXXXX</span></b> de <b><span style="color:#c0392b;">Nombre de producto</span></b></p>
+
+<p><br />
+Toda vez que la parte contraria no actuó conforme a lo acordado en la sentencia dictada, tuvimos que iniciar nuevo procedimiento de <b>ejecución de sentencia </b>para solicitar que la entidad cumpliera.&nbsp;</p>
+
+<p><br />
+Por ello, adjuntamos nuestra factura número{{{Case.Numero_de_Factura__c}}} por la cantidad de: <b><span style="color:#c0392b;">(XXX.XX €)</span></b>, que corresponde a las costas de dicha ejecución.&nbsp;</p>
+
+<p><br />
+El abono de la factura de Arriaga Asociados se puede realizar mediante transferencia bancaria en el número de cuenta CaixaBank ES30 2100 5518 7202 0016 4707, indicando como concepto el número del expediente.&nbsp;&nbsp;&nbsp;</p>
+
+<p><br />
+Si lo prefieres, tenemos a disposición una pasarela de pago virtual con la que podrás efectuar el pago de la factura utilizando el enlace web que recibirás por SMS en tu teléfono móvil y/o por mail en tu correo electrónico, es totalmente seguro y puedes solicitarlo como medio de pago respondiendo a este mismo mail.&nbsp;&nbsp;<br />
+<br />
+Como sabes, para poder tramitar la demanda en el juzgado, también ha sido necesaria la intervención del procurador.</p>
+
+<p>El pago de su factura número <b><span style="color:#c0392b;">XXXXXX</span></b>, por importe <b><span style="color:#c0392b;">XXXXX</span></b>, deberá realizarse mediante ingreso en la cuenta ES94 0049 6179 78 2716035502 de Banco Santander, con el concepto que se indica en la propia factura.</p>
+
+<p>En adjunto encontrarás la documentación de tu interés.&nbsp;&nbsp;</p>
+
+<p><br />
+Si tienes alguna duda, puedes contactar en el número de teléfono <b><span style="color:#c0392b;">(nº telf del técnico GDC) </span></b>o respondiendo este mail y nos pondremos en contacto.&nbsp;</p>
+
+<p>Gracias por confiar en nosotros.&nbsp;&nbsp;</p>
+
+<p><br />
+Equipo Gestión de Cobros &nbsp;<br />
+Arriaga Asociados&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+</body></html>

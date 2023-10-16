@@ -1,0 +1,102 @@
+<template>
+    <article class = "slds-card slds-card_boundary forceRelatedListCardDesktop">
+        <lightning-card  title={labels.cardTitle} icon-name="standard:resource_absence">
+            <template if:true={canCreateRecords}>
+                <lightning-button label={labels.newAbsence} slot="actions" onclick={onClickNewAbsence}></lightning-button>
+            </template>
+            <div class="slds-card__body_inner">
+                <template if:true={showSpinner}>
+                    <lightning-spinner alternative-text="Loading"></lightning-spinner>
+                </template>
+                
+                <template if:false={error}>
+                    <table class="slds-table slds-table_fixed-layout slds-table_bordered">
+                        <thead>
+                            <tr class="slds-line-height_reset">
+                                <th class="" scope="col">
+                                    <div class="slds-truncate" title="Name">{labels.nameAbsence}</div>
+                                </th>
+                                <th class="" scope="col">
+                                    <div class="slds-truncate" title="Start">{labels.startAbsence}</div>
+                                </th>
+                                <th class="" scope="col">
+                                    <div class="slds-truncate" title="End">{labels.endAbsence}</div>
+                                </th>
+                                <th class="" scope="col">
+                                    <div class="slds-truncate" title="Reason">{labels.reasonAbsence}</div>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <template for:each={lHolidayAbsence} for:item="holidayAbsence">
+                                <tr class="slds-hint-parent" key={holidayAbsence.Id}>
+                                    
+                                    <th data-label="Name" scope="row" class="slds-truncate">
+                                        <lightning-button key={holidayAbsence.Id} variant="base" label={holidayAbsence.Name} title="View Holiday Absence" onclick={handleHolidayAbsenceView} value={holidayAbsence.Id}></lightning-button>
+                                    </th>
+                                    <td data-label="Start">
+                                        <div class="slds-truncate" title={labels.startAbsence}>
+                                            <lightning-formatted-date-time value={holidayAbsence.StartDate__c} year="numeric" month="numeric" day="numeric" hour="2-digit" minute="2-digit"></lightning-formatted-date-time>
+                                        </div>
+                                    </td>
+                                    <td data-label="End">
+                                        <div class="slds-truncate" title={labels.endAbsence}>
+                                            <lightning-formatted-date-time value={holidayAbsence.EndDate__c} year="numeric" month="numeric" day="numeric" hour="2-digit" minute="2-digit"></lightning-formatted-date-time>
+                                        </div>
+                                    </td>
+                                    <td data-label="Reason">
+                                        <div class="slds-truncate" title={labels.reasonAbsence}>
+                                            <lightning-formatted-text value={holidayAbsence.Reason__c}></lightning-formatted-text>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </template>
+                        </tbody>
+                    </table>
+                </template>
+            </div>    
+        </lightning-card>
+    </article>
+
+    <div if:true={showModal}>
+        <section role="dialog" tabindex="-1" aria-labelledby="modal-heading-01" aria-modal="true" aria-describedby="modal-content-id-1" class="slds-modal slds-fade-in-open">
+            <div class="slds-modal__container">
+                <!-- modal header start -->
+                <header class="slds-modal__header">
+                    <button class="slds-button slds-button_icon slds-modal__close slds-button_icon-inverse" title="Close" onclick={closeModal}>
+                        <lightning-icon icon-name="utility:close"
+                            alternative-text="close"
+                            variant="inverse"
+                            size="small" ></lightning-icon>
+                        <span class="slds-assistive-text">Close</span>
+                    </button>
+                    <h2 id="modal-heading-01" class="slds-text-heading_medium slds-hyphenate"> {labels.titleNewAbsence} </h2>
+                </header>
+            
+                <!-- modal body start -->
+                <div class="slds-grid slds-modal__content slds-p-around_medium" id="modal-content-id-2"  style="overflow: initial;">  
+                    
+                    
+                    <lightning-record-edit-form object-api-name="HolidayAbsence__c" onsubmit={handleSubmit} onsuccess={handleSuccess}>
+                        <lightning-messages></lightning-messages>
+                        <lightning-input-field field-name="StartDate__c"></lightning-input-field>
+                        <lightning-input-field field-name="EndDate__c" ></lightning-input-field>
+                        <lightning-input-field field-name="Reason__c" ></lightning-input-field>
+                        <div class="slds-is-collapsed">
+                            <lightning-input-field field-name="CalendarSettingType__c" value={calendarSettingType} class="slds-hidden"></lightning-input-field>
+                            <lightning-input-field field-name="CalendarId__c" value={calendarId} class="slds-hidden"></lightning-input-field>
+                        </div>
+                        <!--<lightning-button class="slds-m-top_small" type="submit" label="Create new"></lightning-button>-->
+                    </lightning-record-edit-form>
+                </div>
+
+                <!-- modal footer start-->
+                <footer class="slds-modal__footer">          
+                    <button class="slds-button slds-button_neutral" onclick={closeModal}> {labels.cancel} </button>
+                    <button class="slds-button slds-button_brand" type="submit" onclick={handleSubmit}>  {labels.accept} </button>
+                </footer>
+            </div>
+        </section>
+        <div class="slds-backdrop slds-backdrop_open"></div>
+    </div>
+</template>

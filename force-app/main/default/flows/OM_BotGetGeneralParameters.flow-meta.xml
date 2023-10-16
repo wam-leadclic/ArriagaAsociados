@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>58.0</apiVersion>
+    <assignments>
+        <name>Assign_Param</name>
+        <label>Assign Param</label>
+        <locationX>176</locationX>
+        <locationY>134</locationY>
+        <assignmentItems>
+            <assignToReference>returnParam</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>returnFormula</elementReference>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <environments>Default</environments>
+    <formulas>
+        <name>returnFormula</name>
+        <dataType>String</dataType>
+        <expression>CASE({!paramCode}, 
+&apos;LOPD&apos;, {!$Setup.OM_GeneralSettings__c.OM_LOPD__c},
+&apos;FAQS&apos;,{!$Setup.OM_GeneralSettings__c.OM_FAQS_URL__c},
+&apos;CALL&apos;,{!$Setup.OM_GeneralSettings__c.OM_Availability__c},
+&apos;CONTRACT&apos;,{!$Setup.OM_GeneralSettings__c.OM_ContractURL__c},&apos;&apos;)</expression>
+    </formulas>
+    <interviewLabel>Bot - Get General Parameters {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Bot - Get General Parameters</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Assign_Param</targetReference>
+        </connector>
+    </start>
+    <status>Active</status>
+    <variables>
+        <name>paramCode</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>returnParam</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+</Flow>

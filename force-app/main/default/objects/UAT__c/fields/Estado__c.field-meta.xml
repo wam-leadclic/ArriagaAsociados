@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Estado__c</fullName>
+    <description>Diferentes estados definidos para las UATs</description>
+    <externalId>false</externalId>
+    <label>Estado</label>
+    <required>true</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Nueva</fullName>
+                <default>false</default>
+                <label>Nueva</label>
+            </value>
+            <value>
+                <fullName>Disponible Cliente</fullName>
+                <default>false</default>
+                <label>Disponible Cliente</label>
+            </value>
+            <value>
+                <fullName>OK</fullName>
+                <default>false</default>
+                <label>OK</label>
+            </value>
+            <value>
+                <fullName>KO</fullName>
+                <default>false</default>
+                <label>KO</label>
+            </value>
+            <value>
+                <fullName>En Resolución</fullName>
+                <default>false</default>
+                <label>En Resolución</label>
+            </value>
+            <value>
+                <fullName>Bloqueado Cliente</fullName>
+                <default>false</default>
+                <label>Bloqueado Cliente</label>
+            </value>
+            <value>
+                <fullName>Dependiente</fullName>
+                <default>false</default>
+                <label>Dependiente</label>
+            </value>
+            <value>
+                <fullName>No Aplica</fullName>
+                <default>false</default>
+                <label>No Aplica</label>
+            </value>
+            <value>
+                <fullName>Nuevo Comentario</fullName>
+                <default>false</default>
+                <label>Nuevo Comentario</label>
+            </value>
+            <value>
+                <fullName>Pendiente producción</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Pendiente producción</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

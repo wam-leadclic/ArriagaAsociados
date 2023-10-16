@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Deseo_recibir_Mensajes_de_Whatsapp__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Presto mi consentimiento libre, informado, específico e inequívoco y autorizo a ARRIAGA ASOCIADOS ASESORAMIENTO JURÍDICO Y ECONÓMICO, S.L. a ponerse en contacto conmigo a través del servicio de mensajería instantánea WhatsApp Messenger, cuya política de privacidad está disponible en su página web</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Presto mi consentimiento libre, informado, específico e inequívoco y autorizo a ARRIAGA ASOCIADOS ASESORAMIENTO JURÍDICO Y ECONÓMICO, S.L. a ponerse en contacto conmigo a través del servicio de mensajería instantánea WhatsApp Messenger, cuya política de privacidad está disponible en su página web</inlineHelpText>
+    <label>Deseo recibir Mensajes de Whatsapp</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

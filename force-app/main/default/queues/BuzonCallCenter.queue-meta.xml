@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Call Center - Genérico</name>
+    <queueMembers>
+        <roles>
+            <role>Agente_Call_Center</role>
+            <role>Supervisor_Call_Center</role>
+        </roles>
+        <users>
+            <user>gbernardez@arriagaasociados.com</user>
+            <user>mmlopez@arriagaasociados.com</user>
+            <user>mhmedina@arriagaasociados.com</user>
+            <user>mespi@arriagaasociados.com</user>
+            <user>ssanchez@arriagaasociados.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

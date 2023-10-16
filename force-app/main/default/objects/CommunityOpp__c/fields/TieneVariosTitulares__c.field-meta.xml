@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TieneVariosTitulares__c</fullName>
+    <description>Campo para saber si el producto tiene varios titulares asociados</description>
+    <externalId>false</externalId>
+    <label>Tiene varios titulares</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>No</fullName>
+                <default>false</default>
+                <label>No</label>
+            </value>
+            <value>
+                <fullName>Sí, hay otro titular y está informado</fullName>
+                <default>false</default>
+                <label>Sí, hay otro titular y está informado</label>
+            </value>
+            <value>
+                <fullName>Hay otro titular, pero no está informado</fullName>
+                <default>false</default>
+                <label>Hay otro titular, pero no está informado</label>
+            </value>
+            <value>
+                <fullName>Hay más de dos titulares</fullName>
+                <default>false</default>
+                <label>Hay más de dos titulares</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,82 @@
+<!--
+  @description       : Ultima actualizacion: direccion
+  @author            : ChangeMeIn@UserSettingsUnder.SFDoc
+  @group             : 
+  @last modified on  : 03-31-2023
+  @last modified by  : ChangeMeIn@UserSettingsUnder.SFDoc
+-->
+<apex:component >
+    <!-- Atributos que tiene que recibir el componente para completar la información de la cabecera de la hoja de encargo -->
+    <apex:attribute name="contratante" description="Rol del contratante"
+        type="wrapperOpportunityContactRole" required="true"/>
+    <apex:attribute name="lTitulares" description="Lista de los titulares"
+        type="wrapperOpportunityContactRole[]" required="true"/>
+    <apex:attribute name="lRepresentantes" description="Lista de los representantes"
+        type="wrapperOpportunityContactRole[]" required="true"/>
+    <apex:attribute name="catalan" description="Si la Hoja debe estar en Catalan"
+        type="Boolean" required="false"/>
+      <apex:outputPanel rendered="{!catalan== false}">     
+    <div>    
+        <br/><br/> 
+              
+        <!-- Datos del contratante -->
+        <div align="justify">
+            <center><apex:outputText style="font-weight: bold;" value="HOJA DE ENCARGO PROFESIONAL ARRIAGA ASOCIADOS"/></center><br/>
+            <apex:outputText value="De una parte, Don/Doña {!contratante.contactoNombre} con {!contratante.contactoTipoDocumentoIdentidad} {!contratante.contactoDocumentoIdentidad} , 
+            ciudad {!contratante.contactoCiudad} , núm. de teléfono {!contratante.contactoTelefono}, 
+            correo-e {!contratante.contactoEmail} "/>        
+        <!-- Datos de los titulares-->          
+            <apex:repeat value="{!lTitulares}" var="Titular2">
+                <apex:outputText value=", Don/Doña  {!Titular2.contactoNombre} con {!Titular2.contactoTipoDocumentoIdentidad} {!Titular2.contactoDocumentoIdentidad}, 
+                                        ciudad {!Titular2.contactoCiudad}, núm. de teléfono {!Titular2.contactoTelefono}, 
+                                        correo-e {!Titular2.contactoEmail} "/>
+            </apex:repeat>        
+        <!-- Datos de los representantes-->          
+            <apex:repeat value="{!lRepresentantes}" var="Representante">
+                <apex:outputText value=" , como representante legal ({!Representante.Role}) Don/Doña {!Representante.contactoNombre} 
+                                        con {!Representante.contactoTipoDocumentoIdentidad} {!Representante.contactoDocumentoIdentidad}, ciudad {!Representante.contactoCiudad}, 
+                                        núm. de teléfono {!Representante.contactoTelefono}, correo-e {!Representante.contactoEmail}"/>
+            </apex:repeat>
+        </div>
+        <!-- Datos generales de Arriaga--> 
+        <div align="justify">
+            <br/>
+            <apex:outputText value="De otra parte, ARRIAGA ASOCIADOS ASESORAMIENTO JURÍDICO Y ECONÓMICO S.L. (en adelante, <b>“ARRIAGA ASOCIADOS”</b>), 
+                                    con domicilio social en la Calle Agustín de Foxá nº 4-10, planta 5ª, 28036 MADRID,  
+                                    N.I.F.: B-98488117, teléfono: 910052600, correo electrónico: contacto@arriagaasociados.com" escape="false"/>
+           <br/>                         
+        </div>                          
+    </div>
+   </apex:outputpanel>
+       <apex:outputPanel rendered="{!catalan == true}">     
+    <div>    
+        <br/><br/> 
+              
+        <!-- Datos del contratante -->
+        <div align="justify">
+            <center><apex:outputText style="font-weight: bold;" value="FULL D'ENCÀRREC PROFESSIONAL ARRIAGA ASOCIADOS"/></center><br/>
+            <apex:outputText value="D'una part, el Senyor / la Senyora {!contratante.contactoNombre} amb {!contratante.contactoTipoDocumentoIdentidad} {!contratante.contactoDocumentoIdentidad} , 
+            amb domicili a {!contratante.contactoCiudad}, núm. de telèfon {!contratante.contactoTelefono}, 
+            correu-e {!contratante.contactoEmail} "/>        
+        <!-- Datos de los titulares-->          
+            <apex:repeat value="{!lTitulares}" var="Titular2">
+                <apex:outputText value=", el Senyor / la Senyora  {!Titular2.contactoNombre} amb {!Titular2.contactoTipoDocumentoIdentidad} {!Titular2.contactoDocumentoIdentidad}, 
+                                        amb domicili a {!Titular2.contactoCiudad}, núm. de telèfon {!Titular2.contactoTelefono}, 
+                                        correu-e {!Titular2.contactoEmail} "/>
+            </apex:repeat>        
+        <!-- Datos de los representantes-->          
+            <apex:repeat value="{!lRepresentantes}" var="Representante">
+                <apex:outputText value=" , amb Responsable ({!Representante.Role}) el Senyor / la Senyora {!Representante.contactoNombre} 
+                                        amb {!Representante.contactoTipoDocumentoIdentidad} {!Representante.contactoDocumentoIdentidad},  amb domicili a {!Representante.contactoCiudad}, 
+                                        núm. de telèfon  {!Representante.contactoTelefono}, corre-e {!Representante.contactoEmail}"/>
+            </apex:repeat>
+        </div>
+        <!-- Datos generales de Arriaga--> 
+        <div align="justify">
+            <br/>
+            <apex:outputText value="D'altra banda, ARRIAGA ASOCIADOS ASESORAMIENTO JURÍDICO Y ECONÓMICO S.L. (en endavant, ARRIAGA ASOCIADOS), amb domicili social al Carrer Agustín de Foxá nº 4-10, planta 5ª, 28036 MADRID, N.I.F : B-98488117, telèfon: 910052600, correu electrònic: contacto@arriagaasociados.com" escape="false"/>
+           <br/>                         
+        </div>                          
+    </div>
+   </apex:outputpanel>
+</apex:component>

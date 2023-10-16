@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Revisiones</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Revisiones</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Formato Revisión</layout>
+        <sections>
+            <label></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label></label>
+        <name>HIPOTECA</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Cliente_y_Candidato</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Valor_Otros</name>
+    </validationRules>
+    <webLinks>
+        <label></label>
+        <name>Crear_Cita_y_Oportunidad</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>GeneradordeRevisiones</name>
+    </webLinks>
+</CustomObjectTranslation>

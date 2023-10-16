@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CallCenterRoutingMap xmlns="http://soap.sforce.com/2006/04/metadata">
-    <callCenter>Arriagaasociadosprod</callCenter>
-    <developerName>SCV_ADMINS_OFI_GRANA_CCQ_04v7U000000CaRgQAK</developerName>
-    <externalId>arn:aws:connect:eu-central-1:203389500378:instance/639025b3-3fe6-4284-af68-57004a772aad/queue/34d0514e-8797-4414-86b1-5ffe3d023017</externalId>
-    <masterLabel>SCV_ADMINS_OFI_GRANA</masterLabel>
-    <quickConnect>be14b2cc-176c-49a0-a7be-da625020ceaa</quickConnect>
-    <referenceRecord>SCV_ADMINS_OFI_GRANA</referenceRecord>
-</CallCenterRoutingMap>

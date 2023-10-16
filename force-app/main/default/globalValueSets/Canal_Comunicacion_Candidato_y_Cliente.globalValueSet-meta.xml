@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Acudiendo a la oficina más cercana</fullName>
+        <default>false</default>
+        <label>Acudiendo a la oficina más cercana</label>
+    </customValue>
+    <customValue>
+        <fullName>Por videollamada</fullName>
+        <default>false</default>
+        <label>Por videollamada</label>
+    </customValue>
+    <customValue>
+        <fullName>Por teléfono</fullName>
+        <default>false</default>
+        <label>Por teléfono</label>
+    </customValue>
+    <description>Canal por el cuál el cliente quiere ser atendido en la cita</description>
+    <masterLabel>Canal Comunicación Candidato y Cliente</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

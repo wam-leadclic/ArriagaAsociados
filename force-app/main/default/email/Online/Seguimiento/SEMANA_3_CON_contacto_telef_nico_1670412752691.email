@@ -1,0 +1,23 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<p>Hola, {{{Account.FirstName}}} soy {{{Sender.FirstName}}}, ¿me recuerdas?&nbsp;</p>
+
+<p>Hace unos días hablamos sobre la documentación necesaria para que nuestros abogados puedan estudiar la viabilidad de tu&nbsp;reclamación.&nbsp;</p>
+
+<p><b>¿Has tenido alguna dificultad o te queda alguna duda sobre el procedimiento? &nbsp;</b></p>
+
+<p>Si es así, no dudes en contestar a este mismo correo y podré ayudarte.&nbsp;</p>
+
+<p>Te llamaré en los próximos días.&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>Gracias por confiar en nosotros.&nbsp;</p>
+
+<p>Equipo Arriaga Asociados<br />
+<a href="https://www.arriagaasociados.com/">https://www.arriagaasociados.com/</a></p>
+</body>
+</html>

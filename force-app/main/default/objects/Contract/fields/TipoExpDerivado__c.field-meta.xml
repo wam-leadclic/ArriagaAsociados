@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TipoExpDerivado__c</fullName>
+    <description>Tipologia del expediente derivado</description>
+    <externalId>false</externalId>
+    <label>Tipo de expediente derivado</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Demanda independiente de cláusula suelo</fullName>
+                <default>false</default>
+                <label>Demanda independiente de cláusula suelo</label>
+            </value>
+            <value>
+                <fullName>Demanda independiente de IRPH</fullName>
+                <default>false</default>
+                <label>Demanda independiente de IRPH</label>
+            </value>
+            <value>
+                <fullName>Demanda Independiente de Gastos Hipotecarios</fullName>
+                <default>false</default>
+                <label>Demanda Independiente de Gastos Hipotecarios</label>
+            </value>
+            <value>
+                <fullName>Demanda independiente de Tarjeta Revolving</fullName>
+                <default>false</default>
+                <label>Demanda independiente de Tarjeta Revolving</label>
+            </value>
+            <value>
+                <fullName>Demanda independiente de Acciones Popular</fullName>
+                <default>false</default>
+                <label>Demanda independiente de Acciones Popular</label>
+            </value>
+            <value>
+                <fullName>Demanda Independiente otras situaciones</fullName>
+                <default>false</default>
+                <label>Demanda Independiente otras situaciones</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

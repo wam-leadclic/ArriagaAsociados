@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CallCenterRoutingMap xmlns="http://soap.sforce.com/2006/04/metadata">
-    <callCenter>Arriagaasociadosprod</callCenter>
-    <developerName>Almeria_Admins_04v7U000000CaRgQAK</developerName>
-    <externalId>arn:aws:connect:eu-central-1:203389500378:instance/639025b3-3fe6-4284-af68-57004a772aad/routing-profile/2b1b1cd5-8d8a-4793-a073-32db6da9df36</externalId>
-    <masterLabel>00G690000065jG6EAI</masterLabel>
-    <referenceRecord>Almeria_Admins</referenceRecord>
-</CallCenterRoutingMap>

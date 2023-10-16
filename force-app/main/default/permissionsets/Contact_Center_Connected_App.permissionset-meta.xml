@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Contact Center Connected App</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Contact Center Connected App</label>
+    <license>Salesforce</license>
+</PermissionSet>

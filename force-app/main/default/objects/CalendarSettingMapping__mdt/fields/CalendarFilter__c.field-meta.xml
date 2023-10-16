@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CalendarFilter__c</fullName>
+    <description>Related calendar filter, contains a field reference to CalendarSetting</description>
+    <externalId>false</externalId>
+    <fieldManageability>SubscriberControlled</fieldManageability>
+    <label>Calendar filter</label>
+    <referenceTo>CalendarFilter__mdt</referenceTo>
+    <relationshipLabel>Calendar Setting Mappings</relationshipLabel>
+    <relationshipName>CalendarSettingMappings</relationshipName>
+    <required>false</required>
+    <type>MetadataRelationship</type>
+    <unique>false</unique>
+</CustomField>

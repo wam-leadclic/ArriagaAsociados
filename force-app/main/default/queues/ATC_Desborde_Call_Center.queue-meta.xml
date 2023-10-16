@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>ATC - Desborde Call Center</name>
+    <queueMembers>
+        <roles>
+            <role>Supervisor_ATC</role>
+        </roles>
+        <users>
+            <user>amartina@arriagaasociados.com</user>
+            <user>algrande@arriagaasociados.com</user>
+            <user>bgsirgado@arriagaasociados.com</user>
+            <user>cgrecu@arriagaasociados.com</user>
+            <user>dmgarcia@arriagaasociados.com</user>
+            <user>fperezg@arriagaasociados.com</user>
+            <user>jdesala@arriagaasociados.com</user>
+            <user>lperezs@arriagaasociados.com</user>
+            <user>lhernandez@arriagaasociados.com</user>
+            <user>mcsancho@arriagaasociados.com</user>
+            <user>malcon@arriagaasociados.com</user>
+            <user>mexposito@arriagaasociados.com</user>
+            <user>mcerdena@arriagaasociados.com</user>
+            <user>mlinares@arriagaasociados.com</user>
+            <user>nmunoz@arriagaasociados.com</user>
+            <user>ntudela@arriagaasociados.com</user>
+            <user>pmartinez@arriagaasociados.com</user>
+            <user>palvarezs@arriagaasociados.com</user>
+            <user>rtabernero@arriagaasociados.com</user>
+            <user>rramirez@arriagaasociados.com</user>
+            <user>spllado@arriagaasociados.com</user>
+            <user>srcabrera@arriagaasociados.com</user>
+            <user>smartos@arriagaasociados.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

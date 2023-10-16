@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EnlaceSiteGDPREnviado__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Se marca si se le ha enviado la primera comunicación (Solo importa en cuentas personales)</description>
+    <externalId>false</externalId>
+    <label>Enlace Site GDPR Enviado</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Interno__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Campo para indicar que es un caso interno y que no se tiene que mostrar al contacto de la comunidad</description>
+    <externalId>false</externalId>
+    <label>Publicar a cliente</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

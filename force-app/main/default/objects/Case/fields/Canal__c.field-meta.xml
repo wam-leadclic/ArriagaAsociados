@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Canal__c</fullName>
+    <description>Canal por el que se ha creado el caso</description>
+    <externalId>false</externalId>
+    <label>Canal</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>true</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>LLamada</fullName>
+                <default>false</default>
+                <label>LLamada</label>
+            </value>
+            <value>
+                <fullName>Email</fullName>
+                <default>false</default>
+                <label>Email</label>
+            </value>
+            <value>
+                <fullName>Visita</fullName>
+                <default>false</default>
+                <label>Visita</label>
+            </value>
+            <value>
+                <fullName>RR.SS/Web</fullName>
+                <default>false</default>
+                <label>RR.SS/Web</label>
+            </value>
+            <value>
+                <fullName>Carta</fullName>
+                <default>false</default>
+                <label>Carta</label>
+            </value>
+            <value>
+                <fullName>Formulario</fullName>
+                <default>false</default>
+                <label>Formulario</label>
+            </value>
+            <value>
+                <fullName>Caso abierto por otro departamento Arriaga</fullName>
+                <default>false</default>
+                <label>Caso abierto por otro departamento Arriaga</label>
+            </value>
+            <value>
+                <fullName>Minerva</fullName>
+                <default>false</default>
+                <label>Minerva</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

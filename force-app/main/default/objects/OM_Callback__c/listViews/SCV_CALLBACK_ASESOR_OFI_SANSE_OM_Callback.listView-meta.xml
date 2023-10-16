@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SCV_CALLBACK_ASESOR_OFI_SANSE_OM_Callback</fullName>
+    <filterScope>Queue</filterScope>
+    <label>CALLBACK ASESOR OFI SANSE</label>
+    <queue>SCV_CALLBACK_ASESOR_OFI_SANSE</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

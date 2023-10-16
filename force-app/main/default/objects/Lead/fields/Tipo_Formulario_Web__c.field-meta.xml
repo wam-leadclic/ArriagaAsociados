@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tipo_Formulario_Web__c</fullName>
+    <description>Tipo Formulario Web, hacer el seguimiento de los candidatos recibidos a través de formulario web.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Seguimiento de los candidatos recibidos a través de formulario web</inlineHelpText>
+    <label>Tipo Formulario Web</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>CON PRODUCTO CONCRETO</fullName>
+                <default>false</default>
+                <label>Con Producto Concreto</label>
+            </value>
+            <value>
+                <fullName>PRODUCTO NO CONTRATABLE</fullName>
+                <default>false</default>
+                <label>Producto no Contratable</label>
+            </value>
+            <value>
+                <fullName>SIN PRODUCTO CONCRETO</fullName>
+                <default>false</default>
+                <label>Sin Producto Concreto</label>
+            </value>
+            <value>
+                <fullName>ASESORAMIENTO GRATUITO</fullName>
+                <default>false</default>
+                <label>Asesoramiento Gratuito</label>
+            </value>
+            <value>
+                <fullName>YA CLIENTE</fullName>
+                <default>false</default>
+                <label>Ya Cliente</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

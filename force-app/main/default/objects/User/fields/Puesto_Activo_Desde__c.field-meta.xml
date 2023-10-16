@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Puesto_Activo_Desde__c</fullName>
+    <description>Fecha Inicio del Puesto para cálculo de Incentivo e Informes</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Fecha inicio del puesto actual</inlineHelpText>
+    <label>Puesto Activo Desde</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Date</type>
+</CustomField>

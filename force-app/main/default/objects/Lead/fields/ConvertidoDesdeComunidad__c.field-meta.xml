@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ConvertidoDesdeComunidad__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Campo que indica si el candidato se ha convertido a través de la comunidad. esto sucede desde la página de registro de la comunidad.</description>
+    <externalId>false</externalId>
+    <label>Convertido desde comunidad</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

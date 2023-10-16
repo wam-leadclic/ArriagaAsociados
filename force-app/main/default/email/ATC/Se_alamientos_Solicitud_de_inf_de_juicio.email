@@ -1,0 +1,25 @@
+<table border="0" cellpadding="5" width="600" cellspacing="5" height="400" >
+<tr valign="top" height="50" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[]]></td>
+</tr>
+<tr valign="top" height="300" >
+<td tEditID="c1r2" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r2" locked="0" >
+<![CDATA[<p class="MsoNormal" style="font-family: arial; line-height: normal;"></p><p class="MsoNormal" style="line-height: normal;"><span style="font-size: 12pt;"><font face="Times New Roman, Times, serif">Buenos días:<o:p></o:p></font></span></p><p class="MsoNormal" style="line-height: normal;"><span style="font-size: 12pt;"><font face="Times New Roman, Times, serif"><br></font></span></p><p class="MsoNormal" style="line-height: normal;"><font face="Times New Roman, Times, serif"><span style="font-size: 12pt;">Estimado XXX. Queremos comunicarle </span><span style="font-size: 12pt;">para informarle de que la Audiencia
+Previa prevista para el 7/11/2018 ha sido suspendida. Sentimos las molestias
+que esto pueda ocasionar, pero es una cuestión del Juzgado, Arriaga Asociados
+no tiene nada que ver.<o:p></o:p></span></font></p><p class="MsoNormal" style="line-height: normal;"><span style="font-size: 12pt;"><font face="Times New Roman, Times, serif"><br></font></span></p><p class="MsoNormal" style="line-height: normal;"><span style="font-size: 12pt;"><font face="Times New Roman, Times, serif">En cuanto
+tengamos nueva fecha se lo comuncaremos.<o:p></o:p></font></span></p><p class="MsoNormal" style="line-height: normal;"><span style="font-size: 12pt;"><font face="Times New Roman, Times, serif"><br></font></span></p><p class="MsoNormal" style="line-height: normal;">
+
+
+
+
+
+</p><p class="MsoNormal" style="line-height: normal;"><span style="font-size: 12pt;"><font face="Times New Roman, Times, serif">Un cordial
+saludo.<o:p></o:p></font></span></p><br><p style="font-family: arial;"></p>]]></td>
+</tr>
+<tr valign="top" height="50" >
+<td tEditID="c1r3" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r3" locked="0" >
+<![CDATA[<span style="font-size: medium;"><font color="#ffffff">{!Case.Thread_Id}</font></span>]]></td>
+</tr>
+</table>

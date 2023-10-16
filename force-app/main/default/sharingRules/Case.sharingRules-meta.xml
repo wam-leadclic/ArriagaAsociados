@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>Cambio_Estado_Casos_Procesal_Por_ATC</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Posibilidad de Gestión de Casos de tipo Procesal por parte de ATC</description>
+        <label>Cambio Estado Casos Procesal Por ATC</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>Supervisor_ATC</roleAndSubordinatesInternal>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Procesal</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Cambio_Estado_Casos_Procesal_Por_Call</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Posibilidad de Gestión de Casos de tipo Procesal por parte de Call Center</description>
+        <label>Cambio Estado Casos Procesal Por Call</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>Supervisor_Call_Center</roleAndSubordinatesInternal>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Procesal</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Colaboracion_interna</fullName>
+        <accessLevel>Read</accessLevel>
+        <description>Visibilidad de casos entre usuarios internos</description>
+        <label>Colaboración interna</label>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>ATC,Call Center Confirmación de cita,Call Center General,Financiero / Resoluciones,Incidencias,Financiero Gestión cobros,Siniestro,Call Center Recaptura</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Tipo_Cuenta__c</field>
+            <operation>notEqual</operation>
+            <value>Oculto</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingOwnerRules>
+        <fullName>Casos_integracion</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Casos integración</label>
+        <sharedTo>
+            <group>ATC</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>Integraci_n</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Riesgos_Incidencia</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Riesgos Incidencia</label>
+        <sharedTo>
+            <group>Riesgos</group>
+        </sharedTo>
+        <sharedFrom>
+            <queue>ColaIncidencias</queue>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Arriaga_plantilla_casos</letterhead>
+    <name>HA FINALIZADO EL PERIODO DE PAGO VOLUNTARIO TRAS SENTENCIA FIRME Y NO CONSTA CON</name>
+    <style>formalLetter</style>
+    <subject>HA FINALIZADO EL PERIODO DE PAGO VOLUNTARIO TRAS SENTENCIA FIRME</subject>
+    <textOnly>Estimado {!Contact.FirstName},
+
+Como ya le informamos hace unas semanas, ha ganado su pleito. Transcurrido el periodo de pago voluntario, no nos consta que el banco haya abonado ninguna cantidad. Por ello, en los próximos días, vamos a interponer una demanda de ejecución forzosa para solicitar el cumplimiento de la sentencia.
+
+Si necesita más información estamos a su disposición en el teléfono de atención al cliente 91 005 26 00.
+
+Reciba un cordial saludo.
+
+
+{!Case.OwnerFirstName} {!Case.OwnerLastName}
+
+Departamento de Atención al Cliente.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

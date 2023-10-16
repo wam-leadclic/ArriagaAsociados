@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CallCenter xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <adapterUrl>https://arriagaasociados--partial.sandbox.my.salesforce.com/hvcc/amz/index.html</adapterUrl>
+    <customSettings>{&quot;reqTimeout&quot;:&quot;5000&quot;,&quot;reqStandbyUrl&quot;:&quot;https://domain:port/softphone&quot;,&quot;reqCallCenterType&quot;:&quot;SCVOOTBTelephony&quot;,&quot;reqSoftphoneHeight&quot;:&quot;300&quot;,&quot;reqUseApi&quot;:&quot;true&quot;,&quot;reqSoftphoneWidth&quot;:&quot;500&quot;,&quot;reqSalesforceCompatibilityMode&quot;:&quot;Lightning&quot;}</customSettings>
+    <displayName>Arriagaasociados_UAT</displayName>
+    <displayNameLabel>Display Name</displayNameLabel>
+    <internalNameLabel>Internal Name</internalNameLabel>
+    <sections>
+        <items>
+            <label>CTI Adapter URL</label>
+            <name>reqAdapterUrl</name>
+            <value>https://arriagaasociados--partial.sandbox.my.salesforce.com/hvcc/amz/index.html</value>
+        </items>
+        <items>
+            <label>Use CTI API</label>
+            <name>reqUseApi</name>
+            <value>true</value>
+        </items>
+        <items>
+            <label>Softphone Height</label>
+            <name>reqSoftphoneHeight</name>
+            <value>300</value>
+        </items>
+        <items>
+            <label>Softphone Width</label>
+            <name>reqSoftphoneWidth</name>
+            <value>500</value>
+        </items>
+        <items>
+            <label>Salesforce Compatibility Mode</label>
+            <name>reqSalesforceCompatibilityMode</name>
+            <value>Lightning</value>
+        </items>
+        <label>General Information</label>
+        <name>reqGeneralInfo</name>
+    </sections>
+    <sections>
+        <items>
+            <label>Telephony Provider</label>
+            <name>reqTelephonyProvider</name>
+            <value>AMAZON_CONNECT</value>
+        </items>
+        <items>
+            <label>Instance Name</label>
+            <name>reqInstanceName</name>
+            <value>ArriagaasociadosUAT00D5t0000008hwA</value>
+        </items>
+        <items>
+            <label>Relay State</label>
+            <name>reqRelayState</name>
+            <value>https://eu-central-1.console.aws.amazon.com/connect/federate/d092f5b0-4737-465d-afd5-3138f1e3ca41</value>
+        </items>
+        <items>
+            <label>Identity URL</label>
+            <name>reqIdentityUrl</name>
+            <value>https://arriagaasociados--partial.sandbox.my.salesforce.com/idp/login?app=0sp5t000000002v</value>
+        </items>
+        <items>
+            <label>Telephony Integration Certificate</label>
+            <name>reqTelephonyIntegrationCertificate</name>
+            <value>-----BEGIN CERTIFICATE-----
+MIICyTCCAjKgAwIBAgIJfB7M0P7NvaXHMA0GCSqGSIb3DQEBBQUAMIGCMQswCQYD
+VQQGEwJVUzELMAkGA1UECBMCQ0ExFjAUBgNVBAcTDVNhbiBGcmFuY2lzY28xFzAV
+BgNVBAoTDnNhbGVzZm9yY2UuY29tMRswGQYDVQQDExJ3d3cuc2FsZXNmb3JjZS5j
+b20xGDAWBgNVBAsTDzAwRDV0MDAwMDAwOGh3QTAeFw0yMzAxMjAwOTQ2MTVaFw0y
+NDAxMjAwOTQ2MTVaMIGCMQswCQYDVQQGEwJVUzELMAkGA1UECBMCQ0ExFjAUBgNV
+BAcTDVNhbiBGcmFuY2lzY28xFzAVBgNVBAoTDnNhbGVzZm9yY2UuY29tMRswGQYD
+VQQDExJ3d3cuc2FsZXNmb3JjZS5jb20xGDAWBgNVBAsTDzAwRDV0MDAwMDAwOGh3
+QTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAvrqdEZT/3/LmrS/blzfaAuoo
+MmM2yq1AsXd5yODR0nvWJdswXwq4GjnTZS80bOXtlsbX2Y6MuemXV0nVASpxC/YE
+MLnPijt4KaTbG99NDC0wRYghXd3Nj+zNo6uQgew1tBEvrPPn3sLp4fDgNaDmJDmb
+Q/vdGMebya+D4oXMFEkCAwEAAaNFMEMwDAYDVR0TBAUwAwEB/zALBgNVHQ8EBAMC
+AvQwJgYDVR0RBB8wHYYbaHR0cDovL2V4YW1wbGUub3JnL3dlYmlkI21lMA0GCSqG
+SIb3DQEBBQUAA4GBAEP10t11y2KmJG/l/gNrrsU/VvrLZZVlIP9PWewLVxMEQn5J
+tz0dmNAH76V/fdRyM0lcCwhJG95gcs8+pUPwRpPZctLluusM1RG1Wazy80aMVdtH
+YCEHPPfQG6S6sOmcCPVlewNu8FC3ViwdVYISoJDXu50bUSwRVLf7DZBPlPRP
+-----END CERTIFICATE-----</value>
+        </items>
+        <items>
+            <label>Region</label>
+            <name>reqRegion</name>
+            <value>eu-central-1</value>
+        </items>
+        <items>
+            <label>Connected App Id</label>
+            <name>reqConnectedAppId</name>
+            <value>0H45t0000004Dii</value>
+        </items>
+        <items>
+            <label>Instance Id</label>
+            <name>reqInstanceId</name>
+            <value>d092f5b0-4737-465d-afd5-3138f1e3ca41</value>
+        </items>
+        <items>
+            <label>Instance Service Role</label>
+            <name>reqInstanceServiceRole</name>
+            <value>arn:aws:iam::341161996467:role/aws-service-role/connect.amazonaws.com/AWSServiceRoleForAmazonConnect_IQ0MnOPwe4VNUrVvMXn1</value>
+        </items>
+        <items>
+            <label>Settings Relay State</label>
+            <name>reqSettingsRelayState</name>
+            <value>https://eu-central-1.console.aws.amazon.com/connect/federate/d092f5b0-4737-465d-afd5-3138f1e3ca41</value>
+        </items>
+        <items>
+            <label>Stack Id</label>
+            <name>reqStackId</name>
+            <value>arn:aws:cloudformation:eu-central-1:341161996467:stack/ArriagaasociadosUAT-SCVContactCenterStack/b843af30-98a6-11ed-a50c-02bb61dd0f62</value>
+        </items>
+        <items>
+            <label>Instance Recording Role</label>
+            <name>reqInstanceRecordingRole</name>
+            <value>arn:aws:iam::341161996467:role/ArriagaasociadosUAT-ConnectCallRole</value>
+        </items>
+        <items>
+            <label>Telephony Integration Keypair Expiration Date</label>
+            <name>reqTelephonyIntegrationKeyPairExpDate</name>
+            <value>20/01/2024 09:46:13</value>
+        </items>
+        <items>
+            <label>Rest API Connected App Id</label>
+            <name>reqRestApiConnectedAppId</name>
+            <value>0H45t0000004Dij</value>
+        </items>
+        <items>
+            <label>Salesforce ApiVersion</label>
+            <name>reqAppApiVersion</name>
+            <value>56.0</value>
+        </items>
+        <items>
+            <label>Trusted Role ARN</label>
+            <name>reqTrustedRoleARN</name>
+            <value>arn:aws:iam::341161996467:role/ProvisioningRole</value>
+        </items>
+        <items>
+            <label>Universal Call Recording Access</label>
+            <name>reqUniversalCallRecordingAccess</name>
+            <value>true</value>
+        </items>
+        <items>
+            <label>Quick Connect for Omni Flow Transfer Id</label>
+            <name>reqTransferTargetForOmniFlowTransfer</name>
+            <value>arn:aws:connect:eu-central-1:341161996467:instance/d092f5b0-4737-465d-afd5-3138f1e3ca41/transfer-destination/d0dab2d0-f61f-4941-a566-f0041920a181</value>
+        </items>
+        <items>
+            <label>Quick Connect for Omni Flow Transfer</label>
+            <name>reqTransferTargetForOmniFlowTransferDisplayName</name>
+            <value>Quick Connect for Omni-Channel Flow Transfers</value>
+        </items>
+        <items>
+            <label>Long Distance Prefix</label>
+            <name>reqLongDistPrefix</name>
+            <value>+34</value>
+        </items>
+        <items>
+            <label>Voice Extension Flexipage</label>
+            <name>reqVoiceExtensionFlexipage</name>
+            <value xsi:nil="true"/>
+        </items>
+        <items>
+            <label>Presence Sync Status Access</label>
+            <name>reqPresenceStatusSyncAccess</name>
+            <value>true</value>
+        </items>
+        <items>
+            <label>Last imported routing settings from vendor</label>
+            <name>lastImportedRoutingSettingsFromVendorDate</name>
+            <value>1684835587428</value>
+        </items>
+        <label>Service Voice Settings</label>
+        <name>reqHvcc</name>
+    </sections>
+    <vendorCallCenterStatusMaps>
+        <externalStatus>arn:aws:connect:eu-central-1:341161996467:instance/d092f5b0-4737-465d-afd5-3138f1e3ca41/agent-state/0fbfdfb4-93cd-4807-a91d-31bb9de4ddd6</externalStatus>
+        <servicePresenceStatus>OM_BussyAppointment</servicePresenceStatus>
+    </vendorCallCenterStatusMaps>
+    <vendorCallCenterStatusMaps>
+        <externalStatus>arn:aws:connect:eu-central-1:341161996467:instance/d092f5b0-4737-465d-afd5-3138f1e3ca41/agent-state/e13c91ca-1686-4f8b-a8c4-682907498a83</externalStatus>
+        <servicePresenceStatus>OM_BussyLong</servicePresenceStatus>
+    </vendorCallCenterStatusMaps>
+    <vendorCallCenterStatusMaps>
+        <externalStatus>arn:aws:connect:eu-central-1:341161996467:instance/d092f5b0-4737-465d-afd5-3138f1e3ca41/agent-state/3e0844bd-5d53-46fc-8d36-29b1c3ceb542</externalStatus>
+        <servicePresenceStatus>OM_BussyShort</servicePresenceStatus>
+    </vendorCallCenterStatusMaps>
+    <vendorCallCenterStatusMaps>
+        <externalStatus>arn:aws:connect:eu-central-1:341161996467:instance/d092f5b0-4737-465d-afd5-3138f1e3ca41/agent-state/37b31f4c-affa-4bf1-88c2-36061dfbd3c7</externalStatus>
+        <servicePresenceStatus>OM_BussyTraining</servicePresenceStatus>
+    </vendorCallCenterStatusMaps>
+    <vendorCallCenterStatusMaps>
+        <externalStatus>arn:aws:connect:eu-central-1:341161996467:instance/d092f5b0-4737-465d-afd5-3138f1e3ca41/agent-state/77c21c09-29ac-4d42-a317-ffa815274a6c</externalStatus>
+        <servicePresenceStatus>OM_BusyMeeting</servicePresenceStatus>
+    </vendorCallCenterStatusMaps>
+    <vendorCallCenterStatusMaps>
+        <externalStatus>arn:aws:connect:eu-central-1:341161996467:instance/d092f5b0-4737-465d-afd5-3138f1e3ca41/agent-state/9bad8d78-618e-44b9-b444-936d3681b262</externalStatus>
+        <servicePresenceStatus>OM_InstantOutboundCall</servicePresenceStatus>
+    </vendorCallCenterStatusMaps>
+    <version>10.1</version>
+</CallCenter>

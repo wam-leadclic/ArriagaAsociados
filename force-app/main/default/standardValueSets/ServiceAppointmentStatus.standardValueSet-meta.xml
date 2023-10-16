@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <groupingStringEnum>SvcApptStatusCategory</groupingStringEnum>
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Dispatched</fullName>
+        <default>true</default>
+        <label>Dispatched</label>
+        <groupingString>Dispatched</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>In Progress</fullName>
+        <default>false</default>
+        <label>In Progress</label>
+        <groupingString>InProgress</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Cannot Complete</fullName>
+        <default>false</default>
+        <label>Cannot Complete</label>
+        <groupingString>CannotComplete</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Completed</fullName>
+        <default>false</default>
+        <label>Completed</label>
+        <groupingString>Completed</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Canceled</fullName>
+        <default>false</default>
+        <label>Canceled</label>
+        <groupingString>Canceled</groupingString>
+    </standardValue>
+</StandardValueSet>

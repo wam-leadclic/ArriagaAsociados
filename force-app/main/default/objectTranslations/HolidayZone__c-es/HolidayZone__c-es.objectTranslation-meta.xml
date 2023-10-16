@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Zona de Festivos</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Zonas de Festivos</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Zone Layout</layout>
+        <sections>
+            <label></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Nombre de Zona</nameFieldLabel>
+</CustomObjectTranslation>

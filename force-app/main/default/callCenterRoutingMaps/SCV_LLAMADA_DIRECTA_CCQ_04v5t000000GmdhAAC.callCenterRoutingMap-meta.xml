@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CallCenterRoutingMap xmlns="http://soap.sforce.com/2006/04/metadata">
+    <callCenter>ArriagaasociadosUAT</callCenter>
+    <developerName>SCV_LLAMADA_DIRECTA_CCQ_04v5t000000GmdhAAC</developerName>
+    <externalId>arn:aws:connect:eu-central-1:341161996467:instance/d092f5b0-4737-465d-afd5-3138f1e3ca41/queue/af21ea3d-9285-48c8-aed7-92e505a20c06</externalId>
+    <masterLabel>SCV_LLAMADA_DIRECTA</masterLabel>
+    <referenceRecord>SCV_LLAMADA_DIRECTA</referenceRecord>
+</CallCenterRoutingMap>

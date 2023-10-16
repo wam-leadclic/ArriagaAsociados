@@ -1,0 +1,103 @@
+<!--
+@author Leadclic Solutions S.L.
+@date 29/04/2019 
+@description    Componente para seleccionar y mostrar las hojas de encargo
+
+<pre>
+FECHA                   AUTOR                   ACCION
+06/05/2019              LCS - RDM               Creación
+-->
+<template>
+        <template if:true={noHdE}>
+            <lightning-card  variant="Narrow"  title={label.HojaEncargoCard} icon-name="standard:record_update">
+                <lightning-button  variant="brand" label={label.BotonSeleccionar} title={label.BotonSeleccionar} onclick={onclickSeleccionarHdE} slot="actions"></lightning-button>
+                <p class="slds-align_absolute-center slds-text-title slds-text-color_default">{label.HojaEncargoNoSeleccionado}</p>
+            </lightning-card> 
+        </template>
+        
+        
+        <!-- MODAL FOR HdE SELECTION -->
+        <template if:true={openModal}>
+            <section role="dialog" tabindex="-1" aria-labelledby="modal-heading-01" aria-modal="true" aria-describedby="modal-content-id-1" class="slds-modal slds-fade-in-open">
+                <div class="slds-modal__container" >
+                    <header class="slds-modal__header">                        
+                        <h2 id="modal-heading-01" class="slds-text-heading_medium slds-hyphenate">{label.ModalSeleccionarHoja}</h2>
+                    </header>
+                    <div class="slds-modal__content" id="modal-content-id-1">
+                        <table class="slds-table slds-table_cell-buffer slds-table_bordered">
+                            <thead>
+                                <tr class="slds-line-height_reset">
+                                    <th class="slds-text-title_caps" scope="col">
+                                      <div class="slds-truncate" title="BotonGuardar"></div>
+                                    </th>
+                                    <th class="slds-text-title_caps" scope="col">
+                                      <div class="slds-truncate" title="name">{label.ModalTablaCol4}</div>
+                                    </th>
+                                    <th class="slds-text-title_caps" scope="col">
+                                      <div class="slds-truncate" title="TipoHoja">{label.ModalTablaCol1}</div>
+                                    </th>                                   
+                                    <!-- <th class="slds-text-title_caps" scope="col">
+                                      <div class="slds-truncate" title="codigoPlantilla">{label.ModalTablaCol3}</div>
+                                    </th> -->
+                                </tr>
+                            </thead>
+                            <tbody>
+                                
+                                <template for:each={camposHojaEncargo} for:item="cHdE" for:index="indexvar">
+                                    <tr class="slds-hint-parent" key={cHdE.id}>
+                                        <td>
+                                            <lightning-button-icon key={cHdE.id} value={cHdE} icon-name="utility:save" alternative-text="Save" class="slds-m-left_xx-small" onclick={onclickcargarHdE}></lightning-button-icon>
+                                        </td>
+                                        <td data-label="name">
+                                            <div class="slds-truncate" title={cHdE.name}>{cHdE.name}</div>
+                                        </td>
+                                        <td data-label="TipoHoja">
+                                            
+                                            <template if:true={cHdE.isCustomHdE}>
+                                                <lightning-helptext content="El usuario tendrá que adjuntar la Hoja de Encargo personalizada mediante el Gestor Documental"></lightning-helptext>
+                                            </template>
+
+                                            <div class="slds-truncate" title={cHdE.tipoHoja}>{cHdE.tipoHoja}</div>
+                                        </td>                                      
+                                        <!-- <td data-label="codigoPlantilla">
+                                            <div class="slds-truncate" title={cHdE.codigoPlantilla}>{cHdE.codigoPlantilla}</div>
+                                        </td> -->
+                                    </tr>
+                                </template>
+                            </tbody>
+                        </table>
+                    </div>
+                    <footer class="slds-modal__footer">
+                        <lightning-button label="Cancelar" variant="neutral" onclick={onclickcloseModal}></lightning-button>
+                    </footer>
+                </div>
+            </section>
+            <div class="slds-backdrop slds-backdrop_open"></div>
+        </template>
+        
+        
+        <!-- SHOW CURRENT HdE-->
+        <template if:true={HdE}>
+            <lightning-card  variant="Narrow"  title={label.HojaEncargoCard} icon-name="standard:record_update">
+                <lightning-button-group slot="actions">
+                    <lightning-button  variant="Neutral" label="Cambiar" title="Cambiar" onclick={onclickcambiarHdE}></lightning-button>
+                    <lightning-button  variant="brand" label="Generar PDF" title="Generar PDF" onclick={onclickgnPDF}></lightning-button>
+                </lightning-button-group>
+                <div class="slds-p-around_medium lgc-bg">
+                    
+                    <lightning-tile label={nameHdE} type="media" href='{urlLinkPDF}'>
+                        
+                        <lightning-icon slot="media" icon-name="doctype:pdf" size="medium" variant="inverse"></lightning-icon>
+                            <ul class="slds-truncate slds-list_horizontal slds-has-dividers_left">
+                                <li class="slds-item">
+                                    <div class="slds-text-title slds-text-color_default">{TipoDoc}</div>
+                                </li>
+                                <li class="slds-item">
+                                    <div class="slds-text-title slds-text-color_default">{CodigoDoc}</div>
+                                </li>
+                            </ul>                        
+                    </lightning-tile>
+                </div>
+            </lightning-card> 
+        </template>   
+</template>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Control_Documento_Identificativo_Leadbis</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+OR(ISNULL(Company), Company=&quot;&quot;),
+OR(
+AND(OR(ISPICKVAL(TipoDocumento__c, &quot;NIF&quot;),ISPICKVAL(TipoDocumento__c, &quot;NIE&quot;),ISPICKVAL(TipoDocumento__c, &quot;Pasaporte&quot;)),DocumentoIdentidad__c = &quot;&quot;),
+AND(ISPICKVAL(TipoDocumento__c, &quot;CIF&quot;))
+)
+)</errorConditionFormula>
+    <errorMessage>Si no indica Campo Compañía, la Identificación debe ser NIF/NIE/Pasaporte o en Blanco</errorMessage>
+</ValidationRule>

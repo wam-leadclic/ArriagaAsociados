@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BloqueoExpedienteSincronizado</fullName>
+    <active>true</active>
+    <description>Si se ha marcado el expediente como &apos;Completado final&apos; no se debe poder modificar</description>
+    <errorConditionFormula>AND(
+ 	NOT( ISCHANGED( PagoConfirmado__c ) ),
+  PagoConfirmado__c,
+  TEXT(PRIORVALUE(Status)) = $Label.EstadoExpteSincronizado ,
+  $Profile.Name &lt;&gt; $Label.AdminProfile,
+  $Profile.Name &lt;&gt; $Label.IntegrationProfile,
+  NOT(OR(
+    TEXT(Status) = $Label.EstadoExpteAcuerdo,
+    TEXT(Status) = $Label.EstadoExpteDesistido,
+    TEXT(Status) = $Label.EstadoExpteRevocado,
+    TEXT(Status) = $Label.EstadoExpteVenia
+  ))
+)</errorConditionFormula>
+    <errorMessage>El expediente está en Producción y no se puede modificar</errorMessage>
+</ValidationRule>

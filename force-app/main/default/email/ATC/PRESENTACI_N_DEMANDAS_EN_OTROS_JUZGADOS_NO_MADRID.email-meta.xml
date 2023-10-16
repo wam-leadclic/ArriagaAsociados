@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Arriaga_plantilla_casos</letterhead>
+    <name>PRESENTACIÓN DEMANDAS EN OTROS JUZGADOS (NO MADRID)</name>
+    <style>formalLetter</style>
+    <subject>DEMANDA PRESENTADA EN MADRID A LA ESPERA DE ADMISIÓN EN OTROS JUZGADOS</subject>
+    <textOnly>Estimado {!Contact.FirstName},
+
+
+
+En relación a su consulta sobre el estado de su reclamación de PRODUCTO que tiene contratada con Arriaga Asociados, queremos informarle su demanda fue presentada en los juzgados de Madrid, el pasado XX de XXXXXXXX de XXXX.
+
+
+
+Dado el gran volumen de demandas presentadas en este partido judicial, seguimos a la espera de la admisión a trámite.
+
+
+
+La demanda será admitida a trámite cuando le corresponda por turno, y se informará a la entidad bancaria. Posteriormente, el juzgado señalará, en su caso, fecha para la celebración de la audiencia previa al juicio. Una vez nos sea notificada, volveremos a ponernos en contactacto con usted.
+
+
+
+Si necesita más información estamos a su disposición en el teléfono de atención al cliente 91 005 26 00.
+
+Reciba un cordial saludo.
+
+
+{!Case.OwnerFirstName} {!Case.OwnerLastName}
+
+Departamento de Atención al Cliente.
+
+ARRIAGA ASOCIADOS.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

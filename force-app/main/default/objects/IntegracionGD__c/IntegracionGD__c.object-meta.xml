@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>Valores de los datos necesarios para la conexión con los WS de encamina</description>
+    <enableFeeds>false</enableFeeds>
+    <label>IntegracionGD</label>
+    <visibility>Public</visibility>
+</CustomObject>

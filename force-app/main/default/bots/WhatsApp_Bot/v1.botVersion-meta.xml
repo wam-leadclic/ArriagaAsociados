@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <BotVersion xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>v1</fullName>
-    <articleAnswersGPTEnabled>false</articleAnswersGPTEnabled>
     <botDialogs>
         <botSteps>
             <botVariableOperation>
@@ -21,7 +20,7 @@
                     </invocationMappings>
                 </botInvocation>
                 <type>Set</type>
-                <variableOperationIdentifier>cc37248e-0a3c-4f7a-90f4-a16433376616</variableOperationIdentifier>
+                <variableOperationIdentifier>cd66ffdd-d771-40dc-b1af-6815202c49fb</variableOperationIdentifier>
             </botVariableOperation>
             <stepIdentifier>87c93938-a4a3-4066-9de5-14f868c47fab</stepIdentifier>
             <type>VariableOperation</type>
@@ -40,7 +39,7 @@
                     </botNavigationLinks>
                     <type>Call</type>
                 </botNavigation>
-                <stepIdentifier>cc2bf85a-720e-4a46-8e16-20a2b5042c9a</stepIdentifier>
+                <stepIdentifier>d8b014f6-a365-4b6e-b650-02fe9963da44</stepIdentifier>
                 <type>Navigation</type>
             </botSteps>
             <conditionLogicType>And</conditionLogicType>
@@ -69,7 +68,7 @@
                     </botNavigationLinks>
                     <type>Call</type>
                 </botNavigation>
-                <stepIdentifier>e26a8497-7aad-4938-a2e2-3f87f318deb0</stepIdentifier>
+                <stepIdentifier>1bd80914-c103-473e-9127-94e5bdc2aeef</stepIdentifier>
                 <type>Navigation</type>
             </botSteps>
             <conditionLogicType>And</conditionLogicType>
@@ -157,7 +156,6 @@
         <label>Error Handler</label>
         <showInFooterMenu>false</showInFooterMenu>
     </botDialogs>
-    <citationsEnabled>false</citationsEnabled>
     <conversationSystemDialogs>
         <dialog>Error_Handling</dialog>
         <type>ErrorHandling</type>
@@ -200,5 +198,4 @@
         <language>es</language>
         <nlpProviderType>EinsteinAi</nlpProviderType>
     </nlpProviders>
-    <smallTalkEnabled>false</smallTalkEnabled>
 </BotVersion>

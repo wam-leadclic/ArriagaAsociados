@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>52.0</apiVersion>
+    <assignments>
+        <description>Se actualizará el check de Is Externally Visible en el objeto Evento para ser visualizado en la comunidad</description>
+        <name>UpdateCheckIsExternallyVisibleEvent</name>
+        <label>UpdateCheckIsExternallyVisibleEvent</label>
+        <locationX>176</locationX>
+        <locationY>311</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.IsExternallyVisible</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <description>Se marcará el check de IsExternallyVisible a true para que los emails se muestren en la comunidad</description>
+    <interviewLabel>EmailMessageIsExternallyVisibleCommunity {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>EmailMessageIsExternallyVisibleCommunity</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>UpdateCheckIsExternallyVisibleEvent</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>IsExternallyVisible</field>
+            <operator>EqualTo</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </filters>
+        <object>EmailMessage</object>
+        <recordTriggerType>Create</recordTriggerType>
+        <triggerType>RecordBeforeSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

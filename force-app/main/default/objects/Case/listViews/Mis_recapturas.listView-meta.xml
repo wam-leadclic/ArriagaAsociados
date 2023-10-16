@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mis_recapturas</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>NAME</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Case.Call_Center_Recaptura</value>
+    </filters>
+    <filters>
+        <field>CASES.ORIGIN</field>
+        <operation>equals</operation>
+        <value>Cita anulada,Candidato que no ha tenido cita</value>
+    </filters>
+    <label>Mis recapturas</label>
+    <sharedTo>
+        <role>Admin</role>
+        <role>Agente_Call_Center</role>
+        <role>Supervisor_Call_Center</role>
+    </sharedTo>
+</ListView>

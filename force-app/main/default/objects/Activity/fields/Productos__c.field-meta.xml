@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Productos__c</fullName>
+    <description>Productos relacionados con la cita, lo informa automáticamente el gestor de citas al asignar la cita</description>
+    <externalId>false</externalId>
+    <label>Productos</label>
+    <required>false</required>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Productos</valueSetName>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

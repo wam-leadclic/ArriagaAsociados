@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HojaEncargoPersonalizada__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Si la oportunidad cuenta con una hoja de encargo personalizada</description>
+    <externalId>false</externalId>
+    <label>Hoja de Encargo Personalizada</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

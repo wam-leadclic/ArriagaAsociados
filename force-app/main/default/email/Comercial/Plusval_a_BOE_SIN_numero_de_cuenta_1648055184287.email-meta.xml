@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Plusvalía BOE  SIN numero de cuenta - para cuenta</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Plusvalía BOE - SIN numero de cuenta</name>
+    <relatedEntityType>Account</relatedEntityType>
+    <style>none</style>
+    <subject>Plusvalía BOE 25.11.2021 | Arriaga Asociados</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

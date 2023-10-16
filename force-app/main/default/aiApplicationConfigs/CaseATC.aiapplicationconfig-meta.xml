@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <AIApplicationConfig xmlns="http://soap.sforce.com/2006/04/metadata">
     <aiApplicationDeveloperName>CaseATC</aiApplicationDeveloperName>
-    <applicationId>0Pp69000000TN9N</applicationId>
+    <applicationId>0Pp5t000000CaSZ</applicationId>
     <developerName>CaseATC</developerName>
     <insightReasonEnabled>false</insightReasonEnabled>
     <masterLabel>CaseATC</masterLabel>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>ALTO</fullName>
+        <default>false</default>
+        <label>ALTO</label>
+    </customValue>
+    <customValue>
+        <fullName>MEDIO</fullName>
+        <default>false</default>
+        <label>MEDIO</label>
+    </customValue>
+    <customValue>
+        <fullName>BAJO</fullName>
+        <default>false</default>
+        <label>BAJO</label>
+    </customValue>
+    <description>Lista de valores por el cual se identifica el potencial que tiene el Candidato en convertirse</description>
+    <masterLabel>PotencialConvesión</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

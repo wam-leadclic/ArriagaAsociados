@@ -1,0 +1,35 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;"><span style="line-height: 107%;"><span style="color: black;"><span style="position: relative;"><span style="top: -0.5pt;">Buenos días<font face="Arial, sans-serif">&nbsp;</font></span></span></span></span>{{{Recipient.FirstName}}}:
+<p>En relación a tu expediente&nbsp;{{{Case.Expediente__c}}}, te informamos que&nbsp;nos han notificado la sentencia del&nbsp;procedimiento estimando&nbsp;<b>la demanda con imposición de costas a la entidad bancaria.</b><br />
+<br />
+Celebrada la vista preliminar, tal y como te informamos en nuestro último email, no ha sido necesario que el proceso continúe hacia un juicio, por lo que directamente se ha dictado sentencia que se ha estimado la demanda con imposición de costas a la entidad bancaria.</p>
+
+<ul>
+	<li>Se declara la<b>&nbsp;nulidad del tipo de interés del contrato por considerarlo usurero o leonino</b>.&nbsp;Por tanto, el contrato queda anulado y extinguido, dejándolo sin efecto. Asimismo, al ser usurero el tipo de interés, conforme lo establecido en la ley, el cliente solo&nbsp; tendrá que abonar el capital prestado y utilizado por el contrato de crédito /tarjeta de crédito, condenando al banco a devolver todo aquel exceso pagado de más.</li>
+</ul>
+
+<p style="margin-left: 40px;">Este importe asciende a la devolución de&nbsp;<b><span style="color:#c0392b;">(AGREGAR CANTIDAD €)&nbsp;</span>más intereses legales desde la fecha de la reclamación judicial hasta el pago y cumplimiento de la&nbsp;sentencia.</b><br />
+<br />
+Teniendo en cuenta el capital utilizado por la tarjeta/en el contrato y las cantidades ya abonadas, se rebaja la deuda pendiente de pago&nbsp;a&nbsp;<b><span style="color:#c0392b;">(AGREGAR CANTIDAD €)</span></b>,&nbsp;<span style="color:#c0392b;">cantidad que tendremos que abonar nosotros a la entidad</span>, cancelando&nbsp;así&nbsp;el contrato de forma definitiva y extinguiendo su deuda.</p>
+
+<ul>
+	<li>Se declara <b>la&nbsp;nulidad del tipo de interés del contrato por considerarlo usurero o leonino.&nbsp;</b>Por tanto, el contrato queda anulado y extinguido, dejándolo sin efecto. Asimismo, al ser usurero el tipo de interés, conforme lo establecido en la ley, el cliente solo tendrá que abonar el capital prestado y utilizado por el contrato de crédito /tarjeta de crédito, condenando al banco a devolver todo aquel exceso pagado de más.&nbsp;Asimismo, se condena a la entidad&nbsp;bancaria a que calcule estas cantidades una vez que la resolución sea firme.</li>
+</ul>
+
+<div style="margin-left: 40px;">Teniendo en cuenta el capital utilizado por la tarjeta/en el contrato y las cantidades ya abonadas, se rebaja la deuda pendiente de pago a&nbsp;<b><span style="color:#c0392b;">(AGREGAR CANTIDAD €)</span></b>&nbsp;cantidad que tendrás que abonar a la&nbsp;entidad,&nbsp;cancelando&nbsp;así&nbsp;el contrato de forma definitiva y extinguiendo su deuda.&nbsp;</div>
+
+<div><br />
+La sentencia será firme dentro de un mes. Desde esta fecha, el banco tiene un mes más para proceder a cumplir voluntariamente la sentencia. Si no fuera así, tendríamos que ejecutar a la entidad para obligarle a cumplirla. En definitiva, el plazo para pago voluntario asciende a dos meses (sin contar agosto al ser un mes inhábil para cómputo de plazos civiles).<br />
+<br />
+Si&nbsp;recibes alguna cantidad en tu cuenta, ponte en contacto con nosotros para revisarla. Si, el banco paga en la cuenta judicial, nos lo notificarán a nosotros, y nos pondremos en contacto contigo.&nbsp;Todas las cantidades que se abonen siempre serán revisadas para comprobar que son correctas.<br />
+<br />
+Si tienes alguna duda recuerda que puedes ponerte en contacto con nosotros, respondiendo a este mismo correo electrónico o también visitando TU ESPACIO ARRIAGA, nuestro portal de cliente (si no tienes claves de acceso, puedes llamarnos al teléfono al 91 005 2600 y te ayudaremos).<br />
+<br />
+Te&nbsp;adjuntamos la sentencia.<br />
+<br />
+Gracias por confiar en nosotros</div>
+
+</body></html>

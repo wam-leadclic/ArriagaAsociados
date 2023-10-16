@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingGuestRules>
+        <fullName>OM_ShareGuestST</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Share Guest ST</label>
+        <sharedTo>
+            <guestUser>Autocita_Arriaga</guestUser>
+        </sharedTo>
+        <criteriaItems>
+            <field>IsActive</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <includeHVUOwnedRecords>false</includeHVUOwnedRecords>
+    </sharingGuestRules>
+</SharingRules>

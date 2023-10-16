@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>APOYO_ATC_ZONA_VALENCIA_LEVANTE_Case</fullName>
+    <filterScope>Queue</filterScope>
+    <label>ATC APOYO - ZONA VALENCIA LEVANTE</label>
+    <queue>ATC_APOYO_ZONA_VALENCIA_LEVANTE</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

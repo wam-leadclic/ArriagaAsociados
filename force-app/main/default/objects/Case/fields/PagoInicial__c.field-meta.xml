@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PagoInicial__c</fullName>
+    <description>En los casos de tipo financiero se indica como se realiza el pago inicial</description>
+    <externalId>false</externalId>
+    <label>Pago inicial</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>PROVISION DE FONDOS</fullName>
+                <default>false</default>
+                <label>PROVISION DE FONDOS</label>
+            </value>
+            <value>
+                <fullName>Apertura expediente</fullName>
+                <default>false</default>
+                <label>Apertura expediente</label>
+            </value>
+            <value>
+                <fullName>Gestiones previas</fullName>
+                <default>false</default>
+                <label>Gestiones previas</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

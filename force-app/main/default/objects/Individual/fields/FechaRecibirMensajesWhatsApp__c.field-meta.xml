@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FechaRecibirMensajesWhatsApp__c</fullName>
+    <description>Fecha de actualización del consentimiento de recibir mensajes de WhatsApp de Arriaga Asociados</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Fecha de actualización del consentimiento de recibir mensajes de WhatsApp de Arriaga Asociados</inlineHelpText>
+    <label>Fecha recibir mensajes WhatsApp</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>DateTime</type>
+</CustomField>

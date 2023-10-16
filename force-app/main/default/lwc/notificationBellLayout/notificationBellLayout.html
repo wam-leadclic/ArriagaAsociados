@@ -1,0 +1,40 @@
+<template>
+    <div class="notification">
+        <div class="notBtn">
+            <template if:true={isActive}>
+                <div class="number">{notificationsNumbers}</div>
+            </template>
+            <lightning-icon icon-name="utility:notification" size="small" onclick={handleNotification} class='bell'>
+
+            </lightning-icon>
+            <div class="box">
+                <div class="display">
+                    <div class="cont">
+                        <!-- Fold this div and try deleting evrything inbetween -->
+                        <template for:each={notificaciones} for:item="notificacion">
+                            <div class="sec new noEmpty" key={notificacion.id} data-id={notificacion.ParentId} onclick={redictEvent}>
+
+                                <b>{label.customChatterCardTitle} {notificacion.id}</b><br />
+                                <lightning-formatted-rich-text class="txt" value={notificacion.body}>
+                                </lightning-formatted-rich-text>
+                                <div>
+                                    <lightning-formatted-date-time class="txt sub" value={notificacion.datefeed}
+                                        day="numeric" month="numeric" year="numeric" hour="2-digit" minute="2-digit">
+                                    </lightning-formatted-date-time>
+                                </div>
+                            </div>
+                        </template>
+                        <template if:true={noNotifications}>
+                            <div class="sec new Empty">
+
+                                <lightning-formatted-rich-text class="txt" value={label.customNotElementBell}>
+                                </lightning-formatted-rich-text>
+
+                            </div>
+                        </template>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>
