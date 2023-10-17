@@ -125,8 +125,10 @@ public inherited sharing class GDDocumentSummary {
 
     public GDDocumentSummary(Id expedientId) {
         this.expedientId = expedientId;
-        for (DocumentLinesHandler handler : this.documentLinesHandler) {
-            handler.setDocumentLines(this);
+        if(this.expedient != null) {
+            for (DocumentLinesHandler handler : this.documentLinesHandler) {
+                handler.setDocumentLines(this);
+            }
         }
     }
     public GDDocumentSummary(Contract expedient) {
