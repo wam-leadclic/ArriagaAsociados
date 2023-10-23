@@ -22,6 +22,10 @@ public class Utils {
 
     public static Set<String> getMultipicklistValuesAsSet(SObject record, Schema.SObjectField field) {
         String fieldValue = (String) record.get(field);
+        return getMultipicklistValuesAsSet(fieldValue);
+    }
+
+    public static Set<String> getMultipicklistValuesAsSet(String fieldValue) {
         if (String.isBlank(fieldValue)) {
             return new Set<String>();
         }

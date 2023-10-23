@@ -1,0 +1,50 @@
+<!-- sldsValidatorIgnore -->
+<template>
+    <div class="slds-is-relative">
+        <lightning-card title={label.documentsToProvide} if:true={loaded} icon-name="standard:document">
+            <lightning-spinner if:true={showSpinner} size="medium"></lightning-spinner>
+            <!-- DOCUMENTOS REDACCION -->
+            <div class="slds-text-heading_small slds-p-bottom_small slds-p-left_medium">{label.pendingDocumentTitle}</div>
+            <template if:true={hasPendingRedactionLines} for:each={redactionLines} for:item="line">
+                <c-gd-document-summary-line 
+                    line={line} 
+                    key={line.title}
+                    onselected={handleDocumentSelect}>
+                </c-gd-document-summary-line>
+            </template>
+            <c-illustration
+                if:false={hasPendingRedactionLines}
+                heading={label.noPendingDocuments}
+                image-name="custom:no_task">
+                <div slot="headingTitle">
+                    <div class="slds-text-title_bold slds-truncate slds-text-align_center">
+                        {label.noPendingDocuments}
+                    </div>
+                </div>
+            </c-illustration>
+            <!-- AGRUPACION DE DOCUMENTOS ADICIONALES -->
+            <div class="slds-text-heading_small slds-p-bottom_small slds-p-top_medium slds-p-left_medium">{label.requiredAditionalDocumentsTitle}</div>
+            <template if:true={hasPendingAditionalLines} for:each={aditionaLinesGrouping} for:item="group">
+                <div key={group.title} class="aditiona-lines-title slds-p-bottom_small slds-p-left_medium slds-p-top_medium">{group.title}</div>
+                <template for:each={group.values} for:item="line">
+                    <c-gd-document-summary-line 
+                        line={line} 
+                        key={line.title}
+                        onselected={handleDocumentSelect}>
+                    </c-gd-document-summary-line>
+                </template>
+            </template>
+            <c-illustration
+                if:false={hasPendingAditionalLines}
+                heading={label.noPendingDocuments}
+                image-name="custom:no_task">
+                <div slot="headingTitle">
+                    <div class="slds-text-title_bold slds-truncate slds-text-align_center">
+                        {label.noPendingDocuments}
+                    </div>
+                </div>
+            </c-illustration>
+        </lightning-card>
+    </div>
+    <c-lms-message-service source={_namespace} onmessage={handleMessageService}></c-lms-message-service>
+</template>

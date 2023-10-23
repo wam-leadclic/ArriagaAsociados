@@ -28,6 +28,7 @@ import newExpCli from '@salesforce/label/c.GDNuevoCliCommunity';
 import getRecordCommunity from '@salesforce/apex/GDRestCallouts.getRecordCommunity';
 import textoInformativo from '@salesforce/label/c.GDTextoInformativoCommunity';
 import errorMessageFileTypeMinervaCommunity from '@salesforce/label/c.errorMessageFileTypeMinervaCommunity';
+import {GD_DOCUMENT_SUMMARY_NAMESPACE,GD_DOCUMENT_ITEMS_NAMESPACE, LMS_OPEN_CHANNEL} from "c/communityConstants";
 
 export default class gdDocumentItemsCommunity extends LightningElement {
     label = {
@@ -94,6 +95,14 @@ export default class gdDocumentItemsCommunity extends LightningElement {
 
     //Mapa para guardar los valores de los campos dinámicos según el tipo de documento seleccionado
     mapDynamicField = new Map();
+
+    //Indicamos si el modal puede editarse, debe estar true cuando recibe un menssage via LMS
+    isModalNonEditable = false;
+
+    //privado, documento recibido via LMS o PE 
+    _selectedDocument;
+    //privado, referencia sobre este componente
+    _namespace = GD_DOCUMENT_ITEMS_NAMESPACE;
 
     @wire(getRecordCommunity,{recordId:'$recordId'})
     objectRecord({ error,data }){
@@ -232,6 +241,8 @@ export default class gdDocumentItemsCommunity extends LightningElement {
 
     onClickUploadDocument () {
         this.showUploadModal = true;
+        this.isModalNonEditable = false;
+        this.documentType = undefined;
         this.loaded = true;
         this.loaded = false;
     }
@@ -591,6 +602,7 @@ export default class gdDocumentItemsCommunity extends LightningElement {
                             this.showUploadModal = false;
                             this.handleLoad();
                             this.dispatchEvent(toast);
+                            this.onUploadSuccess();
                             sendNotificationEmail({archivo: this.documentType});
                         }else{
                             const toast = new ShowToastEvent({
@@ -667,5 +679,21 @@ export default class gdDocumentItemsCommunity extends LightningElement {
         newExpCli,
         textoInformativo,
         errorMessageFileTypeMinervaCommunity
+    }
+
+    handleMessageService(event) {
+        if (event.detail && event.detail.source == GD_DOCUMENT_SUMMARY_NAMESPACE) {
+            this._selectedDocument = event.detail.payload
+            this.onClickUploadDocument();
+            this.handleChangeDocumentType({detail : {value : this._selectedDocument.value}});
+            this.isModalNonEditable = true;
+        }
+    }
+
+    onUploadSuccess() {
+        if(this._selectedDocument) {
+            const lmsService = this.template.querySelector(LMS_OPEN_CHANNEL);
+		    lmsService.doPublish(this._selectedDocument);
+        }
     }
 }

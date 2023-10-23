@@ -116,7 +116,7 @@ public inherited sharing class GDDocumentSummary {
     public Contract expedient {
         get{
             if(expedient == null) {
-                expedient = getExpedient();
+                expedient = ExpedientRepository.getById(this.expedientId);
             }
             return expedient;
         }
@@ -148,25 +148,6 @@ public inherited sharing class GDDocumentSummary {
         }
         return helpPortalMap;
     }
-
-    /**
-     * @description Metodo que retorna el expediente
-     * @return  sObject Contract para el Id seteado
-     */
-    private Contract getExpedient() {
-        List<Contract> expedients = [
-            SELECT 
-                Id,DocumentosRedaccion__c,DocumentosRedaccionAportados__c,Producto__c,
-                DocumentosAdicionales__c,DocumentosAdicionalesAportados__c 
-            FROM Contract 
-            WHERE Id =:this.expedientId
-        ];
-        if (!expedients.isEmpty()) {
-            return expedients[0];
-        }
-        return null;
-    }
-
 
     public class GDDocumentLine {
         @AuraEnabled

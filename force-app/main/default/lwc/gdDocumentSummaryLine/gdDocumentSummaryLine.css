@@ -1,0 +1,3 @@
+.title-gray {
+    color: var(--slds-g-color-neutral-base-30, var(--lwc-colorTextWeak,rgb(90, 91, 94)));
+}

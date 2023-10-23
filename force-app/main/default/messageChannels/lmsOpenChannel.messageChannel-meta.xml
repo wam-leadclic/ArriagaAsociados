@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LightningMessageChannel xmlns="http://soap.sforce.com/2006/04/metadata">
+    <masterLabel>LMS Open Channel</masterLabel>
+    <isExposed>true</isExposed>
+    <description>This channel is used for generic eventing</description>
+    <lightningMessageFields>
+        <fieldName>payload</fieldName>
+        <description>Payload event value</description>
+    </lightningMessageFields>
+    <lightningMessageFields>
+        <fieldName>source</fieldName>
+        <description>source which acts like a namespace for events</description>
+    </lightningMessageFields>
+    <lightningMessageFields>
+        <fieldName>eventName</fieldName>
+        <description>Optional event type, which acts like a event name</description>
+    </lightningMessageFields>
+</LightningMessageChannel>

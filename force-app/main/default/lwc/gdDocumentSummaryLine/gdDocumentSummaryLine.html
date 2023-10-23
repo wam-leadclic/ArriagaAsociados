@@ -1,0 +1,21 @@
+<!-- sldsValidatorIgnore -->
+<template>
+    <div class="slds-grid slds-glutters slds-p-left_large slds-p-top_xx-small">
+        <div class="slds-col">
+            <div class="slds-text-title_bold slds-truncate slds-text-align_left">
+               <span class="title-gray">{line.title} </span> 
+               <lightning-helptext if:true={line.helpText} content={line.helpText}></lightning-helptext> 
+               <span class="slds-text-color_success slds-p-left_medium" if:false={line.visible}>{line.status}</span>
+            </div>
+        </div>
+        <div class="slds-col slds-text-align_right slds-p-right_x-small">
+            <lightning-button-icon
+                size="small"
+                class="slds-m-left_x-small" 
+                icon-name="utility:upload" 
+                alternative-text="upload"
+                onclick={handleSelected}>
+            </lightning-button-icon>
+        </div>
+    </div>
+</template>
