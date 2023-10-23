@@ -1,14 +1,24 @@
 <!-- sldsValidatorIgnore -->
 <template>
     <div class="slds-grid slds-glutters slds-p-left_large slds-p-top_xx-small">
-        <div class="slds-col">
-            <div class="slds-text-title_bold slds-truncate slds-text-align_left">
-               <span class="title-gray">{line.title} </span> 
-               <lightning-helptext if:true={line.helpText} content={line.helpText}></lightning-helptext> 
-               <span class="slds-text-color_success slds-p-left_medium" if:false={line.visible}>{line.status}</span>
+        <div class="slds-size_10-of-12">
+            <div class="slds-grid title-gray slds-text-title_bold">
+                <div class={titleWrapperClass} title={line.title}>
+                    <div class="slds-grid">
+                        <div class={titleClass}>
+                            {line.title}
+                        </div>
+                        <div class="slds-size_1-of-12 slds-text-align_right" if:true={line.helpText}>
+                            <lightning-helptext content={line.helpText}></lightning-helptext> 
+                        </div>
+                    </div>
+                </div>
+                <div class="slds-size_3-of-12 slds-text-align_left title-gray slds-truncate" if:false={line.visible}>
+                    <span class="slds-text-color_success slds-p-left_medium">{line.status}</span>
+                </div>
             </div>
         </div>
-        <div class="slds-col slds-text-align_right slds-p-right_x-small">
+        <div class="slds-size_2-of-12 slds-text-align_right slds-p-right_x-small">
             <lightning-button-icon
                 size="small"
                 class="slds-m-left_x-small" 
