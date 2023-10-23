@@ -146,5 +146,61 @@ private class GDDocumentSummaryControllerTest {
         Assert.IsNotNull(response.data, 'data should be populated');
         Assert.areEqual(3, response.data.documentLines.size(),'there must be 3 document line');
     }
+
+    @isTest
+    private static void whenRedactionDocumentIsUploadedItShouldBeMarkedAsUploadedInExpedient() {
+        GDDocumentSummaryController.GDDocumentSummaryResponse response;
+        final String documentVal = '167';
+        expedient.DocumentosRedaccion__c = '167;32;';
+        expedient.DocumentosRedaccionAportados__c = null;
+        insert expedient;
+
+        Test.startTest();
+        System.runAs(communityUser) {
+            GDDocumentSummary.GDDocumentLine redactionLine = new GDDocumentSummary.GDDocumentLine(Contract.DocumentosRedaccion__c);
+            redactionLine.value = documentVal;
+            response = GDDocumentSummaryController.removeUploadedDocument(expedient.Id, JSON.serialize(redactionLine));
+        }
+        Test.stopTest();
+        expedient = [SELECT DocumentosRedaccionAportados__c FROM Contract WHERE Id =:expedient.Id];
+
+        Assert.areEqual(LightningDataResponse.SUCCESS, response.status);
+        Assert.areEqual(documentVal, expedient.DocumentosRedaccionAportados__c,' should be populated with documentVal');
+    }
+
+    @isTest
+    private static void whenAditionalDocumentIsUploadedItShouldBeMarkedAsUploadedInExpedient() {
+        GDDocumentSummaryController.GDDocumentSummaryResponse response;
+        final String documentVal = '32';
+        expedient.DocumentosRedaccion__c = '167;32;';
+        expedient.DocumentosRedaccionAportados__c = null;
+        insert expedient;
+
+        Test.startTest();
+        System.runAs(communityUser) {
+            GDDocumentSummary.GDDocumentLine redactionLine = new GDDocumentSummary.GDDocumentLine(Contract.DocumentosAdicionales__C);
+            redactionLine.value = documentVal;
+            response = GDDocumentSummaryController.removeUploadedDocument(expedient.Id, JSON.serialize(redactionLine));
+        }
+        Test.stopTest();
+        expedient = [SELECT DocumentosAdicionalesAportados__c FROM Contract WHERE Id =:expedient.Id];
+
+        Assert.areEqual(documentVal, expedient.DocumentosAdicionalesAportados__c,' should be populated with documentVal');
+    }
+
+    @isTest
+    private static void ifExpedientIsNullOrWasDeletedAnErrorShouldBeReturned() {
+        GDDocumentSummaryController.GDDocumentSummaryResponse response;
+
+        Test.startTest();
+        System.runAs(communityUser) {
+            GDDocumentSummary.GDDocumentLine redactionLine = new GDDocumentSummary.GDDocumentLine(Contract.DocumentosAdicionales__C);
+            redactionLine.value = null;
+            response = GDDocumentSummaryController.removeUploadedDocument(null, JSON.serialize(redactionLine));
+        }
+        Test.stopTest();
+
+        Assert.areEqual(LightningDataResponse.ERROR, response.status,'must be an error');
+    }
 }
 

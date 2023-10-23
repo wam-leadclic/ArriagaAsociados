@@ -113,7 +113,7 @@ FECHA                   AUTOR                    ACCION
                     <div class="slds-grid slds-wrap slds-grid_pull-padded-medium">
                         <div
                             class="slds-col--bump slds-col slds-p-horizontal_medium slds-p-bottom_x-small slds-size--1-of-1  slds-medium-size--1-of-1 slds-large-size--1-of-1">
-                            <lightning-combobox name="progress" label={label.documentType} value={documentType}
+                            <lightning-combobox name="progress" disabled={isModalNonEditable} label={label.documentType} value={documentType}
                                 placeholder={label.choose} options={option} onchange={handleChangeDocumentType}>
                             </lightning-combobox>
                         </div>
@@ -193,4 +193,5 @@ FECHA                   AUTOR                    ACCION
         <div class="slds-backdrop slds-backdrop_open"></div>
 
     </template>
+    <c-lms-message-service source={_namespace} onmessage={handleMessageService}></c-lms-message-service>
 </template>
