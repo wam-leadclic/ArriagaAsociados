@@ -797,6 +797,91 @@
         <value>Archivos subidos</value>
     </labels>
     <labels>
+        <fullName>GDIRPH_GDDocumentsToProvide</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>GDIRPH_GDDocumentsToProvide</shortDescription>
+        <value>Documentos a aportar</value>
+    </labels>
+    <labels>
+        <fullName>GDIRPH_PendingDocuments</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>GDIRPH_PendingDocuments</shortDescription>
+        <value>Documentación pendiente de aportar requerida para redacción</value>
+    </labels>
+    <labels>
+        <fullName>GDIRPH_ConsumerSupportingDocuments</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>GDIRPH_ConsumerSupportingDocuments</shortDescription>
+        <value>Documentación acreditativa consumidor</value>
+    </labels>
+    <labels>
+        <fullName>GDIRPH_ConsumerSupportingDocumentsValues</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>GDIRPH_ConsumerSupportingDocumentsValues</shortDescription>
+        <value>165;145;129;142;133</value>
+    </labels>
+    <labels>
+        <fullName>GDIRPH_SpecialDivorceDocuments</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>GDIRPH_SpecialDivorceDocuments</shortDescription>
+        <value>Documentación supuesto especial divorcio</value>
+    </labels>
+    <labels>
+        <fullName>GDIRPH_SpecialDivorceDocumentsValues</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>GDIRPH_SpecialDivorceDocumentsValues</shortDescription>
+        <value>121</value>
+    </labels>
+    <labels>
+        <fullName>GDIRPH_SpecialCaseInheritanceDocuments</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>GDIRPH_SpecialCaseInheritanceDocuments</shortDescription>
+        <value>Documentación supuesto especial herencia</value>
+    </labels>
+    <labels>
+        <fullName>GDIRPH_SpecialCaseInheritanceDocumentsValues</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>GDIRPH_SpecialCaseInheritanceDocumentsValues</shortDescription>
+        <value>118;120;163;130</value>
+    </labels>
+    <labels>
+        <fullName>GDIRPH_SpecialDisabilityCaseDocuments</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>GDIRPH_SpecialDisabilityCaseDocuments</shortDescription>
+        <value>Documentación supuesto especial incapacidad</value>
+    </labels>
+    <labels>
+        <fullName>GDIRPH_SpecialDisabilityCaseDocumentsValues</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>GDIRPH_SpecialDisabilityCaseDocumentsValues</shortDescription>
+        <value>162</value>
+    </labels>
+    <labels>
+        <fullName>GDIRPH_RequiredAditionalDocumentsTitle</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>GDIRPH_RequiredAditionalDocumentsTitle</shortDescription>
+        <value>Documentación adicional requerida segun casos particulares</value>
+    </labels>
+    <labels>
+        <fullName>GDIRPH_NoPendingDocuments</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>GDIRPH_NoPendingDocuments</shortDescription>
+        <value>No hay documentación pendiente de aportar.</value>
+    </labels>
+
+    <labels>
         <fullName>GDGuardar</fullName>
         <language>es</language>
         <protected>true</protected>
