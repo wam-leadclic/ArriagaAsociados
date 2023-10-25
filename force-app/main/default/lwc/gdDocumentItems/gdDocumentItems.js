@@ -509,7 +509,9 @@ export default class GdDocumentItems extends LightningElement {
         if(this.objectName === 'Opportunity' || this.objectName === 'Contract'){
             //Creamos la variable con los documentos aportados
             var vDocCompletadoAportado;
-            var vDocContratacionAportado;      
+            var vDocContratacionAportado; 
+            var vocAdicionalesAportados;
+            var vDocRedaccionAportados;
             //Si está indicado como requerido entonces se añade en el multipicklist de aportado
             if(this.object.fields.DocumentosCompletado__c.value != null && this.object.fields.DocumentosCompletado__c.value.includes(this.documentType) == true){
                 //Si no hay valores se introduce el tipo de documento
@@ -530,6 +532,22 @@ export default class GdDocumentItems extends LightningElement {
                     vDocContratacionAportado = this.object.fields.DocumentosContratacionAportado__c.value +';'+this.documentType;
                 }
             }
+            
+            if(this.object.fields.DocumentosRedaccion__c.value != null && this.object.fields.DocumentosRedaccion__c.value.includes(this.documentType) == true){
+                if(this.object.fields.DocumentosRedaccionAportados__c.value == null){
+                    vDocRedaccionAportados = this.documentType;
+                }else if(this.object.fields.DocumentosRedaccionAportados__c.value.includes(this.documentType) == false) {          
+                    vDocRedaccionAportados = this.object.fields.DocumentosRedaccionAportados__c.value +';'+this.documentType;
+                }
+            }
+
+            if(this.object.fields.DocumentosAdicionales__c.value != null && this.object.fields.DocumentosAdicionales__c.value.includes(this.documentType) == true){
+                if(this.object.fields.DocumentosAdicionalesAportados__c.value == null){
+                    vocAdicionalesAportados = this.documentType;
+                }else if(this.object.fields.DocumentosAdicionalesAportados__c.value.includes(this.documentType) == false) {          
+                    vocAdicionalesAportados = this.object.fields.DocumentosAdicionalesAportados__c.value +';'+this.documentType;
+                }
+            }
 
             //Indicamos los datos nuevos de los campos de la oportunidad
             let record = {
@@ -537,12 +555,13 @@ export default class GdDocumentItems extends LightningElement {
                     Id: this.recordId,                
                     DocumentosCompletadoAportado__c : vDocCompletadoAportado,
                     DocumentosContratacionAportado__c :vDocContratacionAportado,
+                    DocumentosRedaccionAportados__c : vDocRedaccionAportados,
+                    DocumentosAdicionalesAportados__c : vocAdicionalesAportados
                 },
             };
             //Actualizamos la información de la oportunidad
             updateRecord(record)                
                 .then(() => {
-
 
                     /*this.dispatchEvent(
                         new ShowToastEvent({
