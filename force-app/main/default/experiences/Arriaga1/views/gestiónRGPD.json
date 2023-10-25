@@ -1,0 +1,50 @@
+{
+  "appPageId" : "62137db1-fbc3-4ed7-aec0-7e8bf9c78137",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "22d2ec88-397e-43c4-bdc8-a85f7ced233f",
+  "label" : "Gestión RGPD",
+  "regions" : [ {
+    "id" : "98b6668c-b8af-4189-b458-6abdcb2e8877",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "height" : "700",
+        "pageName" : "lcs_gdpr__SelfServiceSite",
+        "recordId" : "{!CurrentUser.ContactId}"
+      },
+      "componentName" : "forceCommunity:visualforcePage",
+      "id" : "8609133e-f1fc-4a8a-adce-ca8c8a17f66d",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "84177757-5532-4ae4-8f19-a8e0295b1c5f",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "741cc892-ab50-4d0e-ad08-f5eff1fce401",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Gestión RGPD"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "47038944-61f8-4aeb-8230-c3f904a40e5d",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "bbecd294-e655-4a14-9c0d-71934ba7efba",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-privacidad"
+}

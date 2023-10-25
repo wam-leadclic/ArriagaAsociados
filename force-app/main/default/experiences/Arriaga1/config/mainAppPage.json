@@ -1,0 +1,11 @@
+{
+  "cmsSettings" : { },
+  "currentThemeId" : "819ac765-2d51-4ac3-9f0f-88f0605d8f8d",
+  "headMarkup" : "<link rel=\"icon\"\n      type=\"image/png\"\n      href=\"https://arriagaasociados--c.documentforce.com/servlet/servlet.ImageServer?id=0151t000001tvik&oid=00D1t000000rxg7&lastMod=1570604373000\">",
+  "id" : "62137db1-fbc3-4ed7-aec0-7e8bf9c78137",
+  "isLockerServiceEnabled" : true,
+  "isRelaxedCSPLevel" : false,
+  "label" : "main",
+  "templateName" : "Service Community Template",
+  "type" : "appPage"
+}

@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "11b3af6a-a2da-48d1-b176-1b3166c09e6f",
+  "appPageId" : "62137db1-fbc3-4ed7-aec0-7e8bf9c78137",
+  "configurationTags" : [ ],
+  "id" : "ce4a2b2b-f2b0-4401-9339-43759b8b1d87",
+  "label" : "Clausula Suelo contratación",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-clausula-suelo-contratacion",
+  "type" : "route",
+  "urlPrefix" : "clausula-suelo-contratacion"
+}

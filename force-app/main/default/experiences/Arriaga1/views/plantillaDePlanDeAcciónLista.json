@@ -1,0 +1,46 @@
+{
+  "appPageId" : "62137db1-fbc3-4ed7-aec0-7e8bf9c78137",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "b36c82f8-e5aa-4189-959f-f52e7d3ccf1f",
+  "label" : "Plantilla de plan de acción Lista",
+  "regions" : [ {
+    "id" : "90df5e18-9e46-4a2f-a28a-19dae5759378",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "enableInlineEdit" : true,
+        "filterName" : "{!filterId}",
+        "layout" : "FULL",
+        "pageSize" : 25,
+        "scope" : "{!objectName}",
+        "showActionBar" : true,
+        "showChartsPanel" : true,
+        "showDisplay" : "showall",
+        "showFilterPanel" : true,
+        "showImageIcon" : true,
+        "showManualRefreshButton" : true,
+        "showObjectName" : true,
+        "showPinnedList" : true,
+        "showSearchBar" : true
+      },
+      "componentName" : "forceCommunity:objectHome",
+      "id" : "5d30c28c-7afb-4e14-94ad-8c04d7df2923",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "baffab02-014f-487c-a81f-3858054508ea",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "2e667592-16c3-42b8-8eae-9e9e99b86b5f",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "list-0PR"
+}

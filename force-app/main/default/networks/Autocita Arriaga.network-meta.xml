@@ -31,7 +31,7 @@
     <gatherCustomerSentimentData>false</gatherCustomerSentimentData>
     <headlessForgotPasswordTemplate>unfiled$public/CommunityHeadlessForgotPasswordTemplate</headlessForgotPasswordTemplate>
     <networkMemberGroups>
-        <profile>Admin</profile>
+        <profile>admin</profile>
     </networkMemberGroups>
     <networkPageOverrides>
         <changePasswordPageOverrideSetting>Standard</changePasswordPageOverrideSetting>

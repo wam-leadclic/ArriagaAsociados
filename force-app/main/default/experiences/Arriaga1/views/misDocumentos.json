@@ -1,0 +1,58 @@
+{
+  "appPageId" : "62137db1-fbc3-4ed7-aec0-7e8bf9c78137",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "08616b1b-f099-4e8b-994d-927c36e5508e",
+  "label" : "Mis Documentos",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h1> Archivos comunes </h1>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "2fc94087-cde4-43ec-9945-ea1c5fc80877",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "d0e22d07-f4eb-4cbe-b2bc-80e0bcc0de22",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "c:gdDocumentItemsCommunity",
+      "id" : "1ec1639c-d25d-45bf-bfc0-01c4830325cb",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "6557984b-d6ab-420e-8fdd-74c63ab05b81",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "cf2ac2b2-83fe-4f21-9f63-69d46d2e3809",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Archivos comunes"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "72b0ab9b-36d4-4cce-8a03-0f0093557ee8",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "08eb8328-199d-4e51-94e7-b936ea5d223a",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-mis-documentos"
+}

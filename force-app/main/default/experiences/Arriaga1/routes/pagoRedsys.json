@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "ce57ea41-5cb6-42fd-a804-fc3f0f5ea8a5",
+  "appPageId" : "62137db1-fbc3-4ed7-aec0-7e8bf9c78137",
+  "configurationTags" : [ ],
+  "id" : "2b2fbe49-7ed5-47ee-a4b6-93cc729c6d9e",
+  "label" : "Pago Redsys",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-pago-redsys",
+  "type" : "route",
+  "urlPrefix" : "pago-redsys"
+}

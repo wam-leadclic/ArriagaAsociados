@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "ca442d71-452f-4e66-a07a-864d3e812189",
+  "appPageId" : "62137db1-fbc3-4ed7-aec0-7e8bf9c78137",
+  "configurationTags" : [ ],
+  "id" : "ea6d0cfa-13f1-46e3-890c-cd9e7c561da8",
+  "label" : "Gastos Hipotecarios",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-gastos-hipotecarios",
+  "type" : "route",
+  "urlPrefix" : "gastos-hipotecarios"
+}

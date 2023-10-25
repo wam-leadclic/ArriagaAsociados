@@ -1,0 +1,103 @@
+{
+  "appPageId" : "62137db1-fbc3-4ed7-aec0-7e8bf9c78137",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "cb5d7de0-b7c0-4ca8-958b-f0ee0bf1ed81",
+  "label" : "Cuenta Detalle",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h1>Mis Datos</h1>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "27298d92-4531-47e2-bb6d-25f04128c8dd",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "8137a785-58ab-44fc-9c44-ba92ad61a187",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<p><span style=\"font-size: 16px;\">Rellenar Hoja de Control de Visitas desde </span><a href=\"/s/hoja-de-control-de-visita\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 16px; background-color: rgb(255, 255, 255);\">aqu</a><span style=\"font-size: 16px;\">í</span></p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "06b73fc3-52f6-4015-887b-a4276842305b",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "forceCommunity:recordHeadline",
+      "id" : "1952e12d-a260-4dda-bf4d-da407ac86c7d",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "detailsTabLabel" : "Detalles",
+        "discussionsTabLabel" : "Feed",
+        "recordId" : "{!recordId}",
+        "relatedTabLabel" : "Related",
+        "tab1Type" : "details",
+        "tab2Type" : "none",
+        "tab3Type" : "none",
+        "tab4Type" : "none",
+        "timelineTabLabel" : "Activity"
+      },
+      "componentName" : "forceCommunity:recordHomeTabs",
+      "id" : "920427e3-4d97-4ea5-9786-9b2dbfde6363",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "richTextValue" : "<p><span style=\"font-size: 16px;\">Puede modificar sus opciones de privacidad y ejercitar sus derechos desde </span><a href=\"/s/privacidad\" rel=\"noopener noreferrer\" target=\"_self\" style=\"font-size: 16px; background-color: rgb(255, 255, 255);\">aqu</a><span style=\"font-size: 16px;\">í</span></p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "05080b7b-5f25-4d3f-9840-f5395ce06639",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "cd11eebd-7ba2-4e5b-b851-da3953a004f4",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<br/>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "b9db9522-96ab-4ce2-8acc-229a84632e2b",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "30bb87aa-aaf4-431c-9143-da8884f237c8",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "{!Record._Object}: {!Record._Title}"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "a515625e-17f1-45b4-a302-14cef6ef0683",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "548a6376-9853-43ac-9920-4ffc688e80a0",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "detail-001"
+}

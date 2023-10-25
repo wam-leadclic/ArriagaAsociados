@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "3457aba1-27da-4066-be80-c0ca2e57ef63",
+  "appPageId" : "62137db1-fbc3-4ed7-aec0-7e8bf9c78137",
+  "configurationTags" : [ ],
+  "id" : "26fe55de-5f0a-4485-9c95-35c1ae19e997",
+  "label" : "Casos",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-casos",
+  "type" : "route",
+  "urlPrefix" : "casos"
+}

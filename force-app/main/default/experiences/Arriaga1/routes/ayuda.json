@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "96ee2dfd-2f61-4d41-b0ba-fc2abf525d33",
+  "appPageId" : "62137db1-fbc3-4ed7-aec0-7e8bf9c78137",
+  "configurationTags" : [ ],
+  "id" : "8312fbc3-1436-440c-8de4-967aab3bd0ef",
+  "label" : "ayuda",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-ayuda",
+  "type" : "route",
+  "urlPrefix" : "ayuda"
+}

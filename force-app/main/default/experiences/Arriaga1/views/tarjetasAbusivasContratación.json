@@ -1,0 +1,49 @@
+{
+  "appPageId" : "62137db1-fbc3-4ed7-aec0-7e8bf9c78137",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "28dc27ff-0efe-43af-baaf-32a320416b7c",
+  "label" : "Tarjetas abusivas contratación",
+  "regions" : [ {
+    "id" : "be50b544-a26e-4fc6-b34d-3bcaf6536be2",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "flowArguments" : "[{\"label\":\"IdProducto\",\"dataType\":\"String\",\"supportsRecordId\":false,\"value\":\"01t1t000002sfMMAAY\"}]",
+        "flowName" : "Revolving"
+      },
+      "componentName" : "forceCommunity:flowCommunity",
+      "id" : "87035096-1375-49db-9b44-77a2db3371db",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "603d4f00-0384-429a-b845-2b6cb5d87195",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "8dfe3a31-96bf-421d-ae8c-d38d06d2d354",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Tarjetas abusivas contratación"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "a2c57855-c4ac-433c-9ab5-125de0a4b8bb",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "a06ea285-63ce-4925-845b-e9c19b47fd0a",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-revolvingcontratacion"
+}

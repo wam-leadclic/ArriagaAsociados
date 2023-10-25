@@ -1,0 +1,91 @@
+{
+  "appPageId" : "62137db1-fbc3-4ed7-aec0-7e8bf9c78137",
+  "componentName" : "siteforce:sldsTwoCol48Layout",
+  "dataProviders" : [ ],
+  "id" : "3457aba1-27da-4066-be80-c0ca2e57ef63",
+  "label" : "Casos",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h1>Mis Consultas</h1>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "44ca6e67-72a3-411d-b06b-052d0a99fe38",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "e95dbb8c-ef49-490a-8298-241c716a0d2b",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "enableInlineEdit" : true,
+        "filterName" : "Todos_los_casos",
+        "layout" : "STANDARD",
+        "pageSize" : 25,
+        "scope" : "Case",
+        "showActionBar" : false,
+        "showDisplay" : "showall",
+        "showSearchBar" : false
+      },
+      "componentName" : "forceCommunity:objectHome",
+      "id" : "848b56d3-5c5e-4b39-9562-8a5c4b56c69d",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "5cb4a226-fbbf-4b0b-a790-10c0b0ee1904",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "allowAttachments" : false,
+        "attachmentLabel" : "Upload File",
+        "callToAction" : false,
+        "callToActionButtonText" : "",
+        "callToActionText" : "",
+        "callToActionUrl" : "",
+        "confirmationSubtext" : "Nos pondremos en contacto contigo lo antes posible",
+        "confirmationText" : "Hemos creado el caso.",
+        "guestQuickActionName" : "Seleccionar o configurar una acción global",
+        "headerSubtitle" : "Dinos en que podemos ayudarte",
+        "headerTitle" : "Contacta con nosotros",
+        "quickActionName" : "NewCommunityCase",
+        "requestSummaryText" : "Resumen del caso"
+      },
+      "componentName" : "forceCommunity:contactSupportForm",
+      "id" : "e9b45237-a5ef-4d6e-a3c4-a137e7b36b20",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "6fdf98c6-181c-4635-a572-8fe485b00d7a",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "id" : "00cebbd7-7b74-45b8-a232-8fbc6d0d4353",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Casos"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "87310944-a2b4-43e5-8e80-63df781ff46c",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "e88511b6-0bfc-46ab-b588-837f1fd1d5b7",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-casos"
+}

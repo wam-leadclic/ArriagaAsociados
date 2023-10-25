@@ -1,0 +1,76 @@
+{
+  "appPageId" : "62137db1-fbc3-4ed7-aec0-7e8bf9c78137",
+  "componentName" : "siteforce:sldsTwoCol84SidebarFeaturedLayout",
+  "dataProviders" : [ ],
+  "id" : "ca442d71-452f-4e66-a07a-864d3e812189",
+  "label" : "Gastos Hipotecarios",
+  "regions" : [ {
+    "id" : "2e0a276d-30a0-47c7-b71f-39097bdb2479",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<p style=\"font-size: 45px; color: #EC6806\">“Recuerda que puedes reclamar aunque tu hipoteca esté cancelada”</p>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "b027acd6-4c2c-43b1-b435-942aa7f959a3",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "87d64024-4696-43ee-b31f-090bf0e9fbd6",
+    "regionName" : "featured",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<p><img class=\"sfdcCbImage\" src=\"{!contentAsset.Gastos_Hipotecarios_Pgina.1}\" /></p>\n<p><br /></p>\n<h1>&nbsp;<img class=\"sfdcCbImage\" src=\"{!contentAsset.Gastos_Hipotecarios_Info_Producto.1}\" /></h1>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "83e581e1-5cef-4b96-aa54-714977938c96",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "83b617c2-c199-407d-a514-e4022cbf8f47",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<a href=\"/s/gastos-hipotecarios-contratacion\"><button style=\"font-size: 18px; width: 100%; color: #ffffff; background-color: #EC6806; height:40px\" class=\"contactSupportButton slds-button forceCommunityContactSupportButton\">Contratar</button></a>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "f091c8a6-19b3-477a-b543-e21114550e92",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "be98802e-d5b0-43d4-89e2-b8f5a38d9184",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "id" : "1a77eedd-83c6-42a7-8fb2-75eb2f0bd665",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Gastos Hipotecarios"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "42a3cb5e-806a-4aeb-8be9-70df1ad324c8",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "abb1eb3b-fa7d-465c-b281-1d2856c58a53",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-gastos-hipotecarios"
+}

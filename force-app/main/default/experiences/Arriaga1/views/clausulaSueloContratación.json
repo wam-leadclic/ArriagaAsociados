@@ -1,0 +1,49 @@
+{
+  "appPageId" : "62137db1-fbc3-4ed7-aec0-7e8bf9c78137",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "11b3af6a-a2da-48d1-b176-1b3166c09e6f",
+  "label" : "Clausula Suelo contratación",
+  "regions" : [ {
+    "id" : "182cc1af-d5c6-4c72-9e53-6aee74ba169d",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "flowArguments" : "[{\"label\":\"IdProducto\",\"dataType\":\"String\",\"supportsRecordId\":false,\"value\":\"01t1t000002sfN4AAI\"}]",
+        "flowName" : "ClausulaSuelo"
+      },
+      "componentName" : "forceCommunity:flowCommunity",
+      "id" : "84040747-a75d-4c57-8c62-528dc01e5089",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "3f2ae272-a4a0-437e-84f3-42c4bf2bba0d",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "da4413cc-9933-4af6-a2b6-526c4330d0d7",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Clausula Suelo contratación"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "a8c99a0a-2ce9-4215-a13f-19d325479f98",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "3cf6a78d-94d4-45ef-b2e4-d5720d44bf92",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-clausula-suelo-contratacion"
+}

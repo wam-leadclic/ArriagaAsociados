@@ -1,0 +1,59 @@
+{
+  "appPageId" : "62137db1-fbc3-4ed7-aec0-7e8bf9c78137",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "401de2e9-d52b-4827-a39f-ebc84b66de8f",
+  "label" : "Hoja de Control de Visita",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h1>Hoja de Control de Visitas</h1>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "76b9ec6e-d937-4234-a504-4cc629d96f80",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "7e335bff-fd44-4b63-94c0-d449e534df84",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "flowArguments" : "",
+        "flowName" : "Formulario_HCV"
+      },
+      "componentName" : "forceCommunity:flowCommunity",
+      "id" : "77c91383-b4fa-4f34-aca9-83042753a6a5",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "c27551bf-67db-4a09-ac4d-b0305ebc15c4",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "201f9be3-8cab-458b-bece-af6b2999b3a6",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Hoja de Control de Visita"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "3acbd4a6-e7de-4008-b59f-0d9112e7ec0d",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "146af761-6423-4986-8823-addaea743884",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-hoja-de-control-de-visita"
+}

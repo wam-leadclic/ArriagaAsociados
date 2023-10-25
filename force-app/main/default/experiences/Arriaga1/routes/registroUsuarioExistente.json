@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "95450865-a54f-4fe7-9375-fc7c98e6de45",
+  "appPageId" : "62137db1-fbc3-4ed7-aec0-7e8bf9c78137",
+  "configurationTags" : [ ],
+  "id" : "dfcb32a7-4344-4c96-b92d-fd503c245c48",
+  "label" : "RegistroUsuarioExistente",
+  "pageAccess" : "Public",
+  "routeType" : "custom-registrousuarioexistente",
+  "type" : "route",
+  "urlPrefix" : "registrousuarioexistente"
+}

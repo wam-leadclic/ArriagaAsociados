@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "08616b1b-f099-4e8b-994d-927c36e5508e",
+  "appPageId" : "62137db1-fbc3-4ed7-aec0-7e8bf9c78137",
+  "configurationTags" : [ ],
+  "id" : "9a2037d0-ae0b-4567-ba00-1e3ebcaaa0a5",
+  "label" : "Mis Documentos",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-mis-documentos",
+  "type" : "route",
+  "urlPrefix" : "mis-documentos"
+}

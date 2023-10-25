@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "22d2ec88-397e-43c4-bdc8-a85f7ced233f",
+  "appPageId" : "62137db1-fbc3-4ed7-aec0-7e8bf9c78137",
+  "configurationTags" : [ ],
+  "id" : "8177287b-8ffa-4bc5-b134-4d159b284728",
+  "label" : "Gestión RGPD",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-privacidad",
+  "type" : "route",
+  "urlPrefix" : "privacidad"
+}
