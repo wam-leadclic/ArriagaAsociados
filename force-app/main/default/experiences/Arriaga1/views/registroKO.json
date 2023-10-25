@@ -1,0 +1,48 @@
+{
+  "appPageId" : "62137db1-fbc3-4ed7-aec0-7e8bf9c78137",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "0a3b9168-aa52-4cc7-8180-e2b0952439c3",
+  "label" : "RegistroKO",
+  "regions" : [ {
+    "id" : "b0a8ba47-027d-4740-8a1f-dc6ddd2b2c80",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<p style=\"text-align: center;\"><span style=\"font-size: 22px; color: rgb(255, 153, 0);\">No se ha podido regsitrar en la comunidad contacte con Arriaga Asociados&nbsp;&nbsp;</span></p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "6ef2c9d4-3071-4d83-ac83-b1878422c260",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "9d14dcba-e016-4476-b986-be921c27bd41",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "9dd177b3-2355-4bac-adc4-cc3df5149090",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "RegistroKO"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "a49424fd-3d83-456d-98cf-861af283cfa6",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "ca7b4480-fd55-4797-a0a1-b0cd715fb77e",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "j13QTPxsyY24sUE60wjjXP6JL0r69y",
+  "type" : "view",
+  "viewType" : "custom-registroko"
+}

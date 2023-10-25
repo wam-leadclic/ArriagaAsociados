@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "a5eecbe6-0333-4ede-b4c0-e0d57fef5c4f",
+  "appPageId" : "62137db1-fbc3-4ed7-aec0-7e8bf9c78137",
+  "configurationTags" : [ ],
+  "id" : "382f2234-8e57-4b06-a66a-a71c23afd366",
+  "label" : "Mis Notificaciones",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-mis-notificaciones",
+  "type" : "route",
+  "urlPrefix" : "mis-notificaciones"
+}

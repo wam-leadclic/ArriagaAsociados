@@ -1,0 +1,51 @@
+{
+  "appPageId" : "62137db1-fbc3-4ed7-aec0-7e8bf9c78137",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "fbb8de82-b975-4cea-bafe-3525a8fc5e9f",
+  "label" : "Expediente Lista",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h1>Mis Expedientes</h1>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "5b1d24cb-5638-4b5d-9b21-df59aecf6fd0",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "8995f8ec-8fc0-47a9-999b-bcce7e469863",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "enableInlineEdit" : false,
+        "filterName" : "AllContracts",
+        "layout" : "STANDARD",
+        "pageSize" : 25,
+        "scope" : "Contract",
+        "showActionBar" : false,
+        "showDisplay" : "showall",
+        "showPinnedList" : false,
+        "showSearchBar" : false
+      },
+      "componentName" : "forceCommunity:objectHome",
+      "id" : "3174e051-7cb1-40bb-a47d-44f4949ad85d",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "60fb101f-34fb-40f7-af50-8cee652c589b",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "9ff597a7-7ef9-43e1-b5d2-3bac086c6bc7",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "list-800"
+}

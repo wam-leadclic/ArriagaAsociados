@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "27c67cfd-6ab3-4c1d-91bb-7a0090f66dfc",
+  "appPageId" : "62137db1-fbc3-4ed7-aec0-7e8bf9c78137",
+  "configurationTags" : [ ],
+  "id" : "d14d7c59-0471-4bdd-9867-288a852e668f",
+  "label" : "IRPH Contratación",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-irphcontratacion",
+  "type" : "route",
+  "urlPrefix" : "irphcontratacion"
+}

@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "81041334-8df6-45ee-9a00-a631a6a0ad6b",
+  "appPageId" : "62137db1-fbc3-4ed7-aec0-7e8bf9c78137",
+  "configurationTags" : [ ],
+  "id" : "e3f897fc-4d75-4f8e-8bdd-6e5392542d90",
+  "label" : "CasoPagoKO",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-casopagoko",
+  "type" : "route",
+  "urlPrefix" : "casopagoko"
+}

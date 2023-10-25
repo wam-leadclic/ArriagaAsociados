@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "d8f773fb-d8cd-4379-be17-19e77aae215a",
+    "propertyOverrides" : {
+      "activeViewId" : "9ee62d1c-acf5-4267-a268-6f30d96c5c7d"
+    },
+    "targetId" : "b162cf7e-23eb-4b4d-8475-555778e5fe85",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "Expediente_Detalle_Expediente_Detalle_V2_Page",
+  "id" : "6c044bce-e99d-44e5-bcb5-897f3cb92789",
+  "type" : "experienceVariation"
+}

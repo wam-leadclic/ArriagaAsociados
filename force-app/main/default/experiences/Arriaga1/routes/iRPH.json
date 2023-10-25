@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "ed6579fb-869b-4ff9-be4f-fab10b09f02a",
+  "appPageId" : "62137db1-fbc3-4ed7-aec0-7e8bf9c78137",
+  "configurationTags" : [ ],
+  "id" : "3eeaa31d-e0e4-4c5e-8df6-ed1b4b343b83",
+  "label" : "IRPH",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-irph",
+  "type" : "route",
+  "urlPrefix" : "irph"
+}

@@ -1,0 +1,10 @@
+{
+  "activeViewId" : "7efdf93b-7c9d-478b-8efe-40b47c2abf1a",
+  "appPageId" : "62137db1-fbc3-4ed7-aec0-7e8bf9c78137",
+  "configurationTags" : [ ],
+  "id" : "6096a2a6-873a-407b-90cb-68d682c42d32",
+  "label" : "Expediente Lista relacionada",
+  "routeType" : "relatedlist-800",
+  "type" : "route",
+  "urlPrefix" : "contract"
+}

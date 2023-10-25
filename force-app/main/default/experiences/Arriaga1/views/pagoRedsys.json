@@ -1,0 +1,46 @@
+{
+  "appPageId" : "62137db1-fbc3-4ed7-aec0-7e8bf9c78137",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "ce57ea41-5cb6-42fd-a804-fc3f0f5ea8a5",
+  "label" : "Pago Redsys",
+  "regions" : [ {
+    "id" : "20157efb-63e6-492b-85f6-4340bf73374e",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : { },
+      "componentName" : "c:RedsysRespuestaServicio",
+      "id" : "57fb31ce-8074-479f-b3f0-8663b59e5057",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "ac1c1174-795e-422b-beae-7f50f50f408f",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "593b41ca-d780-490d-bd46-e76b39bac9d1",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Pago Redsys"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "db1a2c99-3d1e-4d5b-8a3a-c95d56e8e229",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "27ae29ac-d665-485d-8f2c-f2aab7c0ea5d",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-pago-redsys"
+}

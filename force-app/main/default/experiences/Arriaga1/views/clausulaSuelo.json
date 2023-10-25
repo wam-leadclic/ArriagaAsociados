@@ -1,0 +1,71 @@
+{
+  "appPageId" : "62137db1-fbc3-4ed7-aec0-7e8bf9c78137",
+  "componentName" : "siteforce:sldsTwoCol66Layout",
+  "dataProviders" : [ ],
+  "id" : "405a871b-38d0-4f4d-b29d-285bfc5218ec",
+  "label" : "Clausula Suelo",
+  "regions" : [ {
+    "id" : "c1cb2f99-f54b-4d12-8e1b-e38906e22113",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<p><img class=\"sfdcCbImage\" src=\"{!contentAsset.Clausula_Suelo_Pagina.1}\" /></p>\n<p><br /></p>\n<p><img class=\"sfdcCbImage\" src=\"{!contentAsset.Clausula_Suelo_Info_Producto.1}\" /></p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "7f3cc975-091c-4a95-bd61-1ac81b8f1db5",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "3c7ae8fd-9c9a-4dcb-9dd5-bb0c8c636ffd",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<p><img class=\"sfdcCbImage\" src=\"{!contentAsset.Calculadora_Clausula_Suelo.1}\" /></p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "28d9ead6-1d2c-4ac3-aef8-a7da98fc3c02",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "richTextValue" : "<a href=\"/s/clausula-suelo-contratacion\"><button style=\"font-size: 18px; width: 100%; color: #ffffff; background-color: #EC6806; height:40px\" class=\"contactSupportButton slds-button forceCommunityContactSupportButton\">Contratar</button></a>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "19739a3c-83cd-4b10-bcd7-db766982d21a",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "d8993dbe-ac92-41d4-bb8b-17e715f328ac",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "id" : "546da477-7a55-4f60-9de6-38040fe82381",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Clausula Suelo"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "c3191f7c-3f68-4641-b4a2-7820b04c8be8",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "ee912279-644b-4ee9-abf4-1907819d9748",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-clausula-suelo"
+}

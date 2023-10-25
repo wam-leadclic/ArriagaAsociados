@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "c294ed78-59d3-4643-be45-1cae0a5620e3",
+    "propertyOverrides" : {
+      "isVisible" : true
+    },
+    "targetId" : "b9ddc944-5d4f-435b-aa3f-2136289e6382",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "HomeIRPH_Tile_Menu_Component",
+  "id" : "677e7d02-24bc-4c19-9872-26d3685df9fc",
+  "type" : "experienceVariation"
+}

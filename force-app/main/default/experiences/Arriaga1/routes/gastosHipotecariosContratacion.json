@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "65eee2f6-54a9-4377-8a5b-553d1fe32459",
+  "appPageId" : "62137db1-fbc3-4ed7-aec0-7e8bf9c78137",
+  "configurationTags" : [ ],
+  "id" : "e77f557e-b2d9-4e9f-8949-3edfb2d631e9",
+  "label" : "Gastos Hipotecarios Contratacion",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-gastos-hipotecarios-contratacion",
+  "type" : "route",
+  "urlPrefix" : "gastos-hipotecarios-contratacion"
+}

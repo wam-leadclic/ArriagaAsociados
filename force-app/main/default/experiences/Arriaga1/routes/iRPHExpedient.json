@@ -1,0 +1,11 @@
+{
+  "activeViewId" : null,
+  "appPageId" : "62137db1-fbc3-4ed7-aec0-7e8bf9c78137",
+  "configurationTags" : [ ],
+  "id" : "d159ea93-9a5f-4823-a3ab-4bed9fcfcc67",
+  "label" : "IRPH expedient",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-irph-expedient",
+  "type" : "route",
+  "urlPrefix" : "irph-expedient"
+}

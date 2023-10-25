@@ -30,10 +30,9 @@
     <forgotPasswordTemplate>Comunidad_Arriaga/Comunidad_Contrase_a_olvidada</forgotPasswordTemplate>
     <gatherCustomerSentimentData>false</gatherCustomerSentimentData>
     <headlessForgotPasswordTemplate>unfiled$public/CommunityHeadlessForgotPasswordTemplate</headlessForgotPasswordTemplate>
-    <logoutUrl>http://monyka30.sony@gmail.com</logoutUrl>
     <networkMemberGroups>
-        <profile>Admin</profile>
-        <profile>Comunidad Arriaga</profile>
+        <profile>admin</profile>
+        <profile>comunidad arriaga</profile>
     </networkMemberGroups>
     <networkPageOverrides>
         <changePasswordPageOverrideSetting>Standard</changePasswordPageOverrideSetting>
@@ -43,7 +42,7 @@
         <selfRegProfilePageOverrideSetting>Designer</selfRegProfilePageOverrideSetting>
     </networkPageOverrides>
     <picassoSite>Arriaga1</picassoSite>
-    <selfRegProfile>Comunidad Arriaga</selfRegProfile>
+    <selfRegProfile>comunidad arriaga</selfRegProfile>
     <selfRegistration>false</selfRegistration>
     <sendWelcomeEmail>true</sendWelcomeEmail>
     <site>Arriaga</site>

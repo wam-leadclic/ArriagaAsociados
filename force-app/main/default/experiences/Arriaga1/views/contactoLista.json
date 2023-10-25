@@ -1,0 +1,41 @@
+{
+  "appPageId" : "62137db1-fbc3-4ed7-aec0-7e8bf9c78137",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "e366acfc-7d32-45db-ad98-070950b2236f",
+  "label" : "Contacto Lista",
+  "regions" : [ {
+    "id" : "eae71884-2727-4336-b5de-6cf69b3d3d4e",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "enableInlineEdit" : true,
+        "filterName" : "{!filterId}",
+        "layout" : "FULL",
+        "pageSize" : 25,
+        "scope" : "{!objectName}",
+        "showActionBar" : true,
+        "showDisplay" : "showall",
+        "showPinnedList" : true,
+        "showSearchBar" : true
+      },
+      "componentName" : "forceCommunity:objectHome",
+      "id" : "8a57d82e-d8c8-4de6-a78a-ab9de09a37ea",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "4af0b038-d9ca-49a1-9af8-5cb532069716",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "99085c64-23c0-459f-b6fd-7acae58bfef9",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "list-003"
+}

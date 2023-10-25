@@ -1,0 +1,40 @@
+{
+  "appPageId" : "62137db1-fbc3-4ed7-aec0-7e8bf9c78137",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "1440331c-4101-475b-9081-068cc30585ac",
+  "label" : "Caso List",
+  "regions" : [ {
+    "id" : "680b8537-5cc6-437f-a2ae-387b8a75d003",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "enableInlineEdit" : false,
+        "filterName" : "{!filterId}",
+        "layout" : "STANDARD",
+        "pageSize" : 25,
+        "scope" : "{!objectName}",
+        "showActionBar" : false,
+        "showDisplay" : "showall",
+        "showSearchBar" : false
+      },
+      "componentName" : "forceCommunity:objectHome",
+      "id" : "0d4c6cd5-af8c-491d-a311-8764c74f0175",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "efd8b37b-b086-4944-b90c-2b93244f5ada",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "f31569e9-055b-4afa-81e1-8393ae9b18f1",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "list-500"
+}

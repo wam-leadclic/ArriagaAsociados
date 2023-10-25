@@ -1,0 +1,307 @@
+{
+  "activeBrandingSetId" : "45f9889f-10c9-479a-99ea-59b716904d44",
+  "customCSS" : "/*Footer*/\nbody{\n    height: 100%;\n}\n\n.Footer a.menu-item :hover{\n    color: #ec6806 !important;\n    text-decoration: none !important;\n    \n}\n/*Mobile*/\n.menumobile >button{\n   background: var(--lwc-brandNavigationBarBackgroundColor,rgba(111, 111, 111, 0.75));\n    border: none;\n    background: transparent;\n    padding: 0;\n}\n\n.forceCommunityRecordListStandard h2 {display: none;}\n@media (min-width: 1400px) {\n    .faldonNegro div {\n        width: 1370px;\n    }\n    .headerCustom  {\n        width: 1370px;\n    }\n}\n@media (min-width: 768px) and (max-width: 1399px) {\n    .faldonNegro div {\n        width: calc(100% - 30px);\n    }\n    \n    .headerCustom  {\n        width:  calc(100% - 30px);\n    }\n}\n@media(max-width: 794px){\n    .faldonNegro,.headerCustom,.Footer\n    {\n        display: none;\n    }\n}\n\n.forceCommunityGlobalNavigation.Footer {\n    background-color: #000000;\n    bottom:0;\n    position:absolute;\n    width: 100%;\n}\n.forceCommunityGlobalNavigation.Footer a{\n    color: #fff !important;\n    text-decoration: none !important;\n}\n.forceCommunityGlobalNavigation.Footer a label,\n.forceCommunityGlobalNavigation.Footer label{\n    text-decoration: none !important;\n    color: #fff !important;\n    font-size: 12px;\n    font-weight: var(--lwc-navigationFontWeight,400) !important;\n    text-transform: none !important;\n}\n/*Cabecera Blanca*/\n.headerCustom{\n    background:#fff;\n}\n\n.Logo{\n    background-image: url(\"https://arriagaasociados--c.documentforce.com/servlet/servlet.ImageServer?id=0151t000001tvim&oid=00D1t000000rxg7&lastMod=1570604373000\")!important;\n    background-size: contain !important;\n    background-repeat: no-repeat;\n    height:85px;\n}\n\n.customHeader .menu-item{\n    margin-left: 20px;\n    height: -webkit-fill-available;\n    padding: 0px;\n}\n\n.customHeader div.menu-item.menu-item-has-children>a{\n    height:100%;\n}\n/*Efecto rallita encima*/\n.customHeader div.menu-item>a{\n  -webkit-transform: translateZ(0);\n  transform: translateZ(0);\n  -webkit-backface-visibility: hidden;\n  backface-visibility: hidden;\n    height: -webkit-fill-available;\n  -moz-osx-font-smoothing: grayscale;\n  position: relative;\n  overflow: hidden;\n}\n.customHeader div.menu-item>a:before {\n    content: \"\";\n    position: absolute;\n    z-index: -1;\n    left: 0;\n    right: 100%;\n    top: 0;\n    background-color: #ec6806;\n    height: 4px;\n    -webkit-transition-property: right;\n    transition-property: right;\n    -webkit-transition-duration: 0.3s;\n    transition-duration: 0.3s;\n    -webkit-transition-timing-function: ease-out;\n    transition-timing-function: ease-out;\n  }\n .customHeader div.menu-item>a:hover:before {\n    right: 0;\n  }\n.customHeader .navCommunityCustom{\n    max-width: none;\n}\n.customHeader .contrataonline a{\n    background-color: #ec6806;\n    color: #fff;\n    padding: 10px;\n}\n.customHeader a{\n    color: #000 !important;\n    font-size: 11px;\n    font-weight: 700;\n    line-height: 17px;\n    text-decoration: none;\n    text-transform: uppercase;\n}\n.menu-item.menu-item-has-children::after{\n    border-bottom: 0;\n    border-left: 5px solid transparent;\n    border-right: 5px solid transparent;\n    border-top: 5px solid #ec6806;\n    content: ' ';\n    display: inline-block;\n    height: 5px;\n    margin-left: 5px;\n    transition: transform .3s ease-out;\n    vertical-align: middle;\n    width: 11px;\n}\n.menu-item.menu-item-has-children:hover::after {\n    transform: rotate(180deg);\n}\n.menu-item-has-children .sub-menu{\n    padding: 0px;\n    display:none;\n}\n.menu-item-has-children .sub-menu li:before{\n    content:none;\n}\n.menu-item-has-children .sub-menu li{\n    padding-left:0px;\n    padding-bottom:1%;\n    padding-right:1.5em;\n}\n\n.menu-item-has-children:hover .sub-menu{\n    display:block;    \n    background: #fff;\n    top: 5%;\n    box-shadow: 0 0 15px rgb(0 0 0 / 29%);\n    z-index: 10;\n    padding-bottom: 1%;\n    padding-top: 1%;\n    position: absolute;\n}\n.sub-menu li a{\n    color: #333;\n    display: block;\n    font-weight: 400;\n    line-height: 16px;\n    text-transform: none;\n}\n\n@font-face {\n  font-family: 'brandonGrotesqueLight';\n  src: url('/s/sfsites/c/resource/brandonGrotesqueRegularWoff') format('woff');\n}\n\n/*Imagen de fondo de la comunidad*/\n.siteforceServiceBody{\n    background-image: url(\"https://arriagaasociados--c.documentforce.com/servlet/servlet.ImageServer?id=0151t000001tvil&oid=00D1t000000rxg7&lastMod=1570604373000\")!important;\n    background-size: cover!important;\n}\n/*Quitamos el fondo de la parte central de la comunidad (donde se añaden los componentes)*/\n.siteforceContentArea{\n    background:none!important;\n}\n\n/*Customizar el LWC de GDCommunity*/\n.slds-card__header{\n    border-bottom-left-radius: 0;\n    border-bottom-right-radius: 0;\n    border-bottom: var(--lwc-borderWidthThin,1px) solid var(--lwc-cardColorBorder,rgb(90, 91, 94));\n    /*Separación por todos los lados y centrado de la información*/\n    padding: var(--lwc-varSpacingVerticalMedium,1rem) var(--lwc-varSpacingHorizontalMedium,1rem);\n}\n.forceRelatedListCardHeader .slds-button.slds-button_brand{\n    color: var(--lwc-brandAccessible,rgb(233, 90, 19));\n    background-color: var(--sds-c-button-neutral-color-background, var(--lwc-buttonColorBackgroundPrimary,rgb(255, 255, 255)));\n    border-color: var(--sds-c-button-neutral-color-border, var(--lwc-buttonColorBorderPrimary,rgb(90, 91, 94)));\n}\n.forceRelatedListCardHeader .slds-card__footer{\n    border-top-left-radius: 0;\n    border-top-right-radius: 0;\n    border-top: var(--lwc-borderWidthThin,1px) solid var(--lwc-cardColorBorder,rgb(90, 91, 94));\n}\n\n/*Cambiamos la imagen de fondo de la página de registro*/\n.comm-page-self-register .salesforceIdentityLoginBody2{\n    background-image: url(\"https://arriagaasociados--c.documentforce.com/servlet/servlet.ImageServer?id=0151t000001tvjo&oid=00D1t000000rxg7&lastMod=1570615474000\")!important;\n    background-size: cover!important;\n}\n\n/* Color de la cabecera donde aparece el logo */\n.cHeaderOverlay {\n  /*background-color: #6F6F6F!important;  */\n  background-color: white!important; \n}\n\n/*La sección de buscar se muestra un borde*/\n.search-field-wrapper{\n    border-style: solid!important;\n    border-width: thin!important;\n}\n\n/*Componente de mosaico centrado*/\n.comm-page-home .slds-large-size_1-of-4{\n    margin: 0 auto\n}\n/*Cambiamos el color de fondo de las páginas de login y registro*/\n.salesforceIdentityLoginBody2{\n    background-color: white!important;\n}\n\n/*Menu Gris claro*/\n.menu-contact-info{\n    background:#d8d8d8 !important;\n}\n.tlf{\n    color: #ec6806;\n    text-transform: uppercase;\n}\n.menu-contact-item{    \n    font-size: 12px;\n    font-weight: 700;\n    margin: 0 10px;\n    line-height: 50px;\n    vertical-align: middle;\n}\n.separator{    \n    background-color: #ec6806;\n    border-radius: 3px;\n    display: inline-block;\n    height: 6px;\n    width: 6px;\n}\n/*Configuración menu secundario*/\n\n.forceCommunityGlobalNavigation {\n    background-color: #d8d8d8;\n    min-height: 30px;\n}\n\n@media(max-width: 794px){\n    .forceCommunityGlobalNavigation\n    {\n        min-height: 40px;\n    }\n}\n.forceCommunityRichText ol li, .forceCommunityRichText ul li {\n    padding-left: 1.5em;\n}\n.forceLargeCommunity{padding-left: var(--lwc-spacingXxLarge,3rem) !important;}\n.slds-is-relative {\n    position: relative;\n}\n\n.forceCommunityGlobalNavigation .slds-list__item a, .forceCommunityGlobalNavigation .slds-list__item button {\n    font-weight: var(--lwc-navigationFontWeight,400);\n    font-size: var(--lwc-navigationFontSize,0.875rem);\n    font-family: var(--lwc-navigationFontFamily,brandonGrotesqueLight);\n    line-height: var(--lwc-navigationLineHeight,normal);\n    padding: var(--lwc-navigationItemVerticalPadding,0.5rem) var(--lwc-navigationItemHorizontalPadding,0.75rem);\n}\n.forceCommunityGlobalNavigation .slds-list__item a label{\n    text-transform: var(--lwc-textTransform,uppercase);\n    border-radius: 0;\n    white-space: nowrap;\n    font-weight: bold;\n}\n.navCommunityCustom{\n    margin: 0 auto;\n    min-height: inherit;\n    max-width: var(--lwc-navigationMaxWidth,1140px);\n}\n.slds-container_fluid label{\n    \n}\n\n/*En la página de login se pone el color de fondo blanco y las letras en gris*/\n.comm-page-login-home .siteforceContentArea{\n    background-color: white!important;\n}\n\n.comm-page-login-home .inverseTextColor{\n    color:#6f6f6f!important;\n}\n\n/*En la página de registro se pone el color de fondo en blanco y las letras en gris*/\n.comm-page-self-register .siteforceContentArea{\n    background-color: white!important;\n}\n\n/*En las páginas de los flujos de contratación no mostrar el buscador*/\n.comm-page-custom-gastos-hipotecarios-contratacion .cSearchPublisher{\n    display:none!Important;\n}\n\n.comm-page-custom-clausula-suelo-contratacion .cSearchPublisher{\n    display:none!Important;\n}\n\n.comm-page-custom-irphcontratacion .cSearchPublisher{\n    display:none!Important;\n}\n\n.comm-page-custom-revolvingcontratacion .cSearchPublisher{\n    display:none!Important;\n}\n\n/*En las páginas de los flujos de contratación cambiamos el tamaño de la letra*/\n.comm-page-custom-gastos-hipotecarios-contratacion .uiOutputRichText{\n    font-size: 16px!important;\n}\n\n.comm-page-custom-gastos-hipotecarios-contratacion .slds-form-element__label{\n    font-size: 16px!important;\n}\n\n.comm-page-custom-clausula-suelo-contratacion .uiOutputRichText{\n    font-size: 16px!important;\n}\n\n.comm-page-custom-clausula-suelo-contratacion .slds-form-element__label{\n    font-size: 16px!important;\n}\n\n.comm-page-custom-irphcontratacion .uiOutputRichText{\n    font-size: 16px!important;\n}\n\n.comm-page-custom-irphcontratacion .slds-form-element__label{\n    font-size: 16px!important;\n}\n\n.comm-page-custom-revolvingcontratacion .uiOutputRichText{\n    font-size: 16px!important;\n}\n\n.comm-page-custom-revolvingcontratacion .slds-form-element__label{\n    font-size: 16px!important;\n}\n\n/*En las páginas de los flujos de contratación cambiamos el tamaño de la letra*/\n.comm-page-custom-gastos-hipotecarios-contratacion .uiInputText {\n    font-size: 16px!important;\n}\n\n.comm-page-custom-clausula-suelo-contratacion .uiInputText {\n    font-size: 16px!important;\n}\n\n.comm-page-custom-irphcontratacion .uiInputText {\n    font-size: 16px!important;\n}\n\n.comm-page-custom-revolvingcontratacion .uiInputText {\n    font-size: 16px!important;\n}\n\n/*Página de login tamaño de la letra más grande*/\n.comm-page-login-home .inverseTextColor{\n    font-size: 16px!important;\n}\n\n.comm-page-login-home .input{\n    font-size: 16px!important;\n    width: auto !important;\n}\n\n/*En las páginas de los flujos (Contratación) se quita en el componente de subir documentos el texto \"O suelte archivos\"*/\n.comm-page-custom-gastos-hipotecarios-contratacion .slds-file-selector__text{\n    display: none!important;\n}\n\n.comm-page-custom-clausula-suelo-contratacion .slds-file-selector__text{\n    display: none!important;\n}\n\n.comm-page-custom-irphcontratacion .slds-file-selector__text{\n    display: none!important;\n}\n\n.comm-page-custom-revolvingcontratacion .slds-file-selector__text{\n    display: none!important;\n}\n\n/*En las páginas de los flujos de contratación cambiamos el tamaño de la letra (picklist)*/\n.comm-page-custom-gastos-hipotecarios-contratacion .uiInputSelect  {\n    font-size: 16px!important;\n}\n\n.comm-page-custom-clausula-suelo-contratacion .uiInputSelect  {\n    font-size: 16px!important;\n}\n\n.comm-page-custom-irphcontratacion .uiInputSelect  {\n    font-size: 16px!important;\n}\n\n.comm-page-custom-revolvingcontratacion .uiInputSelect  {\n    font-size: 16px!important;\n}\n\n/*En las páginas de los flujos de contratación quitamos el asterisco que indica si la pregunta es obligatori*/\n.comm-page-custom-gastos-hipotecarios-contratacion .required  {\n    display: none!important;\n}\n\n.comm-page-custom-clausula-suelo-contratacion .required  {\n    display: none!important;\n}\n\n.comm-page-custom-irphcontratacion .required  {\n    display: none!important;\n}\n\n.comm-page-custom-revolvingcontratacion .required  {\n    display: none!important;\n}\n\n/*En las páginas de flujo de contratación, en el flujo de revolving, modificamos el color de los enlaces*/\n.comm-page-custom-revolvingcontratacion .uiOutputRichText a{\n    color: #47a2f7!important;\n}\n\n/*En la página de pago Redsys modificado la imagen de fondo*/\n.comm-page-custom-pago-redsys .siteforceServiceBody{\n    background-image: url(\"https://arriagaasociados--c.documentforce.com/servlet/servlet.ImageServer?id=0151t000001tvjt&oid=00D1t000000rxg7&lastMod=1570615606000\")!important;\n    background-size: cover!important;\n}\n\n.comm-page-custom-redsys-pago .siteforceServiceBody{\n    background-image: url(\"https://arriagaasociados--c.documentforce.com/servlet/servlet.ImageServer?id=0151t000001tvjt&oid=00D1t000000rxg7&lastMod=1570615606000\")!important;\n    background-size: cover!important;\n}\n\n/*En versión móvil para mostrar el botón de opciones en color*/\n/*.slds-button_icon-bare{\n    background-color:rgb(233, 90, 19)!important;\n}*/\n\n.slds-button__icon{\n    color: rgb(233, 90, 19)!important;\n}\n\n/*Funnel de estados expediente detalle*/\n.comm-page-detail-800 .forceCommunityRichText ul>li:before {\n    content: \"\";\n    width: auto;\n    margin-left: auto;\n    margin-right: auto; \n}\n\n.comm-page-detail-800 .forceCommunityRichText ul li {\n    padding-left: 0px;\n}\n\n.comm-page-detail-800 .estadoIntermedio, .estadoInicial {\n    background-color: #ec6806;\n}\n\n.comm-page-detail-800 .estadoIntermedio::before {\n    content: \"\";\n    position: absolute;\n    background: #ec6806;\n}\n\n.comm-page-detail-800 .estadoIntermedio::after {\n    content: \"\";\n    position: absolute;\n    background-color: #ec6806;\n}\n\n.comm-page-detail-800 .estadoInicial::after {\n    content: \"\";\n    position: absolute;\n    background-color: #ec6806;\n}\n\n.comm-page-detail-800 .estadoInicial::before {\n    content: \"\";\n    background-color: #ec6806;\n}\n.comm-page-detail-800 .estadoPendiente {\n    background-color: #d8d8d8;\n}\n.comm-page-detail-800 .estadoPendiente::before {\n    content: \"\";\n    position: absolute;\n    background: #d8d8d8;\n}\n.comm-page-detail-800 .estadoPendiente::after {\n    content: \"\";\n    position: absolute;\n    background-color: #d8d8d8;\n}\n\n.comm-page-detail-800 .estadoHecho {\n    background-color: #f3bb92;\n}\n.comm-page-detail-800 .estadoHecho::before {\n    content: \"\";\n    position: absolute;\n    background: #f3bb92;\n}\n.comm-page-detail-800 .estadoHecho::after {\n    content: \"\";\n    position: absolute;\n    background-color: #f3bb92;\n}\n\n.comm-page-detail-800 .rutabox{\n   padding: 10px;\n}\n/*Se añade para mostrar información extra para cada estado de la ruta en el expediente*/\n.comm-page-detail-800 .overlay {\n    position: fixed;\n    top: 0;\n    bottom: 0;\n    left: 0;\n    right: 0;\n    background: rgba(0, 0, 0, 0.7);\n    transition: opacity 500ms;\n    visibility: hidden;\n    opacity: 0;\n}\n.comm-page-detail-800 .overlay:target {\n    visibility: visible;\n    opacity: 1;\n}\n.comm-page-detail-800 #popupBody{\n    width: 46%;\n    padding: 2%;\n    border-radius: 15px;\n    box-shadow: 0 0 5px #CCC;\n    background: #FFF;\n    position: relative;\n    transition: all 5s ease-in-out;\n    margin: 20% auto;    \n}\n.comm-page-detail-800 #cerrar{\n    position: absolute;\n    top: 20px;\n    right: 30px;\n    transition: all 200ms;\n    font-size: 30px;\n    font-weight: bold;\n    text-decoration: none;\n    color: #F00;\n}\n.viewAllLink{\n    display:none;\n}\n/*Cambiamos el tamaño de las páginas*/\n.siteforceServiceBody{\n    min-height: 1024px!important;\n}\n\n/*Se añade para no mostrar la opción de comentarios en las noticias en tiempo real*/\n.comm-page-detail-800 .interactions-wrap{\n    display: none;\n    pointer-events: none !important;\n\tcursor: default;\n\tpointer-events: none;        \n\ttext-decoration: none;\n\tcolor: grey\n}\n\n/*Se añade para evitar que accedan de forma individual a cada una de las noticias en tiempo real*/\n.comm-page-detail-800 .slds-feed__item{\n\tcursor: default;\n\tpointer-events: none !important;        \n\ttext-decoration: none;\n\tcolor: grey\n}\n\n/*Se añade para quitar al Menú custom de navegación la decoración de los elementos de la lista*/\n.forceCommunityRichText ul.uldevmenu>li:before {\n    content: none;\n}\n\n\n/*CSS añadido para poder quitar el propietario dentro del listado de archivos asjuntos en casos*/\n.comm-page-relatedlist-500 th[title=\"Propietario\"]{\n\tvisibility: hidden;\n}\n\n.comm-page-relatedlist-500 a[href*=\"profile\"]{\n\tvisibility: hidden;\n}\n\n/*CSS para cambiar el color del sobre de los chatter*/\nlightning-card.customColor lightning-icon{\n    background-color: var(--sds-c-icon-color-background, #6ec06e);\n}\n/*Faldon Negro*/\n.faldonNegro .menu-item{\n    display: inline-block;\n    padding: 0;\n    width: calc(25% - 4px);\n}\n\n.faldonNegro .menu-item a{\n    color: #fff !important;\n    font-size: 16px;\n    font-weight: 400;\n    line-height: 30px;\n    text-decoration: none;\n}\n.faldonNegro .menu-item a:hover{\n    color: #ec6806 !important;\n    text-decoration: none !important;\n    \n}\n/*Styles Botones */\n\n.buttonsNone{\n    background: transparent;\n    border: none;\n}\n/*Actualización de estilos tabla*/",
+  "developerName" : "service",
+  "id" : "819ac765-2d51-4ac3-9f0f-88f0605d8f8d",
+  "label" : "Servicio de atención al cliente",
+  "layouts" : {
+    "Inner" : "60b26bcb-5f05-4ff3-9054-a5b1e4d1751c",
+    "Login" : "f1bdf99b-360e-46e9-9809-0e314fa74a13",
+    "ServiceNotAvailable" : "34c1baba-b67b-4218-890d-1ac608fd0633",
+    "j13QTPxsyY24sUE60wjjXP6JL0r69y" : "b031f671-b995-422f-a4e4-e81f21218295",
+    "ljCPdLVjVqC69C2upBmBwxQqX48O2M" : "3067076f-72dc-475f-8084-adca2a744530"
+  },
+  "type" : "theme",
+  "views" : [ {
+    "componentAttributes" : { },
+    "componentName" : "salesforceIdentity:loginBody2",
+    "id" : "f1bdf99b-360e-46e9-9809-0e314fa74a13",
+    "label" : "Login",
+    "regions" : [ {
+      "id" : "3bb24d5c-be25-451e-a344-67f58e7e4ce3",
+      "regionName" : "header",
+      "type" : "region"
+    }, {
+      "id" : "2514c7f8-2308-42be-a1ad-5bb5c8b89299",
+      "regionName" : "content",
+      "type" : "region"
+    }, {
+      "id" : "6c89ab9c-ddd8-40f7-980c-476d012f2e13",
+      "regionName" : "footer",
+      "type" : "region"
+    } ],
+    "type" : "view"
+  }, {
+    "componentAttributes" : {
+      "IsDefaultHeaderHidden" : true,
+      "IsDefaultNotificationsHidden" : true
+    },
+    "componentName" : "siteforce:serviceBody",
+    "id" : "60b26bcb-5f05-4ff3-9054-a5b1e4d1751c",
+    "label" : "Default",
+    "regions" : [ {
+      "components" : [ {
+        "componentAttributes" : {
+          "richTextValue" : "<div class='slds-p-horizontal--xx-large' style='background:#fff;'>\n<div class='slds-p-horizontal--xx-large'>\n<div class='slds-grid slds-gutters slds-p-horizontal--large headerCustom' style='justify-content: center;    align-content: center;     margin: auto;'>\n    <div class='slds-col slds-size_2-of-6 Logo'>\n    </div>\n    <div class='slds-col slds-size_4-of-6 slds-grid slds-grid_vertical-align-center customHeader' style='background: white;'>\n        <div class='slds-grid slds-align_absolute-center' style='height: -webkit-fill-available;'>\n\t\t\t\t\t\t<div class=\"slds-align_absolute-center menu-item menu-item-type-post_type menu-item-object-page\"><a class=\"slds-align_absolute-center\" target='_blank' href=\"https://www.arriagaasociados.com/\">Servicios</a></div>\n\t\t\t\t\t\t<div class=\"slds-align_absolute-center menu-item menu-item-type-post_type menu-item-object-page\"><a class=\"slds-align_absolute-center\" target='_blank' href=\"https://www.arriagaasociados.com/preguntas-frecuentes/\">Preguntas Frecuentes</a></div>\n\t\t\t\t\t\t<div class=\"slds-align_absolute-center menu-item menu-item-type-post_type menu-item-object-page\"><a class=\"slds-align_absolute-center\" target='_blank' href=\"https://www.arriagaasociados.com/quienes-somos/\">Somos Arriaga</a></div>\n\t\t\t\t\t\t<div class=\"slds-align_absolute-center menu-item menu-item-type-post_type menu-item-object-page\"><a class=\"slds-align_absolute-center\" target='_blank' href=\"https://www.arriagaasociados.com/blog/\">Blog</a></div>\n\t\t\t\t\t\t<div class=\"slds-align_absolute-center menu-item menu-item-type-post_type menu-item-object-page\"><a target='_blank' class=\"slds-align_absolute-center\" href=\"https://www.arriagaasociados.com/contacto/\">Contacto Abogados</a></div>\n\t\t\t\t\t\t<div class=\"slds-align_absolute-center menu-item menu-item-type-custom menu-item-object-custom\"><a class=\"slds-align_absolute-center\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://empleo.arriagaasociados.com/\">Trabaja con Nosotros</a></div>\n\t\t\t\t\t\t<div class=\"slds-align_absolute-center menu-item menu-item-type-post_type menu-item-object-page\"><a class=\"slds-align_absolute-center\" target='_blank' href=\"https://www.arriagaasociados.com/prensa/\">Prensa</a></div>\n                        <div class=\"slds-align_absolute-center menu-item menu-item-type-post_type menu-item-object-page\"><a class=\"slds-align_absolute-center\" target='_self' href=\"https://clientes.arriagaasociados.com/secur/logout.jsp\"><p style=\"color:#FF7B00\";>Cerrar Sesión</p></a></div>\n        </div>\n\t</div>\n</div>\n</div>\n</div>"
+        },
+        "componentName" : "forceCommunity:htmlBlock",
+        "id" : "793ebdc5-0085-4a26-b0d1-61c8c4d6ccc0",
+        "renditionMap" : { },
+        "type" : "component"
+      }, {
+        "componentAttributes" : { },
+        "componentName" : "c:subHeaderCommunity",
+        "id" : "e05881d4-f052-4fd9-a432-0208f9896ab6",
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "149a8195-c0eb-44a6-ad42-7d197e80fe39",
+      "regionName" : "customHeader",
+      "type" : "region"
+    }, {
+      "components" : [ {
+        "componentAttributes" : {
+          "contineActionLabel" : "Ask the community",
+          "continueLabel" : "Don’t see it?",
+          "crossObjectTypeaheadApiNames" : [ {
+            "isPublic" : true,
+            "name" : "Case"
+          }, {
+            "isPublic" : true,
+            "name" : "Contract"
+          } ],
+          "disableCrossObjectRelevance" : false,
+          "enableAutocomplete" : true,
+          "maxNumberOfResults" : 6,
+          "placeholder" : "Buscar...",
+          "questionResultsFirst" : false,
+          "showContinueAction" : false,
+          "showDetails" : false,
+          "showTopics" : true,
+          "signInActionLabel" : "Sign in to ask the community"
+        },
+        "componentName" : "forceCommunity:searchBox",
+        "id" : "6b124fa8-5467-40f6-95ae-27fb2806a16c",
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "59333008-1420-4fcb-9d10-708d12517412",
+      "regionName" : "search",
+      "type" : "region"
+    }, {
+      "components" : [ {
+        "componentAttributes" : {
+          "accountManagementLabel" : "Account Management",
+          "communityBuilderLabel" : "Community Builder",
+          "communitySetupLabel" : "Community Setup",
+          "contactSupportLabel" : "",
+          "filterName" : "MyCases",
+          "homeLabel" : "Home",
+          "includeContactSupport" : false,
+          "includeMessages" : false,
+          "loginLabel" : "Iniciar sesión",
+          "logoutLabel" : "Cerrar sesión",
+          "myAccountLabel" : "Mi cuenta",
+          "showAccountManagement" : false,
+          "showUserSettings" : false,
+          "userSettingsLabel" : "Mis ajustes",
+          "viewProfileLabel" : "Mi Perfil"
+        },
+        "componentName" : "selfService:userProfileMenu",
+        "id" : "1f4eddfe-c847-4a69-8f53-4b92e195c03a",
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "75e7601d-d55a-4b8f-9374-d255178b04cb",
+      "regionName" : "profileMenu",
+      "type" : "region"
+    }, {
+      "components" : [ {
+        "componentAttributes" : {
+          "NavigationMenuEditorRefresh" : "Default_Navigation",
+          "hideAppLauncher" : false,
+          "hideHomeText" : true
+        },
+        "componentName" : "forceCommunity:globalNavigation",
+        "id" : "ee2a6438-5dec-4e7c-8312-8485e4a69ca6",
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "3a068e57-0548-436f-b60a-e4e56248e0c5",
+      "regionName" : "navBar",
+      "type" : "region"
+    }, {
+      "components" : [ {
+        "componentAttributes" : {
+          "richTextValue" : "<div >\n        <div class=\"slds-grid slds-grid_vertical-align-center slds-align_absolute-center\">\n            <div class=\"slds-has-flexi-truncate slds-m-vertical_x-large\">\n                <ul class=\"comm-navigation__list slds-list_horizontal slds-has-flexi-truncate uldevmenu forceLargeCommunity\" style=\"display:block;\">\n\n                </ul>\n            </div>\n        </div>\n    </div>"
+        },
+        "componentName" : "forceCommunity:htmlBlock",
+        "id" : "847b707d-0ac6-4896-927b-0d5d7484d4ea",
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "b8e99058-79e0-473d-bd17-a94f595b86e0",
+      "regionName" : "customRegion",
+      "type" : "region"
+    }, {
+      "components" : [ {
+        "componentAttributes" : {
+          "richTextValue" : "<div class=\"forceCommunityGlobalNavigation Footer devmenu\">\n            <div class=\"slds-grid slds-grid_vertical-align-center slds-p-horizontal--x-small navCommunityCustom\">\n                <div class=\"slds-has-flexi-truncate\">\n                    <ul class=\"comm-navigation__list slds-list_horizontal slds-align_absolute-center slds-has-block-links_space slds-has-flexi-truncate uldevmenu\">\n                        <li class=\"slds-is-relative slds-list__item\">\n                            <div class=\"comm-navigation__item\">\n                                    <label style='color:#fff;'>ArriagaAsociados ® Copyright 2018 |</label>\n                            </div>\n                        </li>\n                         <li class=\"slds-is-relative slds-list__item\">\n                            <div class=\"comm-navigation__item\">\n                                <a target=\"_blank\" href=\"https://www.arriagaasociados.com/aviso-legal/\"  title='' class=\"slds-container_fluid slds-truncate menu-item\">\n                                    <label>Aviso legal</label>\n                                </a>\n                            </div>\n                        </li>\n                        \n                        <li class=\"slds-is-relative slds-list__item\">\n                            <div class=\"comm-navigation__item\">\n                                    <label style='color:#fff;'> - </label>\n                            </div>\n                        </li>\n                        <li class=\"slds-is-relative slds-list__item\">\n                            <div class=\"comm-navigation__item\">\n                                <a target=\"_blank\" href=\"https://www.arriagaasociados.com/politica-de-privacidad/\" title='' class=\"slds-container_fluid slds-truncate menu-item\">\n                                    <label>Políticas de privacidad</label>\n                                </a>\n                            </div>\n                        </li>\n                        \n                        <li class=\"slds-is-relative slds-list__item\">\n                            <div class=\"comm-navigation__item\">\n                                    <label style='color:#fff;'> - </label>\n                            </div>\n                        </li>\n                        <li class=\"slds-is-relative slds-list__item\">\n                            <div class=\"comm-navigation__item\">\n                                <a target=\"_blank\" href=\"https://www.arriagaasociados.com/politica-de-cookies/\" title='' class=\"slds-container_fluid slds-truncate menu-item\">\n                                    <label>Política de cookies</label>\n                                </a>\n                            </div>\n                        </li>\n                        \n                        <li class=\"slds-is-relative slds-list__item\">\n                            <div class=\"comm-navigation__item\">\n                                    <label style='color:#fff;'> - </label>\n                            </div>\n                        </li>\n                        <li class=\"slds-is-relative slds-list__item\">\n                            <div class=\"comm-navigation__item\">\n                                <a target=\"_blank\" href=\"https://www.arriagaasociados.com/seguridad/\" title='' class=\"slds-container_fluid slds-truncate menu-item\">\n                                    <label>Seguridad</label>\n                                </a>\n                            </div>\n                        </li>\n                    </ul>\n                </div>\n            </div>\n        </div>\n    </div>"
+        },
+        "componentName" : "forceCommunity:htmlBlock",
+        "id" : "b935213a-7b94-42d4-9e8e-81eb3a55fa40",
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "f35e6ca1-b2f1-4d6b-862b-e9bfabcddf24",
+      "regionName" : "footer",
+      "type" : "region"
+    } ],
+    "type" : "view"
+  }, {
+    "componentAttributes" : {
+      "IsDefaultHeaderHidden" : true,
+      "IsDefaultNotificationsHidden" : false
+    },
+    "componentName" : "siteforce:serviceBody",
+    "id" : "b031f671-b995-422f-a4e4-e81f21218295",
+    "label" : "Páginas Publicas",
+    "regions" : [ {
+      "id" : "6a0999e6-edad-47d6-b375-9cec0e15f5de",
+      "regionName" : "customHeader",
+      "type" : "region"
+    }, {
+      "components" : [ {
+        "componentAttributes" : {
+          "contineActionLabel" : "Ask the community",
+          "continueLabel" : "Don’t see it?",
+          "crossObjectTypeaheadApiNames" : [ {
+            "isPublic" : true,
+            "name" : "Case"
+          }, {
+            "isPublic" : true,
+            "name" : "Contract"
+          } ],
+          "disableCrossObjectRelevance" : false,
+          "enableAutocomplete" : true,
+          "maxNumberOfResults" : 6,
+          "placeholder" : "Search...",
+          "questionResultsFirst" : false,
+          "showContinueAction" : true,
+          "showDetails" : false,
+          "showTopics" : true,
+          "signInActionLabel" : "Sign in to ask the community"
+        },
+        "componentName" : "forceCommunity:searchBox",
+        "id" : "487789ff-b88b-4e8a-94ef-6ce3c7d9a310",
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "55c0c956-058f-4ec1-8b8f-ad1aca770bb0",
+      "regionName" : "search",
+      "type" : "region"
+    }, {
+      "components" : [ {
+        "componentAttributes" : {
+          "accountManagementLabel" : "Account Management",
+          "communityBuilderLabel" : "Community Builder",
+          "communitySetupLabel" : "Community Setup",
+          "contactSupportLabel" : "",
+          "filterName" : "MyCases",
+          "homeLabel" : "Home",
+          "includeContactSupport" : false,
+          "includeMessages" : false,
+          "loginLabel" : "Iniciar sesión",
+          "logoutLabel" : "Cerrar sesión",
+          "myAccountLabel" : "Mi cuenta",
+          "showAccountManagement" : false,
+          "showUserSettings" : false,
+          "userSettingsLabel" : "Mis ajustes",
+          "viewProfileLabel" : "Mi Perfil"
+        },
+        "componentName" : "selfService:userProfileMenu",
+        "id" : "b9e7bc02-15b7-47f9-8359-c052a5a1a42c",
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "e413e507-1c8d-49ea-b7ec-59420a2e8854",
+      "regionName" : "profileMenu",
+      "type" : "region"
+    }, {
+      "components" : [ {
+        "componentAttributes" : {
+          "NavigationMenuEditorRefresh" : "",
+          "hideAppLauncher" : false,
+          "hideHomeText" : true
+        },
+        "componentName" : "forceCommunity:globalNavigation",
+        "id" : "d4691881-3e0f-48c0-96ac-19da0c890366",
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "db0617c0-e882-40b6-bd0e-34855534b709",
+      "regionName" : "navBar",
+      "type" : "region"
+    }, {
+      "components" : [ {
+        "componentAttributes" : {
+          "richTextValue" : "<p style=\"text-align: center;\"><img class=\"sfdcCbImage\" src=\"{!contentAsset.Imagen_Cabecera_V2.1}\" style=\"width: 394.422px; height: 179.609px;\" /></p>"
+        },
+        "componentName" : "forceCommunity:richTextInline",
+        "id" : "5d11d9a3-b14b-495f-9cf5-6a1241dc0c0f",
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "06b741bb-4518-49c6-ba94-466570b71b05",
+      "regionName" : "customRegion",
+      "type" : "region"
+    }, {
+      "id" : "0631903c-56a4-40a5-bb83-9413091a8df5",
+      "regionName" : "footer",
+      "type" : "region"
+    } ],
+    "type" : "view"
+  }, {
+    "componentAttributes" : { },
+    "componentName" : "salesforceIdentity:loginBody2",
+    "id" : "3067076f-72dc-475f-8084-adca2a744530",
+    "label" : "test",
+    "regions" : [ {
+      "id" : "bbcc82f7-0c75-4074-a03d-661f04ce5fde",
+      "regionName" : "header",
+      "type" : "region"
+    }, {
+      "id" : "aed45e52-6a44-4f85-b046-f7c80bc8054b",
+      "regionName" : "content",
+      "type" : "region"
+    }, {
+      "id" : "2f32f56f-c36e-4711-9304-e65babedfa9b",
+      "regionName" : "footer",
+      "type" : "region"
+    } ],
+    "type" : "view"
+  }, {
+    "componentAttributes" : {
+      "fixedPageWidth" : 1170,
+      "headerBgColor" : "rgba(0, 0, 0, 0)",
+      "isHeaderPinned" : false,
+      "isHeroUnderHeader" : false,
+      "isPageWidthFixed" : true,
+      "showHeader" : true,
+      "showHero" : true
+    },
+    "componentName" : "siteforce:themeLayoutStarter",
+    "id" : "34c1baba-b67b-4218-890d-1ac608fd0633",
+    "label" : "ServiceNotAvailable",
+    "regions" : [ {
+      "id" : "2460973c-33b4-49f3-93e3-24f2610c5786",
+      "regionName" : "themeHeader",
+      "type" : "region"
+    }, {
+      "id" : "83aa4c5e-837a-4883-b8b8-4ae0a65f7141",
+      "regionName" : "themeFooter",
+      "type" : "region"
+    } ],
+    "type" : "view"
+  } ]
+}

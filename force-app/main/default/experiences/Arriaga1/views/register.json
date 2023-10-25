@@ -1,0 +1,65 @@
+{
+  "appPageId" : "52bf8384-2fdd-4955-8b74-72547cbdd9d9",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "85afd281-1331-431c-82f5-90df1786a6c8",
+  "label" : "Register",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : { },
+      "componentName" : "salesforceIdentity:communityLogo2",
+      "id" : "d02fb835-2058-4980-ae9e-195dffbbd1c7",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "richTextValue" : "<center>\n\t<div style=\"color:#E95A13; font-size:28px\">ACCESO A TU ÁREA DE CLIENTE</div><br/>\n\t<div style=\"color:#E95A13; font-size:20px\">Para comenzar tu reclamación o consultar el estado de tu expediente necesitamos algunos datos</div>\n</center>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "76de69c1-aaf6-41a1-af19-ee05a5fa2fc1",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "confirmPasswordLabel" : "Confirm Password",
+        "emailLabel" : "Email",
+        "extraFieldsFieldSet" : "",
+        "firstnameLabel" : "Nombre",
+        "includePasswordField" : false,
+        "lastnameLabel" : "Apellidos",
+        "passwordLabel" : "Create Password",
+        "regConfirmUrl" : "./CheckPasswordResetEmail",
+        "startUrl" : "",
+        "submitButtonLabel" : "Enviar"
+      },
+      "componentName" : "c:selfRegister",
+      "id" : "566584cf-8134-4ceb-b491-a2fc49c43274",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "9599d95b-a4fd-4fab-8f1b-f11c959cb1e7",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Register"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "3760ab5e-bc6b-4013-b841-f361e7293a86",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "efb87910-09f1-44db-9346-9afdd09deda6",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Login",
+  "type" : "view",
+  "viewType" : "self-register"
+}

@@ -1,0 +1,104 @@
+{
+  "appPageId" : "62137db1-fbc3-4ed7-aec0-7e8bf9c78137",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "5c3fab4c-6e8f-4dcf-bcac-0383337d9591",
+  "label" : "HomeIRPH",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<div >\n        <div class=\"slds-grid slds-grid_vertical-align-center slds-align_absolute-center\">\n            <div class=\"slds-has-flexi-truncate slds-m-vertical_x-large\">\n                <ul class=\"comm-navigation__list slds-list_horizontal slds-has-flexi-truncate uldevmenu forceLargeCommunity\" style=\"display:block;\">\n\n                </ul>\n            </div>\n        </div>\n    </div>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "c03e6bb6-3897-4821-ad86-fc55ef9265c0",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "632a9d4f-a9db-4bce-86f1-92ed844a3d47",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "bannerBackgroundColor" : "rgb(255, 255, 255)",
+        "bannerPosition" : "top",
+        "bannerSizePercent" : 35,
+        "borderRadius" : 20,
+        "boxShadow" : true,
+        "haveBanner" : false,
+        "iconBackgroundColor" : "rgb(255,255,255)",
+        "iconSize" : "medium",
+        "noImageColor" : "rgb(212, 212, 212)",
+        "overlay" : "rgba(0,0,0,0.01)",
+        "templateType" : "default",
+        "tileMenuEditor" : "Expedientes_IRPH",
+        "titleColor" : "rgb(0, 0, 0)",
+        "titleFontSize" : "medium",
+        "titleHorizontalAlign" : "center"
+      },
+      "componentName" : "community_navigation:tileMenu",
+      "id" : "b9ddc944-5d4f-435b-aa3f-2136289e6382",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "richTextValue" : "<center><h1>RESTO DE INFORMACIÓN</h1></center>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "8aa93f18-d930-4367-9335-6e450c13cdae",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "bannerBackgroundColor" : "rgb(255, 255, 255)",
+        "bannerPosition" : "top",
+        "bannerSizePercent" : 35,
+        "borderRadius" : 20,
+        "boxShadow" : true,
+        "haveBanner" : false,
+        "iconBackgroundColor" : "rgb(255,255,255)",
+        "iconSize" : "medium",
+        "noImageColor" : "rgb(212, 212, 212)",
+        "overlay" : "rgba(0,0,0,0.01)",
+        "templateType" : "default",
+        "tileMenuEditor" : "Mosaico",
+        "titleColor" : "rgb(0, 0, 0)",
+        "titleFontSize" : "small",
+        "titleHorizontalAlign" : "center"
+      },
+      "componentName" : "community_navigation:tileMenu",
+      "id" : "ff98727a-f142-4316-9888-8af860b55cd2",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "15867bac-5575-482a-b752-5306ba1935d4",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "503c821a-a9e6-4d8b-8aaa-8b238f17f045",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Home"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "5e9904a5-c5ea-4d99-9f4e-45af72563c79",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "a9cd1a1a-9b14-49ed-9f74-610c6ae205df",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "home"
+}

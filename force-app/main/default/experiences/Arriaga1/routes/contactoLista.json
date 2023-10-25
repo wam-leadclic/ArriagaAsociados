@@ -1,0 +1,10 @@
+{
+  "activeViewId" : "e366acfc-7d32-45db-ad98-070950b2236f",
+  "appPageId" : "62137db1-fbc3-4ed7-aec0-7e8bf9c78137",
+  "configurationTags" : [ ],
+  "id" : "ea4101de-a14c-4fbd-9748-a0f7ab953988",
+  "label" : "Contacto Lista",
+  "routeType" : "list-003",
+  "type" : "route",
+  "urlPrefix" : "contact"
+}

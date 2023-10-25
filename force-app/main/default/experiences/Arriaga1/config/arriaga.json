@@ -1,0 +1,18 @@
+{
+  "forgotPasswordRouteId" : "8fece112-a1b8-4415-9407-0fe52c1ec4b5",
+  "isAvailableToGuests" : false,
+  "isFilteredComponentsView" : false,
+  "isProgressiveRenderingEnabled" : false,
+  "loginAppPageId" : "52bf8384-2fdd-4955-8b74-72547cbdd9d9",
+  "mainAppPageId" : "62137db1-fbc3-4ed7-aec0-7e8bf9c78137",
+  "preferredDomain" : "none",
+  "selfRegistrationRouteId" : "703ef674-8e91-4a13-9eb8-31e0ee312b6f",
+  "trustedSitesForScript" : [ {
+    "id" : "4924c7db-2f5a-414f-b1ef-9b55a9bfc809",
+    "isActive" : true,
+    "trustedSiteName" : "Arriaga Documentos",
+    "trustedSiteUrl" : "https://arriagaasociados--c.documentforce.com",
+    "type" : "trustedSitesForScripts"
+  } ],
+  "type" : "site"
+}

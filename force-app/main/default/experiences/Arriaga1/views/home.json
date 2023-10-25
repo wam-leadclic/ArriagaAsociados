@@ -1,0 +1,95 @@
+{
+  "appPageId" : "62137db1-fbc3-4ed7-aec0-7e8bf9c78137",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "70493b15-7a35-415e-aaba-8444771ab75a",
+  "label" : "Home",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<p style=\"text-align: right;\"><b style=\"font-size: 28px;\">&nbsp;91 005 2600</b><b>&nbsp;</b></p><p style=\"text-align: center;\"><span style=\"font-size: 28px; color: rgb(237, 125, 49);\">Reclama on-line con el despacho líder</span></p><p style=\"text-align: center;\"><span style=\"color: rgb(237, 125, 49); font-size: 20px;\">Gestionamos tu reclamación en sólo 4 pasos</span></p><p style=\"text-align: right;\">&nbsp;&nbsp;</p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "0231cda4-4a9a-41e1-b97e-acffd4af31b8",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "e55818d2-082c-408d-8073-b69434cfce77",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "id" : "f64d9400-72c4-44eb-a22e-bacc4009a7f2",
+    "regionName" : "featured",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<div class=\"slds-col--padded contentRegion comm-layout-column\" data-aura-rendered-by=\"459:0\"> \n <div data-region-name=\"content\" data-item-id=\"be335945-f38a-4c5e-8f1e-7eaf96d43387\" data-aura-rendered-by=\"416:0\"> \n  <div class=\"ui-widget\" data-item-id=\"dd8c92e9-96b8-4b50-8c47-777217fb9d96\" data-priority=\"\" data-aura-rendered-by=\"398:0\"> \n   <div data-aura-rendered-by=\"388:0\" class=\"forceCommunityTileMenu\" data-aura-class=\"forceCommunityTileMenu\"> \n    <div class=\"slds-grid slds-wrap tileMenuItemList\" data-aura-rendered-by=\"390:0\"> \n     <div class=\"slds-size_1-of-1 slds-small-size_1-of-2 slds-medium-size_1-of-3 slds-large-size_1-of-4\" data-aura-rendered-by=\"469:0\"> \n      <div class=\"slds-box slds-box_x-small slds-text-align_center slds-m-around_x-small tileMenuItemCard\" data-aura-rendered-by=\"470:0\"> \n       <div class=\"slds-image uiMenuItem forceCommunityTileMenuItem\" data-aura-rendered-by=\"473:0\" data-aura-class=\"uiMenuItem forceCommunityTileMenuItem\"> \n        <div class=\"tileLabel\" data-aura-rendered-by=\"475:0\" style=\"background-color:white; color:rgb(233, 90, 19); height: 50px; line-height:50px; font-size:20px\">\n          Gastos Hipotecarios \n        </div> \n        <div class=\"slds-align--absolute-center imagePreview\" data-aura-rendered-by=\"478:0\" style=\"height: 150px;\"> \n         <img src=\"{!contentAsset.Gastos_hipotecarios.1}\" style=\"height: 150px;\" /> \n        </div> \n        <div style=\"height: 90px;\">\n          Podemos reclamar el importe de las facturas de Notar&iacute;a, Gestor&iacute;a, Registro y Tasaci&oacute;n que pagaste cuando contrataste tu hipoteca \n        </div> \n        <!-- <a class=\"navTileLink\" href=\"https://dev1-clientesarriaga.cs84.force.com/s/gastos-hipotecarios-contratacion\" title=\"Reclama ahora\" data-aura-rendered-by=\"474:0\"> --> \n        <a class=\"navTileLink\" href=\"/s/gastos-hipotecarios-contratacion\" title=\"Reclama ahora\" data-aura-rendered-by=\"474:0\"> \n         <div class=\"tileLabel\" data-aura-rendered-by=\"475:0\" style=\"background-color:rgb(233, 90, 19); color:white; height: 50px; line-height:50px; font-size:20px\">\n           RECLAMA AHORA \n         </div> </a> \n       </div> \n      </div> \n     </div> \n     <div class=\"slds-size_1-of-1 slds-small-size_1-of-2 slds-medium-size_1-of-3 slds-large-size_1-of-4\" data-aura-rendered-by=\"481:0\"> \n      <div class=\"slds-box slds-box_x-small slds-text-align_center slds-m-around_x-small tileMenuItemCard\" data-aura-rendered-by=\"482:0\"> \n       <div class=\"slds-image uiMenuItem forceCommunityTileMenuItem\" data-aura-rendered-by=\"485:0\" data-aura-class=\"uiMenuItem forceCommunityTileMenuItem\"> \n        <div class=\"tileLabel\" data-aura-rendered-by=\"487:0\" style=\"background-color:white; color:rgb(233, 90, 19); height: 50px; line-height:50px; font-size:20px\">\n          Cl&aacute;usulas Suelo \n        </div> \n        <div class=\"slds-align--absolute-center imagePreview\" data-aura-rendered-by=\"490:0\" style=\"height: 150px;\"> \n         <img src=\"{!contentAsset.Clausula_Suelo.1}\" style=\"height: 150px;\" /> \n        </div> \n        <div style=\"height: 90px;\">\n          Si el importe de la cuota de tu hipoteca desde 2009 ha seguido siendo el mismo durante m&aacute;s de un a&ntilde;o es muy probable que te hayan aplicado una Clausula Suelo \n        </div> \n        <!-- <a class=\"navTileLink\" href=\"https://dev1-clientesarriaga.cs84.force.com/s/clausula-suelo-contratacion\" title=\"Reclama ahora\" data-aura-rendered-by=\"474:0\"> --> \n        <a class=\"navTileLink\" href=\"/s/clausula-suelo-contratacion\" title=\"Reclama ahora\" data-aura-rendered-by=\"474:0\"> \n         <div class=\"tileLabel\" data-aura-rendered-by=\"475:0\" style=\"background-color:rgb(233, 90, 19); color:white; height: 50px; line-height:50px; font-size:20px\">\n           RECLAMA AHORA \n         </div> </a> \n       </div> \n      </div> \n     </div> \n     <div class=\"slds-size_1-of-1 slds-small-size_1-of-2 slds-medium-size_1-of-3 slds-large-size_1-of-4\" data-aura-rendered-by=\"493:0\"> \n      <div class=\"slds-box slds-box_x-small slds-text-align_center slds-m-around_x-small tileMenuItemCard\" data-aura-rendered-by=\"494:0\"> \n       <div class=\"slds-image uiMenuItem forceCommunityTileMenuItem\" data-aura-rendered-by=\"497:0\" data-aura-class=\"uiMenuItem forceCommunityTileMenuItem\"> \n        <div class=\"tileLabel\" data-aura-rendered-by=\"499:0\" style=\"background-color:white; color:rgb(233, 90, 19); height: 50px; line-height:50px; font-size:20px\">\n          IRPH \n        </div> \n        <div class=\"slds-align--absolute-center imagePreview\" data-aura-rendered-by=\"502:0\" style=\"height: 150px;\"> \n         <img src=\"{!contentAsset.IRPH_V2.1}\" style=\"height: 150px; width: 291px;\" /> \n        </div> \n        <div style=\"height: 90px;\">\n          Si el importe de la cuota de tu hipoteca no ha bajado tanto desde 2009 como el de tus familiares o amigos es probable que tu hipoteca est&eacute; referenciada al IRPH \n        </div> \n        <!-- <a class=\"navTileLink\" href=\"https://dev1-clientesarriaga.cs84.force.com/s/irphcontratacion\" title=\"Reclama ahora\" data-aura-rendered-by=\"474:0\"> --> \n        <a class=\"navTileLink\" href=\"/s/irphcontratacion\" title=\"Reclama ahora\" data-aura-rendered-by=\"474:0\"> \n         <div class=\"tileLabel\" data-aura-rendered-by=\"475:0\" style=\"background-color:rgb(233, 90, 19); color:white; height: 50px; line-height:50px; font-size:20px\">\n           RECLAMA AHORA \n         </div> </a> \n       </div> \n      </div> \n     </div> \n     <div class=\"slds-size_1-of-1 slds-small-size_1-of-2 slds-medium-size_1-of-3 slds-large-size_1-of-4\" data-aura-rendered-by=\"505:0\"> \n      <div class=\"slds-box slds-box_x-small slds-text-align_center slds-m-around_x-small tileMenuItemCard\" data-aura-rendered-by=\"506:0\"> \n       <div class=\"slds-image uiMenuItem forceCommunityTileMenuItem\" data-aura-rendered-by=\"509:0\" data-aura-class=\"uiMenuItem forceCommunityTileMenuItem\"> \n        <div class=\"tileLabel\" data-aura-rendered-by=\"511:0\" style=\"background-color:white; color:rgb(233, 90, 19); height: 50px; line-height:50px; font-size:20px\">\n          Tarjetas abusivas \n        </div> \n        <div class=\"slds-align--absolute-center imagePreview\" data-aura-rendered-by=\"514:0\" style=\"height: 150px;\"> \n         <img src=\"{!contentAsset.tarjetas_abusivas.1}\" style=\"height: 150px;\" /> \n        </div> \n        <div style=\"height: 90px;\">\n          Si nunca terminas de pagar las compras realizadas con tu tarjeta de cuota fija es probable que te est&eacute;n aplicando un tipo de inter&eacute;s excesivo \n        </div> \n        <!-- <a class=\"navTileLink\" href=\"https://dev1-clientesarriaga.cs84.force.com/s/revolvingcontratacion\" title=\"Reclama ahora\" data-aura-rendered-by=\"474:0\"> --> \n        <a class=\"navTileLink\" href=\"/s/revolvingcontratacion\" title=\"Reclama ahora\" data-aura-rendered-by=\"474:0\"> \n         <div class=\"tileLabel\" data-aura-rendered-by=\"475:0\" style=\"background-color:rgb(233, 90, 19); color:white; height: 50px; line-height:50px; font-size:20px\">\n           RECLAMA AHORA \n         </div> </a> \n       </div> \n      </div> \n     </div> \n    </div> \n   </div> \n  </div> \n </div> \n</div>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "210eea3d-f4c3-41ef-abbe-713ffaec5858",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "be335945-f38a-4c5e-8f1e-7eaf96d43387",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "display" : "LEVELS_POINTS",
+        "excludeInternalUsers" : false,
+        "knowledgeLabel" : "Knows about",
+        "numberOfUsers" : 5,
+        "showContextUser" : false,
+        "showTooltip" : false,
+        "showUserRank" : false,
+        "title" : "Leaderboard",
+        "tooltipText" : "Earn points and climb to new levels when you contribute in the community!"
+      },
+      "componentName" : "forceCommunity:reputationLeaderboard42",
+      "id" : "03a0845a-0cb1-46ca-9906-543980304c61",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "numberOfTopics" : 5,
+        "showTopicsMetric" : true,
+        "title" : "Trending Topics"
+      },
+      "componentName" : "forceCommunity:trendingTopics",
+      "id" : "05d57ec0-5e3b-441b-959e-524541828245",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "ed0aa881-4ac6-4a7c-ba2e-f34a08234385",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "id" : "1fa4b9b7-9d51-446e-85a4-f393a2b04a91",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Home"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "a6e04ecf-160f-46d4-9829-567712d17131",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "8ee834a1-d9a8-43ce-a468-0392dff53dbe",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "home"
+}

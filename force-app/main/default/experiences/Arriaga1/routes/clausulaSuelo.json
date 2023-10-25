@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "405a871b-38d0-4f4d-b29d-285bfc5218ec",
+  "appPageId" : "62137db1-fbc3-4ed7-aec0-7e8bf9c78137",
+  "configurationTags" : [ ],
+  "id" : "3e1b9eed-9db6-4e9f-9847-4fe5bc69b828",
+  "label" : "Clausula Suelo",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-clausula-suelo",
+  "type" : "route",
+  "urlPrefix" : "clausula-suelo"
+}
