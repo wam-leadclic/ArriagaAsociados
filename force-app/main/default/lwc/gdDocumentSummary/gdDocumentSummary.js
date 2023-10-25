@@ -31,6 +31,10 @@ const DOCUMENT_GROUP_VALUES = {
 		title  : Label.specialDisabilityCaseDocuments,
 		values : Label.specialDisabilityCaseDocumentsValues.split(';')
 	},
+	OTHER_DOCUMENTS: {
+		title  : Label.otherDocuments,
+		values : Label.otherDocumentsValues.split(';')
+	},
 }
 export default class GdDocumentSummary extends LightningElement {
 	

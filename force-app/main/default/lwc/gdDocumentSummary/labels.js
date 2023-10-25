@@ -10,6 +10,8 @@ import GDIRPH_SpecialDivorceDocumentsValues from '@salesforce/label/c.GDIRPH_Spe
 import GDIRPH_SpecialCaseInheritanceDocumentsValues from '@salesforce/label/c.GDIRPH_SpecialCaseInheritanceDocumentsValues';
 import GDIRPH_SpecialDisabilityCaseDocumentsValues from '@salesforce/label/c.GDIRPH_SpecialDisabilityCaseDocumentsValues';
 import GDIRPH_NoPendingDocuments from '@salesforce/label/c.GDIRPH_NoPendingDocuments';
+import GDIRPH_OtherDocuments from '@salesforce/label/c.GDIRPH_OtherDocuments';
+import GDIRPH_OtherDocumentsValues from '@salesforce/label/c.GDIRPH_OtherDocumentsValues';
 
 export const Label = {
     documentsToProvide : GDIRPH_GDDocumentsToProvide,
@@ -24,4 +26,6 @@ export const Label = {
     specialDivorceDocumentsValues : GDIRPH_SpecialDivorceDocumentsValues,
     specialDisabilityCaseDocuments : GDIRPH_SpecialDisabilityCaseDocuments,
     specialDisabilityCaseDocumentsValues : GDIRPH_SpecialDisabilityCaseDocumentsValues,
+    otherDocuments : GDIRPH_OtherDocuments,
+    otherDocumentsValues : GDIRPH_OtherDocumentsValues,
 }
