@@ -1,0 +1,52 @@
+{
+  "appPageId" : "62137db1-fbc3-4ed7-aec0-7e8bf9c78137",
+  "componentName" : "siteforce:sldsTwoCol48Layout",
+  "dataProviders" : [ ],
+  "id" : "ed6579fb-869b-4ff9-be4f-fab10b09f02a",
+  "label" : "IRPH",
+  "regions" : [ {
+    "id" : "4cd55c5d-5a50-4e12-9748-428e47dd9e70",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "id" : "6c1cd2fd-6e9c-455d-9a8e-5ad3a4143357",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h2><span style=\"color: rgb(255, 153, 0); background-color: rgb(255, 255, 255);\">¿Qué es el IRPH?</span></h2><p><br></p><p><span style=\"font-size: 16px;\">El&nbsp;</span><b style=\"font-size: 16px;\">IRPH</b><span style=\"font-size: 16px;\">&nbsp;o Índice de Referencia de Préstamos Hipotecarios, es uno de los tipos de interés más utilizados en España junto con el Euribor. Las hipotecas referenciadas a este índice poseen un&nbsp;</span><b style=\"font-size: 16px;\">tipo de interés muy elevado</b><span style=\"font-size: 16px;\">&nbsp;que se extrae haciendo una media de los intereses aplicados por cajas y bancos.&nbsp;Sobre este índice planea la sospecha de la&nbsp;</span><b style=\"font-size: 16px;\">falta de transparencia</b><span style=\"font-size: 16px;\">&nbsp;en su comercialización por parte de los bancos. La causa fue llevada a Europa después de que el&nbsp;</span><b style=\"font-size: 16px;\">Supremo</b><span style=\"font-size: 16px;\">&nbsp;no lo considerara abusivo.</span></p><p><br></p><p><span style=\"font-size: 16px;\">El 25 de febrero se ha celebrado vista oral y pese a que hay que esperar al 25 de junio para que el Abogado General haga públicas sus conclusiones, podemos decir que hay esperanza los más de 500.000 afectados. Tanto los&nbsp;</span><b style=\"font-size: 16px;\">abogados defensores&nbsp;</b><span style=\"font-size: 16px;\">del consumidor afectado, como la propia&nbsp;</span><b style=\"font-size: 16px;\">Comisión Europea</b><span style=\"font-size: 16px;\">, han defendido la&nbsp;obligación de someter el índice IRPH al&nbsp;</span><b style=\"font-size: 16px;\">control de transparencia y abusividad,</b><span style=\"font-size: 16px;\">&nbsp;y han considerado que&nbsp;se debió haber dado al consumidor&nbsp;</span><i style=\"font-size: 16px;\">“información suficiente y comprensible”&nbsp;</i><span style=\"font-size: 16px;\">sobre el propio funcionamiento del IRPH.Sustituya este texto por contenido de su propiedad.</span></p><p><br></p><div class=\"sfdcCbVideoContainer\"><iframe class=\"sfdcCbVideo\" allowfullscreen=\"true\" width=\"100%\" title=\"Vídeo procedente de https://www.youtube.com/embed/d5SgLD3-xh8\" src=\"https://www.youtube.com/embed/d5SgLD3-xh8\"></iframe></div><p><br></p><p>&nbsp;</p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "d157f398-03fc-4903-9776-a5ad14dae374",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "0c4688fc-1e67-4d5d-a54c-fdcb962bc8cf",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "d537d784-0acc-4ed7-b3a9-902ed5ac012e",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "IRPH"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "c611cafc-294e-4cc2-8de9-578b0a577de0",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "130a1eca-680c-478b-be9b-4ec6e5b9079b",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-irph"
+}

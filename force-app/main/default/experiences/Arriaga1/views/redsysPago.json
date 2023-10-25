@@ -1,0 +1,48 @@
+{
+  "appPageId" : "62137db1-fbc3-4ed7-aec0-7e8bf9c78137",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "b5c13f49-49fd-478a-ab63-e6386be03bef",
+  "label" : "Redsys Pago",
+  "regions" : [ {
+    "id" : "147575ee-5ee4-40d6-9251-1214377034da",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<div class=\"slds-col--padded comm-content-header comm-layout-column\" \n                 style=\"text-align: center;\">\n    <h1 class=\"headlineTitleText\" style=\"font-size: 25px;\">\n        <p>GRACIAS POR CONTRATAR CON NOSOTROS.</p>\n        <p>PUEDE VER SU EXPEDIENTE EN LAS SECCION \"MIS EXPEDIENTES\" DEL MENÚ SUPERIOR</p>\n    </h1>\n</div>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "2ca38b3f-af43-41cc-abde-cc27838c5db1",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "2dea4f7f-1bd1-4321-9d76-32ed971b83e3",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "446f8884-77b5-49a8-9e5b-f497ba1b913e",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "Página donde redireccionamos aquellos productos que no tiene posibilidad de realizar otras contrataciones gratis",
+        "title" : "Redsys Pago"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "35485632-85d6-4667-82f4-cb3322ae653a",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "a8ed800b-3f3b-4272-96c0-58397aad3edf",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-redsys-pago"
+}

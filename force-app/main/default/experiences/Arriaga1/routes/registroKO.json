@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "0a3b9168-aa52-4cc7-8180-e2b0952439c3",
+  "appPageId" : "62137db1-fbc3-4ed7-aec0-7e8bf9c78137",
+  "configurationTags" : [ ],
+  "id" : "8a760883-a338-47cc-8959-96bdee3f9286",
+  "label" : "RegistroKO",
+  "pageAccess" : "Public",
+  "routeType" : "custom-registroko",
+  "type" : "route",
+  "urlPrefix" : "registroko"
+}

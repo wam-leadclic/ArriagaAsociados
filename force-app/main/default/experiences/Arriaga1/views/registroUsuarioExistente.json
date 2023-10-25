@@ -1,0 +1,48 @@
+{
+  "appPageId" : "62137db1-fbc3-4ed7-aec0-7e8bf9c78137",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "95450865-a54f-4fe7-9375-fc7c98e6de45",
+  "label" : "RegistroUsuarioExistente",
+  "regions" : [ {
+    "id" : "9b8b4a8c-6c56-42e9-8c36-55d3e11d126f",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<p style=\"text-align: center;\"><span style=\"font-size: 22px; color: rgb(255, 153, 0);\">Ya perteneces a la comunidad, accede a </span><a href=\"https://clientesarriaga.force.com/s/login/\" target=\"_self\" style=\"font-size: 22px; color: rgb(255, 153, 0);\"><u>login</u></a><span style=\"font-size: 22px; color: rgb(255, 153, 0);\"> he introduce tus credenciales</span></p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "1eb8dc3a-52c4-45df-a69a-0caadf0c6077",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "14055c4f-da93-4df0-a4d7-a92e37906ed6",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "0f2f94ca-cf4c-493d-bf4f-c5fe11cc9f3f",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "RegistroUsuarioExistente"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "e83b8ec9-095d-41ba-8d54-d20986ccca9c",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "4ed5d5f6-430c-465a-9097-7b7dba2ad209",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "j13QTPxsyY24sUE60wjjXP6JL0r69y",
+  "type" : "view",
+  "viewType" : "custom-registrousuarioexistente"
+}

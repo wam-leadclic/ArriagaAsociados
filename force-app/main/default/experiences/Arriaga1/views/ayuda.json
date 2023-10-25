@@ -1,0 +1,88 @@
+{
+  "appPageId" : "62137db1-fbc3-4ed7-aec0-7e8bf9c78137",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "96ee2dfd-2f61-4d41-b0ba-fc2abf525d33",
+  "label" : "ayuda",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h1>Ayuda</h1>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "da7d59c2-f580-4b84-9e80-508af8581eae",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "aab8fc0c-706f-4853-be43-d47c637a40f4",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "enableInlineEdit" : true,
+        "filterName" : "Para_Comunidad",
+        "layout" : "STANDARD",
+        "pageSize" : 25,
+        "scope" : "Ayuda_Portal__c",
+        "showActionBar" : true,
+        "showChartsPanel" : true,
+        "showDisplay" : "showall",
+        "showFilterPanel" : true,
+        "showImageIcon" : true,
+        "showManualRefreshButton" : true,
+        "showObjectName" : true,
+        "showPinnedList" : true,
+        "showSearchBar" : true
+      },
+      "componentName" : "forceCommunity:objectHome",
+      "id" : "4d62a11b-5009-411e-a280-48e96b9cd6bd",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "small" : "e337aa5a-2fa3-46b0-a9dc-0d89339f6abc"
+      },
+      "renditions" : [ {
+        "id" : "e337aa5a-2fa3-46b0-a9dc-0d89339f6abc",
+        "renditionValue" : {
+          "isVisible" : true
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    } ],
+    "id" : "06949ecf-c7ac-43d4-a0a6-764db6fa63c4",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : { },
+      "componentName" : "c:MiContacto",
+      "id" : "1d86935b-6cd8-4b60-bd7d-e7ae2f7c3385",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "812449d3-6aeb-4d6d-a5a8-749ccbe2c45d",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "ayuda"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "78d6c55c-e3c3-401a-9d80-18ee50c87fcc",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "17274b6d-ac13-4218-aa3d-c98322e929b5",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-ayuda"
+}

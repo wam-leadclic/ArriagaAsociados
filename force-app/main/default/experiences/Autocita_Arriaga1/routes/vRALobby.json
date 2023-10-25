@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "ada17f6f-c48e-4525-84f5-56794e459480",
+  "appPageId" : "ce72ed3c-16dd-40c4-8be5-d7f8870a868f",
+  "configurationTags" : [ ],
+  "id" : "042e5e2e-f45e-45a5-8833-1331b93594c5",
+  "label" : "VRA Lobby",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-vra-lobby",
+  "type" : "route",
+  "urlPrefix" : "vra-lobby"
+}

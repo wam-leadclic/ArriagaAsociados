@@ -1,0 +1,10 @@
+{
+  "activeViewId" : "d89cbed1-5d84-4ce1-8a33-bc879ebae4aa",
+  "appPageId" : "62137db1-fbc3-4ed7-aec0-7e8bf9c78137",
+  "configurationTags" : [ ],
+  "id" : "b162cf7e-23eb-4b4d-8475-555778e5fe85",
+  "label" : "Expediente Detalle",
+  "routeType" : "detail-800",
+  "type" : "route",
+  "urlPrefix" : "contract"
+}

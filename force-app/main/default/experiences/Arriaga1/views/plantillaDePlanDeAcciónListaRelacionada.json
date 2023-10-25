@@ -1,0 +1,39 @@
+{
+  "appPageId" : "62137db1-fbc3-4ed7-aec0-7e8bf9c78137",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "d8c2e8db-4937-4ace-b03b-23b35d318f86",
+  "label" : "Plantilla de plan de acción Lista relacionada",
+  "regions" : [ {
+    "id" : "01319ed9-7a16-4e4e-9450-68c2dda19769",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customTitle" : "",
+        "parentRecordId" : "{!recordId}",
+        "relatedListName" : "{!relationshipApiName}",
+        "showBreadCrumbs" : true,
+        "showCustomTitle" : false,
+        "showManualRefreshButton" : true,
+        "showRowNumbers" : true
+      },
+      "componentName" : "forceCommunity:relatedList",
+      "id" : "c78fe691-17f0-4ab3-a700-dfddb14cec6a",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "43de1c07-7aaf-411e-bc3e-001e881ee5cf",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "3cb16fec-896f-405a-a459-de1a024332fb",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "relatedlist-0PR"
+}

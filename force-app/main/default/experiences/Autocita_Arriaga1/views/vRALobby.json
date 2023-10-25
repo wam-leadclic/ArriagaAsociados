@@ -1,0 +1,68 @@
+{
+  "appPageId" : "ce72ed3c-16dd-40c4-8be5-d7f8870a868f",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "ada17f6f-c48e-4525-84f5-56794e459480",
+  "label" : "VRA Lobby",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "c1630ac8-fc0b-4473-b19b-cf1bc1d84ce1",
+          "columns" : [ {
+            "UUID" : "9ccaafba-930e-4ba9-9689-023a7ed5a0e8",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "c1630ac8-fc0b-4473-b19b-cf1bc1d84ce1",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : { },
+          "componentName" : "tsaa:lobbyPageContent",
+          "id" : "060b4428-e94a-4d78-96d9-3513369bf084",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "9ccaafba-930e-4ba9-9689-023a7ed5a0e8",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "94aaefc6-a9e6-48f9-9d12-48c1e00ab777",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "VRA Lobby"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "3197e28b-b248-4c83-88df-5842b2afcffb",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "626de869-b23f-4d9a-9add-42ba3e64567b",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-vra-lobby"
+}

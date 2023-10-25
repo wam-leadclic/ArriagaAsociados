@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "401de2e9-d52b-4827-a39f-ebc84b66de8f",
+  "appPageId" : "62137db1-fbc3-4ed7-aec0-7e8bf9c78137",
+  "configurationTags" : [ ],
+  "id" : "4ab8682b-9cbc-4400-92df-0e3bd81357fb",
+  "label" : "Hoja de Control de Visita",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-hoja-de-control-de-visita",
+  "type" : "route",
+  "urlPrefix" : "hoja-de-control-de-visita"
+}

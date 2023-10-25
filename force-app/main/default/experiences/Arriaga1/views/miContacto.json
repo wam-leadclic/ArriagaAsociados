@@ -1,0 +1,67 @@
+{
+  "appPageId" : "62137db1-fbc3-4ed7-aec0-7e8bf9c78137",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "3f7b43b1-050c-4b00-8c7c-6f30cdfc09f2",
+  "label" : "Mi Contacto",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h1>Mis Datos</h1>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "36a7cc15-d34a-4add-94f7-4b9a9aba9c4a",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "7768e9b9-c55f-47ca-94a6-3004bd2c3d86",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : { },
+      "componentName" : "c:MiContacto",
+      "id" : "9e0d0db1-16df-4c52-9807-b6eb9a8b0a46",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "height" : "700",
+        "pageName" : "lcs_gdpr__SelfServiceSite",
+        "recordId" : ""
+      },
+      "componentName" : "forceCommunity:visualforcePage",
+      "id" : "cf87a719-bf9e-4f22-9d64-32b21cd3c408",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "8451c5fc-8331-4bd1-8b01-7762beeefa19",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "9babf1ac-85a7-4035-a775-50b657b76724",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Mi Contacto"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "8ddcfdde-5f22-4779-8814-71872691d753",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "cff22242-412e-4cb2-9457-395530dc9f3d",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-mi-contacto"
+}

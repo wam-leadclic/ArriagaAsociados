@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "3f7b43b1-050c-4b00-8c7c-6f30cdfc09f2",
+  "appPageId" : "62137db1-fbc3-4ed7-aec0-7e8bf9c78137",
+  "configurationTags" : [ ],
+  "id" : "49c49b34-44fc-4dd6-a1bc-523dfdad5e3f",
+  "label" : "Mi Contacto",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-mi-contacto",
+  "type" : "route",
+  "urlPrefix" : "mi-contacto"
+}

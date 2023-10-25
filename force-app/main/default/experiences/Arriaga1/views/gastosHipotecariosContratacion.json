@@ -1,0 +1,49 @@
+{
+  "appPageId" : "62137db1-fbc3-4ed7-aec0-7e8bf9c78137",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "65eee2f6-54a9-4377-8a5b-553d1fe32459",
+  "label" : "Gastos Hipotecarios Contratacion",
+  "regions" : [ {
+    "id" : "ecf309cd-ac6f-44af-af48-8a9c1774f4d6",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "flowArguments" : "[{\"label\":\"IdProducto\",\"dataType\":\"String\",\"supportsRecordId\":false,\"value\":\"01t1t000002sfN5AAI\"}]",
+        "flowName" : "Gastos_Hipotecarios"
+      },
+      "componentName" : "forceCommunity:flowCommunity",
+      "id" : "5df4912a-991a-4bea-8610-7830bc36c629",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "a71500c2-14b6-4faf-814c-5d080681582f",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "a2992529-f665-48a9-b8fc-6e6b75b62634",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Gastos Hipotecarios Contratacion"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "1b885853-d519-4e51-90b8-f78806de45f0",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "b02e0e42-cba1-497e-ad47-8ddd5c09a660",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-gastos-hipotecarios-contratacion"
+}

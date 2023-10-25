@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "28dc27ff-0efe-43af-baaf-32a320416b7c",
+  "appPageId" : "62137db1-fbc3-4ed7-aec0-7e8bf9c78137",
+  "configurationTags" : [ ],
+  "id" : "213d9666-d6c7-4418-a467-4e0a5ea8d98c",
+  "label" : "Tarjetas abusivas contratación",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-revolvingcontratacion",
+  "type" : "route",
+  "urlPrefix" : "revolvingcontratacion"
+}

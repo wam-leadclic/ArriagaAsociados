@@ -1,0 +1,49 @@
+{
+  "appPageId" : "62137db1-fbc3-4ed7-aec0-7e8bf9c78137",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "27c67cfd-6ab3-4c1d-91bb-7a0090f66dfc",
+  "label" : "IRPH Contratación",
+  "regions" : [ {
+    "id" : "787a39ed-029a-4dce-8d26-e4f5d6a98f53",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "flowArguments" : "[{\"label\":\"IdProducto\",\"dataType\":\"String\",\"supportsRecordId\":false,\"value\":\"01t1t000002sfN6AAI\"}]",
+        "flowName" : "IRPH"
+      },
+      "componentName" : "forceCommunity:flowCommunity",
+      "id" : "98d0a771-0b3b-4dc8-aed2-ea175fe16635",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "9b9fbc71-8355-4225-8255-4750e5f71ec6",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "15f4d767-7e22-4139-b745-ae6ac184395b",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "IRPH Contratación"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "ef549ed3-8e45-4a4f-b092-3f7ecba2acab",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "9023f295-ae60-4275-a1d3-a6d7644974e0",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-irphcontratacion"
+}

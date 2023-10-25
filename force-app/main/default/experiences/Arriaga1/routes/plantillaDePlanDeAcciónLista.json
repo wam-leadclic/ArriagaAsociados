@@ -1,0 +1,10 @@
+{
+  "activeViewId" : "b36c82f8-e5aa-4189-959f-f52e7d3ccf1f",
+  "appPageId" : "62137db1-fbc3-4ed7-aec0-7e8bf9c78137",
+  "configurationTags" : [ ],
+  "id" : "279f6233-d6d1-439c-8b76-150f371ddc1b",
+  "label" : "Plantilla de plan de acción Lista",
+  "routeType" : "list-0PR",
+  "type" : "route",
+  "urlPrefix" : "actionplantemplate"
+}

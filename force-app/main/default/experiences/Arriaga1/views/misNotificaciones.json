@@ -1,0 +1,56 @@
+{
+  "appPageId" : "62137db1-fbc3-4ed7-aec0-7e8bf9c78137",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "a5eecbe6-0333-4ede-b4c0-e0d57fef5c4f",
+  "label" : "Mis Notificaciones",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h1>Mis Notificaciones </h1>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "415c0b4f-8bec-49f6-a24c-f8869705f31b",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "2fe4f2eb-5d8e-4602-8e7a-9c02cbab716a",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "id" : "d5dedf7b-ee01-42d8-a439-93b9b7053013",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : { },
+      "componentName" : "c:chatterLayout",
+      "id" : "6f7d862d-4c4a-45a8-a4a1-a738630b3090",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "f62bc183-debb-4745-9550-135890a815b2",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Mis Notificaciones"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "87a66269-e8b8-46bc-ab6f-d6856f6ca999",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "3c91420a-79fc-473d-92d9-c4dd2689f565",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-mis-notificaciones"
+}
