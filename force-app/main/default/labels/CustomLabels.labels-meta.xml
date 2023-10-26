@@ -3286,4 +3286,18 @@ Arriaga Asociados tratará su información con el fin de poder llevar a cabo y g
         <shortDescription>validationMessage</shortDescription>
         <value>Resources, dates and duration are required</value>
     </labels>
+    <labels>
+        <fullName>GDIRPH_OtherDocuments</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>GDIRPH_OtherDocuments</shortDescription>
+        <value>Otra documentación</value>
+    </labels>
+    <labels>
+        <fullName>GDIRPH_OtherDocumentsValues</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>GDIRPH_OtherDocumentsValues</shortDescription>
+        <value>153</value>
+    </labels>
 </CustomLabels>
