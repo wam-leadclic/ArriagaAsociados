@@ -1,0 +1,71 @@
+{
+  "appPageId" : "62137db1-fbc3-4ed7-aec0-7e8bf9c78137",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "8b018d03-9e29-48ba-9df1-84c8c5b9636b",
+  "label" : "IRPH expedient",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h1>Mis expedientes IRPH</h1>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "e4c7d1fd-360c-4654-8c0d-66478b5c1157",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "8411abf4-5a3f-406b-b7a9-3c0b6fd7e2b1",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "enableInlineEdit" : false,
+        "filterName" : "ExpedientesIRPH",
+        "layout" : "STANDARD",
+        "pageSize" : 25,
+        "scope" : "Contract",
+        "showActionBar" : true,
+        "showChartsPanel" : true,
+        "showDisplay" : "showall",
+        "showFilterPanel" : true,
+        "showImageIcon" : true,
+        "showManualRefreshButton" : true,
+        "showObjectName" : true,
+        "showPinnedList" : false,
+        "showSearchBar" : true
+      },
+      "componentName" : "forceCommunity:objectHome",
+      "id" : "5ae52ae0-d65b-46da-a1a9-7a7ae2aa32f0",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "787f7c44-3477-476c-a97b-0f2af5094ed9",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "14d0f724-a1ee-429a-b625-bda4ec4ecc9e",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "IRPH expedient"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "0296b651-bdb0-4b6a-98db-2c58fbf75852",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "4c1e871f-a7ae-4296-8762-b3f4fb433dec",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-irph-expedient"
+}
