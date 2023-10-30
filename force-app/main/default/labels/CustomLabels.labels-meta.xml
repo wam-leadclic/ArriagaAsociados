@@ -822,7 +822,7 @@
         <language>es</language>
         <protected>false</protected>
         <shortDescription>GDIRPH_ConsumerSupportingDocumentsValues</shortDescription>
-        <value>132;145;129;142;133</value>
+        <value>132;145;129;142;133;331;403</value>
     </labels>
     <labels>
         <fullName>GDIRPH_SpecialDivorceDocuments</fullName>
@@ -836,7 +836,7 @@
         <language>es</language>
         <protected>false</protected>
         <shortDescription>GDIRPH_SpecialDivorceDocumentsValues</shortDescription>
-        <value>121</value>
+        <value>404;315</value>
     </labels>
     <labels>
         <fullName>GDIRPH_SpecialCaseInheritanceDocuments</fullName>
@@ -864,7 +864,7 @@
         <language>es</language>
         <protected>false</protected>
         <shortDescription>GDIRPH_SpecialDisabilityCaseDocumentsValues</shortDescription>
-        <value>162</value>
+        <value>162;264</value>
     </labels>
     <labels>
         <fullName>GDIRPH_RequiredAditionalDocumentsTitle</fullName>
@@ -3298,6 +3298,6 @@ Arriaga Asociados tratará su información con el fin de poder llevar a cabo y g
         <language>es</language>
         <protected>false</protected>
         <shortDescription>GDIRPH_OtherDocumentsValues</shortDescription>
-        <value>153</value>
+        <value>153;300;401;402</value>
     </labels>
 </CustomLabels>
