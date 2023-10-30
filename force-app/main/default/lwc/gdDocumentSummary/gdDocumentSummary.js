@@ -114,7 +114,7 @@ export default class GdDocumentSummary extends LightningElement {
 	}
 
 	get hasPendingAditionalLines() {
-		return this.aditionalLines.length > 0;
+		return this.aditionaLinesGrouping.length > 0;
 	}
 
 	get hasPendingRedactionLines() {
