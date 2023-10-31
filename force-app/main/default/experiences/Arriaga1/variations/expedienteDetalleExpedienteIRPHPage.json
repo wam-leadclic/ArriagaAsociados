@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "e8e8fafb-2f1e-4a8d-bfce-1f9cf73094c5",
+    "propertyOverrides" : {
+      "activeViewId" : "9ee62d1c-acf5-4267-a268-6f30d96c5c7d"
+    },
+    "targetId" : "b162cf7e-23eb-4b4d-8475-555778e5fe85",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "Expediente_Detalle_ExpedienteIRPH_Page",
+  "id" : "ae9510e1-7087-4cfe-a471-604c4050f4cd",
+  "type" : "experienceVariation"
+}
