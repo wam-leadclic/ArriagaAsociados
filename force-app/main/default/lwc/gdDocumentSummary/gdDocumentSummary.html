@@ -23,9 +23,8 @@
                 </div>
             </c-illustration>
             <!-- AGRUPACION DE DOCUMENTOS ADICIONALES -->
-            <div class="slds-text-heading_small slds-p-bottom_small slds-p-top_medium slds-p-left_medium">{label.requiredAditionalDocumentsTitle}</div>
             <template if:true={hasPendingAditionalLines} for:each={aditionaLinesGrouping} for:item="group">
-                <div key={group.title} class="aditiona-lines-title slds-p-bottom_small slds-p-left_medium slds-p-top_medium">{group.title}</div>
+                <div key={group.title} class="aditiona-lines-title slds-text-heading_small slds-p-bottom_small slds-p-left_medium slds-p-top_medium">{group.title}</div>
                 <template for:each={group.values} for:item="line">
                     <c-gd-document-summary-line 
                         line={line} 

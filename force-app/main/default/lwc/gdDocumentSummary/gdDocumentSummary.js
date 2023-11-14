@@ -15,13 +15,13 @@ import ADITIONAL_DOCUMENT_FIELD from "@salesforce/schema/Contract.DocumentosAdic
 import { Label } from "./labels";
 
 const DOCUMENT_GROUP_VALUES = {
+	OTHER_DOCUMENTS: {
+		title  : Label.otherDocuments,
+		values : Label.otherDocumentsValues.split(';')
+	},
 	CUSTOMER_SUPPORTING: {
 		title  : Label.consumerSupportingDocuments,
 		values : Label.consumerSupportingDocumentsValues.split(';')
-	},
-	DIVORCE: {
-		title  : Label.specialDivorceDocuments,
-		values : Label.specialDivorceDocumentsValues.split(';')
 	},
 	SPECIAL_CASE_INHERITANCE : {
 		title  : Label.specialCaseInheritanceDocuments,
@@ -31,10 +31,10 @@ const DOCUMENT_GROUP_VALUES = {
 		title  : Label.specialDisabilityCaseDocuments,
 		values : Label.specialDisabilityCaseDocumentsValues.split(';')
 	},
-	OTHER_DOCUMENTS: {
-		title  : Label.otherDocuments,
-		values : Label.otherDocumentsValues.split(';')
-	},
+	DIVORCE: {
+		title  : Label.specialDivorceDocuments,
+		values : Label.specialDivorceDocumentsValues.split(';')
+	}
 }
 export default class GdDocumentSummary extends LightningElement {
 	
