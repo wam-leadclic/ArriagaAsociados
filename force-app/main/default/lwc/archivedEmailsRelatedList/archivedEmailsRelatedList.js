@@ -2,7 +2,22 @@ import { LightningElement, api, track, wire } from "lwc";
 import getDataList from "@salesforce/apex/ArchivedEmailsRelatedListCtrl.getDataList";
 
 const columns = [
-    { label: "Fecha de envío", fieldName: "MessageDate", type: "date", sortable: "true"},
+    { label: "Fecha de envío", fieldName: "MessageDate", type: "date", sortable: "true",
+    typeAttributes:{
+        year: "numeric",
+        month: "numeric",
+        day: "numeric",
+        hour: "2-digit",
+        minute: "2-digit"
+    }},
+    { label: "Fecha de archivado", fieldName: "CreatedDate", type: "date", sortable: "true",
+    typeAttributes:{
+        year: "numeric",
+        month: "numeric",
+        day: "numeric",
+        hour: "2-digit",
+        minute: "2-digit"
+    }},
     { label: "Asunto", fieldName: "Subject", type: "button",
     typeAttributes: {
         label: { fieldName: "Subject" },
@@ -32,6 +47,7 @@ export default class ArchivedEmailsRelatedList extends LightningElement {
     @track toAddressBCC;
     @track isOpened;
     @track emailId;
+    @track CreatedDate;
     
     columns = columns;
     @track sortBy;
@@ -86,12 +102,18 @@ export default class ArchivedEmailsRelatedList extends LightningElement {
             subSections: [
                 {
                     id: 1,
+                    label: 'Fecha de archivado',
+                    value: '',
+                    isDate: true
+                },
+                {
+                    id: 2,
                     label: 'Asunto',
                     value: '',
                     isText: true
                 },
                 {
-                    id: 2,
+                    id: 3,
                     label: 'Cuerpo HTML del email',
                     value: '',
                     isHtml: true
@@ -127,8 +149,9 @@ export default class ArchivedEmailsRelatedList extends LightningElement {
         this.sections[0].subSections[4].value = dataRow.ToAddressBCC != null ? dataRow.ToAddressBCC : '';
         this.sections[0].subSections[5].value = dataRow.IsOpened;
 
-        this.sections[1].subSections[0].value = dataRow.Subject;
-        this.sections[1].subSections[1].value = dataRow.HTMLBody;
+        this.sections[1].subSections[0].value = dataRow.CreatedDate;
+        this.sections[1].subSections[1].value = dataRow.Subject;
+        this.sections[1].subSections[2].value = dataRow.HTMLBody;
     }
 
     closeModalAction(){
