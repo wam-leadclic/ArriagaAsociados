@@ -5,6 +5,7 @@
  * <pre>
  * FECHA                 AUTOR           ACCION
  * 04/10/2023		     LCS - NA        Creación.
+ * 20/11/2023		     LCS - NA        Modificación. Add CreatedDate field to the wrapper.
  */
 
 public with sharing class ArchivedEmail {
@@ -21,5 +22,6 @@ public with sharing class ArchivedEmail {
     @AuraEnabled public String ToAddressCC;
     @AuraEnabled public String ToAddressBCC;
     @AuraEnabled public Decimal IsOpened;
+    @AuraEnabled public Datetime CreatedDate;
 
 }
