@@ -4,10 +4,10 @@
         <lightning-card title={label.documentsToProvide} if:true={loaded} icon-name="standard:document">
             <lightning-spinner if:true={showSpinner} size="medium"></lightning-spinner>
             <!-- DOCUMENTOS REDACCION -->
-            <div class="slds-text-heading_small slds-p-bottom_small slds-p-left_medium">{label.pendingDocumentTitle}</div>
+            <div class="slds-text-heading_small slds-p-bottom_small slds-p-left_medium custom-border-bottom">{label.pendingDocumentTitle}</div>
             <template if:true={hasPendingRedactionLines} for:each={redactionLines} for:item="line">
                 <c-gd-document-summary-line 
-                    line={line} 
+                    line={line}
                     key={line.title}
                     onselected={handleDocumentSelect}>
                 </c-gd-document-summary-line>
@@ -23,16 +23,25 @@
                 </div>
             </c-illustration>
             <!-- AGRUPACION DE DOCUMENTOS ADICIONALES -->
-            <template if:true={hasPendingAditionalLines} for:each={aditionaLinesGrouping} for:item="group">
-                <div key={group.title} class="aditiona-lines-title slds-text-heading_small slds-p-bottom_small slds-p-left_medium slds-p-top_medium">{group.title}</div>
-                <template for:each={group.values} for:item="line">
-                    <c-gd-document-summary-line 
-                        line={line} 
-                        key={line.title}
-                        onselected={handleDocumentSelect}>
-                    </c-gd-document-summary-line>
+            <lightning-accordion
+                class="aditiona-lines-title custom-accordion slds-m-top_medium" 
+                allow-multiple-sections-open
+                active-section-name={activeSections}
+                if:true={hasPendingAditionalLines}>
+                <template  for:each={aditionaLinesGrouping} for:item="group"> 
+                    <lightning-accordion-section class="custom-accordion-section" key={group.title} name={group.title} label={group.title} >
+                        <div>
+                            <template for:each={group.values} for:item="line">
+                                <c-gd-document-summary-line 
+                                    line={line} 
+                                    key={line.title}
+                                    onselected={handleDocumentSelect}>
+                                </c-gd-document-summary-line>
+                            </template>
+                        </div>
+                    </lightning-accordion-section>
                 </template>
-            </template>
+            </lightning-accordion>
             <c-illustration
                 if:false={hasPendingAditionalLines}
                 heading={label.noPendingDocuments}

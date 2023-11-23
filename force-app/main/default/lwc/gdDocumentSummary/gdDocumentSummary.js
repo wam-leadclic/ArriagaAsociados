@@ -2,6 +2,7 @@ import { LightningElement, api, track, wire } from "lwc";
 import { refreshApex } from '@salesforce/apex';
 import getDocumentSumary from "@salesforce/apex/GDDocumentSummaryController.getDocumentSumary";
 import removeUploadedDocument from "@salesforce/apex/GDDocumentSummaryController.removeUploadedDocument";
+import { NavigationMixin } from 'lightning/navigation';
 import { 
 	SUCCESS,
 	ERROR, 
@@ -36,7 +37,7 @@ const DOCUMENT_GROUP_VALUES = {
 		values : Label.specialDivorceDocumentsValues.split(';')
 	}
 }
-export default class GdDocumentSummary extends LightningElement {
+export default class GdDocumentSummary extends NavigationMixin(LightningElement) {
 	
 	label = Label;
 
@@ -135,5 +136,12 @@ export default class GdDocumentSummary extends LightningElement {
 
 	set showSpinner(value) {
 		this._showSpinner = value;
+	}
+
+	get activeSections() {
+		if (this.aditionaLinesGrouping && this.aditionaLinesGrouping.length) {
+			return this.aditionaLinesGrouping.map(({title}) => title)[0];
+		}
+		return []
 	}
 }

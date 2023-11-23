@@ -13,7 +13,7 @@ public with sharing class PortalHelpRepository {
         return [
             SELECT 
                 Name,Producto__c,Documento__c,Descripcion__c,
-                Link__c,Video__c
+                Link__c,Video__c,InlineHelp__c,Respuesta__c
             FROM Ayuda_Portal__c
             WHERE Producto__c =:productId
         ];

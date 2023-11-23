@@ -7,6 +7,10 @@ export default class GdDocumentSummaryLine extends LightningElement {
     handleSelected(event) {
         this.dispatchEvent(new CustomEvent('selected', {detail : this.line}));
     }
+    
+    handleHelp(event) {
+        this.dispatchEvent(new CustomEvent('help', {detail : this.line}));
+    }
 
     /**
      * Si tiene ayuda el documento, aseguramos el espacio
@@ -14,7 +18,7 @@ export default class GdDocumentSummaryLine extends LightningElement {
      */
     get titleClass() {
         if (this.line.helpText) {
-            return 'slds-size_11-of-12 slds-truncate';
+            return 'slds-size_10-of-12 slds-truncate';
         }
         return 'slds-truncate';
     }

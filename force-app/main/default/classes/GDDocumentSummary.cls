@@ -159,6 +159,8 @@ public inherited sharing class GDDocumentSummary {
         @AuraEnabled
         public String helpText;
         @AuraEnabled
+        public String helpId;
+        @AuraEnabled
         public Boolean visible;
         @AuraEnabled
         public String status;
@@ -186,7 +188,7 @@ public inherited sharing class GDDocumentSummary {
         public void setDocumentLines(GDDocumentSummary summary) {
             for (String value : summary.redactionLines) {
                 GDDocumentLine line = new GDDocumentLine(Contract.DocumentosRedaccion__c);
-                line.helpText = summary.helpPortalMap.get(value)?.Descripcion__c;
+                line.helpText = summary.helpPortalMap.get(value)?.InlineHelp__c;
                 line.title = summary.documentLabels.get(value);
                 line.status = summary.uploadedRedactionLines.contains(value) ? GDDocumentSummary.UPLOADED : GDDocumentSummary.PENDING;
                 line.value = value;
@@ -204,7 +206,8 @@ public inherited sharing class GDDocumentSummary {
         public void setDocumentLines(GDDocumentSummary summary) {
             for (String value : summary.aditionalLines) {
                 GDDocumentLine line = new GDDocumentLine(Contract.DocumentosAdicionales__c);
-                line.helpText = summary.helpPortalMap.get(value)?.Descripcion__c;
+                line.helpText = summary.helpPortalMap.get(value)?.InlineHelp__c;
+                line.helpId = summary.helpPortalMap.get(value)?.Id;
                 line.title = summary.documentLabels.get(value);
                 line.status = summary.uploadedAditionalLines.contains(value) ? GDDocumentSummary.UPLOADED : GDDocumentSummary.PENDING;
                 line.value = value;

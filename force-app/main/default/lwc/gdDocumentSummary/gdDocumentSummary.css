@@ -2,3 +2,11 @@
     font-size: 15px;
     font-weight: var(--lwc-fontWeightBold,750);
 }
+
+.custom-accordion {
+    border-top: 1px solid;
+}
+
+.custom-accordion-section {
+    --slds-c-accordion-section-spacing-inline-end : 0.2rem;
+}
