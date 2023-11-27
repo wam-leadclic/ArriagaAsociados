@@ -28,7 +28,14 @@
                                         <label class="slds-form-element__label" for="text-input-id-47">{subSection.label}</label>
                                         <template if:true={subSection.isDate}>
                                             <div class="slds-form-element__control">
-                                                <lightning-formatted-date-time value={subSection.value}></lightning-formatted-date-time>
+                                                <lightning-formatted-date-time 
+                                                value={subSection.value} 
+                                                year="numeric"
+                                                month="numeric"
+                                                day="numeric"
+                                                hour="2-digit"
+                                                minute="2-digit">
+                                                </lightning-formatted-date-time>
                                             </div>
                                         </template>
                                         <template if:true={subSection.isText}>

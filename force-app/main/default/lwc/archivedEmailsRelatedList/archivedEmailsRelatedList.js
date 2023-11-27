@@ -2,7 +2,22 @@ import { LightningElement, api, track, wire } from "lwc";
 import getDataList from "@salesforce/apex/ArchivedEmailsRelatedListCtrl.getDataList";
 
 const columns = [
-    { label: "Fecha de envío", fieldName: "MessageDate", type: "date", sortable: "true"},
+    { label: "Fecha de envío", fieldName: "MessageDate", type: "date", sortable: "true",
+    typeAttributes:{
+        year: "numeric",
+        month: "numeric",
+        day: "numeric",
+        hour: "2-digit",
+        minute: "2-digit"
+    }},
+    { label: "Fecha de archivado", fieldName: "CreatedDate", type: "date", sortable: "true",
+    typeAttributes:{
+        year: "numeric",
+        month: "numeric",
+        day: "numeric",
+        hour: "2-digit",
+        minute: "2-digit"
+    }},
     { label: "Asunto", fieldName: "Subject", type: "button",
     typeAttributes: {
         label: { fieldName: "Subject" },
@@ -32,6 +47,7 @@ export default class ArchivedEmailsRelatedList extends LightningElement {
     @track toAddressBCC;
     @track isOpened;
     @track emailId;
+    @track CreatedDate;
     
     columns = columns;
     @track sortBy;
@@ -50,30 +66,36 @@ export default class ArchivedEmailsRelatedList extends LightningElement {
                 },
                 {
                     id: 2,
+                    label: 'Fecha de archivado',
+                    value: '',
+                    isDate: true
+                },
+                {
+                    id: 3,
                     label: 'Dirección De',
                     value: '',
                     isText: true
                 },
                 {
-                    id: 3,
+                    id: 4,
                     label: 'Dirección Para',
                     value: '',
                     isText: true
                 },
                 {
-                    id: 4,
+                    id: 5,
                     label: 'Dirección Cc',
                     value: '',
                     isText: true
                 },
                 {
-                    id: 5,
+                    id: 6,
                     label: 'Dirección Cco',
                     value: '',
                     isText: true
                 },
                 {
-                    id: 6,
+                    id: 7,
                     label: 'Leído',
                     value: '',
                     isBoolean: true
@@ -121,11 +143,12 @@ export default class ArchivedEmailsRelatedList extends LightningElement {
         this.emailId = dataRow.OriginEmailId;  
 
         this.sections[0].subSections[0].value = dataRow.MessageDate;
-        this.sections[0].subSections[1].value = dataRow.FromAddress;
-        this.sections[0].subSections[2].value = dataRow.ToAddress;
-        this.sections[0].subSections[3].value = dataRow.ToAddressCC != null ? dataRow.ToAddressCC : '';
-        this.sections[0].subSections[4].value = dataRow.ToAddressBCC != null ? dataRow.ToAddressBCC : '';
-        this.sections[0].subSections[5].value = dataRow.IsOpened;
+        this.sections[0].subSections[1].value = dataRow.CreatedDate;
+        this.sections[0].subSections[2].value = dataRow.FromAddress;
+        this.sections[0].subSections[3].value = dataRow.ToAddress;
+        this.sections[0].subSections[4].value = dataRow.ToAddressCC != null ? dataRow.ToAddressCC : '';
+        this.sections[0].subSections[5].value = dataRow.ToAddressBCC != null ? dataRow.ToAddressBCC : '';
+        this.sections[0].subSections[6].value = dataRow.IsOpened;
 
         this.sections[1].subSections[0].value = dataRow.Subject;
         this.sections[1].subSections[1].value = dataRow.HTMLBody;

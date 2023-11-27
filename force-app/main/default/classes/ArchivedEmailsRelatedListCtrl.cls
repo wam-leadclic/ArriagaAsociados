@@ -7,6 +7,7 @@
  * 17/08/2023            LCS - NA        Creación.
  * 04/10/2023            LCS - NA / DRU  Modificación. Add Wrapper class.
  * 09/10/2023            LCS - NA / DRU  Modificación. Modify converted Lead logic. 
+ * 20/11/2023            LCS - NA / DRU  Modificación. Add CreatedDate field to the BO queries. 
  */
 
 public with sharing class ArchivedEmailsRelatedListCtrl {
@@ -34,12 +35,12 @@ public with sharing class ArchivedEmailsRelatedListCtrl {
             Set<Id> sconId = new Set<Id>();
             sconId.add(recordId);
 
-            List<ArchivedEmail__b> allContactAERecords = [SELECT Id, AccountOrLeadId__c, OriginEmailId__c, ContactId__c, CaseId__c, ToAddress__c, FromAddress__c, MessageDate__c, Subject__c, HTMLBody__c, ToAddressCC__c, ToAddressBCC__c, IsOpened__c
+            List<ArchivedEmail__b> allContactAERecords = [SELECT Id, AccountOrLeadId__c, OriginEmailId__c, ContactId__c, CaseId__c, ToAddress__c, FromAddress__c, MessageDate__c, Subject__c, HTMLBody__c, ToAddressCC__c, ToAddressBCC__c, IsOpened__c, CreatedDate
                 FROM ArchivedEmail__b WHERE AccountOrLeadId__c =: AccId AND ContactId__c IN: sconId];
 
             if (!lLead.isEmpty()) {
                 String LeadId = lLead[0].Id;
-                List<ArchivedEmail__b> allLeadAERecords = [SELECT Id, AccountOrLeadId__c, OriginEmailId__c, ContactId__c, CaseId__c, ToAddress__c, FromAddress__c, MessageDate__c, Subject__c, HTMLBody__c, ToAddressCC__c, ToAddressBCC__c, IsOpened__c
+                List<ArchivedEmail__b> allLeadAERecords = [SELECT Id, AccountOrLeadId__c, OriginEmailId__c, ContactId__c, CaseId__c, ToAddress__c, FromAddress__c, MessageDate__c, Subject__c, HTMLBody__c, ToAddressCC__c, ToAddressBCC__c, IsOpened__c, CreatedDate
                 FROM ArchivedEmail__b WHERE AccountOrLeadId__c =: LeadId];
                 allContactAERecords.addAll(allLeadAERecords);
             }
@@ -47,7 +48,7 @@ public with sharing class ArchivedEmailsRelatedListCtrl {
             if (!allContactAERecords.isEmpty()) {
                 LarchivedEmail = allContactAERecords;
             } else {
-                LarchivedEmail = [SELECT Id, AccountOrLeadId__c, OriginEmailId__c, ContactId__c, CaseId__c, ToAddress__c, FromAddress__c, MessageDate__c, Subject__c, HTMLBody__c, ToAddressCC__c, ToAddressBCC__c, IsOpened__c
+                LarchivedEmail = [SELECT Id, AccountOrLeadId__c, OriginEmailId__c, ContactId__c, CaseId__c, ToAddress__c, FromAddress__c, MessageDate__c, Subject__c, HTMLBody__c, ToAddressCC__c, ToAddressBCC__c, IsOpened__c, CreatedDate
                 FROM ArchivedEmail__b WHERE AccountOrLeadId__c = '001000000000000AAA' AND ContactId__c IN: sconId];
             }
             
@@ -66,11 +67,11 @@ public with sharing class ArchivedEmailsRelatedListCtrl {
 
             String contactId = lAccount[0].PersonContactId;
             
-            LarchivedEmail = [SELECT Id, AccountOrLeadId__c, OriginEmailId__c, ContactId__c, CaseId__c, ToAddress__c, FromAddress__c, MessageDate__c, Subject__c, HTMLBody__c, ToAddressCC__c, ToAddressBCC__c, IsOpened__c
+            LarchivedEmail = [SELECT Id, AccountOrLeadId__c, OriginEmailId__c, ContactId__c, CaseId__c, ToAddress__c, FromAddress__c, MessageDate__c, Subject__c, HTMLBody__c, ToAddressCC__c, ToAddressBCC__c, IsOpened__c, CreatedDate
                 FROM ArchivedEmail__b WHERE AccountOrLeadId__c IN: sAccId];
 
             if (LarchivedEmail.isEmpty()) {
-                LarchivedEmail = [SELECT Id, AccountOrLeadId__c, OriginEmailId__c, ContactId__c, CaseId__c, ToAddress__c, FromAddress__c, MessageDate__c, Subject__c, HTMLBody__c, ToAddressCC__c, ToAddressBCC__c, IsOpened__c
+                LarchivedEmail = [SELECT Id, AccountOrLeadId__c, OriginEmailId__c, ContactId__c, CaseId__c, ToAddress__c, FromAddress__c, MessageDate__c, Subject__c, HTMLBody__c, ToAddressCC__c, ToAddressBCC__c, IsOpened__c, CreatedDate
                 FROM ArchivedEmail__b WHERE AccountOrLeadId__c = '001000000000000AAA' AND ContactId__c =: contactId];
             }
             
@@ -83,13 +84,13 @@ public with sharing class ArchivedEmailsRelatedListCtrl {
             String AccId = lCase[0].AccountId != null ? lCase[0].AccountId : '001000000000000AAA';
             String ContactId = lCase[0].ContactId != null ? lCase[0].ContactId : '003000000000000AAA';
 
-            List<ArchivedEmail__b> allCaseAERecords = [SELECT AccountOrLeadId__c, OriginEmailId__c, ContactId__c, CaseId__c, ToAddress__c, FromAddress__c, MessageDate__c, Subject__c, HTMLBody__c, ToAddressCC__c, ToAddressBCC__c, IsOpened__c 
+            List<ArchivedEmail__b> allCaseAERecords = [SELECT AccountOrLeadId__c, OriginEmailId__c, ContactId__c, CaseId__c, ToAddress__c, FromAddress__c, MessageDate__c, Subject__c, HTMLBody__c, ToAddressCC__c, ToAddressBCC__c, IsOpened__c, CreatedDate 
                                                     FROM ArchivedEmail__b WHERE AccountOrLeadId__c =: AccId AND ContactId__c =: ContactId AND CaseId__c =: recordId];
 
-            List<ArchivedEmail__b> lWithoutContact = [SELECT AccountOrLeadId__c, OriginEmailId__c, ContactId__c, CaseId__c, ToAddress__c, FromAddress__c, MessageDate__c, Subject__c, HTMLBody__c, ToAddressCC__c, ToAddressBCC__c, IsOpened__c 
+            List<ArchivedEmail__b> lWithoutContact = [SELECT AccountOrLeadId__c, OriginEmailId__c, ContactId__c, CaseId__c, ToAddress__c, FromAddress__c, MessageDate__c, Subject__c, HTMLBody__c, ToAddressCC__c, ToAddressBCC__c, IsOpened__c, CreatedDate 
                                                                 FROM ArchivedEmail__b WHERE AccountOrLeadId__c =: AccId AND ContactId__c = '003000000000000AAA' AND CaseId__c =: recordId];
 
-            List<ArchivedEmail__b> lWithoutAccount = [SELECT AccountOrLeadId__c, OriginEmailId__c, ContactId__c, CaseId__c, ToAddress__c, FromAddress__c, MessageDate__c, Subject__c, HTMLBody__c, ToAddressCC__c, ToAddressBCC__c, IsOpened__c 
+            List<ArchivedEmail__b> lWithoutAccount = [SELECT AccountOrLeadId__c, OriginEmailId__c, ContactId__c, CaseId__c, ToAddress__c, FromAddress__c, MessageDate__c, Subject__c, HTMLBody__c, ToAddressCC__c, ToAddressBCC__c, IsOpened__c, CreatedDate 
                                                                 FROM ArchivedEmail__b WHERE AccountOrLeadId__c = '001000000000000AAA' AND ContactId__c =: ContactId AND CaseId__c =: recordId];                                                    
 
             if (!allCaseAERecords.isEmpty()) {
@@ -103,7 +104,7 @@ public with sharing class ArchivedEmailsRelatedListCtrl {
         }
 
         if(LarchivedEmail.isEmpty()) {
-            LarchivedEmail = [SELECT AccountOrLeadId__c, OriginEmailId__c, ContactId__c, CaseId__c, ToAddress__c, FromAddress__c, MessageDate__c, Subject__c, HTMLBody__c, ToAddressCC__c, ToAddressBCC__c, IsOpened__c 
+            LarchivedEmail = [SELECT AccountOrLeadId__c, OriginEmailId__c, ContactId__c, CaseId__c, ToAddress__c, FromAddress__c, MessageDate__c, Subject__c, HTMLBody__c, ToAddressCC__c, ToAddressBCC__c, IsOpened__c, CreatedDate 
             FROM ArchivedEmail__b WHERE AccountOrLeadId__c =: recordId]; 
         }
         
@@ -121,6 +122,7 @@ public with sharing class ArchivedEmailsRelatedListCtrl {
             aw.ToAddressCC = ae.ToAddress__c;
             aw.ToAddressBCC = ae.ToAddressBCC__c;
             aw.IsOpened = ae.IsOpened__c;
+            aw.CreatedDate = ae.CreatedDate;
             LarchivedEmailData.add(new ArchivedEmailWrapper(aw));
         }
 
