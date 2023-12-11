@@ -1,4 +1,6 @@
 import { LightningElement, api, track, wire } from "lwc";
+import { loadStyle } from 'lightning/platformResourceLoader';
+import customCss from '@salesforce/resourceUrl/irph_accordion';
 import { refreshApex } from '@salesforce/apex';
 import getDocumentSumary from "@salesforce/apex/GDDocumentSummaryController.getDocumentSumary";
 import removeUploadedDocument from "@salesforce/apex/GDDocumentSummaryController.removeUploadedDocument";
@@ -49,6 +51,10 @@ export default class GdDocumentSummary extends NavigationMixin(LightningElement)
 	
 	@wire(getDocumentSumary, {expedientId : '$recordId'})
 	summaryWired
+
+	connectedCallback() {
+		loadStyle(this, customCss);
+	}
 
 	// Respond to UI event by publishing message
     handleDocumentSelect(event) {

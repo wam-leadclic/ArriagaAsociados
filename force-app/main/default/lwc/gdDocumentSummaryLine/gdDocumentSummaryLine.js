@@ -18,9 +18,9 @@ export default class GdDocumentSummaryLine extends LightningElement {
      */
     get titleClass() {
         if (this.line.helpText) {
-            return 'slds-size_10-of-12 slds-truncate';
+            return 'slds-size_11-of-12 slds-has-flexi-truncate';
         }
-        return 'slds-truncate';
+        return 'slds-has-flexi-truncate';
     }
 
     /**
@@ -29,7 +29,7 @@ export default class GdDocumentSummaryLine extends LightningElement {
      */
     get titleWrapperClass() {
         if (!this.line.visible) {
-            return 'slds-size_9-of-12 slds-text-align_left';
+            return 'slds-size_10-of-12 slds-text-align_left';
         }
         return 'slds-text-align_left';
     }

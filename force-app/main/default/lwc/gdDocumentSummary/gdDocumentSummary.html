@@ -15,11 +15,10 @@
             <c-illustration
                 if:false={hasPendingRedactionLines}
                 heading={label.noPendingDocuments}
-                image-name="custom:no_task">
-                <div slot="headingTitle">
-                    <div class="slds-text-title_bold slds-truncate slds-text-align_center">
-                        {label.noPendingDocuments}
-                    </div>
+                image-name="arriaga:without_documents"
+                class="illustration-container">
+                <div slot="headingTitle" class="slds-p-horizontal_medium headind-title-no-documents">
+                    <p class="slds-text-heading_small">{label.noPendingDocuments} </p>
                 </div>
             </c-illustration>
             <!-- AGRUPACION DE DOCUMENTOS ADICIONALES -->
@@ -42,16 +41,8 @@
                     </lightning-accordion-section>
                 </template>
             </lightning-accordion>
-            <c-illustration
-                if:false={hasPendingAditionalLines}
-                heading={label.noPendingDocuments}
-                image-name="custom:no_task">
-                <div slot="headingTitle">
-                    <div class="slds-text-title_bold slds-truncate slds-text-align_center">
-                        {label.noPendingDocuments}
-                    </div>
-                </div>
-            </c-illustration>
+            <div class="slds-align_absolute-center slds-p-around_medium" if:false={hasPendingAditionalLines}>
+            </div>
         </lightning-card>
     </div>
     <c-lms-message-service source={_namespace} onmessage={handleMessageService}></c-lms-message-service>

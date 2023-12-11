@@ -815,7 +815,7 @@
         <language>es</language>
         <protected>false</protected>
         <shortDescription>GDIRPH_ConsumerSupportingDocuments</shortDescription>
-        <value>Documentación acreditativa consumidor</value>
+        <value>Si la finalidad del préstamo NO es vivienda habitual:</value>
     </labels>
     <labels>
         <fullName>GDIRPH_ConsumerSupportingDocumentsValues</fullName>
@@ -878,9 +878,8 @@
         <language>es</language>
         <protected>false</protected>
         <shortDescription>GDIRPH_NoPendingDocuments</shortDescription>
-        <value>No hay documentación pendiente de aportar.</value>
+        <value>No hay documentación pendiente de aportar</value>
     </labels>
-
     <labels>
         <fullName>GDGuardar</fullName>
         <language>es</language>

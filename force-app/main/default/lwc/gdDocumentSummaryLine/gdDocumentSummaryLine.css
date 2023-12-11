@@ -1,3 +1,10 @@
 .title-gray {
     color: var(--slds-g-color-neutral-base-30, var(--lwc-colorTextWeak,rgb(90, 91, 94)));
 }
+
+.truncate-text {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 100%;
+    overflow: hidden;
+}

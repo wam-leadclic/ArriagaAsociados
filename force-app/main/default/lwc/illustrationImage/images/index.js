@@ -18,6 +18,7 @@ import { default as misc_preview } from "./misc_preview.html";
 import { default as misc_research } from "./misc_research.html";
 import { default as noData_desert } from "./noData_desert.html";
 import { default as noData_openRoad } from "./noData_openRoad.html";
+import { default as arriaga_noDocuments } from "./arriaga_noDocuments.html";
 
 export { default as empty } from "./void.html";
 export default {
@@ -40,5 +41,6 @@ export default {
   "misc:preview": misc_preview,
   "misc:research": misc_research,
   "no_data:desert": noData_desert,
-  "no_data:open_road": noData_openRoad
+  "no_data:open_road": noData_openRoad,
+  "arriaga:without_documents": arriaga_noDocuments,
 };

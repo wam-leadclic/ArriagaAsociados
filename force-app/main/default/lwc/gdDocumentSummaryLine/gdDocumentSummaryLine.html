@@ -13,8 +13,14 @@
                         </div>
                     </div>
                 </div>
-                <div class="slds-size_3-of-12 slds-text-align_left title-gray slds-truncate" if:false={line.visible}>
-                    <span class="slds-text-color_success slds-p-left_medium">{line.status}</span>
+                <div class="slds-size_2-of-12 slds-text-align_left title-gray slds-truncate" if:false={line.visible}>
+                    <span class="slds-text-color_success slds-p-left_medium" title={line.status}><lightning-icon
+                        size="small"
+                        icon-name="utility:check"
+                        variant="success" 
+                        alternative-text="check"
+                        >
+                    </lightning-icon></span>
                 </div>
             </div>
         </div>

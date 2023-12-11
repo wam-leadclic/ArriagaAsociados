@@ -10,3 +10,7 @@
 .custom-accordion-section {
     --slds-c-accordion-section-spacing-inline-end : 0.2rem;
 }
+
+.headind-title-no-documents {
+    margin-top: -10%;
+}
